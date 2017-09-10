@@ -1,0 +1,32 @@
+:m 食べた物
+:m 部屋の温度 
+:tome / 量子論の本　価値
+:m BOW / 2017-09-07_15-19-39_000
+
+:m music / log / kb / done / N+ / 20170704 I || prog-NEW(bm[8]) dom.1 ms.1 || noc-2 sec.D write-out || back-temper
+:m music / 楽譜メモ / kb / 20170704 I || mp.1 prog-NEW(aug) k=D k=E I-I.aug-IV-IV.m7
+
+:m :th / 本当に愛している人から、買いたい？
+
+:m 1*1 other / コレポン / to.蛇口婦人　ペガスス / 保険のこと、人員手配のこと
+:PHOTO 面白いもの / @自室　南側窓 / デッサン用 / カーテン　結わえた
+:PHOTO 面白いもの / @宮前平駅　構内トイレ　化粧石 / デッサン用 / 大理石模様
+
+:m 記録 / ペガスス　仕事、記録
+
+
+:bookmemo / 読んだ本 / 写真集　/ 『南極　国境のない大陸』 武田剛
+:bookmemo / 読んだ本 / 『宗教の秘密』 苫米地英人
+:m 読みたい本 / 『行動経済学』 / 依田高典
+
+:m 1*1 RES / free# VX7GLZ 30#13 / science research / NLP / flowchart
+
+:m ゴール / ゴールを見つけること
+:m ゴール / 月に３００冊、読書　作曲　他 / id=20699 id=20721
+
+:m アファメーション / ピアノの演奏
+
+:m dayplan / 2017_0725
+
+:m art / dessin / des.鉢植え@コンコース
+

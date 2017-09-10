@@ -1,0 +1,542 @@
+[] upload => ifm11_backup_20160110_080900.bk
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data
+/cake_apps/Cake_IFM11/app/Lib/data
+
+[] add data : 10) edit_memos.14.add-data-to-remote.bat - ショートカット
+	'total_data' => (int) 15,
+	'new_data_Success' => (int) 8,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+[] git commit
+
+
+[] update
+t c 2017-05-29_13-36-44_000.jpg
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+
+[] move files
+12) edit_memos.5.copy-image-files.bat - ショートカット
+
+[] upload : files
+C:\Users\iwabuchiken\data\images\iphone_to_upload\
+/cake_apps/images/ifm11
+
+=============== END
+
+------------------------------ 2017/05/30 09:54:25
+*[] 2-2) edit_memos.10.insert-new-data-to-db.bat - ショートカット
+'insert: total => 21, done => 21'
+
+*[] 3) edit_memos.1.bat (start openoffice)
+
+
+*![] upload => ifm11_backup_20160110_080900.bk
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data
+/cake_apps/Cake_IFM11/app/Lib/data
+
+*[] add data : 10) edit_memos.14.add-data-to-remote.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/add_From_DB_File?command=GO
+
+	'total_data' => (int) 27,
+	'new_data_Success' => (int) 20,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+	
+*[] git commit
+
+
+*[] update
+11) edit_memos.15.validate-update.bat - ショートカット
+
+t c 2017-05-30_09-28-49_000.jpg
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+
+*[] move files
+12) edit_memos.5.copy-image-files.bat - ショートカット
+
+![] upload : files
+C:\Users\iwabuchiken\data\images\iphone_to_upload\
+/cake_apps/images/ifm11
+
+[] Move --> uploaded files
+13) image_move-uploaded-files.bat - ショートカット
+
+
+=============== END
+------------------------------ 2017/06/01 10:53:51
+*[] 2-2) edit_memos.10.insert-new-data-to-db.bat - ショートカット
+'insert: total => 21, done => 21'
+
+*[] 3) edit_memos.1.bat (start openoffice)
+
+
+*![] upload => ifm11_backup_20160110_080900.bk
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data
+/cake_apps/Cake_IFM11/app/Lib/data
+
+*[] add data : 10) edit_memos.14.add-data-to-remote.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/add_From_DB_File?command=GO
+
+	'total_data' => (int) 28,
+	'new_data_Success' => (int) 21,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+*[] 9) edit_memos.13.validate-admin-value.bat - ショートカット
+
+*[] 
+git commit
+	r c && s
+
+DB Browser    => close
+close    => OpenOffice
+close   => git
+close    => image files
+
+*[] update
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+11) edit_memos.15.validate-update.bat - ショートカット
+
+t c 2017-06-01_09-27-55_000.jpg
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+
+*[] close    => xampp
+
+
+*[] move files
+12) edit_memos.5.copy-image-files.bat - ショートカット
+
+[] upload : files
+C:\Users\iwabuchiken\data\images\iphone_to_upload\
+/cake_apps/images/ifm11
+
+[] Move --> uploaded files
+13) image_move-uploaded-files.bat - ショートカット
+
+
+=============== END
+
+------------------------------ 2017/06/02 09:37:42
+*[] 2-2) edit_memos.10.insert-new-data-to-db.bat - ショートカット
+'insert: total => 21, done => 21'
+
+*[] 3) edit_memos.1.bat (start openoffice)
+
+*[] add memos
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+[] 5) edit_memos.3.insert-to-db.bat - ショートカット
+
+
+[] upload => ifm11_backup_20160110_080900.bk
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data
+/cake_apps/Cake_IFM11/app/Lib/data
+
+[] add data : 10) edit_memos.14.add-data-to-remote.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/add_From_DB_File?command=GO
+
+	'total_data' => (int) 83,
+	'new_data_Success' => (int) 76,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+	
+[] 9) edit_memos.13.validate-admin-value.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
+
+[] 
+git commit
+	r c && s
+
+DB Browser    => close
+close    => OpenOffice
+close   => git
+close    => image files
+
+*[] update
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+11) edit_memos.15.validate-update.bat - ショートカット
+
+t c 2017-06-02_09-28-36_000.jpg
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+
+*[] close    => xampp
+
+
+*[] move files
+12) edit_memos.5.copy-image-files.bat - ショートカット
+
+[] upload : files
+C:\Users\iwabuchiken\data\images\iphone_to_upload\
+/cake_apps/images/ifm11
+
+![] Move --> uploaded files
+13) image_move-uploaded-files.bat - ショートカット
+
+
+=============== END
+
+------------------------------ 2017/06/04 10:27:10
+[] 2-2) edit_memos.10.insert-new-data-to-db.bat - ショートカット
+'insert: total => 21, done => 21'
+
+[] 3) edit_memos.1.bat (start openoffice)
+
+[] add memos
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+*[] 5) edit_memos.3.insert-to-db.bat - ショートカット
+
+
+![] upload => ifm11_backup_20160110_080900.bk
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data
+/cake_apps/Cake_IFM11/app/Lib/data
+
+*[] add data : 10) edit_memos.14.add-data-to-remote.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/add_From_DB_File?command=GO
+
+	'total_data' => (int) 24,
+	'new_data_Success' => (int) 17,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+	
+[] 9) edit_memos.13.validate-admin-value.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
+
+[] 
+git commit
+	r c && s
+
+DB Browser    => close
+close    => OpenOffice
+close   => git
+close    => image files
+
+[] update
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+11) edit_memos.15.validate-update.bat - ショートカット
+
+t c 2017-06-04_09-50-30_000.jpg
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+
+[] close    => xampp
+
+
+[] move files
+12) edit_memos.5.copy-image-files.bat - ショートカット
+
+[] upload : files
+C:\Users\iwabuchiken\data\images\iphone_to_upload\
+/cake_apps/images/ifm11
+
+[] Move --> uploaded files
+13) image_move-uploaded-files.bat - ショートカット
+
+
+=============== END
+
+------------------------------ 2017/06/05 17:44:00
+*[] 2-2) edit_memos.10.insert-new-data-to-db.bat - ショートカット
+'insert: total => 38, done => 38'
+
+*[] 3) edit_memos.1.bat (start openoffice)
+
+[] add memos
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+*[] update data (local)
+4) edit_memos.8.open-csv-file.bat - ショートカット
+5) edit_memos.3.insert-to-db.bat - ショートカット
+
+
+![] upload => ifm11_backup_20160110_080900.bk
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data
+/cake_apps/Cake_IFM11/app/Lib/data
+
+[] add data : 10) edit_memos.14.add-data-to-remote.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/add_From_DB_File?command=GO
+
+	'total_data' => (int) 43,
+	'new_data_Success' => (int) 36,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+		
+*[] 9) edit_memos.13.validate-admin-value.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
+
+*[] 
+git commit
+	r c && s
+
+DB Browser    => close
+close    => OpenOffice
+close   => git
+close    => image files
+
+[] update
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+11) edit_memos.15.validate-update.bat - ショートカット
+
+t c 2017-06-04_09-50-30_000.jpg
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+
+[] close    => xampp
+
+
+[] move files
+12) edit_memos.5.copy-image-files.bat - ショートカット
+
+[] upload : files
+C:\Users\iwabuchiken\data\images\iphone_to_upload\
+/cake_apps/images/ifm11
+
+[] Move --> uploaded files
+13) image_move-uploaded-files.bat - ショートカット
+
+
+=============== END
+
+------------------------------ 2017/06/07 08:30:58
+[] Prep files
+	Delete --> dispensible photos
+	Change name : 1) change_file_names.bat - ショートカット
+	Move files : 2) edit_memos.9.move-tmp-to-iphone.bat - ショートカット
+	
+*	Start : xampp
+	Insert data : 2-2) edit_memos.10.insert-new-data-to-db.bat - ショートカット
+	
+		'insert: total => 24, done => 24'
+
+[] Open csv file : 3) edit_memos.1.bat (start openoffice)
+
+[] 2-2) edit_memos.10.insert-new-data-to-db.bat - ショートカット
+'insert: total => 21, done => 21'
+
+[] 3) edit_memos.1.bat (start openoffice)
+
+*[] Add memos
+	Open page : image manager : 6) edit_memos.11.open-web-page.image-manager.bat - ショートカット
+
+	lollipop
+		https://mysqladmin.lolipop.jp/pma/index.php?server=136&token=ddee4cf158f79f44378e330f2f7d5476#PMAURL-3:sql.php?db=LAA0278957-cakeifm11&table=images&server=136&target=&token=ddee4cf158f79f44378e330f2f7d5476
+		servername=mysql017.phy.lolipop.lan
+		username=LAA0278957
+		databasename=LAA0278957-cakeifm11
+		passwd=4edhdrj9gsgjj9q
+
+	4) edit_memos.8.open-csv-file.bat - ショートカット
+	Copy/Paste
+	Close --> csv file
+	
+
+[] add memos
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+[] 5) edit_memos.3.insert-to-db.bat - ショートカット
+
+[] 9) edit_memos.13.validate-admin-value.bat - ショートカット
+
+
+*![] upload => ifm11_backup_20160110_080900.bk
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data
+/cake_apps/Cake_IFM11/app/Lib/data
+
+*[] Close apps
+	OpenOffice
+	Image file
+
+[] add data : 10) edit_memos.14.add-data-to-remote.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/add_From_DB_File?command=GO
+
+	'total_data' => (int) 31,
+	'new_data_Success' => (int) 24,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+	
+[] 9) edit_memos.13.validate-admin-value.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
+
+[] 
+git commit
+	r c && s
+
+DB Browser    => close
+close    => OpenOffice
+close   => git
+close    => image files
+
+*[] update
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+11) edit_memos.15.validate-update.bat - ショートカット
+
+t c 2017-06-07_08-32-54_000.jpg
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+
+*[] close    => xampp
+
+
+*[] move files
+12) edit_memos.5.copy-image-files.bat - ショートカット
+
+![] upload : files
+C:\Users\iwabuchiken\data\images\iphone_to_upload\
+/cake_apps/images/ifm11
+
+[] Move --> uploaded files
+13) image_move-uploaded-files.bat - ショートカット
+
+
+=============== END
+
+------------------------------ 2017/06/05 17:44:00
+[] 2-2) edit_memos.10.insert-new-data-to-db.bat - ショートカット
+'insert: total => 38, done => 38'
+
+[] 3) edit_memos.1.bat (start openoffice)
+
+[] add memos
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+[] update data (local)
+4) edit_memos.8.open-csv-file.bat - ショートカット
+5) edit_memos.3.insert-to-db.bat - ショートカット
+
+
+[] upload => ifm11_backup_20160110_080900.bk
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data
+/cake_apps/Cake_IFM11/app/Lib/data
+
+[] add data : 10) edit_memos.14.add-data-to-remote.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/add_From_DB_File?command=GO
+
+	'total_data' => (int) 43,
+	'new_data_Success' => (int) 36,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+		
+[] 9) edit_memos.13.validate-admin-value.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
+
+[] 
+git commit
+	r c && s
+
+DB Browser    => close
+close    => OpenOffice
+close   => git
+close    => image files
+
+[] update
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+11) edit_memos.15.validate-update.bat - ショートカット
+
+t c 2017-06-04_09-50-30_000.jpg
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+
+[] close    => xampp
+
+
+[] move files
+12) edit_memos.5.copy-image-files.bat - ショートカット
+
+[] upload : files
+C:\Users\iwabuchiken\data\images\iphone_to_upload\
+/cake_apps/images/ifm11
+
+[] Move --> uploaded files
+13) image_move-uploaded-files.bat - ショートカット
+
+
+=============== END
+
+------------------------------ 2017/06/09 09:11:56
+*[] 2-2) edit_memos.10.insert-new-data-to-db.bat - ショートカット
+'insert: total => 31, done => 31'
+
+*[] 3) edit_memos.1.bat (start openoffice)
+
+[] add memos
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+[] update data (local)
+*4) edit_memos.8.open-csv-file.bat - ショートカット
+*5) edit_memos.3.insert-to-db.bat - ショートカット
+
+
+![] upload => ifm11_backup_20160110_080900.bk
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data
+/cake_apps/Cake_IFM11/app/Lib/data
+
+[] add data : 10) edit_memos.14.add-data-to-remote.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/add_From_DB_File?command=GO
+
+	'total_data' => (int) 43,
+	'new_data_Success' => (int) 36,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+		
+[] 9) edit_memos.13.validate-admin-value.bat - ショートカット
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
+
+[] 
+git commit
+	r c && s
+
+DB Browser    => close
+close    => OpenOffice
+close   => git
+close    => image files
+
+[] update
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index
+http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+
+11) edit_memos.15.validate-update.bat - ショートカット
+
+t c 2017-06-04_09-50-30_000.jpg
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+
+[] close    => xampp
+
+
+[] move files
+12) edit_memos.5.copy-image-files.bat - ショートカット
+
+[] upload : files
+C:\Users\iwabuchiken\data\images\iphone_to_upload\
+/cake_apps/images/ifm11
+
+[] Move --> uploaded files
+13) image_move-uploaded-files.bat - ショートカット
+
+
+=============== END
+
+=============== EOF

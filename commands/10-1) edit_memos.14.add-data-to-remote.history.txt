@@ -1,0 +1,408 @@
+### 
+
+
+### 
+
+
+### 2017/09/09 08:34:25
+	'total_data' => (int) 35,
+	'new_data_Success' => (int) 28,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/09/08 06:56:40
+	'total_data' => (int) 22,
+	'new_data_Success' => (int) 15,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 
+	'total_data' => (int) 14,
+	'new_data_Success' => (int) 7,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/09/07 06:55:46
+
+
+### 2017/09/06 09:43:56
+	'total_data' => (int) 16,
+	'new_data_Success' => (int) 9,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/09/05 07:02:32
+	'total_data' => (int) 18,
+	'new_data_Success' => (int) 11,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/09/04 07:01:01
+	'total_data' => (int) 14,
+	'new_data_Success' => (int) 7,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/09/03 08:05:26
+	'total_data' => (int) 11,
+	'new_data_Success' => (int) 4,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/09/02 14:11:06
+	'total_data' => (int) 17,
+	'new_data_Success' => (int) 10,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/09/01 09:45:24
+	'total_data' => (int) 24,
+	'new_data_Success' => (int) 17,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/31 06:39:52
+	'total_data' => (int) 24,
+	'new_data_Success' => (int) 17,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 
+	'total_data' => (int) 32,
+	'new_data_Success' => (int) 8,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 24
+
+### 
+
+
+
+### 2017/08/30 07:12:02
+	'total_data' => (int) 19,
+	'new_data_Success' => (int) 12,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+
+### 2017/08/29 09:21:34
+	'total_data' => (int) 30,
+	'new_data_Success' => (int) 23,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 
+
+
+### 2017/08/28 06:41:56
+	'total_data' => (int) 15,
+	'new_data_Success' => (int) 8,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+	
+
+### 2017/08/27 07:09:10
+	'total_data' => (int) 23,
+	'new_data_Success' => (int) 16,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/26 08:18:00
+	'total_data' => (int) 19,
+	'new_data_Success' => (int) 12,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/25 08:20:47
+	'total_data' => (int) 17,
+	'new_data_Success' => (int) 10,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/24 06:50:44
+	'total_data' => (int) 42,
+	'new_data_Success' => (int) 35,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/21 06:43:48
+	'total_data' => (int) 24,
+	'new_data_Success' => (int) 17,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/20 08:41:50
+	'total_data' => (int) 26,
+	'new_data_Success' => (int) 19,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/19 06:50:04
+	'total_data' => (int) 36,
+	'new_data_Success' => (int) 29,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/18 06:51:31
+	'total_data' => (int) 21,
+	'new_data_Success' => (int) 14,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/17 06:36:03
+	'total_data' => (int) 16,
+	'new_data_Success' => (int) 9,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+###  2017/08/16 06:19:53
+	'total_data' => (int) 10,
+	'new_data_Success' => (int) 3,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+	
+### 2017/08/15 06:41:47
+	'total_data' => (int) 28,
+	'new_data_Success' => (int) 21,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/14 06:37:15
+	'total_data' => (int) 17,
+	'new_data_Success' => (int) 10,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+					
+================== ==========================
+
+### 2017/06/25 12:52:07
+	'total_data' => (int) 28,
+	'new_data_Success' => (int) 21,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/06/28 09:00:59
+	'total_data' => (int) 52,
+	'new_data_Success' => (int) 45,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/06/29 11:08:10
+	'total_data' => (int) 18,
+	'new_data_Success' => (int) 11,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+
+### 2017/06/30 09:12:25
+	'total_data' => (int) 19,
+	'new_data_Success' => (int) 12,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/07/02 11:54:30
+	'total_data' => (int) 33,
+	'new_data_Success' => (int) 26,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7	
+
+### 2017/07/04 17:23:59
+	'total_data' => (int) 28,
+	'new_data_Success' => (int) 21,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/07/06 08:35:09
+	'total_data' => (int) 22,
+	'new_data_Success' => (int) 15,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7	
+
+### 2017/07/07 08:59:56
+	'total_data' => (int) 28,
+	'new_data_Success' => (int) 21,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/07/09 08:46:37
+	'total_data' => (int) 20,
+	'new_data_Success' => (int) 13,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/07/15 20:59:54
+	'total_data' => (int) 70,
+	'new_data_Success' => (int) 63,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/07/17 06:31:24
+	'total_data' => (int) 36,
+	'new_data_Success' => (int) 29,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/07/18 11:30:56
+	'total_data' => (int) 35,
+	'new_data_Success' => (int) 28,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/07/25 10:40:47
+	'total_data' => (int) 156,
+	'new_data_Success' => (int) 149,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/07/27 07:11:13
+	'total_data' => (int) 50,
+	'new_data_Success' => (int) 43,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/07/29 17:12:22
+	'total_data' => (int) 51,
+	'new_data_Success' => (int) 44,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/07/30 07:27:56
+	'total_data' => (int) 24,
+	'new_data_Success' => (int) 17,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/07/31 10:00:46 
+	'total_data' => (int) 22,
+	'new_data_Success' => (int) 15,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7		
+
+### 2017/08/01 07:02:02
+	'total_data' => (int) 17,
+	'new_data_Success' => (int) 11,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 6
+
+2017/08/02 06:40:50###
+	'total_data' => (int) 29,
+	'new_data_Success' => (int) 22,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/03 06:28:47
+	'total_data' => (int) 17,
+	'new_data_Success' => (int) 10,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/04 07:07:14
+	'total_data' => (int) 15,
+	'new_data_Success' => (int) 8,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/06 18:49:20
+	'total_data' => (int) 44,
+	'new_data_Success' => (int) 37,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/08 06:49:45
+	'total_data' => (int) 24,
+	'new_data_Success' => (int) 17,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+### 2017/08/09 06:58:04
+	'total_data' => (int) 26,
+	'new_data_Success' => (int) 19,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/10 07:08:49
+	'total_data' => (int) 15,
+	'new_data_Success' => (int) 8,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+
+### 2017/08/10 16:31:11
+	'total_data' => (int) 19,
+	'new_data_Success' => (int) 12,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/11 06:40:26
+	'total_data' => (int) 10,
+	'new_data_Success' => (int) 3,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7		
+
+### 2017/08/12 06:33:19
+	'total_data' => (int) 13,
+	'new_data_Success' => (int) 6,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
+### 2017/08/13 07:01:19
+	'total_data' => (int) 15,
+	'new_data_Success' => (int) 8,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+					
+================== EOF ==========================
