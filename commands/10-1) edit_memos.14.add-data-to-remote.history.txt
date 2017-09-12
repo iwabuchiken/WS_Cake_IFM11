@@ -4,6 +4,16 @@
 ### 
 
 
+### 
+
+
+### 2017/09/12 14:23:59
+	'total_data' => (int) 173,
+	'new_data_Success' => (int) 166,
+	'new_data_Failed' => (int) 0,
+	'existing_data_Success' => (int) 0,
+	'existing_data_Failed' => (int) 7
+
 ### 2017/09/09 08:34:25
 	'total_data' => (int) 35,
 	'new_data_Success' => (int) 28,
