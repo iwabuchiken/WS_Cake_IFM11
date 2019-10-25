@@ -1,0 +1,16 @@
+### 2019/09/08 15:33:20
+move --> target image files to ==> tmp
+"5	start editing"
+close
+	server console window
+	tmp
+
+6	open csv file
+
+12	upload db file
+
+13	data ==> to remote
+
+==> i tak dalej
+
+### 2019/09/08 15:42:24 //

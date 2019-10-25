@@ -1,0 +1,4 @@
+green	| お菓子
+yellow	| 食べた物
+yellow	yellow	| temp
+green	green	| ヨーグルト + X

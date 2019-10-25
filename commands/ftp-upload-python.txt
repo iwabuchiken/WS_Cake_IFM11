@@ -1,0 +1,24 @@
+#ref http://tt-house.com/2011/01/python-ftp.html
+_ftp = FTP("ftp.benfranklin.chips.jp")
+
+res = _ftp.login(user='chips.jp-benfranklin', passwd='6wSKDR2TCc4Uy4t')
+
+a = _ftp.retrlines("LIST")
+
+
+_ftp.quit()
+
+
+#ref https://stackoverflow.com/questions/17204276/python-ftplib-specify-port
+ftp = FTP()
+HOST = "ftp.benfranklin.chips.jp"
+PORT = 21
+ftp.connect(HOST, PORT)
+
+res = ftp.login(user='chips.jp-benfranklin', passwd='6wSKDR2TCc4Uy4t')
+
+a = ftp.retrlines("LIST")
+
+
+#ref
+# https://www.yoheim.net/blog.php?q=20170401

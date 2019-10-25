@@ -6,4 +6,4 @@ echo changing names...
 
 Change_FileName.rb
 
-pause
+REM pause

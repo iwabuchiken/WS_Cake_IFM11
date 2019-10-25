@@ -1,32 +1,146 @@
 :m 食べた物
-:m 部屋の温度 
+:m 食べた物　間食 /
+:m 食べた物　間食 / ヨーグルト
+:m 食べた物　間食 / ヨーグルト　ゼリー
+:m 食べた物　間食 / ヨーグルト　ゼリー　その他
+:m 食べた物　間食 / ヨーグルト　ゼリー　ナン
+:m 食べた物　間食 / ヨーグルト　ゼリー 豆腐
+:m 食べた物　間食 / ヨーグルト　ゼリー 豆腐　こんにゃく
+:m 食べた物　間食 / ヨーグルト　ゼリー 玉ねぎスープ
+:m 食べた物　間食 / ヨーグルト　ゼリー こんにゃく
+:m 食べた物　間食 / ヨーグルト　レーズン
+:m 食べた物　間食 / ヨーグルト 砂糖菓子
+:m 食べた物　間食 / ヨーグルト　こんにゃく
+
+----------------------------------------------------------------
+
+:m 食べた物　間食 / こんにゃく
+:m 食べた物　間食 / ゼリー
+:m 食べた物　間食 / 味噌スープ
+:m 食べた物　間食 / 砂糖菓子
+:m 食べた物　間食 / 乾物菓子
+
+----------------------------------------------------------------
+
+:m 部屋の温度
+:m 温度 / 部屋
+:m 温度 / ベランダ
+:m :PHOTO 起きた時刻 / 20180703
+:m :PHOTO 起きた時刻 / また寝 / 20180202
+:m :PHOTO 寝た時刻 / 20180214
 :tome / 量子論の本　価値
 :m BOW / 2017-09-07_15-19-39_000
+:diary / 三行日記
+
+----------------------------------------------------------------
+
+:m :i 1-2*2 / visual arts / 画像、回転
 
 :m music / log / kb / done / N+ / 20170704 I || prog-NEW(bm[8]) dom.1 ms.1 || noc-2 sec.D write-out || back-temper
-:m music / 楽譜メモ / kb / 20170704 I || mp.1 prog-NEW(aug) k=D k=E I-I.aug-IV-IV.m7
 
-:m :th / 本当に愛している人から、買いたい？
+:m music / log / kb / exc-2
+:m music / kb / score / s-1
+:m music / kb / next
+:N / music / kb /
 
+:m music / log / rythms / exc-2
+
+:m music / log / harp / song+ vibrato
+:m music / log / clarinet / exc-2
+:m music / clarinet / score / s-1
+
+:m :th / やりたい / 俺は、知識の世界に生きたい
 :m 1*1 other / コレポン / to.蛇口婦人　ペガスス / 保険のこと、人員手配のこと
+
+----------------------------------------------------------------
+
 :PHOTO 面白いもの / @自室　南側窓 / デッサン用 / カーテン　結わえた
 :PHOTO 面白いもの / @宮前平駅　構内トイレ　化粧石 / デッサン用 / 大理石模様
-
+:PHOTO 面白いもの / @横浜駅　エレベーター、地下 / 壁のタイル、色
+:PHOTO 記録 / 投薬 / セルニルトン錠
+:PHOTO 記録 / 投薬 / ムコスタ
 :m 記録 / ペガスス　仕事、記録
+:m other / 記録　画像 / アイホン / インストールアプリ　アイコン
 
+----------------------------------------------------------------
 
-:bookmemo / 読んだ本 / 写真集　/ 『南極　国境のない大陸』 武田剛
 :bookmemo / 読んだ本 / 『宗教の秘密』 苫米地英人
-:m 読みたい本 / 『行動経済学』 / 依田高典
+:bookmemo / 読んだ本 / 『相対論的量子論』 中西襄 / 途中　２０ページぐらい
+:bookmemo / 読んだ本 / 『カクテル・パーティー』 大城立裕 / 途中　１０ページぐらい / ここまで
+:bookmemo / ページメモ / 『発達障害に気づかない大人たち』 星野仁彦 /  選ぶべき仕事
 
-:m 1*1 RES / free# VX7GLZ 30#13 / science research / NLP / flowchart
+----------------------------------------------------------------
+
+:m 読みたい本 / 『行動経済学』 / 依田高典
+:m 読みたい本 / ジャンル　分野　リスト / 法研　帯状疱疹・単純ペルペスがわかる本』　カバー裏折り込み
+
+----------------------------------------------------------------
 
 :m ゴール / ゴールを見つけること
 :m ゴール / 月に３００冊、読書　作曲　他 / id=20699 id=20721
-
 :m アファメーション / ピアノの演奏
-
 :m dayplan / 2017_0725
 
-:m art / dessin / des.鉢植え@コンコース
+:m art / dessin / D-17 8#123 / des.いぬのふぐり
+
+:m :lets / action activity / やること / マンガ　=>　描こう
+
+----------------------------------------------------------------
+
+:m 1-2*3 RES / free# VX7GLZ 28#10.1 15 / physics / electromagnetism / eman / 
+
+:m RES 1-2*2 / free# JVEMV6 46#2.1.X / art / image programming / gimp
+:m RES 1-2*2 / free# JVEMV6 46#2.2 1.X / art / image programming / projects / sort-out
+:m RES 1-2*2 / free# JVEMV6 46#6.3-1 / art / free drawing / use gimp / 
+:m RES 1-2*2 / free# JVEMV6 46#8.2 / art / kb / 
+:m 1*1 / free# JVEMV6 34#4.2.1 / Deep learning / tut / 武井宏将 / 
+
+=COUNTBLANK(C2:C53)
+=COUNTIF(C1:C26;"-\*")
+
+================================================================================
+:m 5*5 RES / free# VX7GLZ 27#11.2-3 / mathematics / ベクトル、テンソル / 線形汎関数
+:m 1*1 RES / free# VX7GLZ 27#5.40 / mathematics / geisya / 固有値　固有ベクトル　n次正方行列
+:m 1*1 RES / free# VX7GLZ 27#6.2-5 / mathematics / plot / 回転行列
+:m 1*1 RES / free# VX7GLZ 27#9.1 / mathematics / group theory / 
+:m 3*3 RES / free# VX7GLZ 28#1.12 / physics / eman / F=ma
+:m 1-2*2 RES / free# VX7GLZ 28#3.1 / physics / jsimpl / ローレンツ逆変換
+:m 1-2*3 RES / free# VX7GLZ 28#5.1.1 / physics / fluid dynamics / kenzou.michikusa.jp / 
+:m 1-2*3 RES / free# VX7GLZ 28#6.1.1 / physics / rigid body / kenzou.michikusa.jp / 
+
+:m 1-2*3 RES / free# VX7GLZ 28#4.1-1.1 / physics / relativity (general) / eman / 
+:m 1-2*3 RES / free# VX7GLZ 28#7.1-1.6 / physics / res / analy. mech. / eman / 
+:m 1-2*2 RES / free# VX7GLZ 28#8.1.1 / physics / miscs / 
+:m 1-2*2 RES / free# VX7GLZ 28#9.1.1 / physics / math / 
+
+:m 1-2*2 RES / free# VX7GLZ 27#12.10 / mathematics / ベクトル / 
+:m 1-2*2 RES / free# VX7GLZ 27#14.1 / mathematics / かぎしっぽ / 物理数学
+
+:m 1*1 RES / 245 296*X#1 / 『有閑階級の理論』 ソースティン・ヴェブレン　高哲男訳 / p.311 産業的有用性　数量的因果、他
+
+:bookmemo / 読んだ本 / 写真集　/ 『南極　国境のない大陸』 武田剛
+:bookmemo / 読んだ本 / 『位相幾何学　Ⅰ』 服部晶夫 / 途中　１ページのみ
+:bookmemo / 読んだ本 / 『カクテル・パーティー』 大城立裕 / 途中　１０ページぐらい / ここまで
+
+:m 1*1 RES / free# VX7GLZ 30#13 / science research / NLP / flowchart
+
+:m music / kb / 20180322 / s-3
+:m music / 楽譜メモ / kb / 20170704 I || mp.1 prog-NEW(aug) k=D k=E I-I.aug-IV-IV.m7
+
+:m 食べた物　間食 / ヨーグルト　ゼリー こんにゃく　ナン
+:m 食べた物　間食 / インスタントラーメン 豆腐
+:m 食べた物　間食 / インスタントラーメン ヨーグルト　ゼリー
+:m 食べた物　間食 / ヨーグルト　ゼリー　クレープ
+:m 食べた物　間食 / ヨーグルト　クレープ
+:m 食べた物　間食 / ゼリー　クレープ
+:m 食べた物　間食 / クレープ
+:m 食べた物　間食 / ナン
+
+:PHOTO 面白いもの / @東急ショッピングパーク、北出入り口前　住宅前 / 記録用 / キャンピングカー
+
+----------------------------------------------------------------
+DELETE FROM ifm11 WHERE _id <= 27903;
+
+blank	0	=COUNTBLANK(data)
+-*	0	=COUNTIF(data;"-\*")
 

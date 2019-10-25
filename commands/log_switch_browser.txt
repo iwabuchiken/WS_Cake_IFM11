@@ -1,0 +1,27 @@
+#	2019/06/23 07:34:40
+
+0-1) start xampp, filezilla, open folder, open files.bat
+
+2-0) edit_memos.9-0.bat
+
+# C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.1.bat
+
+	# C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.11.open-web-page.image-manager - コピー.bat
+
+	pushd "C:\Program Files\Mozilla Firefox"
+	start firefox.exe "
+
+	# C:\WORKS_2\batches\start_command_prompt.dd.bat
+
+	# web page : keyboard compositions 20180830_171322
+
+	web page : admin
+
+# 9) edit_memos.13.validate-admin-value.bat - ショートカット
+
+# 10) edit_memos.14.add-data-to-remote.bat
+
+11) edit_memos.15.validate-update.bat
+
+# 11-1) open update page.bat
+
