@@ -1,3 +1,16 @@
+REM ****************************
+REM 	web page : http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
+REM 	web page : IP
+REM 	command prompt
+REM 	web page : keyboard compositions 20180830_171322
+REM 	web page : admin
+REM 	vlc
+REM 	git
+REM 	memo : guitar
+REM 	memo : sakura
+REM 	memo : mov files
+REM ****************************
+
 
 REM pause
 REM exit
@@ -107,5 +120,11 @@ REM 	@ 2019/09/01 12:16:56
 REM ****************************
 	start C:\WORKS_2\Programs\sakura\sakura.exe
 
+REM ****************************
+REM 	memo : mov files
+REM 	@ 2019/10/26 08:07:19
+REM ****************************
+REM start C:\WORKS_2\WS\WS_Cake_IFM11\commands\18)_move-mov-files_to-ifm11-folder.bat && start C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list.[v.2].20190210_091405.rb
+REM call C:\WORKS_2\WS\WS_Cake_IFM11\commands\18)_move-mov-files_to-ifm11-folder.bat && start C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list.[v.2].20190210_091405.rb
 
 exit
