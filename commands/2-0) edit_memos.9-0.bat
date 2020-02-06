@@ -99,7 +99,10 @@ REM ****************************
 REM 	vlc
 REM 	2019/06/30 13:19:11
 REM ****************************
-pushd C:\WORKS_2\Programs\freeware\VideoLAN\VLC
+REM comment out : 2019/11/24 07:39:28
+REM comment in : 2019/12/18 11:43:04
+REM pushd C:\WORKS_2\Programs\freeware\VideoLAN\VLC
+pushd C:\Users\iwabuchiken\VLC
 start vlc.exe
 
 REM ****************************

@@ -1,3 +1,739 @@
+### 2020/02/06 10:32:14
+total_data => 287
+new_data_Success => 23
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 263
+
+
+### 2020/02/05 11:13:16
+total_data => 264
+new_data_Success => 21
+new_data_Failed => 0
+existing_data_Success => 3
+existing_data_Failed => 240
+
+
+### 2020/02/04 10:40:05
+total_data => 243
+new_data_Success => 30
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 213
+
+
+### 2020/02/03 09:49:42
+total_data => 213
+new_data_Success => 23
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 190
+
+
+### 2020/02/02 09:49:34
+total_data => 190
+new_data_Success => 18
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 172
+
+
+### 2020/02/01 10:41:51
+total_data => 172
+new_data_Success => 25
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 147
+
+
+### 2020/01/30 10:20:37
+total_data => 147
+new_data_Success => 13
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 134
+
+
+### 2020/01/29 11:58:25
+total_data => 119
+new_data_Success => 27
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 92
+
+
+### 2020/01/28 09:16:53
+total_data => 107
+new_data_Success => 24
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 83
+
+
+### 2020/01/27 10:30:12
+total_data => 83
+new_data_Success => 12
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 71
+
+
+### 2020/01/26 14:23:53
+total_data => 71
+new_data_Success => 20
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 51
+
+
+### 2020/01/25 08:34:23
+total_data => 51
+new_data_Success => 35
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 16
+
+
+### 2020/01/23 13:32:56
+total_data => 500
+new_data_Success => 16
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 484
+
+
+### 2020/01/22 12:47:12
+total_data => 484
+new_data_Success => 28
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 456
+
+
+### 2020/01/21 10:27:23
+total_data => 99
+new_data_Success => 12
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 86
+
+
+### 2020/01/20 08:57:23
+total_data => 98
+new_data_Success => 23
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 75
+
+
+### 2020/01/19 13:31:01
+total_data => 421
+new_data_Success => 21
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 400
+
+
+### 2020/01/18 08:52:06
+total_data => 400
+new_data_Success => 9
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 391
+
+
+### 2020/01/17 09:00:07
+total_data => 391
+new_data_Success => 22
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 369
+
+
+### 2020/01/16 11:13:49
+total_data => 369
+new_data_Success => 41
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 328
+
+
+### 2020/01/14 08:38:13
+total_data => 328
+new_data_Success => 8
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 320
+
+
+### 2020/01/13 08:57:03
+total_data => 320
+new_data_Success => 21
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 298
+
+
+### 2020/01/12 09:21:35
+total_data => 299
+new_data_Success => 20
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 279
+
+
+### 2020/01/11 13:40:13
+total_data => 279
+new_data_Success => 31
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 248
+
+
+### 2020/01/09 10:41:46
+total_data => 347
+new_data_Success => 20
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 327
+
+
+### 2020/01/08 09:13:15
+total_data => 327
+new_data_Success => 21
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 306
+
+
+### 2020/01/07 11:13:53
+total_data => 306
+new_data_Success => 15
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 290
+
+
+### 2020/01/06 11:22:59
+total_data => 291
+new_data_Success => 22
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 269
+
+
+### 2020/01/05 10:09:02
+total_data => 269
+new_data_Success => 18
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 251
+
+
+### 2020/01/04 12:12:10
+total_data => 251
+new_data_Success => 8
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 243
+
+
+### 2020/01/04 12:09:46
+total_data => 24
+new_data_Success => 18
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 6
+
+
+### 2020/01/03 10:21:07
+total_data => 225
+new_data_Success => 12
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 213
+
+
+### 2020/01/03 10:20:52
+total_data => 213
+new_data_Success => 7
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 206
+
+
+### 2020/01/02 14:29:56
+total_data => 206
+new_data_Success => 32
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 173
+
+
+### 2020/01/01 15:29:13
+total_data => 20
+new_data_Success => 19
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
+### 2019/12/31 10:22:40
+total_data => 155
+new_data_Success => 30
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 125
+
+
+### 2019/12/30 11:57:24
+total_data => 125
+new_data_Success => 29
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 95
+
+
+### 2019/12/29 14:33:27
+total_data => 96
+new_data_Success => 48
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 48
+
+
+### 2019/12/29 11:46:57
+total_data => 48
+new_data_Success => 6
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 42
+
+
+### 2019/12/27 13:18:44
+total_data => 37
+new_data_Success => 7
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 30
+
+
+### 2019/12/26 09:57:59
+total_data => 470
+new_data_Success => 10
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 460
+
+
+### 2019/12/26 09:55:49
+total_data => 460
+new_data_Success => 20
+new_data_Failed => 0
+existing_data_Success => 5
+existing_data_Failed => 435
+
+
+### 2019/12/25 11:34:43
+total_data => 440
+new_data_Success => 25
+new_data_Failed => 0
+existing_data_Success => 2
+existing_data_Failed => 413
+
+
+### 2019/12/24 08:56:59
+total_data => 415
+new_data_Success => 30
+new_data_Failed => 0
+existing_data_Success => 2
+existing_data_Failed => 383
+
+
+### 2019/12/23 09:24:16
+total_data => 385
+new_data_Success => 24
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 361
+
+
+### 2019/12/22 11:25:13
+total_data => 361
+new_data_Success => 47
+new_data_Failed => 0
+existing_data_Success => 2
+existing_data_Failed => 312
+
+
+### 2019/12/20 09:26:10
+total_data => 314
+new_data_Success => 21
+new_data_Failed => 0
+existing_data_Success => 4
+existing_data_Failed => 289
+
+
+### 2019/12/19 10:15:02
+total_data => 293
+new_data_Success => 30
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 263
+
+
+### 2019/12/18 14:27:33
+total_data => 263
+new_data_Success => 24
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 238
+
+
+### 2019/12/17 08:47:04
+total_data => 226
+new_data_Success => 10
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 215
+
+
+### 2019/12/16 09:33:21
+total_data => 216
+new_data_Success => 32
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 183
+
+
+### 2019/12/15 10:23:38
+total_data => 184
+new_data_Success => 35
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 149
+
+
+### 2019/12/13 08:55:05
+total_data => 149
+new_data_Success => 24
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 124
+
+
+### 2019/12/12 09:21:50
+total_data => 125
+new_data_Success => 30
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 95
+
+
+### 2019/12/11 11:54:18
+total_data => 95
+new_data_Success => 23
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 72
+
+
+### 2019/12/10 09:54:22
+total_data => 72
+new_data_Success => 39
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 33
+
+
+### 2019/12/09 09:47:43
+total_data => 469
+new_data_Success => 33
+new_data_Failed => 0
+existing_data_Success => 2
+existing_data_Failed => 434
+
+
+### 2019/12/08 09:12:51
+total_data => 436
+new_data_Success => 25
+new_data_Failed => 0
+existing_data_Success => 2
+existing_data_Failed => 409
+
+
+### 2019/12/07 09:05:48
+total_data => 410
+new_data_Success => 11
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 399
+
+
+### 2019/12/07 09:05:40
+total_data => 399
+new_data_Success => 48
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 350
+
+
+### 2019/12/05 09:19:42
+total_data => 352
+new_data_Success => 26
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 326
+
+
+### 2019/12/04 07:45:44
+total_data => 326
+new_data_Success => 28
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 298
+
+
+### 2019/12/03 09:12:12
+total_data => 298
+new_data_Success => 29
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 269
+
+
+### 2019/12/02 11:15:29
+total_data => 269
+new_data_Success => 21
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 248
+
+
+### 2019/12/01 08:23:16
+total_data => 248
+new_data_Success => 34
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 213
+
+
+### 2019/11/30 08:13:09
+total_data => 11
+new_data_Success => 10
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
+### 2019/11/29 08:47:23
+total_data => 204
+new_data_Success => 21
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 182
+
+
+### 2019/11/28 11:58:20
+total_data => 183
+new_data_Success => 20
+new_data_Failed => 0
+existing_data_Success => 2
+existing_data_Failed => 161
+
+
+### 2019/11/27 09:23:16
+total_data => 163
+new_data_Success => 22
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 141
+
+
+### 2019/11/26 11:41:51
+total_data => 141
+new_data_Success => 53
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 88
+
+
+### 2019/11/24 09:42:39
+total_data => 88
+new_data_Success => 18
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 70
+
+
+### 2019/11/23 14:43:43
+total_data => 70
+new_data_Success => 7
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 63
+
+
+### 2019/11/23 14:43:37
+total_data => 37
+new_data_Success => 36
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
+### 2019/11/21 13:11:55
+total_data => 477
+new_data_Success => 27
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 450
+
+
+### 2019/11/20 09:38:18
+total_data => 450
+new_data_Success => 21
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 429
+
+
+### 2019/11/19 11:14:51
+total_data => 429
+new_data_Success => 20
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 409
+
+
+### 2019/11/18 10:57:21
+total_data => 409
+new_data_Success => 21
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 388
+
+
+### 2019/11/17 09:49:47
+total_data => 388
+new_data_Success => 17
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 371
+
+
+### 2019/11/16 13:51:28
+total_data => 38
+new_data_Success => 36
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 2
+
+
+### 2019/11/14 11:28:44
+total_data => 330
+new_data_Success => 32
+new_data_Failed => 0
+existing_data_Success => 1
+existing_data_Failed => 297
+
+
+### 2019/11/13 10:29:20
+total_data => 13
+new_data_Success => 11
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 2
+
+
+### 2019/11/12 10:19:59
+total_data => 21
+new_data_Success => 19
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 2
+
+
+### 2019/11/11 09:46:54
+total_data => 20
+new_data_Success => 18
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 2
+
+
+### 2019/11/10 12:36:58
+total_data => 17
+new_data_Success => 15
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 2
+
+
+### 2019/11/09 14:36:28
+total_data => 18
+new_data_Success => 16
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 2
+
+
+### 2019/11/08 10:05:12
+total_data => 23
+new_data_Success => 21
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 2
+
+
+### 2019/11/07 08:47:43
+total_data => 20
+new_data_Success => 18
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 2
+
+
+### 2019/11/06 09:47:24
+total_data => 47
+new_data_Success => 45
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 2
+
+
+### 2019/11/04 09:06:58
+total_data => 21
+new_data_Success => 19
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 2
+
+
+### 2019/11/03 08:26:36
+total_data => 20
+new_data_Success => 18
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 2
+
+
+### 2019/11/02 09:46:08
+total_data => 52
+new_data_Success => 0
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 52
+
+
+### 2019/10/31 09:04:25
+total_data => 27
+new_data_Success => 25
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 2
+
+
 ### 2019/10/30 11:10:18
 total_data => 25
 new_data_Success => 24
@@ -398,6 +1134,190 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
+
+done
 
 done
 

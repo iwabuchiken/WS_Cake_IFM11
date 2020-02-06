@@ -1,0 +1,86 @@
+  
+[20200111_183835 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Controller\IfmController.php : 194]  
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\webroot>REM ********************************* entries 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\webroot>REM 	xampp	2019/06/23 07:20:39 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\webroot>REM 	folders	2019/06/23 07:20:39 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\webroot>REM 	doc	2019/10/07 09:48:49 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\webroot>REM 	itunes	2019/11/16 12:38:51 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\webroot>REM ********************************* 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\webroot>REM ********************************* 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\webroot>REM 	xampp 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\webroot>REM 	2019/06/23 07:20:39 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\webroot>REM ********************************* 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\webroot>pushd C:\xampp_5.6 
+
+C:\xampp_5.6>start xampp-control.exe 
+
+C:\xampp_5.6>REM pushd "C:\WORKS_2\Programs\FileZilla FTP Client" 
+
+C:\xampp_5.6>REM start filezilla.exe 
+
+C:\xampp_5.6>REM ********************************* 
+
+C:\xampp_5.6>REM 	folders 
+
+C:\xampp_5.6>REM 	2019/06/23 07:20:39 
+
+C:\xampp_5.6>REM ********************************* 
+
+C:\xampp_5.6>start C:\WORKS_2\WS\WS_Cake_IFM11\tmp 
+
+C:\xampp_5.6>start C:\WORKS_2\WS\WS_Cake_IFM11\iphone 
+
+C:\xampp_5.6>REM ==> not working 20191123_121451 
+
+C:\xampp_5.6>REM start "C:\Users\iwabuchiken\Music\iTunes\iTunes Media\Voice Memos" 
+
+C:\xampp_5.6>echo "コンピューター\kbuchi の iPhone\Internal Storage\DCIM"   | clip
+
+C:\xampp_5.6>start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0) update date.txt" 
+
+C:\xampp_5.6>"C:\WORKS_2\Programs\OpenOffice 4\program\soffice.exe"
+
+C:\xampp_5.6>REM start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0) update date.txt" 
+
+C:\xampp_5.6>REM start "C:\WORKS_2\Programs\OpenOffice 4\program\soffice.exe" 
+
+C:\xampp_5.6>REM debug	20191123_121252 
+
+C:\xampp_5.6>REM goto end 
+
+C:\xampp_5.6>REM ********************************* 
+
+C:\xampp_5.6>REM 	doc 
+
+C:\xampp_5.6>REM 	2019/10/07 09:48:49 
+
+C:\xampp_5.6>REM ********************************* 
+
+C:\xampp_5.6>pushd C:\WORKS_2\WS\WS_Cake_IFM11\commands 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM start steps.odt 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>start steps_cake-ifm.odt 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM ********************************* 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM 	itunes 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM 	2019/11/16 12:38:51 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM ********************************* 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>start C:\WORKS_2\Programs\itunes_12.6.2\iTunes.exe 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM pause 

@@ -1,0 +1,509 @@
+yes 
+[01/10/2020 18:17:03 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Controller\IfmController.php : 273] 
+[01/10/2020 18:19:42 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Controller\IfmController.php : 273] 
+[01/10/2020 18:24:00 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Controller\IfmController.php : 273] 
+[01/10/2020 18:26:23 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Controller\IfmController.php : 273]  
+[01/10/2020 18:28:28 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Controller\IfmController.php : 275]  
+changing names...
+[Change_FileName.rb:136] elem is => directory_list.20200108_082919.txt
+[Change_FileName.rb:139] elem.split(".")[-1] => txt
+[Change_FileName.rb:154] error occurred => directory_list.20200108_082919.txt
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-08 08:29:19 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-08 08:29:19 +0900
+[Change_FileName.rb:136] elem is => directory_list.20200109_100402.txt
+[Change_FileName.rb:139] elem.split(".")[-1] => txt
+[Change_FileName.rb:154] error occurred => directory_list.20200109_100402.txt
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 10:04:03 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 10:04:03 +0900
+
+done ==> 2 files renamed / total = 2 files""  
+[01/10/2020 18:35:57 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Controller\IfmController.php : 280]  
+changing names...
+[Change_FileName.rb:136] elem is => 12-1) upload image files.txt
+[Change_FileName.rb:139] elem.split(".")[-1] => txt
+[Change_FileName.rb:154] error occurred => 12-1) upload image files.txt
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2017-09-13 23:18:46 +0900
+[Change_FileName.rb:31] exifdatetime => 2017-09-13 23:18:46 +0900
+[Change_FileName.rb:136] elem is => Cake_IFM11_color-codes.txt
+[Change_FileName.rb:139] elem.split(".")[-1] => txt
+[Change_FileName.rb:154] error occurred => Cake_IFM11_color-codes.txt
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-06-11 06:16:20 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-06-11 06:16:20 +0900
+[Change_FileName.rb:136] elem is => directory_list.20200108_082919.txt
+[Change_FileName.rb:139] elem.split(".")[-1] => txt
+[Change_FileName.rb:154] error occurred => directory_list.20200108_082919.txt
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-08 08:29:19 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-08 08:29:19 +0900
+[Change_FileName.rb:136] elem is => directory_list.20200109_100402.txt
+[Change_FileName.rb:139] elem.split(".")[-1] => txt
+[Change_FileName.rb:154] error occurred => directory_list.20200109_100402.txt
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 10:04:03 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 10:04:03 +0900
+
+done ==> 4 files renamed / total = 4 files""  
+[01/11/2020 09:59:33 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Controller\IfmController.php : 280]  
+changing names...
+[Change_FileName.rb:136] elem is => 20180808 182113.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180808 182113.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-08-13 22:35:33 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-08-13 22:35:33 +0900
+[Change_FileName.rb:136] elem is => 20180808 183316.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180808 183316.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-08-13 22:35:33 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-08-13 22:35:33 +0900
+[Change_FileName.rb:136] elem is => 20180825 110857.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180825 110857.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 20180831 102058.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180831 102058.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 20180831 102852.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180831 102852.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 20180831 104156.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180831 104156.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 20180831 104606.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180831 104606.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 20200108 104557.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20200108 104557.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-08 10:47:00 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-08 10:47:00 +0900
+[Change_FileName.rb:136] elem is => 20200108 161057.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20200108 161057.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-08 16:11:33 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-08 16:11:33 +0900
+[Change_FileName.rb:136] elem is => 20200109 014053.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20200109 014053.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 01:41:40 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 01:41:40 +0900
+[Change_FileName.rb:136] elem is => IMG_2748.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 11:34:52 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 11:34:52 +0900
+[Change_FileName.rb:136] elem is => IMG_2749.PNG
+[Change_FileName.rb:139] elem.split(".")[-1] => png
+[Change_FileName.rb:154] error occurred => IMG_2749.PNG
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 01:34:13 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 01:34:13 +0900
+[Change_FileName.rb:136] elem is => IMG_2750.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:24:36 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:24:36 +0900
+[Change_FileName.rb:136] elem is => IMG_2751.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:29:12 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:29:12 +0900
+[Change_FileName.rb:136] elem is => IMG_2752.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:30:38 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:30:38 +0900
+[Change_FileName.rb:136] elem is => IMG_2753.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:30:50 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:30:50 +0900
+[Change_FileName.rb:136] elem is => IMG_2754.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:31:56 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:31:56 +0900
+[Change_FileName.rb:136] elem is => IMG_2755.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:32:10 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:32:10 +0900
+[Change_FileName.rb:136] elem is => IMG_2756.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:32:34 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:32:34 +0900
+[Change_FileName.rb:136] elem is => IMG_2757.MOV
+[Change_FileName.rb:139] elem.split(".")[-1] => mov
+[Change_FileName.rb:154] error occurred => IMG_2757.MOV
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 18:33:38 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 18:33:38 +0900
+[Change_FileName.rb:136] elem is => IMG_2758.MOV
+[Change_FileName.rb:139] elem.split(".")[-1] => mov
+[Change_FileName.rb:154] error occurred => IMG_2758.MOV
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 18:40:29 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 18:40:29 +0900
+[Change_FileName.rb:136] elem is => IMG_2759.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 18:47:04 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 18:47:04 +0900
+[Change_FileName.rb:136] elem is => IMG_2760.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 20:46:21 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 20:46:21 +0900
+[Change_FileName.rb:136] elem is => IMG_2762.PNG
+[Change_FileName.rb:139] elem.split(".")[-1] => png
+[Change_FileName.rb:154] error occurred => IMG_2762.PNG
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 22:47:53 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 22:47:53 +0900
+[Change_FileName.rb:136] elem is => IMG_2763.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 05:07:54 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 05:07:54 +0900
+[Change_FileName.rb:136] elem is => IMG_2764.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 05:34:33 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 05:34:33 +0900
+[Change_FileName.rb:136] elem is => IMG_2765.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 06:56:30 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 06:56:30 +0900
+[Change_FileName.rb:136] elem is => IMG_2766.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 06:56:41 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 06:56:41 +0900
+[Change_FileName.rb:136] elem is => IMG_2767.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 06:56:43 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 06:56:43 +0900
+[Change_FileName.rb:136] elem is => IMG_2768.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 06:56:55 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 06:56:55 +0900
+[Change_FileName.rb:136] elem is => IMG_2769.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 06:57:14 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 06:57:14 +0900
+[Change_FileName.rb:136] elem is => IMG_2770.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 06:57:17 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 06:57:17 +0900
+[Change_FileName.rb:136] elem is => IMG_2771.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 07:49:27 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 07:49:27 +0900
+[Change_FileName.rb:136] elem is => IMG_2772.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 21:18:16 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 21:18:16 +0900
+[Change_FileName.rb:136] elem is => IMG_2773.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 22:52:14 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 22:52:14 +0900
+[Change_FileName.rb:136] elem is => IMG_2774.JPG
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-11 01:34:00 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-11 01:34:00 +0900
+[Change_FileName.rb:287] result => false : 2018-08-13_22-35-33_000
+[Change_FileName.rb:299] x is now => 2018-08-13_22-35-33_001
+[Change_FileName.rb:287] result => false : 2018-09-02_10-43-22_000
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_001
+[Change_FileName.rb:287] result => false : 2018-09-02_10-43-22_000
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_001
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_002
+[Change_FileName.rb:287] result => false : 2018-09-02_10-43-22_000
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_001
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_002
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_003
+[Change_FileName.rb:287] result => false : 2018-09-02_10-43-22_000
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_001
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_002
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_003
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_004
+
+done ==> 36 files renamed / total = 36 files""  
+[01/11/2020 10:13:36 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Controller\IfmController.php : 280]  
+changing names...
+[Change_FileName.rb:136] elem is => 20180831 102058.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180831 102058.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 20180831 102852.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180831 102852.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 20180831 104156.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180831 104156.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 20180831 104606.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180831 104606.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 20200108 161057.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20200108 161057.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-08 16:11:33 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-08 16:11:33 +0900
+[Change_FileName.rb:136] elem is => 20200109 014053.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20200109 014053.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 01:41:40 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 01:41:40 +0900
+[Change_FileName.rb:136] elem is => 20200109 182339.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20200109 182339.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 18:23:56 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 18:23:56 +0900
+[Change_FileName.rb:136] elem is => 20200109 224627.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20200109 224627.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 22:47:09 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 22:47:09 +0900
+[Change_FileName.rb:136] elem is => 20200110 110429.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20200110 110429.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 11:04:39 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 11:04:39 +0900
+[Change_FileName.rb:136] elem is => 20200110 145812.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20200110 145812.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 14:58:28 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 14:58:28 +0900
+[Change_FileName.rb:136] elem is => 20200110 145937.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20200110 145937.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 15:00:07 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 15:00:07 +0900
+[Change_FileName.rb:287] result => false : 2018-09-02_10-43-22_000
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_001
+[Change_FileName.rb:287] result => false : 2018-09-02_10-43-22_000
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_001
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_002
+[Change_FileName.rb:287] result => false : 2018-09-02_10-43-22_000
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_001
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_002
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_003
+
+done ==> 11 files renamed / total = 11 files""  
+[01/11/2020 13:10:38 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Controller\IfmController.php : 280]  
+changing names...
+[Change_FileName.rb:136] elem is => 20180831 102058.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180831 102058.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 20180831 102852.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180831 102852.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 20180831 104156.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180831 104156.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 20180831 104606.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 20180831 104606.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:31] exifdatetime => 2018-09-02 10:43:22 +0900
+[Change_FileName.rb:136] elem is => 2020-01-08_16-11-33_000.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 2020-01-08_16-11-33_000.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-08 16:11:33 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-08 16:11:33 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_01-41-40_000.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 2020-01-09_01-41-40_000.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 01:41:40 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 01:41:40 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_11-34-52_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 11:34:52 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 11:34:52 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_14-24-36_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:24:36 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:24:36 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_14-29-12_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:29:12 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:29:12 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_14-30-38_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:30:38 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:30:38 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_14-30-50_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:30:50 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:30:50 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_14-31-56_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:31:56 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:31:56 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_14-32-10_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:32:10 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:32:10 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_14-32-34_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 14:32:34 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 14:32:34 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_18-23-56_000.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 2020-01-09_18-23-56_000.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 18:23:56 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 18:23:56 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_18-33-38_000.mov
+[Change_FileName.rb:139] elem.split(".")[-1] => mov
+[Change_FileName.rb:154] error occurred => 2020-01-09_18-33-38_000.mov
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 18:33:38 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 18:33:38 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_18-40-29_000.mov
+[Change_FileName.rb:139] elem.split(".")[-1] => mov
+[Change_FileName.rb:154] error occurred => 2020-01-09_18-40-29_000.mov
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 18:40:29 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 18:40:29 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_18-47-04_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 18:47:04 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 18:47:04 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_20-46-21_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 20:46:21 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 20:46:21 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_22-47-09_000.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 2020-01-09_22-47-09_000.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 22:47:09 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 22:47:09 +0900
+[Change_FileName.rb:136] elem is => 2020-01-09_22-47-53_000.png
+[Change_FileName.rb:139] elem.split(".")[-1] => png
+[Change_FileName.rb:154] error occurred => 2020-01-09_22-47-53_000.png
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-09 22:47:53 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-09 22:47:53 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_05-07-54_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 05:07:54 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 05:07:54 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_05-34-33_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 05:34:33 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 05:34:33 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_06-56-30_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 06:56:30 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 06:56:30 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_06-56-41_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 06:56:41 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 06:56:41 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_06-56-43_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 06:56:43 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 06:56:43 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_06-56-55_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 06:56:55 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 06:56:55 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_06-57-14_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 06:57:14 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 06:57:14 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_06-57-17_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 06:57:17 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 06:57:17 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_07-49-27_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 07:49:27 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 07:49:27 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_11-04-39_000.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 2020-01-10_11-04-39_000.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 11:04:39 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 11:04:39 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_14-58-28_000.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 2020-01-10_14-58-28_000.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 14:58:28 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 14:58:28 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_15-00-07_000.m4a
+[Change_FileName.rb:139] elem.split(".")[-1] => m4a
+[Change_FileName.rb:154] error occurred => 2020-01-10_15-00-07_000.m4a
+[Change_FileName.rb:191] @exif.date_time_original.to_s == nil
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 15:00:07 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 15:00:07 +0900
+[Change_FileName.rb:136] elem is => 2020-01-10_21-18-16_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-10 21:18:16 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-10 21:18:16 +0900
+[Change_FileName.rb:136] elem is => 2020-01-11_01-34-00_000.jpg
+[Change_FileName.rb:139] elem.split(".")[-1] => jpg
+[Change_FileName.rb:204] target_date_time_label => 2020-01-11 01:34:00 +0900
+[Change_FileName.rb:31] exifdatetime => 2020-01-11 01:34:00 +0900
+[Change_FileName.rb:287] result => false : 2018-09-02_10-43-22_000
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_001
+[Change_FileName.rb:287] result => false : 2018-09-02_10-43-22_000
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_001
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_002
+[Change_FileName.rb:287] result => false : 2018-09-02_10-43-22_000
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_001
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_002
+[Change_FileName.rb:299] x is now => 2018-09-02_10-43-22_003
+
+done ==> 35 files renamed / total = 35 files""  
+[01/11/2020 21:32:45 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Controller\IfmController.php : 316]  
+changing names...
+
+done ==> 0 files renamed / total = 0 files""  
+[01/11/2020 21:33:21 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Controller\IfmController.php : 316]  
+changing names...
+
+done ==> 0 files renamed / total = 0 files
