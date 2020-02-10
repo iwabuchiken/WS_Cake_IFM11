@@ -1,0 +1,143 @@
+Deleting files...
+
+[use_sqlite_2.rb:424] listOf_FileNamesInTMPFolder => 23
+
+[use_sqlite_2.rb:377] row ==> nil : 2018-04-17_16-30-44.m4a
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2018-04-17_16-30-44.m4a
+
+[use_sqlite_2.rb:377] row ==> nil : 2018-04-17_16-35-45.m4a
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2018-04-17_16-35-45.m4a
+
+[use_sqlite_2.rb:377] row ==> nil : 2018-04-17_16-37-31.m4a
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2018-04-17_16-37-31.m4a
+
+[use_sqlite_2.rb:377] row ==> nil : 2018-04-17_16-45-14.m4a
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2018-04-17_16-45-14.m4a
+
+[use_sqlite_2.rb:377] row ==> nil : 2018-04-17_17-05-38.m4a
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2018-04-17_17-05-38.m4a
+
+[use_sqlite_2.rb:377] row ==> nil : 2018-04-17_17-18-45.m4a
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2018-04-17_17-18-45.m4a
+
+[use_sqlite_2.rb:377] row ==> nil : 2018-04-17_17-21-09.m4a
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2018-04-17_17-21-09.m4a
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-09_07-33-31.m4a
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-09_07-33-31.m4a
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-09_09-09-22_000.jpg
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-09_09-09-22_000.jpg
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-09_10-17-24_000.mov
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-09_10-17-24_000.mov
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-09_10-38-04_000.jpg
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-09_10-38-04_000.jpg
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-09_10-44-48_000.jpg
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-09_10-44-48_000.jpg
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-09_11-44-14_000.jpg
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-09_11-44-14_000.jpg
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-09_18-01-02_000.mov
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-09_18-01-02_000.mov
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-09_18-07-51_000.mov
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-09_18-07-51_000.mov
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-09_18-12-43_000.jpg
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-09_18-12-43_000.jpg
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-09_18-58-04_000.mov
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-09_18-58-04_000.mov
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-09_19-09-53_000.jpg
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-09_19-09-53_000.jpg
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-09_20-53-13_000.jpg
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-09_20-53-13_000.jpg
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-10_00-08-45.m4a
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-10_00-08-45.m4a
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-10_00-39-11.m4a
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-10_00-39-11.m4a
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-10_01-20-55_000.jpg
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-10_01-20-55_000.jpg
+
+[use_sqlite_2.rb:377] row ==> nil : 2020-02-10_08-32-22.m4a
+
+[use_sqlite_2.rb:470] result => nil
+
+[use_sqlite_2.rb:526] nil returned => 2020-02-10_08-32-22.m4a
+
+[use_sqlite_2.rb:539] countOf_DeletedFiles => 0

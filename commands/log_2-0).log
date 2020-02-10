@@ -1,0 +1,247 @@
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM **************************** 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM 	web page : http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM 	web page : IP 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM 	command prompt 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM 	web page : keyboard compositions 20180830_171322 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM 	web page : admin 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM 	vlc 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM 	git 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM 	memo : guitar 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM 	memo : sakura 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM 	memo : mov files 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM **************************** 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM pause 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM exit 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.9.move-tmp-to-iphone.bat 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM move C:\WORKS_2\Storage\images\iphone\tmp\* C:\Users\iwabuchiken\data\images\iphone 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>move C:\WORKS_2\WS\WS_Cake_IFM11\tmp\* C:\WORKS_2\WS\WS_Cake_IFM11\iphone 
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2018-04-17_16-30-44.m4a
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2018-04-17_16-35-45.m4a
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2018-04-17_16-37-31.m4a
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2018-04-17_16-45-14.m4a
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2018-04-17_17-05-38.m4a
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2018-04-17_17-18-45.m4a
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2018-04-17_17-21-09.m4a
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-09_07-33-31.m4a
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-09_09-09-22_000.jpg
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-09_10-17-24_000.mov
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-09_10-38-04_000.jpg
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-09_10-44-48_000.jpg
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-09_11-44-14_000.jpg
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-09_18-01-02_000.mov
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-09_18-07-51_000.mov
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-09_18-12-43_000.jpg
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-09_18-58-04_000.mov
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-09_19-09-53_000.jpg
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-09_20-53-13_000.jpg
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-10_00-08-45.m4a
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-10_00-39-11.m4a
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-10_01-20-55_000.jpg
+C:\WORKS_2\WS\WS_Cake_IFM11\tmp\2020-02-10_08-32-22.m4a
+       23 個のファイルを移動しました。
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>REM pause 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.1.bat 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands>pushd C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others>REM use_sqlite_2.rb f 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others>use_sqlite_2.rb f   | clip
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others>REM comment out : 20180919_091748 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others>REM C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.2.start-openoffice.bat 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others>REM pause 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others>call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.10.insert-new-data-to-db.bat 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others>goto opera 
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others>pushd "C:\WORKS_2\Programs\opera" 
+
+C:\WORKS_2\Programs\opera>start launcher.exe "http://localhost/Eclipse_Luna/Cake_IFM11/images/manage_IPhone_ImageFiles?db_file=ifm11_backup_20160110_080900.bk" 
+
+C:\WORKS_2\Programs\opera>start launcher.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2 
+
+C:\WORKS_2\Programs\opera>goto end 
+
+C:\WORKS_2\Programs\opera>REM **************************** 
+
+C:\WORKS_2\Programs\opera>REM 	web page : http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager 
+
+C:\WORKS_2\Programs\opera>REM **************************** 
+
+C:\WORKS_2\Programs\opera>call "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.11.open-web-page.image-manager - コピー.bat" 
+
+C:\WORKS_2\Programs\opera>goto opera 
+
+C:\WORKS_2\Programs\opera>pushd "C:\WORKS_2\Programs\opera" 
+
+C:\WORKS_2\Programs\opera>start launcher.exe "http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager" 
+
+C:\WORKS_2\Programs\opera>goto end 
+
+C:\WORKS_2\Programs\opera>REM start "C:\Program Files (x86)\sakura\sakura" "C:\WORKS_2\Storage\images\iphone\3-1) add memo.txt" 
+
+C:\WORKS_2\Programs\opera>REM start "C:\Program Files (x86)\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands" 
+
+C:\WORKS_2\Programs\opera>REM start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3-1) add memo.txt" 
+
+C:\WORKS_2\Programs\opera>REM **************************** 
+
+C:\WORKS_2\Programs\opera>REM 	web page : IP 
+
+C:\WORKS_2\Programs\opera>REM **************************** 
+
+C:\WORKS_2\Programs\opera>REM pushd "C:\Program Files\Mozilla Firefox" 
+
+C:\WORKS_2\Programs\opera>REM start firefox.exe "http://localhost:8001/ip/basics/" 
+
+C:\WORKS_2\Programs\opera>REM : chrome 
+
+C:\WORKS_2\Programs\opera>REM 	pushd "C:\Program Files (x86)\Google\Chrome\Application" 
+
+C:\WORKS_2\Programs\opera>REM 	start chrome http://localhost:8001/ip/basics/ 
+
+C:\WORKS_2\Programs\opera>REM : opera 
+
+C:\WORKS_2\Programs\opera>pushd "C:\WORKS_2\Programs\opera" 
+
+C:\WORKS_2\Programs\opera>echo opening browser(opera)... 
+opening browser(opera)...
+
+C:\WORKS_2\Programs\opera>start launcher.exe http://localhost:8001/ip/basics/ 
+
+C:\WORKS_2\Programs\opera>REM **************************** 
+
+C:\WORKS_2\Programs\opera>REM 	command prompt 
+
+C:\WORKS_2\Programs\opera>REM 	2019/06/23 07:27:47 
+
+C:\WORKS_2\Programs\opera>REM **************************** 
+
+C:\WORKS_2\Programs\opera>start C:\WORKS_2\batches\start_command_prompt.dd.bat 
+
+C:\WORKS_2\Programs\opera>REM **************************** 
+
+C:\WORKS_2\Programs\opera>REM 	web page : keyboard compositions 20180830_171322 
+
+C:\WORKS_2\Programs\opera>REM 	20180919_090023 
+
+C:\WORKS_2\Programs\opera>REM **************************** 
+
+C:\WORKS_2\Programs\opera>REM pushd "C:\Program Files\Mozilla Firefox" 
+
+C:\WORKS_2\Programs\opera>REM start firefox.exe "https://docs.google.com/spreadsheets/d/1Rtg1H97HaTWcaIhOf4EtMqEvo6o-17d0Cf0CY5cuk9c/edit#gid=2093276917" 
+
+C:\WORKS_2\Programs\opera>REM start firefox.exe "https://docs.zoho.com/sheet/open/ek7i4683eb5df87d04a23acef09182e7df623/sheets/free/ranges/A3" 
+
+C:\WORKS_2\Programs\opera>goto web_page_keyboard_opera 
+
+C:\WORKS_2\Programs\opera>REM : opera 
+
+C:\WORKS_2\Programs\opera>pushd "C:\WORKS_2\Programs\opera" 
+
+C:\WORKS_2\Programs\opera>REM 	start launcher.exe "https://docs.google.com/spreadsheets/d/1Rtg1H97HaTWcaIhOf4EtMqEvo6o-17d0Cf0CY5cuk9c/edit#gid=2093276917" 
+
+C:\WORKS_2\Programs\opera>REM 	start launcher.exe "https://docs.zoho.com/sheet/open/ek7i4683eb5df87d04a23acef09182e7df623/sheets/free/ranges/A3" 
+
+C:\WORKS_2\Programs\opera>goto exit_web_page_keyboard 
+
+C:\WORKS_2\Programs\opera>REM **************************** 
+
+C:\WORKS_2\Programs\opera>REM 	web page : admin 
+
+C:\WORKS_2\Programs\opera>REM 	2019/06/17 07:11:46 
+
+C:\WORKS_2\Programs\opera>REM **************************** 
+
+C:\WORKS_2\Programs\opera>REM pushd "C:\Program Files\Mozilla Firefox" 
+
+C:\WORKS_2\Programs\opera>REM start firefox.exe "https://writer.zoho.com/writer/open/1imm66926efda4b834194a8268008be12b722" 
+
+C:\WORKS_2\Programs\opera>REM pushd "C:\Program Files (x86)\Google\Chrome\Application" 
+
+C:\WORKS_2\Programs\opera>REM start chrome "https://writer.zoho.com/writer/open/1imm66926efda4b834194a8268008be12b722" 
+
+C:\WORKS_2\Programs\opera>REM **************************** 
+
+C:\WORKS_2\Programs\opera>REM 	vlc 
+
+C:\WORKS_2\Programs\opera>REM 	2019/06/30 13:19:11 
+
+C:\WORKS_2\Programs\opera>REM **************************** 
+
+C:\WORKS_2\Programs\opera>REM comment out : 2019/11/24 07:39:28 
+
+C:\WORKS_2\Programs\opera>REM comment in : 2019/12/18 11:43:04 
+
+C:\WORKS_2\Programs\opera>REM pushd C:\WORKS_2\Programs\freeware\VideoLAN\VLC 
+
+C:\WORKS_2\Programs\opera>pushd C:\Users\iwabuchiken\VLC 
+
+C:\Users\iwabuchiken\VLC>start vlc.exe 
+
+C:\Users\iwabuchiken\VLC>REM **************************** 
+
+C:\Users\iwabuchiken\VLC>REM 	git 
+
+C:\Users\iwabuchiken\VLC>REM **************************** 
+
+C:\Users\iwabuchiken\VLC>REM pushd C:\WORKS_2\WS\WS_Others.Art 
+
+C:\Users\iwabuchiken\VLC>REM start C:\WORKS_2\Programs\Git_2.14.1\cmd\gitk.exe 
+
+C:\Users\iwabuchiken\VLC>REM **************************** 
+
+C:\Users\iwabuchiken\VLC>REM 	memo : guitar 
+
+C:\Users\iwabuchiken\VLC>REM 	@ 2019/08/12 09:02:34 
+
+C:\Users\iwabuchiken\VLC>REM **************************** 
+
+C:\Users\iwabuchiken\VLC>start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar\list_of_memos.ods 
+
+C:\Users\iwabuchiken\VLC>REM **************************** 
+
+C:\Users\iwabuchiken\VLC>REM 	memo : sakura 
+
+C:\Users\iwabuchiken\VLC>REM 	@ 2019/09/01 12:16:56 
+
+C:\Users\iwabuchiken\VLC>REM **************************** 
+
+C:\Users\iwabuchiken\VLC>start C:\WORKS_2\Programs\sakura\sakura.exe 
+
+C:\Users\iwabuchiken\VLC>REM **************************** 
+
+C:\Users\iwabuchiken\VLC>REM 	memo : mov files 
+
+C:\Users\iwabuchiken\VLC>REM 	@ 2019/10/26 08:07:19 
+
+C:\Users\iwabuchiken\VLC>REM **************************** 
+
+C:\Users\iwabuchiken\VLC>REM start C:\WORKS_2\WS\WS_Cake_IFM11\commands\18)_move-mov-files_to-ifm11-folder.bat && start C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list.[v.2].20190210_091405.rb 
+
+C:\Users\iwabuchiken\VLC>REM call C:\WORKS_2\WS\WS_Cake_IFM11\commands\18)_move-mov-files_to-ifm11-folder.bat && start C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list.[v.2].20190210_091405.rb 
+
+C:\Users\iwabuchiken\VLC>exit
