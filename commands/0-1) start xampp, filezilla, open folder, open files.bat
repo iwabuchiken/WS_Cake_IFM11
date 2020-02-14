@@ -17,6 +17,13 @@ REM pushd "C:\WORKS_2\Programs\FileZilla FTP Client"
 REM start filezilla.exe
 
 REM *********************************
+REM 	web pages
+REM 	2020/02/14 10:34:15
+REM *********************************
+pushd C:\WORKS_2\Programs\opera
+start launcher.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+
+REM *********************************
 REM 	folders
 REM 	2019/06/23 07:20:39
 REM *********************************
