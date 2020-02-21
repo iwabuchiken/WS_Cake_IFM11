@@ -1,3 +1,19 @@
+### 2020/02/21 09:15:41
+total_data => 179
+new_data_Success => 26
+new_data_Failed => 0
+existing_data_Success => 2
+existing_data_Failed => 151
+
+
+### 2020/02/20 09:48:22
+total_data => 153
+new_data_Success => 19
+new_data_Failed => 0
+existing_data_Success => 5
+existing_data_Failed => 129
+
+
 ### 2020/02/19 10:03:30
 total_data => 134
 new_data_Success => 25
@@ -1222,6 +1238,10 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
+
+done
 
 done
 
