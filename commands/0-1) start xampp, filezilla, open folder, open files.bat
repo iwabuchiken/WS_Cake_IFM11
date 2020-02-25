@@ -21,7 +21,8 @@ REM 	web pages
 REM 	2020/02/14 10:34:15
 REM *********************************
 pushd C:\WORKS_2\Programs\opera
-start launcher.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+REM start launcher.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+start launcher.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?sort=file_name&direction=desc
 
 REM *********************************
 REM 	folders
@@ -36,7 +37,7 @@ REM start "C:\Users\iwabuchiken\Music\iTunes\iTunes Media\Voice Memos"
 REM ==> not working 20191123_121451
 REM start "C:\Users\iwabuchiken\Music\iTunes\iTunes Media\Voice Memos"
 
-echo "ƒRƒ“ƒsƒ…[ƒ^[\kbuchi ‚Ì iPhone\Internal Storage\DCIM" | clip
+echo "ï¿½Rï¿½ï¿½ï¿½sï¿½ï¿½ï¿½[ï¿½^ï¿½[\kbuchi ï¿½ï¿½ iPhone\Internal Storage\DCIM" | clip
 
 start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0) update date.txt"
 
