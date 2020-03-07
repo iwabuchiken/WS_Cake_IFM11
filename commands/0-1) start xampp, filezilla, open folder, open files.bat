@@ -1,5 +1,6 @@
 REM ********************************* entries
 REM 	xampp	2019/06/23 07:20:39
+REM 	web pages
 REM 	folders
 REM 	doc	2019/10/07 09:48:49
 REM 	itunes	2019/11/16 12:38:51
@@ -22,7 +23,12 @@ REM 	2020/02/14 10:34:15
 REM *********************************
 pushd C:\WORKS_2\Programs\opera
 REM start launcher.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
-start launcher.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?sort=file_name&direction=desc
+set url_1="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?sort=file_name&direction=desc"
+set url_2="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3"
+
+start launcher.exe %url_1% %url_2%
+
+REM start launcher.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?sort=file_name&direction=desc
 
 REM *********************************
 REM 	folders
