@@ -21,6 +21,13 @@ REM ************************
 echo move C:\WORKS_2\WS\WS_Cake_IFM11\20*.mp3 C:\WORKS_2\WS\WS_Cake_IFM11\iphone
 move C:\WORKS_2\WS\WS_Cake_IFM11\20*.mp3 C:\WORKS_2\WS\WS_Cake_IFM11\iphone
 
+REM ************************
+REM 	mp4 files
+REM 	2020”N4ŒŽ7“ú9:47:34
+REM ************************
+echo move C:\WORKS_2\WS\WS_Cake_IFM11\20*.mp4 C:\WORKS_2\WS\WS_Cake_IFM11\iphone
+move C:\WORKS_2\WS\WS_Cake_IFM11\20*.mp4 C:\WORKS_2\WS\WS_Cake_IFM11\iphone
+
 
 REM pause
 
