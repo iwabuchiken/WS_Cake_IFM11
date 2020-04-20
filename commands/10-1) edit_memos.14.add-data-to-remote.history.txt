@@ -1,3 +1,35 @@
+### 2020/04/20 09:27:24
+total_data => 15
+new_data_Success => 14
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
+### 2020/04/19 09:49:59
+total_data => 10
+new_data_Success => 9
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
+### 2020/04/18 10:25:01
+total_data => 32
+new_data_Success => 31
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
+### 2020/04/17 08:53:18
+total_data => 15
+new_data_Success => 14
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
 ### 2020/04/16 08:00:22
 total_data => 13
 new_data_Success => 12
@@ -1606,6 +1638,14 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
+
+done
+
+done
+
+done
 
 done
 
