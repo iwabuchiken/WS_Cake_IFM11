@@ -62,7 +62,7 @@ REM 	2019/10/07 09:48:49
 REM *********************************
 pushd C:\WORKS_2\WS\WS_Cake_IFM11\commands
 REM start steps.odt
-start steps_cake-ifm.odt
+REM start steps_cake-ifm.odt
 
 REM *********************************
 REM 	itunes
