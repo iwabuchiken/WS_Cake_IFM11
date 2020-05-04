@@ -34,13 +34,17 @@ REM ****************************
 REM 	git
 REM 	
 REM ****************************
+call "20)_closing_register-guitar.bat"
+call "20-1)_closing_Cake_IFM11-WS.bat"
+call "20-2)_closing_cakeifm11.bat"
+
 REM pushd C:\WORKS_2\WS\WS_Cake_IFM11\commands
 
 REM call 15-2).git.bat
 
-echo "calling 15-2)...."
+REM echo "calling 15-2)...."
 
-call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\15-2).git.bat"
+REM call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\15-2).git.bat"
 
 
 pause
