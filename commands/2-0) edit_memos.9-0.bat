@@ -115,13 +115,13 @@ REM ****************************
 REM 	memo : guitar
 REM 	@ 2019/08/12 09:02:34
 REM ****************************
-	start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar\list_of_memos.ods
+REM 	start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar\list_of_memos.ods
 
 REM ****************************
 REM 	memo : sakura
 REM 	@ 2019/09/01 12:16:56
 REM ****************************
-	start C:\WORKS_2\Programs\sakura\sakura.exe
+REM 	start C:\WORKS_2\Programs\sakura\sakura.exe
 
 REM ****************************
 REM 	memo : mov files
