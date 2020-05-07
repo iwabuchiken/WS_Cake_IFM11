@@ -4,6 +4,7 @@ REM 	web pages
 REM 	folders
 REM 	doc	2019/10/07 09:48:49
 REM 	itunes	2019/11/16 12:38:51
+REM 	server:8001
 REM *********************************
 
 
@@ -49,6 +50,11 @@ start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\
 
 "C:\WORKS_2\Programs\OpenOffice 4\program\soffice.exe"
 
+REM : paths to mobile
+REM 2020年5月7日12:14:58
+start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-3)_copy-files-from-mobile.txt"
+
+
 REM start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0) update date.txt"
 
 REM start "C:\WORKS_2\Programs\OpenOffice 4\program\soffice.exe"
@@ -60,7 +66,7 @@ REM *********************************
 REM 	doc
 REM 	2019/10/07 09:48:49
 REM *********************************
-pushd C:\WORKS_2\WS\WS_Cake_IFM11\commands
+REM pushd C:\WORKS_2\WS\WS_Cake_IFM11\commands
 REM start steps.odt
 REM start steps_cake-ifm.odt
 
@@ -69,6 +75,13 @@ REM 	itunes
 REM 	2019/11/16 12:38:51
 REM *********************************
 REM start C:\WORKS_2\Programs\itunes_12.6.2\iTunes.exe
+
+REM *********************************
+REM 	server:8001
+REM 	2020年5月7日12:12:41
+REM *********************************
+call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat"
+
 
 :end
 
