@@ -3,7 +3,7 @@
 ## jpg,mp4
 コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
 ## m4a files
-コンピューター\HUAWEI P30 lite\内部ストレージ\Sounds	m4a files
+コンピューター\HUAWEI P30 lite\内部ストレージ\Sounds
 ## mid
 コンピューター\HUAWEI P30 lite\内部ストレージ\PerfectPiano\Keyboards
 
