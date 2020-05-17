@@ -9,6 +9,7 @@ REM 	git
 REM 	memo : guitar
 REM 	memo : sakura
 REM 	memo : mov files
+REM 	doc
 REM ****************************
 
 
@@ -129,5 +130,12 @@ REM 	@ 2019/10/26 08:07:19
 REM ****************************
 REM start C:\WORKS_2\WS\WS_Cake_IFM11\commands\18)_move-mov-files_to-ifm11-folder.bat && start C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list.[v.2].20190210_091405.rb
 REM call C:\WORKS_2\WS\WS_Cake_IFM11\commands\18)_move-mov-files_to-ifm11-folder.bat && start C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list.[v.2].20190210_091405.rb
+
+
+REM ****************************
+REM 	doc
+REM 	2020”N5ŒŽ17“ú7:59:43
+REM ****************************
+call "C:\\WORKS_2\\WS\\WS_Cake_IFM11\\commands\\1-3)_open-entries-csv.bat"
 
 exit
