@@ -10,3 +10,5 @@
 
 ### insert to db file 2020”N5ŒŽ20“ú7:18:22
 http://localhost/Eclipse_Luna/Cake_IFM11/images/manage_IPhone_ImageFiles?db_file=ifm11_backup_20160110_080900.bk
+http://localhost:8001/ip/basics/
+http://127.0.0.1:8000/im/
