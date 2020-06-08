@@ -1,0 +1,72 @@
+==============================
+	close : folders
+	
+	2020年6月8日9:13:19
+==============================
+1	C:\WORKS_2\WS\WS_Cake_IFM11\tmp
+2	コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
+
+
+==============================
+	close : text files
+	
+	2020年6月8日9:13:25
+==============================
+1	0-3)_copy-files-from-mobile.txt
+2	11-0) update date.txt
+
+==============================
+	exec
+	
+	2020年6月8日9:13:25
+==============================
+1	entries.ods
+		clear
+2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
+		exec
+		open ==> txt file
+3	http://localhost:8001/ip/basics/
+		"GO"
+		"Open dir"
+		"Prep"
+		"Gen"
+
+4	entries.ods
+		list of non-image files ==> C/P
+		gen-ed csv list ==> C/P
+		gen-ed csv ==> close
+
+5	2-2)_move-files-back-to-tmp-dir.bat
+
+6	VLC
+		open folder
+			right-click > S - tab x 2 > Home > "i"
+			Ret > tab x 2 > Ret > "↓" > Ret
+
+7	entries.ods
+		enter ==> template line : kb
+			C - f > "k-" > Ret
+			C - c > C - Home
+		enter ==> template line : mid
+			C - f > "mid" > Ret > Esc
+			C - c > C - Home
+
+8	entries.ods : image files
+		gen-ed csv file
+			open
+			select
+			C - c
+			close
+		back to ==> this
+		C - Home > C - v (paste)
+		close folders
+			images
+			csv
+
+
+
+============================== change log
+2020年6月8日9:34:53
+	first entries
+
+============================== / change log
