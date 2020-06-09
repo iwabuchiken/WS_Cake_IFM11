@@ -1,0 +1,10 @@
+close apps
+	entries.ods
+	folders
+		C:\WORKS_2\WS\WS_Cake_IFM11\commands
+		C:\WORKS_2\WS\WS_Cake_IFM11\iphone
+		
+	browser
+		http://127.0.0.1:8000/im/
+
+

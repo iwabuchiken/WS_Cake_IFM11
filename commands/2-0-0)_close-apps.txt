@@ -21,10 +21,21 @@
 	2020”N6ŒŽ8“ú9:13:25
 ==============================
 1	entries.ods
-		clear
+		==> clear :
+			C - * > Clear > Ret
+			select --> col.F;G > Clear > Ret
+			C - a > C - c (copy)
+			C - w > y (close file)
+			M - f > b > 1 (re-open)
+			C - a > C - v > C - s (paste, save)
+
 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
-		exec
+		select -> Ret (exec)
 		open ==> txt file
+			M - ª (move up directory)
+			Home > d > Ret (choose file, open)
+			M - © (move back)
+
 3	http://localhost:8001/ip/basics/
 		"GO"
 		"Open dir"
@@ -33,7 +44,16 @@
 
 4	entries.ods
 		list of non-image files ==> C/P
+			txt file
+				select lines
+				C - c > M - sp - c (close file)
+			Tab (back to ods file)
+			C - v
 		gen-ed csv list ==> C/P
+			select area
+			C - c
+			Tab (to ods)
+			C - Home > C - S - v (paste)
 		gen-ed csv ==> close
 
 5	2-2)_move-files-back-to-tmp-dir.bat
@@ -63,10 +83,42 @@
 			images
 			csv
 
+9	commands
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat"
+"C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat"
 
+10	csv
+		entries.ods
+			C - * > C - c (copy)
+		sakura file
+			C - * > C - v (paste)
+
+11	commands
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
+
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-value.bat
+
+12	http://127.0.0.1:8000/im/
+	list no.12~21
+
+13	closing
+	console : server
+		hit key
+		M - Space - c (close)
+	entries.ods ==> close
+	git push
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\20-1)_closing_Cake_IFM11-WS.bat" && "C:\WORKS_2\WS\WS_Cake_IFM11\commands\20-2)_closing_cakeifm11.bat"
+	
+	folders ==> close
+	
 
 ============================== change log
 2020”N6ŒŽ8“ú9:34:53
 	first entries
+
+2020”N6ŒŽ9“ú14:37:48
+	no.9~
+
+
 
 ============================== / change log
