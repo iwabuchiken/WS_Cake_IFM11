@@ -94,8 +94,8 @@ C/P ==> files
 ==============================
 1	entries.ods
 		==> clear :
-			C - * > Clear > Ret
-			select --> col.F;G > Clear > Ret
+			C - * > Delete > Ret
+			select --> col.F;G > Delete > Ret
 			C - a > C - c (copy)
 			C - w > M - d (close file)
 			M - f > b > Ret (re-open)
@@ -109,15 +109,19 @@ C/P ==> files
 		validate ==> copied? (no gray-area-containing image file)
 		"Gen"
 
+5	2-2)_move-files-back-to-tmp-dir.bat
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2)_move-files-back-to-tmp-dir.bat"
+
+
 
 4	entries.ods
 		list of non-image files ==> C/P
 			txt file
 				select lines
-				C - c > M - sp - c (close file)
+				C - c > M - Space - c (close file)
 			Tab (back to ods file)
 			C - Home > → > C - ↓ > ↓ x 2 > ← (move to the paste point)
-			C - v > Ret
+			C - v > Ret > C - s (paste, save)
 
 		gen-ed csv list ==> C/P
 			select area
@@ -127,30 +131,44 @@ C/P ==> files
 			C - Home > C - S - v > Ret (paste)
 			
 			C - ↓ x 2 (move to : non-image list)
-			C - Home > C - x > C - ↑ > ↓ > C - v (cut & paste)
-
-		console : server
+			C - * > C - c > Delete > Ret (copy, clear)
+			C - ↑ > ↓ > C - v > C - s (paste, save)
+	
+	gen csv ==> complete ?
+		console : server(8001)
 			M - Space - c (close)
 		browser
 			C - w (close)
 
-5	2-2)_move-files-back-to-tmp-dir.bat
-"C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2)_move-files-back-to-tmp-dir.bat"
 
-
-6	VLC
+==============================
+	VLC
+	
+	2020年6月8日9:13:25
+==============================
+6	
 		open folder
 			right-click > ↓ x 2 > Ret (open dialog)
 			S - tab x 2 > Home > "i" > Ret
 			Tab x 2 > Ret > "↓" > Ret (load to window)
-@@@
+
 7	entries.ods
 		enter ==> template line : kb
 			C - f > "k-" > Ret
 			C - c > C - Home
+			
+			modify template strings
+				select ==> area
+				C - f > 検索テキスト > 置換テキスト
+				M - o > M - u (「現在の範囲のみ」)
+				M - f > M - r (replace)
+				M - f > M - p > update string > M - r (find, modify string, replace)
+				M - u (「現在の範囲のみ」 ==> uncheck)
 		enter ==> template line : mid
 			C - f > "mid" > Ret > Esc
 			C - c > C - Home
+
+@@@
 
 8	entries.ods : image files
 		gen-ed csv file
@@ -232,7 +250,9 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 
 	pre "2-0) edit_memos.9-0" items ==> register
 
+2020年6月13日11:16:02
 
+	add : "2020年6月13日8:57:46", a.o.
 
 
 ============================== / change log

@@ -12,3 +12,7 @@
 http://localhost/Eclipse_Luna/Cake_IFM11/images/manage_IPhone_ImageFiles?db_file=ifm11_backup_20160110_080900.bk
 http://localhost:8001/ip/basics/
 http://127.0.0.1:8000/im/
+
+
+### open dirs
+C:\WORKS_2\shortcuts_docs\start_works_folder.bat

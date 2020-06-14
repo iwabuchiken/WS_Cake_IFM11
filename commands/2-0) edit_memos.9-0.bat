@@ -144,4 +144,4 @@ REM 	2020”N5ŒŽ17“ú7:59:43
 REM ****************************
 call "C:\\WORKS_2\\WS\\WS_Cake_IFM11\\commands\\1-3)_open-entries-csv.bat"
 
-exit
+REM exit
