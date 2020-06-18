@@ -46,12 +46,10 @@ C/P ==> files
 
 ==============================
 	exec : start ==> editing
-	
+
 	2020年6月8日9:13:19
 ==============================
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0) edit_memos.9-0.bat"
-
-
 
 ==============================
 	close : folders
@@ -61,7 +59,6 @@ C/P ==> files
 1	C:\WORKS_2\WS\WS_Cake_IFM11\tmp
 2	コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
 
-
 ==============================
 	close : text files
 	
@@ -69,7 +66,6 @@ C/P ==> files
 ==============================
 1	0-3)_copy-files-from-mobile.txt
 2	11-0) update date.txt
-
 
 ==============================
 	list of non-image files
@@ -95,7 +91,7 @@ C/P ==> files
 1	entries.ods
 		==> clear :
 			C - * > Delete > Ret
-			select --> col.F;G > Delete > Ret
+			select --> col.E;F > Delete > Ret
 			C - a > C - c (copy)
 			C - w > M - d (close file)
 			M - f > b > Ret (re-open)
@@ -191,6 +187,8 @@ C/P ==> files
 			C - * > C - c (copy)
 		sakura file
 			C - * > C - v (paste)
+			M - Space - c (close file)
+
 ==============================
 	commands
 	
@@ -216,10 +214,10 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 12	http://127.0.0.1:8000/im/
 	list no.12~17
 	VLC ==> close
-	list no.18~21
+	list no.18
 
 ==============================
-	closing
+	closing : list no.21, a.o.
 	
 	2020年6月13日11:11:38
 ==============================

@@ -11,7 +11,7 @@ REM taskkill /im soffice.bin
 REM : 2019/11/06 09:56:55
 REM taskkill /f /im soffice.bin
 
-taskkill /im sakura.exe
+rem taskkill /im sakura.exe
 
 REM taskkill /im vlc.exe
 

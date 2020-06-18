@@ -136,7 +136,8 @@ REM ===========================
 REM 	keyboard memo template
 REM 	2020”N5ŒŽ28“ú8:28:39
 REM ===========================
-start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\kb_memo_template.txt
+rem start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\kb_memo_template.txt
+start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memo_string\kb_memo_template.txt
 
 REM ****************************
 REM 	doc
