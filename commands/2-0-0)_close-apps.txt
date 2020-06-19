@@ -190,13 +190,18 @@ C/P ==> files
 			M - Space - c (close file)
 
 ==============================
-	commands
+	commands : insert data
 	
 	2020”N6ŒŽ13“ú11:09:32
 ==============================
 REM #insert data
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
 
+==============================
+	commands : delete photos, validate remote data
+	
+	2020”N6ŒŽ19“ú12:06:33
+==============================
 REM #delete : photos
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-files.bat
 
@@ -213,6 +218,8 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 ==============================
 12	http://127.0.0.1:8000/im/
 	list no.12~17
+		:browser page
+			C - f > "12" > Ret
 	VLC ==> close
 	list no.18
 
@@ -222,7 +229,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 	2020”N6ŒŽ13“ú11:11:38
 ==============================
 13	closing
-	console : server
+	:console : server
 		hit key
 		M - Space - c (close)
 	entries.ods ==> close
