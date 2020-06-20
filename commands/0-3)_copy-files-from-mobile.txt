@@ -1,10 +1,8 @@
 ### 2020年5月1日13:43:50
 
-## jpg,mp4
+## jpg,mp4 ## m4a files ## mid
 コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
-## m4a files
 コンピューター\HUAWEI P30 lite\内部ストレージ\Sounds
-## mid
 コンピューター\HUAWEI P30 lite\内部ストレージ\PerfectPiano\Keyboards
 
 

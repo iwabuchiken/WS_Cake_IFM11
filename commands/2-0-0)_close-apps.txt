@@ -109,7 +109,22 @@ C/P ==> files
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2)_move-files-back-to-tmp-dir.bat"
 
 
+==============================
+	VLC
+	
+	2020”N6ŒŽ8“ú9:13:25
+==============================
+6	
+		open folder
+			right-click > « x 2 > Ret (open dialog)
+			S - tab x 2 > Home > "i" > Ret
+			Tab x 2 > Ret > "«" > Ret (load to window)
 
+==============================
+	entries.ods
+	
+	2020”N6ŒŽ20“ú8:49:26
+==============================
 4	entries.ods
 		list of non-image files ==> C/P
 			txt file
@@ -137,16 +152,6 @@ C/P ==> files
 			C - w (close)
 
 
-==============================
-	VLC
-	
-	2020”N6ŒŽ8“ú9:13:25
-==============================
-6	
-		open folder
-			right-click > « x 2 > Ret (open dialog)
-			S - tab x 2 > Home > "i" > Ret
-			Tab x 2 > Ret > "«" > Ret (load to window)
 
 7	entries.ods
 		enter ==> template line : kb
