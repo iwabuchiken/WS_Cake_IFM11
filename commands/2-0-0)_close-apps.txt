@@ -1,8 +1,8 @@
-==============================
+/==============================
 	exec
 	
 	2020年6月13日8:57:46
-==============================
+==============================/
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1) start xampp, filezilla, open folder, open files.bat"
 
 dir "iphone" ==> change : size
@@ -22,56 +22,56 @@ C/P ==> files
 	2	"詳細" ==> click
 	3	column "状態" ==> click
 
-==============================
+/==============================
 	delete : not-for-storage files
 	
 	2020年6月13日9:07:32
-==============================
+==============================/
 ---
 
-==============================
+/==============================
 	exec : change name
 	
 	2020年6月13日9:07:32
-==============================
+==============================/
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\1) change_file_names.bat"
 
-==============================
+/==============================
 	exec : broser ==> "3	Delete_in-db-existing-files"
 	
 	2020年6月13日9:07:32
-==============================
+==============================/
 	list item ==> click
 	server cosole ==> close
 
-==============================
+/==============================
 	exec : start ==> editing
 
 	2020年6月8日9:13:19
-==============================
+==============================/
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0) edit_memos.9-0.bat"
 
-==============================
+/==============================
 	close : folders
 	
 	2020年6月8日9:13:19
-==============================
+==============================/
 1	C:\WORKS_2\WS\WS_Cake_IFM11\tmp
 2	コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
 
-==============================
+/==============================
 	close : text files
 	
 	2020年6月8日9:13:25
-==============================
+==============================/
 1	0-3)_copy-files-from-mobile.txt
 2	11-0) update date.txt
 
-==============================
+/==============================
 	list of non-image files
 	
 	2020年6月13日9:14:32
-==============================
+==============================/
 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat"
 
@@ -83,11 +83,11 @@ C/P ==> files
 		opened text file
 			select ==> list
 
-==============================
+/==============================
 	exec
 	
 	2020年6月8日9:13:25
-==============================
+==============================/
 1	entries.ods
 		==> clear :
 			C - * > Delete > Ret
@@ -109,22 +109,22 @@ C/P ==> files
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2)_move-files-back-to-tmp-dir.bat"
 
 
-==============================
+/==============================
 	VLC
 	
 	2020年6月8日9:13:25
-==============================
+==============================/
 6	
 		open folder
 			right-click > ↓ x 2 > Ret (open dialog)
 			S - tab x 2 > Home > "i" > Ret
 			Tab x 2 > Ret > "↓" > Ret (load to window)
 
-==============================
+/==============================
 	entries.ods
 	
 	2020年6月20日8:49:26
-==============================
+==============================/
 4	entries.ods
 		list of non-image files ==> C/P
 			txt file
@@ -194,33 +194,38 @@ C/P ==> files
 			C - * > C - v (paste)
 			M - Space - c (close file)
 
-==============================
+/==============================
 	commands : insert data
 	
 	2020年6月13日11:09:32
-==============================
+==============================/
 REM #insert data
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
 
-==============================
-	commands : delete photos, validate remote data
+/==============================
+	commands : delete photos
 	
 	2020年6月19日12:06:33
-==============================
+==============================/
 REM #delete : photos
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-files.bat
 
+/==============================
+	commands : delete : db entries, validate remote data
+	
+	2020年6月19日12:06:33
+==============================/
 REM #delete : db entries
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
 
 REM #validate
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-value.bat
 
-==============================
+/==============================
 	commands : list no.12~17,18~21
 	
 	2020年6月13日11:09:32
-==============================
+==============================/
 12	http://127.0.0.1:8000/im/
 	list no.12~17
 		:browser page
@@ -228,16 +233,17 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 	VLC ==> close
 	list no.18
 
-==============================
+/==============================
 	closing : list no.21, a.o.
 	
 	2020年6月13日11:11:38
-==============================
+==============================/
 13	closing
 	:console : server
 		hit key
 		M - Space - c (close)
 	entries.ods ==> close
+		M - Space - c (close)
 	git push
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\20-1)_closing_Cake_IFM11-WS.bat" && "C:\WORKS_2\WS\WS_Cake_IFM11\commands\20-2)_closing_cakeifm11.bat"
 	
@@ -249,7 +255,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 		http://127.0.0.1:8000/im/
 
 
-============================== change log
+/============================== change log
 2020年6月8日9:34:53
 	first entries
 

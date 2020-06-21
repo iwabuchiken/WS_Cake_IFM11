@@ -5,6 +5,9 @@
 コンピューター\HUAWEI P30 lite\内部ストレージ\Sounds
 コンピューター\HUAWEI P30 lite\内部ストレージ\PerfectPiano\Keyboards
 
+###2020年6月21日8:21:40
+コンピューター\HUAWEI P30 lite\内部ストレージ
+
 
 ### insert to db file 2020年5月20日7:18:22
 http://localhost/Eclipse_Luna/Cake_IFM11/images/manage_IPhone_ImageFiles?db_file=ifm11_backup_20160110_080900.bk
