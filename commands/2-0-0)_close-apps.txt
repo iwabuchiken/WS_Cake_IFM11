@@ -203,7 +203,7 @@ REM #insert data
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
 
 /==============================
-	commands : delete photos
+	commands : delete photos (physical)
 	
 	2020”N6ŒŽ19“ú12:06:33
 ==============================/
@@ -211,7 +211,8 @@ REM #delete : photos
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-files.bat
 
 /==============================
-	commands : delete : db entries, validate remote data
+	commands : delete photos (db entries)
+	validate : remote data
 	
 	2020”N6ŒŽ19“ú12:06:33
 ==============================/
@@ -226,7 +227,9 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 	
 	2020”N6ŒŽ22“ú11:55:13
 ==============================/
----
+	file name string ==> back to "XXX"
+	LH of all equation lines ==> replace
+	close file
 
 /==============================
 	commands : list no.12~17,18~21
