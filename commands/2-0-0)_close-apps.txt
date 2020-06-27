@@ -229,7 +229,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 ==============================/
 	file name string ==> back to "XXX"
 	LH of all equation lines ==> replace
-	close file
+	close
 
 /==============================
 	commands : list no.12~17,18~21
