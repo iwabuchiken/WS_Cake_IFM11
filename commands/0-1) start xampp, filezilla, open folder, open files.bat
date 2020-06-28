@@ -2,7 +2,7 @@ REM ********************************* entries
 REM 	xampp	2019/06/23 07:20:39
 REM 	web pages
 REM 	folders
-REM 	doc	2019/10/07 09:48:49
+REM 	doc
 REM 	itunes	2019/11/16 12:38:51
 REM 	server:8001
 REM *********************************
@@ -46,13 +46,6 @@ REM start "C:\Users\iwabuchiken\Music\iTunes\iTunes Media\Voice Memos"
 
 echo "�R���s���[�^�[\kbuchi �� iPhone\Internal Storage\DCIM" | clip
 
-start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0) update date.txt"
-
-"C:\WORKS_2\Programs\OpenOffice 4\program\soffice.exe"
-
-REM : paths to mobile
-REM 2020年5月7日12:14:58
-start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-3)_copy-files-from-mobile.txt"
 
 
 REM start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0) update date.txt"
@@ -69,6 +62,16 @@ REM *********************************
 REM pushd C:\WORKS_2\WS\WS_Cake_IFM11\commands
 REM start steps.odt
 REM start steps_cake-ifm.odt
+
+start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0) update date.txt"
+
+"C:\WORKS_2\Programs\OpenOffice 4\program\soffice.exe"
+
+REM : paths to mobile
+REM 2020年5月7日12:14:58
+start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-3)_copy-files-from-mobile.txt"
+
+start "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0-0)_close-apps.txt"
 
 REM *********************************
 REM 	itunes

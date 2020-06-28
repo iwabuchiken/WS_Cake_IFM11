@@ -37,7 +37,9 @@ C/P ==> files
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\1) change_file_names.bat"
 
 /==============================
-	exec : broser ==> "3	Delete_in-db-existing-files"
+rem 	exec : broser ==> "3	Delete_in-db-existing-files"
+
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2) Delete_in-db-existing-files.bat"
 	
 	2020”N6ŒŽ13“ú9:07:32
 ==============================/
@@ -229,7 +231,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 ==============================/
 	file name string ==> back to "XXX"
 	LH of all equation lines ==> replace
-	close
+	M - Space - c (close)
 
 /==============================
 	commands : list no.12~17,18~21
