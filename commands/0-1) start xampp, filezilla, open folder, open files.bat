@@ -71,7 +71,11 @@ REM : paths to mobile
 REM 2020年5月7日12:14:58
 start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-3)_copy-files-from-mobile.txt"
 
-start "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0-0)_close-apps.txt"
+rem start "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0-0)_close-apps.txt"
+
+start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0-0)_close-apps.txt"
+
+rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0-0)_close-apps.txt"
 
 REM *********************************
 REM 	itunes
@@ -83,7 +87,7 @@ REM *********************************
 REM 	server:8001
 REM 	2020年5月7日12:12:41
 REM *********************************
-call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat"
+rem call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat"
 
 
 :end

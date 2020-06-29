@@ -205,6 +205,16 @@ def get_folder_list(dpath_Src = __FILE__)
   puts "[#{__LINE__}] file written => #{File.absolute_path(fname)}"
 #  puts "[#{__LINE__}] file written => #{fname}"
   
+  ############
+  #	open : gen-ed file
+  # 2020”N6ŒŽ29“ú11:19:59
+  ############
+#  cmd = "\"#{fname}\""
+  
+#  res = system(cmd)
+  
+#  puts "[#{__LINE__}] gen-ed file ==> called to open"
+  
 end#get_folder_list
 
 ################################
