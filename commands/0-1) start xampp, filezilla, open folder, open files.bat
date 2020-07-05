@@ -73,7 +73,9 @@ start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\
 
 rem start "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0-0)_close-apps.txt"
 
-start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0-0)_close-apps.txt"
+rem start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0-0)_close-apps.txt"
+rem 2020年7月5日11:28:08
+start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0)_close-apps.txt"
 
 rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0-0)_close-apps.txt"
 

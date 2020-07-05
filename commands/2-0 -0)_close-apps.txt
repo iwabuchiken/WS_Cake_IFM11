@@ -98,6 +98,7 @@ rem 	exec : broser ==> "3	Delete_in-db-existing-files"
 			C - w > M - d (close file)
 			M - f > b > Ret (re-open)
 			C - a > C - v > C - s (paste, save)
+			C - Home (to the home cell)
 
 3	http://localhost:8001/ip/basics/
 		"GO"
