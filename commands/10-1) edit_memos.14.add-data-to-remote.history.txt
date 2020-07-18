@@ -1,3 +1,11 @@
+### 2020/07/18 09:48:25
+total_data => 52
+new_data_Success => 51
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
 ### 2020/07/16 09:03:16
 total_data => 20
 new_data_Success => 19
@@ -2254,6 +2262,8 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
 
 done
 
