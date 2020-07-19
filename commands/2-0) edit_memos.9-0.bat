@@ -9,7 +9,9 @@ REM 	git
 REM 	memo : guitar
 REM 	memo : sakura
 REM 	memo : mov files
-REM 	keyboard memo template
+rem 	text file
+REM 		keyboard memo template
+REM 		kb log
 REM 	doc
 REM ****************************
 
@@ -138,6 +140,13 @@ REM 	2020”N5ŒŽ28“ú8:28:39
 REM ===========================
 rem start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\kb_memo_template.txt
 start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memo_string\kb_memo_template.txt
+
+
+REM ===========================
+REM 	kb log
+REM 	2020”N7ŒŽ19“ú8:41:53
+REM ===========================
+start C:\WORKS_2\shortcuts_docs\log_kb.txt
 
 REM ****************************
 REM 	doc
