@@ -9,6 +9,11 @@ dir "iphone" ==> change : size
 
 open ==> mobile folders
 	
+コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
+コンピューター\HUAWEI P30 lite\内部ストレージ\Sounds
+コンピューター\HUAWEI P30 lite\内部ストレージ\PerfectPiano\Keyboards
+コンピューター\HUAWEI P30 lite\内部ストレージ\Pictures\Screenshots	
+
 	text file
 		select ==> line
 		Home > S - End (select ==> path string
