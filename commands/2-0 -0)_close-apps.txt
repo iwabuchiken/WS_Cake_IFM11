@@ -12,7 +12,7 @@ open ==> mobile folders
 コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
 コンピューター\HUAWEI P30 lite\内部ストレージ\Sounds
 コンピューター\HUAWEI P30 lite\内部ストレージ\PerfectPiano\Keyboards
-コンピューター\HUAWEI P30 lite\内部ストレージ\Pictures\Screenshots	
+コンピューター\HUAWEI P30 lite\内部ストレージ\Pictures\Screenshots
 
 	text file
 		select ==> line
@@ -219,12 +219,12 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
 REM #delete : photos
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-files.bat
 
-/==============================
-	commands : delete photos (db entries)
-	validate : remote data
-	
-	2020年6月19日12:06:33
-==============================/
+rem /==============================
+rem 	commands : delete photos (db entries)
+rem 	validate : remote data
+rem 	
+rem 	2020年6月19日12:06:33
+rem ==============================/
 REM #delete : db entries
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
 
