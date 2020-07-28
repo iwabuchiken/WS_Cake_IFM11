@@ -13,6 +13,7 @@ open ==> mobile folders
 コンピューター\HUAWEI P30 lite\内部ストレージ\Sounds
 コンピューター\HUAWEI P30 lite\内部ストレージ\PerfectPiano\Keyboards
 コンピューター\HUAWEI P30 lite\内部ストレージ\Pictures\Screenshots
+コンピューター\HUAWEI P30 lite\内部ストレージ\Music
 
 	text file
 		select ==> line
