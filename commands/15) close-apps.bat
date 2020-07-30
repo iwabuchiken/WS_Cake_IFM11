@@ -19,7 +19,7 @@ REM ****************************
 REM 	move mov files
 REM 	@ 2019/10/26 08:30:24
 REM ****************************
-call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\16)_move-mov-files.bat"
+rem call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\16)_move-mov-files.bat"
 
 
 REM ****************************

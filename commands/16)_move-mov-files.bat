@@ -20,6 +20,8 @@ REM **************************
 echo move C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload\*.m4a C:\WORKS_2\WS\WS_Cake_IFM11\voice-memos
 move C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload\*.m4a C:\WORKS_2\WS\WS_Cake_IFM11\voice-memos
 
-pause
+exit
+
+rem pause
 
 REM exit
