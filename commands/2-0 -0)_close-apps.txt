@@ -161,8 +161,6 @@ rem 	exec : broser ==> "3	Delete_in-db-existing-files"
 		browser
 			C - w (close)
 
-@@@2020”N8ŒŽ7“ú23:00:25
-
 7	entries.ods
 		enter ==> template line : kb
 			C - f > "k-" > Ret
