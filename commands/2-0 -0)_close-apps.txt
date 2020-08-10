@@ -108,7 +108,7 @@ rem 	exec : broser ==> "3	Delete_in-db-existing-files"
 			###C - Home (to the home cell)
 
 3	http://localhost:8001/ip/basics/
-		"GO"
+		"GO"	==> "1	get_4_Corners"
 		"Open dir"
 		"Prep"
 
