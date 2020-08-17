@@ -69,7 +69,8 @@ start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\
 
 REM : paths to mobile
 REM 2020年5月7日12:14:58
-start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-3)_copy-files-from-mobile.txt"
+rem 2020年8月17日11:43:09 comment-out
+rem start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-3)_copy-files-from-mobile.txt"
 
 rem start "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0-0)_close-apps.txt"
 
