@@ -118,7 +118,7 @@ rem 	exec : broser ==> "3	Delete_in-db-existing-files"
 5	2-2)_move-files-back-to-tmp-dir.bat
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2)_move-files-back-to-tmp-dir.bat"
 
-@@@2020”N8ŒŽ13“ú9:44:26
+@@@
 
 
 /==============================
@@ -307,4 +307,4 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 
 
 ============================== / change log
-DELETE FROM ifm11 WHERE _id <= 45944;
+DELETE FROM ifm11 WHERE _id <= 46298;
