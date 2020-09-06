@@ -258,7 +258,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 			SEG : close ==> ods
 			M - Space - c (close)
 			C - f > "12" > Ret
-	aaa
+	
 	VLC ==> close
 	list no.18
 
