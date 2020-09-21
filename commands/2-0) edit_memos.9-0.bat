@@ -134,12 +134,16 @@ REM ****************************
 REM start C:\WORKS_2\WS\WS_Cake_IFM11\commands\18)_move-mov-files_to-ifm11-folder.bat && start C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list.[v.2].20190210_091405.rb
 REM call C:\WORKS_2\WS\WS_Cake_IFM11\commands\18)_move-mov-files_to-ifm11-folder.bat && start C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list.[v.2].20190210_091405.rb
 
+
 REM ===========================
-REM 	keyboard memo template
-REM 	2020”N5ŒŽ28“ú8:28:39
+rem 	text file
+REM 		keyboard memo template
+REM 		2020”N5ŒŽ28“ú8:28:39
 REM ===========================
 rem start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\kb_memo_template.txt
 start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memo_string\kb_memo_template.txt
+rem : 2020”N9ŒŽ21“ú11:31:46
+start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memo_string\knot_memo_template.txt
 
 
 REM ===========================
