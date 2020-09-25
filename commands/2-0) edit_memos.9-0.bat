@@ -150,7 +150,8 @@ REM ===========================
 REM 	kb log
 REM 	2020”N7ŒŽ19“ú8:41:53
 REM ===========================
-start C:\WORKS_2\shortcuts_docs\log_kb.txt
+rem : comment out	/ 2020”N9ŒŽ25“ú8:43:06
+rem start C:\WORKS_2\shortcuts_docs\log_kb.txt
 
 REM ****************************
 REM 	doc
