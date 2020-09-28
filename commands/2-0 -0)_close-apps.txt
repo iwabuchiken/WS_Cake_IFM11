@@ -96,6 +96,14 @@ rem 	exec : broser ==> "3	Delete_in-db-existing-files"
 	
 	2020”N6ŒŽ8“ú9:13:25
 ==============================/
+3	http://localhost:8001/ip/basics/
+		"GO"	==> "1	get_4_Corners"
+		"Open dir"
+		"Prep"
+
+		validate ==> copied? (no gray-area-containing image file)
+		"Gen"
+
 1	entries.ods
 		==> clear :
 			C - * > Delete > Ret
@@ -106,14 +114,6 @@ rem 	exec : broser ==> "3	Delete_in-db-existing-files"
 			C - a > - v > - Home > - s (paste, save)
 			
 			###C - Home (to the home cell)
-
-3	http://localhost:8001/ip/basics/
-		"GO"	==> "1	get_4_Corners"
-		"Open dir"
-		"Prep"
-
-		validate ==> copied? (no gray-area-containing image file)
-		"Gen"
 
 5	2-2)_move-files-back-to-tmp-dir.bat
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2)_move-files-back-to-tmp-dir.bat"
