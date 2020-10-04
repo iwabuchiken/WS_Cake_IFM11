@@ -310,3 +310,4 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 
 ============================== / change log
 DELETE FROM ifm11 WHERE _id <= 46693;
+DELETE FROM ifm11 WHERE _id <= 47366;
