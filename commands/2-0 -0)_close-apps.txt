@@ -290,7 +290,10 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 	
 		image files
 	
-		this	==> close
+		this	
+			cursor ==> to the top
+			
+			==> close
 
 /============================== change log
 2020”N6ŒŽ8“ú9:34:53
