@@ -139,6 +139,7 @@ rem 	exec : broser ==> "3	Delete_in-db-existing-files"
 	
 	2020”N6ŒŽ20“ú8:49:26
 ==============================/
+
 4	entries.ods
 		list of non-image files ==> C/P
 			txt file
