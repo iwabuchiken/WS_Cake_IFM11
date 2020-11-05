@@ -35,18 +35,18 @@ C/P ==> files
 ==============================/
 ---
 
-/==============================
-	exec : change name
-	
-	2020年6月13日9:07:32
-==============================/
+rem /==============================
+rem 	exec : change name
+rem 	
+rem 	2020年6月13日9:07:32
+rem ==============================/
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\1) change_file_names.bat"
 
-/==============================
+rem /==============================
 rem 	exec : broser ==> "3	Delete_in-db-existing-files"
-	
-	2020年6月13日9:07:32
-==============================/
+rem 	
+rem 	2020年6月13日9:07:32
+rem ==============================/
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2) Delete_in-db-existing-files.bat"
 
 	#list item ==> click
@@ -196,7 +196,7 @@ rem 	exec : broser ==> "3	Delete_in-db-existing-files"
 			images
 			csv
 
-9	commands
+rem 9	commands
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat"
 "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat"
 
