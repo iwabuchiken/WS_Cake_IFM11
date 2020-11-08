@@ -1,8 +1,8 @@
-/==============================
-	exec
-	
-	2020年6月13日8:57:46
-==============================/
+rem /==============================
+rem 	exec
+rem 	
+rem 	2020年6月13日8:57:46
+rem ==============================/
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1) start xampp, filezilla, open folder, open files.bat"
 
 dir "iphone" ==> change : size
@@ -52,11 +52,11 @@ rem ==============================/
 	#list item ==> click
 	#server cosole ==> close
 
-/==============================
-	exec : start ==> editing
-
-	2020年6月8日9:13:19
-==============================/
+rem /==============================
+rem 	exec : start ==> editing
+rem 
+rem 	2020年6月8日9:13:19
+rem ==============================/
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0) edit_memos.9-0.bat"
 
 /==============================
@@ -75,12 +75,12 @@ rem ==============================/
 1	0-3)_copy-files-from-mobile.txt
 2	11-0) update date.txt
 
-/==============================
-	list of non-image files
-	
-	2020年6月13日9:14:32
-==============================/
-2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
+rem /==============================
+rem 	list of non-image files
+rem 	
+rem 	2020年6月13日9:14:32
+rem ==============================/
+rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat"
 
 		select -> Ret (exec)
@@ -104,7 +104,7 @@ rem ==============================/
 		validate ==> copied? (no gray-area-containing image file)
 		"Gen"
 
-5	2-2)_move-files-back-to-tmp-dir.bat
+rem 5	2-2)_move-files-back-to-tmp-dir.bat
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2)_move-files-back-to-tmp-dir.bat"
 
 1	entries.ods
@@ -215,11 +215,11 @@ rem 9	commands
 REM #insert data
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
 
-/==============================
-	commands : delete photos (physical)
-	
-	2020年6月19日12:06:33
-==============================/
+REM /==============================
+REM 	commands : delete photos (physical)
+REM 	
+REM 	2020年6月19日12:06:33
+REM ==============================/
 REM #delete : photos
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-files.bat
 
