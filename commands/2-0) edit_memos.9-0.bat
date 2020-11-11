@@ -134,6 +134,11 @@ REM ****************************
 REM start C:\WORKS_2\WS\WS_Cake_IFM11\commands\18)_move-mov-files_to-ifm11-folder.bat && start C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list.[v.2].20190210_091405.rb
 REM call C:\WORKS_2\WS\WS_Cake_IFM11\commands\18)_move-mov-files_to-ifm11-folder.bat && start C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list.[v.2].20190210_091405.rb
 
+REM ****************************
+REM 	doc
+REM 	2020”N5ŒŽ17“ú7:59:43
+REM ****************************
+call "C:\\WORKS_2\\WS\\WS_Cake_IFM11\\commands\\1-3)_open-entries-csv.bat"
 
 REM ===========================
 rem 	text file
@@ -153,10 +158,5 @@ REM ===========================
 rem : comment out	/ 2020”N9ŒŽ25“ú8:43:06
 rem start C:\WORKS_2\shortcuts_docs\log_kb.txt
 
-REM ****************************
-REM 	doc
-REM 	2020”N5ŒŽ17“ú7:59:43
-REM ****************************
-call "C:\\WORKS_2\\WS\\WS_Cake_IFM11\\commands\\1-3)_open-entries-csv.bat"
 
 REM exit
