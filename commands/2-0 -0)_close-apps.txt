@@ -207,11 +207,11 @@ rem 9	commands
 			C - * > C - v (paste)
 			M - Space - c (close file)
 
-/==============================
-	commands : insert data
-	
-	2020”N6ŒŽ13“ú11:09:32
-==============================/
+REM /==============================
+REM 	commands : insert data
+REM 	
+REM 	2020”N6ŒŽ13“ú11:09:32
+REM ==============================/
 REM #insert data
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
 
