@@ -148,7 +148,8 @@ REM ===========================
 rem start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\kb_memo_template.txt
 start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memo_string\kb_memo_template.txt
 rem : 2020”N9ŒŽ21“ú11:31:46
-start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memo_string\knot_memo_template.txt
+rem : comment out : 2020”N12ŒŽ2“ú15:57:25
+rem start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memo_string\knot_memo_template.txt
 
 
 REM ===========================
