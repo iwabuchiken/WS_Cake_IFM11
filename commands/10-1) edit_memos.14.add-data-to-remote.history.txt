@@ -1,3 +1,11 @@
+### 2020/12/04 14:32:05
+total_data => 31
+new_data_Success => 30
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
 ### 2020/12/03 14:13:08
 total_data => 20
 new_data_Success => 19
@@ -3230,6 +3238,8 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
 
 done
 
