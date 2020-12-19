@@ -139,6 +139,7 @@ rem 5	2-2)_move-files-back-to-tmp-dir.bat
 	
 	2020”N6ŒŽ20“ú8:49:26
 ==============================/
+@@@2020”N12ŒŽ17“ú18:08:28
 
 4	entries.ods
 		list of non-image files ==> C/P
@@ -296,7 +297,6 @@ rem	git push
 			
 			==> close
 
-@@@
 
 /============================== change log
 2020”N6ŒŽ8“ú9:34:53
