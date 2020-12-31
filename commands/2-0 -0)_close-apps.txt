@@ -104,6 +104,8 @@ rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 		validate ==> copied? (no gray-area-containing image file)
 		"Gen"
 
+@@@2020”N12ŒŽ31“ú14:07:02
+
 rem 5	2-2)_move-files-back-to-tmp-dir.bat
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2)_move-files-back-to-tmp-dir.bat"
 
