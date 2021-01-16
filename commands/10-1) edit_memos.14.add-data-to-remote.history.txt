@@ -1,3 +1,11 @@
+### 2021/01/16 10:50:48
+total_data => 16
+new_data_Success => 15
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
 ### 2021/01/15 11:49:04
 total_data => 10
 new_data_Success => 9
@@ -3542,6 +3550,8 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
 
 done
 
