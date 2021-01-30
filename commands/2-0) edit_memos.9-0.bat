@@ -19,6 +19,12 @@ REM ****************************
 REM pause
 REM exit
 
+REM ****************************
+rem 	gen : mid files list
+rem 	2021”N1ŒŽ30“ú9:15:07
+REM ****************************
+call C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0) edit_memos.9-0_mid-files.bat
+
 call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.9.move-tmp-to-iphone.bat
 
 call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.1.bat
