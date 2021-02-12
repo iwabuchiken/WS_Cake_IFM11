@@ -1,3 +1,27 @@
+### 2021/02/12 17:23:47
+total_data => 19
+new_data_Success => 18
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
+### 2021/02/12 17:14:53
+total_data => 19
+new_data_Success => 18
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
+### 2021/02/12 17:14:49
+total_data => 19
+new_data_Success => 18
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
 ### 2021/02/11 12:33:55
 total_data => 11
 new_data_Success => 10
@@ -3742,6 +3766,12 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
+
+done
+
+done
 
 done
 
