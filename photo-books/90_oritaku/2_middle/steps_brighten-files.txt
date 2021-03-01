@@ -1,0 +1,21 @@
+2021年2月28日23:25:12
+open
+	C - M - o
+
+processing
+	M - c
+	M - r
+	M - t
+	"40"
+	M - o
+
+export
+	C - S - e
+	Ret
+	M - r	oversave
+	M - e	export
+	
+close
+	C - w	close
+	M - d
+
