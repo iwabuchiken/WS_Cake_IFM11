@@ -3,19 +3,12 @@ open
 	C - M - o
 
 processing
-	M - c
-	M - r
-	M - t
-	"40"
-	M - o
+ 	M - c > r > M - t
+	"40" (or, "10") > M - o
 
 export
-	C - S - e
-	Ret
-	M - r	oversave
+ 	C - S - e > Ret > M - r	[oversave]
 	M - e	export
 	
 close
-	C - w	close
-	M - d
-
+	C - w	[close] > M - d > C - M - o [open] > "↓" > Ret
