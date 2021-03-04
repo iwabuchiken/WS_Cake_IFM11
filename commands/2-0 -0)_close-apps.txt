@@ -353,6 +353,9 @@ rem	git push
 ============================== resources : 2021”N2ŒŽ17“ú12:06:09
 C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_remote-not-recorded^(lollipop-server)].txt
 
+rem 2021”N3ŒŽ4“ú11:23:28
+sakura C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_remote-not-recorded^(lollipop-server)].txt
+
 ============================== / resources : 2021”N2ŒŽ17“ú12:06:09
 
 DELETE FROM ifm11 WHERE _id <= 46693;
