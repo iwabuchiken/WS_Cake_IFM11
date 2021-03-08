@@ -46,8 +46,8 @@ dir "iphone" ==> change : size
 open ==> mobile folders
 	
 コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
-コンピューター\HUAWEI P30 lite\内部ストレージ\Sounds
 コンピューター\HUAWEI P30 lite\内部ストレージ\PerfectPiano\Keyboards
+コンピューター\HUAWEI P30 lite\内部ストレージ\Sounds
 コンピューター\HUAWEI P30 lite\内部ストレージ\Pictures\Screenshots
 コンピューター\HUAWEI P30 lite\内部ストレージ\Music
 
@@ -387,5 +387,9 @@ DELETE FROM ifm11 WHERE _id <= 49773;
 
 ### 2021年2月22日11:31:44
 DELETE FROM ifm11 WHERE _id <= 50007;
+
+### 2021年3月8日8:58:14
+DELETE FROM ifm11 WHERE _id <= 50180;
+
 
 
