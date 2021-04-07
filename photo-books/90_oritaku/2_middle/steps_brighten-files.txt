@@ -1,4 +1,4 @@
-2021年2月28日23:25:12
+###2021年2月28日23:25:12
 open
 	C - M - o
 
@@ -12,3 +12,28 @@ export
 	
 close
 	C - w	[close] > M - d > C - M - o [open] > "↓" > Ret
+
+###2021年4月7日0:07:03
+open
+	C - M - o
+
+processing
+ 	1	M - c
+ 	2	r
+ 	3	M - t
+ 	4	C - v (paste value)
+	5	M - o
+
+export
+ 	1	C - S - e
+ 	2	Ret
+ 	3	Ret	[oversave]
+ 	*	[wait]
+	4	Ret	[export]
+	
+close
+	1	C - w	[close]
+	2	M - d
+	3	C - M - o [open]
+	4	"↓"
+	5	Ret
