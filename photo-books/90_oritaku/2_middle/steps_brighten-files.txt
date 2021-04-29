@@ -35,5 +35,4 @@ close
 	1	C - w	[close]
 	2	M - d
 	3	C - M - o [open]
-	4	"↓"
-	5	Ret
+ 	4	"↓" & Ret
