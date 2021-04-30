@@ -363,6 +363,11 @@ C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_remote-n
 rem 2021”N3ŒŽ4“ú11:23:28
 sakura C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_remote-not-recorded^(lollipop-server)].txt
 
+###========================== regex
+###2021”N4ŒŽ30“ú9:13:58
+# shinobue memo, reset
+=[^~].*?(,| )	=~$1
+
 ============================== / resources : 2021”N2ŒŽ17“ú12:06:09
 
 DELETE FROM ifm11 WHERE _id <= 46693;
