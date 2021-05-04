@@ -419,3 +419,6 @@ DELETE FROM ifm11 WHERE _id >= 50491;
 ###XXX
 DELETE FROM ifm11 WHERE _id <= XXX;
 
+
+###2021”N5ŒŽ4“ú17:40:21
+taskkill /f /im opera.exe
