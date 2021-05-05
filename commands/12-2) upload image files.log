@@ -9096,3 +9096,10 @@ size : 0.16 (MB)
 2021/05/05 08:45:44
 time : 5.486 sec
 rate : 0.029 (MB/sec)
+
+[2021/05/05 22:42:07] ======================================== UPLOADS
+[views.py:749] Starting file uploads...
+total => 0 files
+2021/05/05 22:42:07
+[views.py:925] total = 18 / store done = 0
+[views.py:958] result => Done : total = 18 / not yet = 0 / uploaded = 0 (time : 0.000 sec)
