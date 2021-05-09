@@ -368,6 +368,11 @@ sakura C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_r
 # shinobue memo, reset
 =[^~].*?(,| )	=~$1
 
+
+###========================== TEMPLATES
+#2021”N5ŒŽ9“ú8:35:52
+:m RES #*# / free# JVEMV6 70#_66:s-1 / 70. CO2 (lang=ko) / w=,topic=,other=~,think~,doc=
+
 ============================== / resources : 2021”N2ŒŽ17“ú12:06:09
 
 DELETE FROM ifm11 WHERE _id <= 46693;
