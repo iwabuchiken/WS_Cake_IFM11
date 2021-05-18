@@ -3,32 +3,52 @@ rem 	command list
 rem 	
 rem 	2021年1月17日12:15:35
 rem ==============================/
-"C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1) start xampp, filezilla, open folder, open files.bat"
+*"C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1) start xampp, filezilla, open folder, open files.bat"
 
-"C:\WORKS_2\WS\WS_Cake_IFM11\commands\1) change_file_names.bat"
+rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\1) change_file_names.bat"
 
-"C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2) Delete_in-db-existing-files.bat"
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names
 
-"C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0) edit_memos.9-0.bat"
+rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2) Delete_in-db-existing-files.bat"
+
+*C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
+
+
+rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0) edit_memos.9-0.bat"
+
+*C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
 rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
-"C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat"
+rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat"
+
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
+
+
 
 ### ip ops
 
-"C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2)_move-files-back-to-tmp-dir.bat"
+rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2)_move-files-back-to-tmp-dir.bat"
 
-@@@2021年5月15日9:57:03
-### write memos
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
+
+
+@@@2021年5月18日10:42:32
+
+*### write memos
 
 rem 9	commands
-"C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat"
-"C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat"
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat" && "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat"
+
+rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat"
+rem "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat"
 
 REM #insert data
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
+
 REM #delete : photos
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-files.bat
+
 REM #delete : db entries
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
 
@@ -54,8 +74,10 @@ dir "iphone" ==> change : size
 
 open ==> mobile folders
 	
-コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
-コンピューター\HUAWEI P30 lite\内部ストレージ\PerfectPiano\Keyboards
+*コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
+
+*コンピューター\HUAWEI P30 lite\内部ストレージ\PerfectPiano\Keyboards
+
 コンピューター\HUAWEI P30 lite\内部ストレージ\Sounds
 コンピューター\HUAWEI P30 lite\内部ストレージ\Pictures\Screenshots
 コンピューター\HUAWEI P30 lite\内部ストレージ\Music
@@ -377,6 +399,19 @@ sakura C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_r
 
 ============================== / resources : 2021年2月17日12:06:09
 
+============================== shinobue memo
+###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
+
+:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=prev:5-15:s-1,notes=h:1-3-6-0-6-3,Re+,tempo=~,other=~,key=~ \\\ s.2:prac,for=~,notes=h:6-3-6-2,Re+,tempo=~,other=~,key=~ \\\ s.3:prac,for=~,ReX,tempo=~,other=~,key=~,notes=h:3-3!-3 \\\ s.4:prac,for=~,ReX,tempo=~,other=~,key=~,notes=h:3-3!-3/3-1-3 \\\ s.5:prac,for=大甲,Re+,tempo=~,other=~,key=~,notes=h:2
+
+
+follow,R=~,ReX
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~
+follow,R=~,ReX
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
+rev,for=~,ReX,tempo=~,other=~,key=~
+
+============================== delete entries from db
 DELETE FROM ifm11 WHERE _id <= 46693;
 DELETE FROM ifm11 WHERE _id <= 47366;
 
@@ -421,6 +456,9 @@ DELETE FROM ifm11 WHERE _id >= 50491;
 
 ###2021年5月2日8:35:34
 #DELETE FROM ifm11 WHERE _id <= 50777;
+
+###2021年5月15日10:30:54
+DELETE FROM ifm11 WHERE _id <= 50934;
 
 
 ###XXX

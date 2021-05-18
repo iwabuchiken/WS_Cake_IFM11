@@ -9272,3 +9272,54 @@ size : 0.20 (MB)
 2021/05/15 10:28:18
 time : 6.829 sec
 rate : 0.030 (MB/sec)
+
+[2021/05/15 23:07:53] ======================================== UPLOADS
+[views.py:749] Starting file uploads...
+total => 0 files
+2021/05/15 23:07:53
+[views.py:925] total = 16 / store done = 0
+[views.py:958] result => Done : total = 16 / not yet = 0 / uploaded = 0 (time : 0.000 sec)
+
+[2021/05/16 08:12:32] ======================================== UPLOAD DB FILE
+[views.py:258] Starting file uploads...
+[views.py:284] starting storbinary... : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data\ifm11_backup_20160110_080900.bk
+2021/05/16 08:12:33
+size : 0.16 (MB)
+[views.py:343] storbinary complete : returned : 226 Transfer complete
+2021/05/16 08:12:41
+time : 8.094 sec
+rate : 0.020 (MB/sec)
+
+[2021/05/16 23:17:42] ======================================== UPLOADS
+[views.py:749] Starting file uploads...
+total => 0 files
+2021/05/16 23:17:42
+[views.py:925] total = 7 / store done = 0
+[views.py:958] result => Done : total = 7 / not yet = 0 / uploaded = 0 (time : 0.000 sec)
+
+[2021/05/17 10:15:24] ======================================== UPLOAD DB FILE
+[views.py:258] Starting file uploads...
+[views.py:284] starting storbinary... : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data\ifm11_backup_20160110_080900.bk
+2021/05/17 10:15:24
+size : 0.16 (MB)
+[views.py:343] storbinary complete : returned : 226 Transfer complete
+2021/05/17 10:15:30
+time : 5.528 sec
+rate : 0.030 (MB/sec)
+
+[2021/05/17 22:56:45] ======================================== UPLOADS
+[views.py:749] Starting file uploads...
+total => 0 files
+2021/05/17 22:56:45
+[views.py:925] total = 11 / store done = 0
+[views.py:958] result => Done : total = 11 / not yet = 0 / uploaded = 0 (time : 0.001 sec)
+
+[2021/05/18 10:59:01] ======================================== UPLOAD DB FILE
+[views.py:258] Starting file uploads...
+[views.py:284] starting storbinary... : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data\ifm11_backup_20160110_080900.bk
+2021/05/18 10:59:01
+size : 0.17 (MB)
+[views.py:343] storbinary complete : returned : 226 Transfer complete
+2021/05/18 10:59:07
+time : 5.748 sec
+rate : 0.029 (MB/sec)
