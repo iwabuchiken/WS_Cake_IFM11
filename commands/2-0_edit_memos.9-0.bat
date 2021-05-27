@@ -167,3 +167,8 @@ rem start C:\WORKS_2\shortcuts_docs\log_kb.txt
 
 
 REM exit
+
+echo.
+
+pause
+

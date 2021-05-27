@@ -94,4 +94,4 @@ call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat"
 
 :end
 
-REM pause
+pause

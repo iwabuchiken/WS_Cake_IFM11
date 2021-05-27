@@ -5,6 +5,8 @@ REM ****************************
 
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\17)_move-mov-files_back-to-iphone-folder.bat
 
+echo.
 
+pause
 
 REM exit
