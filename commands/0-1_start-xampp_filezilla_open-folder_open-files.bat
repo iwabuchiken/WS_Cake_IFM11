@@ -26,7 +26,9 @@ REM ===========================
 pushd C:\WORKS_2\Programs\opera
 REM start launcher.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
 set url_1="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?sort=file_name&direction=desc"
-set url_2="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3"
+
+rem : comment out : 2021年5月29日9:36:01
+rem set url_2="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3"
 
 start launcher.exe %url_1% %url_2%
 
@@ -45,11 +47,12 @@ REM start "C:\Users\iwabuchiken\Music\iTunes\iTunes Media\Voice Memos"
 REM ==> not working 20191123_121451
 REM start "C:\Users\iwabuchiken\Music\iTunes\iTunes Media\Voice Memos"
 
-echo "�R���s���[�^�[\kbuchi �� iPhone\Internal Storage\DCIM" | clip
+echo "コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera" | clip
 
 start "C:\WORKS_2\Programs\sakura\sakura" "C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0) update date.txt"
 
-"C:\WORKS_2\Programs\OpenOffice 4\program\soffice.exe"
+rem : c/o : 2021年5月29日9:37:34
+rem "C:\WORKS_2\Programs\OpenOffice 4\program\soffice.exe"
 
 REM : paths to mobile
 REM 2020年5月7日12:14:58
@@ -83,13 +86,17 @@ REM 	2020年5月28日8:12:23
 REM ===========================
 REM start C:\Users\iwabuchiken\Desktop\apps\"Command Prompt.lnk" /k a
 REM ref ==> C:\WORKS_2\Utils\commands
-start C:\WORKS_2\"Command Prompt.lnk" /k a
+
+rem : c/o : 2021年5月29日9:37:56
+rem start C:\WORKS_2\"Command Prompt.lnk" /k a
 
 REM ===========================
 REM 	server:8000
 REM 	2020年5月7日12:12:41
 REM ===========================
-call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat"
+
+rem : c/o : 2021年5月29日9:38:07
+rem call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat"
 
 
 :end
