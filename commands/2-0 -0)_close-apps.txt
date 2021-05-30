@@ -12,13 +12,13 @@ rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1) start xampp, filezilla, open fold
 @@@2021”N5ŒŽ26“ú8:21:53
 
 2)
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
+*C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
 3)
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
+*C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
 4)
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
+*C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
 
 
@@ -44,7 +44,7 @@ rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat" && "C:\
 
 2)
 REM #insert data
-C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
+*C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
 
 3)
 REM #delete : photos
@@ -66,7 +66,7 @@ rem start C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
 2)
 "*" char --> remove
 
-^\*	
+	^\*	
 
 ###///end
 
