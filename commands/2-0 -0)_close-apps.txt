@@ -7,18 +7,18 @@ rem ==============================/
 1)
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
 
-rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1) start xampp, filezilla, open folder, open files.bat"
+//"C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1) start xampp, filezilla, open folder, open files.bat"
 
-@@@2021年5月26日8:21:53
+@@@2021年5月31日9:12:28
 
 2)
-*C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
 3)
-*C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
 4)
-*C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
 
 
@@ -34,8 +34,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
 1)
 rem 9	commands : restart server, open csv file
 
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
-C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\3-1_restart-server-8000-im_open-csv-file.bat
+
+//C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
+//C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 
 rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat" && "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat"
 
@@ -44,7 +46,7 @@ rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat" && "C:\
 
 2)
 REM #insert data
-*C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
 
 3)
 REM #delete : photos
@@ -61,7 +63,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
 rem	git push
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
 
-rem start C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
+//rem start C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
 
 2)
 "*" char --> remove
@@ -389,10 +391,14 @@ rem	git push
 ============================== / change log
 
 ============================== resources : 2021年2月17日12:06:09
-C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_remote-not-recorded^(lollipop-server)].txt
+
+###2021年5月31日10:32:17
+C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.fix_cake-ifm11_remote-not-recorded_lollipop-server.txt
+
+//C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_remote-not-recorded^(lollipop-server)].txt
 
 rem 2021年3月4日11:23:28
-sakura C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_remote-not-recorded^(lollipop-server)].txt
+//sakura C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_remote-not-recorded^(lollipop-server)].txt
 
 
 ###========================== TEMPLATES
