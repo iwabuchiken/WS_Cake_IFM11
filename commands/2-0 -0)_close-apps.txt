@@ -39,7 +39,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\3-1_restart-server-8000-im_open-csv-file.ba
 //C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
 //C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 
-rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat" && "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat"
+//rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat" && "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat"
 
 1-2)
 ## ods memos --> c/p to csv file
@@ -410,7 +410,7 @@ rem 2021”N3ŒŽ4“ú11:23:28
 ============================== shinobue memo
 ###2021”N5ŒŽ6“ú8:15:21 (copied and pasted from : kb_memo_template.txt at 2021”N5ŒŽ16“ú7:44:09)
 
-:m :ŽÂ“J,shinobue #*# / session-memo / s.1:prac,for=musle-movements;tonguing,Re+,tempo=~,other=tips+,key=~,notes=~ \\\ s.2:todays-melody,genr=~,for=prac:musles,key=~,tempo=~,R=1,i.f.=~
+:m :ŽÂ“J,shinobue #*# / session-memo / s.1:genr=atom,key=h-3;h-3,for=~,memo=~,tempo=~,Re+,R=~,other=2-atoms,notes=pitch:4-7f_-1;‡A7f_-1
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
@@ -419,6 +419,12 @@ todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~
 follow,R=~,ReX
 prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+
+============================== gt,guitar memo
+:m music / log / gt,guitar / || s.1: genr=todays-melody,key=D,for=~,memo=~,tuning=open-d,other=~
+
+genr=~,key=~,for=~,memo=~,tempo=~,tuning=~,Re~,R=~,other=~
 
 ###========================== regex
 ###2021”N4ŒŽ30“ú9:13:58
