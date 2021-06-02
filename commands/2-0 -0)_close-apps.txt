@@ -34,10 +34,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
 1)
 rem 9	commands : restart server, open csv file
 
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\3-1_restart-server-8000-im_open-csv-file.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 
-//C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
-//C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
+//C:\WORKS_2\WS\WS_Cake_IFM11\commands\3-1_restart-server-8000-im_open-csv-file.bat
+
 
 //rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat" && "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat"
 
@@ -425,6 +426,14 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m music / log / gt,guitar / || s.1: genr=todays-melody,key=D,for=~,memo=~,tuning=open-d,other=~
 
 genr=~,key=~,for=~,memo=~,tempo=~,tuning=~,Re~,R=~,other=~
+
+============================ kb,keyboard memo
+:VIDEO / @é©ëÓ / ÉÅÉÇ / kb,keyboard / ââëtÅAplay / k-2021-0601-4 / genr=melody,key=~,chords=~,for=~,memo=log_guitar.log:d-1,tempo=~,Re+,R=4,notes=~,other=~
+
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+genr=~,key=~,chords=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+
 
 ###========================== regex
 ###2021îN4åé30ì˙9:13:58
