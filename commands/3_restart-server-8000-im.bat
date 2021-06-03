@@ -7,7 +7,9 @@ rem start C:\WORKS_2\"Command Prompt.lnk" /k "C:\WORKS_2\batches\r.bat d2"
 
 rem : updated : 2020”N12ŒŽ2“ú17:39:30
 rem start && r d2
-start r d2
+rem start r d2
+
+start C:\WORKS_2\batches\r.bat d2
 
 REM C:\WORKS_2\batches\r.bat d2
 
