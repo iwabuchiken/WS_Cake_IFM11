@@ -1,21 +1,21 @@
 grem /==============================
 rem 	command list
 rem 	
-rem 	2021”N1Œ17“ú12:15:35
+rem 	2021å¹´1æœˆ17æ—¥12:15:35
 rem ==============================/
 
 1)
-*C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
 
 //"C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1) start xampp, filezilla, open folder, open files.bat"
 
-@@@2021”N5Œ31“ú9:12:28
+@@@2021å¹´5æœˆ31æ—¥9:12:28
 
 2)
-*C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
 3)
-*C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
 4)
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
@@ -23,11 +23,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
 
 rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
-*C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 
 ### ip ops
 
-*C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
 
 ### write memos
 
@@ -35,7 +35,7 @@ rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 rem 9	commands : restart server, open csv file
 
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
-*C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 
 //C:\WORKS_2\WS\WS_Cake_IFM11\commands\3-1_restart-server-8000-im_open-csv-file.bat
 
@@ -55,14 +55,14 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-file
 
 4)
 REM #delete : db entries
-*C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
 
 ### steps (browser)
 	No.12~
 
 1)
 rem	git push
-*C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
 
 //rem start C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
 
@@ -76,7 +76,7 @@ rem	git push
 rem /==============================
 rem 	exec
 rem 	
-rem 	2020”N6Œ13“ú8:57:46
+rem 	2020å¹´6æœˆ13æ—¥8:57:46
 rem ==============================/
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1) start xampp, filezilla, open folder, open files.bat"
 
@@ -84,13 +84,13 @@ dir "iphone" ==> change : size
 
 open ==> mobile folders
 	
-ƒRƒ“ƒsƒ…[ƒ^[\HUAWEI P30 lite\“à•”ƒXƒgƒŒ[ƒW\DCIM\Camera
+ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼\HUAWEI P30 lite\å†…éƒ¨ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸\DCIM\Camera
 
-ƒRƒ“ƒsƒ…[ƒ^[\HUAWEI P30 lite\“à•”ƒXƒgƒŒ[ƒW\PerfectPiano\Keyboards
+ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼\HUAWEI P30 lite\å†…éƒ¨ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸\PerfectPiano\Keyboards
 
-ƒRƒ“ƒsƒ…[ƒ^[\HUAWEI P30 lite\“à•”ƒXƒgƒŒ[ƒW\Sounds
-ƒRƒ“ƒsƒ…[ƒ^[\HUAWEI P30 lite\“à•”ƒXƒgƒŒ[ƒW\Pictures\Screenshots
-ƒRƒ“ƒsƒ…[ƒ^[\HUAWEI P30 lite\“à•”ƒXƒgƒŒ[ƒW\Music
+ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼\HUAWEI P30 lite\å†…éƒ¨ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸\Sounds
+ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼\HUAWEI P30 lite\å†…éƒ¨ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸\Pictures\Screenshots
+ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼\HUAWEI P30 lite\å†…éƒ¨ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸\Music
 
 	text file
 		select ==> line
@@ -101,28 +101,28 @@ open ==> mobile folders
 		Tab (back to text file)
 
 C/P ==> files
-	1	button "•\¦•û–@" - "¥" ==> click
-	2	"Ú×" ==> click
-	3	column "ó‘Ô" ==> click
+	1	button "è¡¨ç¤ºæ–¹æ³•" - "â–¼" ==> click
+	2	"è©³ç´°" ==> click
+	3	column "çŠ¶æ…‹" ==> click
 
 /==============================
 	delete : not-for-storage files
 	
-	2020”N6Œ13“ú9:07:32
+	2020å¹´6æœˆ13æ—¥9:07:32
 ==============================/
 ---
 
 rem /==============================
 rem 	exec : change name
 rem 	
-rem 	2020”N6Œ13“ú9:07:32
+rem 	2020å¹´6æœˆ13æ—¥9:07:32
 rem ==============================/
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\1) change_file_names.bat"
 
 rem /==============================
 rem 	exec : broser ==> "3	Delete_in-db-existing-files"
 rem 	
-rem 	2020”N6Œ13“ú9:07:32
+rem 	2020å¹´6æœˆ13æ—¥9:07:32
 rem ==============================/
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2) Delete_in-db-existing-files.bat"
 
@@ -132,22 +132,22 @@ rem ==============================/
 rem /==============================
 rem 	exec : start ==> editing
 rem 
-rem 	2020”N6Œ8“ú9:13:19
+rem 	2020å¹´6æœˆ8æ—¥9:13:19
 rem ==============================/
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0) edit_memos.9-0.bat"
 
 /==============================
 	close : folders
 	
-	2020”N6Œ8“ú9:13:19
+	2020å¹´6æœˆ8æ—¥9:13:19
 ==============================/
 1	C:\WORKS_2\WS\WS_Cake_IFM11\tmp
-2	ƒRƒ“ƒsƒ…[ƒ^[\HUAWEI P30 lite\“à•”ƒXƒgƒŒ[ƒW\DCIM\Camera
+2	ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼\HUAWEI P30 lite\å†…éƒ¨ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸\DCIM\Camera
 
 /==============================
 	close : text files
 	
-	2020”N6Œ8“ú9:13:25
+	2020å¹´6æœˆ8æ—¥9:13:25
 ==============================/
 1	0-3)_copy-files-from-mobile.txt
 2	11-0) update date.txt
@@ -155,23 +155,23 @@ rem ==============================/
 rem /==============================
 rem 	list of non-image files
 rem 	
-rem 	2020”N6Œ13“ú9:14:32
+rem 	2020å¹´6æœˆ13æ—¥9:14:32
 rem ==============================/
 rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat"
 
 		select -> Ret (exec)
 		open ==> txt file
-			M - ª (move up directory)
+			M - â†‘ (move up directory)
 			Home > d > Ret (choose file, open)
-			M - © (move back)
+			M - â† (move back)
 		opened text file
 			select ==> list
 
 /==============================
 	exec
 	
-	2020”N6Œ8“ú9:13:25
+	2020å¹´6æœˆ8æ—¥9:13:25
 ==============================/
 3	http://localhost:8001/ip/basics/
 		"GO"	==> "1	get_4_Corners"
@@ -203,18 +203,18 @@ rem 5	2-2)_move-files-back-to-tmp-dir.bat
 /==============================
 	VLC
 	
-	2020”N6Œ8“ú9:13:25
+	2020å¹´6æœˆ8æ—¥9:13:25
 ==============================/
 6	
 		open folder
-			right-click > « x 2 > Ret (open dialog)
+			right-click > â†“ x 2 > Ret (open dialog)
 			S - tab x 2 > Home > "i" > Ret
-			Tab x 2 > Ret > "«" > Ret (load to window)
+			Tab x 2 > Ret > "â†“" > Ret (load to window)
 
 /==============================
 	entries.ods
 	
-	2020”N6Œ20“ú8:49:26
+	2020å¹´6æœˆ20æ—¥8:49:26
 ==============================/
 
 
@@ -224,7 +224,7 @@ rem 5	2-2)_move-files-back-to-tmp-dir.bat
 				select lines
 				C - c > M - Space - c (close file)
 			Tab (back to ods file)
-			C - Home > ¨ > C - « > « x 2 > © (move to the paste point)
+			C - Home > â†’ > C - â†“ > â†“ x 2 > â† (move to the paste point)
 			C - v > Ret > C - s (paste, save)
 
 		gen-ed csv list ==> C/P
@@ -234,9 +234,9 @@ rem 5	2-2)_move-files-back-to-tmp-dir.bat
 			
 			C - Home > C - S - v > Ret (paste)
 			
-			C - « x 2 (move to : non-image list)
+			C - â†“ x 2 (move to : non-image list)
 			C - * > C - c > Delete > Ret (copy, clear)
-			C - ª > « > C - v > C - s (paste, save)
+			C - â†‘ > â†“ > C - v > C - s (paste, save)
 	
 	gen csv ==> complete ?
 		console : server(8001)
@@ -251,11 +251,11 @@ rem 5	2-2)_move-files-back-to-tmp-dir.bat
 			
 			modify template strings
 				select ==> area
-				C - f > ŒŸõƒeƒLƒXƒg > ’uŠ·ƒeƒLƒXƒg
-				M - o > M - u (uŒ»İ‚Ì”ÍˆÍ‚Ì‚İv)
+				C - f > æ¤œç´¢ãƒ†ã‚­ã‚¹ãƒˆ > ç½®æ›ãƒ†ã‚­ã‚¹ãƒˆ
+				M - o > M - u (ã€Œç¾åœ¨ã®ç¯„å›²ã®ã¿ã€)
 				M - f > M - r (replace)
 				M - f > M - p > update string > M - r (find, modify string, replace)
-				M - u (uŒ»İ‚Ì”ÍˆÍ‚Ì‚İv ==> uncheck)
+				M - u (ã€Œç¾åœ¨ã®ç¯„å›²ã®ã¿ã€ ==> uncheck)
 		enter ==> template line : mid
 			C - f > "mid" > Ret > Esc
 			C - c > C - Home
@@ -286,7 +286,7 @@ rem 9	commands
 REM /==============================
 REM 	commands : insert data
 REM 	
-REM 	2020”N6Œ13“ú11:09:32
+REM 	2020å¹´6æœˆ13æ—¥11:09:32
 REM ==============================/
 REM #insert data
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
@@ -294,7 +294,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
 REM /==============================
 REM 	commands : delete photos (physical)
 REM 	
-REM 	2020”N6Œ19“ú12:06:33
+REM 	2020å¹´6æœˆ19æ—¥12:06:33
 REM ==============================/
 REM #delete : photos
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-files.bat
@@ -303,7 +303,7 @@ rem /==============================
 rem 	commands : delete photos (db entries)
 rem 	validate : remote data
 rem 	
-rem 	2020”N6Œ19“ú12:06:33
+rem 	2020å¹´6æœˆ19æ—¥12:06:33
 rem ==============================/
 REM #delete : db entries
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
@@ -314,7 +314,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 /==============================
 	close : kb memo file
 	
-	2020”N6Œ22“ú11:55:13
+	2020å¹´6æœˆ22æ—¥11:55:13
 ==============================/
 	file name string ==> back to "XXX"
 	LH of all equation lines ==> replace
@@ -323,7 +323,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 /==============================
 	commands : list no.12~17,18~21
 	
-	2020”N6Œ13“ú11:09:32
+	2020å¹´6æœˆ13æ—¥11:09:32
 ==============================/
 12	http://127.0.0.1:8000/im/
 	list no.12~17
@@ -344,7 +344,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-va
 /==============================
 	closing : list no.21, a.o.
 	
-	2020”N6Œ13“ú11:11:38
+	2020å¹´6æœˆ13æ—¥11:11:38
 ==============================/
 13	closing
 	:console : server
@@ -374,44 +374,44 @@ rem	git push
 
 
 /============================== change log
-2020”N6Œ8“ú9:34:53
+2020å¹´6æœˆ8æ—¥9:34:53
 	first entries
 
-2020”N6Œ9“ú14:37:48
+2020å¹´6æœˆ9æ—¥14:37:48
 	no.9~13
 
-2020”N6Œ13“ú8:56:57
+2020å¹´6æœˆ13æ—¥8:56:57
 
 	pre "2-0) edit_memos.9-0" items ==> register
 
-2020”N6Œ13“ú11:16:02
+2020å¹´6æœˆ13æ—¥11:16:02
 
-	add : "2020”N6Œ13“ú8:57:46", a.o.
+	add : "2020å¹´6æœˆ13æ—¥8:57:46", a.o.
 
 
 ============================== / change log
 
-============================== resources : 2021”N2Œ17“ú12:06:09
+============================== resources : 2021å¹´2æœˆ17æ—¥12:06:09
 
-###2021”N5Œ31“ú10:32:17
+###2021å¹´5æœˆ31æ—¥10:32:17
 C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.fix_cake-ifm11_remote-not-recorded_lollipop-server.txt
 
 //C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_remote-not-recorded^(lollipop-server)].txt
 
-rem 2021”N3Œ4“ú11:23:28
+rem 2021å¹´3æœˆ4æ—¥11:23:28
 //sakura C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_remote-not-recorded^(lollipop-server)].txt
 
 
 ###========================== TEMPLATES
-#2021”N5Œ9“ú8:35:52
+#2021å¹´5æœˆ9æ—¥8:35:52
 :m RES #*# / free# JVEMV6 70#_66:s-1 / 70. CO2 (lang=ko) / w=,topic=,other=~,think~,doc=
 
-============================== / resources : 2021”N2Œ17“ú12:06:09
+============================== / resources : 2021å¹´2æœˆ17æ—¥12:06:09
 
 ============================== shinobue memo
-###2021”N5Œ6“ú8:15:21 (copied and pasted from : kb_memo_template.txt at 2021”N5Œ16“ú7:44:09)
+###2021å¹´5æœˆ6æ—¥8:15:21 (copied and pasted from : kb_memo_template.txt at 2021å¹´5æœˆ16æ—¥7:44:09)
 
-:m :Â“J,shinobue #*# / session-memo / s.1:genr=atom,key=h-3;h-3,for=~,memo=~,tempo=~,Re+,R=~,other=2-atoms,notes=pitch:4-7f_-1;‡A7f_-1
+:m :ç¯ ç¬›,shinobue #*# / session-memo / s.1:genr=atom,key=h-3;h-3,for=~,memo=~,tempo=~,Re+,R=~,other=2-atoms,notes=pitch:4-7f_-1;â‘¡7f_-1
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
@@ -428,7 +428,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 genr=~,key=~,for=~,memo=~,tempo=~,tuning=~,Re~,R=~,other=~
 
 ============================ kb,keyboard memo
-:VIDEO / @©‘î / ƒƒ‚ / kb,keyboard / ‰‰‘tAplay / k-2021-0601-4 / genr=melody,key=~,chords=~,for=~,memo=log_guitar.log:d-1,tempo=~,Re+,R=4,notes=~,other=~
+:VIDEO / @è‡ªå®… / ãƒ¡ãƒ¢ / kb,keyboard / æ¼”å¥ã€play / k-2021-0601-4 / genr=melody,key=~,chords=~,for=~,memo=log_guitar.log:d-1,tempo=~,Re+,R=4,notes=~,other=~
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
@@ -436,7 +436,7 @@ genr=~,key=~,chords=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 
 ###========================== regex
-###2021”N4Œ30“ú9:13:58
+###2021å¹´4æœˆ30æ—¥9:13:58
 # shinobue memo, reset
 =[^~].*?(,| )	=~$1
 
@@ -445,49 +445,49 @@ genr=~,key=~,chords=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 DELETE FROM ifm11 WHERE _id <= 46693;
 DELETE FROM ifm11 WHERE _id <= 47366;
 
-2020”N10Œ22“ú11:14:25
+2020å¹´10æœˆ22æ—¥11:14:25
 DELETE FROM ifm11 WHERE _id <= 47736;
 
-###2020”N11Œ7“ú14:41:50
+###2020å¹´11æœˆ7æ—¥14:41:50
 DELETE FROM ifm11 WHERE _id <= 48054;
 
-###2020”N11Œ23“ú14:20:37
+###2020å¹´11æœˆ23æ—¥14:20:37
 DELETE FROM ifm11 WHERE _id <= 48337;
 
-###2020”N12Œ10“ú13:48:19
+###2020å¹´12æœˆ10æ—¥13:48:19
 #DELETE FROM ifm11 WHERE _id <= 48678;
 
-###2020”N12Œ26“ú14:39:20
+###2020å¹´12æœˆ26æ—¥14:39:20
 DELETE FROM ifm11 WHERE _id <= 48969;
 
-### 2021”N1Œ16“ú10:49:47
+### 2021å¹´1æœˆ16æ—¥10:49:47
 DELETE FROM ifm11 WHERE _id <= 49342;
 
-### 2021”N1Œ30“ú9:33:06
+### 2021å¹´1æœˆ30æ—¥9:33:06
 DELETE FROM ifm11 WHERE _id >= 49590;
 
-### 2021”N2Œ7“ú9:28:33
+### 2021å¹´2æœˆ7æ—¥9:28:33
 DELETE FROM ifm11 WHERE _id <= 49773;
 
-### 2021”N2Œ22“ú11:31:44
+### 2021å¹´2æœˆ22æ—¥11:31:44
 DELETE FROM ifm11 WHERE _id <= 50007;
 
-### 2021”N3Œ8“ú8:58:14
+### 2021å¹´3æœˆ8æ—¥8:58:14
 DELETE FROM ifm11 WHERE _id <= 50180;
 
-### 2021”N3Œ29“ú12:01:12
+### 2021å¹´3æœˆ29æ—¥12:01:12
 #DELETE FROM ifm11 WHERE _id <= 50370;
 
-###2021”N4Œ10“ú8:46:14
+###2021å¹´4æœˆ10æ—¥8:46:14
 DELETE FROM ifm11 WHERE _id >= 50491;
 
-###2021”N4Œ10“ú8:46:14
+###2021å¹´4æœˆ10æ—¥8:46:14
 #DELETE FROM ifm11 WHERE _id <= 50578;
 
-###2021”N5Œ2“ú8:35:34
+###2021å¹´5æœˆ2æ—¥8:35:34
 #DELETE FROM ifm11 WHERE _id <= 50777;
 
-###2021”N5Œ15“ú10:30:54
+###2021å¹´5æœˆ15æ—¥10:30:54
 DELETE FROM ifm11 WHERE _id <= 50934;
 
 
@@ -495,10 +495,10 @@ DELETE FROM ifm11 WHERE _id <= 50934;
 DELETE FROM ifm11 WHERE _id <= XXX;
 
 
-###2021”N5Œ4“ú17:40:21
+###2021å¹´5æœˆ4æ—¥17:40:21
 taskkill /f /im opera.exe
 
-###2021”N5Œ20“ú9:28:52
+###2021å¹´5æœˆ20æ—¥9:28:52
 delete "*" char
 
 ^\*	
