@@ -23,11 +23,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
 
 rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
-*C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 
 ### ip ops
 
-*C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
 
 ### write memos
 
@@ -35,7 +35,8 @@ rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 rem 9	commands : restart server, open csv file
 
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
-C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
+
+start C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 
 //C:\WORKS_2\WS\WS_Cake_IFM11\commands\3-1_restart-server-8000-im_open-csv-file.bat
 
@@ -422,6 +423,25 @@ prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
 genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
+============================== memo : sketch
+###2021年6月8日8:13:29
+
+:m dessin,sketch / des. object=キタキツネ / @web画像 / other=~,memo~,found~
+
+
+======== memo : JVE : theoretical-physics(tp)
+###2021年6月8日8:15:30
+
+:m RES 1-2*2 / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,other=~,s=~,i=~,doc=~
+
+======== memo :tome
+###2021年6月8日8:21:46
+
+:tome/ (lang=ja) / topic=XXX / content=tp、sketching、笛：やりたいだけ、やろう；そのあとは、何でもできる、君が心を置くものは、何でも
+
+:tome/ (lang=XX) / topic=XXX / content=XXX
+
+
 ============================== gt,guitar memo
 :m music / log / gt,guitar / || s.1: genr=todays-melody,key=D,for=~,memo=~,tuning=open-d,other=~
 
@@ -490,6 +510,8 @@ DELETE FROM ifm11 WHERE _id >= 50491;
 ###2021年5月15日10:30:54
 DELETE FROM ifm11 WHERE _id <= 50934;
 
+###2021年6月8日8:28:14
+#DELETE FROM ifm11 WHERE _id <= 51213;
 
 ###XXX
 DELETE FROM ifm11 WHERE _id <= XXX;
