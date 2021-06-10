@@ -11,13 +11,13 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-
 
 @@@2021年5月31日9:12:28
 
-2)
+2)]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
-3)
+3)]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
-4)
+4)]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
 
@@ -412,7 +412,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=blow-each-note:high-low-alternation,Re+,tempo=~,other=~,key=A:h-7,notes=A-D-B-G:1-4_-2-7f_
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=practice:high-low-notes,key=G,tempo=~,R=~,i.f.=~,notes=C-F-G-A;pitch:1-2-4-7f
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
