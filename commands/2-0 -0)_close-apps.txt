@@ -22,11 +22,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
 
 
-rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
+rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 
-### ip ops
+### ip ops]]
 
+) back --> files]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
 
 ### write memos
@@ -71,7 +72,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
 "*" char --> remove
 
 	^\*	
-
+	\]\]	
+	
+	
 ###///end
 
 rem /==============================
@@ -428,11 +431,23 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m dessin,sketch / des. object=キタキツネ / @web画像 / other=~,memo~,found~
 
+============================== memo : shakuhachi,bamboo,尺八
+###:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / b-2021-0611-1 / genr=free-play,key=~,for=~,memo=~,tempo=~,Re~,R=1,notes=~,other=~
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+follow,R=~,ReX
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~
+follow,R=~,ReX
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
+rev,for=~,ReX,tempo=~,other=~,key=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 ======== memo : JVE : theoretical-physics(tp)
 ###2021年6月8日8:15:30
 
-:m RES 1-2*2 / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,other=~,s=~,i=~,doc=~
+:m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
+
+:m RES #*# / free# JVEMV6 68#_12:s-2 / 68. theoretical-physics(tp) / w=gauss-constraints;yang-mills;gauge-field;gauss-transformations;diffeomorphism;internal-idex;smeared;shift-function;lapse-function;,topics=~,other=~,s=~,i=~,doc=r-1-2~1#4.3
 
 ======== memo :tome
 ###2021年6月8日8:21:46
