@@ -419,12 +419,12 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue #*# / session-memo / s.1:genr=practice:,key=G,for=指打ち,memo=~,tempo=~,Re~,R=~,notes=~,other=強弱図+
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=practice:smooth-breathing,key=G,tempo=~,R=1,i.f.=~,notes=G-D-F;pitch:1-5_-7f_
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
-todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~
 follow,R=~,ReX
 prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
@@ -457,7 +457,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年6月13日9:11:14
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-0613-1 / genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-0613-1 / genr=todays-melody,key=~,for=practice:high-low-notes,memo=~,tempo=~,Re~,R=1,notes=~,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -494,6 +494,14 @@ genr=~,key=~,for=~,memo=~,tempo=~,tuning=~,Re~,R=~,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 genr=~,key=~,chords=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+
+###2021年6月15日10:29:48
+============================ 64# : bookmemo
+C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
+
+:m 1*1 RES / JVEMV6 64#XX_XX / 『XXX』 著者=~,校注=~ / p.~ / w:~,topic:~
+
+:m 1*1 RES / JVEMV6 64#112_XX / 『戦中派の死生観』 著者=吉田満,校注=~ / p.299 / w:~,topic:聖書からの引用
 
 
 ###========================== regex
