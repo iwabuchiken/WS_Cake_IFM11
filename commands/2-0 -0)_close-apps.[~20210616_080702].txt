@@ -4,8 +4,10 @@ rem
 rem 	2021年1月17日12:15:35
 rem ==============================/
 
-1) ------------------
+1) ------------------]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
+
+//"C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1) start xampp, filezilla, open folder, open files.bat"
 
 @@@2021年5月31日9:12:28
 
@@ -37,9 +39,16 @@ rem 9	commands : restart server, open csv file
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
 
 1-2) ------------------
-C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
+sakura C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.csv
 
-1-3)
+//start C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
+
+//C:\WORKS_2\WS\WS_Cake_IFM11\commands\3-1_restart-server-8000-im_open-csv-file.bat
+
+
+//rem "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat" && "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat"
+
+1-2)
 ## ods memos --> c/p to csv file
 
 2)
@@ -61,11 +70,14 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
 rem	git push ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
 
+//rem start C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
+
 2)
 "*" char --> remove ------------------
 
 	^\*	
 	\]\]	
+	
 	
 ###///end
 
@@ -490,18 +502,6 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 :m 1*1 RES / JVEMV6 64#XX_XX / 『XXX』 著者=~,校注=~ / p.~ / w:~,topic:~
 
 :m 1*1 RES / JVEMV6 64#112_XX / 『戦中派の死生観』 著者=吉田満,校注=~ / p.299 / w:~,topic:聖書からの引用
-
-###2021年6月16日9:56:34
-
-:m 記録 / 身体 / ケガ / loc=~,cause=~,loc-incident=~,id=~,phase=~,apparatus=~,injury=~,other=~
-:m 記録 / 身体 / ケガ / loc=左腕：前腕：内側,cause=猫の毛に触れた（からか？クロか？）,loc-incident=公園（宮前平公園）,id=2021-06-15_19-57-05_000.jpg,phase=処置前,apparatus=~,injury=~,other=外観：ミミズ腫れのよう
-
-###2021年6月16日10:17:11
-
-:m sketch / des. object=~ / source=~ / other=~,memo~,found~,id=~
-
-:m sketch / des. object=塔婆：とば / source=ウェブ / other=部分,memo~,found~,id=~
-
 
 
 ###========================== regex
