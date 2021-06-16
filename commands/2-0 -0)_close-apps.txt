@@ -13,7 +13,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
 3)------------------
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
+	C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
 4)------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
@@ -407,14 +407,14 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=practice:smooth-breathing,key=G,tempo=~,R=1,i.f.=~,notes=G-D-F;pitch:1-5_-7f_
+:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=high-low-notes,Re+,tempo=~,other=~,key=D;G,notes=pitch:1-4-6-5-3f-7f_-5_,R=~
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
 todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~
 follow,R=~,ReX
-prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
 rev,for=~,ReX,tempo=~,other=~,key=~
 genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
@@ -434,26 +434,27 @@ prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
 genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
+======== memo : jap.flute, video, shinobue
+###2021年6月13日9:11:14
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-0616-1 / todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=指打ち
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+follow,R=~,ReX
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~
+follow,R=~,ReX
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
+rev,for=~,ReX,tempo=~,other=~,key=~
+genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+
+
 ======== memo : JVE : theoretical-physics(tp)
 ###2021年6月8日8:15:30
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
 :m RES #*# / free# JVEMV6 68#_12:s-2 / 68. theoretical-physics(tp) / w=gauss-constraints;yang-mills;gauge-field;gauss-transformations;diffeomorphism;internal-idex;smeared;shift-function;lapse-function;,topics=~,other=~,s=~,i=~,doc=r-1-2~1#4.3
-
-======== memo : jap.flute, video, shinobue
-###2021年6月13日9:11:14
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-0613-1 / genr=todays-melody,key=~,for=practice:high-low-notes,memo=~,tempo=~,Re~,R=1,notes=~,other=~
-
-s.1: \\\ s.2: \\\ s.3: \\\ s.4:
-follow,R=~,ReX
-todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~
-follow,R=~,ReX
-prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
-rev,for=~,ReX,tempo=~,other=~,key=~
-genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 
 ======== memo : video : 記録
