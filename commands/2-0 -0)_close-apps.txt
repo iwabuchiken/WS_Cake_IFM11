@@ -407,7 +407,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=high-low-notes,Re+,tempo=~,other=~,key=D;G,notes=pitch:1-4-6-5-3f-7f_-5_,R=~
+:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=指打ち：色々,ReX,tempo=~,other=~,key=D,notes=~,R=~
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
@@ -421,7 +421,16 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ============================== memo : sketch
 ###2021年6月8日8:13:29
 
-:m dessin,sketch / des. object=キタキツネ / @web画像 / other=~,memo~,found~
+:m dessin,sketch / des. object=~ / @web画像 / other=~,memo~,found~,id=~,occasion=~
+
+:m dessin,sketch / des. object=輪袈裟 / @web画像 / other=~,memo~,found~,id=CJWP,occasion=『宇治拾遺物語』 ||| :m dessin,sketch / des. object=モクゲンジ / @web画像 / other=~,memo~,found~,id=LTU1,occasion=『宇治拾遺物語』
+
+============================== memo : lets
+###2021年6月18日8:55:14
+:m :lets / action activity / やること / genre=XXX / content=XXX
+
+:m :lets / action activity / やること / genre=食べ物 / content=赤紫蘇：チンして、酢を垂らす：薬味にする ||| :m :lets / action activity / やること / genre=食べ物 / content=マンガという形で、俺が愛しているものを描こう；イラストでいい、物語ではなくて、構わない
+
 
 ============================== memo : shakuhachi,bamboo,尺八
 ###:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / b-2021-0611-1 / genr=free-play,key=~,for=~,memo=~,tempo=~,Re~,R=1,notes=~,other=~
@@ -454,7 +463,8 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES #*# / free# JVEMV6 68#_12:s-2 / 68. theoretical-physics(tp) / w=gauss-constraints;yang-mills;gauge-field;gauss-transformations;diffeomorphism;internal-idex;smeared;shift-function;lapse-function;,topics=~,other=~,s=~,i=~,doc=r-1-2~1#4.3
+:m RES 2*2 / free# JVEMV6 68#_17:s-1 / 68. theoretical-physics(tp) / w=~,topics=~,other=thought+,s=~,i=~,doc=r-1-3~1#8~1#5
+
 
 
 ======== memo : video : 記録
