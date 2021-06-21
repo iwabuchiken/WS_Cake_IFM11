@@ -4,15 +4,15 @@ rem
 rem 	2021年1月17日12:15:35
 rem ==============================/
 
-1) ------------------]]
+1) ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
 
 @@@2021年5月31日9:12:28
 
-2) ------------------]]
+2) ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
-3)------------------]]
+3)------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
 4)------------------
@@ -407,7 +407,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=指打ち：色々,ReX,tempo=~,other=~,key=D,notes=~,R=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=practice:h:0-->3,key=~,tempo=~,R=1,i.f.=~,notes=~
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
@@ -463,7 +463,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 4*4 / free# JVEMV6 68#_19:s-3 / 68. theoretical-physics(tp) / w=~,topics=双対；位相空間；ノルム空間；内積空間,other=まとめ+,s=~,i=~,doc=r-1-4~1#1
+:m RES 2*2 / free# JVEMV6 68#_20:s-1 / 68. theoretical-physics(tp) / w=~,topics=基底：図形,other=orig+,s=~,i=~,doc=r-1-4~3#1
 
 
 
@@ -577,6 +577,9 @@ DELETE FROM ifm11 WHERE _id <= 50934;
 
 ###2021年6月8日8:28:14
 #DELETE FROM ifm11 WHERE _id <= 51213;
+
+###2021年6月20日10:08:26
+#DELETE FROM ifm11 WHERE _id <= 51383;
 
 ###XXX
 DELETE FROM ifm11 WHERE _id <= XXX;
