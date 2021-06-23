@@ -407,7 +407,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=warm-up,Re~,tempo=80~,other=~,key=~,notes=~,R=~ \\\ s.2:todays-melody,genr=~,for=~,key=~,tempo=~,R=1,i.f.=sec-1,memo=~,elements=指打ち
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=free,for=~,key=~,tempo=80,R=1,i.f.=warm-upの、high-low-notesの練習より,notes=hole:5-6-7-3
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
