@@ -468,7 +468,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES #*# / free# JVEMV6 68#_21:s-1 / 68. theoretical-physics(tp) / w=双対基底；ベクトル成分；,topics=~,other=~,s=~,i=~,doc=~r-1-4~4
+:m RES 3*3 / free# JVEMV6 68#_23:s-1 / 68. theoretical-physics(tp) / w=,topics=(VV'=1),other=think+,s=~,i=~,doc=~r-1-4~6
 
 
 
