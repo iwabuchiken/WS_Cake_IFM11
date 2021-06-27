@@ -4,7 +4,7 @@ rem
 rem 	2021年1月17日12:15:35
 rem ==============================/
 
-1) ------------------
+1) ------------------]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
 
 @@@2021年5月31日9:12:28
@@ -12,20 +12,20 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-
 2) ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
-3)------------------
+3)------------------]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
-4)------------------
+4)------------------]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
 
 
-rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
+rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 
-### ip ops ------------------
+### ip ops ------------------]]
 
-) back --> files ------------------
+) back --> files ------------------]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
 
 ### write memos ------------------
@@ -407,12 +407,12 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=D,tempo=~,R=1,i.f.=~,notes=start:1.8-1.8_3.4~8-7f_.8-1.8-3f.8
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=E,tempo=~,R=1,i.f.=~,notes=~,other=start:D.8~E.4^.8-D.8-E.8-G.8-G.4-0.8-3.8
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
-todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~,other=~
 follow,R=~,ReX
 prac,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
 rev,for=~,ReX,tempo=~,other=~,key=~
@@ -468,9 +468,13 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 3*3 / free# JVEMV6 68#_23:s-1 / 68. theoretical-physics(tp) / w=,topics=(VV'=1),other=think+,s=~,i=~,doc=~r-1-4~6
+:m RES 2*2 / free# JVEMV6 68#_24 / 68. theoretical-physics(tp) / w=,topics=g_ik*A`i*B`k,other=think+,s=~,i=~,doc=~r-1-4~7
 
+###2021年6月27日11:30:52
+======== memo : JVE : 64#
+:m #*# RES / JVEMV6 64#115_-- / 『音楽で脳はここまで再生する』 著者=奥村歩む,構成・編=佐々木久夫 / p.113 / w:ブローカ野；ウェルニケ野；失語症；運動性失語；上側頭回,topic:~
 
+:m #*# RES / JVEMV6 64#XXX_-- / 『XXX』 著者=~,校注=~ / p.~ / w:~,topic:~
 
 
 ======== memo : video : 記録
@@ -483,7 +487,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ======== memo :tome
 ###2021年6月8日8:21:46
 
-:tome/ (lang=ja) / topic=仕事について / content=学者をやろう；「なろう」ではなく、「やろう」
+:tome/ (lang=ja) / topic=日誌に書く事 / content=甲音の出し方；筋肉の疲労；やり過ごし方
 
 :tome/ (lang=XX) / topic=XXX / content=XXX
 
