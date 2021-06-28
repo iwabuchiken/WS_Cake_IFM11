@@ -4,7 +4,7 @@ rem
 rem 	2021年1月17日12:15:35
 rem ==============================/
 
-1) ------------------]]
+1) ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
 
 @@@2021年5月31日9:12:28
@@ -12,20 +12,20 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-
 2) ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
-3)------------------]]
+3)------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
-4)------------------]]
+4)------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
 
 
-rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat]]
+rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 
-### ip ops ------------------]]
+### ip ops ------------------
 
-) back --> files ------------------]]
+) back --> files ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
 
 ### write memos ------------------
@@ -407,7 +407,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=E,tempo=~,R=1,i.f.=~,notes=~,other=start:D.8~E.4^.8-D.8-E.8-G.8-G.4-0.8-3.8
+:m :篠笛,shinobue #*# / session-memo / s.1:memo,theme=音だし,content=各音：練習吹き、目を開けて吹いても、みる,for=~,other=~ \\\ s.2:memo,theme=~,content=音から音（おん）への移行：組み合わせの例,for=~,other=~ \\\ s.3:prac,for=trill,Re+,tempo=~,other=patters,key=~,notes=pitch:A->B(A>B),R=1
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
@@ -419,7 +419,7 @@ rev,for=~,ReX,tempo=~,other=~,key=~
 genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 res,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
-
+memo,theme=~,content=~,for=~,other=~
 
 ============================== memo : sketch
 ###2021年6月8日8:13:29
@@ -434,7 +434,14 @@ res,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
 ###2021年6月18日8:55:14
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=信仰について；宗教 / content=新しい宗派を建てよう
+:m :lets / action activity / やること / genre=日誌書く：外国語で / content=過去の`:th`のメモを見て、日誌を書く：さらに考えたことを、追加しよう
+
+###2021年6月28日10:15:01
+============================== memo : :th
+
+:m :th / topic=データマイニング / content=「データマイニング」：新しい組み合わせを知る：それは、新しいこと；大きな枠組みは、そのままか / lang=ja
+
+:m :th / topic=XXX / content=XXX / lang=XXX
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -468,7 +475,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 2*2 / free# JVEMV6 68#_24 / 68. theoretical-physics(tp) / w=,topics=g_ik*A`i*B`k,other=think+,s=~,i=~,doc=~r-1-4~7
+:m RES 2*2 / free# JVEMV6 68#_25 / 68. theoretical-physics(tp) / w=テンソル積；対角和；表現行列；直交行列；,topics=~,other=orig+,s=~,i=~,doc=r-1-4~8
 
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
