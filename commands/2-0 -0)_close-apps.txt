@@ -407,8 +407,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue #*# / session-memo / s.1:memo,theme=音だし,content=各音：練習吹き、目を開けて吹いても、みる,for=~,other=~ \\\ s.2:memo,theme=~,content=音から音（おん）への移行：組み合わせの例,for=~,other=~ \\\ s.3:prac,for=trill,Re+,tempo=~,other=patters,key=~,notes=pitch:A->B(A>B),R=1
-
+:m :篠笛,shinobue #*# / session-memo / s.1:memo,theme=やったこと,content=~,for=~,other=~ \\\ s.2:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=hole:3-6-7-6~7-6-5-4,other=~ 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -434,14 +433,14 @@ memo,theme=~,content=~,for=~,other=~
 ###2021年6月18日8:55:14
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=日誌書く：外国語で / content=過去の`:th`のメモを見て、日誌を書く：さらに考えたことを、追加しよう
+:m :lets / action activity / やること / genre=キリスト教 / content=キリスト教（ｍ１）、ナザレに起こった頃に遡って、受け止める；ヨーロッパに伝わったあとのｍ１ではなく；コプト教会に伝わっているような、ｍ１
 
 ###2021年6月28日10:15:01
 ============================== memo : :th
 
-:m :th / topic=データマイニング / content=「データマイニング」：新しい組み合わせを知る：それは、新しいこと；大きな枠組みは、そのままか / lang=ja
+:m :th / topic=「主」とは / content=「主」とは、何か？ / lang=ja
 
-:m :th / topic=XXX / content=XXX / lang=XXX
+:m :th / topic=XXX / content=XXX / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -475,7 +474,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 2*2 / free# JVEMV6 68#_25 / 68. theoretical-physics(tp) / w=テンソル積；対角和；表現行列；直交行列；,topics=~,other=orig+,s=~,i=~,doc=r-1-4~8
+:m RES 3*3 / free# JVEMV6 68#_26 / 68. theoretical-physics(tp) / w=(δ=|[a h],[h b]),topics=~,other=orig+,s=~,i=~,doc=r-1-4~12
 
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
@@ -494,9 +493,9 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ======== memo :tome
 ###2021年6月8日8:21:46
 
-:tome/ (lang=ja) / topic=日誌に書く事 / content=甲音の出し方；筋肉の疲労；やり過ごし方
+:tome/ (lang=ja) / topic=キリスト教 / content=キリスト教（ｍ１）、ナザレに起こった頃に遡って、受け止める；ヨーロッパに伝わったあとのｍ１ではなく；コプト教会に伝わっているような、ｍ１
 
-:tome/ (lang=XX) / topic=XXX / content=XXX
+:tome/ (lang=ja) / topic=XXX / content=XXX
 
 
 ============================== gt,guitar memo

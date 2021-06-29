@@ -112,8 +112,10 @@ REM ****************************
 REM comment out : 2019/11/24 07:39:28
 REM comment in : 2019/12/18 11:43:04
 REM pushd C:\WORKS_2\Programs\freeware\VideoLAN\VLC
-pushd C:\Users\iwabuchiken\VLC
-start vlc.exe
+
+rem : c/o : 2021”N6ŒŽ29“ú8:12:33
+rem pushd C:\Users\iwabuchiken\VLC
+rem start vlc.exe
 
 REM ****************************
 REM 	git
