@@ -43,7 +43,10 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 ## ods memos --> c/p to csv file
 
 	steps
-	C - S - s > M - c > u > ↓ x 3 > M - s > y > Ret
+	1. C - S - s
+	2. M - c > u
+	3. ↓ x 3
+	4. M - s > y
 
 2)
 REM #insert data ------------------
@@ -410,7 +413,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue #*# / session-memo / s.1:memo,theme=やったこと,content=~,for=~,other=~ \\\ s.2:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=hole:3-6-7-6~7-6-5-4,other=~ 
+:m :篠笛,shinobue 1-2*2 / session-memo / s.1:prac,for=~,ReX,tempo=~,other=~,key=D,notes=5-3f-1-5_-1-3f-5,R=~ \\\ s.2:genr=atom,key=E,for=~,memo=~,tempo=~,Re~,R=~,notes=hole:7-0-2-3;3-4-4-5-4-3-4;3-4-7-0-0-0-7-4,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -477,7 +480,8 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 3*3 / free# JVEMV6 68#_27 / 68. theoretical-physics(tp) / w=線形汎関数,topics=~,other=orig+:双線形関数,s=~,i=~,doc=r-1-4~13#1
+:m RES 1*1 / free# JVEMV6 68#_28:s-2 / 68. theoretical-physics(tp) / w=(V⊗V=L_2(V^*));(x⊗x(x`,y`)=x(x`)y(y`)),topics=双線形関数,other=~,s=~,i=~,doc=r-1-4~16#1.1
+
 
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
@@ -524,6 +528,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2021年6月16日9:56:34
 
 :m 記録 / 身体 / ケガ / loc=~,cause=~,loc-incident=~,id=~,phase=~,apparatus=~,injury=~,other=~
+:m 記録 / 身体 / ケガ / loc=右大腿：膝蓋上方：や内側,cause=不明,loc-incident=~,id=2021-06-30_23-33-56_000.jpg,phase=傷口の様子,apparatus=~,injury=掻き傷：皮膚は破れている：赤色の発色：湿潤：患部は、いくぶん陥没
+
 :m 記録 / 身体 / ケガ / loc=左腕：前腕：内側,cause=猫の毛に触れた（からか？クロか？）,loc-incident=公園（宮前平公園）,id=2021-06-15_19-57-05_000.jpg,phase=処置前,apparatus=~,injury=~,other=外観：ミミズ腫れのよう
 
 ###2021年6月16日10:17:11
