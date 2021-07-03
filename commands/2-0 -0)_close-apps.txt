@@ -43,10 +43,16 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 ## ods memos --> c/p to csv file
 
 	steps
-	1. C - S - s
-	2. M - c > u
-	3. ↓ x 3
-	4. M - s > y
+	1. ods
+		1. C - * > c
+		2. Tab x 1
+	1. sakura
+		0. C - a > v
+		1. C - S - s
+		2. M - c > u
+		3. ↓ x 3
+		4. M - s > y
+		5. M - Space - c	[close
 
 2)
 REM #insert data ------------------
@@ -480,7 +486,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 1*1 / free# JVEMV6 68#_28:s-2 / 68. theoretical-physics(tp) / w=(V⊗V=L_2(V^*));(x⊗x(x`,y`)=x(x`)y(y`)),topics=双線形関数,other=~,s=~,i=~,doc=r-1-4~16#1.1
+:m RES 2*2 / free# JVEMV6 68#_29:1 / 68. theoretical-physics(tp) / w=~,topics=~,other=orig+,s=~,i=~,doc=r-1-4~16#3
 
 
 ###2021年6月27日11:30:52
@@ -503,6 +509,13 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :tome/ (lang=ja) / topic=笛を吹く目的 / content=笛吹：自分の頭を改造しよう；電気の通りをよくしよう；血液の通りをよくしよう（他人のために、吹く。よりも前に）
 
 :tome/ (lang=ja) / topic=XXX / content=XXX
+
+###2021年7月3日10:35:02
+=============== memo : :?
+
+:m :? X-X*X / topic=XXX / content=XXX
+
+:m :? #*# / topic=旧約聖書 / content=「生き物を統べよ」の元の語句、何か？（へブル語）
 
 
 ============================== gt,guitar memo
@@ -528,7 +541,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2021年6月16日9:56:34
 
 :m 記録 / 身体 / ケガ / loc=~,cause=~,loc-incident=~,id=~,phase=~,apparatus=~,injury=~,other=~
-:m 記録 / 身体 / ケガ / loc=右大腿：膝蓋上方：や内側,cause=不明,loc-incident=~,id=2021-06-30_23-33-56_000.jpg,phase=傷口の様子,apparatus=~,injury=掻き傷：皮膚は破れている：赤色の発色：湿潤：患部は、いくぶん陥没
+:m 記録 / 身体 / ケガ / loc=左手：手の甲：第２指（人差し指）：第１関節,cause=地面の上で滑って、手を壁についたとき、擦った。,loc-incident=宮前平公園,id=2021-07-02_23-47-58_000.jpg,phase=傷口の様子,apparatus=~,injury=掻き傷：皮膚は破れている：裂傷、２箇所ぐらい：裂傷部位、皮膚表面が剥がれている、直径５ｍｍほどか、円形に近く
 
 :m 記録 / 身体 / ケガ / loc=左腕：前腕：内側,cause=猫の毛に触れた（からか？クロか？）,loc-incident=公園（宮前平公園）,id=2021-06-15_19-57-05_000.jpg,phase=処置前,apparatus=~,injury=~,other=外観：ミミズ腫れのよう
 
