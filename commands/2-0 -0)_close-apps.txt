@@ -7,7 +7,7 @@ rem ==============================/
 1) ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
 
-@@@2021年5月31日9:12:28
+@@@2021年7月4日8:15:15
 
 2) ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
@@ -450,7 +450,7 @@ memo,theme=~,content=~,for=~,other=~
 ###2021年6月28日10:15:01
 ============================== memo : :th
 
-:m :th / topic=「主」とは / content=「主」とは、何か？ / lang=ja
+:m :th / topic=XXX / content=吉田氏もまた、欧米に追いつけの時代に成長した人；私も、そんな偏りが、ある人たちから見れば、顕らかなのに違いない / lang=ja
 
 :m :th / topic=XXX / content=XXX / lang=ja
 
@@ -486,7 +486,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 2*2 / free# JVEMV6 68#_29:1 / 68. theoretical-physics(tp) / w=~,topics=~,other=orig+,s=~,i=~,doc=r-1-4~16#3
+:m RES 3*3 / free# JVEMV6 68#_30:1 / 68. theoretical-physics(tp) / w=テンソル空間；(V⊗V⊗...V=L_n~(V^*)),topics=~,other=orig+,s=~,i=~,doc=r-1-4~17#2
 
 
 ###2021年6月27日11:30:52
@@ -515,7 +515,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m :? X-X*X / topic=XXX / content=XXX
 
-:m :? #*# / topic=旧約聖書 / content=「生き物を統べよ」の元の語句、何か？（へブル語）
+:m :? #*# / topic=脳の働き / content=「圏」と「謙」、それぞれの音を聞いたとき、脳の中では、どんな反応が起こっているのか？
 
 
 ============================== gt,guitar memo
