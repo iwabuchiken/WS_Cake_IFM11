@@ -486,7 +486,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 2*2 / free# JVEMV6 68#_32:1 / 68. theoretical-physics(tp) / w=(F_i=(d/dt)m*v_i);,topics=~,other=~,s=~,i=~,doc=r-1-5~2
+:m RES 4*4 / free# JVEMV6 68#_33:1 / 68. theoretical-physics(tp) / w=(A`_k=α_k.*A_n);擬テンソル,topics=~,other=orig+,s=~,i=~,doc=r-1-5~4
 
 
 ###2021年6月27日11:30:52

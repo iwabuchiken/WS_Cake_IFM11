@@ -25,15 +25,13 @@
 	n : 115_okumura_brain
 
 ###2021”N6ŒŽ29“ú17:48:35
-@@@
+
 	n : 116_yamamoto_tokugawa
 
+###2021”N7ŒŽ7“ú15:43:05
+@@@
 
-
-###
-
-
-
+	n : 117_cone_black-theology
 
 
 ###
