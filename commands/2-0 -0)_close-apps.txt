@@ -445,7 +445,7 @@ memo,theme=~,content=~,for=~,other=~
 ###2021年6月18日8:55:14
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=キリスト教 / content=キリスト教（ｍ１）、ナザレに起こった頃に遡って、受け止める；ヨーロッパに伝わったあとのｍ１ではなく；コプト教会に伝わっているような、ｍ１
+:m :lets / action activity / やること / genre=XXX / content=文献から、思想を抽出する、その手続きを定式化しよう、i.e.言葉で書き出そう；行動からも、抽出
 
 ###2021年6月28日10:15:01
 ============================== memo : :th
@@ -486,7 +486,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 3*3 / free# JVEMV6 68#_34:1 / 68. theoretical-physics(tp) / w=~;,topics=table-of-coordinate-values,other=orig+,s=~,i=~,doc=r-1-5~6#3.1
+:m RES 4*4 / free# JVEMV6 68#_35:1 / 68. theoretical-physics(tp) / w=~,topics=~,other=orig+:(x-a)(x-b)(x-c);seg-2;seg-3;,s=~,i=~,doc=r-1-5~7#2.1
 
 
 ###2021年6月27日11:30:52
@@ -524,7 +524,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 genr=~,key=~,for=~,memo=~,tempo=~,tuning=~,Re~,R=~,other=~
 
 ============================ kb,keyboard memo
-:VIDEO / @自宅 / メモ / kb,keyboard / 演奏、play / k-2021-0601-4 / genr=melody,key=~,chords=~,for=~,memo=log_guitar.log:d-1,tempo=~,Re+,R=4,notes=~,other=~
+:VIDEO / @自宅 / メモ / kb,keyboard / 演奏、play / k-2021-0601-4 / genr=free-play:two-chord-music,key=~,chords=C;F,for=~,memo=~,tempo=~,Re~,R=1,notes=~,other=accompany-for:shinobue
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
