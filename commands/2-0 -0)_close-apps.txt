@@ -450,7 +450,7 @@ memo,theme=~,content=~,for=~,other=~
 ###2021年6月28日10:15:01
 ============================== memo : :th
 
-:m :th / topic=XXX / content=吉田氏もまた、欧米に追いつけの時代に成長した人；私も、そんな偏りが、ある人たちから見れば、顕らかなのに違いない / lang=ja
+:m :th / topic=人々が自らの言動をどう選択しているかについて / content=多くの人は、自分の言動、習慣を、参照集団に問い合わせた上で、選び取っている、という仮設 / lang=ja
 
 :m :th / topic=XXX / content=XXX / lang=ja
 
@@ -486,7 +486,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 4*4 / free# JVEMV6 68#_35:1 / 68. theoretical-physics(tp) / w=~,topics=~,other=orig+:(x-a)(x-b)(x-c);seg-2;seg-3;,s=~,i=~,doc=r-1-5~7#2.1
+:m RES 2*2 / free# JVEMV6 68#_36 / 68. theoretical-physics(tp) / w=固有値を要素とするテンソル、(([λ_1 0 0][0 λ_2 0][00 0 λ_3])),topics=~,other=orig+,s=~,i=~,doc=r-1-5~7#4
 
 
 ###2021年6月27日11:30:52
