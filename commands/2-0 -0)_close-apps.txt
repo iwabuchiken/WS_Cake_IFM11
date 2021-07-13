@@ -9,8 +9,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-
 
 @@@2021年7月4日8:15:15
 
-2) ------------------
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
+ 2) ------------------
+ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
 3)------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
@@ -48,10 +48,10 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 		2. Tab x 1
 	1. sakura
 		0. C - a > v
-		1. C - S - s
-		2. M - c > u
-		3. ↓ x 3
-		4. M - s > y
+		1. C - S - s	["名前をつけて"
+		2. M - c > u	[choose "文字コードセット"
+		3. ↓ x 3		[select "UTF-8"
+		4. M - s > y	[confirm
 		5. M - Space - c	[close
 
 2)
@@ -486,7 +486,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 2*2 / free# JVEMV6 68#_36 / 68. theoretical-physics(tp) / w=固有値を要素とするテンソル、(([λ_1 0 0][0 λ_2 0][00 0 λ_3])),topics=~,other=orig+,s=~,i=~,doc=r-1-5~7#4
+:m RES 5*5 / free# JVEMV6 68#_36 / 68. theoretical-physics(tp) / w=~,topics=平方完成,other=~,s=~,i=~,doc=r-3-1~2#3
 
 
 ###2021年6月27日11:30:52
@@ -617,6 +617,9 @@ DELETE FROM ifm11 WHERE _id <= 50934;
 
 ###2021年6月20日10:08:26
 #DELETE FROM ifm11 WHERE _id <= 51383;
+
+###2021年7月14日8:43:44
+#DELETE FROM ifm11 WHERE _id <= 51700;
 
 ###XXX
 DELETE FROM ifm11 WHERE _id <= XXX;
