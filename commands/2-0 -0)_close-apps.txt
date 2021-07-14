@@ -445,12 +445,12 @@ memo,theme=~,content=~,for=~,other=~
 ###2021年6月18日8:55:14
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=XXX / content=文献から、思想を抽出する、その手続きを定式化しよう、i.e.言葉で書き出そう；行動からも、抽出
+:m :lets / action activity / やること / genre=自分が行う活動について / content=この地上を、万人が住みやすい場所にする
 
 ###2021年6月28日10:15:01
 ============================== memo : :th
 
-:m :th / topic=人々が自らの言動をどう選択しているかについて / content=多くの人は、自分の言動、習慣を、参照集団に問い合わせた上で、選び取っている、という仮設 / lang=ja
+:m :th / topic=宗教と歴史について / content=宗教は、歴史から離れては、存在しえない；m_iを、n_jの歴史を持つ人々に持ってきても、m_iは、m_j`としてしか、存在しない（仮説） / lang=ja
 
 :m :th / topic=XXX / content=XXX / lang=ja
 
@@ -484,9 +484,10 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ======== memo : JVE : theoretical-physics(tp)
 ###2021年6月8日8:15:30
 
-:m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
+:m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
+w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 5*5 / free# JVEMV6 68#_36 / 68. theoretical-physics(tp) / w=~,topics=平方完成,other=~,s=~,i=~,doc=r-3-1~2#3
+:m RES 3*3 / free# JVEMV6 68#_39:2 / 68. theoretical-physics(tp) / w=(dim(∧^n(V))=_n.C_2);外積代数；(⊕^3.(i=0){∧^i(V)});,topics=~,other=~,s=~,i=~,doc=~~~r-3-1~5
 
 
 ###2021年6月27日11:30:52
