@@ -49,7 +49,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 	1. sakura
 		0. C - a > v
 		1. C - S - s	["名前をつけて"
-		2. M - c > u	[choose "文字コードセット"
+		2. M - c / u	[choose "文字コードセット"	("/" --> Alt key, off)
 		3. ↓ x 3		[select "UTF-8"
 		4. M - s > y	[confirm
 		5. M - Space - c	[close
@@ -419,7 +419,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue 1-2*2 / session-memo / s.1:prac,for=~,ReX,tempo=~,other=~,key=D,notes=5-3f-1-5_-1-3f-5,R=~ \\\ s.2:genr=atom,key=E,for=~,memo=~,tempo=~,Re~,R=~,notes=hole:7-0-2-3;3-4-4-5-4-3-4;3-4-7-0-0-0-7-4,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:res,for=good-melody;chord-change,Re+,tempo=~,other=~,key=~,notes=~,R=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -487,7 +487,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 3*3 / free# JVEMV6 68#_39:2 / 68. theoretical-physics(tp) / w=(dim(∧^n(V))=_n.C_2);外積代数；(⊕^3.(i=0){∧^i(V)});,topics=~,other=~,s=~,i=~,doc=~~~r-3-1~5
+:m RES 3*3 / free# JVEMV6 68#_40:1 / 68. theoretical-physics(tp) / w=(∃β:β∈V,f(α)=(α,β));符号定数,topics=~,other=orig+,s=~,i=~,doc=r-4-1~3
 
 
 ###2021年6月27日11:30:52
