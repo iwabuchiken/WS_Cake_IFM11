@@ -487,7 +487,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 3*3 / free# JVEMV6 68#_40:1 / 68. theoretical-physics(tp) / w=(∃β:β∈V,f(α)=(α,β));符号定数,topics=~,other=orig+,s=~,i=~,doc=r-4-1~3
+:m RES 1*1 / free# JVEMV6 68#_41 / 68. theoretical-physics(tp) / w=(A=[a^j_i]);(e->`_i=a_ij*e->_i);,topics=~,other=programming+,s=~,i=~,doc=r-4-1~4
 
 
 ###2021年6月27日11:30:52
@@ -507,7 +507,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 ======== memo :tome
 ###2021年6月8日8:21:46
 
-:tome/ (lang=ja) / topic=笛を吹く目的 / content=笛吹：自分の頭を改造しよう；電気の通りをよくしよう；血液の通りをよくしよう（他人のために、吹く。よりも前に）
+:tome/ (lang=ja) / topic=祭り、衣装、踊りの意味について / content=祭りに出てくる人たちの衣装、どんな意味があるのか？；色、形；踊りは、何を意味している？
 
 :tome/ (lang=ja) / topic=XXX / content=XXX
 
@@ -633,6 +633,13 @@ taskkill /f /im opera.exe
 delete "*" char
 
 ^\*	
+
+###2021年7月17日7:47:01
+=================== open : console
+
+start C:\WORKS_2\a
+
+C:\WORKS_2\start_a.bat
 
 
 %lerone bennett
