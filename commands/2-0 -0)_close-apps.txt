@@ -51,7 +51,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 		1. C - S - s	["名前をつけて"
 		2. M - c / u	[choose "文字コードセット"	("/" --> Alt key, off)
 		3. ↓ x 3		[select "UTF-8"
-		4. M - s > y	[confirm
+		4. M - s / y	[confirm
 		5. M - Space - c	[close
 
 2)
@@ -485,9 +485,9 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年6月8日8:15:30
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
-w=~,topics=~,other=~,s=~,i=~,doc=~
+w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_41 / 68. theoretical-physics(tp) / w=(A=[a^j_i]);(e->`_i=a_ij*e->_i);,topics=~,other=programming+,s=~,i=~,doc=r-4-1~4
+:m RES 3*3 / free# JVEMV6 68#_42 / 68. theoretical-physics(tp) / w=((σ_n,β)=(σ_n,σ_n)=1);,topics=~,other=orig+,s=~,i=~,doc=r-4-1~5#5.2
 
 
 ###2021年6月27日11:30:52
@@ -514,9 +514,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 ###2021年7月3日10:35:02
 =============== memo : :?
 
-:m :? X-X*X / topic=XXX / content=XXX
+:m :? #*# / topic=XXX / content=XXX
 
-:m :? #*# / topic=脳の働き / content=「圏」と「謙」、それぞれの音を聞いたとき、脳の中では、どんな反応が起こっているのか？
+:m :? #*# / topic=XXX / content=「正しさ」とは何か？主が正しいことを、いかにして、私は知るのか？
 
 
 ============================== gt,guitar memo
