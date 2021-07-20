@@ -445,7 +445,7 @@ memo,theme=~,content=~,for=~,other=~
 ###2021年6月18日8:55:14
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=自分が行う活動について / content=この地上を、万人が住みやすい場所にする
+:m :lets / action activity / やること / genre=創作について / content=「資本主義田楽」、創作しよう
 
 ###2021年6月28日10:15:01
 ============================== memo : :th
@@ -487,7 +487,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 5*5 / free# JVEMV6 68#_43 / 68. theoretical-physics(tp) / w=(h(w(λ,μ))=(λxμ)(dim(λ)=dim(μ))),topics=~,other=~,s=~,i=~,doc=r-4-1~5#7
+:m RES 2*2 / free# JVEMV6 68#_43 / 68. theoretical-physics(tp) / w=半群；モノイド,topics=~,other=orig+,s=~,i=~,doc=r-4-1~7
 
 
 ###2021年6月27日11:30:52
