@@ -9,8 +9,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-
 
 @@@2021年7月4日8:15:15
 
- 2) ------------------
- C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
+2) ------------------
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
 3)------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
@@ -487,7 +487,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_43 / 68. theoretical-physics(tp) / w=半群；モノイド,topics=~,other=orig+,s=~,i=~,doc=r-4-1~7
+:m RES 1*1 / free# JVEMV6 68#_45 / 68. theoretical-physics(tp) / w=半群；類,topics=~,other=~,s=~,i=~,doc=r-3-2~2#1.1;r-3-3~17
 
 
 ###2021年6月27日11:30:52
