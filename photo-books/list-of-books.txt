@@ -29,7 +29,7 @@
 	n : 116_yamamoto_tokugawa
 
 ###2021年7月7日15:43:05
-@@@
+
 
 	n : 117_cone_black-theology
 
@@ -37,8 +37,15 @@
 
 	n : 118_fabian_shaku
 	n : 119_tachibana_taimon	]2021年7月20日9:10:43
+	n : 120_mouri-motonari	]2021年7月24日16:39:39
+	n : 121_hai-yaso	]2021年7月24日16:39:39
+	n : 122_hai-kirishitan-humi	]2021年7月24日16:41:46
+	n : 123_yotsugi-gusa	]2021年7月24日16:41:54
+	n : 124_ha-kirishitan	]2021年7月24日16:51:04
 	
 	
+
+@@@
 ###
 
 
