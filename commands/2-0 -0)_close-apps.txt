@@ -450,7 +450,7 @@ memo,theme=~,content=~,for=~,other=~
 ###2021年6月28日10:15:01
 ============================== memo : :th
 
-:m :th / topic=宗教と歴史について / content=宗教は、歴史から離れては、存在しえない；m_iを、n_jの歴史を持つ人々に持ってきても、m_iは、m_j`としてしか、存在しない（仮説） / lang=ja
+:m :th / topic=大学（の、数学専攻科）について / content=大学ってのは、つまんねえ所だな；あれを解け、これを解け。別に、興味ねえよ / lang=ja
 
 :m :th / topic=XXX / content=XXX / lang=ja
 
@@ -487,7 +487,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_49:2 / 68. theoretical-physics(tp) / w=~,topics=組み紐,other=orig+,s=~,i=~,doc=r-3-3~8
+:m RES 2*2 / free# JVEMV6 68#_50:2 / 68. theoretical-physics(tp) / w=~,topics=部分群,other=?+,s=~,i=~,doc=r-3-3~15
 
 
 ###2021年6月27日11:30:52
@@ -568,7 +568,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
-:bookmemo / 読んだ本 / 『戦没農民兵士の手紙』 / 岩手県農村文化懇談会、編 / 途中 ここまで
+:bookmemo / 読んだ本 / 『やまと教』 / 著者=ひろさちや / 
 
 ============================== 読みたい本 : 2021年7月24日8:41:12
 
