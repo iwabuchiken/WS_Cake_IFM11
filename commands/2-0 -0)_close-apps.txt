@@ -419,7 +419,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=D,tempo=~,R=~,i.f.=~,notes=~,other=~,Re+
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=h-3,tempo=~,R=~,i.f.=~,notes=~,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -487,8 +487,9 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_50:2 / 68. theoretical-physics(tp) / w=~,topics=部分群,other=?+,s=~,i=~,doc=r-3-3~15
+:m RES 1*1 / free# JVEMV6 68#_51:2 / 68. theoretical-physics(tp) / w=(x^2=e),topics=剰余類,other=?+,s=~,i=~,doc=~
 
+:m RES 1-2*2 / free# JVEMV6 68#_46（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=置換,other=q+,theorem+,s=~,i=~,doc=~
 
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
