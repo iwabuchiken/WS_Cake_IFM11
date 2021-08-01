@@ -487,9 +487,9 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_51:2 / 68. theoretical-physics(tp) / w=(x^2=e),topics=剰余類,other=?+,s=~,i=~,doc=~
+:m RES 2*2 / free# JVEMV6 68#_52:2 / 68. theoretical-physics(tp) / w=(f(e)=e`);((g○f)(xy)),topics=準同型,other=~,s=~,i=~,doc=r-3-3~39#2.3
 
-:m RES 1-2*2 / free# JVEMV6 68#_46（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=置換,other=q+,theorem+,s=~,i=~,doc=~
+:m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=(a*G=G),topics=?+:aGの元ag、Gの元gのいずれかに一対一対応、どう保証する？,other=~,s=~,i=~,doc=~
 
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
@@ -574,6 +574,14 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================== 読みたい本 : 2021年7月24日8:41:12
 
 :m 読みたい本 / ジャンル　分野　リスト / 岩波新書　『戦没農民兵士の手紙』、裏表紙 / genre=記録
+
+###2021年8月1日9:39:34
+========================== ペガスス
+
+:PHOTO 記録しておきたいもの / @ペガスス：XXX / target=XXX
+
+:PHOTO 記録しておきたいもの / @ペガスス：正面の川原 / target=炊事場
+
 
 ============================== delete entries from db
 DELETE FROM ifm11 WHERE _id <= 46693;
