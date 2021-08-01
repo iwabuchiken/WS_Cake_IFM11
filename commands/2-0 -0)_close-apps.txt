@@ -487,7 +487,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_52:2 / 68. theoretical-physics(tp) / w=(f(e)=e`);((g○f)(xy)),topics=準同型,other=~,s=~,i=~,doc=r-3-3~39#2.3
+:m RES 5*5 / free# JVEMV6 68#_53:1 / 68. theoretical-physics(tp) / w=正規部分群,topics=~,other=~,s=~,i=~,doc=r-3-3~39#6.2
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=(a*G=G),topics=?+:aGの元ag、Gの元gのいずれかに一対一対応、どう保証する？,other=~,s=~,i=~,doc=~
 
@@ -641,8 +641,14 @@ DELETE FROM ifm11 WHERE _id <= 50934;
 ###2021年7月14日8:43:44
 #DELETE FROM ifm11 WHERE _id <= 51700;
 
+###2021年8月2日7:19:27
+DELETE FROM ifm11 WHERE _id <= 51965;
+
 ###XXX
 DELETE FROM ifm11 WHERE _id <= XXX;
+
+##DELETE
+
 
 
 ###2021年5月4日17:40:21
