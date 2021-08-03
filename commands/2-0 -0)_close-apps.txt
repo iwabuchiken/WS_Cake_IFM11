@@ -487,7 +487,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 5*5 / free# JVEMV6 68#_53:1 / 68. theoretical-physics(tp) / w=正規部分群,topics=~,other=~,s=~,i=~,doc=r-3-3~39#6.2
+:m RES 1*1 / free# JVEMV6 68#_54:2 / 68. theoretical-physics(tp) / w=LQG;network;fields,topics=~,other=~,s=~,i=~,doc=r-1-2~1;r-1-2.A-1;r-1-2.A-2
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=(a*G=G),topics=?+:aGの元ag、Gの元gのいずれかに一対一対応、どう保証する？,other=~,s=~,i=~,doc=~
 
