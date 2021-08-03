@@ -470,7 +470,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年6月13日9:11:14
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-0621-1 / todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=sec-1,memo=~,elements=指打ち
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-0803-1 / genr=record,key=~,for=kan-sounds:mouth-shape,memo=~,tempo=~,Re~,R=1,notes=~,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -478,7 +478,7 @@ todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~
 follow,R=~,ReX
 prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
-genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 
 ======== memo : JVE : theoretical-physics(tp)
@@ -487,7 +487,7 @@ genr=practice:指打ち,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_54:2 / 68. theoretical-physics(tp) / w=LQG;network;fields,topics=~,other=~,s=~,i=~,doc=r-1-2~1;r-1-2.A-1;r-1-2.A-2
+:m RES 2*2 / free# JVEMV6 68#_55:1 / 68. theoretical-physics(tp) / w=(Z/[p]),topics=~,other=~,s=~,i=~,doc=r-3-4~3
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=(a*G=G),topics=?+:aGの元ag、Gの元gのいずれかに一対一対応、どう保証する？,other=~,s=~,i=~,doc=~
 
