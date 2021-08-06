@@ -487,7 +487,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_55:1 / 68. theoretical-physics(tp) / w=(Z/[p]),topics=~,other=~,s=~,i=~,doc=r-3-4~3
+:m RES 1*2 / free# JVEMV6 68#_57 / 68. theoretical-physics(tp) / w=~,topics=~,other=calc+:f(x)=a_0*x^m+a_1*x^(m-1),s=~,i=~,doc=r-3-4=5#3
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=(a*G=G),topics=?+:aGの元ag、Gの元gのいずれかに一対一対応、どう保証する？,other=~,s=~,i=~,doc=~
 
