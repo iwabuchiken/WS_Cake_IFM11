@@ -47,12 +47,14 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 		1. C - * > c
 		2. Tab x 1
 	1. sakura
-		0. C - a > v
-		1. C - S - s	["名前をつけて"
-		2. M - c / u	[choose "文字コードセット"	("/" --> Alt key, off)
-		3. ↓ x 3		[select "UTF-8"
-		4. M - s / y	[confirm
-		5. M - Space - c	[close
+		1. paste, save with name
+			0. C - a > v
+			1. C - S - s	["名前をつけて"
+		2. encoding --> choose
+			2. M - c / u	[choose "文字コードセット"	("/" --> Alt key, off)
+			3. ↓ x 3		[select "UTF-8"
+			4. M - s / y	[confirm
+			5. M - Space - c	[close
 
 2)
 REM #insert data ------------------
@@ -419,7 +421,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=h-3,tempo=~,R=~,i.f.=~,notes=~,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=B,tempo=~,R=~,i.f.=~,notes=~,Re+,other=volume-chart+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -487,7 +489,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 5-6*6 / free# JVEMV6 68#_58:1 / 68. theoretical-physics(tp) / w=部分環,topics=~,other=calc+;q+:A={0},s=~,i=~,doc=r-3-3~19;r-3-4~6
+:m RES 1*1 / free# JVEMV6 68#_59:2 / 68. theoretical-physics(tp) / w=単項イデアル,topics=イデアル：体におけるイデアル,other=~,s=~,i=~,doc=r-3-4~7#7.1
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=(a*G=G),topics=?+:aGの元ag、Gの元gのいずれかに一対一対応、どう保証する？,other=~,s=~,i=~,doc=~
 
