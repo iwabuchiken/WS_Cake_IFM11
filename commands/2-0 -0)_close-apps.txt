@@ -472,7 +472,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年6月13日9:11:14
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-0803-1 / genr=record,key=~,for=kan-sounds:mouth-shape,memo=~,tempo=~,Re~,R=1,notes=~,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-0809-1 / todays-melody,genr=~,for=~,key=h-2(D),tempo=~,R=~,i.f.=~,memo=~,elements=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -489,9 +489,12 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_60:3 / 68. theoretical-physics(tp) / w=~,topics=置換,other=~,s=~,i=~,doc=r-5-1~3
+:m RES 1*1 / free# JVEMV6 68#_61:1 / 68. theoretical-physics(tp) / w=~,topics=正四面体群,other=~,s=~,i=~,doc=r-5-1~4
 
-:m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=(a*G=G),topics=?+:aGの元ag、Gの元gのいずれかに一対一対応、どう保証する？,other=~,s=~,i=~,doc=~
+:m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
+
+:m RES 3*3 / free# JVEMV6 68#_60:1:（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=元の位数が、群の位数を越えないことについて,other=q+:任意の元を累乗した時に(n)、単位元に還元する。nは、群の位数と同じかそれ以下、は、保証されるか？,s=~,i=~,doc=~
+
 
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
