@@ -23,14 +23,15 @@ REM ===========================
 REM 	web pages
 REM 	2020/02/14 10:34:15
 REM ===========================
-pushd C:\WORKS_2\Programs\opera
+rem : c/o : 2021年8月12日10:03:37
+rem pushd C:\WORKS_2\Programs\opera
 REM start launcher.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
-set url_1="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?sort=file_name&direction=desc"
+rem set url_1="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?sort=file_name&direction=desc"
 
 rem : comment out : 2021年5月29日9:36:01
 rem set url_2="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3"
 
-start launcher.exe %url_1% %url_2%
+rem start launcher.exe %url_1% %url_2%
 
 REM start launcher.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?sort=file_name&direction=desc
 

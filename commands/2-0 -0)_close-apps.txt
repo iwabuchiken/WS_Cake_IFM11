@@ -489,11 +489,11 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_61:1 / 68. theoretical-physics(tp) / w=~,topics=正四面体群,other=~,s=~,i=~,doc=r-5-1~4
+:m RES 5*5 / free# JVEMV6 68#_62:1 / 68. theoretical-physics(tp) / w=~,topics=正四面体群：各元：郡表,other=orig+:置換表記の読み方,s=~,i=~,doc=?:「ときわ台」のページ
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 3*3 / free# JVEMV6 68#_60:1:（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=元の位数が、群の位数を越えないことについて,other=q+:任意の元を累乗した時に(n)、単位元に還元する。nは、群の位数と同じかそれ以下、は、保証されるか？,s=~,i=~,doc=~
+:m RES 1*1 / free# JVEMV6 68#_61:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=巡回置換(123)の、逆元,other=q+:巡回置換、要素を巡回させたもの、同値か；theorem+:巡回置換を巡回させたもの：置換の結果は、同じ,s=~,i=~,doc=~
 
 
 ###2021年6月27日11:30:52
@@ -513,16 +513,17 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo :tome
 ###2021年6月8日8:21:46
 
-:tome/ (lang=ja) / topic=宗教 / content=俺は、新教じゃないとダメだ；cone-p.80;信仰共同体の中へ行こう；俺は、ラビなんだな
-
 :tome/ (lang=ja) / topic=XXX / content=XXX
+
+:tome/ (lang=ja) / topic=闘うことについて / content=fight;fight-against-oppression;oppression-called-i-can`t-do-anything
+
 
 ###2021年7月3日10:35:02
 =============== memo : :?
 
 :m :? #*# / topic=XXX / content=XXX
 
-:m :? #*# / topic=XXX / content=「正しさ」とは何か？主が正しいことを、いかにして、私は知るのか？
+:m :? #*# / topic=「雪国」について / content=「雪国」と言っても、それぞれ、様子が違う：どう異なる。なぜか？
 
 
 ============================== gt,guitar memo
