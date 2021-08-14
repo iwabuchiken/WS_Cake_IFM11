@@ -489,7 +489,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3-4*4 / free# JVEMV6 68#_63:1(cont) / 68. theoretical-physics(tp) / w=軌道,topics=郡表,other=~,s=~,i=~,doc=r-5-1~5
+:m RES 4*4 / free# JVEMV6 68#_63:2(cont);68#_64:1 / 68. theoretical-physics(tp) / w=同値類；代表元,topics=~,other=q+:a*Sにa^(-1)（aの逆元）は含まれるか,s=~,i=~,doc=r-5-1~6
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
