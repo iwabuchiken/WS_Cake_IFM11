@@ -452,7 +452,7 @@ memo,theme=~,content=~,for=~,other=~
 ###2021年6月28日10:15:01
 ============================== memo : :th
 
-:m :th / topic=大学（の、数学専攻科）について / content=大学ってのは、つまんねえ所だな；あれを解け、これを解け。別に、興味ねえよ / lang=ja
+:m :th / topic=work-of-Godについて / content=black-liberation;いま俺がやっていることも、work-of-Godだ / lang=ja
 
 :m :th / topic=XXX / content=XXX / lang=ja
 
@@ -489,7 +489,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 4*4 / free# JVEMV6 68#_63:2(cont);68#_64:1 / 68. theoretical-physics(tp) / w=同値類；代表元,topics=~,other=q+:a*Sにa^(-1)（aの逆元）は含まれるか,s=~,i=~,doc=r-5-1~6
+:m RES 3*3 / free# JVEMV6 68#_65:1 / 68. theoretical-physics(tp) / w=群が集合の上で働く,topics=軌道；固定部分群,other=~,s=~,i=~,doc=r-5-1~7#2.d-6
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
