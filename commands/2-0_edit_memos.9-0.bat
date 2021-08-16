@@ -85,7 +85,7 @@ REM : chrome
 :web_page_keyboard_opera
 
 REM : opera
-	pushd "C:\WORKS_2\Programs\opera"
+pushd "C:\WORKS_2\Programs\opera"
 REM 	start launcher.exe "https://docs.google.com/spreadsheets/d/1Rtg1H97HaTWcaIhOf4EtMqEvo6o-17d0Cf0CY5cuk9c/edit#gid=2093276917"
 REM 	start launcher.exe "https://docs.zoho.com/sheet/open/ek7i4683eb5df87d04a23acef09182e7df623/sheets/free/ranges/A3"
 

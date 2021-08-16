@@ -489,11 +489,11 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_65:1 / 68. theoretical-physics(tp) / w=群が集合の上で働く,topics=軌道；固定部分群,other=~,s=~,i=~,doc=r-5-1~7#2.d-6
+:m RES 1*1 / free# JVEMV6 68#_66:2 / 68. theoretical-physics(tp) / w=(|G|=|H|x|G:H|),topics=~,other=calc+:a_2*G_1:G_1*a_2,s=~,i=~,doc=r-5-1~7#5;r-5-1~8
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 1*1 / free# JVEMV6 68#_61:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=巡回置換(123)の、逆元,other=q+:巡回置換、要素を巡回させたもの、同値か；theorem+:巡回置換を巡回させたもの：置換の結果は、同じ,s=~,i=~,doc=~
+:m RES 1*1 / free# JVEMV6 68#_65:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=proof+:(g_2*g_1)^(-1)=g_1^(-1)*g_2^(-1);対称群：計算,s=~,i=~,doc=~
 
 
 ###2021年6月27日11:30:52
@@ -649,6 +649,10 @@ DELETE FROM ifm11 WHERE _id <= 50934;
 
 ###2021年8月2日7:19:27
 DELETE FROM ifm11 WHERE _id <= 51965;
+
+###2021年8月15日9:35:53
+#DELETE FROM ifm11 WHERE _id <= 52147;
+
 
 ###XXX
 DELETE FROM ifm11 WHERE _id <= XXX;
