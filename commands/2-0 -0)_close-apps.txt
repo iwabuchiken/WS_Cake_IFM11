@@ -489,7 +489,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_66:2 / 68. theoretical-physics(tp) / w=(|G|=|H|x|G:H|),topics=~,other=calc+:a_2*G_1:G_1*a_2,s=~,i=~,doc=r-5-1~7#5;r-5-1~8
+:m RES 1*1 / free# JVEMV6 68#_67:2 / 68. theoretical-physics(tp) / w=~,topics=共役類,other=calc+:proof+:共役の形式で表される２つの元a、bが、お互いに、同値であること,s=~,i=~,doc=r-5-1~9
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -588,6 +588,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :PHOTO 記録しておきたいもの / @ペガスス：正面の川原 / target=炊事場
 
+###2021年8月17日12:50:42
+============================== memo : math
+
+:m X*X / math / topic=~, about=~,other=~
+
+:m #*# / math / topic=群を作る, about=0から9の数字を元とする；＋の演算,other=~
 
 ============================== delete entries from db
 DELETE FROM ifm11 WHERE _id <= 46693;
