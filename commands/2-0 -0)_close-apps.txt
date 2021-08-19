@@ -489,7 +489,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_67:2 / 68. theoretical-physics(tp) / w=~,topics=共役類,other=calc+:proof+:共役の形式で表される２つの元a、bが、お互いに、同値であること,s=~,i=~,doc=r-5-1~9
+:m RES 1*1 / free# JVEMV6 68#_69:1 / 68. theoretical-physics(tp) / w=~,topics=中心群,other=~,s=~,i=~,doc=r-5-1~10
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
