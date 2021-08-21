@@ -488,7 +488,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 4*4 / free# JVEMV6 68#_70:1 / 68. theoretical-physics(tp) / w=~,topics=半年複利,other=q+:(1+1/(n+1))^(n+1)>(1+1/n)^(n),s=~,i=~,doc=r-5-1~10#1.2
+:m RES 1*1 / free# JVEMV6 68#_71:2 / 68. theoretical-physics(tp) / w=~,topics=~,other=calc+:(1/x^2)/(1/x);FOUND+:(y=x^2)(y=x^4):0<_x<_1;q+:o(a*h^n)=o(h^n):why?,s=~,i=~,doc=r-5-2~2
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -592,7 +592,13 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m X*X / math / topic=~, about=~,other=~
 
-:m #*# / math / topic=半年複利：極限, about=(1+1/(n+1))^(n+1)>(1+1/n)^(n),other=計算途中 ||| :m #*# / math / topic=半年複利：極限, about=(1+1/(n+1))^(n+1)>(1+1/n)^(n),other=計算途中
+:m 1*1 / math / topic=累乗和同士の比較, about=~,other=q+:((B^2+B)/B^3):大きさ;((B^(n-1)+B^(n-2))+...)/B^n):大きさ
+
+###2021年8月21日9:21:58
+============================== 種植え
+
+:PHOTO 記録用 / @自室前：ベランダ / target=種（たね） occasion=XXX species=XXX,id=XXX.jpg
+
 
 ============================== delete entries from db
 DELETE FROM ifm11 WHERE _id <= 46693;
