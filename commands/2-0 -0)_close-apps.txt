@@ -488,7 +488,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_71:2 / 68. theoretical-physics(tp) / w=~,topics=~,other=calc+:(1/x^2)/(1/x);FOUND+:(y=x^2)(y=x^4):0<_x<_1;q+:o(a*h^n)=o(h^n):why?,s=~,i=~,doc=r-5-2~2
+:m RES 3*3 / free# JVEMV6 68#_72:2 / 68. theoretical-physics(tp) / w=~,topics=ε-δ論法,other=~,s=~,i=~,doc=r-5-2~2#8
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -592,7 +592,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m X*X / math / topic=~, about=~,other=~
 
-:m 1*1 / math / topic=累乗和同士の比較, about=~,other=q+:((B^2+B)/B^3):大きさ;((B^(n-1)+B^(n-2))+...)/B^n):大きさ
+:m 2*2 / math / topic=数式：グラフ化, about=(y=-p*x^3+q*x^2);,other=~
 
 ###2021年8月21日9:21:58
 ============================== 種植え
