@@ -455,7 +455,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :th / topic=XXX / content=XXX / lang=ja
 
-:m :th / topic=言葉：独立 / content=「独立」；ポーランド語を話す人たちは、どんな言葉を、その対象に、当てているか / lang=ja
+:m :th / topic=人について / content=i-feel-sorry-for-those-who-aren`t-aware;俺は、主に従う / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -473,11 +473,11 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年6月13日9:11:14
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-08-12_18-49-35_000.mp4 / todays-melody,genr=~,for=~,key=h-2(D),tempo=~,R=1,i.f.=~,memo=~,elements=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / 2021-08-23_18-28-57_000.mp4 / todays-melody,genr=european-like,for=~,key=~,tempo=~,R=1,i.f.=~,memo=~,elements=~,notes=0-6-5
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
-todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=
 follow,R=~,ReX
 prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
@@ -490,7 +490,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_72:2 / 68. theoretical-physics(tp) / w=中間値の定理,topics=連続；微分可能,other=~,s=~,i=~,doc=r-5-2~3#2.2
+:m RES 1*1 / free# JVEMV6 68#_74:1 / 68. theoretical-physics(tp) / w=(1/(n-1)!*x^(n-1)+1/n!*x^n*e^(θ*x)),topics=中間値の定理；ロルの定理,other=~,s=~,i=~,doc=r-5-2~3#9
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
