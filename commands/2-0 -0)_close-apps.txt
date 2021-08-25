@@ -446,7 +446,7 @@ memo,theme=~,content=~,for=~,other=~
 ###2021年6月18日8:55:14
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=歴史 / content=「公（こう）」のため；「公け（おおやけ）」ではなく、「同胞」という意味で「公（こう）」のために生きた人、生きようとした人、命を捧げた人；新しい織物を作ろう
+:m :lets / action activity / やること / genre=ハーブ漬けの焼酎 / content=ハーブ漬けの焼酎。名前を付けよう。
 
 
 
@@ -455,7 +455,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :th / topic=XXX / content=XXX / lang=ja
 
-:m :th / topic=人について / content=i-feel-sorry-for-those-who-aren`t-aware;俺は、主に従う / lang=ja
+:m :th / topic=祈り / content=主よ。あなたの名を騙る者たちを、打ち砕いて下さい。 / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -490,7 +490,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_74:1 / 68. theoretical-physics(tp) / w=(1/(n-1)!*x^(n-1)+1/n!*x^n*e^(θ*x)),topics=中間値の定理；ロルの定理,other=~,s=~,i=~,doc=r-5-2~3#9
+:m RES 1*1 / free# JVEMV6 68#_75:2 / 68. theoretical-physics(tp) / w=~,topics=テイラーの定理：導出,other=~,s=~,i=~,doc=r-5-2~4#2
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -516,7 +516,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :tome/ (lang=ja) / topic=XXX / content=XXX
 
-:tome/ (lang=ja) / topic=闘うことについて / content=fight;fight-against-oppression;oppression-called-i-can`t-do-anything
+:tome/ (lang=ja) / topic=XXX / content=俺はもの書きで、発明屋；「なりたい」ではなくて、「なのだ」；何になりたいか、ではなくて、お前は誰なのかを、自問せよ；お前の無意識は、お前が誰かを知っている、お前に向かっていつも、訴えている。お前は、他の声に耳を傾けてしまっていて、その声が聞こえない。
 
 
 ###2021年7月3日10:35:02
@@ -600,6 +600,26 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================== 種植え
 
 :PHOTO 記録用 / @自室前：ベランダ / target=種（たね） occasion=XXX species=XXX,id=XXX.jpg
+
+###2021年8月25日10:37:29
+============================== :VOICE-MEMO bird
+
+:VOICE-MEMO / @自室 / record / bird / 鳥の声, other=~
+
+
+###2021年8月25日10:40:21
+============================== :PHOTO 記録用
+
+:PHOTO 記録用 / location=~ / topic=~, subject=~, other=~
+
+:PHOTO 記録用 / location=自室 / topic=~, subject=猫の固形エサ, other=仕込んだところ：市販の１袋、４袋の小分け、４つ全てを、それぞれ別のフリーザバッグの袋へ
+
+###2021年8月25日11:14:51
+============================== :i drink-alcohol
+
+:i X*X / drink-alcohol / topic=~, subject=~, other=~
+
+:i 1*1 / drink-alcohol / topic=ハーブ漬けの焼酎, subject=~, other=一日漬けたら、取り出す。「一日もの」、「２日もの」と、名前を付ける。
 
 
 ============================== delete entries from db
