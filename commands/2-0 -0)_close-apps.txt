@@ -455,7 +455,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :th / topic=XXX / content=XXX / lang=ja
 
-:m :th / topic=祈り / content=主よ。あなたの名を騙る者たちを、打ち砕いて下さい。 / lang=ja
+:m :th / topic=人物評論 / content=角谷氏、神保氏。アメリカ信仰に支えられている / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -490,11 +490,11 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_75:2 / 68. theoretical-physics(tp) / w=~,topics=テイラーの定理：導出,other=~,s=~,i=~,doc=r-5-2~4#2
+:m RES 1*1 / free# JVEMV6 68#_76:2 / 68. theoretical-physics(tp) / w=~,topics=マクローリン展開,other=orig+:e^x:x=1;q+:open:(∫^∞._1(1/x!)dx),s=~,i=~,doc=r-5-2~4#5
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 1*1 / free# JVEMV6 68#_65:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=proof+:(g_2*g_1)^(-1)=g_1^(-1)*g_2^(-1);対称群：計算,s=~,i=~,doc=~
+:m RES 1*1 / free# JVEMV6 68#_76:1（追加メモ） / 68. theoretical-physics(tp) / w=(f(b)=f(a)+∫^b._a(f`(x))dx);部分積分；,topics=テイラーの定理,other=mem+:部分積分;words:ビブ型:素型（すがた）:オープン型の項：積分型の項,s=~,i=~,doc=~
 
 
 ###2021年6月27日11:30:52
@@ -594,7 +594,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m X*X / math / topic=~, about=~,other=~
 
-:m 2*2 / math / topic=数式：グラフ化, about=(y=-p*x^3+q*x^2);,other=~
+:m 1*1 / math / topic=マクローリン展開, about=マクローリン展開：sinx:cosx,other=q+:open:収束の有無：(-1)^k*(1/(2*k+1)!*x^(2*k+1)
 
 ###2021年8月21日9:21:58
 ============================== 種植え
@@ -620,6 +620,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 :i X*X / drink-alcohol / topic=~, subject=~, other=~
 
 :i 1*1 / drink-alcohol / topic=ハーブ漬けの焼酎, subject=~, other=一日漬けたら、取り出す。「一日もの」、「２日もの」と、名前を付ける。
+
 
 
 ============================== delete entries from db
