@@ -420,7 +420,7 @@ rem 2021年3月4日11:23:28
 
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=h-4,tempo=~,R=~,i.f.=~,notes=6|4-3-4-4-6-4,Re+,other=~ \\\ s.2:todays-melody,genr=~,for=~,key=h-2(C),tempo=~,R=~,i.f.=~,notes=4-3-2-3|1-2-2-2-3-2-3-4,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=h-6:G,tempo=~,R=~,i.f.=~,notes=h:3-4-6-7-6;pitch:5_-6_-1-2-1,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -490,7 +490,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3-4*4 / free# JVEMV6 68#_77:3 / 68. theoretical-physics(tp) / w=~,topics=負の数の、無限べき,other=theorem+:負の数のべき乗の、指数を基準とした、極限値：振動,s=~,i=~,doc=r-6-1~4
+:m RES 1*1 / free# JVEMV6 68#_78:1 / 68. theoretical-physics(tp) / w=~,topics=一様収束,other=~,s=~,i=~,doc=r-5-2~6
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -687,6 +687,8 @@ DELETE FROM ifm11 WHERE _id <= 51965;
 ###2021年8月15日9:35:53
 #DELETE FROM ifm11 WHERE _id <= 52147;
 
+###2021年8月29日8:19:21
+#DELETE FROM ifm11 WHERE _id <= 52330;
 
 ###XXX
 DELETE FROM ifm11 WHERE _id <= XXX;
