@@ -420,7 +420,7 @@ rem 2021年3月4日11:23:28
 
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=h-6:G,tempo=~,R=~,i.f.=~,notes=h:3-4-6-7-6;pitch:5_-6_-1-2-1,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=mouth-shaping,key=h-0,tempo=~,R=1,i.f.=~,notes=B-F_-D_-A;h-0-5-4-7;pitch:1-5f_-3f_-7f,ReX,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -455,7 +455,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :th / topic=XXX / content=XXX / lang=ja
 
-:m :th / topic=イエスの言葉；宗教；信仰 / content=幼子のようにならねば；oppressedの中に、真理を隠された（主は）；oppressorになると、真理が分からなくなってしまう / lang=ja
+:m :th / topic=韓国の歴史 / content=韓国の歴史を知りたい；日本と似ているところ、違うところ。日本がまた、違って見えてくる / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -473,7 +473,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年6月13日9:11:14
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / 2021-08-23_18-28-57_000.mp4 / todays-melody,genr=european-like,for=~,key=~,tempo=~,R=1,i.f.=~,memo=~,elements=~,notes=0-6-5
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / 2021-08-29_18-35-06_000.mp4 / todays-melody,genr=~,for=~,key=~,tempo=~,R=1:sec-1,i.f.=~,memo=~,elements=~,notes=
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -490,7 +490,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_78:1 / 68. theoretical-physics(tp) / w=~,topics=一様収束,other=~,s=~,i=~,doc=r-5-2~6
+:m RES 1*1 / free# JVEMV6 68#_79:2 / 68. theoretical-physics(tp) / w=項別微分；微分可能性,topics=一様収束,other=~,s=~,i=~,doc=r-5-2~6#6
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -516,7 +516,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :tome/ (lang=ja) / topic=XXX / content=XXX
 
-:tome/ (lang=ja) / topic=XXX / content=俺はもの書きで、発明屋；「なりたい」ではなくて、「なのだ」；何になりたいか、ではなくて、お前は誰なのかを、自問せよ；お前の無意識は、お前が誰かを知っている、お前に向かっていつも、訴えている。お前は、他の声に耳を傾けてしまっていて、その声が聞こえない。
+:tome/ (lang=ja) / topic=読書 / content=１冊あたり、３分でいいから、読もう
 
 
 ###2021年7月3日10:35:02
