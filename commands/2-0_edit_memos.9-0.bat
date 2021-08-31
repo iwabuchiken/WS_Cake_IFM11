@@ -27,9 +27,10 @@ call C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0) edit_memos.9-0_mid-files.bat
 
 call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.9.move-tmp-to-iphone.bat
 
+rem "use_sqlite_2.rb f | clip" : 2021”N8ŒŽ31“ú8:42:04
 call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.1.bat
 
-
+rem "http://localhost/Eclipse_Luna/Cake_IFM11/images/manage_IPhone_ImageFiles?db_file=ifm11_backup_20160110_080900.bk" : 2021”N8ŒŽ31“ú8:42:55
 call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.10.insert-new-data-to-db.bat
 
 
