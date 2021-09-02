@@ -474,7 +474,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年6月13日9:11:14
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / 2021-08-29_18-35-06_000.mp4 / todays-melody,genr=~,for=~,key=~,tempo=~,R=1:sec-1,i.f.=~,memo=~,elements=~,notes=
+:VIDEO / @自室 / 記録 / jap.flute,shinobue / 演奏、play / 2021-09-01_18-56-44_000.mp4 / todays-melody,genr=~,for=~,key=~,tempo=~,R=1,i.f.=~,memo=~,elements=~,notes=,file-id=2021-08-29_18-35-06_000.mp4
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -491,7 +491,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_81:3 / 68. theoretical-physics(tp) / w=(L=-H+q`p),topics=ルジャンドル変換；ラグランジアン,other=~,s=~,i=~,doc=r-6-1~6;r-5-2~9#6
+:m RES 1*1 / free# JVEMV6 68#_82:2 / 68. theoretical-physics(tp) / w=~,topics=ランダウ,other=~,s=~,i=~,doc=r-6-1~7
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -500,9 +500,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
-:m #*# RES / JVEMV6 64#115_-- / 『音楽で脳はここまで再生する』 著者=奥村歩む,構成・編=佐々木久夫 / p.113 / w:ブローカ野；ウェルニケ野；失語症；運動性失語；上側頭回,topic:~
-
 :m #*# RES / JVEMV6 64#XXX_-- / 『XXX』 著者=~,校注=~ / p.~ / w:~,topic:~
+
+
+:m 1-4*5 RES / JVEMV6 64#127_mao-etsuko_tuchi_-- / 『土と女』 著者=真尾悦子,校注=~ / p.116 / w:~,topic:米の値段；土方仕事の値段；娘を売る、その値段
+
+C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 
 ======== memo : video : 記録
