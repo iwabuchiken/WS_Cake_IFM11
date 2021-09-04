@@ -7,7 +7,6 @@ rem ==============================/
 1) ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
 
-@@@2021年7月4日8:15:15
 
 2) ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
@@ -474,11 +473,11 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年6月13日9:11:14
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute,shinobue / 演奏、play / 2021-09-01_18-56-44_000.mp4 / todays-melody,genr=~,for=~,key=~,tempo=~,R=1,i.f.=~,memo=~,elements=~,notes=,file-id=2021-08-29_18-35-06_000.mp4
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / 2021-09-02_18-42-40_000.mp4 / todays-melody,genr=~,for=~,key=~,tempo=~,R=2,i.f.=~,memo=~,elements=~,notes=,Re+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
-todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX
 follow,R=~,ReX
 prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
@@ -491,7 +490,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_82:2 / 68. theoretical-physics(tp) / w=~,topics=ランダウ,other=~,s=~,i=~,doc=r-6-1~7
+:m RES 1*1 / free# JVEMV6 68#_83:2 / 68. theoretical-physics(tp) / w=(f(x)=φ+o(g(x))),topics=ランダウの記号；(sinx/x),other=i-1.1:(sinx/x),s=~,i=~,doc=r-6-1~7#2.5
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -520,7 +519,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :tome/ (lang=ja) / topic=XXX / content=XXX
 
-:tome/ (lang=ja) / topic=読書 / content=１冊あたり、３分でいいから、読もう
+:tome/ (lang=ja) / topic=XXX / content=research-math、経済の調べにも、同じアプローチ：「これは、どんな仕組みが働いているのか？」
 
 
 ###2021年7月3日10:35:02
@@ -528,7 +527,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m :? #*# / topic=XXX / content=XXX
 
-:m :? #*# / topic=「雪国」について / content=「雪国」と言っても、それぞれ、様子が違う：どう異なる。なぜか？
+:m :? #*# / topic=history:日本史 / content=室町時代の、民衆の、思想：２つ、上げてみよう
 
 
 ============================== gt,guitar memo
@@ -598,7 +597,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m #*# / math / topic=~, about=~,other=~,id=~
 
-:m 1*1 / math / topic=偏微分, about=実際に計算してみる：xy/(x^2+y^2),other=~,id=~
+:m #*# / math / topic=円周率：(Π-3)を作図, about=作図できるか？,other=~,id=~
 
 ###2021年8月21日9:21:58
 ============================== 種植え
