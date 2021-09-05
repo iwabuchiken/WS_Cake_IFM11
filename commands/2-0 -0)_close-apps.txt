@@ -459,7 +459,7 @@ memo,theme=~,content=~,for=~,other=~
 
 
 ============================== memo : shakuhachi,bamboo,尺八
-###:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / b-2021-0611-1 / genr=free-play,key=~,for=~,memo=~,tempo=~,Re~,R=1,notes=~,other=~
+###:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / 2021-09-05_00-37-44_000.mp4 / genr=atom:`a-wa-wa`,key=~,for=~,memo=~,tempo=~,Re~,R=1,notes=~,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -490,7 +490,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_83:2 / 68. theoretical-physics(tp) / w=(f(x)=φ+o(g(x))),topics=ランダウの記号；(sinx/x),other=i-1.1:(sinx/x),s=~,i=~,doc=r-6-1~7#2.5
+:m RES 2*2 / free# JVEMV6 68#_84:2 / 68. theoretical-physics(tp) / w=~,topics=ランダウの記号：性質,other=lang-memo:ko,s=~,i=~,doc=r-6-1~7#5
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -597,7 +597,16 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m #*# / math / topic=~, about=~,other=~,id=~
 
-:m #*# / math / topic=円周率：(Π-3)を作図, about=作図できるか？,other=~,id=~
+:m 2*2 / math / topic=微分：三角関数, about=(sinx)^3：微分,other=q+;q+:open;q+:open:(sinx)^nの微分,id=~
+
+###2021年9月5日12:06:05
+============================== memo : general
+
+:m #*# / memo:general / topic=~, about=~,other=~,id=~
+
+:m #*# / memo:general / topic=焼酎漬け：ブレンディング, about=オオバ：隠し味に良い,other=~,id=~
+
+
 
 ###2021年8月21日9:21:58
 ============================== 種植え
