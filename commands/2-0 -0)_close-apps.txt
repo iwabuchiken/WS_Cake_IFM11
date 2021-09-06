@@ -442,11 +442,12 @@ memo,theme=~,content=~,for=~,other=~
 
 :m dessin,sketch / des. object=輪袈裟 / @web画像 / other=~,memo~,found~,id=CJWP,occasion=『宇治拾遺物語』 ||| :m dessin,sketch / des. object=モクゲンジ / @web画像 / other=~,memo~,found~,id=LTU1,occasion=『宇治拾遺物語』
 
-============================== memo : lets
 ###2021年6月18日8:55:14
+============================== memo : lets
+
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=ハーブ漬けの焼酎 / content=ハーブ漬けの焼酎。名前を付けよう。
+:m :lets / action activity / やること / genre=本、購入 / content=black-theology-of-lieration：母親に、お金を出してもらおう。
 
 
 
@@ -455,7 +456,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :th / topic=XXX / content=XXX / lang=ja
 
-:m :th / topic=韓国の歴史 / content=韓国の歴史を知りたい；日本と似ているところ、違うところ。日本がまた、違って見えてくる / lang=ja
+:m :th / topic=海外との比較をする言説について（日本について、ダメ出しを出し、そして、出すだけに留まる言説について） / content=「ドイツではこうなっていて、そんなの普通ですよ。比べて、日本はそうではなくて。。。」、と言うに留まるより、「では、日本では、なぜ、そうなのか？」。何に由来しているのか？なぜ、その由来が生じたのか？それらを変えれた事例はあるか？変えようとした事例はあるか？変わったのか？もしそうなら、なぜ？ / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -490,7 +491,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_84:2 / 68. theoretical-physics(tp) / w=~,topics=ランダウの記号：性質,other=lang-memo:ko,s=~,i=~,doc=r-6-1~7#5
+:m RES 1*2 / free# JVEMV6 68#_85:1 / 68. theoretical-physics(tp) / w=~,topics=ランダウ,other=~,s=~,i=~,doc=r-6-1~7#6
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -519,7 +520,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :tome/ (lang=ja) / topic=XXX / content=XXX
 
-:tome/ (lang=ja) / topic=XXX / content=research-math、経済の調べにも、同じアプローチ：「これは、どんな仕組みが働いているのか？」
+:tome/ (lang=ja;ko) / topic=自分の思想を深める / content=自分の思想を、もっと深めよう。どんな製品を作っても、思想しだいだよ。
 
 
 ###2021年7月3日10:35:02
