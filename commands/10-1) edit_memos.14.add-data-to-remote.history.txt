@@ -1,3 +1,11 @@
+### 2021/09/08 09:17:17
+total_data => 14
+new_data_Success => 13
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
 ### 2021/09/07 09:43:27
 total_data => 13
 new_data_Success => 12
@@ -5334,6 +5342,8 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
 
 done
 
