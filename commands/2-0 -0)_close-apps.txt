@@ -516,6 +516,20 @@ prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
 genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
+###2021年9月9日9:58:39
+======================== video : others
+
+:VIDEO / @自室 / 記録 / inst=~ / 演奏、play / f-2021-061X-X / XX
+
+:VIDEO / @自室 / 記録 / inst=ビン：小瓶：一味とうがらしの空き瓶 / 演奏、play / 2021-09-09_00-58-56_000.mp4 / prac,for=bebeyさんの動画を見て、真似してみた,ReX,tempo=~,other=~,key=~,notes=~
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+follow,R=~,ReX
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX
+follow,R=~,ReX
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
+rev,for=~,ReX,tempo=~,other=~,key=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 ======== memo : JVE : theoretical-physics(tp)
 ###2021年6月8日8:15:30
@@ -523,7 +537,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 4*4 / free# JVEMV6 68#_87:1 / 68. theoretical-physics(tp) / w=(α>a),topics=存在：極限値,other=~,s=~,i=~,doc=r-6-2~1#7
+:m RES 1*1 / free# JVEMV6 68#_88:2 / 68. theoretical-physics(tp) / w=~,topics=無限大,other=q+:(1/∞)=0は、あるか？;q+:(1/∞)<0は、可能か？,s=~,i=~,doc=r-5-2~11#7
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
