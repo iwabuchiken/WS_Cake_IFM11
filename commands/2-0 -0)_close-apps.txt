@@ -29,7 +29,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
 
 ### write memos ------------------
-
+aaa
 1)
 rem 9	commands : restart server, open csv file
 
@@ -489,11 +489,11 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年9月7日8:49:45
 ==================== memo : percussion,rythm
 
-:m / 1*1 / percussion,rythm / session-memo / s.1: s.1:content=score,key=~,for=~,from=~,R=~,item=desktop-surface;book-body,hitter=hand:both,pieces=2-pattern,genr=pattern-atom,other=~,memo~
+:m / 1*1 / percussion,rythm / session-memo / s.1:item=desktop-surface,hitter=hand:both,pieces=~,genr=pattern-atom,other=~,memo+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
-s.1:content=score,key=~,for=~,from=~,R=~,item=desktop-surface;book-body,hitter=hand:both,pieces=2-pattern,genr=pattern-atom,other=~,memo~
+s.1:item=desktop-surface,hitter=hand:both,pieces=~,genr=pattern-atom,other=~,memo+
 
 s.1:content=~,key=~,for=~,from=~,R=~,item=bowl,hitter=chopstick:2,pieces=~,genr=pattern-atom,other=~,memo+
 
@@ -537,7 +537,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_88:2 / 68. theoretical-physics(tp) / w=~,topics=無限大,other=q+:(1/∞)=0は、あるか？;q+:(1/∞)<0は、可能か？,s=~,i=~,doc=r-5-2~11#7
+:m RES 1*1 / free# JVEMV6 68#_90:1 / 68. theoretical-physics(tp) / w=~,topics=~,other=q+:3x3の行列：零因子は？;q+:open:余因子がすべて０であり、かつ、その行列のすべての要素が、０ではない。そんな行列は、istnieje?;q+:open:余因子について、各要素が互いにに通っている。そんな要素たち以外の組み合わせは、istnieje?,s=~,i=~,doc=r-6-2~3#2.2
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -574,7 +574,15 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m :? #*# / topic=XXX / content=XXX
 
-:m :? #*# / topic=history:日本史 / content=室町時代の、民衆の、思想：２つ、上げてみよう
+:m :? #*# / topic=脳科学 / content=計算しないで、ある命題が真であることが、何となく分かるとき、脳は、何を行っているのか？
+
+###2021年9月11日12:33:26
+=============== memo :do
+
+:do / topic=XXX / content=XXX
+
+:do / topic=方法論について / content=自分で設問を作り、自分で解明する。この手続きを、経済分野にも、適用しよう。解決方法を作り出そう。
+
 
 
 ============================== gt,guitar memo
