@@ -29,7 +29,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
 
 ### write memos ------------------
-aaa
+
 1)
 rem 9	commands : restart server, open csv file
 
@@ -475,11 +475,11 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / 2021-09-02_18-42-40_000.mp4 / todays-melody,genr=~,for=~,key=~,tempo=~,R=2,i.f.=~,memo=~,elements=~,notes=,Re+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / 2021-09-11_18-43-55_000.mp4 / todays-melody,genr=~,for=~,key=~,tempo=~,R=2,i.f.=~,memo=~,elements=~,notes=,Re+,other=`ジュピター`のメロディーに似ている
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
-todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 follow,R=~,ReX
 prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
@@ -537,7 +537,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_90:1 / 68. theoretical-physics(tp) / w=~,topics=~,other=q+:3x3の行列：零因子は？;q+:open:余因子がすべて０であり、かつ、その行列のすべての要素が、０ではない。そんな行列は、istnieje?;q+:open:余因子について、各要素が互いにに通っている。そんな要素たち以外の組み合わせは、istnieje?,s=~,i=~,doc=r-6-2~3#2.2
+:m RES 1*1 / free# JVEMV6 68#_91:1 / 68. theoretical-physics(tp) / w=~,topics=１次独立,other=q+:open:あるベクトルm->が０であり、かつ、要素ベクトルの係数のうち、０ではないものがある場合。m->の式は、どんな構成か,s=~,i=~,doc=r-5-2~11#3.1
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -566,7 +566,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :tome/ (lang=ja) / topic=XXX / content=XXX
 
-:tome/ (lang=ja;ko) / topic=自分の思想を深める / content=自分の思想を、もっと深めよう。どんな製品を作っても、思想しだいだよ。
+:tome/ (lang=ja) / topic=数学に関する調べ物について / content=自分で作った`Q+`の設問たち。それらに答えて、体系として整理する。他に道はない。「退屈」から抜け出るには。
 
 
 ###2021年7月3日10:35:02
@@ -652,7 +652,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m #*# / math / topic=~, about=~,other=~,id=~
 
-:m 2*2 / math / topic=微分：三角関数, about=(sinx)^3：微分,other=q+;q+:open;q+:open:(sinx)^nの微分,id=~
+:m #*# / math / topic=１次独立, about=構成ベクトルの、係数。k*a->≠0のとき、m->が尚も０であるための条件, other=~,id=U3HH / N+
 
 ###2021年9月5日12:06:05
 ============================== memo : general
@@ -756,6 +756,10 @@ DELETE FROM ifm11 WHERE _id <= 51965;
 
 ###2021年8月29日8:19:21
 #DELETE FROM ifm11 WHERE _id <= 52330;
+
+###2021年9月11日12:40:08
+DELETE FROM ifm11 WHERE _id <= 52481;
+
 
 ###XXX
 DELETE FROM ifm11 WHERE _id <= XXX;
