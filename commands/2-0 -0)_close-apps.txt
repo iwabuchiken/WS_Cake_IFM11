@@ -456,7 +456,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :th / topic=XXX / content=XXX / lang=ja
 
-:m :th / topic=海外との比較をする言説について（日本について、ダメ出しを出し、そして、出すだけに留まる言説について） / content=「ドイツではこうなっていて、そんなの普通ですよ。比べて、日本はそうではなくて。。。」、と言うに留まるより、「では、日本では、なぜ、そうなのか？」。何に由来しているのか？なぜ、その由来が生じたのか？それらを変えれた事例はあるか？変えようとした事例はあるか？変わったのか？もしそうなら、なぜ？ / lang=ja
+:m :th / topic=この世界で、自分がやること / content=この世界では、fixだけ、やろう。楽しみは、ない。ただ、平和を作ろう。 / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -475,7 +475,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / 2021-09-11_18-43-55_000.mp4 / todays-melody,genr=~,for=~,key=~,tempo=~,R=2,i.f.=~,memo=~,elements=~,notes=,Re+,other=`ジュピター`のメロディーに似ている
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / 2021-09-12_18-54-05_000.mp4 / todays-melody,R=1,notes=dai-kan-notes,Re+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -537,7 +537,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_91:1 / 68. theoretical-physics(tp) / w=~,topics=１次独立,other=q+:open:あるベクトルm->が０であり、かつ、要素ベクトルの係数のうち、０ではないものがある場合。m->の式は、どんな構成か,s=~,i=~,doc=r-5-2~11#3.1
+:m RES 2*2 / free# JVEMV6 68#_93:1 / 68. theoretical-physics(tp) / w=~,topics=一次独立；ベクトルの合成；一意性,other=~,s=~,i=~,doc=r-6-2~5#3
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -650,9 +650,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2021年8月17日12:50:42
 ============================== memo : math
 
-:m #*# / math / topic=~, about=~,other=~,id=~
+:m #*# / math / topic=~, about=~,other=~,id=~ / N~
 
-:m #*# / math / topic=１次独立, about=構成ベクトルの、係数。k*a->≠0のとき、m->が尚も０であるための条件, other=~,id=U3HH / N+
+:m 2*2 / math / topic=数論, about=(-a*p+b*q=q,or,p)となるための、各変数の範囲は何か,other=q+:(a*p>b*q);theorem+;theorem+;,id=19ZB:s-1 / N+
+
 
 ###2021年9月5日12:06:05
 ============================== memo : general
