@@ -447,7 +447,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=本、購入 / content=black-theology-of-lieration：母親に、お金を出してもらおう。
+:m :lets / action activity / やること / genre=創作：神学 / content=神学を作ろう。日本に合ったものを。
 
 
 
@@ -502,11 +502,9 @@ s.1:content=~,key=~,for=~,from=~,R=~,item=bowl,hitter=chopstick:2,pieces=~,genr=
 
 :VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / 2021-09-07_23-51-01_000.mp4 / content=~,key=~,for=~,from=~,R=4,item=plastic-pot:2-pieces,hitter=hand:both;finger-tips,pieces=~,genr=pattern-atom,other=~,memo~
+:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / 2021-09-15_01-00-39_000.mp4 / R=1,item=body-surface:chest;belly,hitter=hand:both:palm,genr=pattern-atom
 
-#example : 2021年9月8日9:03:43
-:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / 2021-09-06_19-16-16_000.mp4 / todays-melody,genr=~,for=~,key=~,tempo=~,R=1,i.f.=~,memo=~,elements=~,notes=,ReX,memo+:2021-09-06_19-19-15_000.jpg
-
+content=~,key=~,for=~,from=~,R=~,item=plastic-pot:2-pieces,hitter=hand:both;finger-tips,pieces=~,genr=pattern-atom,other=~,memo~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -537,7 +535,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_93:1 / 68. theoretical-physics(tp) / w=~,topics=一次独立；ベクトルの合成；一意性,other=~,s=~,i=~,doc=r-6-2~5#3
+:m RES 3*3 / free# JVEMV6 68#_94:1 / 68. theoretical-physics(tp) / w=mem+(Q_1-Q_2)の次数;,topics=除法,other=mem+;,s=~,i=~,doc=r-6-2~7
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -688,6 +686,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 :i X*X / drink-alcohol / topic=~, subject=~, other=~
 
 :i 1*1 / drink-alcohol / topic=ハーブ漬けの焼酎, subject=~, other=一日漬けたら、取り出す。「一日もの」、「２日もの」と、名前を付ける。
+
+
+###2021年9月15日10:48:37
+============================== 記録 : お酒
+
+:m 記録 / お酒：飲んだ量
 
 
 
