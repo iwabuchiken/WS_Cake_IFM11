@@ -535,7 +535,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_94:1 / 68. theoretical-physics(tp) / w=mem+(Q_1-Q_2)の次数;,topics=除法,other=mem+;,s=~,i=~,doc=r-6-2~7
+:m RES 2*2 / free# JVEMV6 68#_94:2 68#_95:1 / 68. theoretical-physics(tp) / w=(∃x∀y(P(y)⇔y=x)),topics=uniqueness;manner-of-proving,other=~,s=~,i=~,doc=r-6-2~9
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
