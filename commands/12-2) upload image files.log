@@ -11159,3 +11159,13 @@ size : 0.20 (MB)
 2021/09/18 12:50:56
 time : 6.728 sec
 rate : 0.030 (MB/sec)
+
+[2021/09/19 09:48:16] ======================================== UPLOAD DB FILE
+[views.py:258] Starting file uploads...
+[views.py:284] starting storbinary... : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\data\ifm11_backup_20160110_080900.bk
+2021/09/19 09:48:17
+size : 0.21 (MB)
+[views.py:343] storbinary complete : returned : 226 Transfer complete
+2021/09/19 09:48:24
+time : 7.450 sec
+rate : 0.028 (MB/sec)

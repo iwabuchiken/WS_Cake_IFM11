@@ -572,7 +572,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m :? #*# / topic=XXX / content=XXX
 
-:m :? #*# / topic=脳科学 / content=計算しないで、ある命題が真であることが、何となく分かるとき、脳は、何を行っているのか？
+:m :? #*# / topic=数学：複素数 / content=複素数同士の比。実数になりうるか。 / status=COMPLETE
 
 ###2021年9月11日12:33:26
 =============== memo :do
@@ -648,9 +648,16 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2021年8月17日12:50:42
 ============================== memo : math
 
-:m #*# / math / topic=~, about=~,other=~,id=~ / N~
+:m #*# / math / topic=~, about=~,other=~,w=~,id=~ / N~
 
-:m 2*2 / math / topic=数論, about=(-a*p+b*q=q,or,p)となるための、各変数の範囲は何か,other=q+:(a*p>b*q);theorem+;theorem+;,id=19ZB:s-1 / N+
+:m 3*3 / math / topic=複素数の指数関数表示, about=e^(i*θ)において、θを(-i)とすると、オイラーの公式において、左辺は実数。右辺の、三角関数の和の各項。実数か、複素数か,other=~,w=~,id=RDR1:s-1
+
+###2021年9月19日9:45:02
+============================== memo : phys
+
+:m #*# / phys / topic=~, about=~,other=~,w=~,id=~ / N~
+
+:m #*# / phys / topic=空気抵抗, about=丸い形状の面。空気抵抗の大きさ,other=~,w=~,id=RC2Z:s-1 / N~
 
 
 ###2021年9月5日12:06:05
