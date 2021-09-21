@@ -454,9 +454,9 @@ memo,theme=~,content=~,for=~,other=~
 ###2021年6月28日10:15:01
 ============================== memo : :th
 
-:m :th / topic=XXX / content=XXX / lang=ja
+:m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=この世界で、自分がやること / content=この世界では、fixだけ、やろう。楽しみは、ない。ただ、平和を作ろう。 / lang=ja
+:m :th / topic=神学 / content=正しい、とは何か。人は、どこから来たのか；「天」とは、何か / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -535,11 +535,23 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 4*4 / free# JVEMV6 68#_96:1 / 68. theoretical-physics(tp) / w=~,topics=式と証明,other=q+:x^2+y^2+z^2=x+y+z;q+:open:x^3-y^3=0;q+:open:x+y+z=0:x^3+y^3+z^3=3xyz,s=~,i=~,doc=r-6-2~9#4.2;r-6-2~8 / N+
+:m RES 1*1 / free# JVEMV6 68#_99:1 / 68. theoretical-physics(tp) / w=~,topics=除法；整式,other=~,s=~,i=~,doc=7-1~1
+
+:m 1*2 / math / topic=複素数の指数関数表示, about=e^(i*θ)において、θを(-i)とすると、オイラーの公式において、左辺は実数。右辺の、三角関数の和の各項。実数か、複素数か,other=~,w=~,id=RDR1:s-1
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
 :m RES 1*1 / free# JVEMV6 68#_76:1（追加メモ） / 68. theoretical-physics(tp) / w=(f(b)=f(a)+∫^b._a(f`(x))dx);部分積分；,topics=テイラーの定理,other=mem+:部分積分;words:ビブ型:素型（すがた）:オープン型の項：積分型の項,s=~,i=~,doc=~
+
+###2021年9月21日10:07:46
+======== memo : physics
+
+:m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
+w=~,topics=~,other=~,s=~,i=~,doc=
+
+:m RES 1*1 / free# JVEMV6 76#_id=6A4G:s-1 / 76. theoretical-physics(tp) / w=分光器；(L=d*sinθ),topics=~,other=mem+,s=~,i=~,doc=#1.d-1 / N+
+
+:m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
 
 ###2021年6月27日11:30:52
@@ -562,7 +574,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ======== memo :tome
 ###2021年6月8日8:21:46
 
-:tome/ (lang=ja) / topic=XXX / content=XXX
+:tome/ (lang=ja) / topic=~ / content=~
 
 :tome/ (lang=ja) / topic=数学に関する調べ物について / content=自分で作った`Q+`の設問たち。それらに答えて、体系として整理する。他に道はない。「退屈」から抜け出るには。
 
@@ -570,14 +582,14 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2021年7月3日10:35:02
 =============== memo : :?
 
-:m :? #*# / topic=XXX / content=XXX
+:m :? #*# / topic=~ / content=~ / status=~
 
-:m :? #*# / topic=数学：複素数 / content=複素数同士の比。実数になりうるか。 / status=COMPLETE
+:m :? #*# / topic=物理：妨害電波 / content=とは、何か / status=~
 
 ###2021年9月11日12:33:26
 =============== memo :do
 
-:do / topic=XXX / content=XXX
+:do / topic=~ / content=~
 
 :do / topic=方法論について / content=自分で設問を作り、自分で解明する。この手続きを、経済分野にも、適用しよう。解決方法を作り出そう。
 
@@ -650,14 +662,21 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m #*# / math / topic=~, about=~,other=~,w=~,id=~ / N~
 
-:m 3*3 / math / topic=複素数の指数関数表示, about=e^(i*θ)において、θを(-i)とすると、オイラーの公式において、左辺は実数。右辺の、三角関数の和の各項。実数か、複素数か,other=~,w=~,id=RDR1:s-1
+:m #*# / math / topic=((sin^2+cos^2)=1)-->proof, about=~,other=~,w=~,id=LXF6:s-1 / N+:オイラーの公式、見てもいい
 
 ###2021年9月19日9:45:02
 ============================== memo : phys
 
 :m #*# / phys / topic=~, about=~,other=~,w=~,id=~ / N~
 
-:m #*# / phys / topic=空気抵抗, about=丸い形状の面。空気抵抗の大きさ,other=~,w=~,id=RC2Z:s-1 / N~
+:m #*# / phys / topic=圧力, about=液体の中に物体を入れる。加わる圧力,other=~,w=~,id=VN5S:s-1 / N~
+
+###2021年9月20日9:11:18
+============================== memo : bs(brain-science)
+
+:m #*# / bs(brain-science) / topic=~, about=~,other=~,w=~,id=~ / N~
+
+:m #*# / bs(brain-science) / topic=慌てたときに、以前の行動を選択してしまう, about=ヤカンをしまう向きを変えた。慌てる。以前の向きに置いてしまう,other=~,w=~,id=P317 / N~
 
 
 ###2021年9月5日12:06:05
@@ -772,6 +791,8 @@ DELETE FROM ifm11 WHERE _id <= 51965;
 ###2021年9月11日12:40:08
 DELETE FROM ifm11 WHERE _id <= 52481;
 
+###2021年9月21日10:29:30
+#DELETE FROM ifm11 WHERE _id <= 52643;
 
 ###XXX
 DELETE FROM ifm11 WHERE _id <= XXX;
