@@ -535,7 +535,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_100:1 / 68. theoretical-physics(tp) / w=(f(x)=a_n*(x-α_1)*(x-α_2)),topics=恒等式,other=orig+,s=~,i=~,doc=r-7-1~1 / 
+:m RES 2*2 / free# JVEMV6 68#_101:2 / 68. theoretical-physics(tp) / w=~,topics=三角不等式,other=orig+:(||a|-|b||<=|a+b|);,s=~,i=~,doc=r-7-1~4
 
 :m 1*2 / math / topic=複素数の指数関数表示, about=e^(i*θ)において、θを(-i)とすると、オイラーの公式において、左辺は実数。右辺の、三角関数の和の各項。実数か、複素数か,other=~,w=~,id=RDR1:s-1
 
@@ -549,7 +549,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 76#_id=6A4G:s-1 / 76. theoretical-physics(tp) / w=分光器；(L=d*sinθ),topics=~,other=mem+,s=~,i=~,doc=#1.d-1 / N+
+:m RES 2*2 / free# JVEMV6 76#_id=VN5S:2 / 76. theoretical-physics(tp) / w=~,topics=液体の中に物体を入れる。加わる圧力,other=q+,s=~,i=~,doc=~ / N+
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -731,6 +731,19 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================ :m : 新聞紙記事
 
 :PHOTO 記録 / 文書：新聞紙記事 / 1*1 / title=~,other=~,media=~
+
+
+###2021年9月23日8:21:45
+============================ 寝た時刻
+
+:m other / log / 寝る前　ウェブ閲覧　記録　（for オナニー） / 未了
+:m :PHOTO 寝た時刻 / 2021
+:m :PHOTO 起きた時刻 / 2021
+:m :PHOTO 起きた時刻（夜中） / 2021
+:m :PHOTO 起きた時刻（二度寝） / 2021
+
+:m :PHOTO 寝た時刻 / 2020 / オナニー、未了、0:10頃～
+
 
 
 ============================== delete entries from db

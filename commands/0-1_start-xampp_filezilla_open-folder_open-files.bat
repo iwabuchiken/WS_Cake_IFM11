@@ -6,6 +6,7 @@ REM 	doc	2019/10/07 09:48:49
 REM 	itunes	2019/11/16 12:38:51
 REM 	command prompt
 REM 	server:8000
+REM 	start : browser : opera
 REM ===========================
 
 
@@ -99,6 +100,18 @@ REM ===========================
 rem : c/o : 2021年5月29日9:38:07
 rem call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat"
 
+
+REM ===========================
+REM 	start : browser : opera
+REM 	2021年9月23日8:11:52
+REM ===========================
+
+echo starting browser : opera ....
+
+pushd C:\WORKS_2\Programs\opera
+start launcher.exe
+
+echo starting browser : opera .... complete
 
 :end
 
