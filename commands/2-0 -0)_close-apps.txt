@@ -447,7 +447,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=創作：神学 / content=神学を作ろう。日本に合ったものを。
+:m :lets / action activity / やること / genre=心理学；精神科学 / content=「刷り込み」について、知見を知ろう；「自己催眠」、やろう
 
 
 
@@ -535,7 +535,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_101:2 / 68. theoretical-physics(tp) / w=~,topics=三角不等式,other=orig+:(||a|-|b||<=|a+b|);,s=~,i=~,doc=r-7-1~4
+:m RES 3*3 / free# JVEMV6 68#_102:1 / 68. theoretical-physics(tp) / w=~,topics=平行四辺形：対角線の長さを求める式,other=q+:(⊿ABC=(1/2)a*b*sinα);theorem+:(２本の対角線、それぞれの二乗の和は、平行ではない２辺それぞれの二乗の和の、２倍と、等しい),s=~,i=~,doc=r-7-1~4#3 / N+
 
 :m 1*2 / math / topic=複素数の指数関数表示, about=e^(i*θ)において、θを(-i)とすると、オイラーの公式において、左辺は実数。右辺の、三角関数の和の各項。実数か、複素数か,other=~,w=~,id=RDR1:s-1
 
@@ -549,7 +549,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 76#_id=VN5S:2 / 76. theoretical-physics(tp) / w=~,topics=液体の中に物体を入れる。加わる圧力,other=q+,s=~,i=~,doc=~ / N+
+:m RES 2*2 / free# JVEMV6 76#_id=VN5S:3 / 76. theoretical-physics(tp) / w=~,topics=液体の中に物体を入れる。加わる圧力,other=mem+:知り得た数式は、何を意味しているか,s=~,i=~,doc=~
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -584,7 +584,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m :? #*# / topic=~ / content=~ / status=~
 
-:m :? #*# / topic=物理：妨害電波 / content=とは、何か / status=~
+:m :? #*# / topic=物理：浮力：仕事 / content=ボールを水の中に沈める。為した仕事の量は？ / status=~
 
 ###2021年9月11日12:33:26
 =============== memo :do
