@@ -489,7 +489,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年9月7日8:49:45
 ==================== memo : percussion,rythm
 
-:m / 1*1 / percussion,rythm / session-memo / s.1:item=desktop-surface,hitter=hand:both,pieces=~,genr=pattern-atom,other=~,memo+
+:m / 1*1 / percussion,rythm / session-memo / s.1:item=やかん,hitter=hand:both,pieces=~,genr=pattern-atom,other=指番号、割り当て。打撃対象の、位置への、記号、割り当て,memo+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -535,7 +535,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_102:1 / 68. theoretical-physics(tp) / w=~,topics=平行四辺形：対角線の長さを求める式,other=q+:(⊿ABC=(1/2)a*b*sinα);theorem+:(２本の対角線、それぞれの二乗の和は、平行ではない２辺それぞれの二乗の和の、２倍と、等しい),s=~,i=~,doc=r-7-1~4#3 / N+
+:m RES 3-4*4 / free# JVEMV6 68#_103:2 / 68. theoretical-physics(tp) / w=~,topics=((a+b)/2>=√(a*b)),other=orig+:((a_1+a_2+...)/n>=n√(a_1*a_2*...)));,s=~,i=~,doc=7-1~5
 
 :m 1*2 / math / topic=複素数の指数関数表示, about=e^(i*θ)において、θを(-i)とすると、オイラーの公式において、左辺は実数。右辺の、三角関数の和の各項。実数か、複素数か,other=~,w=~,id=RDR1:s-1
 
@@ -549,7 +549,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 76#_id=VN5S:3 / 76. theoretical-physics(tp) / w=~,topics=液体の中に物体を入れる。加わる圧力,other=mem+:知り得た数式は、何を意味しているか,s=~,i=~,doc=~
+:m RES 2*2 / free# JVEMV6 76#_id=VN5S:4 / 76. theoretical-physics(tp) / w=~,topics=~,other=conc+,s=~,i=~,doc=~
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -744,6 +744,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m :PHOTO 寝た時刻 / 2020 / オナニー、未了、0:10頃～
 
+###2021年9月25日10:34:15
+============================ 経過記録
+
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=セージ,liquor=麦焼酎：??ml,time=~,container=green-cap / type=~,other=一日漬け；セージを取り出したあと、色が変化するかを、記録したい,id=2021-09-25_00-42-45_000.jpg
 
 
 ============================== delete entries from db
