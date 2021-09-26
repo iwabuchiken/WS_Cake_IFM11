@@ -535,7 +535,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3-4*4 / free# JVEMV6 68#_103:2 / 68. theoretical-physics(tp) / w=~,topics=((a+b)/2>=√(a*b)),other=orig+:((a_1+a_2+...)/n>=n√(a_1*a_2*...)));,s=~,i=~,doc=7-1~5
+:m RES 1*1 / free# JVEMV6 68#_104:4_id=ZCCK:1 / 68. theoretical-physics(tp) / w=~,topics=多項定理：係数は１以上か,doc=~,other=q+:なぜ、１以上か / N+
 
 :m 1*2 / math / topic=複素数の指数関数表示, about=e^(i*θ)において、θを(-i)とすると、オイラーの公式において、左辺は実数。右辺の、三角関数の和の各項。実数か、複素数か,other=~,w=~,id=RDR1:s-1
 
