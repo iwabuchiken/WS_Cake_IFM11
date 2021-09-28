@@ -489,7 +489,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年9月7日8:49:45
 ==================== memo : percussion,rythm
 
-:m / 1*1 / percussion,rythm / session-memo / s.1:item=やかん,hitter=hand:both,pieces=~,genr=pattern-atom,other=指番号、割り当て。打撃対象の、位置への、記号、割り当て,memo+
+:m / 1*1 / percussion,rythm / session-memo / s.1:item=やかん,hitter=hand:both,pieces=~,genr=pattern-atom,R=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -535,7 +535,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_104:4_id=ZCCK:2 / 68. theoretical-physics(tp) / w=~,topics=多項定理：係数は１以上か,doc=~,other=~
+:m RES 1*1 / free# JVEMV6 68#_id=80F7:1 / 68. theoretical-physics(tp) / w=~,topics=ハッセ図,other=q+:頂点の文字列：数字で表せるか
 
 :m 1*2 / math / topic=複素数の指数関数表示, about=e^(i*θ)において、θを(-i)とすると、オイラーの公式において、左辺は実数。右辺の、三角関数の和の各項。実数か、複素数か,other=~,w=~,id=RDR1:s-1
 
@@ -549,7 +549,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 76#_id=VN5S:4 / 76. theoretical-physics(tp) / w=~,topics=~,other=conc+,s=~,i=~,doc=~
+:m RES #*# / free# JVEMV6 76#_id=0DFH:1 / 76. theoretical-physics(tp) / w=~,topics=物体が落下して、水に入る。yメートル、沈む,other=conc+,s=~,i=~,doc=~
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
