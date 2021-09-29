@@ -489,7 +489,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年9月7日8:49:45
 ==================== memo : percussion,rythm
 
-:m / 1*1 / percussion,rythm / session-memo / s.1:item=やかん,hitter=hand:both,pieces=~,genr=pattern-atom,R=~
+:m / 1*1 / percussion,rythm / session-memo / s.1:item=やかん,hitter=hand:both,pieces=~,genr=pattern-atom,R=1
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -503,6 +503,8 @@ s.1:content=~,key=~,for=~,from=~,R=~,item=bowl,hitter=chopstick:2,pieces=~,genr=
 :VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / f-2021-061X-X / XX
 
 :VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / item=body-surface:chest;belly,hitter=hand:both:palm,genr=pattern-atom
+
+:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / item=やかん,hitter=hand:both:palm,genr=pattern-atom
 
 content=~,key=~,for=~,from=~,R=~,item=plastic-pot:2-pieces,hitter=hand:both;finger-tips,pieces=~,genr=pattern-atom,other=~,memo~
 
@@ -535,7 +537,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_id=80F7:1 / 68. theoretical-physics(tp) / w=~,topics=ハッセ図,other=q+:頂点の文字列：数字で表せるか
+:m RES 1*1 / free# JVEMV6 68#_107:3_id=8DBY:1 / 68. theoretical-physics(tp) / w=~,topics=ハッセ図の特徴。べき集合の場合,other=orig+,s=~,i=~,doc=r-7-3~4#4 / N+
 
 :m 1*2 / math / topic=複素数の指数関数表示, about=e^(i*θ)において、θを(-i)とすると、オイラーの公式において、左辺は実数。右辺の、三角関数の和の各項。実数か、複素数か,other=~,w=~,id=RDR1:s-1
 
@@ -713,6 +715,14 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :i 1*1 / drink-alcohol / topic=ハーブ漬けの焼酎, subject=~, other=一日漬けたら、取り出す。「一日もの」、「２日もの」と、名前を付ける。
 
+###2021年9月29日11:20:37
+============================== :i ANY
+
+:i #*# / topic=~ / subject=~, content=~, other=~
+
+:i #*# / topic=green-tech / subject=プラスチック回収, content=電波で、イオンを弾く
+
+
 
 ###2021年9月15日10:48:37
 ============================== 記録 : お酒
@@ -724,7 +734,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,other=~
 
-:m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=赤旗（電子版） / theme=非正規職：減少,other=~
+:m 1*1 RES / free# S87DP9 記事読み / id=~(browser=tor) / media=ei / theme=1984年、パレスチナ難民キャンプ、計画的大虐殺,other=~
 
 
 ###2021年9月22日10:21:19
