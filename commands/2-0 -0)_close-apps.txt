@@ -489,7 +489,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年9月7日8:49:45
 ==================== memo : percussion,rythm
 
-:m / 1*1 / percussion,rythm / session-memo / s.1:item=やかん,hitter=hand:both,pieces=~,genr=pattern-atom,R=1
+:m / 1*1 / percussion,rythm / session-memo / s.1:item=やかん,hitter=hand:both,pieces=~,genr=pattern-atom,R=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -516,6 +516,17 @@ prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
 genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
+
+###2021年10月1日11:14:14
+==================== memo : guitar
+
+:m / 1*1 / guitar / session-memo / s.1:content=blues,key=Bf,for=~,from=~,R=~,pieces=~,genr=pattern-atom,other=~
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+
+s.1:content=~,key=~,for=~,from=~,R=~,pieces=~,genr=pattern-atom,other=~,memo+
+
+
 ###2021年9月9日9:58:39
 ======================== video : others
 
@@ -537,7 +548,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_107:3_id=8DBY:1 / 68. theoretical-physics(tp) / w=~,topics=ハッセ図の特徴。べき集合の場合,other=orig+,s=~,i=~,doc=r-7-3~4#4 / N+
+:m RES 1*1 / free# JVEMV6 68#_109:1_id=WQ9M:1 / 68. theoretical-physics(tp) / w=~,topics=グラフ,other=orig+:閉路,s=~,i=~,doc=~
 
 :m 1*2 / math / topic=複素数の指数関数表示, about=e^(i*θ)において、θを(-i)とすると、オイラーの公式において、左辺は実数。右辺の、三角関数の和の各項。実数か、複素数か,other=~,w=~,id=RDR1:s-1
 
@@ -584,9 +595,16 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2021年7月3日10:35:02
 =============== memo : :?
 
-:m :? #*# / topic=~ / content=~ / status=~
+:m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m :? #*# / topic=物理：浮力：仕事 / content=ボールを水の中に沈める。為した仕事の量は？ / status=~
+
+###2021年10月1日11:02:40
+=============== memo : :? / math
+
+:m #*# / math / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m #*# / math / topic=二項係数 / content=対数のように、小さな数に、変換できないか？ / status=~ / other=~,id=~
+
 
 ###2021年9月11日12:33:26
 =============== memo :do
