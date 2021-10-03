@@ -447,7 +447,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=創作 / content=熊沢番山の米政策を表した能楽、作る。
+:m :lets / action activity / やること / genre=研究活動 / content=日本研究。書き始めよう
 
 
 
@@ -475,7 +475,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / 2021-09-12_18-54-05_000.mp4 / todays-melody,R=1,notes=dai-kan-notes,Re+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / prac,for=sound-quarter~fingering:2nd-note~6th-hole-open,Re+,memo=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -502,9 +502,7 @@ s.1:content=~,key=~,for=~,from=~,R=~,item=bowl,hitter=chopstick:2,pieces=~,genr=
 
 :VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / item=body-surface:chest;belly,hitter=hand:both:palm,genr=pattern-atom
-
-:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / item=やかん,hitter=hand:both:palm,genr=pattern-atom
+:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / item=やかん,hitter=hand:both:palm,genr=pattern-atom,memo+
 
 content=~,key=~,for=~,from=~,R=~,item=plastic-pot:2-pieces,hitter=hand:both;finger-tips,pieces=~,genr=pattern-atom,other=~,memo~
 
@@ -520,11 +518,31 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ###2021年10月1日11:14:14
 ==================== memo : guitar
 
-:m / 1*1 / guitar / session-memo / s.1:content=arabic-iranian-like,key=E?,for=tab-code;tuning,from=~,R=1,pieces=~,genr=pattern-atom,other=~
+:m / 1*1 / guitar / session-memo / s.1:content=arabic-iranian-like,key=Ef,for=tab-code;tuning,from=~,R=1,pieces=~,genr=pattern-atom,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
 s.1:content=~,key=~,for=~,from=~,R=~,pieces=~,genr=pattern-atom,other=~,memo+
+
+
+###2021年10月3日8:43:25
+==================== video : guitar
+
+:VIDEO / @自室 / 記録 / guitar / 演奏、play / f-2021-061X-X / XX
+
+:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=1 / XX
+
+:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=1 / content=~,key=Ef,genr=iranian-arabic,other=~,memo~
+
+content=~,key=~,for=~,from=~,R=~,genr=~,type=pattern-atom,other=~,memo~
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+follow,R=~,ReX
+todays-rythm,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX
+follow,R=~,ReX
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
+rev,for=~,ReX,tempo=~,other=~,key=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 
 ###2021年9月9日9:58:39
@@ -548,7 +566,9 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_110:2 / 68. theoretical-physics(tp) / w=neighborhood,topics=topological-space,other=~,s=~,i=~,doc=r-7-4~1
+:m RES 1*1 / free# JVEMV6 68#_111:3 / 68. theoretical-physics(tp) / w=neighborhood,topics=topological-space,other=~,doc=7-4~1#4
+
+
 
 :m 1*2 / math / topic=複素数の指数関数表示, about=e^(i*θ)において、θを(-i)とすると、オイラーの公式において、左辺は実数。右辺の、三角関数の和の各項。実数か、複素数か,other=~,w=~,id=RDR1:s-1
 
@@ -610,7 +630,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# / math / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m #*# / math / topic=二項係数 / content=対数のように、小さな数に、変換できないか？ / status=~ / other=~,id=~
+:m #*# / math / topic=階乗冪 / content=階乗冪同士の商：割り切れるか？
 
 
 ###2021年9月11日12:33:26
