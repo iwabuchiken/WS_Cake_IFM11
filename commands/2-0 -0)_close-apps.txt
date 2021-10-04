@@ -420,7 +420,7 @@ rem 2021年3月4日11:23:28
 
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=mouth-shaping,key=h-0,tempo=~,R=1,i.f.=~,notes=B-F_-D_-A;h-0-5-4-7;pitch:1-5f_-3f_-7f,ReX,other=~
+:m :篠笛,shinobue #*# / session-memo / todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=4``-6`;6`-4`,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -566,7 +566,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_111:3 / 68. theoretical-physics(tp) / w=neighborhood,topics=topological-space,other=~,doc=7-4~1#4
+:m RES 1-2*2 / free# JVEMV6 68#_112:2 / 68. theoretical-physics(tp) / w=~,topics=三角関数：積分,other=~,s=~,i=~,doc=6-1~1#3
 
 
 
@@ -630,7 +630,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# / math / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m #*# / math / topic=階乗冪 / content=階乗冪同士の商：割り切れるか？
+:m #*# / math / topic=三角関数：公式：sinとcosの複素数表示
 
 
 ###2021年9月11日12:33:26
