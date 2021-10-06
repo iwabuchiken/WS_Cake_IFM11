@@ -55,9 +55,9 @@ REM 	pushd "C:\Program Files (x86)\Google\Chrome\Application"
 REM 	start chrome http://localhost:8001/ip/basics/
 
 REM : opera
-pushd "C:\WORKS_2\Programs\opera"
-echo opening browser^(opera^)...
-start launcher.exe http://localhost:8001/ip/basics/
+rem pushd "C:\WORKS_2\Programs\opera"
+rem echo opening browser^(opera^)...
+rem start launcher.exe http://localhost:8001/ip/basics/
 
 
 REM ****************************
