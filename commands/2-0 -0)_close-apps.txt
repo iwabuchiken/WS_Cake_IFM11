@@ -574,7 +574,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_id=L8BE:2 / 68. theoretical-physics(tp) / w=~,topics=フーリエ級数：正弦係数,other=~,s=~,i=~,doc=~
+:m RES 4*4 / free# JVEMV6 68#_118:1 / 68. theoretical-physics(tp) / w=~,topics=重複組合せ,other=q+:階乗冪：項の個数,s=~,i=~,doc=r-5-2~4
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
