@@ -464,7 +464,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=神について / content=「神は存在しない」と宣言しても、数学について、自分に対して不満足を感じる。「神の義」とは、これか？ / lang=ja
+:m :th / topic=キリスト教：伝道 / content=平家物語を読まずに、日本人に分かるように、キリストの教えを語れるものじゃない / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -574,7 +574,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 4*4 / free# JVEMV6 68#_118:1 / 68. theoretical-physics(tp) / w=~,topics=重複組合せ,other=q+:階乗冪：項の個数,s=~,i=~,doc=r-5-2~4
+:m RES 1*1 / free# JVEMV6 68#_119:2 / 68. theoretical-physics(tp) / w=~,topics=ベクトル：位置,other=~,s=~,i=~,doc=r-7-5.1~2
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
