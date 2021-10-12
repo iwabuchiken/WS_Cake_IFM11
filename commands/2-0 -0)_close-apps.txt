@@ -483,7 +483,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / prac,for=sound-quarter~fingering:2nd-note~6th-hole-open,Re+,memo=~
+	:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,other=甲音
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -574,7 +574,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_119:2 / 68. theoretical-physics(tp) / w=~,topics=ベクトル：位置,other=~,s=~,i=~,doc=r-7-5.1~2
+:m RES 5*5 / free# JVEMV6 68#_id=YYX1:2 / 68. theoretical-physics(tp) / w=~,topics=円周角の定理,other=q+:open,s=~,i=~,doc=
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -587,7 +587,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 76#_6_id=VN5S:5 / 76. theoretical-physics(tp) / w=~,topics=液体の中に物体を入れる。加わる圧力,other=q+:open:(球体の半径を倍にする。圧力が倍になる);q+:open:ANSWERED;q+:open:(sin(nθ))の、積分;②sin(nθ):range-0~mのときの、積分値,s=~,i=~,doc=~ / N+
+:m RES 1*1 / free# JVEMV6 76#_7:1 / 76. theoretical-physics(tp) / w=ラグランジアン,topics=ラングランジュ方程式,other=~,s=~,i=~,doc=r-2-1~1
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
