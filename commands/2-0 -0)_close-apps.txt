@@ -574,7 +574,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 5*5 / free# JVEMV6 68#_id=YYX1:2 / 68. theoretical-physics(tp) / w=~,topics=円周角の定理,other=q+:open,s=~,i=~,doc=
+:m RES 2*2 / free# JVEMV6 68#_id=P9M5:1 / 68. theoretical-physics(tp) / w=~,topics=虚数i。平方根,other=q+:iの平方根。指数関数表示にすると;q+:Πiとは何か
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -587,7 +587,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 76#_7:1 / 76. theoretical-physics(tp) / w=ラグランジアン,topics=ラングランジュ方程式,other=~,s=~,i=~,doc=r-2-1~1
+:m RES 1*1 / free# JVEMV6 76#_8:1 / 76. theoretical-physics(tp) / w=~,topics=最速降下線；変分法,other=~,s=~,i=~,doc=r-2-1~2
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
