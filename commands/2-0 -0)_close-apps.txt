@@ -574,12 +574,16 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_id=P9M5:1 / 68. theoretical-physics(tp) / w=~,topics=虚数i。平方根,other=q+:iの平方根。指数関数表示にすると;q+:Πiとは何か
+:m RES 2*2 / free# JVEMV6 68#_122:2 / 68. theoretical-physics(tp) / w=~,topics=情報量,other=~,s=~,i=~,doc=r-7-13~1#2.1
 
 
-:m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
+:m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
+w=~,topics=~,other=~,s=~,i=~,doc=~
 
-:m RES 1*1 / free# JVEMV6 68#_76:1（追加メモ） / 68. theoretical-physics(tp) / w=(f(b)=f(a)+∫^b._a(f`(x))dx);部分積分；,topics=テイラーの定理,other=mem+:部分積分;words:ビブ型:素型（すがた）:オープン型の項：積分型の項,s=~,i=~,doc=~
+:m RES 1*1 / free# JVEMV6 68#_121:2:p.1_id=96KZ:1 /（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=中点の表し方：ベクトル表示,other=~,s=~,i=~,doc=~
+
+
+
 
 ###2021年9月21日10:07:46
 ======== memo : physics
@@ -623,7 +627,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :tome/ (lang=ja) / topic=~ / content=~
 
-:tome/ (lang=ja) / topic=なぜ数学をするのか / content=人民のために、数学；源は、仁
+:tome/ (lang=ja) / topic=なるもの / content=「脳科学セラピスト」になろう
 
 
 ###2021年7月3日10:35:02
