@@ -464,7 +464,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=キリスト教：伝道 / content=平家物語を読まずに、日本人に分かるように、キリストの教えを語れるものじゃない / lang=ja
+:m :th / topic=~ / content=内実。知識よりも、内実。「主に寄り頼む」、というあり方。 / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -574,7 +574,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_122:2 / 68. theoretical-physics(tp) / w=~,topics=情報量,other=~,s=~,i=~,doc=r-7-13~1#2.1
+:m RES 2*2 / free# JVEMV6 68#_id=9MPJ:2 / 68. theoretical-physics(tp) / w=~,topics=(a+(1/a)):微分,other=q+:open:(lim_n->∞(n!*a^(-(n+1)))):スピード,s=~,i=~,doc=
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -627,7 +627,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :tome/ (lang=ja) / topic=~ / content=~
 
-:tome/ (lang=ja) / topic=なるもの / content=「脳科学セラピスト」になろう
+:tome/ (lang=ja) / topic=やること / content=数学、物理、事業つくり。神学作り。日本教作り。俺の役回り。
 
 
 ###2021年7月3日10:35:02
