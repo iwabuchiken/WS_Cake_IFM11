@@ -428,7 +428,7 @@ rem 2021年3月4日11:23:28
 
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
-:m :篠笛,shinobue #*# / session-memo / s.1:follow,R=~,Re+,file-id=ZMLS,key=h.6(G),other=~,notes=5.-7f.-1-2-2-1-7f.-1
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=h:1,tempo=~,R=~,i.f.=~,notes=~,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -574,7 +574,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_id=9MPJ:2 / 68. theoretical-physics(tp) / w=~,topics=(a+(1/a)):微分,other=q+:open:(lim_n->∞(n!*a^(-(n+1)))):スピード,s=~,i=~,doc=
+:m RES 1*1 / free# JVEMV6 68#_124:id=RVUG:2 / 68. theoretical-physics(tp) / w=~,topics=induction,other=~,s=~,i=~,doc=~ / N+
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
