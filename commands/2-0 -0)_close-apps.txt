@@ -574,7 +574,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_124:id=RVUG:2 / 68. theoretical-physics(tp) / w=~,topics=induction,other=~,s=~,i=~,doc=~ / N+
+:m RES 2*3 / free# JVEMV6 68#_125:2:id=8B5V:1 / 68. theoretical-physics(tp) / w=~,topics=アポロニウスの円,other=q+,s=~,i=~,doc=r-7-5.3~4#1.d-1
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -643,7 +643,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# / math / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m #*# / math / topic=math:マイナス記号 / content=(-1)x(-1)の、各「-」の記号。意味。 / status=~ / other=~,id=0R8R
+:m #*# / math / topic=奇数；素数 / content=命題あらゆる奇数は、素数と、別の奇数との、積の形に、分解できる;２以外の素数は、すべて、奇数 / status=~ / other=~,id=~
 
 
 ###2021年9月11日12:33:26
