@@ -455,7 +455,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=研究活動 / content=日本研究。書き始めよう
+:m :lets / action activity / やること / genre=研究活動；著述 / content=『社会主義社会　建設マニュアル』『同　運営マニュアル』
 
 
 
@@ -483,7 +483,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-	:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,other=甲音
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,other=甲音,memo=~,notes=E-B-D;pitch:1-5-7f-4,Re+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -574,7 +574,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*3 / free# JVEMV6 68#_125:2:id=8B5V:1 / 68. theoretical-physics(tp) / w=~,topics=アポロニウスの円,other=q+,s=~,i=~,doc=r-7-5.3~4#1.d-1
+:m RES 2*2 / free# JVEMV6 68#_126:3 / 68. theoretical-physics(tp) / w=~,topics=divisibility,other=q+:open:(n|(m+t*b));q+:open:(n|(m+2)),doc=r-7-2~6
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
