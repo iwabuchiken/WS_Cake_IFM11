@@ -483,7 +483,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,other=甲音,memo=~,notes=E-B-D;pitch:1-5-7f-4,Re+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,other=甲音,memo=~,notes=E-B-D、他,Re+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -574,7 +574,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_126:3 / 68. theoretical-physics(tp) / w=~,topics=divisibility,other=q+:open:(n|(m+t*b));q+:open:(n|(m+2)),doc=r-7-2~6
+:m RES 1*2 / free# JVEMV6 68#_id=PFQ2:2 / 68. theoretical-physics(tp) / w=~,topics=divisibility;(n|(a-b),n|(a-b)のとき、(n|ax)か？),other=q+:bはnの約数か？,doc=r-7-2~6
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -643,7 +643,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# / math / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m #*# / math / topic=奇数；素数 / content=命題あらゆる奇数は、素数と、別の奇数との、積の形に、分解できる;２以外の素数は、すべて、奇数 / status=~ / other=~,id=~
+:m #*# / math / topic=divisibility;２つの整数の差。の、性質 / content=命題：(m-n=2)のとき、(m+n)は、偶数 / status=~ / other=~,id=~
 
 
 ###2021年9月11日12:33:26
