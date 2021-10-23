@@ -455,7 +455,7 @@ memo,theme=~,content=~,for=~,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=研究活動；著述 / content=『社会主義社会　建設マニュアル』『同　運営マニュアル』
+:m :lets / action activity / やること / genre=信仰 / content=自分のための聖書。書こう。
 
 
 
@@ -574,7 +574,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_id=43HU:1 / 68. theoretical-physics(tp) / w=~,topics=素数：ある範囲の中での、出現割合,other=~,s=~,i=~,doc=~
+:m RES 3*3 / free# JVEMV6 68#_129:2 / 68. theoretical-physics(tp) / w=~,topics=existence-proof,other=q+:(x^3+x=2y)を満たすyは、存在？(x,y∈Z),s=~,i=~,doc=7-2~7
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -905,7 +905,11 @@ DELETE FROM ifm11 WHERE _id <= 52481;
 ###2021年10月9日10:13:52
 DELETE FROM ifm11 WHERE _id >= 52921;
 
-###XXX
+###2021年10月23日12:30:11
+DELETE FROM ifm11 WHERE _id <= 53099;
+
+
+###XXXTEMPLATE
 DELETE FROM ifm11 WHERE _id <= XXX;
 
 ##DELETE
