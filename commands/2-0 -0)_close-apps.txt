@@ -468,15 +468,16 @@ memo,theme=~,content=~,for=~,other=~
 
 
 ============================== memo : shakuhachi,bamboo,尺八
-###:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / 2021-09-06_18-58-02_000.mp4 / todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,Re+
+
+###:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=tech:atom:name=`a-wa-wa-wa`,Re+,R=1,notes=~,other=~,type=~,feel=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
-todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,ReX
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,ReX,other=~,type=~,feel=~,memo=~
 follow,R=~,ReX
 prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
-genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 ###2021年6月13日9:11:14
 ======== memo : jap.flute, video, shinobue
@@ -574,7 +575,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_129:2 / 68. theoretical-physics(tp) / w=~,topics=existence-proof,other=q+:(x^3+x=2y)を満たすyは、存在？(x,y∈Z),s=~,i=~,doc=7-2~7
+:m RES 1*1 / free# JVEMV6 68#_id=12JK:1 / 68. theoretical-physics(tp) / w=~,topics=素数：抽出,other=~,s=~,i=~,doc=~
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -591,7 +592,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 76#_8:1 / 76. theoretical-physics(tp) / w=~,topics=最速降下線；変分法,other=~,s=~,i=~,doc=r-2-1~2
+:m RES 5*5 / free# JVEMV6 76#_8:1 / 76. theoretical-physics(tp) / w=~,topics=変分法；,other=orig+:(∫(√(1+(2x)^2))dx),s=~,i=~,doc=r-3-1~1#2;#2.4.d-4
+
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -822,8 +824,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
 
-:PHOTO 記録 / 文書：コレポン / #*# / about=歯の治療,with=山下歯科；東和,content=仕事の予約申し込み、キャンセルできるか？；治療の予約、できるか？,other=~ / N~
+:PHOTO 記録 / 文書：コレポン / #*# / about=日曜の診療。しているか。予約要否。,with=スズキ歯科（宮崎台駅、近く）,content=~,other=~ / N~
 
+###2021年10月25日9:18:26
+============================ 様子：顔
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（尺八）
 
 
 ============================== delete entries from db
