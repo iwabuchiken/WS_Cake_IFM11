@@ -484,7 +484,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,other=use:大甲音,memo=~,notes=E-B-D;pitch:1-5-7f,Re+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,other=~,memo=~,notes=~,Re+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -592,7 +592,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 5*5 / free# JVEMV6 76#_8:1 / 76. theoretical-physics(tp) / w=~,topics=変分法；,other=orig+:(∫(√(1+(2x)^2))dx),s=~,i=~,doc=r-3-1~1#2;#2.4.d-4
+:m RES 2*2 / free# JVEMV6 76#_11:3 / 76. theoretical-physics(tp) / w=~,topics=変分法;ELE:example:弧長の最短を求める,other=calc+:(lim_(x→+∞)(x^2/(1-x^2))),s=~,i=~,doc=r-5-1-~2#3.6
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
