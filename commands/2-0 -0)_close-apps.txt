@@ -428,7 +428,7 @@ rem 2021年3月4日11:23:28
 
 ============================== shinobue memo
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=F;h:5,tempo=~,R=1,i.f.=~,notes=~,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=transition:1_~6-7,key=h-6(Gf),tempo=~,R=1,i.f.=~,notes=h:1_-6-7;pitch:1-2-3f,ReX,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -484,7 +484,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,other=~,memo=~,notes=~,Re+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / todays-melody,genr=~,for=~,key=~,tempo=~,R=2,i.f.=~,memo=~,elements=~,notes=,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -575,7 +575,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_id=12JK:1 / 68. theoretical-physics(tp) / w=~,topics=素数：抽出,other=~,s=~,i=~,doc=~
+:m RES 4*4 / free# JVEMV6 68#_12:2 / 68. theoretical-physics(tp) / w=~,topics=最速降下線,other=~,s=~,i=~,doc=r-5-1~5 / N+
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -603,7 +603,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#XXX_-- / 『XXX』 著者=~,校注=~ / p.~ / w:~,topic:~
 
 
-:m #*# RES / JVEMV6 64#130_-- / 『易経』 著者=今井宇三郎,校注=~ / p.2 / w:伏羲（ふっき）,topic:~
+:m #*# RES / JVEMV6 64#129_-- / 『増鏡』 著者=~,校注=~ / p.252 / w:御娘おんむすめ；建久；文治,topic:後鳥羽天皇
 
 
 
