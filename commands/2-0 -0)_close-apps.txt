@@ -491,7 +491,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / todays-melody,genr=~,for=日本の古来の音階で作るフレーズ（フレーズ>atom;<melody,atom<phrase<passage<melody<lick(?)）,Re+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / todays-melody,genr=お囃子,other=range:大甲
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -582,7 +582,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_115:1 / 68. theoretical-physics(tp) / w=無限遠点,topics=射影平面,other=~,s=~,i=~,doc=r-7-7~1;r-7-7~2
+:m RES 2*2 / free# JVEMV6 68#_id=MJLM:2 / 68. theoretical-physics(tp) / w=~,topics=フーリエが見つけたという三角級数,other=~ / N+
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
