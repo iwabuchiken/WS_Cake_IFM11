@@ -14,6 +14,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 3)------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
+3-1)------------------
+not-for-register files --> delete, move.
+	1. sweets		###2021年11月1日7:30:56
+
 4)------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
@@ -430,7 +434,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
-:m :篠笛,shinobue #*# / session-memo / s.1:① atom,genr=~,for=~,key=h-2(C),tempo=~,R=1,notes=pitch:3-5-6,Re+ \\\ ② atom,genr=~,for=~,key=h-2(C),tempo=~,R=~,notes=pitch:1-2-3-5-6 \\\ ③ atom,genr=~,for=~,key=h-2(C),tempo=~,R=~,notes=pitch:1-3f-4-5,other=symbol+:フェイドアウト；ビブラート
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=Af,R=1,notes=h:7-6-7-1,Re+,other=~ \\\ s.2:todays-melody,genr=~,for=~,key=A(h-7),tempo=~,R=3,i.f.=~,notes=pitch:1-6f-5,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -471,7 +475,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=~ / content=内実。知識よりも、内実。「主に寄り頼む」、というあり方。 / lang=ja
+:m :th / topic=「軍部の暴走」について / content=事の本質は、イデオロギーの暴走。「天皇絶対」というイデオロギーに対抗するイデオロギーが、なかった / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -491,7 +495,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / todays-melody,genr=お囃子,other=range:大甲
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / todays-melody,Re+,memo=+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -582,7 +586,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_id=MJLM:2 / 68. theoretical-physics(tp) / w=~,topics=フーリエが見つけたという三角級数,other=~ / N+
+:m RES 3-4*4 / free# JVEMV6 68#_132:1 / 68. theoretical-physics(tp) / w=ex-2.3.7,topics=existence-proof,other=~,s=~,i=~,doc=r-7-2~7#9.5
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -599,7 +603,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1-2*2 / free# JVEMV6 76#_id=MJLM:1 / 76. theoretical-physics(tp) / w=~,topics=フーリエが見つけたという三角級数,other=q+:open;q+:open,s=~,i=~,doc=~
+:m RES 1*1 / free# JVEMV6 76#_16:1 / 76. theoretical-physics(tp) / w=~,topics=ベクトル：回転,other=~,s=~,i=~,doc=r-2-3~2#2
 
 
 
@@ -611,7 +615,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#XXX_-- / 『XXX』 著者=~,校注=~ / p.~ / w:~,topic:~
 
 
-:m #*# RES / JVEMV6 64#129_-- / 『増鏡』 著者=~,校注=~ / p.251 / w:治承；建礼門院；元暦,topic=後鳥羽院
+:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.12 / w:桁（けた）；天地（あめつち）,topic:読み方
 
 
 
@@ -637,7 +641,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :tome/ (lang=ja) / topic=~ / content=~
 
-:tome/ (lang=ja) / topic=やること / content=数学、物理、事業つくり。神学作り。日本教作り。俺の役回り。
+:tome/ (lang=ja) / topic=やること / content=篠笛と篤胤の閲読　=>　side-by-side
 
 
 ###2021年7月3日10:35:02
