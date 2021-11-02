@@ -434,7 +434,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=Af,R=1,notes=h:7-6-7-1,Re+,other=~ \\\ s.2:todays-melody,genr=~,for=~,key=A(h-7),tempo=~,R=3,i.f.=~,notes=pitch:1-6f-5,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=Ef,tempo=~,R=~,i.f.=~,notes=pitch:1-5-7f;1-5-43f-2,Re+,other=~ \\\ s.2:res,for=daikan:fingering,notes=B;Bf;Af,R=~ \\\ s.3:todays-melody,R=1,other=fingering
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -475,7 +475,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=「軍部の暴走」について / content=事の本質は、イデオロギーの暴走。「天皇絶対」というイデオロギーに対抗するイデオロギーが、なかった / lang=ja
+:m :th / topic=やること / content=明治の人たちが見捨てたことを、形づくってみよう / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -495,7 +495,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / todays-melody,Re+,memo=+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,R=1,other=fingering
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -603,7 +603,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 76#_16:1 / 76. theoretical-physics(tp) / w=~,topics=ベクトル：回転,other=~,s=~,i=~,doc=r-2-3~2#2
+:m RES 2*2 / free# JVEMV6 76#_17:3 / 76. theoretical-physics(tp) / w=~,topics=ベクトル：回転；レビチビタ記号,other=q+:open:(∇xv->(r->))x(v->),s=~,i=~,doc=r-2-3~2#4
 
 
 
