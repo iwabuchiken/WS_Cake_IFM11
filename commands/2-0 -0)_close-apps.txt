@@ -434,7 +434,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=Ef,tempo=~,R=~,i.f.=~,notes=pitch:1-5-7f;1-5-43f-2,Re+,other=~ \\\ s.2:res,for=daikan:fingering,notes=B;Bf;Af,R=~ \\\ s.3:todays-melody,R=1,other=fingering
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,R=1,notes=pitch:1-5-1-4-3f-2,Re+,other=録画の中では「メモなし」と言っている。
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -475,7 +475,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=やること / content=明治の人たちが見捨てたことを、形づくってみよう / lang=ja
+:m :th / topic=やること：信仰 / content=儒教を攻究し、神道を攻究し、「日本教」を。平家物語を。そのあとになお、キリスト教に戻ってくるなら、その信仰は、血が通っている。十字架を厭わない。 / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -495,7 +495,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,R=1,other=fingering
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -603,7 +603,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 76#_17:3 / 76. theoretical-physics(tp) / w=~,topics=ベクトル：回転；レビチビタ記号,other=q+:open:(∇xv->(r->))x(v->),s=~,i=~,doc=r-2-3~2#4
+:m RES 3*3 / free# JVEMV6 76#_18:1 / 76. theoretical-physics(tp) / w=~,topics=ストークスの定理,other=~,s=~,i=~,doc=r-2-3~3
 
 
 
@@ -925,6 +925,8 @@ DELETE FROM ifm11 WHERE _id >= 52921;
 ###2021年10月23日12:30:11
 DELETE FROM ifm11 WHERE _id <= 53099;
 
+###2021年11月3日8:50:15
+#DELETE FROM ifm11 WHERE _id <= 53330;
 
 ###XXXTEMPLATE
 DELETE FROM ifm11 WHERE _id <= XXX;

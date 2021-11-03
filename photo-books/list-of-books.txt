@@ -49,8 +49,10 @@
 	n : 128_siso-taikei_honda	]2021”N10ŒŽ2“ú19:42:38
 
 	n : 129_masu-kagami	]2021”N10ŒŽ2“ú19:42:50
-
-	n : 12X_XXX	]XXX
+	
+	n : 130_koukyou		]2021”N11ŒŽ3“ú0:01:51
+	
+	n : 13X_XXX		]XXX
 
 
 @@@
