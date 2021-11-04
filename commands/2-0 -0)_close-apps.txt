@@ -434,7 +434,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,R=1,notes=pitch:1-5-1-4-3f-2,Re+,other=録画の中では「メモなし」と言っている。
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=h:Bf-6_-3_-4_-7_-7_;pitch:L4-L5-1,Re+,other=~ \\\ s.2:res,for=大甲:fingering,Re+,notes=Bf-Df-C-B-C,R=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -586,7 +586,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3-4*4 / free# JVEMV6 68#_132:1 / 68. theoretical-physics(tp) / w=ex-2.3.7,topics=existence-proof,other=~,s=~,i=~,doc=r-7-2~7#9.5
+:m RES 1*2 / free# JVEMV6 68#_id=16V7:1 / 68. theoretical-physics(tp) / w=(-1/6*(β-α)^3);(β-α=η),topics=積分：６分の１の公式,other=~,s=~,i=~,doc=
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -603,7 +603,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 76#_18:1 / 76. theoretical-physics(tp) / w=~,topics=ストークスの定理,other=~,s=~,i=~,doc=r-2-3~3
+:m RES 4*4 / free# JVEMV6 76#_19:1 / 76. theoretical-physics(tp) / w=~,topics=ストークスの原理；具体例：計算,other=q+:(A->=(ax,ay,0)):∇x(A->),s=~,i=~,doc=r-2-3~4
 
 
 
@@ -612,7 +612,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
-:m #*# RES / JVEMV6 64#XXX_-- / 『XXX』 著者=~,校注=~ / p.~ / w:~,topic:~
+:m #*# RES / JVEMV6 64#131_heike_tomikura_-- / 『平家物語』 著者=~,校注=冨倉徳次郎 / p.200 / w:甍（いらか）；藤波；荵（しのぶ；間遠（まどお；,topic:「大原御幸」（ごこう）
 
 
 :m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.12 / w:桁（けた）；天地（あめつち）,topic:読み方
@@ -806,7 +806,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,other=~
 
-:m 1*1 RES / free# S87DP9 記事読み / id=~(browser=tor) / media=ei / theme=1984年、パレスチナ難民キャンプ、計画的大虐殺,other=~
+:m 1*1 RES / free# S87DP9 記事読み / id=ZDOA(browser=tor) / media=litera / theme=茂木議員：資金不正,other=会計不正
 
 
 ###2021年9月22日10:21:19
@@ -841,6 +841,13 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2021年10月25日9:18:26
 ============================ 様子：顔
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（尺八）
+
+###2021年11月4日8:20:20
+============================ 様子：顔
+:m 記録 / 身体 / 様子 / location=~,time=~；occasion=~,other=~
+
+:m 記録 / 身体 / 様子 / location=歯茎：前歯：上あご,time=~；occasion=~,other=歯茎の、上あごへの接続部、付近。
+
 
 
 ============================== delete entries from db
