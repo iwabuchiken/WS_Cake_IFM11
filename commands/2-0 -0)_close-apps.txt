@@ -434,7 +434,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=h:Bf-6_-3_-4_-7_-7_;pitch:L4-L5-1,Re+,other=~ \\\ s.2:res,for=大甲:fingering,Re+,notes=Bf-Df-C-B-C,R=~
+:m :篠笛,shinobue #*# / session-memo / s.1:res,for=大甲:fingering,Re+,notes=G;A;B+ \\\ s.2:tech,for=trill,Re+,notes=3-4-6-7-4;4-3-4-3-4,R=1
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -468,6 +468,12 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=信仰 / content=自分のための聖書。書こう。
 
+###2021年11月5日9:11:50
+============================== やることリスト
+:m やることリスト / steps / occasion=XX~XX / for=~,at=~,other=~
+
+:m やることリスト / steps / occasion=風呂出る~寝る / for=~,at=自室,other=~
+
 
 
 ###2021年6月28日10:15:01
@@ -495,7 +501,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / todays-melody,notes=大甲,Re+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -586,7 +592,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*2 / free# JVEMV6 68#_id=16V7:1 / 68. theoretical-physics(tp) / w=(-1/6*(β-α)^3);(β-α=η),topics=積分：６分の１の公式,other=~,s=~,i=~,doc=
+:m RES 1*2 / free# JVEMV6 68#_id=16V7:3 / 68. theoretical-physics(tp) / w=(-1/6*(β-α)^3);(β-α=η),topics=積分：６分の１の公式：証明,other=~,s=~,i=~,doc=r-2-3~1 / N:comp
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -603,7 +609,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 4*4 / free# JVEMV6 76#_19:1 / 76. theoretical-physics(tp) / w=~,topics=ストークスの原理；具体例：計算,other=q+:(A->=(ax,ay,0)):∇x(A->),s=~,i=~,doc=r-2-3~4
+:m RES 2*3 / free# JVEMV6 76#_id=GBHE:1 / 76. theoretical-physics(tp) / w=~,topics=速度ベクトルと、その回転との、大きさの比較：(v->=(y,x,xy))の場合；(v->=(a,b,c))の場合,other=~,s=~,i=~,doc=
 
 
 
