@@ -434,7 +434,7 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
-:m :篠笛,shinobue #*# / session-memo / s.1:res,for=大甲:fingering,Re+,notes=G;A;B+ \\\ s.2:tech,for=trill,Re+,notes=3-4-6-7-4;4-3-4-3-4,R=1
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,R=1,i.f.=~,notes=~,ReX,other=symbol+:`タメ`;`トメ`;`舌スタカート`
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -501,7 +501,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / todays-melody,notes=大甲,Re+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,Re+,other=symbol+:`タメ`;`トメ`
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -592,7 +592,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*2 / free# JVEMV6 68#_id=16V7:3 / 68. theoretical-physics(tp) / w=(-1/6*(β-α)^3);(β-α=η),topics=積分：６分の１の公式：証明,other=~,s=~,i=~,doc=r-2-3~1 / N:comp
+:m RES 1*1 / free# JVEMV6 68#_id=YGX5:1 / 68. theoretical-physics(tp) / w=~,topics=平方根は、無理数か,other=~,s=~,i=~,doc= / N:comp
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -606,10 +606,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 ###2021年9月21日10:07:46
 ======== memo : physics
 
-:m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. theoretical-physics(tp) / 
+:m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. physics / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*3 / free# JVEMV6 76#_id=GBHE:1 / 76. theoretical-physics(tp) / w=~,topics=速度ベクトルと、その回転との、大きさの比較：(v->=(y,x,xy))の場合；(v->=(a,b,c))の場合,other=~,s=~,i=~,doc=
+:m RES 1*2 / free# JVEMV6 76#_22:1 / 76. theoretical-physics(tp) / w=(dr->),topics=ストークスの定理：面；半球面,other=~,s=~,i=~,doc=r-2-3~4#4.2
 
 
 
@@ -618,7 +618,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
-:m #*# RES / JVEMV6 64#131_heike_tomikura_-- / 『平家物語』 著者=~,校注=冨倉徳次郎 / p.200 / w:甍（いらか）；藤波；荵（しのぶ；間遠（まどお；,topic:「大原御幸」（ごこう）
+:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~
+
+:m #*# RES / JVEMV6 64#131_heike_tomikura_-- / 『平家物語』 著者=~,校注=冨倉徳次郎 / p.204 / w=岩躑躅（＊つつじ,topic=~
 
 
 :m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.12 / w:桁（けた）；天地（あめつち）,topic:読み方
