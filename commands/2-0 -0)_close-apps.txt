@@ -19,8 +19,6 @@ not-for-register files --> delete, move.
 	1. sweets		###2021年11月1日7:30:56
 
 4)------------------
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
-
 rem call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.10.insert-new-data-to-db.bat
 
 
@@ -434,7 +432,9 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,R=1,i.f.=~,notes=~,ReX,other=symbol+:`タメ`;`トメ`;`舌スタカート`
+regex : [a-z]+=~,
+
+:m :篠笛,shinobue #*# / session-memo / s.1:atom,key=h-7(Gf),i.f.=~,notes=①hole:3-4-6-7;pitch:L4-L5-L7f-1;②h:7h-7-7h-7-6-4-6-7,Re+,other=~ \\\ s.2:todays-melody,for=大甲,key=Af,i.f.=~,notes=pitch:2-4-2-1-L7f-1-L5-L4-L5,Re+,other=~ \\\ s.3:atom,for=transition:乙⇔甲,key=h-7(Af),i.f.=~,notes=pitch:L7f-4-5f-1,Re+,other=symbol+:trill:バウンス、２回
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -609,7 +609,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. physics / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*2 / free# JVEMV6 76#_22:1 / 76. theoretical-physics(tp) / w=(dr->),topics=ストークスの定理：面；半球面,other=~,s=~,i=~,doc=r-2-3~4#4.2
+:m RES 1*3 / free# JVEMV6 76#_22:1 / 76. theoretical-physics(tp) / w=~,topics=変分法；オイラー・ラグランジュ方程式,doc=r-3-1~1
 
 
 
