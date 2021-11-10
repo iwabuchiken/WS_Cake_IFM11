@@ -438,7 +438,7 @@ C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
 regex : [a-z]+=~,
 
-:m :篠笛,shinobue #*# / session-memo / s.1:atom,key=h-7(Gf),i.f.=~,notes=①hole:3-4-6-7;pitch:L4-L5-L7f-1;②h:7h-7-7h-7-6-4-6-7,Re+,other=~ \\\ s.2:todays-melody,for=大甲,key=Af,i.f.=~,notes=pitch:2-4-2-1-L7f-1-L5-L4-L5,Re+,other=~ \\\ s.3:atom,for=transition:乙⇔甲,key=h-7(Af),i.f.=~,notes=pitch:L7f-4-5f-1,Re+,other=symbol+:trill:バウンス、２回
+:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=half-notes,Re+,tempo=~,other=~,key=~,notes=h:7-4h-4-5,R=~ \\\ s.2:todays-melody,genr=~,for=~,key=h-2,notes=pitch:1-2-3f-5,Re+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -485,7 +485,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=宗教：俺の宗教 / content=命を尊ぶ。人の命、鳥の命、口の中の、歯の命。 / lang=ja
+:m :th / topic=宗教：キリスト教；仏教 / content=『蜘蛛の糸』:本当のブッダであったなら、あそこに出てきた仏は、首を振りながら、その場を離れたあと、翌日、再び同じ場所に来て、また糸を垂らしたであろう。そして、同じように、カンダダたちがまた落ちていったあと、その翌日も、また垂らす。１億回目に、そして、カンダダとその一行たちが、陸続と、極楽へ上がってきたことだろう。^^^キリスト教：マグダラのマリアの、石打の場面。イエスが本当に人間を愛していたなら、そして、実際のイエスは、人々が去ったあと、マリアに尋ねただろう。「なぜ、そういうことをしたのだい？」。そして、マリアは、「夫が病気で、私はレンガ積みの日雇いをしています。そこの監督が、私に関係を迫りました」。と、答えたかも知れない。 / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -505,7 +505,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,Re+,other=symbol+:`タメ`;`トメ`
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,Re+,i.f.=memo:section-1:half-notes
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -613,7 +613,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. physics / 
 w=~,topics=~,other=~,s=~,i=~,doc=r-X-X~X
 
-:m RES 1*1 / free# JVEMV6 76#_24:2 / 76. physics / w=~,topics=シャボン玉；シュタイナー対称化,other=~,s=~,i=~,doc=r-2-3~9
+:m RES 4*4 / free# JVEMV6 76#_25:2 / 76. physics / w=~,topics=シュタイナー対称化；等周問題：円の場合,other=orig+:(A^3>=V^2*36π),s=~,i=~,doc=r-2-3~9
 
 
 
@@ -624,7 +624,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=r-X-X~X
 ======== memo : JVE : 64#
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.18-19 / w=坐し[ま；神事[かみごと；熟に[そらそら；幽事[かみごと；神等[かみたち；状貌[かたち；産霊[むすび；,topic=読み方
+:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.19 / w=生出る[なりいづ；量知がたき[はかりしり；異国[あだしくに；凡人[ただびと；躰[すがた；然ること[さ；古事[ふること；御卜事[みうらごと；太占[ふとまに；卜問ひ[うらど；何神[いかなるかみ；前より[さき；,topic=読み方
 
 
 :m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.12 / w:桁（けた）；天地（あめつち）,topic:読み方
@@ -661,7 +661,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m :? #*# / topic=math:数論 / content=整数同士の商が、割り切れる。その条件は？ / status=~ / other=~,id=~
+:m :? #*# / topic=physics:量子力学 / content=(p=h/λ) / status=~ / other=~,id=~
 
 
 ###2021年10月1日11:02:40
