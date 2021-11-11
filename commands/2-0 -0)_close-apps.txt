@@ -613,8 +613,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. physics / 
 w=~,topics=~,other=~,s=~,i=~,doc=r-X-X~X
 
-:m RES 4*4 / free# JVEMV6 76#_25:2 / 76. physics / w=~,topics=シュタイナー対称化；等周問題：円の場合,other=orig+:(A^3>=V^2*36π),s=~,i=~,doc=r-2-3~9
+:m RES 1*1 / free# JVEMV6 76#_26:2 / 76. physics / w=~,topics=ヤコビアン；ヤコビ行列,other=orig+,s=~,i=~,doc=r-2-4~2;#1.d-1
 
+###aaa 変曲点]2021年11月11日8:47:25
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~

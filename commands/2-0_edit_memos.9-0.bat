@@ -155,7 +155,10 @@ REM 		keyboard memo template
 REM 		2020年5月28日8:28:39
 REM ===========================
 rem start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\kb_memo_template.txt
-start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memo_string\kb_memo_template.txt
+
+rem c/o : 2021年11月11日8:31:50
+rem start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memo_string\kb_memo_template.txt
+
 rem : 2020年9月21日11:31:46
 rem : comment out : 2020年12月2日15:57:25
 rem start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memo_string\knot_memo_template.txt
