@@ -613,9 +613,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. physics / 
 w=~,topics=~,other=~,s=~,i=~,doc=r-X-X~X
 
-:m RES 1*1 / free# JVEMV6 76#_26:2 / 76. physics / w=~,topics=ヤコビアン；ヤコビ行列,other=orig+,s=~,i=~,doc=r-2-4~2;#1.d-1
-
-###aaa 変曲点]2021年11月11日8:47:25
+:m RES 4*4 / free# JVEMV6 76#_XX:1 / 76. physics / w=(f=(f_(x_k))*(∂(x_j)/∂(α_i))),topics=ヤコビアン,other=calc+,s=~,i=~,doc=r-2-4~5
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -625,7 +623,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=r-X-X~X
 ======== memo : JVE : 64#
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.19 / w=生出る[なりいづ；量知がたき[はかりしり；異国[あだしくに；凡人[ただびと；躰[すがた；然ること[さ；古事[ふること；御卜事[みうらごと；太占[ふとまに；卜問ひ[うらど；何神[いかなるかみ；前より[さき；,topic=読み方
+:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.20 / w=磐余[いわれ；下県直[しもあがたのあたひ；由縁[いはれ；名神大[めいじんだい；月次[つきなみ；神着[かむがかり；大なる[おほき；余の[ほか；正説[まさごと；詳[さだか；訛[よこなまり,topic=読み方
 
 
 :m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.12 / w:桁（けた）；天地（あめつち）,topic:読み方
@@ -833,6 +831,14 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 :PHOTO 記録 / 文書：新聞紙記事 / 1*1 / title=~,other=~,media=~
 
 
+###2021年11月13日8:47:55
+========================== :PHOTO 記録 / 日誌
+:PHOTO 記録 / @~ / what=~ / for=~ / occasion=~,other=~
+
+:PHOTO 記録 / 日誌 / @自室 / what=マウスピース / occasion=水を交換した,for=~
+
+:PHOTO 記録 / @自室 / what=電球@風呂場 / for=交換するので、製品のデータを知りたい / occasion=~
+
 ###2021年9月23日8:21:45
 ============================ 寝た時刻
 
@@ -952,6 +958,9 @@ DELETE FROM ifm11 WHERE _id <= 53099;
 
 ###2021年11月3日8:50:15
 #DELETE FROM ifm11 WHERE _id <= 53330;
+
+###2021年11月13日9:42:25
+#DELETE FROM ifm11 WHERE _id <= 53460;
 
 ###XXXTEMPLATE
 DELETE FROM ifm11 WHERE _id <= XXX;
