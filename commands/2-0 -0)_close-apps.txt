@@ -438,7 +438,7 @@ C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
 regex : [a-z]+=~,
 
-:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=half-notes,Re+,tempo=~,other=~,key=~,notes=h:7-4h-4-5,R=~ \\\ s.2:todays-melody,genr=~,for=~,key=h-2,notes=pitch:1-2-3f-5,Re+
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,R=~,i.f.=~,notes=h:4__-7_-4__,Re+,other=use:dai-kan;memo=fingering:dai-kan \\\ s.2:todays-melody,R=~,i.f.=~,notes=h:3__-4__-7,key=Bf(h-4__),Re+,other=use:dai-kan \\\ s.3:todays-melody,R=~,i.f.=~,notes=h:4_-3_-4_-7_-6_,key=Ef(h-4_),Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -532,13 +532,14 @@ s.1:content=~,key=~,for=~,from=~,R=~,item=bowl,hitter=chopstick:2,pieces=~,genr=
 
 :VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / item=やかん,hitter=hand:both:palm,genr=pattern-atom,memo+
+:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / todays-rythm,item=真空管ボトル,hitter=hand:one-hand,Re+
 
 content=~,key=~,for=~,from=~,R=~,item=plastic-pot:2-pieces,hitter=hand:both;finger-tips,pieces=~,genr=pattern-atom,other=~,memo~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
-todays-rythm,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX
+
+todays-rythm,item=~,hitter=,pieces=~,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 follow,R=~,ReX
 prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
@@ -613,7 +614,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. physics / 
 w=~,topics=~,other=~,s=~,i=~,doc=r-X-X~X
 
-:m RES 4*4 / free# JVEMV6 76#_XX:1 / 76. physics / w=(f=(f_(x_k))*(∂(x_j)/∂(α_i))),topics=ヤコビアン,other=calc+,s=~,i=~,doc=r-2-4~5
+:m RES 1*1 / free# JVEMV6 76#_id=ECOR:1 / 76. physics / w=~,topics=隣り合う整数：和、積：性質,other=~,s=~,i=~,doc=~
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
