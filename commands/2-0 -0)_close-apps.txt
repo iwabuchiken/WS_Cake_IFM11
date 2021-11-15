@@ -41,7 +41,7 @@ rem 9	commands : restart server, open csv file
 
 1-1) ------------------ restart : server
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
-
+aaa
 1-2) ------------------ open : sakura file
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 		
@@ -436,11 +436,13 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
-regex : [a-z]+=~,
+regex : [a-z]+=~, (<= this : 2021年11月15日10:00:59)
+,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,R=~,i.f.=~,notes=h:4__-7_-4__,Re+,other=use:dai-kan;memo=fingering:dai-kan \\\ s.2:todays-melody,R=~,i.f.=~,notes=h:3__-4__-7,key=Bf(h-4__),Re+,other=use:dai-kan \\\ s.3:todays-melody,R=~,i.f.=~,notes=h:4_-3_-4_-7_-6_,key=Ef(h-4_),Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=`主（しゅ）`,key=h-3(Df),R=1,i.f.=~,notes=pitch:1-2-1-L5-2,Re+,other=fingering-diagram+:hole-4~②genr=`あげ`,R=1,i.f.=~,notes=hole:4-7,Re+,other=s.1の続き~③genr=`なぎ`,R=1,i.f.=~,notes=hole:7-3-4,Re+,other=s.1の続き \\\ s.2:todays-melody,genr=`しゅ（主）`,key=Af,R=2,i.f.=~,notes=3_-3h_-3_6-7,Re+,other=~ \\\ s.3:todays-melody,genr=`しゅ`,key=Ef(hole:4_),R=3,i.f.=~,notes=4_-4__-4__-7_-4__-,ReX,other=~ \\\ s.4:todays-melody,R=4,i.f.=~,notes=4_-4_-3-4_-4_-7-0-3_-0-7-0-4-7,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
 todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~,ReX,other=~
 follow,R=~,ReX
@@ -505,7 +507,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,Re+,i.f.=memo:section-1:half-notes
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -519,7 +521,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 ###2021年9月7日8:49:45
 ==================== memo : percussion,rythm
 
-:m / 1*1 / percussion,rythm / session-memo / s.1:item=やかん,hitter=hand:both,pieces=~,genr=pattern-atom,R=1
+:m / 1*1 / percussion,rythm / session-memo / s.1: todays-rythm,item=真空管ボトル,hitter=hand:one-hand,Re+,other=video-2021-11-13_21-08-32_000.mp4,R=1
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -614,7 +616,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. physics / 
 w=~,topics=~,other=~,s=~,i=~,doc=r-X-X~X
 
-:m RES 1*1 / free# JVEMV6 76#_id=ECOR:1 / 76. physics / w=~,topics=隣り合う整数：和、積：性質,other=~,s=~,i=~,doc=~
+:m RES #*# / free# JVEMV6 76#_id=QLY9:1 / 76. physics / w=~,topics=分数の総和：収束するか,other=由来：メルテンスの定理を見て、思いついた
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
