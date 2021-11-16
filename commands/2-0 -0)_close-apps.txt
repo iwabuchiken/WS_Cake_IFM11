@@ -12,7 +12,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
 3)------------------
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
+C:\WORKS_2\WS\ WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
 3-1)------------------
 not-for-register files --> delete, move.
@@ -41,7 +41,7 @@ rem 9	commands : restart server, open csv file
 
 1-1) ------------------ restart : server
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
-aaa
+
 1-2) ------------------ open : sakura file
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 		
@@ -439,7 +439,7 @@ C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 regex : [a-z]+=~, (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=`主（しゅ）`,key=h-3(Df),R=1,i.f.=~,notes=pitch:1-2-1-L5-2,Re+,other=fingering-diagram+:hole-4~②genr=`あげ`,R=1,i.f.=~,notes=hole:4-7,Re+,other=s.1の続き~③genr=`なぎ`,R=1,i.f.=~,notes=hole:7-3-4,Re+,other=s.1の続き \\\ s.2:todays-melody,genr=`しゅ（主）`,key=Af,R=2,i.f.=~,notes=3_-3h_-3_6-7,Re+,other=~ \\\ s.3:todays-melody,genr=`しゅ`,key=Ef(hole:4_),R=3,i.f.=~,notes=4_-4__-4__-7_-4__-,ReX,other=~ \\\ s.4:todays-melody,R=4,i.f.=~,notes=4_-4_-3-4_-4_-7-0-3_-0-7-0-4-7,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=`しゅ（主）`;`あげ`,,key=h-7(Af),,R=1,i.f.=~,notes=しゅ：h:3-7-7-6-7;あげ:7-0-2_-3_-2_-0-7-7-7-0-2_,ReX, \\\ s.2:todays-melody,genr=`しゅ`；`はな（華）`,,key=h-4(Ef),,R=2,i.f.=~,notes=しゅ：4-3-4-6-6-7-7-0-0-3_~3_-2h_;はな：4_-6_-4_-3_~4_-3_-4_-0
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -616,7 +616,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. physics / 
 w=~,topics=~,other=~,s=~,i=~,doc=r-X-X~X
 
-:m RES #*# / free# JVEMV6 76#_id=QLY9:1 / 76. physics / w=~,topics=分数の総和：収束するか,other=由来：メルテンスの定理を見て、思いついた
+:m RES 1*2 / free# JVEMV6 76#_30:2 / 76. physics / w=~,topics=重積分；置換積分,other=~,s=~,i=~,doc=r-2-4~7
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -626,11 +626,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=r-X-X~X
 ======== memo : JVE : 64#
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.20 / w=磐余[いわれ；下県直[しもあがたのあたひ；由縁[いはれ；名神大[めいじんだい；月次[つきなみ；神着[かむがかり；大なる[おほき；余の[ほか；正説[まさごと；詳[さだか；訛[よこなまり,topic=読み方
+:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.21 / w=混成れる[むらがりな；葦牙[あしかび；初生[おひそむる；比古遅[ひこぢ；天之底立[あめのそこたち；知看けむ[しろしめし；言義[ことのこころ；,topic=読み方
 
-
-:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.12 / w:桁（けた）；天地（あめつち）,topic:読み方
-
+:m #*# RES / JVEMV6 64#132_doukyou-- / 『道教の世界』 / 著者=窪徳忠,校注=~ / p.45 / w=橘樸[しらき,topic=~,other=~
 
 
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
@@ -737,7 +735,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
-:bookmemo / 読んだ本 / 『宗教心理学』 / 著者=松本滋 / 途中（不要）
+:bookmemo / 読んだ本 / 『道教の世界』 / 著者=窪徳忠 / 
 
 ============================== 読みたい本 : 2021年7月24日8:41:12
 
@@ -863,10 +861,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
 
-:PHOTO 記録 / 文書：コレポン / #*# / about=日曜の診療。しているか。予約要否。,with=スズキ歯科（宮崎台駅、近く）,content=~,other=~ / N~
+:PHOTO 記録 / 文書：コレポン / #*# / about=予約忘れ、すみません；改めて予約,with=スズキ歯科（宮崎台駅、近く）,content=~,other=~ / N~
 
 ###2021年10月25日9:18:26
-============================ 様子：顔
+============================ 
+：顔
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（尺八）
 
 ###2021年11月4日8:20:20
