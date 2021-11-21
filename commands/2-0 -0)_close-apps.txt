@@ -33,6 +33,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM
 
 ) back --> files ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
+
+### write memos ------------------
 aaa
 1)
 rem 9	commands : restart server, open csv file
@@ -438,7 +440,7 @@ regex :
 	[a-z]+=~, (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:res,for=alt-fingering,Re+,notes=Fs,R=~
+:m :篠笛,shinobue #*# / session-memo / s.1:res,for=alt-fingering,Re+,tempo=~,other=fingers:3-4-6-7=>h-6.q-1,key=~,notes=~,R=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -449,7 +451,8 @@ prac,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
 rev,for=~,ReX,tempo=~,other=~,key=~
 genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
-res,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
+res,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=
+~
 memo,theme=~,content=~,for=~,other=~
 
 tech,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
@@ -506,7 +509,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,memo=~,Re+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / todays-melody,Re+,memo=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -615,8 +618,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. physics / 
 w=~,topics=~,other=~,s=~,i=~,doc=r-X-X~X
 
-:m RES 5*5 / free# JVEMV6 76#_id=HNWT:1 / 76. physics / w=~,topics=(sin(x)^2)の積分。にまつわる、調べ物,other=q+:open:(sin(x)^4)。積分,s=~,i=~,doc=~
 
+:m RES 1*1 / free# JVEMV6 76#_34:2 / 76. physics / w=~,topics=ガウス積分,other=~,s=~,i=~,doc=r-6.1-1~1
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
@@ -625,9 +628,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=r-X-X~X
 ======== memo : JVE : 64#
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.21 / w=混成れる[むらがりな；葦牙[あしかび；初生[おひそむる；比古遅[ひこぢ；天之底立[あめのそこたち；知看けむ[しろしめし；言義[ことのこころ；,topic=読み方
+:m #*# RES / JVEMV6 64#134_yamamoto_ieyasu-- / 『徳川家康』 著者=山本七平,校注=~ / p.17 / w=毛利広元；尼子晴久,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#132_doukyou-- / 『道教の世界』 / 著者=窪徳忠,校注=~ / p.45 / w=橘樸[しらき,topic=~,other=~
+:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.21 / w=混成れる[むらがりな；葦牙[あしかび；初生[おひそむる；比古遅[ひこぢ；天之底立[あめのそこたち；知看けむ[しろしめし；言義[ことのこころ；,topic=読み方
 
 
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
@@ -759,6 +762,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :PHOTO 記録しておきたいもの / @ペガスス：正面の川原 / target=炊事場
 
+:PHOTO 記録しておきたいもの / @上町駅近く、東和現場へ行く途中 / object=店舗：喫茶店。ポーランド語の店名：「ヤスクーカ」,photo-for=記録
+
+
 ###2021年8月17日12:50:42
 ============================== memo : math
 
@@ -873,6 +879,24 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=予約忘れ、すみません；改めて予約,with=スズキ歯科（宮崎台駅、近く）,content=~,other=~ / N~
+
+
+###2021年11月21日10:06:43
+============================ 記録：文書
+:PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~,other=~
+
+:PHOTO 記録 / 文書　/ occasion=東和の現場で、頭に浮かんだ / for=祈りの文句 / doc=~,other=「神仏の加護、…」,add=聖人の教え、現人[げんじん]の安寧、後人の安堵
+
+:PHOTO 記録 / 文書　/ occasion=ワクチン接種：２回目：２日目の夜 / for=身体に感じられる症状：書き出す / doc=メモ,other=~
+
+
+###2021年11月21日10:36:52
+============================ 記録：自然観察
+
+JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @~ / target=~,occation=~,other
+
+JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @東和現場へ行く途中：上町駅 / target=猫じゃらしのような草,occation=~,other=群生。絵の題材にいいと思った；ヨモギのような草と、混生。
+
 
 ###2021年10月25日9:18:26
 ============================ 
