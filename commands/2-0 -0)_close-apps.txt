@@ -44,7 +44,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
 
 1-2) ------------------ open : sakura file
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
-
+aaa
 1-3)
 ## ods memos --> c/p to csv file
 
@@ -619,7 +619,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=r-X-X~X
 
 
-:m RES 1*1 / free# JVEMV6 76#_35:1 / 76. physics / w=~,topics=最小作用の原理,other=~,s=~,i=~,doc=r-6.1-1~1#3.2
+:m RES #*# / free# JVEMV6 76#_35:2 / 76. physics / w=~,topics=configuration,other=calc+;memo+,s=~,i=~,doc=r-2-6~3#3
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
