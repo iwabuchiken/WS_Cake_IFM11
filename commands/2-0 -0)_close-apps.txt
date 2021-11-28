@@ -440,7 +440,7 @@ regex :
 	[a-z]+=~, (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:res,for=fingering:大甲：Df;Bf;Df;B,Re+,R=~
+:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=phrase:warm-up,Re+,tempo=~,other=~,key=~,notes=~,R=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -623,7 +623,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES #*# / free# JVEMV6 76#_40:2 / 76. physics / w=~,topics=ハミルトニアン(eman),other=memo+,s=~,i=~,doc=r-6.1-1~9#3
+:m RES 1*2 / free# JVEMV6 76#_41:2 / 76. physics / w=~,topics=ポアソン括弧式,other=~,s=~,i=~,doc=r-6.1-1~10#3.1
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -842,7 +842,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,other=~
 
-:m 1*1 RES / free# S87DP9 記事読み / id=ZDOA(browser=tor) / media=litera / theme=茂木議員：資金不正,other=会計不正
+:m 1*1 RES / free# S87DP9 記事読み / id=2T38(browser=tor) / media=lite / theme=政治資金規制；維新の会；収支報告書,other=~
 
 
 ###2021年9月22日10:21:19
