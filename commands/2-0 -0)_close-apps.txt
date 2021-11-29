@@ -440,7 +440,7 @@ regex :
 	[a-z]+=~, (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=phrase:warm-up,Re+,tempo=~,other=~,key=~,notes=~,R=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,key=h-4(E),i.f.=~,notes=7f_-1-4-5,Re+,other=~ \\\ s.2:atom,R=1,i.f.=~,notes=4`-4h`-4`-2`,ReX,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -510,7 +510,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / todays-melody,i.f.=~,notes=,Re+,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,i.f.=~,notes=,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -623,7 +623,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 1*2 / free# JVEMV6 76#_41:2 / 76. physics / w=~,topics=ポアソン括弧式,other=~,s=~,i=~,doc=r-6.1-1~10#3.1
+:m RES 1*3 / free# JVEMV6 76#_41:2 / 76. physics / w=~,topics=ハミルトニアン,other=~,s=~,i=~,doc=r-6.1-1~11
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
