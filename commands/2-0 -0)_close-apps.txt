@@ -624,7 +624,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 1*2 / free# JVEMV6 76#_43:2 / 76. physics / w=~,topics=正準変換,other=~,s=~,i=~,doc=r-6.1-1~14
+:m RES 1*1 / free# JVEMV6 76#_44:1 / 76. physics / w=~,topics=正準変換；ネーターの定理,other=memo+,s=~,i=~,doc=r-6.1-1~14#5;r-6.1-1~15
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -912,6 +912,13 @@ JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花
 
 :m 記録 / 身体 / 様子 / location=歯茎：前歯：上あご,time=~；occasion=~,other=歯茎の、上あごへの接続部、付近。
 
+
+
+###2021年12月1日19:22:02
+============================ 寄付
+:PHOTO 記録 / PC画面 / デスクトップPC / subject=寄付金、入金 / for=日本共産党 / amount=JPY:3000, other=衆議院議員選挙
+
+:PHOTO 記録 / PC画面 / デスクトップPC / subject=寄付金、入金 / for=electronic-intifada / amount=USD:65, other=year-end-donation
 
 
 ============================== delete entries from db
