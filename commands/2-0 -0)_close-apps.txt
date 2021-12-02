@@ -476,7 +476,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=宗教 / content=『日本教神学』。『日本教の神学』
+:m :lets / action activity / やること / genre=篠笛 / content=「篠笛百曲」。作ろう
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -624,7 +624,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 1*1 / free# JVEMV6 76#_44:1 / 76. physics / w=~,topics=正準変換；ネーターの定理,other=memo+,s=~,i=~,doc=r-6.1-1~14#5;r-6.1-1~15
+:m RES 2*2 / free# JVEMV6 76#_45:2 / 76. physics / w=~,topics=ネーターの定理,other=q+:open:光線の軌跡,s=~,i=~,doc=r-6.1-1~15#4
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -634,7 +634,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#137.2_shigetoki_rokuhara-- / 『北条重時家訓　六波羅殿御家訓』 著者=北条重時,校注=石井進 / p.310 / w=咲れの[わらわ；悪きにて[わろ；努努[ゆめゆめ；六借からん[むつかし；縦[たとい；吉からむ[よ；楚忽[そこつ,topic=読み方
+:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.24 / w=漸に[ようやく；即[やがて；下方[したつかた；下津国[したつくに；美称[たたへな；尊称[たふとみな；,topic=読み方
 
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
