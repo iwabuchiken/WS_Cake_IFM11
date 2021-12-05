@@ -476,7 +476,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=篠笛 / content=「篠笛百曲」。作ろう
+:m :lets / action activity / やること / genre=技術 / content=技術の適用先。体系的に、見つけよう。水道分野、道路。等々。
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -491,7 +491,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=宗教：キリスト教；仏教 / content=『蜘蛛の糸』:本当のブッダであったなら、あそこに出てきた仏は、首を振りながら、その場を離れたあと、翌日、再び同じ場所に来て、また糸を垂らしたであろう。そして、同じように、カンダダたちがまた落ちていったあと、その翌日も、また垂らす。１億回目に、そして、カンダダとその一行たちが、陸続と、極楽へ上がってきたことだろう。^^^キリスト教：マグダラのマリアの、石打の場面。イエスが本当に人間を愛していたなら、そして、実際のイエスは、人々が去ったあと、マリアに尋ねただろう。「なぜ、そういうことをしたのだい？」。そして、マリアは、「夫が病気で、私はレンガ積みの日雇いをしています。そこの監督が、私に関係を迫りました」。と、答えたかも知れない。 / lang=ja
+:m :th / topic=自分の心の動き / content=東和の新田氏から、月曜の仕事のことを頼まれ、引き受けた。「いいように使われる」故の、悲しみか。なにが嫌なのか。なにが不安なのか？ / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -508,10 +508,13 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 ###2021年6月13日9:11:14
 ======== memo : jap.flute, video, shinobue
-
+regex : 
+[a-z]+=~,
+	 (<= this : 2021年11月15日10:00:59)
+	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,i.f.=~,notes=,Re+,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / todays-melody,genr=free-play,i.f.=~,notes=,Re+,other=use:octave-range:kan
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -624,7 +627,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 2*2 / free# JVEMV6 76#_45:2 / 76. physics / w=~,topics=ネーターの定理,other=q+:open:光線の軌跡,s=~,i=~,doc=r-6.1-1~15#4
+:m RES 2*2 / free# JVEMV6 76#_46:1 / 76. physics / w=~,topics=最小作用の原理,other=~,s=~,i=~,doc=r-8-2~2
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -634,7 +637,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.24 / w=漸に[ようやく；即[やがて；下方[したつかた；下津国[したつくに；美称[たたへな；尊称[たふとみな；,topic=読み方
+:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.25 / w=結[とぢめ；国土[くに；吾屋惶根[あやかしこね；混淆て[まじり；混成れる[むらがりな；稚々しき[うひうひ,topic=読み方
 
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
