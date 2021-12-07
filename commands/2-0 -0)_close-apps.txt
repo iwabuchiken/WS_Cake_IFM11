@@ -491,7 +491,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=自分の心の動き / content=東和の新田氏から、月曜の仕事のことを頼まれ、引き受けた。「いいように使われる」故の、悲しみか。なにが嫌なのか。なにが不安なのか？ / lang=ja
+:m :th / topic=自分の頭の中について / content=過去のあまたの愚行たち。しかし、もう、自責は、承りかねる / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -627,7 +627,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 2*2 / free# JVEMV6 76#_46:1 / 76. physics / w=~,topics=最小作用の原理,other=~,s=~,i=~,doc=r-8-2~2
+:m RES 1*# / free# JVEMV6 76#_46:1 / 76. physics / w=~,topics=最小作用の原理；リーマン積分,other=~,s=~,i=~,doc=r-2-7~1
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
