@@ -491,7 +491,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=自分の頭の中について / content=過去のあまたの愚行たち。しかし、もう、自責は、承りかねる / lang=ja
+:m :th / topic=なりたいもの；自分は誰か / content=i-am-a-UFO-engineer / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -627,7 +627,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES #*# / free# JVEMV6 76#_48:2 / 76. physics / w=(Σ(f,△,△^*)),topics=ルベーグ積分；リーマン積分,other=~,s=~,i=~,doc=r-2-7~2#2
+:m RES 1*2 / free# JVEMV6 76#_49:1 / 76. physics / w=(Σ(f,△,△^*)),topics=ルベーグ積分；リーマン積分,other=~,s=~,i=~,doc=r-2-7~2#3.2
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -637,7 +637,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.25 / w=結[とぢめ；国土[くに；吾屋惶根[あやかしこね；混淆て[まじり；混成れる[むらがりな；稚々しき[うひうひ,topic=読み方
+:m #*# RES / JVEMV6 64#古文書_id=39G2 / 『---』 著者=~,校注=~ / p.~ / w=寄親,topic=~,other=~
 
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
@@ -668,7 +668,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome/ (lang=ja) / topic=~ / content=~
 
-:tome/ (lang=ja) / topic=やること / content=篠笛と篤胤の閲読　=>　side-by-side
+:tome/ (lang=ja) / topic=数学を学ぶ理由 / content=ガザの人たちのために、数学を学ぼう
 
 
 ###2021年7月3日10:35:02
