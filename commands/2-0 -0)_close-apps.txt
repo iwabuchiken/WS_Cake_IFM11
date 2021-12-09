@@ -514,7 +514,7 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,notes=,Re+,other=use:kan-sounds
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,notes=,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -627,7 +627,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 1*2 / free# JVEMV6 76#_49:1 / 76. physics / w=(Σ(f,△,△^*)),topics=ルベーグ積分；リーマン積分,other=~,s=~,i=~,doc=r-2-7~2#3.2
+:m RES 1*2 / free# JVEMV6 76#_49:1 / 76. physics / w=一様収束；各点収束,topics=ルベーグ積分,other=~,s=~,i=~,doc=r-2-7~2#4.3
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
