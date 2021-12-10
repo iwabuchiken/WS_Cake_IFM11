@@ -491,7 +491,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=なりたいもの；自分は誰か / content=i-am-a-UFO-engineer / lang=ja
+:m :th / topic=「済度」について（仏教用語） / content=「済度」とは。その人が本来持っている能力に気づき、それを使えるように、手助けする。その人が自身で伸ばせる状態へ、「渡す」こと。 / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -514,7 +514,8 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,notes=,Re+,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,notes=,Re+,other=file-id:2021-12-10_18-31-41_000.mp4
+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -627,7 +628,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 1*2 / free# JVEMV6 76#_49:1 / 76. physics / w=一様収束；各点収束,topics=ルベーグ積分,other=~,s=~,i=~,doc=r-2-7~2#4.3
+:m RES 2*2 / free# JVEMV6 76#_51:1 / 76. physics / w=~,topics=ルベーグ積分；ガンマ関数；ゼータ関数,other=i+,s=~,i=~,doc=r-2-7~2#5.3
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -1037,6 +1038,13 @@ delete "*" char
 ###2021年11月24日21:58:25
 =================== file : entries
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
+
+
+###2021年12月11日0:02:20
+=================== folder : 
+start C:\WORKS_2\WS\WS_Cake_IFM11\iphone
+start C:\WORKS_2\WS\WS_Cake_IFM11\tmp
+
 
 
 ###2021年7月17日7:47:01
