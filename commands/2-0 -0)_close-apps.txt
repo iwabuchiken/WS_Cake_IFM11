@@ -461,6 +461,35 @@ tech,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
 
 atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
+###2021年12月11日22:04:31
+============================== memo : bamboo-flute
+
+regex : 
+[a-z]+=~,
+	 (<= this : 2021年11月15日10:00:59)
+,([^=])+?=~
+
+:m :尺八,shakuhachi,bamboo #*# / session-memo / s.1:todays-melody,key=~,i.f.=~,Re+,other=~,R=1
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+
+follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~,ReX,other=~
+follow,R=~,ReX
+
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
+
+rev,for=~,ReX,tempo=~,other=~,key=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+
+res,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
+memo,theme=~,content=~,for=~,other=~
+
+tech,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
+
+atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
+
+
 
 ============================== memo : sketch
 ###2021年6月8日8:13:29
@@ -496,7 +525,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 ============================== memo : shakuhachi,bamboo,尺八
 
-###:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=tech:atom:name=`a-wa-wa-wa`,Re+,R=1,notes=~,other=~,type=~,feel=~
+###:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,R=1,notes=~,other=~,type=~,feel=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -628,7 +657,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 2*2 / free# JVEMV6 76#_51:1 / 76. physics / w=~,topics=ルベーグ積分；ガンマ関数；ゼータ関数,other=i+,s=~,i=~,doc=r-2-7~2#5.3
+:m RES #*# / free# JVEMV6 76#_51:1 / 76. physics / w=~,topics=ルベーグ積分：考え方,other=i+,s=~,i=~,doc=r-2-7~2#5.5
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -677,7 +706,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m :? #*# / topic=physics:量子力学 / content=(p=h/λ) / status=~ / other=~,id=~
+:m :? #*# / topic=倫理。道徳 / content=「前世の因縁」を失くすのは良し。代わりに、では、悪行を、どうやって抑制する？ / status=~ / other=~,id=~
 
 
 ###2021年10月1日11:02:40
