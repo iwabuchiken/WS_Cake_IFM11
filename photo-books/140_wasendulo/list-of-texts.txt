@@ -4,9 +4,10 @@
 
 	n : 2	https://www.library.yonezawa.yamagata.jp/dg/GL034.html	]2021年12月11日10:37:26
 	
+	n : 3	https://trc-adeac.trc.co.jp/Html/ImageView/3420905100/3420905100200010/0316/?pagecode=2	武家諸法度〈大橋殿真筆〉	buke	]2021年12月12日17:55:29
 	
 	
-	n : NUM	URL	TITLE	]XXX
+	n : NUM	URL	TITLE	short	]XXX
 
 @@@
 ###
