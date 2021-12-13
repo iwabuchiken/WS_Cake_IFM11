@@ -543,7 +543,7 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / todays-melody,notes=,Re+,other=file-id:2021-12-12_18-52-04_000.mp4
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
@@ -657,7 +657,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 1*2 / free# JVEMV6 76#_51:1 / 76. physics / w=~,topics=ルベーグ積分,other=q+,s=~,i=~,doc=r-2-7~2#7
+:m RES 3*4 / free# JVEMV6 76#_54:2 / 76. physics / w=~,topics=ラグランジュ：未定乗数法,other=q+;q+,s=~,i=~,doc=r-2-8~2;#2.2~d-1;#2.2~d-2
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -667,7 +667,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#古文書_id=39G2 / 『---』 著者=~,校注=~ / p.~ / w=寄親,topic=~,other=~
+:m #*# RES / JVEMV6 64#140 / 『武家諸法度』 著者=~,校注=~ / p.~ / w=武家諸法度～左文右武,topic=~,other=~
 
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 

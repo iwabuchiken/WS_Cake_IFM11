@@ -7,7 +7,9 @@
 	n : 3	https://trc-adeac.trc.co.jp/Html/ImageView/3420905100/3420905100200010/0316/?pagecode=2	武家諸法度〈大橋殿真筆〉	buke	]2021年12月12日17:55:29
 	
 	
-	n : NUM	URL	TITLE	short	]XXX
+	n : 4	https://dl.ndl.go.jp/info:ndljp/pid/1288412/3	鎌倉殿下知状	kamakura-dono	]2021年12月13日18:00:28
+	
+	n : NUM	TITLE	short		URL	]XXX
 
 @@@
 ###
