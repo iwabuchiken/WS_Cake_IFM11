@@ -657,7 +657,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 3*4 / free# JVEMV6 76#_54:2 / 76. physics / w=~,topics=ラグランジュ：未定乗数法,other=q+;q+,s=~,i=~,doc=r-2-8~2;#2.2~d-1;#2.2~d-2
+:m RES 3*3 / free# JVEMV6 76#_55:1 / 76. physics / w=~,topics=ラグランジュ：未定乗数法；ルベーグ積分,other=i+;orig+,s=~,i=~,doc=r-2-8~2#3.2;r-2-7~2#7.10
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
