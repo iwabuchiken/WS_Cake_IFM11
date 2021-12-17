@@ -80,11 +80,14 @@
 	
 	n : 135-62.2_sanka	]2021年12月10日10:38:12
 	
-	n : 140_wasendulo	]2021年12月11日15:01:48
+	n : 140_wasendulo	]2021年12月11日15:01:48		
+		C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\140_wasendulo\list-of-texts.txt
 	
 	n : 141_MISCS	]2021年12月11日15:02:18
 	
 		C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\141_MISCS\list-of-resources.txt
+	
+	n : 142_azuma	]2021年12月16日17:48:13
 	
 	n : 14X_XXX	]XXX
 
