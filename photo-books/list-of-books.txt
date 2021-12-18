@@ -82,12 +82,18 @@
 	
 	n : 140_wasendulo	]2021年12月11日15:01:48		
 		C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\140_wasendulo\list-of-texts.txt
+		
+		http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=64%23+140-&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 	
 	n : 141_MISCS	]2021年12月11日15:02:18
 	
 		C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\141_MISCS\list-of-resources.txt
 	
 	n : 142_azuma	]2021年12月16日17:48:13
+	
+	n : 143_minshuu	]2021年12月18日8:58:47
+	
+	n : 144_toju_daigaku	]2021年12月18日9:00:42
 	
 	n : 14X_XXX	]XXX
 
@@ -115,6 +121,10 @@
 
 C:\WORKS_2\shortcuts_docs\log_JVE_64_ALL.log
 
+
+###2021年12月18日9:20:20
+
+[db+15].
 
 ###2021年11月22日16:13:29
 =============================== folder

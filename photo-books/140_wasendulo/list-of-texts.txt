@@ -9,6 +9,9 @@
 	
 	n : 4	https://dl.ndl.go.jp/info:ndljp/pid/1288412/3	鎌倉殿下知状	kamakura-dono	]2021年12月13日18:00:28
 	
+		https://dl.ndl.go.jp/ja/kaidai.html
+			古典籍資料（貴重書等）　解題・翻刻のある資料一覧	##mark:20211218_142350
+		
 	n : NUM	TITLE	short		URL	]XXX
 
 @@@

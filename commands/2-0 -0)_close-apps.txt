@@ -543,7 +543,7 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=指の押さえ：現状、記録,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=use:dai-kan,Re+
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
@@ -657,7 +657,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 1*3 / free# JVEMV6 76#_57:1 / 76. physics / w=,topics=ルベーグ積分,other=~,s=~,i=~,doc=r-2-7~2#8.1
+:m RES 2*2 / free# JVEMV6 76#_58:1 / 76. physics / w=可測,topics=ルベーグ積分,other=calc+,s=~,i=~,doc=r-2-7~2#9
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -668,6 +668,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,other=~
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
+
+:m #*# RES / JVEMV6 64#140-4 / 『鎌倉下知状』 著者=~,校注=~ / p.~ / w=地頭名者～銭弐千貫,topic=~,other=~
+
+:m #*# RES / JVEMV6 64#143_minshuu / 『日本思想大系５８　民衆運動の思想　三浦命助　露顕状』 著者=~,校注=~ / p.10 / w=三閉伊通り,topic=~,other=地図
+
 
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
@@ -684,7 +689,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m RES #*# / free# JVEMV6 59#XX_X / 59. medical / X. XX / 
 w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
-:m RES #*# / free# JVEMV6 59#13_12:1 / 59. medical / 12. stress / w=コルチゾール；コルチコイド；トンカットアリ,topics=~,other=~,s=~,i=~,doc=:d-1,Next~
+:m RES #*# / free# JVEMV6 59#9.2_ / 59. medical / 12. stress / w=蝶形骨；大後頭孔,topics=頭蓋底
 
 ======== memo : video : 記録
 ###2021年6月13日9:17:23
