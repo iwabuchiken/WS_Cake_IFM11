@@ -639,7 +639,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_id=YGX5:1 / 68. theoretical-physics(tp) / w=~,topics=平方根は、無理数か,other=~,s=~,i=~,doc= / N:comp
+:m RES 1*3 / free# JVEMV6 68#_133:1 / 68. theoretical-physics(tp) / w=(f(z+h)≒f`(z)*h+f(z),topics=複素微分,other=calc+,s=~,i=~,doc=r-7-10~1
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -657,9 +657,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 2*2 / free# JVEMV6 76#_58:1 / 76. physics / w=可測,topics=ルベーグ積分,other=calc+,s=~,i=~,doc=r-2-7~2#9
-
-:m RES 1*1 / free# JVEMV6 76#_59:1 / 76. physics / w=物質波,topics=,other=~,s=~,i=~,doc=r-4-1~1
+:m RES 1*3 / free# JVEMV6 76#_60:1 / 76. physics / w=(ψ=Ae^((2πi/h)(px-Et))),topics=シュレーディンガー方程式,other=calc+,s=~,i=~,doc=r-4-1~3
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -677,6 +675,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#143_minshuu / 『日本思想大系５８　民衆運動の思想　三浦命助　露顕状』 著者=~,校注=~ / p.11 / w=甚助；命助,topic=~,other=地図
 
+:m #*# RES / JVEMV6 64#90_?? / 『日本古典文学大系　９５　折たく柴の記』 小高、松村、校注 / p.254 / w:近衛信尹,topic:~ / N~
 
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
@@ -1056,6 +1055,9 @@ DELETE FROM ifm11 WHERE _id <= 53099;
 
 ###2021年12月8日0:20:02
 #DELETE FROM ifm11 WHERE _id <= 53859;
+
+###2021年12月21日1:06:30
+#DELETE FROM ifm11 WHERE _id <= 54053;
 
 
 ###XXXTEMPLATE
