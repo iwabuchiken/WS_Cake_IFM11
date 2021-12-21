@@ -639,7 +639,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*3 / free# JVEMV6 68#_133:1 / 68. theoretical-physics(tp) / w=(f(z+h)≒f`(z)*h+f(z),topics=複素微分,other=calc+,s=~,i=~,doc=r-7-10~1
+:m RES 1*2 / free# JVEMV6 68#_134:1 / 68. theoretical-physics(tp) / w=~,topics=複素微分(eman),other=calc+;theorem+:正則関数に実数を加えたもの。正則,s=~,i=~,doc=r-7-10~1#6
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -669,7 +669,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-4 / 『鎌倉下知状』 著者=~,校注=~ / p.~ / w=所詮～庄務,topic=~,other=~
+:m #*# RES / JVEMV6 64#140-4 / 『鎌倉下知状』 著者=~,校注=~ / p.~ / w=一御代～訴訟也,topic=~,other=~
+
 
 :m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
 
