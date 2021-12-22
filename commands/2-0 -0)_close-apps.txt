@@ -520,7 +520,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=「済度」について（仏教用語） / content=「済度」とは。その人が本来持っている能力に気づき、それを使えるように、手助けする。その人が自身で伸ばせる状態へ、「渡す」こと。 / lang=ja
+:m :th / topic=日本の美術 / content=「折敷」（おしき）など。十分に、美しい / lang=ja
 
 
 ============================== memo : shakuhachi,bamboo,尺八
@@ -639,7 +639,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*2 / free# JVEMV6 68#_134:1 / 68. theoretical-physics(tp) / w=~,topics=複素微分(eman),other=calc+;theorem+:正則関数に実数を加えたもの。正則,s=~,i=~,doc=r-7-10~1#6
+:m RES 2*2 / free# JVEMV6 68#_135:1 / 68. theoretical-physics(tp) / w=~,topics=複素微分(eman),other=mem+:sinxのマクローリン級数。各項は、より大きくなるか,s=~,i=~,doc=r-9-1~1
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
