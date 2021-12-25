@@ -9,9 +9,19 @@
 	
 	n : 4	https://dl.ndl.go.jp/info:ndljp/pid/1288412/3	鎌倉殿下知状	kamakura-dono	]2021年12月13日18:00:28
 	
-		https://dl.ndl.go.jp/ja/kaidai.html
+		https://dl.ndl.go.jp/ja/kaidai.html#idx4
 			古典籍資料（貴重書等）　解題・翻刻のある資料一覧	##mark:20211218_142350
 		
+	n : 5	朱印状. 織田信長朱印状 天正１（１５７３）	nobunaga-shuin		https://dl.ndl.go.jp/info:ndljp/pid/1286874	]2021年12月23日0:48:17
+
+	n : 6	足利将軍御教書	kyosho		https://dl.ndl.go.jp/info:ndljp/pid/1288414/4	]2021年12月25日16:39:52
+	
+	n : 7	khirinの資料を翻刻	??		https://honkoku.org/app/#/projects/khirin/collections/D3172A13390F84A11F741B1EB50BC780	]2021年12月25日17:20:33
+	
+	n : 7.1	和田村常夜燈寄進浄瑠璃行着書控他	honkoku-7-1		https://honkoku.org/app/#/transcription/6FB516A055352014BE445FDBC1A5706F/1/?ref=/projects/khirin/collections/D3172A13390F84A11F741B1EB50BC780	]2021年12月25日17:21:35
+	
+	
+	
 	n : NUM	TITLE	short		URL	]XXX
 
 @@@
