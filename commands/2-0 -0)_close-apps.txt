@@ -639,7 +639,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES #*# / free# JVEMV6 68#_136:3 / 68. theoretical-physics(tp) / w=~,topics=コーシーの積分(eman),other=calc+,s=~,i=~,doc=r-9-1~3
+:m RES 2*2 / free# JVEMV6 68#_138:2 / 68. theoretical-physics(tp) / w=~,topics=コーシーの積分公式(eman),other=~,s=~,i=~,doc=r-9-1~4#3
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -669,7 +669,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-5 / 『織田信長朱印状』 / w=三条～野畠年中 / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.1 / 『和田村常夜燈寄進浄瑠璃行着書控他』 / w=原與右衛門～相違無之 / p.~ / topic=~,other=~
 
 
 :m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
