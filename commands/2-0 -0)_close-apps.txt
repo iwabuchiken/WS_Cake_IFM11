@@ -639,7 +639,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_138:2 / 68. theoretical-physics(tp) / w=~,topics=コーシーの積分公式(eman),other=~,s=~,i=~,doc=r-9-1~4#3
+:m RES #*# / free# JVEMV6 68#_139:1 / 68. theoretical-physics(tp) / w=~,topics=一致定理(eman),other=~,s=~,i=~,doc=r-9-1~4#7;r-9-1~5
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -707,7 +707,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome/ (lang=ja) / topic=~ / content=~
 
-:tome/ (lang=ja) / topic=数学を学ぶ理由 / content=ガザの人たちのために、数学を学ぼう
+:tome/ (lang=ja) / topic=やること / content=まずは、自分の中に、それを建てる。然る後、外に、それが建てられる。
 
 
 ###2021年7月3日10:35:02

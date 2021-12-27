@@ -1,3 +1,19 @@
+### 2021/12/28 00:51:24
+total_data => 11
+new_data_Success => 10
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
+### 2021/12/28 00:48:04
+total_data => 11
+new_data_Success => 10
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
 ### 2021/12/27 00:13:42
 total_data => 10
 new_data_Success => 9
@@ -6142,6 +6158,10 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
+
+done
 
 done
 
