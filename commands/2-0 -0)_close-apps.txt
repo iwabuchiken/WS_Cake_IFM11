@@ -505,7 +505,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=技術 / content=技術の適用先。体系的に、見つけよう。水道分野、道路。等々。
+:m :lets / action activity / やること / genre=医学：薬草 / content=消毒の薬草。調べ＋使用（実際に）
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -639,7 +639,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*3 / free# JVEMV6 68#_140:2 / 68. theoretical-physics(tp) / w=~,topics=一致定理(eman),other=calc+;calc+,s=~,i=~,doc=r-9-1~5#7
+:m RES 2*2 / free# JVEMV6 68#_141:1 / 68. theoretical-physics(tp) / w=~,topics=一致定理(?)(eman),other=calc+,s=~,i=~,doc=r-9-1~7#1.2
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -669,7 +669,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-7.1 / 『和田村常夜燈寄進浄瑠璃行着書控他』 / w=申上覚～相違無之哉 / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.1 / 『和田村常夜燈寄進浄瑠璃行着書控他』 / w=無住ニ而～相似寄候 / p.~ / topic=~,other=~
 
 
 :m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
@@ -677,6 +677,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#143_minshuu / 『日本思想大系５８　民衆運動の思想　三浦命助　露顕状』 著者=~,校注=~ / p.14 / w=小友村；宮古市；栗橋村；遠野市,topic=~,other=地図
 
 :m #*# RES / JVEMV6 64#90_?? / 『日本古典文学大系　９５　折たく柴の記』 小高、松村、校注 / p.254 / w:近衛信尹,topic:~ / N~
+
+ :m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.26 / w=俗に[よ；云初つる[いひそめ；配むとて[あて；漫説[みだりこと；角凝魂命[つぬごりむすびのみこと；弥々益々[いよいよますます；爾に[ここ；事依矣[ことよさしたまひき,topic=読み方 
 
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
@@ -707,7 +709,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome/ (lang=ja) / topic=~ / content=~
 
-:tome/ (lang=ja) / topic=やること：数学 / content=現実の問題に対して、数学を作ろう
+:tome/ (lang=ja) / topic=神に祈ること / content=神への祈り。内容：自分の心の中に、生きる意味が満ちるように
 
 
 ###2021年7月3日10:35:02
