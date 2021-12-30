@@ -19,9 +19,11 @@
 	n : 7	khirinの資料を翻刻	??		https://honkoku.org/app/#/projects/khirin/collections/D3172A13390F84A11F741B1EB50BC780	]2021年12月25日17:20:33
 	
 	n : 7.1	和田村常夜燈寄進浄瑠璃行着書控他	honkoku-7-1		https://honkoku.org/app/#/transcription/6FB516A055352014BE445FDBC1A5706F/1/?ref=/projects/khirin/collections/D3172A13390F84A11F741B1EB50BC780	]2021年12月25日17:21:35
+
+	n : 7.2	煙草問屋扱方一件他	honkoku-7-2		https://honkoku.org/app/#/transcription/D42F44217D6ECF721D7631641F95F7A8/1/?ref=/projects/khirin/collections/D3172A13390F84A11F741B1EB50BC780	]2021年12月30日23:56:51	
 	
 	
-	
+
 	n : NUM	TITLE	short		URL	]XXX
 
 @@@
