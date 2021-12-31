@@ -520,12 +520,12 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=宗教：神 / content=キリストに見捨てられ、仏に見捨てられ、八百万に見捨てられた者。その者を慰め、支えてくれる。それが私の神。 / lang=ja
+:m :th / topic=なぜ生きるのか / content=なぜ生きる？神に生かされているから。 / lang=ja
 
 
-============================== memo : shakuhachi,bamboo,尺八
+=================== memo,video : shakuhachi,bamboo,尺八
 
-###:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,R=1
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,R=1
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -639,7 +639,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_142:2 / 68. theoretical-physics(tp) / w=~,topics=留数(eman),other=calc+:(|a|=|-a|),s=~,i=~,doc=r-9-1~8#6;8.1
+:m RES 2*2 / free# JVEMV6 68#_143:1 / 68. theoretical-physics(tp) / w=~,topics=ローラン展開(eman),other=calc+,s=~,i=~,doc=r-9-1~8#9
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -669,7 +669,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-7.1 / 『和田村常夜燈寄進浄瑠璃行着書控他』 / w=仕成方ニ而～迷惑とハ / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.2 / 『煙草問屋扱方一件他』 / w=煙草問屋取扱～卯年 / p.~ / topic=~,other=~
 
 
 :m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
@@ -709,7 +709,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome/ (lang=ja) / topic=~ / content=~
 
-:tome/ (lang=ja) / topic=神に祈ること / content=神への祈り。内容：自分の心の中に、生きる意味が満ちるように
+:tome/ (lang=ja) / topic=「煙草問屋」についての古文書。あそこから、理論を紡いでいこう。 / content=~
 
 
 ###2021年7月3日10:35:02
@@ -717,7 +717,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m :? #*# / topic=倫理。道徳 / content=「前世の因縁」を失くすのは良し。代わりに、では、悪行を、どうやって抑制する？ / status=~ / other=~,id=~
+:m :? #*# / topic=歴史の変遷について / content=蕃山から、朝鮮での、明治以降の、個々の日本人の暴虐ぶり。どう繋がるのか？ / status=~ / other=~,id=~
 
 
 ###2021年10月1日11:02:40
