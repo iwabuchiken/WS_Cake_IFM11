@@ -505,7 +505,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=古文書：土佐日記 / content=土佐日記。写本と、活字本。対照読み、始めよう。
+:m :lets / action activity / やること / genre=キューバで働こう / content=キューバで、中国で、働こう。日本史研究を併行するには不便だろうが。社会主義を創るために、働く。
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -520,12 +520,14 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=数学：虚数について / content=`i`の役割。catalystのよう。 / lang=ja
+:m :th / topic=やること / content=数学。そして、日本史研究。それ以外は、何をやっても、ほぼほぼ、影響は、ない。 / lang=ja
 
 
 =================== memo,video : shakuhachi,bamboo,尺八
 
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,R=1,other=humming
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,R=1,other=~
+
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 follow,R=~,ReX
@@ -543,7 +545,9 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=humming
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / todays-melody,genr=~,for=~,Re+,other=humming+;sounds:~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=mouth-shape:大甲音,other=~
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
@@ -639,7 +643,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_145:1 / 68. theoretical-physics(tp) / w=~,topics=微分方程式(eman),other=~,s=~,i=~,doc=r-9-1~10.3#5.2;r-9-1~11.1#1.3
+:m RES 1*3 / free# JVEMV6 68#_146:2 / 68. theoretical-physics(tp) / w=固有ベクトル；固有値,topics=対角化(eman),other=~,s=~,i=~,doc=r-9-1~11.2#3.1
 
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
@@ -669,7 +673,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-7.2 / 『煙草問屋扱方一件他』 / w=問屋共惣割賦～趣ニ相聞申候 / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.2 / 『煙草問屋扱方一件他』 / w=他國積出～弐匁五分 / p.~ / topic=~,other=~
 
 
 :m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
