@@ -545,7 +545,7 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=humming+;sounds:~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=~;sounds:kan;dai-kan
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=mouth-shape:大甲音,other=~
 
