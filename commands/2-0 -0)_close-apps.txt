@@ -520,7 +520,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=思想について / content=今の思想を明らかにし、その思想に、手を加える。そうぜずには、何も変わらない。 / lang=ja
+:m :th / topic=~ / content=`モーツァルト`。何がいいのか？分からない / lang=ja
 
 
 =================== memo,video : shakuhachi,bamboo,尺八
@@ -545,7 +545,7 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=~;sounds:kan;dai-kan
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=~;sounds:~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=mouth-shape:大甲音,other=~
 
@@ -643,8 +643,9 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_148:2 / 68. theoretical-physics(tp) / w=~,topics=ブラケット記法(eman),other=~,s=~,i=~,doc=r-9-1~11.1#4.2
+:m RES #*# / free# JVEMV6 68#_150:1 / 68. theoretical-physics(tp) / w=~,topics=エルミート行列(eman),other=calc+:(M-λE),s=~,i=~,doc=r-9-1~11.1#8.1
 
+:m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
 :m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -673,7 +674,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-7.2 / 『煙草問屋扱方一件他』 / w=市与四日目と～仕候程之品 / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.2 / 『煙草問屋扱方一件他』 / w=煙草問屋共へ～指止候事 / p.~ / topic=~,other=~
 
 
 :m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
