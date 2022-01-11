@@ -545,7 +545,7 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=~;sounds:~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=~;sounds:~,file-id=2022-01-09_18-06-04_000.mp4
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=mouth-shape:大甲音,other=~
 
@@ -643,7 +643,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_152:2 / 68. theoretical-physics(tp) / w=同次型;,topics=微分方程式；完全形(eman),other=~,s=~,i=~,doc=r-9-1~10.5
+:m RES 1*1 / free# JVEMV6 68#_153:1 / 68. theoretical-physics(tp) / w=同次型;,topics=微分方程式；完全形(eman),other=~,s=~,i=~,doc=r-9-1~10.5#2.3
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
@@ -674,7 +674,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-7.2 / 『煙草問屋扱方一件他』 / w=市日之義～銀高ニ弐歩 / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.2 / 『煙草問屋扱方一件他』 / w=三厘幷仲仕～敷咎申付事 / p.~ / topic=~,other=~
 
 
 :m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
