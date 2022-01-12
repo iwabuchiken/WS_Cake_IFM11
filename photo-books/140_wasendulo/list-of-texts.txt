@@ -29,6 +29,9 @@
 	n : NUM	“Ş—ÇŒ§—§}‘î•ñŠÙ	short		https://www2.library.pref.nara.jp/nlmc/modules/xoonips/itemselect.php?op=quicksearch&keyword=–|&search_itemtype=all	]2022”N1Œ11“ú0:54:16
 	
 	
+	n : NUM	TITLE	short		https://www.kanazawabunko.pref.kanagawa.jp/bunko/viewer/logon.jsp	]2022”N1Œ12“ú1:18:38
+	
+	
 	n : NUM	TITLE	short		URL	]XXX
 
 @@@

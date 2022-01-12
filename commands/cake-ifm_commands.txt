@@ -1,0 +1,1118 @@
+grem /==============================
+rem 	command list
+rem 	
+rem 	2021年1月17日12:15:35
+rem ==============================/
+
+1) ------------------
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
+
+
+2) ------------------
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
+
+3)------------------
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
+
+3-1)------------------
+not-for-register files --> delete, move.
+	1. sweets		###2021年11月1日7:30:56
+
+4)------------------ start : edit memos
+
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
+
+rem call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.10.insert-new-data-to-db.bat
+
+4-1)------------------ move files : movie files
+
+rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
+
+### ip ops ------------------
+
+) back --> files ------------------
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
+
+### write memos ------------------
+
+1)
+rem 9	commands : restart server, open csv file
+
+1-1) ------------------ restart : server
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
+
+1-2) ------------------ open : sakura file
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
+
+1-3)
+## ods memos --> c/p to csv file
+
+	steps
+	1. ods
+		1. C - * > c
+		2. Tab x 1
+	1. sakura
+		1. paste, save with name
+			0. C - a > v
+			1. C - S - s	["名前をつけて"
+		2. encoding --> choose
+			2. M - c / u	[choose "文字コードセット"	("/" --> Alt key, off)
+			3. ↓ x 3		[select "UTF-8"
+			4. M - s / y	[confirm
+			5. M - Space - c	[close
+
+2)
+REM #insert data ------------------
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
+
+3)
+REM #delete : photos ------------------
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-files.bat
+
+4)
+REM #delete : db entries ------------------
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
+
+### steps (browser) ------------------
+	No.12~
+
+1)
+rem	git push ------------------
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
+
+
+###2021年10月6日10:05:36
+====================== closing : apps
+
+C:\WORKS_2\shortcuts_docs\end_log_JVE_close-sakura_close-freemind.bat
+
+
+
+2)
+"*" char --> remove ------------------
+
+	^\*	
+	\]\]	
+	
+###///end
+
+rem /==============================
+rem 	exec
+rem 	
+rem 	2020年6月13日8:57:46
+rem ==============================/
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1) start xampp, filezilla, open folder, open files.bat"
+
+dir "iphone" ==> change : size
+
+open ==> mobile folders
+	
+コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
+
+コンピューター\HUAWEI P30 lite\内部ストレージ\PerfectPiano\Keyboards
+
+コンピューター\HUAWEI P30 lite\内部ストレージ\Sounds
+コンピューター\HUAWEI P30 lite\内部ストレージ\Pictures\Screenshots
+コンピューター\HUAWEI P30 lite\内部ストレージ\Music
+
+	text file
+		select ==> line
+		Home > S - End (select ==> path string
+		C - c > Tab (move to mobile folder)
+	dir
+		M - d > C - v > Ret (paste path & open)
+		Tab (back to text file)
+
+C/P ==> files
+	1	button "表示方法" - "▼" ==> click
+	2	"詳細" ==> click
+	3	column "状態" ==> click
+
+/==============================
+	delete : not-for-storage files
+	
+	2020年6月13日9:07:32
+==============================/
+---
+
+rem /==============================
+rem 	exec : change name
+rem 	
+rem 	2020年6月13日9:07:32
+rem ==============================/
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\1) change_file_names.bat"
+
+rem /==============================
+rem 	exec : broser ==> "3	Delete_in-db-existing-files"
+rem 	
+rem 	2020年6月13日9:07:32
+rem ==============================/
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2) Delete_in-db-existing-files.bat"
+
+	#list item ==> click
+	#server cosole ==> close
+
+rem /==============================
+rem 	exec : start ==> editing
+rem 
+rem 	2020年6月8日9:13:19
+rem ==============================/
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0) edit_memos.9-0.bat"
+
+/==============================
+	close : folders
+	
+	2020年6月8日9:13:19
+==============================/
+1	C:\WORKS_2\WS\WS_Cake_IFM11\tmp
+2	コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
+
+/==============================
+	close : text files
+	
+	2020年6月8日9:13:25
+==============================/
+1	0-3)_copy-files-from-mobile.txt
+2	11-0) update date.txt
+
+rem /==============================
+rem 	list of non-image files
+rem 	
+rem 	2020年6月13日9:14:32
+rem ==============================/
+rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat"
+
+		select -> Ret (exec)
+		open ==> txt file
+			M - ↑ (move up directory)
+			Home > d > Ret (choose file, open)
+			M - ← (move back)
+		opened text file
+			select ==> list
+
+/==============================
+	exec
+	
+	2020年6月8日9:13:25
+==============================/
+3	http://localhost:8001/ip/basics/
+		"GO"	==> "1	get_4_Corners"
+		"Open dir"
+		"Prep"
+
+		validate ==> copied? (no gray-area-containing image file)
+		"Gen"
+
+rem 5	2-2)_move-files-back-to-tmp-dir.bat
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2)_move-files-back-to-tmp-dir.bat"
+
+1	entries.ods
+		==> clear :
+			C - * > Delete > Ret
+			select --> col.E;F > Delete > Ret
+			C - a > C - c (copy)
+			C - w > M - d (close file)
+			M - f > b > Ret (re-open)
+			C - a > - v > - Home > - s (paste, save)
+			
+			###C - Home (to the home cell)
+
+
+
+
+
+
+/==============================
+	VLC
+	
+	2020年6月8日9:13:25
+==============================/
+6	
+		open folder
+			right-click > ↓ x 2 > Ret (open dialog)
+			S - tab x 2 > Home > "i" > Ret
+			Tab x 2 > Ret > "↓" > Ret (load to window)
+
+/==============================
+	entries.ods
+	
+	2020年6月20日8:49:26
+==============================/
+
+
+4	entries.ods
+		list of non-image files ==> C/P
+			txt file
+				select lines
+				C - c > M - Space - c (close file)
+			Tab (back to ods file)
+			C - Home > → > C - ↓ > ↓ x 2 > ← (move to the paste point)
+			C - v > Ret > C - s (paste, save)
+
+		gen-ed csv list ==> C/P
+			select area
+			C - c > M - Space - c (close file)
+			Tab (to ods)
+			
+			C - Home > C - S - v > Ret (paste)
+			
+			C - ↓ x 2 (move to : non-image list)
+			C - * > C - c > Delete > Ret (copy, clear)
+			C - ↑ > ↓ > C - v > C - s (paste, save)
+	
+	gen csv ==> complete ?
+		console : server(8001)
+			M - Space - c (close)
+		browser
+			C - w (close)
+
+7	entries.ods
+		enter ==> template line : kb
+			C - f > "k-" > Ret
+			C - c > C - Home
+			
+			modify template strings
+				select ==> area
+				C - f > 検索テキスト > 置換テキスト
+				M - o > M - u (「現在の範囲のみ」)
+				M - f > M - r (replace)
+				M - f > M - p > update string > M - r (find, modify string, replace)
+				M - u (「現在の範囲のみ」 ==> uncheck)
+		enter ==> template line : mid
+			C - f > "mid" > Ret > Esc
+			C - c > C - Home
+
+8	entries.ods : image files
+		gen-ed csv file
+			open
+			select
+			C - c
+			close
+		back to ==> this
+		C - Home > C - v (paste)
+		close folders
+			images
+			csv
+
+rem 9	commands
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\3)_restart-server-8000-im.bat"
+"C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat"
+
+10	csv
+		entries.ods
+			C - * > C - c (copy)
+		sakura file
+			C - * > C - v (paste)
+			M - Space - c (close file)
+
+REM /==============================
+REM 	commands : insert data
+REM 	
+REM 	2020年6月13日11:09:32
+REM ==============================/
+REM #insert data
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.3.insert-to-db.bat
+
+REM /==============================
+REM 	commands : delete photos (physical)
+REM 	
+REM 	2020年6月19日12:06:33
+REM ==============================/
+REM #delete : photos
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-files.bat
+
+rem /==============================
+rem 	commands : delete photos (db entries)
+rem 	validate : remote data
+rem 	
+rem 	2020年6月19日12:06:33
+rem ==============================/
+REM #delete : db entries
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
+
+REM #validate
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.13.validate-admin-value.bat
+
+/==============================
+	close : kb memo file
+	
+	2020年6月22日11:55:13
+==============================/
+	file name string ==> back to "XXX"
+	LH of all equation lines ==> replace
+	M - Space - c (close)
+
+/==============================
+	commands : list no.12~17,18~21
+	
+	2020年6月13日11:09:32
+==============================/
+12	http://127.0.0.1:8000/im/
+	list no.12~17
+	list no.13~17
+	
+	
+		entries.ods
+		==============/
+		:browser page
+		/==============
+			SEG : close ==> ods
+			M - Space - c (close)
+			C - f > "12" > Ret
+	
+	VLC ==> close
+	list no.18
+
+/==============================
+	closing : list no.21, a.o.
+	
+	2020年6月13日11:11:38
+==============================/
+13	closing
+	:console : server
+		hit key
+		M - Space - c (close)
+
+rem	git push
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\20-1)_closing_Cake_IFM11-WS.bat" && "C:\WORKS_2\WS\WS_Cake_IFM11\commands\20-2)_closing_cakeifm11.bat"
+
+	close
+		##entries.ods
+		##	M - Space - c (close)
+	
+		folders
+			C:\WORKS_2\WS\WS_Cake_IFM11\commands
+			C:\WORKS_2\WS\WS_Cake_IFM11\iphone
+
+		browser
+			http://127.0.0.1:8000/im/
+	
+		image files
+	
+		this	
+			cursor ==> to the top
+			
+			==> close
+
+
+/============================== change log
+2020年6月8日9:34:53
+	first entries
+
+2020年6月9日14:37:48
+	no.9~13
+
+2020年6月13日8:56:57
+
+	pre "2-0) edit_memos.9-0" items ==> register
+
+2020年6月13日11:16:02
+
+	add : "2020年6月13日8:57:46", a.o.
+
+
+============================== / change log
+
+============================== resources : 2021年2月17日12:06:09
+
+###2021年5月31日10:32:17
+C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.fix_cake-ifm11_remote-not-recorded_lollipop-server.txt
+
+//C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_remote-not-recorded^(lollipop-server)].txt
+
+rem 2021年3月4日11:23:28
+//sakura C:\WORKS_2\shortcuts_docs\log_files\log_20200516_103509.[fix_cake-ifm11_remote-not-recorded^(lollipop-server)].txt
+
+
+###========================== TEMPLATES
+#2021年5月9日8:35:52
+:m RES #*# / free# JVEMV6 70#_66:s-1 / 70. CO2 (lang=ko) / w=,topic=,other=~,think~,doc=
+
+============================== / resources : 2021年2月17日12:06:09
+
+###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
+============================== shinobue memo
+C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
+
+regex : 
+[a-z]+=~,
+	 (<= this : 2021年11月15日10:00:59)
+,([^=])+?=~
+
+:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=finger-movement,Re+,tempo=~,other=~,key=~,notes=~,R=~
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+
+follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~,ReX,other=~
+follow,R=~,ReX
+
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
+
+rev,for=~,ReX,tempo=~,other=~,key=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+
+res,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
+memo,theme=~,content=~,for=~,other=~
+
+tech,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
+
+atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
+
+###2021年12月11日22:04:31
+============================== memo : bamboo-flute
+
+regex : 
+[a-z]+=~,
+	 (<= this : 2021年11月15日10:00:59)
+,([^=])+?=~
+
+:m :尺八,shakuhachi,bamboo #*# / session-memo / s.1:todays-melody,key=~,i.f.=~,Re+,other=~,R=1
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+
+follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~,ReX,other=~
+follow,R=~,ReX
+
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
+
+rev,for=~,ReX,tempo=~,other=~,key=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+
+res,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
+memo,theme=~,content=~,for=~,other=~
+
+tech,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
+
+atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
+
+
+
+============================== memo : sketch
+###2021年6月8日8:13:29
+
+:m dessin,sketch / des. object=~ / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+
+:m dessin,sketch / des. object=~ / @web画像 / other=~,memo~,found~,id=~,occasion=~
+
+:m dessin,sketch / des. object=輪袈裟 / @web画像 / other=~,memo~,found~,id=CJWP,occasion=『宇治拾遺物語』 ||| :m dessin,sketch / des. object=モクゲンジ / @web画像 / other=~,memo~,found~,id=LTU1,occasion=『宇治拾遺物語』
+
+###2021年6月18日8:55:14
+============================== memo : lets
+
+:m :lets / action activity / やること / genre=XXX / content=XXX
+
+:m :lets / action activity / やること / genre=キューバで働こう / content=キューバで、中国で、働こう。日本史研究を併行するには不便だろうが。社会主義を創るために、働く。
+
+###2021年11月5日9:11:50
+============================== やることリスト
+:m やることリスト / steps / occasion=XX~XX / for=~,at=~,other=~
+
+:m やることリスト / steps / occasion=風呂出る~寝る / for=~,at=自室,other=~
+
+
+
+###2021年6月28日10:15:01
+============================== memo : :th
+
+:m :th / topic=~ / content=~ / lang=ja
+
+:m :th / topic=~ / content=`モーツァルト`。何がいいのか？分からない / lang=ja
+
+
+=================== memo,video : shakuhachi,bamboo,尺八
+
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=~
+
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+follow,R=~,ReX
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,ReX,other=~,type=~,feel=~,memo=~
+follow,R=~,ReX
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
+rev,for=~,ReX,tempo=~,other=~,key=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
+
+###2021年6月13日9:11:14
+======== memo : jap.flute, video, shinobue
+regex : 
+[a-z]+=~,
+	 (<= this : 2021年11月15日10:00:59)
+	 
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=~;sounds:~,file-id=2022-01-09_18-06-04_000.mp4
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=mouth-shape:大甲音,other=~
+
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+follow,R=~,ReX
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
+follow,R=~,ReX
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
+rev,for=~,ReX,tempo=~,other=~,key=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
+
+record,for=~,other=~
+
+
+###2021年9月7日8:49:45
+==================== memo : percussion,rythm
+
+:m / 1*1 / percussion,rythm / session-memo / s.1: todays-rythm,item=真空管ボトル,hitter=hand:one-hand,Re+,other=video-2021-11-13_21-08-32_000.mp4,R=1
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+
+s.1:item=desktop-surface,hitter=hand:both,pieces=~,genr=pattern-atom,other=~,memo+
+
+s.1:content=~,key=~,for=~,from=~,R=~,item=bowl,hitter=chopstick:2,pieces=~,genr=pattern-atom,other=~,memo+
+
+###2021年9月7日9:03:53
+==================== video : percussion,rythm
+
+:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / f-2021-061X-X / XX
+
+:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / todays-rythm,item=真空管ボトル,hitter=hand:one-hand,Re+
+
+content=~,key=~,for=~,from=~,R=~,item=plastic-pot:2-pieces,hitter=hand:both;finger-tips,pieces=~,genr=pattern-atom,other=~,memo~
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+follow,R=~,ReX
+
+todays-rythm,item=~,hitter=,pieces=~,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
+follow,R=~,ReX
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
+rev,for=~,ReX,tempo=~,other=~,key=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+
+
+###2021年10月1日11:14:14
+==================== memo : guitar
+
+:m / 1*1 / guitar / session-memo / s.1:content=~,key=Ef,R=1,pieces=~,genr=pattern-atom,notes=pitch:1-2f-7f-5`
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+
+content=~,key=~,for=~,from=~,R=~,pieces=~,genr=pattern-atom,notes=~,chord=~,other=~,memo~
+
+
+###2021年10月3日8:43:25
+==================== video : guitar
+
+:VIDEO / @自室 / 記録 / guitar / 演奏、play / f-2021-061X-X / XX
+
+:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=1 / XX
+
+:VIDEO / @自室 / 記録 / guitar / 演奏、play / key=D,R=~,genr=~,type=code-progre,other=tune:hira,memo+
+
+content=~,key=~,for=~,from=~,R=~,genr=~,type=pattern-atom,other=~,memo~
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+follow,R=~,ReX
+todays-rythm,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX
+follow,R=~,ReX
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
+rev,for=~,ReX,tempo=~,other=~,key=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+
+
+###2021年9月9日9:58:39
+======================== video : others
+
+:VIDEO / @自室 / 記録 / inst=~ / 演奏、play / f-2021-061X-X / XX
+
+:VIDEO / @自室 / 記録 / inst=ビン：小瓶：一味とうがらしの空き瓶 / 演奏、play / 2021-09-09_00-58-56_000.mp4 / prac,for=bebeyさんの動画を見て、真似してみた,ReX,tempo=~,other=~,key=~,notes=~
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+follow,R=~,ReX
+todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX
+follow,R=~,ReX
+prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
+rev,for=~,ReX,tempo=~,other=~,key=~
+genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+
+======== memo : JVE : theoretical-physics(tp)
+###2021年6月8日8:15:30
+
+:m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
+w=~,topics=~,other=~,s=~,i=~,doc=
+
+:m RES 2*2 / free# JVEMV6 68#_154:2 / 68. theoretical-physics(tp) / w=~;,topics=微分方程式；積分因子(eman),other=calc+,s=~,i=~,doc=r-9-1~10.6
+
+:m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
+
+:m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
+w=~,topics=~,other=~,s=~,i=~,doc=~
+
+:m RES 1*1 / free# JVEMV6 68#_121:2:p.1_id=96KZ:1 /（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=中点の表し方：ベクトル表示,other=~,s=~,i=~,doc=~
+
+
+
+
+###2021年9月21日10:07:46
+======== memo : physics
+
+:m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. physics / 
+w=~,topics=~,other=~,s=~,i=~,doc=
+
+
+:m RES 1*3 / free# JVEMV6 76#_60:1 / 76. physics / w=(ψ=Ae^((2πi/h)(px-Et))),topics=シュレーディンガー方程式,other=calc+,s=~,i=~,doc=r-4-1~3
+
+
+:m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
+
+
+###2021年6月27日11:30:52
+======== memo : JVE : 64#
+:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,other=~
+
+:m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
+
+:m #*# RES / JVEMV6 64#140-7.3 / 『和田村操芝居不合書控』 / w=申上覚～書付を以申出候 / p.~ / topic=~,other=~
+
+
+:m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
+
+:m #*# RES / JVEMV6 64#143_minshuu / 『日本思想大系５８　民衆運動の思想　三浦命助　露顕状』 著者=~,校注=~ / p.14 / w=小友村；宮古市；栗橋村；遠野市,topic=~,other=地図
+
+:m #*# RES / JVEMV6 64#90_?? / 『日本古典文学大系　９５　折たく柴の記』 小高、松村、校注 / p.254 / w:近衛信尹,topic:~ / N~
+
+ :m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.26 / w=俗に[よ；云初つる[いひそめ；配むとて[あて；漫説[みだりこと；角凝魂命[つぬごりむすびのみこと；弥々益々[いよいよますます；爾に[ここ；事依矣[ことよさしたまひき,topic=読み方 
+
+C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
+
+###2021年6月27日11:30:52
+======================== memo : 41# : econ
+:m RES #*# / free# JVEMV6 41#_XX(T-XX) / 76. theoretical-physics(tp) / 
+w=~,topics=~,other=~,s=~,i=~,doc=
+
+:m RES 2*2 / free# JVEMV6 41#_id=IVUM:1 / 76. theoretical-physics(tp) / w=~,topics=平均賃金,other=配分の違いによって、いかに変化するか;q+ / N+
+
+###2021年11月17日8:32:37
+======================== memo : 59# : medical
+
+:m RES #*# / free# JVEMV6 59#XX_X / 59. medical / X. XX / 
+w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
+
+:m RES #*# / free# JVEMV6 59#9.2_ / 59. medical / 12. stress / w=蝶形骨；下顎骨,topics=頭骨
+
+======== memo : video : 記録
+###2021年6月13日9:17:23
+:VIDEO / 記録 / @=XX / topic=XX / subject=XX
+
+:VIDEO / 記録 / @=自室 / topic=様子の記録：自分自信 / subject=ビデオを見ているところ
+
+
+======== memo :tome
+###2021年6月8日8:21:46
+
+:tome/ (lang=ja) / topic=~ / content=~
+
+:tome/ (lang=ja) / topic=リコーダー、クラリネットと、篠笛 / content=リコーダー演奏。結構だ。しかし、篠笛がありながら、なぜわざわざ、クラリネットを始めるのだ？
+
+
+###2021年7月3日10:35:02
+=============== memo : :?
+
+:m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m :? #*# / topic=歴史の変遷について / content=蕃山から、朝鮮での、明治以降の、個々の日本人の暴虐ぶり。どう繋がるのか？ / status=~ / other=~,id=~
+
+
+###2021年10月1日11:02:40
+=============== memo : :? / math
+
+:m #*# / math / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m #*# / math / topic=フーリエが見つけたという三角級数 / content=~ / status=~ / other=~,id=MJLM:1
+
+
+###2021年9月11日12:33:26
+=============== memo :do
+
+:do / topic=~ / content=~
+
+:do / topic=方法論について / content=自分で設問を作り、自分で解明する。この手続きを、経済分野にも、適用しよう。解決方法を作り出そう。
+
+
+###2021年11月8日9:39:16
+=============== memo :misc
+
+:m / misc / topic=~ / content=~,other=~
+
+
+:m / misc / topic=歯科：歯茎の腫れ / content=歯茎の腫れ。現状の記録。,other=ササキ歯科医院へ行く前に、メモした。
+
+:m / misc / topic=焼酎漬け / content=ディルを漬けた焼酎。水彩絵具を洗ったあとの、筆洗の水の臭い。ニンニクを足すと、他の臭いに変わるか？
+
+
+============================== gt,guitar memo
+:m music / log / gt,guitar / || s.1: genr=todays-melody,key=D,for=~,memo=~,tuning=open-d,other=~
+
+genr=~,key=~,for=~,memo=~,tempo=~,tuning=~,Re~,R=~,other=~
+
+============================ kb,keyboard memo
+:VIDEO / @自宅 / メモ / kb,keyboard / 演奏、play / k-2021-0601-4 / genr=free-play:two-chord-music,key=~,chords=C;F,for=~,memo=~,tempo=~,Re~,R=1,notes=~,other=accompany-for:shinobue
+
+
+s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+genr=~,key=~,chords=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+
+###2021年6月15日10:29:48
+============================ 64# : bookmemo
+C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
+
+:m 1*1 RES / JVEMV6 64#XX_XX / 『XXX』 著者=~,校注=~ / p.~ / w:~,topic:~
+
+:m 1*1 RES / JVEMV6 64#112_XX / 『戦中派の死生観』 著者=吉田満,校注=~ / p.299 / w:~,topic:聖書からの引用
+
+###2021年6月16日9:56:34
+
+:m 記録 / 身体 / ケガ / loc=~,cause=~,loc-incident=~,id=~,phase=~,apparatus=~,injury=~,other=~
+:m 記録 / 身体 / ケガ / loc=左手：手の甲：第２指（人差し指）：第１関節,cause=地面の上で滑って、手を壁についたとき、擦った。,loc-incident=宮前平公園,id=2021-07-02_23-47-58_000.jpg,phase=傷口の様子,apparatus=~,injury=掻き傷：皮膚は破れている：裂傷、２箇所ぐらい：裂傷部位、皮膚表面が剥がれている、直径５ｍｍほどか、円形に近く
+
+:m 記録 / 身体 / ケガ / loc=左腕：前腕：内側,cause=猫の毛に触れた（からか？クロか？）,loc-incident=公園（宮前平公園）,id=2021-06-15_19-57-05_000.jpg,phase=処置前,apparatus=~,injury=~,other=外観：ミミズ腫れのよう
+
+###2021年6月16日10:17:11
+
+:m sketch / des. object=~ / source=~ / other=~,memo~,found~,id=~
+
+:m sketch / des. object=塔婆：とば / source=ウェブ / other=部分,memo~,found~,id=~
+
+
+
+###========================== regex
+###2021年4月30日9:13:58
+# shinobue memo, reset
+=[^~].*?(,| )	=~$1
+
+###2021年6月20日9:08:54
+============================== memo
+
+:PHOTO 記録用 / @自宅；東側；洗面所から見える；東の犬走り / 自然観察 / 花
+
+============================== 読んだ本 : 2021年7月24日8:40:34
+
+:bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『道教の世界』 / 著者=窪徳忠 / 
+
+============================== 読みたい本 : 2021年7月24日8:41:12
+
+:m 読みたい本 / ジャンル　分野　リスト / 岩波新書　『戦没農民兵士の手紙』、裏表紙 / genre=記録
+
+###2021年8月1日9:39:34
+========================== ペガスス
+
+:PHOTO 記録しておきたいもの / @ペガスス：XXX / target=XXX
+
+:PHOTO 記録しておきたいもの / @ペガスス：正面の川原 / target=炊事場
+
+:PHOTO 記録しておきたいもの / @上町駅近く、東和現場へ行く途中 / object=店舗：喫茶店。ポーランド語の店名：「ヤスクーカ」,photo-for=記録
+
+
+###2021年8月17日12:50:42
+============================== memo : math
+
+:m #*# / math / topic=~, about=~,other=~,w=~,id=~ / N~
+
+:m #*# / math / topic=((sin^2+cos^2)=1)-->proof, about=~,other=~,w=~,id=LXF6:s-1 / N+:オイラーの公式、見てもいい
+
+###2021年9月19日9:45:02
+============================== memo : phys
+
+:m #*# / phys / topic=~, about=~,other=~,w=~,id=~ / N~
+
+:m #*# / phys / topic=圧力, about=液体の中に物体を入れる。加わる圧力,other=~,w=~,id=VN5S:s-1 / N~
+
+###2021年9月20日9:11:18
+============================== memo : bs(brain-science)
+
+:m #*# / bs(brain-science) / topic=~, about=~,other=~,w=~,id=~ / N~
+
+:m #*# / bs(brain-science) / topic=慌てたときに、以前の行動を選択してしまう, about=ヤカンをしまう向きを変えた。慌てる。以前の向きに置いてしまう,other=~,w=~,id=P317 / N~
+
+
+###2021年9月5日12:06:05
+============================== memo : general
+
+:m #*# / memo:general / topic=~, about=~,other=~,id=~
+
+:m #*# / memo:general / topic=焼酎漬け：ブレンディング, about=オオバ：隠し味に良い,other=~,id=~
+
+
+
+###2021年8月21日9:21:58
+============================== 種植え
+
+:PHOTO 記録用 / @自室前：ベランダ / target=種（たね） occasion=XXX species=XXX,id=XXX.jpg
+
+###2021年8月25日10:37:29
+============================== :VOICE-MEMO bird
+
+:VOICE-MEMO / @自室 / record / bird / 鳥の声, other=~
+
+
+###2021年8月25日10:40:21
+============================== :PHOTO 記録用
+
+:PHOTO 記録用 / location=~ / topic=~, subject=~, other=~
+
+:PHOTO 記録用 / location=自室 / topic=~, subject=猫の固形エサ, other=仕込んだところ：市販の１袋、４袋の小分け、４つ全てを、それぞれ別のフリーザバッグの袋へ
+
+###2021年8月25日11:14:51
+============================== :i drink-alcohol
+
+:i X*X / drink-alcohol / topic=~, subject=~, other=~
+
+:i 1*1 / drink-alcohol / topic=ハーブ漬けの焼酎, subject=~, other=一日漬けたら、取り出す。「一日もの」、「２日もの」と、名前を付ける。
+
+###2021年9月29日11:20:37
+============================== :i ANY
+
+:i #*# / topic=~ / subject=~, content=~, other=~
+
+:i #*# / topic=green-tech / subject=プラスチック回収, content=電波で、イオンを弾く
+
+
+
+###2021年9月15日10:48:37
+============================== 記録 : お酒
+
+:m 記録 / お酒：飲んだ量
+
+###2021年9月22日10:19:44
+============================== :m : 記事読み
+
+:m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,other=~
+
+:m 1*1 RES / free# S87DP9 記事読み / id=2T38(browser=tor) / media=lite / theme=政治資金規制；維新の会；収支報告書,other=~
+
+
+###2021年9月22日10:21:19
+============================ :m : 新聞紙記事
+
+:PHOTO 記録 / 文書：新聞紙記事 / 1*1 / title=~,other=~,media=~
+
+
+###2021年11月13日8:47:55
+========================== :PHOTO 記録 / 日誌
+:PHOTO 記録 / @~ / what=~ / for=~ / occasion=~,other=~
+
+:PHOTO 記録 / 日誌 / @自室 / what=マウスピース / occasion=水を交換した,for=~
+
+:PHOTO 記録 / @自室 / what=電球@風呂場 / for=交換するので、製品のデータを知りたい / occasion=~
+
+###2021年9月23日8:21:45
+============================ 寝た時刻
+
+:m other / log / 寝る前　ウェブ閲覧　記録　（for オナニー） / 未了
+:m :PHOTO 寝た時刻 / 2021
+:m :PHOTO 起きた時刻 / 2021
+:m :PHOTO 起きた時刻（夜中） / 2021
+:m :PHOTO 起きた時刻（二度寝） / 2021
+
+:m :PHOTO 寝た時刻 / 2020 / オナニー、未了、0:10頃～
+
+###2021年9月25日10:34:15
+============================ 経過記録
+
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=セージ,liquor=麦焼酎：??ml,time=~,container=green-cap / type=~,other=一日漬け；セージを取り出したあと、色が変化するかを、記録したい,id=2021-09-25_00-42-45_000.jpg
+
+###2021年10月8日9:17:36
+============================ コレポン
+
+:PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
+
+:PHOTO 記録 / 文書：コレポン / #*# / about=予約忘れ、すみません；改めて予約,with=スズキ歯科（宮崎台駅、近く）,content=~,other=~ / N~
+
+
+###2021年11月21日10:06:43
+============================ 記録：文書
+:PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~,other=~
+
+:PHOTO 記録 / 文書　/ occasion=東和の現場で、頭に浮かんだ / for=祈りの文句 / doc=~,other=「神仏の加護、…」,add=聖人の教え、現人[げんじん]の安寧、後人の安堵
+
+:PHOTO 記録 / 文書　/ occasion=ワクチン接種：２回目：２日目の夜 / for=身体に感じられる症状：書き出す / doc=メモ,other=~
+
+
+###2021年11月21日10:36:52
+============================ 記録：自然観察
+
+JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @~ / target=~,occation=~,other
+
+JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @東和現場へ行く途中：上町駅 / target=猫じゃらしのような草,occation=~,other=群生。絵の題材にいいと思った；ヨモギのような草と、混生。
+
+
+###2021年10月25日9:18:26
+============================ 
+：顔
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（尺八）
+
+###2021年11月4日8:20:20
+============================ 様子：顔
+:m 記録 / 身体 / 様子 / location=~,time=~；occasion=~,other=~
+
+:m 記録 / 身体 / 様子 / location=歯茎：前歯：上あご,time=~；occasion=~,other=歯茎の、上あごへの接続部、付近。
+
+
+
+###2021年12月1日19:22:02
+============================ 寄付
+:PHOTO 記録 / PC画面 / デスクトップPC / subject=寄付金、入金 / for=日本共産党 / amount=JPY:3000, other=衆議院議員選挙
+
+:PHOTO 記録 / PC画面 / デスクトップPC / subject=寄付金、入金 / for=electronic-intifada / amount=USD:65, other=year-end-donation
+
+
+============================== delete entries from db
+DELETE FROM ifm11 WHERE _id <= 46693;
+DELETE FROM ifm11 WHERE _id <= 47366;
+
+2020年10月22日11:14:25
+DELETE FROM ifm11 WHERE _id <= 47736;
+
+###2020年11月7日14:41:50
+DELETE FROM ifm11 WHERE _id <= 48054;
+
+###2020年11月23日14:20:37
+DELETE FROM ifm11 WHERE _id <= 48337;
+
+###2020年12月10日13:48:19
+#DELETE FROM ifm11 WHERE _id <= 48678;
+
+###2020年12月26日14:39:20
+DELETE FROM ifm11 WHERE _id <= 48969;
+
+### 2021年1月16日10:49:47
+DELETE FROM ifm11 WHERE _id <= 49342;
+
+### 2021年1月30日9:33:06
+DELETE FROM ifm11 WHERE _id >= 49590;
+
+### 2021年2月7日9:28:33
+DELETE FROM ifm11 WHERE _id <= 49773;
+
+### 2021年2月22日11:31:44
+DELETE FROM ifm11 WHERE _id <= 50007;
+
+### 2021年3月8日8:58:14
+DELETE FROM ifm11 WHERE _id <= 50180;
+
+### 2021年3月29日12:01:12
+#DELETE FROM ifm11 WHERE _id <= 50370;
+
+###2021年4月10日8:46:14
+DELETE FROM ifm11 WHERE _id >= 50491;
+
+###2021年4月10日8:46:14
+#DELETE FROM ifm11 WHERE _id <= 50578;
+
+###2021年5月2日8:35:34
+#DELETE FROM ifm11 WHERE _id <= 50777;
+
+###2021年5月15日10:30:54
+DELETE FROM ifm11 WHERE _id <= 50934;
+
+###2021年6月8日8:28:14
+#DELETE FROM ifm11 WHERE _id <= 51213;
+
+###2021年6月20日10:08:26
+#DELETE FROM ifm11 WHERE _id <= 51383;
+
+###2021年7月14日8:43:44
+#DELETE FROM ifm11 WHERE _id <= 51700;
+
+###2021年8月2日7:19:27
+DELETE FROM ifm11 WHERE _id <= 51965;
+
+###2021年8月15日9:35:53
+#DELETE FROM ifm11 WHERE _id <= 52147;
+
+###2021年8月29日8:19:21
+#DELETE FROM ifm11 WHERE _id <= 52330;
+
+###2021年9月11日12:40:08
+DELETE FROM ifm11 WHERE _id <= 52481;
+
+###2021年9月21日10:29:30
+#DELETE FROM ifm11 WHERE _id <= 52643;
+
+###2021年10月6日9:39:23
+#DELETE FROM ifm11 WHERE _id <= 52870;
+
+###2021年10月9日10:13:52
+DELETE FROM ifm11 WHERE _id >= 52921;
+
+###2021年10月23日12:30:11
+DELETE FROM ifm11 WHERE _id <= 53099;
+
+###2021年11月3日8:50:15
+#DELETE FROM ifm11 WHERE _id <= 53330;
+
+###2021年11月13日9:42:25
+#DELETE FROM ifm11 WHERE _id <= 53460;
+
+###2021年11月24日22:30:46
+#DELETE FROM ifm11 WHERE _id <= 53677;
+
+###2021年12月8日0:20:02
+#DELETE FROM ifm11 WHERE _id <= 53859;
+
+###2021年12月21日1:06:30
+#DELETE FROM ifm11 WHERE _id <= 54053;
+
+###2022年1月4日23:58:23
+DELETE FROM ifm11 WHERE _id <= 54242;
+
+###XXXTEMPLATE
+DELETE FROM ifm11 WHERE _id <= XXX;
+
+
+##DELETE
+
+
+
+###2021年5月4日17:40:21
+taskkill /f /im opera.exe
+
+###2021年5月20日9:28:52
+delete "*" char
+
+^\*	
+
+###2021年11月24日21:58:25
+=================== file : entries
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
+
+
+###2021年12月11日0:02:20
+=================== folder : 
+start C:\WORKS_2\WS\WS_Cake_IFM11\iphone
+start C:\WORKS_2\WS\WS_Cake_IFM11\tmp
+
+
+###2021年12月17日0:43:20
+================= restart : server : 8001
+C:\WORKS_2\batches\r.bat dd
+
+
+###2021年7月17日7:47:01
+=================== open : console
+
+start C:\WORKS_2\a
+
+C:\WORKS_2\start_a.bat
+
+
+%lerone bennett
+
+###2021年11月24日21:58:25
+=================== file : entries
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
+
