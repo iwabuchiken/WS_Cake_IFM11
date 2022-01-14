@@ -505,7 +505,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=キューバで働こう / content=キューバで、中国で、働こう。日本史研究を併行するには不便だろうが。社会主義を創るために、働く。
+:m :lets / action activity / やること / genre=笛、尺八。 / content=死を想うために、吹く。葬送のための曲。作ろう。
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -522,10 +522,14 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=`モーツァルト`。何がいいのか？分からない / lang=ja
 
+###2022年1月15日1:16:24
+============================== memo : other
+
+:m other / topic=今日の短歌 / content=いざ作る…
 
 =================== memo,video : shakuhachi,bamboo,尺八
 
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=~
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=tech:staccato
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
 
@@ -545,7 +549,7 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=~;sounds:~,file-id=2022-01-09_18-06-04_000.mp4
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=~;sounds:~,file-id=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=mouth-shape:大甲音,other=~
 
@@ -643,7 +647,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_153:1 / 68. theoretical-physics(tp) / w=同次型;,topics=微分方程式；完全形(eman),other=~,s=~,i=~,doc=r-9-1~10.5#2.3
+:m RES 3*3 / free# JVEMV6 68#_155:1 / 68. theoretical-physics(tp) / w=同次型;,topics=微分方程式；線形微分方程式；級数(eman),other=calc+;memo+,s=~,i=~,doc=r-9-1~10.6#3;r-9-1~10.8
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
@@ -674,7 +678,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-7.2 / 『煙草問屋扱方一件他』 / w=三厘幷仲仕～敷咎申付事 / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.3 / 『和田村操芝居不合書控』 / w=様被仰付奉畏～出来申所去る / p.~ / topic=~,other=~
 
 
 :m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
@@ -1069,6 +1073,9 @@ DELETE FROM ifm11 WHERE _id <= 53099;
 
 ###2022年1月4日23:58:23
 DELETE FROM ifm11 WHERE _id <= 54242;
+
+###2022年1月15日1:33:14
+#DELETE FROM ifm11 WHERE _id <= 54394;
 
 ###XXXTEMPLATE
 DELETE FROM ifm11 WHERE _id <= XXX;
