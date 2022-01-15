@@ -643,7 +643,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_154:2 / 68. theoretical-physics(tp) / w=~;,topics=微分方程式；積分因子(eman),other=calc+,s=~,i=~,doc=r-9-1~10.6
+:m RES #*# / free# JVEMV6 68#_156:3 / 68. theoretical-physics(tp) / w=~;,topics=微分方程式；線型、同次、２階(eman),other=orig+:(F=mα),s=~,i=~,doc=r-9-1~10.9
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
