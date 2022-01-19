@@ -525,7 +525,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 =================== memo,video : shakuhachi,bamboo,尺八
 
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=~
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=feeling:和風
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
 
@@ -643,7 +643,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_159:1 / 68. theoretical-physics(tp) / w=~;,topics=微分方程式；(eman),other=calc+,s=~,i=~,doc=r-9-1~10.13
+:m RES 3*3 / free# JVEMV6 68#_160:2 / 68. theoretical-physics(tp) / w=(∂^2ψ/∂x^2),topics=量子力学：物質波(eman),other=calc+,s=~,i=~,doc=r-9-2~1.2#2.2
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
@@ -674,7 +674,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-7.3 / 『和田村操芝居不合書控』 / w=毎夜灯明相燃～寄進として銀子 / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.3 / 『和田村操芝居不合書控』 / w=取都諸人～十七日後藤庄助 / p.~ / topic=~,other=~
 
 
 :m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
@@ -714,7 +714,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome/ (lang=ja) / topic=~ / content=~
 
-:tome/ (lang=ja) / topic=リコーダー、クラリネットと、篠笛 / content=リコーダー演奏。結構だ。しかし、篠笛がありながら、なぜわざわざ、クラリネットを始めるのだ？
+:tome/ (lang=ja) / topic=お前の中に、埋まっているもの / content=まだまだ、埋まっているものがある。なのに、オナニーをするのか？
 
 
 ###2021年7月3日10:35:02
