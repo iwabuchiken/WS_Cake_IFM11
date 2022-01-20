@@ -441,7 +441,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=finger-movement,Re+,tempo=~,other=~,key=~,notes=~,R=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=1,i.f.=~,notes=~,Re+,other=memo+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -520,12 +520,12 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=~ / content=`モーツァルト`。何がいいのか？分からない / lang=ja
+:m :th / topic=七平さんの、同時代についての批評、について（『徳川家康』:462） / content=同時代についての批評。とんちんかん。その時代時代の、磁力のようなものがあるか。 / lang=ja
 
 
 =================== memo,video : shakuhachi,bamboo,尺八
 
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=feeling:和風
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=feeling:西洋風
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
 
@@ -643,7 +643,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_160:2 / 68. theoretical-physics(tp) / w=(∂^2ψ/∂x^2),topics=量子力学：物質波(eman),other=calc+,s=~,i=~,doc=r-9-2~1.2#2.2
+:m RES #*# / free# JVEMV6 68#_161:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：シュレーディンガー方程式(eman),other=memo+;memo+;memo+,s=~,i=~,doc=r-9-2~1.3#3.1
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
