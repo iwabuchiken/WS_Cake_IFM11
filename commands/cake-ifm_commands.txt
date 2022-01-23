@@ -525,7 +525,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 =================== memo,video : shakuhachi,bamboo,尺八
 
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=feeling:西洋風
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=feeling:~,file-id=2022-01-21_19-01-13_000.mp4
+
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
 
@@ -545,7 +546,9 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=~;sounds:~,file-id=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / todays-melody,genr=~,for=played-in-daikan,Re+,other=feeling:~;sounds:~,file-id=2022-01-21_18-29-38_000.mp4
+
+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=mouth-shape:大甲音,other=~
 

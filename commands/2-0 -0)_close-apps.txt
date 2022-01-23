@@ -505,7 +505,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=笛、尺八。 / content=死を想うために、吹く。葬送のための曲。作ろう。
+:m :lets / action activity / やること / genre=笛の演奏；吹き / content=「曲を吹く」ことを、練習しよう。毎回、異なった「吹き」
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -520,7 +520,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=~ / content=`モーツァルト`。何がいいのか？分からない / lang=ja
+:m :th / topic=宗教。道場 / content=宗教よりも、俺は、道場をやりたい / lang=ja
 
 ###2022年1月15日1:16:24
 ============================== memo : other
@@ -647,7 +647,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_155:1 / 68. theoretical-physics(tp) / w=同次型;,topics=微分方程式；線形微分方程式；級数(eman),other=calc+;memo+,s=~,i=~,doc=r-9-1~10.6#3;r-9-1~10.8
+:m RES 1*2 / free# JVEMV6 68#_163:1 / 68. theoretical-physics(tp) / w=~;,topics=量子力学：期待値(eman),other=calc+;orig+;found+,s=~,i=~,doc=r-9-2~1.6
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
@@ -678,7 +678,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-7.3 / 『和田村操芝居不合書控』 / w=様被仰付奉畏～出来申所去る / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.3 / 『和田村操芝居不合書控』 / w=三沢春太郎～穂積恰 / p.~ / topic=~,other=~
 
 
 :m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
