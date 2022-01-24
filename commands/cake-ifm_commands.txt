@@ -525,7 +525,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 =================== memo,video : shakuhachi,bamboo,尺八
 
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=feeling:~,file-id=2022-01-21_19-01-13_000.mp4
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=feeling:~,file-id=~
 
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
@@ -646,7 +646,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES #*# / free# JVEMV6 68#_161:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：シュレーディンガー方程式(eman),other=memo+;memo+;memo+,s=~,i=~,doc=r-9-2~1.3#3.1
+:m RES 1*2 / free# JVEMV6 68#_164:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：不確定性原理；３次元(eman),other=calc+;calc+;calc+;,s=~,i=~,doc=r-9-2~1.6#4;r-9-2~1.7
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
@@ -725,7 +725,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m :? #*# / topic=歴史の変遷について / content=蕃山から、朝鮮での、明治以降の、個々の日本人の暴虐ぶり。どう繋がるのか？ / status=~ / other=~,id=~
+:m :? #*# / topic=アダムスキー、不確定性 / content=アダムスキーの言っていた、「心を同期させる」と、不確定性原理。両者の関係は？ / status=~ / other=~,id=~
 
 
 ###2021年10月1日11:02:40
@@ -804,7 +804,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
-:bookmemo / 読んだ本 / 『道教の世界』 / 著者=窪徳忠 / 
+:bookmemo / 読んだ本 / 『日本思想大系５８　民衆運動の思想』 / 著者=~,出版=岩波書店 / 途中
 
 ============================== 読みたい本 : 2021年7月24日8:41:12
 
