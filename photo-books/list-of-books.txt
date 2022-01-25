@@ -95,6 +95,11 @@
 	
 	n : 144_toju_daigaku	]2021年12月18日9:00:42
 	
+	n : 145_yamamoto_rongo	]2022年1月25日17:07:47
+	
+	n : 146_song-relics	]2022年1月25日19:19:23
+	n : 146.1_minyo-kanto	]2022年1月25日19:19:23
+	
 	n : 14X_XXX	]XXX
 
 
