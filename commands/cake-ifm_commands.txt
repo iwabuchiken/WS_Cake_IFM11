@@ -520,12 +520,12 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=supremacyについて / content=`supremacy`、ウンザリ。堅苦しいのも / lang=ja
+:m :th / topic=格物；修身以降 / content=格物から修身まで。儒教と量子力学。それ以降は、社会主義。 / lang=ja
 
 
 =================== memo,video : shakuhachi,bamboo,尺八
 
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=feeling:~,file-id=~
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=feeling:~,file-id=~,memo+
 
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
@@ -546,7 +546,7 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=played-in-daikan,Re+,other=feeling:~;sounds:~,file-id=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=feeling:~;sounds:~,file-id=~
 
 
 
@@ -646,7 +646,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*2 / free# JVEMV6 68#_164:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：粒子性(eman),other=i-2.1:r-9-1~10.9,s=~,i=~,doc=r-9-2~1.10#5;r-9-2~1.11
+:m RES 2*4 / free# JVEMV6 68#_166:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：調和振動子(eman),other=calc+;memo+,s=~,i=~,doc=r-9-2~1.11
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
@@ -717,7 +717,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome/ (lang=ja) / topic=~ / content=~
 
-:tome/ (lang=ja) / topic=お前の中に、埋まっているもの / content=まだまだ、埋まっているものがある。なのに、オナニーをするのか？
+:tome/ (lang=ja) / topic=何をやるか / content=何をやりゃいいか。神さまが教えてくれる。
 
 
 ###2021年7月3日10:35:02
@@ -1072,6 +1072,9 @@ DELETE FROM ifm11 WHERE _id <= 53099;
 
 ###2022年1月4日23:58:23
 DELETE FROM ifm11 WHERE _id <= 54242;
+
+###2022年1月26日0:43:24
+#DELETE FROM ifm11 WHERE _id <= 54603;
 
 ###XXXTEMPLATE
 DELETE FROM ifm11 WHERE _id <= XXX;
