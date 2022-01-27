@@ -441,7 +441,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=1,i.f.=~,notes=~,Re+,other=memo+
+:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=notes-up-down,ReX,tempo=~,other=~,key=h-3,notes=6-2`-3`-2`-6-3,R=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -505,7 +505,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=身体の仕組み：明け方の過呼吸 / content=明け方の、呼吸困難。原因、探ろう
+:m :lets / action activity / やること / genre=programming,wav / content=wav-file-programming、やろう。
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -520,7 +520,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=格物；修身以降 / content=格物から修身まで。儒教と量子力学。それ以降は、社会主義。 / lang=ja
+:m :th / topic=読書；「おれはバカだから」 / content=「おれはバカだから、本なんてムリ」 / lang=ja
 
 
 =================== memo,video : shakuhachi,bamboo,尺八
@@ -677,8 +677,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-7.3 / 『和田村操芝居不合書控』 / w=取都諸人～十七日後藤庄助 / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.3 / 『和田村操芝居不合書控』 / w=右村方之義～後藤庄助とのへ / p.~ / topic=~,other=~
 
+:m #*# RES / JVEMV6 64#140-7.4 / 『申達（山城谷漆買付役後藤利八郎...』 / w=物産方ゟ～指遣候義 / p.~ / topic=~,other=~
 
 :m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
 
