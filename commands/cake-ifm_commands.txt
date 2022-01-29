@@ -505,7 +505,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=programming,wav / content=wav-file-programming、やろう。
+:m :lets / action activity / やること / genre=笛演奏。路上 / content=うさぎ追いし。ほたるの。古時計。「辻説法演奏会」
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -546,7 +546,7 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=feeling:~;sounds:~,file-id=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=notes:dai-kan,feeling:~;sounds:~,file-id=~
 
 
 
@@ -565,10 +565,15 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 record,for=~,other=~
 
 
+
+###2022年1月30日0:49:00
+==================== video : other
+:VIDEO:other / @自室 / 記録 / content=一人漫才：練習,for=「兎（うさぎ）おいしい」
+
 ###2021年9月7日8:49:45
 ==================== memo : percussion,rythm
 
-:m / 1*1 / percussion,rythm / session-memo / s.1: todays-rythm,item=真空管ボトル,hitter=hand:one-hand,Re+,other=video-2021-11-13_21-08-32_000.mp4,R=1
+:m / 1*1 / percussion,rythm / session-memo / s.1: todays-rythm,item=ボトル：プラスチック：２本,hitter=ストロー,Re+,R=1
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -581,7 +586,7 @@ s.1:content=~,key=~,for=~,from=~,R=~,item=bowl,hitter=chopstick:2,pieces=~,genr=
 
 :VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / todays-rythm,item=真空管ボトル,hitter=hand:one-hand,Re+
+:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / todays-rythm,item=ボトル：プラスチック：２本,hitter=ストロー,Re+,memo+
 
 content=~,key=~,for=~,from=~,R=~,item=plastic-pot:2-pieces,hitter=hand:both;finger-tips,pieces=~,genr=pattern-atom,other=~,memo~
 
@@ -646,7 +651,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*4 / free# JVEMV6 68#_166:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：調和振動子(eman),other=calc+;memo+,s=~,i=~,doc=r-9-2~1.11
+:m RES 1*3 / free# JVEMV6 68#_167:1 / 68. theoretical-physics(tp) / w=変数分離法,topics=量子力学：原子核(eman),other=calc+;memo+,s=~,i=~,doc=r-9-2~1.11#7;r-9-2~1.12
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
@@ -718,7 +723,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome/ (lang=ja) / topic=~ / content=~
 
-:tome/ (lang=ja) / topic=何をやるか / content=何をやりゃいいか。神さまが教えてくれる。
+:tome/ (lang=ja) / topic=数学。思い込み / content=数学。「俺にはできない」と、思い込んでいる。
 
 
 ###2021年7月3日10:35:02
