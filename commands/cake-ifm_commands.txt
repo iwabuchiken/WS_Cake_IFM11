@@ -22,7 +22,7 @@ not-for-register files --> delete, move.
 
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
-rem call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.10.insert-new-data-to-db.bat
+//rem call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.10.insert-new-data-to-db.bat
 
 4-1)------------------ move files : movie files
 
@@ -31,7 +31,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM
 
 ### ip ops ------------------
 
-) back --> files ------------------
+//) back --> files ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
 
 ### write memos ------------------
@@ -520,7 +520,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=読書；「おれはバカだから」 / content=「おれはバカだから、本なんてムリ」 / lang=ja
+:m :th / topic=生き方 / content=儒教を学んで、人はどうあるべきかを識る。万葉集を読み、日本人は何を感じながら生きていたのかを知る。そして、自分は、どう生きるべきかを、覚る[さと。その他の事は、自ずと、「到位[daoweiする」 / lang=ja
 
 
 =================== memo,video : shakuhachi,bamboo,尺八
@@ -651,7 +651,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_169:1 / 68. theoretical-physics(tp) / w=変数分離法,topics=量子力学：原子の構造(eman),other=calc+:d^t(x^t*e^(-x))/dx^t,s=~,i=~,doc=r-9-2~1.12#7
+:m RES 2*2 / free# JVEMV6 68#_170:1 / 68. theoretical-physics(tp) / w=変数分離法,topics=量子力学：ブラケット(eman),other=~,s=~,i=~,doc=r-9-2~2.2#3
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
@@ -731,7 +731,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m :? #*# / topic=アダムスキー、不確定性 / content=アダムスキーの言っていた、「心を同期させる」と、不確定性原理。両者の関係は？ / status=~ / other=~,id=~
+:m :? #*# / topic=~ / content=儒教の体系の中。「述而」と、作曲との関係は？ / status=~ / other=~,id=~
 
 
 ###2021年10月1日11:02:40
