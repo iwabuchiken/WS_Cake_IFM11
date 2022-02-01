@@ -441,7 +441,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:prac,for=notes-up-down,ReX,tempo=~,other=~,key=h-3,notes=6-2`-3`-2`-6-3,R=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=4,i.f.=~,notes=~,Re+,other=お囃子：八木節
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -505,7 +505,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=XXX / content=「学習障害」についての研究。儒教における、学問についての四原則。行おう。他は、余技。
+:m :lets / action activity / やること / genre=やること：準備 / content=寝る前の準備。風呂でたあと。
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -651,7 +651,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_170:1 / 68. theoretical-physics(tp) / w=変数分離法,topics=量子力学：ブラケット(eman),other=~,s=~,i=~,doc=r-9-2~2.2#3
+:m RES 1*1 / free# JVEMV6 68#_171:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：ユニタリ変換(eman),other=calc+:逆行列；転置行列,s=~,i=~,doc=r-9-2~2.3
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
@@ -684,7 +684,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#140-7.3 / 『和田村操芝居不合書控』 / w=右村方之義～後藤庄助とのへ / p.~ / topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-7.4 / 『申達（山城谷漆買付役後藤利八郎...』 / w=物産方ゟ～指遣候義 / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.4 / 『申達（山城谷漆買付役後藤利八郎...』 / w=諸事無手抜～仰付候取行 / p.~ / topic=~,other=~
 
 :m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
 
