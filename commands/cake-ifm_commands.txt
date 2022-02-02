@@ -520,7 +520,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=生き方 / content=儒教を学んで、人はどうあるべきかを識る。万葉集を読み、日本人は何を感じながら生きていたのかを知る。そして、自分は、どう生きるべきかを、覚る[さと。その他の事は、自ずと、「到位[daoweiする」 / lang=ja
+:m :th / topic=孔子がいうところの、「祀る」（例：八佾） / content=神がここにいる、と思うと、胸が温かくなる。神は、そういう存在。の筈だ。②孔子の時代の人達にとっての、「祀る」。今の人たちの胸への響き方とは、違っていただろう。 / lang=ja
 
 
 =================== memo,video : shakuhachi,bamboo,尺八
@@ -546,7 +546,7 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / todays-melody,genr=~,for=~,Re+,other=notes:~,feeling:~;sounds:~,file-id=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / memo-taking,for=dai-kan:how-to,other=~
 
 
 
@@ -563,6 +563,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 record,for=~,other=~
+memo-taking,for=~,other=~
 
 
 
@@ -651,7 +652,8 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_171:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：ユニタリ変換(eman),other=calc+:逆行列；転置行列,s=~,i=~,doc=r-9-2~2.3
+:m RES 1*1 / free# JVEMV6 68#_172:1 / 68. theoretical-physics(tp) / w=デルタ関数,topics=量子力学：座標表示(eman),other=~,s=~,i=~,doc=r-9-2~2.4
+
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
@@ -694,6 +696,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
  :m #*# RES / JVEMV6 64#114_hirata_-- / 『霊の御柱』（たまのみはしら） 著者=平田篤胤,校注=~ / p.26 / w=俗に[よ；云初つる[いひそめ；配むとて[あて；漫説[みだりこと；角凝魂命[つぬごりむすびのみこと；弥々益々[いよいよますます；爾に[ここ；事依矣[ことよさしたまひき,topic=読み方 
 
+:m #*# RES / JVEMV6 64#126_mooshi / 『孟子』 著者=~,校注=~ / p.335 / w=~舜；禹；湯,topic=~,other=地図
+
+
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 ###2021年6月27日11:30:52
@@ -731,7 +736,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m :? #*# / topic=~ / content=儒教の体系の中。「述而」と、作曲との関係は？ / status=~ / other=~,id=~
+:m :? #*# / topic=~ / content=((ax+b)^n)の、n回微分。どんなグラフ？；n回微分==>どんな意味？ / status=~ / other=~,id=~
 
 
 ###2021年10月1日11:02:40
