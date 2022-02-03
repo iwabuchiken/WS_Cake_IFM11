@@ -546,11 +546,12 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / memo-taking,for=dai-kan:how-to,other=~
 
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=accompanied-by:file-2022-02-03_18-35-17_000.mp4
 
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5 / memo-taking,for=kan:hole-7;0,other=~ 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=mouth-shape:大甲音,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=6 / record,for=mouth-shape:甲音から大甲へ：移り変わり：hole-4,other=~
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
@@ -652,7 +653,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_172:1 / 68. theoretical-physics(tp) / w=デルタ関数,topics=量子力学：座標表示(eman),other=~,s=~,i=~,doc=r-9-2~2.4
+:m RES 1*1 / free# JVEMV6 68#_173:2 / 68. theoretical-physics(tp) / w=デルタ関数,topics=量子力学：運動量表示(eman),other=~,s=~,i=~,doc=r-9-2~2.5
 
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
@@ -736,7 +737,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m :? #*# / topic=~ / content=((ax+b)^n)の、n回微分。どんなグラフ？；n回微分==>どんな意味？ / status=~ / other=~,id=~
+:m :? #*# / topic=math / content=あらゆる数は、別の数の２乗たちの和で、表せるか？ / status=~ / other=~,id=~
 
 
 ###2021年10月1日11:02:40
