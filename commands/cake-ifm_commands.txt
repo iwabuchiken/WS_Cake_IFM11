@@ -12,7 +12,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
 3)------------------
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
+ 
 
 3-1)------------------
 not-for-register files --> delete, move.
@@ -505,7 +505,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=やること：準備 / content=寝る前の準備。風呂でたあと。
+:m :lets / action activity / やること / genre=XXX / content=神道について知る。私が影響を受けている、いま段階での思想。総体としての。は、神道から、どんな思想が入っているか？；穢れの思想。
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -520,12 +520,12 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=孔子がいうところの、「祀る」（例：八佾） / content=神がここにいる、と思うと、胸が温かくなる。神は、そういう存在。の筈だ。②孔子の時代の人達にとっての、「祀る」。今の人たちの胸への響き方とは、違っていただろう。 / lang=ja
+:m :th / topic=宗教：合致するもの / content=当時のセムの人たちに、当時のヘブル教は、合致していた。では、他の時代の人々には、その人たちに合致した宗教が、拒否されるのか？それが神なる存在の、意思、か？ / lang=ja || :m :th / topic=~ / content=「刈り入れのとき、火の中へ投げ入れられる」　=>　受け入れられず。何度も教え諭すのが、「仁」だろう。ましてや、それが神なら、何度も、諭してくれるのではないか？ / lang=ja || :m :? #*# / topic=~ / content=イエスと、孔子。両者は、どう繋がっているのだろう？どちらも信じたいとしたら？　=>　「儒基習合」で、宜しいだろう / status=~ / other=~,id=~
 
 
 =================== memo,video : shakuhachi,bamboo,尺八
 
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=feeling:~,file-id=~,memo+
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=memos:half-notes:how-to-blow,Re+,other=feeling:~,file-id=~,memo+
 
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
@@ -547,7 +547,9 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=accompanied-by:file-2022-02-03_18-35-17_000.mp4
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / todays-melody,genr=~,for=accompany,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=hole:kan:4-6-4-3,Re+,other=4-notes;file-extracted-to:2022-02-06_18-59-31_000.avi
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / video-extract / from=2022-02-06_18-55-40_000.mp4,for=accompany
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5 / memo-taking,for=kan:hole-7;0,other=~ 
 
@@ -653,7 +655,9 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_173:2 / 68. theoretical-physics(tp) / w=デルタ関数,topics=量子力学：運動量表示(eman),other=~,s=~,i=~,doc=r-9-2~2.5
+:m RES 1-2*3 / free# JVEMV6 68#_175:2 / 68. theoretical-physics(tp) / w=~,topics=量子力学：摂動(eman),other=~,s=~,i=~,doc=r-9-2~2.8
+
+:m RES 3*3 / free# JVEMV6 68#_175:2 / 68. theoretical-physics(tp) / w=~,topics=量子力学：摂動(eman),other=~,s=~,i=~,doc=r-9-2~2.8#5.2
 
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
@@ -1088,7 +1092,10 @@ DELETE FROM ifm11 WHERE _id <= 54242;
 ###2022年1月26日0:43:24
 #DELETE FROM ifm11 WHERE _id <= 54603;
 
-###XXXTEMPLATE
+###2022年2月7日9:17:05
+#DELETE FROM ifm11 WHERE _id <= 54752;
+
+###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
 
 
