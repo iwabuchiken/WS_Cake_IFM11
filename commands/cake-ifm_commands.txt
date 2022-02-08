@@ -12,12 +12,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
 3)------------------
- 
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
 3-1)------------------
 not-for-register files --> delete, move.
 	1. sweets		###2021年11月1日7:30:56
-
+2
 4)------------------ start : edit memos
 
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
@@ -525,7 +525,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 =================== memo,video : shakuhachi,bamboo,尺八
 
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=memos:half-notes:how-to-blow,Re+,other=feeling:~,file-id=~,memo+
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / genr=todays-melody,Re+,other=feeling:~,file-id=~,memo~
 
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
@@ -547,7 +547,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / todays-melody,genr=~,for=accompany,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=hole:kan:4-6-4-3,Re+,other=4-notes;file-extracted-to:2022-02-06_18-59-31_000.avi
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=melody-type:ending
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / video-extract / from=2022-02-06_18-55-40_000.mp4,for=accompany
 
@@ -590,7 +590,8 @@ s.1:content=~,key=~,for=~,from=~,R=~,item=bowl,hitter=chopstick:2,pieces=~,genr=
 
 :VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / todays-rythm,item=ボトル：プラスチック：２本,hitter=ストロー,Re+,memo+
+:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=2 / genre=rec-for-accompaniment:video-extract,item=スプレー缶：１本,hitter=ハサミ,Re~,memo~,other=file-id:2022-02-07_18-06-29_000.mp4
+
 
 content=~,key=~,for=~,from=~,R=~,item=plastic-pot:2-pieces,hitter=hand:both;finger-tips,pieces=~,genr=pattern-atom,other=~,memo~
 
@@ -655,7 +656,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1-2*3 / free# JVEMV6 68#_175:2 / 68. theoretical-physics(tp) / w=~,topics=量子力学：摂動(eman),other=~,s=~,i=~,doc=r-9-2~2.8
+:m RES 1*2 / free# JVEMV6 68#_176:2 / 68. theoretical-physics(tp) / w=~,topics=discrete-calculus(差分学);量子力学：摂動(eman),other=calc+,s=~,i=~,doc=r-7-14#3.1;r-9-2~2.8#6
 
 :m RES 3*3 / free# JVEMV6 68#_175:2 / 68. theoretical-physics(tp) / w=~,topics=量子力学：摂動(eman),other=~,s=~,i=~,doc=r-9-2~2.8#5.2
 
