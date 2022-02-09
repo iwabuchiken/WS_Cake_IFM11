@@ -505,7 +505,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=XXX / content=神道について知る。私が影響を受けている、いま段階での思想。総体としての。は、神道から、どんな思想が入っているか？；穢れの思想。
+:m :lets / action activity / やること / genre=読む / content=『易』。読もう || :m :lets / action activity / やること / genre=篠笛 / content=昼にも、練習。３０分。
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -547,7 +547,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=melody-type:ending
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=id:6X1D
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / video-extract / from=2022-02-06_18-55-40_000.mp4,for=accompany
 
@@ -656,7 +656,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*2 / free# JVEMV6 68#_176:2 / 68. theoretical-physics(tp) / w=~,topics=discrete-calculus(差分学);量子力学：摂動(eman),other=calc+,s=~,i=~,doc=r-7-14#3.1;r-9-2~2.8#6
+:m RES 1*1 / free# JVEMV6 68#_177:2 / 68. theoretical-physics(tp) / w=~,topics=discrete-calculus,other=~,s=~,i=~,doc=r-7-14~1.3#3.5.2
 
 :m RES 3*3 / free# JVEMV6 68#_175:2 / 68. theoretical-physics(tp) / w=~,topics=量子力学：摂動(eman),other=~,s=~,i=~,doc=r-9-2~2.8#5.2
 
