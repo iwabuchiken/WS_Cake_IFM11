@@ -505,7 +505,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=読む / content=『易』。読もう || :m :lets / action activity / やること / genre=篠笛 / content=昼にも、練習。３０分。
+:m :lets / action activity / やること / genre=量子力学。活用 / content=量子力学の学習、進める。世の中にある困難の一つ一つ。解体するための方法、装置を拵える。各人の下へ、持っていく
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -525,7 +525,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 =================== memo,video : shakuhachi,bamboo,尺八
 
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / genr=todays-melody,Re+,other=feeling:~,file-id=~,memo~
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=feeling:~,file-id=~,memo~
 
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
@@ -547,9 +547,9 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=id:6X1D
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1(sesson-2) / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / video-extract / from=2022-02-06_18-55-40_000.mp4,for=accompany
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / video-extract / from=2022-02-06_18-55-40_000.mp4,for=accompany
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5 / memo-taking,for=kan:hole-7;0,other=~ 
 
@@ -656,9 +656,9 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_177:2 / 68. theoretical-physics(tp) / w=~,topics=discrete-calculus,other=~,s=~,i=~,doc=r-7-14~1.3#3.5.2
+:m RES 1*3 / free# JVEMV6 68#_178:1 / 68. theoretical-physics(tp) / w=~,topics=discrete-calculus,other=~,s=~,i=~,doc=r-9-2~2.9
 
-:m RES 3*3 / free# JVEMV6 68#_175:2 / 68. theoretical-physics(tp) / w=~,topics=量子力学：摂動(eman),other=~,s=~,i=~,doc=r-9-2~2.8#5.2
+:m RES 3*3 / free# JVEMV6 68#_178:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：摂動(eman),other=q+:open:id=PB5A,s=~,i=~,doc=r-9-2~2.9
 
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
