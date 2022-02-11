@@ -1,3 +1,11 @@
+### 2022/02/11 11:03:52
+total_data => 16
+new_data_Success => 15
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
 ### 2022/02/10 11:34:00
 total_data => 19
 new_data_Success => 18
@@ -6486,6 +6494,8 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
 
 done
 
