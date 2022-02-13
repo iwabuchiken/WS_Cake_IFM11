@@ -441,7 +441,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=4,i.f.=~,notes=~,Re+,other=お囃子：八木節
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=hole:3-4-3-4;3-4-6-4,Re+,other=~ s.2: todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=hole:7`-6`-7`-4`-e,Re+,other=~ s.3:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=4``-3``-4``-4``-7`-,Re+,other=dai-kan
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -520,7 +520,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=宗教：合致するもの / content=当時のセムの人たちに、当時のヘブル教は、合致していた。では、他の時代の人々には、その人たちに合致した宗教が、拒否されるのか？それが神なる存在の、意思、か？ / lang=ja || :m :th / topic=~ / content=「刈り入れのとき、火の中へ投げ入れられる」　=>　受け入れられず。何度も教え諭すのが、「仁」だろう。ましてや、それが神なら、何度も、諭してくれるのではないか？ / lang=ja || :m :? #*# / topic=~ / content=イエスと、孔子。両者は、どう繋がっているのだろう？どちらも信じたいとしたら？　=>　「儒基習合」で、宜しいだろう / status=~ / other=~,id=~
+:m :th / topic=~ / content=「仁」は、なぜ人に備わっているのか？「仁」は、どこから来るのか？ / lang=ja;ko
 
 
 =================== memo,video : shakuhachi,bamboo,尺八
@@ -547,13 +547,14 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5(session-2) / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / video-extract / from=2022-02-06_18-55-40_000.mp4,for=accompany
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5 / memo-taking,for=kan:hole-7;0,other=~ 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=6 / record,for=mouth-shape:甲音から大甲へ：移り変わり：hole-4,other=~
+---------------- mouth-shape
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / record,for=mouth-shape:大甲：hole-4,other=息の出し方：ポッポっと、小出しを繰り返す。
 
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
@@ -656,7 +657,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*3 / free# JVEMV6 68#_178:1 / 68. theoretical-physics(tp) / w=~,topics=discrete-calculus,other=~,s=~,i=~,doc=r-9-2~2.9
+:m RES 2*2 / free# JVEMV6 68#_180:1 / 68. theoretical-physics(tp) / w=~,topics=遷移確率,other=~,s=~,i=~,doc=r-9-2~2.10#9.2
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
@@ -725,6 +726,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m RES #*# / free# JVEMV6 59#9.2_ / 59. medical / 12. stress / w=蝶形骨；下顎骨,topics=頭骨
 
+:m RES #*# / free# JVEMV6 59#_id=MYE4 / 59. medical / 12. stress / w=４箇所：腎臓；胃；小腸；生殖器,topics=ツボ：足裏,other=continue+,s=~,i=~,doc=~,Next~ 
+ 
+ 
 ======== memo : video : 記録
 ###2021年6月13日9:17:23
 :VIDEO / 記録 / @=XX / topic=XX / subject=XX
@@ -745,7 +749,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m :? #*# / topic=math / content=あらゆる数は、別の数の２乗たちの和で、表せるか？ / status=~ / other=~,id=~
+:m :? #*# / topic=~ / content=自分の親が、自分の妻を、言葉で虐待している。親への「孝」と、妻への「仁」とが、ぶつかっている。「義」に従って、いづれかを選ぶのか？ / status=~ / other=~,id=~ / :i #*# / topic=physics:量子力学 / subject=~, content=シュレディンガー方程式の、右辺。Eψ。let,B=1/E;(B*Eψ=ψ)。ψそのものが得られる。, other=~
 
 
 ###2021年10月1日11:02:40
@@ -976,7 +980,7 @@ JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花
 ###2021年10月25日9:18:26
 ============================ 
 ：顔
-:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（尺八）
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=昼；occasion=楽器演奏したあと（篠笛）
 
 ###2021年11月4日8:20:20
 ============================ 様子：顔
