@@ -1,4 +1,4 @@
-grem /==============================
+rem /==============================
 rem 	command list
 rem 	
 rem 	2021年1月17日12:15:35
@@ -505,7 +505,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=量子力学。活用 / content=量子力学の学習、進める。世の中にある困難の一つ一つ。解体するための方法、装置を拵える。各人の下へ、持っていく
+:m :lets / action activity / やること / genre=言葉の意味：語義 / content=study about `de-colonization`, not `learn`.
 
 ###2021年11月5日9:11:50
 ============================== やることリスト
@@ -520,7 +520,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=~ / content=「仁」は、なぜ人に備わっているのか？「仁」は、どこから来るのか？ / lang=ja;ko
+:m :th / topic=「神を信じる」とは / content=自分が今夜死んだら、神の下へ帰るのだ。ということを、毫も疑っていない。 / lang=ja || :m :lets / action activity / やること / genre=言葉の意味：語義 / content=study about `de-colonization`, not `learn`.
 
 
 =================== memo,video : shakuhachi,bamboo,尺八
@@ -546,6 +546,7 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5(session-2) / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
