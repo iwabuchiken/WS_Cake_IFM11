@@ -1,4 +1,4 @@
-crem /==============================
+rem /==============================
 rem 	command list
 rem 	
 rem 	2021年1月17日12:15:35
@@ -664,7 +664,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_184:2 / 68. theoretical-physics(tp) / w=~,topics=回転系：運動方程式,other=~,s=~,i=~,doc=r-6-3~1.2#2.4
+:m RES 1*1 / free# JVEMV6 68#_185:1 / 68. theoretical-physics(tp) / w=~,topics=回転系：運動方程式,other=~,s=~,i=~,doc=r-6-3~1.2#3
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
