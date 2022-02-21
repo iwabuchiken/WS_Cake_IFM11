@@ -508,7 +508,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=「徳」 / content=「論語」を読んで、「徳」の例を知ろう。「徳」の行いとは、如何なる行為か。
+:m :lets / action activity / やること / genre=読む / content=『中庸』、また読もう＋実践しよう。
 
 :m :lets / action activity / やること：予定 / genre=発熱外来、予約 / content=福島内科医院、他
 
