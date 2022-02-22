@@ -441,7 +441,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=hole-7-4`-7-3`-7-2`-7-7-6,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=能,key=~,tempo=~,R=~,i.f.=~,notes=hole:4-5-6,Re+,other=~ s.2:todays-melody,genr=~,for=transition,key=h-4(E),tempo=~,R=~,i.f.=~,notes=7`-4`,Re+,other=~ \\\ s.3:todays-melody,genr=~,for=dai-kan,key=~,tempo=~,R=~,i.f.=~,notes=h:7`-4``,Re+,other=memo+:大甲は、唇、一番力を入れないoctaveかも知れぬ
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -664,7 +664,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_185:1 / 68. theoretical-physics(tp) / w=~,topics=回転系：運動方程式,other=~,s=~,i=~,doc=r-6-3~1.2#3
+:m RES 1*2 / free# JVEMV6 68#_186:1 / 68. theoretical-physics(tp) / w=球面座標；円筒座標,topics=回転系：運動方程式,other=~,s=~,i=~,doc=r-6-3~1.2#3
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
@@ -701,13 +701,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
-:m #*# RES / JVEMV6 64#140-7.3 / 『和田村操芝居不合書控』 / w=右村方之義～後藤庄助とのへ / p.~ / topic=~,other=~
-
-:m #*# RES / JVEMV6 64#140-7.4 / 『申達（山城谷漆買付役後藤利八郎...』 / w=諸事無手抜～仰付候取行 / p.~ / topic=~,other=~
-
-:m #*# RES / JVEMV6 64#134 / 『徳川家康 山本七平ライブラリー⑥』 著者=山本七平,校注=~ / p.187 / w=直江兼続；直江信綱；上杉景勝,topic=~,other=~
-
 :m #*# RES / JVEMV6 64#143_minshuu / 『日本思想大系５８　民衆運動の思想　三浦命助　露顕状』 著者=~,校注=~ / p.14 / w=小友村；宮古市；栗橋村；遠野市,topic=~,other=地図
+
+:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=天保八～聖人深く / p.~ / topic=~,other=~
 
 :m #*# RES / JVEMV6 64#90_?? / 『日本古典文学大系　９５　折たく柴の記』 小高、松村、校注 / p.254 / w:近衛信尹,topic:~ / N~
 
@@ -715,6 +711,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#126_mooshi / 『孟子』 著者=~,校注=~ / p.335 / w=~舜；禹；湯,topic=~,other=地図
 
+:m #*# RES / JVEMV6 64#94_kinshiroku / 『近思録』 著者=~,校注=~ / p.1 / w=無極；太極；五行,topic=道体,other=~
 
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 

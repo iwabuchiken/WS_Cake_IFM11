@@ -27,6 +27,10 @@
 	n : 7.3	和田村操芝居不合書控	short		https://honkoku.org/app/#/transcription/4F822CFAD188526AD31AF4804FBFBF0E/1/	]2022年1月11日23:50:15
 	
 	n : 7.4	申達（山城谷漆買付役後藤利八郎	short		https://honkoku.org/app/#/transcription/9A7D355DDE8716EE340DB2ACBCF8E41A/1/	]2022年1月27日16:40:36
+	
+	n : 7.5	大坂一件大塩平八郎存書	honkoku-7-5		https://honkoku.org/app/#/transcription/22D942E12BD65132E5D28D8EE77513EE/1/	]2022年2月21日11:35:27
+	
+	
 
 	n : NUM	奈良県立図書情報館	short		https://www2.library.pref.nara.jp/nlmc/modules/xoonips/itemselect.php?op=quicksearch&keyword=翻刻&search_itemtype=all	]2022年1月11日0:54:16
 	
@@ -35,6 +39,7 @@
 	
 	
 	n : NUM	TITLE	short		URL	]XXX
+	
 
 @@@
 ###

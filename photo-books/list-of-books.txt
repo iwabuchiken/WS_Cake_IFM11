@@ -34,7 +34,79 @@
 	n : 117_cone_black-theology
 
 ###2021年7月14日8:20:50
-
+	
+	========== add : 2022年2月22日9:05:15
+	1_魂の殺人
+	2_takahashi
+	42-chapters
+	51_本朝食鑑
+	52_護身術
+	53_実践護身術
+	54_maga
+	55_技アリ
+	56_エコノミークラス
+	57_自力整体法
+	58_大西郷_1
+	59_所得格差
+	60_ヒンドゥー教
+	61_遺訓講話
+	62_クラブマガ
+	63_relativity_shutz
+	65_正三
+	66_sekimon
+	67_論語
+	68_daigaku
+	69_mandel
+	70_孟子
+	71_礼記
+	72_人工光合成
+	73_中庸
+	74_鍼灸、家庭療法
+	75_キリスト教と社会学
+	76_労働運動発達史
+	77_太平天国
+	78_goedel
+	79_kaden
+	80_nanking
+	81_yamamoto_sonbou
+	82_baby-hit-head
+	83_yamamoto_kuuki
+	84_妙好人
+	85_topika
+	86_西洋紀聞
+	87_yamamoto_yudayajin
+	88_nanking-massacre
+	89_okina
+	90_oritaku
+	91_laiki_lakuki
+	92_shokyou
+	93_laiki_gakuki
+	94_kinshiroku
+	95_inaka
+	96_yamamoto_shizukanaru
+	97_chinese-socialism-xijinping
+	98_tsuredure
+	99_chuuyou	
+	100_rantou
+	101_banzan_shuugi
+	102_banzan_wakumon
+	103_laiki_kyoukai
+	104_laiki_bouki
+	105_laiki_hyouki
+	106_yamamoto_nihonkyouto
+	107_nihon-nousho_kyounen-isaku
+	108_imayou_heta
+	109_yamamoto_korekarano
+	110_
+	111_ujishuui
+	112_
+	113_vacuum
+	114_hirata
+	n : 115_okumura_brain
+	n : 114_hirata		/ 篤胤
+	n : 116_yamamoto_tokugawa
+	n : 117_cone_black-theology
+	
 	n : 118_fabian_shaku
 	n : 119_tachibana_taimon	]2021年7月20日9:10:43
 	n : 120_mouri-motonari	]2021年7月24日16:39:39
@@ -131,6 +203,8 @@
 	
 	n : 151-3_miya_rongo	宮崎市定全集４:第３部]2022年2月20日12:33:38
 	n : 151-3_1_gakuji		宮崎市定全集４:第３部：学而]2022年2月20日12:38:57
+	
+	n : 152_yamamoto_shidoosha	]2022年2月21日14:52:26
 	
 	n : 15X_XXX	]XXX
 
