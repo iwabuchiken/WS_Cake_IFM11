@@ -441,7 +441,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,for=section:coda,key=h-2,i.f.=~,notes=h:4-3-2-1-2-3-2,Re+,other=~ \\\ s.2:todays-melody,i.f.=~,notes=h:4``-3``-7`-6`-7`-4`,Re+,other=~  \\\ s.3:prac,for=transition:3`-4`-6`;6-4`-3`,Re+,R=~ \\\ s.4:todays-melody,for=half-notes:quintel,i.f.=~,notes=h:4`-4qn`-3`-3`qn,Re+,other=~ \\\ s.5:todays-melody,for=dai-kan,i.f.=~,notes=h:4``-7`,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=transition:kan-to-dai-kan,key=~,tempo=~,R=~,i.f.=~,notes=~,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -664,7 +664,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*2 / free# JVEMV6 68#_187:1 / 68. theoretical-physics(tp) / w=~,topics=極座標；エネルギー保存,other=calc+:(d/dt.(dx/dt)^2),s=~,i=~,doc=r-8-1~3.1#1
+:m RES 2*2 / free# JVEMV6 68#_188:1 / 68. theoretical-physics(tp) / w=~,topics=極座標；運動方程式；極座標～直交座標、変換,other=~,s=~,i=~,doc=r-8-1~3.1#5
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
@@ -745,7 +745,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome/ (lang=ja) / topic=~ / content=~
 
-:tome/ (lang=ja) / topic=短歌 / content=短歌を作る。俺の仕事
+:tome/ (lang=ja) / topic=頭に浮かんだもの / content=美
 
 
 ###2021年7月3日10:35:02
@@ -777,8 +777,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m / misc / topic=~ / content=~,other=~
 
-
-:m / misc / topic=歯科：歯茎の腫れ / content=歯茎の腫れ。現状の記録。,other=ササキ歯科医院へ行く前に、メモした。
+:m / misc / topic=短歌：上の句を入れたい / content=~,other=橋埋づめるらん四方の紅葉ば
 
 :m / misc / topic=焼酎漬け / content=ディルを漬けた焼酎。水彩絵具を洗ったあとの、筆洗の水の臭い。ニンニクを足すと、他の臭いに変わるか？
 
