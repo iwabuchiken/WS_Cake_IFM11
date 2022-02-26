@@ -1,4 +1,4 @@
-rem /==============================
+srem /==============================
 rem 	command list
 rem 	
 rem 	2021年1月17日12:15:35
@@ -441,7 +441,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=transition:kan-to-dai-kan,key=~,tempo=~,R=~,i.f.=~,notes=~,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,i.f.=~,Re+,other=melodies:①~③
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -508,7 +508,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=読む / content=『中庸』、また読もう＋実践しよう。
+:m :lets / action activity / やること / genre=diary:書くこと / content=diary. polish. 各恒星について、その特徴について、記述しよう。（２）猫。公園内の、各設備について。 || :m :lets / action activity / やること / genre=diary:書くこと / content=韓国語。鳥に加えて、樹木についての記事も。
 
 :m :lets / action activity / やること：予定 / genre=発熱外来、予約 / content=福島内科医院、他
 
@@ -526,7 +526,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
-:m :th / topic=「神を信じる」とは / content=自分が今夜死んだら、神の下へ帰るのだ。ということを、毫も疑っていない。 / lang=ja || :m :lets / action activity / やること / genre=言葉の意味：語義 / content=study about `de-colonization`, not `learn`.
+:m :th / topic=和歌、漢詩。物理に役立つ。 / content=和歌、漢詩。物理に関する取り組み、何に取り組むか。考案するのに、役立つだろう。アラビア語その他での、調べ物活動も。「数学遊び」も。 / lang=ja
 
 
 =================== memo,video : shakuhachi,bamboo,尺八
@@ -703,7 +703,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#143_minshuu / 『日本思想大系５８　民衆運動の思想　三浦命助　露顕状』 著者=~,校注=~ / p.14 / w=小友村；宮古市；栗橋村；遠野市,topic=~,other=地図
 
-:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=天保八～聖人深く / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=天下後世～仁義もなき / p.~ / topic=~,other=~
 
 :m #*# RES / JVEMV6 64#90_?? / 『日本古典文学大系　９５　折たく柴の記』 小高、松村、校注 / p.254 / w:近衛信尹,topic:~ / N~
 
@@ -971,6 +971,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :PHOTO 記録 / 文書　/ occasion=PCR検査時 / for=「自主療養」についての案内チラシ / doc=~,other=クリエイトにて、受け取り
 
+###2022年2月26日10:56:52
+============================ 記録：やったこと
+:PHOTO 記録 / やったこと / occasion=~ / for=~ / doc=~,other=~
+
+:PHOTO 記録 / やったこと / occasion=机上スタンド。明滅を始めた。直しを試みた。 / for=行ったこと。時間軸で、書き出した。 / doc=~,other=~
+
 
 ###2021年11月21日10:36:52
 ============================ 記録：自然観察
@@ -979,6 +985,10 @@ JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花
 
 JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @東和現場へ行く途中：上町駅 / target=猫じゃらしのような草,occation=~,other=群生。絵の題材にいいと思った；ヨモギのような草と、混生。
 
+
+###2022年2月26日10:43:42
+============================ 
+:m 東和 PHOTO / 220225f / 雑司が谷駅 / 横浜南太田１丁目マンション / １名 / サイタ工業（住協建設） / 資料：地図：路上 
 
 ###2021年10月25日9:18:26
 ============================ 
