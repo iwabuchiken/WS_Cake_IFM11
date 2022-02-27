@@ -441,7 +441,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,i.f.=~,Re+,other=melodies:①~③
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,i.f.=~,Re+,other=melodies:a~e
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -552,7 +552,7 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5(session-2) / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
@@ -703,7 +703,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#143_minshuu / 『日本思想大系５８　民衆運動の思想　三浦命助　露顕状』 著者=~,校注=~ / p.14 / w=小友村；宮古市；栗橋村；遠野市,topic=~,other=地図
 
-:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=天下後世～仁義もなき / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=身に而立身～入用嵩に而 / p.~ / topic=~,other=~
 
 :m #*# RES / JVEMV6 64#90_?? / 『日本古典文学大系　９５　折たく柴の記』 小高、松村、校注 / p.254 / w:近衛信尹,topic:~ / N~
 
@@ -769,7 +769,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :do / topic=~ / content=~
 
-:do / topic=方法論について / content=自分で設問を作り、自分で解明する。この手続きを、経済分野にも、適用しよう。解決方法を作り出そう。
+:do / topic=日記：書くこと / content=ロシア語。中国語。アラビア語
 
 
 ###2021年11月8日9:39:16
@@ -988,7 +988,7 @@ JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花
 
 ###2022年2月26日10:43:42
 ============================ 
-:m 東和 PHOTO / 220225f / 雑司が谷駅 / 横浜南太田１丁目マンション / １名 / サイタ工業（住協建設） / 資料：地図：路上 
+:m 東和 PHOTO / 220225f / 雑司が谷駅 / 横浜南太田１丁目マンション / １名 / サイタ工業（住協建設） / 出発時間
 
 ###2021年10月25日9:18:26
 ============================ 
