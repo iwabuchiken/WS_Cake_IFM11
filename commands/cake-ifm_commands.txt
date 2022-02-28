@@ -441,7 +441,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,i.f.=~,Re+,other=melodies:a~e
+:m :篠笛,shinobue #*# / session-memo / s.1:res,for=１全音以上のスラー,Re+,tempo=~,other=~,key=~,notes=h:4`-6`,R=1 \\\ s.2:res,for=１全音以上のスラー,Re+,tempo=~,other=~,key=~,notes=h:3`-6` \\\ s.3:training,genr=甲音、乙音、往来,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=h:3-4-5-6,Re+,other=~ \\\ s.4:training,genr=甲音、乙音、往来,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=h:6->4;5->3`-6-3` s.5:todays-melody,genr=~,for=~,key=~,tempo=~,R=2,i.f.=~,notes=~,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -463,6 +463,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 copy,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~,Re~,other=song:りんご追分
 
+training,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 ###2021年12月11日22:04:31
 ============================== memo : bamboo-flute
@@ -552,7 +553,9 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genr=todays-melody,i.f.=~,Re+,other=~,for=音を揺らす
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5(session-2) / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
@@ -612,6 +615,12 @@ prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
 genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
+###2021年9月7日9:03:53
+==================== video : 体操
+:VIDEO / @自宅 / 体操 / when=~ / what= / for=~,other=~
+
+:VIDEO / @自宅 / 体操 / when=朝 / what= / for=tips:前屈：やり方,other=~
+
 
 ###2021年10月1日11:14:14
 ==================== memo : guitar
@@ -664,7 +673,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_188:1 / 68. theoretical-physics(tp) / w=~,topics=極座標；運動方程式；極座標～直交座標、変換,other=~,s=~,i=~,doc=r-8-1~3.1#5
+:m RES 1*2 / free# JVEMV6 68#_189:2 / 68. theoretical-physics(tp) / w=~,topics=回転行列,other=orig:単位行列；対角行列,s=~,i=~,doc=r-8-1~4.1
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
@@ -713,6 +722,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#94_kinshiroku / 『近思録』 著者=~,校注=~ / p.1 / w=無極；太極；五行,topic=道体,other=~
 
+-----2022年2月28日10:44:43
+:m #*# RES / JVEMV6 64#130_eki / 『新釈漢文大系　２３　易経　上』 著者=今井宇三郎,校注=~ / p.~ / w=乾上乾下；倭点,topic=~,other=~
+
+
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 ###2021年6月27日11:30:52
@@ -743,9 +756,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ======== memo :tome
 ###2021年6月8日8:21:46
 
-:tome/ (lang=ja) / topic=~ / content=~
+:tome / (lang=ja) / topic=~ / content=~
 
-:tome/ (lang=ja) / topic=頭に浮かんだもの / content=美
+:tome / (lang=ja) / topic=数学 / content=「数学遊び」、大事。嫌々でも、毎日やろう。
 
 
 ###2021年7月3日10:35:02
