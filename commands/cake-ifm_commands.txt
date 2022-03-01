@@ -24,6 +24,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
 //rem call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.10.insert-new-data-to-db.bat
 
+4-0.1)------------------ gen : list of files
+C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list-iphone-dir.bat
+
 4-1)------------------ move files : movie files
 
 rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
@@ -175,6 +178,8 @@ rem ==============================/
 ==============================/
 1	0-3)_copy-files-from-mobile.txt
 2	11-0) update date.txt
+
+rem C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0) update date.txt
 
 rem /==============================
 rem 	list of non-image files
@@ -619,6 +624,10 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ==================== video : 体操
 :VIDEO / @自宅 / 体操 / when=~ / what= / for=~,other=~
 
+:VIDEO / @自宅 / subject=~ / when=~ / what= / for=~,other=~
+
+:VIDEO / @自宅 / subject=マッサージ / when=~ / what= / for=左肩：やり方,other=~
+
 :VIDEO / @自宅 / 体操 / when=朝 / what= / for=tips:前屈：やり方,other=~
 
 
@@ -673,7 +682,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*2 / free# JVEMV6 68#_189:2 / 68. theoretical-physics(tp) / w=~,topics=回転行列,other=orig:単位行列；対角行列,s=~,i=~,doc=r-8-1~4.1
+:m RES 2*2 / free# JVEMV6 68#_190:1 / 68. theoretical-physics(tp) / w=~,topics=equivalence-class,other=orig:線と点との、位置関係を、表現するための、関数表現,s=~,i=~,doc=r-11-1~1.3
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
@@ -1173,6 +1182,10 @@ C:\WORKS_2\start_a.bat
 
 
 %lerone bennett
+
+###2022年3月1日8:54:48
+=================== strings
+68#
 
 ###2021年11月24日21:58:25
 =================== file : entries

@@ -4,8 +4,12 @@ REM 	memos_guitar.odt
 REM 	git
 REM ****************************
 
+rem : add comments : 2022”N3ŒŽ1“ú9:10:45
+echo taskkill xampp-control....
 
 taskkill /im xampp-control.exe
+
+echo taskkill xampp-control....executed
 
 REM taskkill /im soffice.bin
 REM : 2019/11/06 09:56:55
