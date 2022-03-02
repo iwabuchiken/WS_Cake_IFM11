@@ -179,7 +179,8 @@ rem ==============================/
 1	0-3)_copy-files-from-mobile.txt
 2	11-0) update date.txt
 
-rem C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0) update date.txt
+rem : add file path : 2022年3月1日9:13:29
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0) update date.txt"
 
 rem /==============================
 rem 	list of non-image files
@@ -446,7 +447,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:res,for=１全音以上のスラー,Re+,tempo=~,other=~,key=~,notes=h:4`-6`,R=1 \\\ s.2:res,for=１全音以上のスラー,Re+,tempo=~,other=~,key=~,notes=h:3`-6` \\\ s.3:training,genr=甲音、乙音、往来,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=h:3-4-5-6,Re+,other=~ \\\ s.4:training,genr=甲音、乙音、往来,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=h:6->4;5->3`-6-3` s.5:todays-melody,genr=~,for=~,key=~,tempo=~,R=2,i.f.=~,notes=~,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=4``-4`-7`-4``,Re+,other=~ \\\ s.2:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=4`-4h`-4`-3`-4`-7`-4`,Re+,other=~ \\\ s.3:training,genr=~,for=transition:4`⇔7`,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~ \\\ s.4:todays-melody,genr=~,for=~,key=E(hole-4),tempo=~,R=~,i.f.=~,notes=4``-4h``-4``-7`-4``;coda:3`-6`-4`(D-G-E)(L7f-3f-1),Re+,other=time:3/4->2/4
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -682,7 +683,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_190:1 / 68. theoretical-physics(tp) / w=~,topics=equivalence-class,other=orig:線と点との、位置関係を、表現するための、関数表現,s=~,i=~,doc=r-11-1~1.3
+:m RES 3*3 / free# JVEMV6 68#_191:1 / 68. theoretical-physics(tp) / w=~,topics=arrangement-of-lines,other=orig+:(n^2+n+2)の、平方完成,s=~,i=~,doc=r-11-1~1.2#3.1
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
@@ -716,6 +717,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,other=~
+
+:m 1*1 RES / JVEMV6 64#101_banzan_shuugi / 『日本思想大系　３０　熊沢蕃山』 著者=~ / p.47 / w=霊明,topic=太虚；太極 / N~ 
 
 :m #*# RES / JVEMV6 64#142 / 『國史大系　第三十二巻　吾妻鏡　前編』 著者=~,校注=~ / pp.1 / w=北条本；内閣文庫,topic=~,other=~
 
@@ -767,7 +770,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome / (lang=ja) / topic=~ / content=~
 
-:tome / (lang=ja) / topic=数学 / content=「数学遊び」、大事。嫌々でも、毎日やろう。
+:tome / (lang=ja) / topic=哲学 / content=何かが生まれつつあるとき、その反対物も又、生まれつつある。 || :m :th / topic=思想について / content=古代中国の人たちは、当時の中国の状況を見て、儒教。古代ヘブライの人たちは、同様にして、トーラー。今の日本の状況を見ている君は、何を？ / lang=ja || :m #*# / memo:other / topic=続後撰和歌集, about=和歌についての感想,other=「色かはるははその」；「千しほの秋のもみぢ葉」,id=~
 
 
 ###2021年7月3日10:35:02
@@ -898,6 +901,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m #*# / memo:general / topic=焼酎漬け：ブレンディング, about=オオバ：隠し味に良い,other=~,id=~
 
+###2022年3月2日9:19:25
+============================== memo : other
+
+:m #*# / memo:other / topic=~, about=~,other=~,id=~
+
+:m #*# / memo:other / topic=続後撰和歌集, about=和歌についての感想,other=「色かはるははその」；「千しほの秋のもみぢ葉」,id=~
 
 
 ###2021年8月21日9:21:58
@@ -1033,6 +1042,9 @@ JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花
 
 
 ============================== delete entries from db
+
+"C:\WORKS_2\Programs\DB Browser for SQLite.3.10.0\DB Browser for SQLite.exe"
+
 DELETE FROM ifm11 WHERE _id <= 46693;
 DELETE FROM ifm11 WHERE _id <= 47366;
 
@@ -1147,7 +1159,11 @@ DELETE FROM ifm11 WHERE _id <= XXX;
 
 ##DELETE
 
+###2022年3月1日19:12:12
+============================== delete entries from db : directory_list*
 
+directory_list.20220301_190717.txt
+DELETE FROM ifm11 WHERE file_name like "directory_list%";
 
 ###2021年5月4日17:40:21
 taskkill /f /im opera.exe
@@ -1191,3 +1207,4 @@ C:\WORKS_2\start_a.bat
 =================== file : entries
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
 
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\

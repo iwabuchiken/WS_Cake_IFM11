@@ -1,5 +1,19 @@
-goto opera
+rem : 2022”N3ŒŽ2“ú10:04:34
+goto firefox
+
+rem goto opera
 REM goto chrome
+
+REM ================================
+REM 	open with : opera
+REM 	2022”N3ŒŽ2“ú10:04:54
+REM ================================
+:firefox
+pushd "C:\Program Files\Mozilla Firefox"
+	
+start firefox.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/admins/edit/3
+
+goto end
 
 REM ================================
 REM 	open with : opera
