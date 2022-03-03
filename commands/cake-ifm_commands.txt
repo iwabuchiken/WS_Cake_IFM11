@@ -447,7 +447,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=4``-4`-7`-4``,Re+,other=~ \\\ s.2:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=4`-4h`-4`-3`-4`-7`-4`,Re+,other=~ \\\ s.3:training,genr=~,for=transition:4`⇔7`,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~ \\\ s.4:todays-melody,genr=~,for=~,key=E(hole-4),tempo=~,R=~,i.f.=~,notes=4``-4h``-4``-7`-4``;coda:3`-6`-4`(D-G-E)(L7f-3f-1),Re+,other=time:3/4->2/4
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=h:4(B),tempo=~,R=~,i.f.=~,notes=h:7`-4``;pitch:L7f-1o4-5,Re+,other=~ \\\ s.2:training,genr=~,for=transition:h:4``-6`,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=melody+:pitch:1-L6f-L7f \\\ s.3:todays-melody,genr=~,for=~,key=h:4`(E),tempo=~,R=~,i.f.=~,notes=pitch:5-7f--4-3f-4-5o1-3f-1-L7f-L6f-L7f-1,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -515,7 +515,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
-:m :lets / action activity / やること / genre=diary:書くこと / content=diary. polish. 各恒星について、その特徴について、記述しよう。（２）猫。公園内の、各設備について。 || :m :lets / action activity / やること / genre=diary:書くこと / content=韓国語。鳥に加えて、樹木についての記事も。
+:m :lets / action activity / やること / genre=作曲；和歌 / content=作曲。春夏秋冬をテーマとした曲。例えば「海」をテーマに。「革命」；「革命」をテーマにした和歌。 || :m :lets / action activity / やること / genre=diary:korean / content=季節の花。野菜
 
 :m :lets / action activity / やること：予定 / genre=発熱外来、予約 / content=福島内科医院、他
 
@@ -683,11 +683,13 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_191:1 / 68. theoretical-physics(tp) / w=~,topics=arrangement-of-lines,other=orig+:(n^2+n+2)の、平方完成,s=~,i=~,doc=r-11-1~1.2#3.1
+:m RES 1*1 / free# JVEMV6 68#_192:1 / 68. theoretical-physics(tp) / w=~,topics=arrangement-of-lines,other=memo+:直線がn本のときの、線分の本数,s=~,i=~,doc=r-11-1~1.2#3.7
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
 :m RES 1*1 / free# JVEMV6 68#_id=XXX / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~ 
+
+:m RES 5*5 / free# JVEMV6 68#_id=FNN3 / 68. theoretical-physics(tp) / w=~,topics=0に掛けると、積が1になる。そんな数,other=q+:open:(1/α=0):αは、巨大な数、か？；q+:open:「無限大」とは、何か？数か？,s=~,i=~,doc=~ 
 
 :m RES 1*1 / free# JVEMV6 68#_id=PB5A / 68. theoretical-physics(tp) / w=~,topics=行列。2x2。行列式=0,１列目の行列、積はゼロ。２列目の行列、積はどうなるか？,other=emanさんの、量子力学。摂動のページ。を読んでいて、知りたくなった。,s=~,i=~,doc=~ 
 
