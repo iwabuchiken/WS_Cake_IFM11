@@ -447,7 +447,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=h:4(B),tempo=~,R=~,i.f.=~,notes=h:7`-4``;pitch:L7f-1o4-5,Re+,other=~ \\\ s.2:training,genr=~,for=transition:h:4``-6`,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=melody+:pitch:1-L6f-L7f \\\ s.3:todays-melody,genr=~,for=~,key=h:4`(E),tempo=~,R=~,i.f.=~,notes=pitch:5-7f--4-3f-4-5o1-3f-1-L7f-L6f-L7f-1,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=6`-7`-6`-7`-6`-7`-7h`,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -683,7 +683,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_192:1 / 68. theoretical-physics(tp) / w=~,topics=arrangement-of-lines,other=memo+:直線がn本のときの、線分の本数,s=~,i=~,doc=r-11-1~1.2#3.7
+:m RES 1*1 / free# JVEMV6 68#_193:1 / 68. theoretical-physics(tp) / w=~,topics=arrangement-of-lines,other=memo+:直線がn本のときの、線分の本数,s=~,i=~,doc=r-11-1~1.2#4;#1~d-1
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
@@ -726,7 +726,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#143_minshuu / 『日本思想大系５８　民衆運動の思想　三浦命助　露顕状』 著者=~,校注=~ / p.14 / w=小友村；宮古市；栗橋村；遠野市,topic=~,other=地図
 
-:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=身に而立身～入用嵩に而 / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=故四海困窮～別而御隠居 / p.~ / topic=~,other=~
 
 :m #*# RES / JVEMV6 64#90_?? / 『日本古典文学大系　９５　折たく柴の記』 小高、松村、校注 / p.254 / w:近衛信尹,topic:~ / N~
 
@@ -935,6 +935,13 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 :i X*X / drink-alcohol / topic=~, subject=~, other=~
 
 :i 1*1 / drink-alcohol / topic=ハーブ漬けの焼酎, subject=~, other=一日漬けたら、取り出す。「一日もの」、「２日もの」と、名前を付ける。
+
+
+###2022年3月5日9:30:46
+============================== :i visual-arts
+:m :i 1*1 / visual arts / topic=~,content=~,other=~
+
+:m :i 1*1 / visual arts / topic=デザインの種,content=ロゼット。デザインに使おう。種類を知るための、学習用の絵,other=~
 
 ###2021年9月29日11:20:37
 ============================== :i ANY
