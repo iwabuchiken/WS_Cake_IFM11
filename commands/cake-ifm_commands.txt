@@ -447,7 +447,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=6`-7`-6`-7`-6`-7`-7h`,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:memo,theme=~,content=~,for=大甲:fingering:B-D-C-C#,other=~ \\\ s.2:copy,genr=min-yoo,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~,Re+,other=song:八木節
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -683,7 +683,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_193:1 / 68. theoretical-physics(tp) / w=~,topics=arrangement-of-lines,other=memo+:直線がn本のときの、線分の本数,s=~,i=~,doc=r-11-1~1.2#4;#1~d-1
+:m RES 2*2 / free# JVEMV6 68#_194:1 / 68. theoretical-physics(tp) / w=~,topics=configurations,other=memo+:-1.4;memo+:-1.5;q+:open;q+:open:id=PPC3,s=~,i=~,doc=r-11-1~1#2
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
@@ -1208,12 +1208,14 @@ C:\WORKS_2\start_a.bat
 
 %lerone bennett
 
-###2022年3月1日8:54:48
-=================== strings
-68#
 
 ###2021年11月24日21:58:25
 =================== file : entries
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
 
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\
+
+
+###2022年3月1日8:54:48
+=================== strings
+68#
