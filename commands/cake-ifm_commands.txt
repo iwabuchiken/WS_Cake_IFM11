@@ -78,6 +78,8 @@ REM #delete : db entries ------------------
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
 
 ### steps (browser) ------------------
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4-1.open_browser.bat
+
 	No.12~
 
 1)
@@ -447,7 +449,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,i.f.=~,notes=7`-6`-4`-3`-4`-4``-4``,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,for=practice:transition:otsu-kan,i.f.=~,Re+,other=~ \\\ s.2:todays-melody,key=h:4(E),i.f.=~,Re+,other=title:`地の歌`
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -683,7 +685,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_196:1 / 68. theoretical-physics(tp) / w=~,topics=回転行列,other=~,s=~,i=~,doc=r-8-1~4.4
+:m RES 2*2 / free# JVEMV6 68#_197:1 / 68. theoretical-physics(tp) / w=~,topics=回転行列,other=~,s=~,i=~,doc=r-8-1~4.5
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
@@ -1028,7 +1030,9 @@ JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花
 
 ###2022年2月26日10:43:42
 ============================ 
-:m 東和 PHOTO / 220225f / 雑司が谷駅 / 横浜南太田１丁目マンション / １名 / サイタ工業（住協建設） / 出発時間
+ :m 東和 PHOTO / 220304f / 戸越銀座駅 / 文化堂様新築工事 / １名 / 環境装備（生和コーポレーション） / 日誌
+
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=東和&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 
 ###2021年10月25日9:18:26
 ============================ 
@@ -1222,4 +1226,5 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\
 
 ###2022年3月1日8:54:48
 =================== strings
+shino
 68#
