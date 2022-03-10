@@ -215,6 +215,8 @@
 	n : 130_koukyou		]2021”N11ŒŽ3“ú0:01:51
 	n : 154_koukyou		]2022”N2ŒŽ28“ú10:46:48
 	
+	n : 155_96_yamamoto_teiougaku	]2022”N3ŒŽ9“ú16:56:57
+	
 	n : 15X_XXX	]XXX
 
 
