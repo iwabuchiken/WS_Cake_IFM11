@@ -449,7 +449,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=transition:otsu~kan,key=h-7(A),tempo=~,R=~,i.f.=~,notes=~,Re+,other=symbol+:のどタンギング
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,for=warm-up:otsu,i.f.=~,Re+,other=~ \\\ s.2:todays-melody,for=use:dai-kan,i.f.=~,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -563,7 +563,7 @@ regex :
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genr=todays-melody,i.f.=~,Re+,other=~,for=音を揺らす
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=todays-melody,i.f.=~,Re+,other=memo+,for=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5(session-2) / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
@@ -696,7 +696,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_198:1 / 68. theoretical-physics(tp) / w=~,topics=ロドリゲスの回転公式,other=~,s=~,i=~,doc=r-6-3~1.2#1.2;r-8-1~6.1(#1.2~d-2)
+:m RES 2*2 / free# JVEMV6 68#_199:1 / 68. theoretical-physics(tp) / w=~,topics=ロドリゲスの回転公式,other=memo+;q+:open,s=~,i=~,doc=r-8-1~6.2;r-8-1~6.3;r-8-1~6.5
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
@@ -919,7 +919,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2022年3月2日9:19:25
 ============================== memo : other
 
-:m #*# / memo:other / topic=~, about=~,other=~,id=~
+:m #*# / memo:other(m:other) / topic=~, about=~,other=~,id=~
+
+:m #*# / memo:other(m:other) / topic=やることメモ, about=東和：朝：やること；東和：帰宅後：やること,other=photo-for:参考用,id=~
+
+:m #*# / memo:other(m:other) / topic=短歌作り, about=~,other=部分的,id=~
 
 :m #*# / memo:other / topic=続後撰和歌集, about=和歌についての感想,other=「色かはるははその」；「千しほの秋のもみぢ葉」,id=~
 
@@ -960,6 +964,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================== :i ANY
 
 :i #*# / topic=~ / subject=~, content=~, other=~
+
+:i #*# / topic=shinobue / subject=二重奏：アイデア, content=~, other=inst:shino-2;memo+:このアイデアからはじめて、最速線を探すように。
 
 :i #*# / topic=green-tech / subject=プラスチック回収, content=電波で、イオンを弾く
 
@@ -1041,9 +1047,13 @@ JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花
 
 ###2022年2月26日10:43:42
 ============================ 
- :m 東和 PHOTO / 220304f / 戸越銀座駅 / 文化堂様新築工事 / １名 / 環境装備（生和コーポレーション） / 日誌
+:m 東和 PHOTO / 220311f / 仲町台駅 / 仲町台４丁目マンション / １名 / 大樹電設（パワーズアンリミテッド） / 資料：天気
+
+:m 東和 PHOTO / 220304f / 戸越銀座駅 / 文化堂様新築工事 / １名 / 環境装備（生和コーポレーション） / 日誌
 
 http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=東和&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
+
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%9D%B1%E5%92%8C&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 
 ###2021年10月25日9:18:26
 ============================ 
