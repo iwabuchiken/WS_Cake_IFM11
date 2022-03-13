@@ -77,7 +77,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-file
 REM #delete : db entries ------------------
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
 
-### steps (browser) ------------------
+### start : browser ------------------
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4-1.open_browser.bat
 
 	No.12~
@@ -449,7 +449,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,for=warm-up:otsu,i.f.=~,Re+,other=~ \\\ s.2:todays-melody,for=use:dai-kan,i.f.=~,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,i.f.=~,notes=7`-7`-6`-7`-6~4`-4``-4``,Re+,other=~ \\\ s.2:prac,for=staccato,Re+,notes=3`-4`-4`-3`-4`-4`-3`-4`~3`-4`-4`-3`-4`-4`-4`_3`-4`-4`-4``-3`,R=~ \\\ s.3:prac,for=seq:3`-4`-6`_3`-4`-4,Re+,R=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
