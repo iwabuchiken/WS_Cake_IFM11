@@ -449,8 +449,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,i.f.=~,notes=7`-7`-6`-7`-6~4`-4``-4``,Re+,other=~ \\\ s.2:prac,for=staccato,Re+,notes=3`-4`-4`-3`-4`-4`-3`-4`~3`-4`-4`-3`-4`-4`-4`_3`-4`-4`-4``-3`,R=~ \\\ s.3:prac,for=seq:3`-4`-6`_3`-4`-4,Re+,R=~
-
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=practice:h-7:ぱっと立ち上げたい,key=~,tempo=~,R=~,i.f.=~,notes=7`-6`-4`-3`-4`,Re+,other=~ s.2:todays-melody,genr=~,for=compare-keys:D-E-F,key=~,tempo=~,R=~,i.f.=~,notes=~,Re+,other=~
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -696,7 +695,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_199:1 / 68. theoretical-physics(tp) / w=~,topics=ロドリゲスの回転公式,other=memo+;q+:open,s=~,i=~,doc=r-8-1~6.2;r-8-1~6.3;r-8-1~6.5
+:m RES 2*2 / free# JVEMV6 68#_200:1 / 68. theoretical-physics(tp) / w=~,topics=内積：３次元,other=q+:open:(|a->|=|a->^(-1)|),s=~,i=~,doc=r-8-1~6.4
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
