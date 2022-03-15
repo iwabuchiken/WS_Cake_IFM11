@@ -449,7 +449,8 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,genr=~,for=practice:h-7:ぱっと立ち上げたい,key=~,tempo=~,R=~,i.f.=~,notes=7`-6`-4`-3`-4`,Re+,other=~ s.2:todays-melody,genr=~,for=compare-keys:D-E-F,key=~,tempo=~,R=~,i.f.=~,notes=~,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:memo,theme=~,content=~,for=dai-kan:fingering:C?,other=~ \\\ s.2:todays-melody,genr=~,for=~,key=A,tempo=~,R=~,i.f.=~,notes=6`-7`-7`-7`-6`-7`,Re+,other=~ \\\ s.3:todays-melody,genr=~,for=dai-kan:long-breath,key=~,tempo=~,R=~,i.f.=~,notes=4``-4``-7`-6`-4`-6`,Re+,other=~
+
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
@@ -695,13 +696,15 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_200:1 / 68. theoretical-physics(tp) / w=~,topics=内積：３次元,other=q+:open:(|a->|=|a->^(-1)|),s=~,i=~,doc=r-8-1~6.4
+:m RES 5*5 / free# JVEMV6 68#_201:1 / 68. theoretical-physics(tp) / w=~,topics=射影ベクトル；ベクトルの射影；ベクトルの回転；ロドリゲスの公式、導出,other=orig+:回転行列の分割,s=~,i=~,doc=r-8-1~8.1;r-8-1~6.6#1.5
+
+:m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
 :m RES 1*1 / free# JVEMV6 68#_id=XXX / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~ 
 
-:m RES 1*1 / free# JVEMV6 68#_id=PPC3 / 68. theoretical-physics(tp) / w=~,topics=円に内接する、別の円。の、半径,other=q+:open,s=~,i=~,doc=~ 
+:m RES 1*1 / free# JVEMV6 68#_id=SQW6 / 68. theoretical-physics(tp) / w=~,topics=ベクトルと、そのベクトルの逆ベクトル：絶対値は同じか？,other=~,s=~,i=~,doc=~ 
 
 :m RES 1*1 / free# JVEMV6 68#_id=PB5A / 68. theoretical-physics(tp) / w=~,topics=行列。2x2。行列式=0,１列目の行列、積はゼロ。２列目の行列、積はどうなるか？,other=emanさんの、量子力学。摂動のページ。を読んでいて、知りたくなった。,s=~,i=~,doc=~ 
 
