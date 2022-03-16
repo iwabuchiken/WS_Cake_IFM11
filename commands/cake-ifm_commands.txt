@@ -696,13 +696,15 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 5*5 / free# JVEMV6 68#_201:1 / 68. theoretical-physics(tp) / w=~,topics=射影ベクトル；ベクトルの射影；ベクトルの回転；ロドリゲスの公式、導出,other=orig+:回転行列の分割,s=~,i=~,doc=r-8-1~8.1;r-8-1~6.6#1.5
+:m RES 1*1 / free# JVEMV6 68#_202:1 / 68. theoretical-physics(tp) / w=~,topics=ベクトル：回転,other=orig+:回転系の基底ベクトル：慣性系から見た場合,s=~,i=~,doc=r-8-1~6.6;r-6-3~1.2
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
 :m RES 1*1 / free# JVEMV6 68#_id=XXX / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~ 
+
+:m RES 1*1 / free# JVEMV6 68#_id=HSJI / 68. theoretical-physics(tp) / w=~,topics=行列：分配法則：乗法,other=~,s=~,i=~,doc=~ 
 
 :m RES 1*1 / free# JVEMV6 68#_id=SQW6 / 68. theoretical-physics(tp) / w=~,topics=ベクトルと、そのベクトルの逆ベクトル：絶対値は同じか？,other=~,s=~,i=~,doc=~ 
 
