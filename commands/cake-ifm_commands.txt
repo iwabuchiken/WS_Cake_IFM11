@@ -449,7 +449,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:memo,theme=~,content=~,for=dai-kan:fingering:C?,other=~ \\\ s.2:todays-melody,genr=~,for=~,key=A,tempo=~,R=~,i.f.=~,notes=6`-7`-7`-7`-6`-7`,Re+,other=~ \\\ s.3:todays-melody,genr=~,for=dai-kan:long-breath,key=~,tempo=~,R=~,i.f.=~,notes=4``-4``-7`-6`-4`-6`,Re+,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,for=kagura,R=1,i.f.=~,Re+,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -563,7 +563,7 @@ regex :
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=todays-melody,i.f.=~,Re+,other=memo+,for=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=todays-melody,i.f.=~,Re+,other=memo+,for=kagura
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5(session-2) / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
@@ -696,7 +696,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_202:1 / 68. theoretical-physics(tp) / w=~,topics=ベクトル：回転,other=orig+:回転系の基底ベクトル：慣性系から見た場合,s=~,i=~,doc=r-8-1~6.6;r-6-3~1.2
+:m RES 3*3 / free# JVEMV6 68#_203:1 / 68. theoretical-physics(tp) / w=~,topics=回転系：運動方程式,other=orig+:review:回転系の基底ベクトル：慣性系から見た場合；calc+:遠心力、引力。関係,s=~,i=~,doc=r-6-3~1.2#2.2
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
 
