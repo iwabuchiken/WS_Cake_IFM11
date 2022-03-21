@@ -451,7 +451,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,key=h:4,i.f.=~,Re+,other=sections:A~C \\\ s.2:todays-melody,i.f.=~,Re+,other=similar-to-1)
+:m :篠笛,shinobue #*# / session-memo / s.1:memo,theme=音階：雲井調子_平井調子,other=key:C \\\ s.2:todays-melody,genr=演歌調,i.f.=~,notes=2-3-3h-3-3h-6-6h-6,Re+,other=scale:hirai \\\ s.3:todays-melody,i.f.=~,Re+,other=scale:陽施法 \\\ s.4:todays-melody,i.f.=~,Re+,other=scale:C-D-F-G-Bf(pitch:4-5-7f-1-3f) \\\ s.5:prac,for=transition:4`-3`,ReX,R=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -699,7 +699,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_205:1 / 68. theoretical-physics(tp) / w=~,topics=回転系：運動方程式；行列式,other=calc+,s=~,i=~,doc=r-8-1~4.8,N+
+:m RES 1*1 / free# JVEMV6 68#_206:1 / 68. theoretical-physics(tp) / w=~,topics=行列式：レビチビタ記号,other=~,s=~,i=~,doc=r-8-1~4.10;r-8-1~4.11 / N+
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
 
@@ -746,7 +746,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#143_minshuu / 『日本思想大系５８　民衆運動の思想　三浦命助　露顕状』 著者=~,校注=~ / p.14 / w=小友村；宮古市；栗橋村；遠野市,topic=~,other=地図
 
-:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=御同様～溢る々ゟ / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=色々様々之～金朱 / p.~ / topic=~,other=~
 
 :m #*# RES / JVEMV6 64#90_?? / 『日本古典文学大系　９５　折たく柴の記』 小高、松村、校注 / p.254 / w:近衛信尹,topic:~ / N~
 
