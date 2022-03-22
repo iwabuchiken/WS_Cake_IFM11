@@ -699,7 +699,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_206:1 / 68. theoretical-physics(tp) / w=~,topics=行列式：レビチビタ記号,other=~,s=~,i=~,doc=r-8-1~4.10;r-8-1~4.11 / N+
+:m RES 1*1 / free# JVEMV6 68#_207:1 / 68. theoretical-physics(tp) / w=~,topics=行列式：レビチビタ記号,other=~,s=~,i=~,doc=r-8-1~4.11;r-8-1~4.12 / N+
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
 
