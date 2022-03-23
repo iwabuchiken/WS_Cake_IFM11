@@ -451,7 +451,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:memo,theme=音階：雲井調子_平井調子,other=key:C \\\ s.2:todays-melody,genr=演歌調,i.f.=~,notes=2-3-3h-3-3h-6-6h-6,Re+,other=scale:hirai \\\ s.3:todays-melody,i.f.=~,Re+,other=scale:陽施法 \\\ s.4:todays-melody,i.f.=~,Re+,other=scale:C-D-F-G-Bf(pitch:4-5-7f-1-3f) \\\ s.5:prac,for=transition:4`-3`,ReX,R=~
+:m :篠笛,shinobue #*# / session-memo / s.1:todays-melody,R=~,i.f.=~,notes=4``-7`-4``-7`-3`,Re+,other=~ \\\ s.2:prac,for=ohayashi,Re+,other=pattern:①～③,R=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -699,7 +699,8 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_207:1 / 68. theoretical-physics(tp) / w=~,topics=行列式：レビチビタ記号,other=~,s=~,i=~,doc=r-8-1~4.11;r-8-1~4.12 / N+
+:m RES 1*2 / free# JVEMV6 68#_208:1 / 68. theoretical-physics(tp) / w=shearing,topics=行列式：レビチビタ記号,other=calc+,s=~,i=~,doc=r-8-1~4.11;r-8-1~4.10
+
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
 
