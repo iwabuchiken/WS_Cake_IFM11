@@ -451,7 +451,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~s.7 / picture:dai-kan:h-3_4 pic:transition:h-5`~6` pic:transt:h-6`~6h` pic:transt:h-6`~7`
+:m :篠笛,shinobue #*# / session-memo / s.1~s.5 / picture:otsu:h-0
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -564,9 +564,10 @@ regex :
 	 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
+//template
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=todays-melody,i.f.=~,Re+,other=memo+,for=kagura
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=prac,i.f.=~,Re+,other=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5(session-2) / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
