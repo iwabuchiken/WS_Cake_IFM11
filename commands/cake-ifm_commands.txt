@@ -451,7 +451,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~s.5 / picture:otsu:h-0
+:m :篠笛,shinobue #*# / session-memo / s.1~s.5 / picture=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -520,6 +520,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
+:m :lets / action activity / やること / genre=牧師になる / content=牧師になろう。そのために、学のある人になろう。 || :m :lets / action activity / やること / genre=res:history / content=マイダン以来の歴史。書き記そう
+
 :m :lets / action activity / やること / genre=作曲；和歌 / content=作曲。春夏秋冬をテーマとした曲。例えば「海」をテーマに。「革命」；「革命」をテーマにした和歌。 || :m :lets / action activity / やること / genre=diary:korean / content=季節の花。野菜
 
 :m :lets / action activity / やること：予定 / genre=発熱外来、予約 / content=福島内科医院、他
@@ -567,7 +569,7 @@ regex :
 //template
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=prac,i.f.=~,Re+,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=t.m.,i.f.=~,Re+,other=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5(session-2) / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
@@ -700,7 +702,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*2 / free# JVEMV6 68#_209:1 / 68. theoretical-physics(tp) / w=shearing,topics=行列式,other=memo+,s=~,i=~,doc=r-8-1~4.9
+:m RES 1*1 / free# JVEMV6 68#_211:1 / 68. theoretical-physics(tp) / w=行列基本変形,topics=線形：行列表現,other=calc+,s=~,i=~,doc=r-8-1~4.16.8#5
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -809,6 +811,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? / math
 
 :m #*# / math / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m #*# / math / topic=固有ベクトル / content=(A=([0 1][1 0])のときの、u-> / status=~ / other=~,id=~
 
 :m #*# / math / topic=フーリエが見つけたという三角級数 / content=~ / status=~ / other=~,id=MJLM:1
 
@@ -1055,11 +1059,13 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @~ / target=~,occation=~,other
 
-JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @東和現場へ行く途中：上町駅 / target=猫じゃらしのような草,occation=~,other=群生。絵の題材にいいと思った；ヨモギのような草と、混生。
+JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 / @宮前平駅：南側スロープ：土台構造の根元 / target=草本：小さな花,occation=~,other=~
 
 
 ###2022年2月26日10:43:42
 ============================ 
+:m 東和 PHOTO / 220326sa / 中野坂上駅 / リバーレ中野坂上新築工事 / １名 / 友野設備（和田建設） / 指示書
+
 :m 東和 PHOTO / 220318f / 古淵駅 / 木曽東有料老人ホーム新築 / １名 / 鹿島環境設備（三恵建設） / 指示書
 
 :m 東和 PHOTO / 220318f / 古淵駅 / 木曽東有料老人ホーム新築 / １名 / 鹿島環境設備（三恵建設） / 時刻：部屋に戻った
