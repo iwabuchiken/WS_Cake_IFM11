@@ -451,7 +451,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~s.5 / picture=~
+:m :篠笛,shinobue #*# / session-memo / s.1~s.6 / picture=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -702,7 +702,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_211:1 / 68. theoretical-physics(tp) / w=行列基本変形,topics=線形：行列表現,other=calc+,s=~,i=~,doc=r-8-1~4.16.8#5
+:m RES 1*1 / free# JVEMV6 68#_212:2 / 68. theoretical-physics(tp) / w=~,topics=線形：行列表現；行基本変形,other=conc+;conc+,s=~,i=~,doc=r-8-1~4.16.9
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -1213,6 +1213,8 @@ DELETE FROM ifm11 WHERE _id <= 54242;
 ###2022年3月8日10:14:29
 #DELETE FROM ifm11 WHERE _id <= 55174;
 
+###2022年3月28日9:38:45
+#DELETE FROM ifm11 WHERE _id <= 55411;
 
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
@@ -1266,6 +1268,10 @@ C:\WORKS_2\start_a.bat
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
 
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\
+
+###2022年3月28日9:21:27
+=================== url
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=68%23&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 
 
 ###2022年3月1日8:54:48
