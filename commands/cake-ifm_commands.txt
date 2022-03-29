@@ -1,4 +1,4 @@
-srem /==============================
+rem /==============================
 rem 	command list
 rem 	
 rem 	2021年1月17日12:15:35
@@ -451,7 +451,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~s.6 / picture=~
+:m :篠笛,shinobue #*# / session-memo / s.1~s.4 / picture=kan:h-0
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -702,7 +702,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_212:2 / 68. theoretical-physics(tp) / w=~,topics=線形：行列表現；行基本変形,other=conc+;conc+,s=~,i=~,doc=r-8-1~4.16.9
+:m RES 2*3 / free# JVEMV6 68#_213:1 / 68. theoretical-physics(tp) / w=Kerは、部分ベクトル空間,topics=像、核（Im,Ker）,other=r-8-1~4.16.B3;
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -1273,6 +1273,10 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\
 =================== url
 http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=68%23&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 
+###2022年3月29日8:35:54
+=================== files
+======= sakura.ini
+C:\Users\iwabuchiken\AppData\Roaming\sakura\log_edit-sakura-ini-file.log
 
 ###2022年3月1日8:54:48
 =================== strings
