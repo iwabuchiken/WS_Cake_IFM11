@@ -451,7 +451,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~s.5 / picture=~.content=tm+
+:m :篠笛,shinobue #*# / session-memo / s.1~s.8 / picture=dai-kan:h-5;dai-kan:h-2;kan:h-7~4.content=~,for=dai-kan:fingering:B;D;Df,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -567,7 +567,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=todays-melody,,Re+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=t.m.,i.f.=~,Re+,other=~
 
@@ -1060,6 +1060,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================ 記録：自然観察
 
 JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @~ / target=~,occation=~,other
+
+JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 / @~ / target=~,occation=~,other
+
+JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 / @近所の山下さんの、北側の家。角の家：西側の壁 / target=花：つぼみ。生える起点は、茎の途中、先端、両方。,occation=~,other=~
 
 JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 / @宮前平駅：南側スロープ：土台構造の根元 / target=草本：小さな花,occation=~,other=~
 
