@@ -451,7 +451,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~s.8 / picture=dai-kan:h-5;dai-kan:h-2;kan:h-7~4.content=~,for=dai-kan:fingering:B;D;Df,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1~s.9 / picture=kan:h-3~4,content=~,for=,other=~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -567,7 +567,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=todays-melody,,Re+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=todays-melody,Re+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=t.m.,i.f.=~,Re+,other=~
 
@@ -702,7 +702,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_214:1 / 68. theoretical-physics(tp) / w=Kerは、部分ベクトル空間,topics=行列式：行列同士の積。の、行列式。は、各行列の行列式、同士の積。と、等しい。：証明,other=orig+:ベクトルBと、ベクトルB`,doc=r-8-1~4.8#~4.4 / N+
+:m RES 3*3 / free# JVEMV6 68#_215:1 / 68. theoretical-physics(tp) / w=calc+:-1.4,topics=直交行列,other=~,doc=r-8-1~4.7
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -744,7 +744,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
-:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,other=~
+//template
+:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+
+//2022年4月1日9:31:20
+ :m #*# RES / JVEMV6 64#156_2.1_manyoo_1 / 『萬葉集①　巻第一～巻第四』 / w=己卯；斉明天皇；石湯[いはゆ；舒明天皇 / p.29 / topic=~,other=~,publisher=小学館
 
 :m 1*1 RES / JVEMV6 64#101_banzan_shuugi / 『日本思想大系　３０　熊沢蕃山』 著者=~ / p.47 / w=霊明,topic=太虚；太極 / N~ 
 
