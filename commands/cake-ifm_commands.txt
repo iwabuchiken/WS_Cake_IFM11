@@ -451,7 +451,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~s.XX / picture=~,content=~,for=,other=~ / N~
+:m :篠笛,shinobue #*# / session-memo / s.1~s.2 / pr;pr / picture=~,content=~,for=,other=~ / N~
 
 :m :篠笛,shinobue #*# / session-memo / s.1~s.2 / picture=~,content=rev;tm,for=,other=~ / N+
 
@@ -750,7 +750,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
 //2022年4月1日9:31:20
-:m #*# RES / JVEMV6 64#156_2.1_manyoo_1 / 『萬葉集①　巻第一～巻第四』 / w=斉明天皇；干支：一覧：メモ出し；間人皇女[はしひとのひめみこ：系図；和歌山県：みなべ町 / p.31 / topic=~,other=~,publisher=小学館
+:m #*# RES / JVEMV6 64#156_2.1_manyoo_1 / 『萬葉集①　巻第一～巻第四』 / w=橿原市[かしはら；畝傍山；中ツ道 / p.32 / topic=~,other=~,publisher=小学館
 
 :m 1*1 RES / JVEMV6 64#101_banzan_shuugi / 『日本思想大系　３０　熊沢蕃山』 著者=~ / p.47 / w=霊明,topic=太虚；太極 / N~ 
 
@@ -758,7 +758,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#143_minshuu / 『日本思想大系５８　民衆運動の思想　三浦命助　露顕状』 著者=~,校注=~ / p.14 / w=小友村；宮古市；栗橋村；遠野市,topic=~,other=地図
 
-:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=湯王武王～一体之仁を忘れ/ p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=得手勝手の～公々授受贈貰 / p.~ / topic=~,other=~
 
 :m #*# RES / JVEMV6 64#90_?? / 『日本古典文学大系　９５　折たく柴の記』 小高、松村、校注 / p.254 / w:近衛信尹,topic:~ / N~
 
@@ -1076,7 +1076,7 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 ###2022年2月26日10:43:42
 ============================ 
-:m 東和 PHOTO / 220402sa / 中野坂上駅 / 横浜市南区万世町二丁目計画 / １名 / 大同産業（池田建設） / 指示書
+:m 東和 PHOTO / 220402sa / 中野坂上駅 / 横浜市南区万世町二丁目計画 / １名 / 大同産業（池田建設） / 日報
 
 :m 東和 PHOTO / 220326sa / 中野坂上駅 / リバーレ中野坂上新築工事 / １名 / 友野設備（和田建設） / 日報
 
