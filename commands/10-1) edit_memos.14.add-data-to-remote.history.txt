@@ -1,3 +1,19 @@
+### 2022/04/06 10:08:21
+total_data => 12
+new_data_Success => 9
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 3
+
+
+### 2022/04/05 09:03:27
+total_data => 15
+new_data_Success => 12
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 3
+
+
 ### 2022/04/04 10:34:49
 total_data => 13
 new_data_Success => 10
@@ -6870,6 +6886,10 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
+
+done
 
 done
 
