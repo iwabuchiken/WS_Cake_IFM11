@@ -15,9 +15,14 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
 3-1)------------------
+
 not-for-register files --> delete, move.
 	1. sweets		###2021年11月1日7:30:56
 2
+
+3-2)------------------ start : opera browser ]]
+C:\WORKS_2\Programs\opera\launcher.exe
+
 4)------------------ start : edit memos ]]
 
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
@@ -80,9 +85,10 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-file
 4)
 REM #delete : db entries ------------------ ]]
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
-.browser.bat
+//.browser.bat
 
-	No.12~
+	No.12
+//	No.12~
 
 1)
 rem	git push ------------------ ]]
@@ -456,7 +462,7 @@ regex :
 //-----template : song-id
 :m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,for=,other=~ / N~ 
 
-:m :篠笛,shinobue #*# / memo:song / song-id=4 / picture=~,for= / N~ 
+:m :篠笛,shinobue #*# / memo:song / song-id=7 / picture=~,for=,page=1 / N~ 
 
 :m :篠笛,shinobue #*# / session-memo / s.1~s.2 / picture=~,content=rev;tm,for=,other=~ / N+
 
@@ -701,6 +707,10 @@ regex :
 
 :m dessin,sketch / JVEMV6 46#6-1 / des. object=~ / source=~,location=~,other=~,memo=~,found=~,id=~,occasion=~
 
+###2022年4月7日11:35:15
+======================== JVE : arts : japanese art
+
+:m 1*1 / JVEMV6 46#6.8 / 46. art / 6. va / 8. japanese art / topic=des.object=オオイヌノフグリ：花冠,other=memo+
 
 
 ======== memo : JVE : theoretical-physics(tp)
@@ -709,7 +719,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_218:2 / 68. theoretical-physics(tp) / w=,topics=角速度,other=memo+:-1.1,doc=r-8-1~4.1.1
+:m RES 1*1 / free# JVEMV6 68#_219:1 / 68. theoretical-physics(tp) / w=,topics=回転系のベクトル；剛体,other=~,doc=r-8-1~4.1.2
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -755,7 +765,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
 //2022年4月1日9:31:20
-:m #*# RES / JVEMV6 64#156_2.1_manyoo_1 / 『萬葉集①　巻第一～巻第四』 / w=御坊市；北淡町；加古川市 / p.32 / topic=~,other=~,publisher=小学館
+:m #*# RES / JVEMV6 64#156_2.1_manyoo_1 / 『萬葉集①　巻第一～巻第四』 / w=天智天皇；斉明天皇；干支 / p.34 / topic=干支：計算方法,other=~,publisher=小学館
 
 :m 1*1 RES / JVEMV6 64#101_banzan_shuugi / 『日本思想大系　３０　熊沢蕃山』 著者=~ / p.47 / w=霊明,topic=太虚；太極 / N~ 
 
@@ -988,6 +998,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================== :i visual-arts
 :m :i 1*1 / visual arts / topic=~,content=~,other=~
 
+:m :i 1*1 / visual arts / topic=模様：モチーフ,content=雑草を以て、模様のモチーフと為そう。,other=~
+
 :m :i 1*1 / visual arts / topic=デザインの種,content=ロゼット。デザインに使おう。種類を知るための、学習用の絵,other=~
 
 ###2021年9月29日11:20:37
@@ -1081,7 +1093,7 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 ###2022年2月26日10:43:42
 ============================ 
-:m 東和 PHOTO / 220402sa / 中野坂上駅 / 横浜市南区万世町二丁目計画 / １名 / 大同産業（池田建設） / 日報
+:m 東和 PHOTO / 220402sa / 中野坂上駅 / 横浜市南区万世町二丁目計画 / １名 / 大同産業（池田建設） / 日誌
 
 :m 東和 PHOTO / 220326sa / 中野坂上駅 / リバーレ中野坂上新築工事 / １名 / 友野設備（和田建設） / 日報
 
