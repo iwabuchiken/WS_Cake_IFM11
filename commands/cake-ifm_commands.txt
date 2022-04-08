@@ -7,6 +7,10 @@ rem ==============================/
 1) ------------------
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
 
+3-1)------------------ ]]
+not-for-register files --> delete, move.
+	1. sweets		###2021年11月1日7:30:56
+2
 
 2) ------------------ change_file_names ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
@@ -14,14 +18,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 3)-------------- Delete_in-db-existing-files ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
-3-1)------------------
-
-not-for-register files --> delete, move.
-	1. sweets		###2021年11月1日7:30:56
-2
-
 3-2)------------------ start : opera browser ]]
 C:\WORKS_2\Programs\opera\launcher.exe
+
+
+//3-2)------------------ start : opera browser ]]
+//C:\WORKS_2\Programs\opera\launcher.exe
 
 4)------------------ start : edit memos ]]
 
@@ -457,10 +459,12 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~s.3 / picture=~,content=tm:notes=h~7`-4``-4`-6`-7`;pr;pr,for=~,other=~ / N~
+:m :篠笛,shinobue #*# / session-memo / s.1~* / picture=~,content=rev:s-1:②；①；③~practice-melody+,for=~,other=~ / N~
 
 //-----template : song-id
 :m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,for=,other=~ / N~ 
+
+:m :篠笛,shinobue #*# / memo:song / song-id=10 / picture=~,content=p-1;①,for=,other=~ / N~ 
 
 :m :篠笛,shinobue #*# / memo:song / song-id=7 / picture=~,for=,page=1 / N~ 
 
@@ -719,7 +723,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_219:1 / 68. theoretical-physics(tp) / w=,topics=回転系のベクトル；剛体,other=~,doc=r-8-1~4.1.2
+:m RES 1*1 / free# JVEMV6 68#_220:1 / 68. theoretical-physics(tp) / w=,topics=慣性力,other=~,doc=r-8-1~4.1.5
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -955,7 +959,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2022年3月2日9:19:25
 ============================== memo : other
 
+:m #*# / memo:other(m:other) / topic=~, content=~,other=~,id=~
+
 :m #*# / memo:other(m:other) / topic=~, about=~,other=~,id=~
+
+:m #*# / memo:other(m:other) / topic=干支, content=西暦から算出する方法,other=~,id=~
 
 :m #*# / memo:other(m:other) / topic=諸概念：弁別, about=物理関係：法則；原則；原理,other=add:何がどうなる＝法則；何をどうする＝原則；何はどうである＝原理（「仕組み」でもいいか）,id=~
 
