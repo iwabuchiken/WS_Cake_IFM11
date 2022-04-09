@@ -454,12 +454,14 @@ rem 2021年3月4日11:23:28
 ============================== shinobue memo
 C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=shino+session&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
+
 regex : 
 [a-z]+=~,
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~* / picture=~,content=rev:s-1:②；①；③~practice-melody+,for=~,other=~ / N~
+:m :篠笛,shinobue #*# / session-memo / s.1~* / memo,theme=fingering:dai-kan,content=~,for=list,other=~
 
 //-----template : song-id
 :m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,for=,other=~ / N~ 
@@ -723,7 +725,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_220:1 / 68. theoretical-physics(tp) / w=,topics=慣性力,other=~,doc=r-8-1~4.1.5
+:m RES 3*3 / free# JVEMV6 68#_221:1 / 68. theoretical-physics(tp) / w=,topics=慣性力；運動方程式：２次元,other=~,doc=r-8-1~4.1.6
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -769,7 +771,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
 //2022年4月1日9:31:20
-:m #*# RES / JVEMV6 64#156_2.1_manyoo_1 / 『萬葉集①　巻第一～巻第四』 / w=天智天皇；斉明天皇；干支 / p.34 / topic=干支：計算方法,other=~,publisher=小学館
+:m #*# RES / JVEMV6 64#156_2.1_manyoo_1 / 『萬葉集①　巻第一～巻第四』 / w=中大兄皇子；大津市 / p.35 / topic=~,other=~,publisher=小学館,doc-id=YS9F
 
 :m 1*1 RES / JVEMV6 64#101_banzan_shuugi / 『日本思想大系　３０　熊沢蕃山』 著者=~ / p.47 / w=霊明,topic=太虚；太極 / N~ 
 
@@ -1009,6 +1011,14 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 :m :i 1*1 / visual arts / topic=模様：モチーフ,content=雑草を以て、模様のモチーフと為そう。,other=~
 
 :m :i 1*1 / visual arts / topic=デザインの種,content=ロゼット。デザインに使おう。種類を知るための、学習用の絵,other=~
+
+
+###2022年4月9日10:02:32
+============================== :i composition
+
+:m :i 1*1 / music:composition / topic=~,content=~,other=~
+
+:m :i 1*1 / music:composition / topic=shino,content=メロディーの分類。４拍、４小節,other=~
 
 ###2021年9月29日11:20:37
 ============================== :i ANY
@@ -1319,5 +1329,6 @@ C:\Users\iwabuchiken\AppData\Roaming\sakura\log_edit-sakura-ini-file.log
 
 ###2022年3月1日8:54:48
 =================== strings
+156_2
 shino
 68#
