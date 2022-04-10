@@ -456,6 +456,8 @@ C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
 http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=shino+session&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=shino+song-id&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
+
 regex : 
 [a-z]+=~,
 	 (<= this : 2021年11月15日10:00:59)
@@ -466,6 +468,10 @@ regex :
 //-----template : song-id
 :m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,for=,other=~ / N~ 
 
+:m :篠笛,shinobue #*# / memo:song / song-id=13 / picture=~,content=p-1:①,for=,other=~ / N~ 
+
+:m :篠笛,shinobue #*# / memo:song / song-id=12 / picture=~,content=p-1:②;p-2:②,for=,other=~ / N~ 
+ 
 :m :篠笛,shinobue #*# / memo:song / song-id=10 / picture=~,content=p-1;①,for=,other=~ / N~ 
 
 :m :篠笛,shinobue #*# / memo:song / song-id=7 / picture=~,for=,page=1 / N~ 
@@ -504,6 +510,11 @@ regex :
 ,([^=])+?=~
 
 :m :尺八,shakuhachi,bamboo #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=hole:2↓,tempo=~,R=~,i.f.=~,notes=~,Re+,other=~
+
+:m :尺八,shakuhachi,bamboo #*# / memo:song / song-id=~ / picture=~,content=~,for=,other=~ / N~ 
+
+:m :尺八,shakuhachi,bamboo #*# / memo:song / song-id=1:① / picture=~,content=~,for=,other=~ / N~ 
+
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -725,7 +736,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_221:1 / 68. theoretical-physics(tp) / w=,topics=慣性力；運動方程式：２次元,other=~,doc=r-8-1~4.1.6
+:m RES 2*2 / free# JVEMV6 68#_222:1 / 68. theoretical-physics(tp) / w=コリオリ力；遠心力,topics=２次元：回転：座標系,other=q+:コリオリ力と遠心力。等しくなるための条件,doc=r-8-1~4.1.5#8
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
