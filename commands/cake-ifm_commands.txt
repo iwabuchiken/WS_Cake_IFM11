@@ -21,6 +21,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 3-2)------------------ start : opera browser ]]
 C:\WORKS_2\Programs\opera\launcher.exe
 
+3-3)------------------ start : filezilla : 2022年4月10日19:14:07 ]]
+"C:\WORKS_2\Programs\FileZilla FTP Client\filezilla.exe"
+
 
 //3-2)------------------ start : opera browser ]]
 //C:\WORKS_2\Programs\opera\launcher.exe
@@ -466,15 +469,20 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / s.1~* / memo,theme=fingering:dai-kan,content=~,for=list,other=~
 
 //-----template : song-id
-:m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,for=,other=~ / N~ 
+:m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,for=,other=~ / N~
 
-:m :篠笛,shinobue #*# / memo:song / song-id=13 / picture=~,content=p-1:①,for=,other=~ / N~ 
+//-----template : practice : 2022年4月11日9:09:57
+:m :篠笛,shinobue #*# / memo:practice / practice-id=~ / picture=~,content=~,for=,other=~ / N~
 
-:m :篠笛,shinobue #*# / memo:song / song-id=12 / picture=~,content=p-1:②;p-2:②,for=,other=~ / N~ 
- 
-:m :篠笛,shinobue #*# / memo:song / song-id=10 / picture=~,content=p-1;①,for=,other=~ / N~ 
+:m :篠笛,shinobue #*# / memo:practice / practice-id=1 / picture=~,content=~,for=transition,other=hole:4-3;4-3-2;4-4`-3-3` / N~
 
-:m :篠笛,shinobue #*# / memo:song / song-id=7 / picture=~,for=,page=1 / N~ 
+:m :篠笛,shinobue #*# / memo:song / song-id=17 / picture=~,content=p-1:①,for=,other=~ / N~
+
+:m :篠笛,shinobue #*# / memo:song / song-id=12 / picture=~,content=p-1:②;p-2:②,for=,other=~ / N~
+
+:m :篠笛,shinobue #*# / memo:song / song-id=10 / picture=~,content=p-1;①,for=,other=~ / N~
+
+:m :篠笛,shinobue #*# / memo:song / song-id=7 / picture=~,for=,page=1 / N~
 
 :m :篠笛,shinobue #*# / session-memo / s.1~s.2 / picture=~,content=rev;tm,for=,other=~ / N+
 
@@ -500,6 +508,13 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 copy,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~,Re~,other=song:りんご追分
 
 training,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
+
+//2022年4月11日9:02:15
+:m :篠笛,shinobue #*# / session-memo / s.1~* / memo,theme=fingering:dai-kan,content=~,for=list,,page=~,other=~
+
+:m :篠笛,shinobue #*# / session-memo / s.1~* / memo,theme=fingering:otsu,content=~,for=list,other=hole:6~q-1;7;0;0~-q,page=1
+
+:m :篠笛,shinobue #*# / session-memo / s.1~* / memo,theme=fingering:kan,content=~,for=list,other=hole:7-6-5h-7
 
 ###2021年12月11日22:04:31
 ============================== memo : bamboo-flute
@@ -736,7 +751,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_222:1 / 68. theoretical-physics(tp) / w=コリオリ力；遠心力,topics=２次元：回転：座標系,other=q+:コリオリ力と遠心力。等しくなるための条件,doc=r-8-1~4.1.5#8
+:m RES 2*2 / free# JVEMV6 68#_223:1 / 68. theoretical-physics(tp) / w=~,topics=２次元：回転：座標系,other=~,doc=r-8-1~4.1.4#1
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -919,6 +934,14 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================== memo
 
 :PHOTO 記録用 / @自宅；東側；洗面所から見える；東の犬走り / 自然観察 / 花
+
+
+###2022年4月11日9:00:21
+============================== 種を植える
+:PHOTO 記録用 / @自室前：ベランダ：プランター / target=種（たね） occasion=種を植えた species=冬菜,id=~
+
+:PHOTO 記録用 / @自室前：ベランダ：プランター / target=種（たね） occasion=種を植えた species=オクラ,id=2022-04-10_13-40-35_000.jpg
+
 
 ============================== 読んだ本 : 2021年7月24日8:40:34
 
