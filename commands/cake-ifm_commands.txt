@@ -22,7 +22,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 C:\WORKS_2\Programs\opera\launcher.exe
 
 3-3)------------------ start : filezilla : 2022年4月10日19:14:07 ]]
-"C:\WORKS_2\Programs\FileZilla FTP Client\filezilla.exe"
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-4_start_filezilla.bat
+
+//"C:\WORKS_2\Programs\FileZilla FTP Client\filezilla.exe"
+
 
 
 //3-2)------------------ start : opera browser ]]
@@ -474,7 +477,7 @@ regex :
 //-----template : practice : 2022年4月11日9:09:57
 :m :篠笛,shinobue #*# / memo:practice / practice-id=~ / picture=~,content=~,for=,other=~ / N~
 
-:m :篠笛,shinobue #*# / memo:practice / practice-id=1 / picture=~,content=~,for=transition,other=hole:4-3;4-3-2;4-4`-3-3` / N~
+:m :篠笛,shinobue #*# / memo:practice / practice-id=3 / picture=~,content=~,for=transition,other=hole:4`-7`;7`-4`-3` / N~
 
 :m :篠笛,shinobue #*# / memo:song / song-id=17 / picture=~,content=p-1:①,for=,other=~ / N~
 
@@ -758,15 +761,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m RES 1*2 / free# JVEMV6 68#_179:1 / 68. theoretical-physics(tp) / w=~,topics=量子力学：遷移確率(eman),other=~,s=~,i=~,doc=r-9-2~2.10#6
 
-:m RES 1*1 / free# JVEMV6 68#_id=LXVH / 68. theoretical-physics(tp) / w=~,topics=直交行列：各要素の性質,other=~,s=~,i=~,doc=~ 
 
 :m RES 1*1 / free# JVEMV6 68#_id=XXX / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~ 
 
 :m RES 1*1 / free# JVEMV6 68#_id=HSJI / 68. theoretical-physics(tp) / w=~,topics=行列：分配法則：乗法,other=~,s=~,i=~,doc=~ 
-
-:m RES 1*1 / free# JVEMV6 68#_id=SQW6 / 68. theoretical-physics(tp) / w=~,topics=ベクトルと、そのベクトルの逆ベクトル：絶対値は同じか？,other=~,s=~,i=~,doc=~ 
-
-:m RES 1*1 / free# JVEMV6 68#_id=PB5A / 68. theoretical-physics(tp) / w=~,topics=行列。2x2。行列式=0,１列目の行列、積はゼロ。２列目の行列、積はどうなるか？,other=emanさんの、量子力学。摂動のページ。を読んでいて、知りたくなった。,s=~,i=~,doc=~ 
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
@@ -1355,6 +1353,8 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\
 ###2022年3月28日9:21:27
 =================== url
 http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=68%23&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
+
+http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 
 ###2022年3月29日8:35:54
 =================== files
