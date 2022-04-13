@@ -754,7 +754,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_223:1 / 68. theoretical-physics(tp) / w=~,topics=２次元：回転：座標系,other=~,doc=r-8-1~4.1.4#1
+:m RES 2*2 / free# JVEMV6 68#_225:1 / 68. theoretical-physics(tp) / w=~,topics=回転座標系、ベクトル,other=memo+:-1.2:加速度ベクトル、グラフ,doc=r-8-1~4.1.2#5
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -763,6 +763,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 
 :m RES 1*1 / free# JVEMV6 68#_id=XXX / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~ 
+
+:m RES 1*1 / free# JVEMV6 68#_id=76FL / 68. theoretical-physics(tp) / w=~,topics=configurations-related:`トポロジー行列（自作）`,other=~,s=~,i=~,doc=~ 
 
 :m RES 1*1 / free# JVEMV6 68#_id=HSJI / 68. theoretical-physics(tp) / w=~,topics=行列：分配法則：乗法,other=~,s=~,i=~,doc=~ 
 
