@@ -469,7 +469,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~* / memo,theme=セッション中に浮かんだ考えを、書き留める,content=~,for=~,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1~* / picture=dai-kan,content=甲音との比較,for=,other=~ / N+
 
 //-----template : song-id
 :m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,for=,other=~ / N~
@@ -754,7 +754,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_226:1 / 68. theoretical-physics(tp) / w=角運動量,topics=回転座標系、ベクトル,other=~,doc=r-8-1~4.1.2#10.1
+:m RES 1*2 / free# JVEMV6 68#_227:3 / 68. theoretical-physics(tp) / w=~,topics=剛体：回転,other=calc+:-1.1:(r->X(w->Xr->)),doc=r-8-1~4.1.10#1.3
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
