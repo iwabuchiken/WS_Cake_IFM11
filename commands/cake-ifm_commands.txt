@@ -12,14 +12,18 @@ not-for-register files --> delete, move.
 	1. sweets		###2021年11月1日7:30:56
 2
 
+3-2)------------------ start : opera browser ]]
+C:\WORKS_2\Programs\opera\launcher.exe
+
+
 2) ------------------ change_file_names ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
 3)-------------- Delete_in-db-existing-files ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
-3-2)------------------ start : opera browser ]]
-C:\WORKS_2\Programs\opera\launcher.exe
+//3-2)------------------ start : opera browser ]]
+//C:\WORKS_2\Programs\opera\launcher.exe
 
 3-3)------------------ start : filezilla : 2022年4月10日19:14:07 ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-4_start_filezilla.bat
@@ -469,7 +473,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~* / theme=考え、書き留め,picture=~,content=一音ごとに、唇の形、違う。,for=,other=lang:korean / N~
+:m :篠笛,shinobue #*# / session-memo / s.1~* / todays-melody,genr=~,for=~,key=h:4`(E),tempo=~,R=~,i.f.=~,notes=hole:4`-4``-4``-7`-6`-5`-;pitch]1-5-5-4-3f,Re+,other=~,song-id=~
 
 //-----template : song-id
 :m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,for=,other=~ / N~
@@ -530,6 +534,8 @@ regex :
 ,([^=])+?=~
 
 :m :尺八,shakuhachi,bamboo #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=hole:2↓,tempo=~,R=~,i.f.=~,notes=~,Re+,other=~
+
+:m :尺八,shakuhachi,bamboo #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=1,i.f.=~,notes=~,Re+,other=~
 
 :m :尺八,shakuhachi,bamboo #*# / memo:song / song-id=~ / picture=~,content=~,for=,other=~ / N~ 
 
@@ -593,9 +599,9 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 :m :th / topic=和歌、漢詩。物理に役立つ。 / content=和歌、漢詩。物理に関する取り組み、何に取り組むか。考案するのに、役立つだろう。アラビア語その他での、調べ物活動も。「数学遊び」も。 / lang=ja
 
 
-=================== memo,video : shakuhachi,bamboo,尺八
+=================== memo,video : shakuhachi,bamboo,尺八,shaku:video
 
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=feeling:~,file-id=~,memo~
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=~,file-id=~,memo+
 
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
@@ -609,7 +615,8 @@ rev,for=~,ReX,tempo=~,other=~,key=~
 genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
 ###2021年6月13日9:11:14
-======== memo : jap.flute, video:shinobue
+======== memo : jap.flute, video:shinobue:video,shino:video
+
 regex : 
 [a-z]+=~,
 	 (<= this : 2021年11月15日10:00:59)
@@ -617,7 +624,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=重奏のための、伴奏としての、演奏,other=尺八との重奏
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=t.m.,i.f.=~,Re+,other=~
 
@@ -756,7 +763,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_230:1 / 68. theoretical-physics(tp) / w=ベクトル：外積、計算、公式,topics=極座標：運動方程式,other=メモなし,doc=r-9-2~3.2.1
+:m RES 2*2 / free# JVEMV6 68#_231:1 / 68. theoretical-physics(tp) / w=~,topics=極座標：運動方程式；基底ベクトル：微分；イプシロン記号；レビチビタ記号；,other=calc+:-2.2:イプシロン記号：計算,doc=r-8-1~9.1.2
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -1151,6 +1158,8 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO
+:m 東和 PHOTO / 220416sa / 川口駅 / 川口栄町３丁目銀座地区第一種市街地再開発事業 / １名 / 竹村コーポレーション（前田・サイカJV） / 日報
+
 :m 東和 PHOTO / 220416sa / 川口駅 / 川口栄町３丁目銀座地区第一種市街地再開発事業 / １名 / 竹村コーポレーション（前田・サイカJV） / 指示書
 
 :m 東和 PHOTO / 220402sa / 中野坂上駅 / 横浜市南区万世町二丁目計画 / １名 / 大同産業（池田建設） / 日誌
