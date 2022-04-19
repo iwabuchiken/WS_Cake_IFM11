@@ -475,11 +475,17 @@ regex :
 
 :m :篠笛,shinobue #*# / session-memo / s.1~* / todays-melody,genr=~,for=~,key=h:4`(E),tempo=~,R=~,i.f.=~,notes=hole:4`-4``-4``-7`-6`-5`-;pitch]1-5-5-4-3f,Re+,other=~,song-id=~
 
+regex : 
+[a-z]+=~,
 //-----template : song-id
-:m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,for=,other=~ / N~
+:m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,for=~,page=~,key=~,other=~ / N~
+
+:m :篠笛,shinobue #*# / memo:song / song-id=20 / for=,page=1,key=h:4(E),other=~ / N~
 
 //-----template : practice : 2022年4月11日9:09:57
-:m :篠笛,shinobue #*# / memo:practice / practice-id=~ / picture=~,content=~,for=,other=~ / N~
+:m :篠笛,shinobue #*# / memo:practice / practice-id=~ / picture=~,content=~,page=~,for=,other=~ / N~
+
+:m :篠笛,shinobue #*# / memo:practice / practice-id=~ / content=transition:hole:5`-3`;5`-6`,page=2,for=,other=~ / N~
 
 :m :篠笛,shinobue #*# / memo:practice / practice-id=3 / picture=~,content=~,for=transition,other=hole:4`-7`;7`-4`-3` / N~
 
@@ -530,6 +536,7 @@ training,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,othe
 
 regex : 
 [a-z]+=~,
+[a-zA-Z]+=~,
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
@@ -537,7 +544,9 @@ regex :
 
 :m :尺八,shakuhachi,bamboo #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=1,i.f.=~,notes=~,Re+,other=~
 
-:m :尺八,shakuhachi,bamboo #*# / memo:song / song-id=~ / picture=~,content=~,for=,other=~ / N~ 
+:m :尺八,shakuhachi,bamboo #*# / memo:song / song-id=~ / picture=~,content=~,page=~,key=~,notes=~,for=~,other=~ / N~ 
+
+:m :尺八,shakuhachi,bamboo #*# / memo:song / song-id=3 / key=h-2flat,notes=2-3-4d-5,other=~ / N~ 
 
 :m :尺八,shakuhachi,bamboo #*# / memo:song / song-id=1:① / picture=~,content=~,for=,other=~ / N~ 
 
@@ -626,7 +635,7 @@ regex :
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo+
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genr=t.m.,i.f.=~,Re+,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5(session-2) / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
 
@@ -763,7 +772,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_231:1 / 68. theoretical-physics(tp) / w=~,topics=極座標：運動方程式；基底ベクトル：微分；イプシロン記号；レビチビタ記号；,other=calc+:-2.2:イプシロン記号：計算,doc=r-8-1~9.1.2
+:m RES 4*4 / free# JVEMV6 68#_232:1 / 68. theoretical-physics(tp) / topics=基底ベクトル：微分,doc=r-8-1~9.1.2#5.4
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
