@@ -772,7 +772,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 4*4 / free# JVEMV6 68#_232:1 / 68. theoretical-physics(tp) / topics=基底ベクトル：微分,doc=r-8-1~9.1.2#5.4
+:m RES 3*3 / free# JVEMV6 68#_233:1 / 68. theoretical-physics(tp) / topics=ベクトル：微分,doc=r-8-1~9.1.2#8,other=memo+:クーロン力の勾配。rが３乗になる理由;,s=~,i=~
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -1322,6 +1322,10 @@ DELETE FROM ifm11 WHERE _id <= 54242;
 
 ###2022年3月28日9:38:45
 #DELETE FROM ifm11 WHERE _id <= 55411;
+
+###XXXTEMPLATE;DELETEXX
+#DELETE FROM ifm11 WHERE _id <= 55687;
+
 
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
