@@ -209,6 +209,8 @@ rem ==============================/
 2	11-0) update date.txt
 
 rem : add file path : 2022年3月1日9:13:29
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0_update_date.start.bat
+
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0) update date.txt"
 
 rem /==============================
@@ -481,7 +483,8 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~* / todays-melody,genr=~,for=~,key=h:4`(E),tempo=~,R=~,i.f.=~,notes=hole:4`-4``-4``-7`-6`-5`-;pitch]1-5-5-4-3f,Re+,other=~,song-id=~
+:m :篠笛,shinobue #*# / session-memo / s.1~* / picture=lip-shape:音。雑音が出ないようにする。口の形,other=see-also:file:2022-04-22_18-42-56_000.jpg
+
 
 regex : 
 [a-z]+=~,
@@ -792,7 +795,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_235:2 / 68. theoretical-physics(tp) / topics=量子力学,w=スリット,doc=r-7-A1~1.1.1#1.11,s=~,i=~,other=calc+:２つの光線。到達距離の比率
+:m RES 1*1 / free# JVEMV6 68#_236:2 / 68. theoretical-physics(tp) / topics=量子力学,w=スリット,doc=r-7-A1~1.1.1#5-2.3,s=~,i=~,other=calc+:サインカーブ。長さ。積分
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
