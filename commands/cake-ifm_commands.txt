@@ -68,8 +68,8 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8-2.restart-apps-aft
 //1-1) ------------------ restart : server ]]
 //C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
 
-//1-2) ------------------ open : sakura file ]]
-//C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
+1-2) ------------------ open : sakura file ]]
+C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 
 //1-2.1) ------------------ open : browser :  ]]
 //http://127.0.0.1:8000/im/
@@ -490,12 +490,16 @@ regex :
 [a-z]+=~,
 //-----template : song-id
 :m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,notes=~,for=~,page=~,key=~,other=~ / N~
-
+//song-id=s-XX
 :m :篠笛,shinobue #*# / memo:song / song-id=s-X / key=~,page=~,notes=~,other=~ / N~
 
 :m :篠笛,shinobue #*# / memo:song / song-id=s-3 / key=~,notes=4`-6`-6`-4`-6`-4`-6`-,other=~ / N~
 
+
 :m :篠笛,shinobue #*# / memo:song / song-id=s-1 / key=h-2(D),other=能で出てくるようフレーズ / N~
+
+//song-id=XX
+:m :篠笛,shinobue #*# / memo:song / song-id=22 / for=,page=1-2,key=h-2(C),notes=4-6-4-3-2-3-4,content=①~②:sabi~③~④,other=~ / N~
 
 :m :篠笛,shinobue #*# / memo:song / song-id=21 / for=,page=1,key=C,notes=p:1-2-3-3-2-2-1,other=~ / N~
 
@@ -503,6 +507,8 @@ regex :
 
 //-----template : practice : 2022年4月11日9:09:57
 :m :篠笛,shinobue #*# / memo:practice / practice-id=~ / picture=~,content=~,page=~,for=,other=~ / N~
+
+:m :篠笛,shinobue #*# / memo:practice / practice-id=2-③:transition:4`-6`-7` / picture=~,content=~,page=2,for=,other=~ / N~
 
 :m :篠笛,shinobue #*# / memo:practice / practice-id=~ / content=transition:hole:5`-3`;5`-6`,page=2,for=,other=~ / N~
 
@@ -795,7 +801,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_236:2 / 68. theoretical-physics(tp) / topics=量子力学,w=スリット,doc=r-7-A1~1.1.1#5-2.3,s=~,i=~,other=calc+:サインカーブ。長さ。積分
+:m RES 2*2 / free# JVEMV6 68#_237:2 / 68. theoretical-physics(tp) / topics=量子力学,w=((8πhν^3)/c^3*(1/(e^(hν/(kT))-1))),doc=r-7-A1~1.1.1#5-9.5,s=~,i=~,other=
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
