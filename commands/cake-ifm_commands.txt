@@ -483,7 +483,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~* / picture=lip-shape:音。雑音が出ないようにする。口の形,other=see-also:file:2022-04-22_18-42-56_000.jpg
+:m :篠笛,shinobue #*# / session-memo / s.1~* / picture=lip-shape:dai-kan:唇の、後部の形,other=~
 
 
 regex : 
@@ -801,7 +801,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_237:2 / 68. theoretical-physics(tp) / topics=量子力学,w=((8πhν^3)/c^3*(1/(e^(hν/(kT))-1))),doc=r-7-A1~1.1.1#5-9.5,s=~,i=~,other=
+:m RES 2*2 / free# JVEMV6 68#_238:2 / 68. theoretical-physics(tp) / topics=量子力学,w=次元,doc=r-7-A1~1.1.1#6-5,s=~,i=~,other=memo+:次元解析；memo+:グラフ
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -865,7 +865,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#126_mooshi / 『孟子』 著者=~,校注=~ / p.335 / w=~舜；禹；湯,topic=~,other=地図
 
-:m #*# RES / JVEMV6 64#94_kinshiroku / 『近思録』 著者=~,校注=~ / p.1 / w=無極；太極；五行,topic=道体,other=~
+:m #*# RES / JVEMV6 64#94_kinshiroku / 『近思録』 著者=~,校注=~ / p.1 / w=無極；太極,topic=道体,other=~
 
 -----2022年2月28日10:44:43
 :m #*# RES / JVEMV6 64#130_eki / 『新釈漢文大系　２３　易経　上』 著者=今井宇三郎,校注=~ / p.~ / w=乾上乾下；倭点,topic=~,other=~
