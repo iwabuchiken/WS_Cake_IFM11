@@ -22,6 +22,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 3)-------------- Delete_in-db-existing-files ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
+//2022年5月8日19:11:11
+3-1)-------------- move files to HD ]]
+to : G:\tmp.20220507_191202
+
+
 //3-2)------------------ start : opera browser ]]
 //C:\WORKS_2\Programs\opera\launcher.exe
 
@@ -34,6 +39,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-4_start_filezilla.bat
 
 //3-2)------------------ start : opera browser ]]
 //C:\WORKS_2\Programs\opera\launcher.exe
+
+3-3)-------- move : files / 2022年5月11日8:51:36 ]]
+//move G:\tmp.20220507_191202\* C:\WORKS_2\WS\WS_Cake_IFM11\tmp
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-5_move-files_HD-to-tmp.bat
+
 
 4)------------------ start : edit memos ]]
 
@@ -484,7 +494,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~* / picture=lip-shape:dai-kan:唇の、後部の形,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1~* / memo=始めるとき；終わる時：やること
 
 
 regex : 
@@ -586,7 +596,8 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :尺八,shakuhachi,bamboo #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=hole:2↓,tempo=~,R=~,i.f.=~,notes=~,Re+,other=~
+//-----template : session-memo
+:m :尺八,shakuhachi,bamboo #*# / session-memo / s.1:todays-melody,key=h-2,i.f.=~,notes=pitch:L7f-3-1,ReX,other=~
 
 :m :尺八,shakuhachi,bamboo #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=1,i.f.=~,notes=~,Re+,other=~
 
@@ -664,6 +675,9 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=~ / content=~ / lang=ja
 
+//2022年5月11日9:29:20
+:m :th / topic=物理の調べについて / content=物理。私がやろうとしていること。新しいこと、ではない。方法から、試行錯誤で始める。 / lang=ja
+
 :m :th / topic=思索 / content=土壌に、いま何があるか、見ることもなく、それらを引き抜き、別の苗を植える。その土壌から見れば、殺人に近い。 / lang=ja;cn
 
 :m :th / topic=和歌、漢詩。物理に役立つ。 / content=和歌、漢詩。物理に関する取り組み、何に取り組むか。考案するのに、役立つだろう。アラビア語その他での、調べ物活動も。「数学遊び」も。 / lang=ja
@@ -674,7 +688,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //-----template : 2022年5月4日9:12:21
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=~,file-id=~,memo+
 
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=~,file-id=~,memo+
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=~,file-id=~,memo?
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
 
@@ -697,6 +711,8 @@ regex :
 
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo+
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo?
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo+
 
@@ -836,7 +852,8 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_250:2 / 68. theoretical-physics(tp) / topics=一般化二項定理；テイラーの定理,w=余剰項,doc=r-7-A1~2.2.7#2-2;2-2.1,s=~,i=~,other=calc+
+:m RES 2*2 / free# JVEMV6 68#_253:1 / 68. theoretical-physics(tp) / topics=ハミルトンの原理；ルジャンドル変換,w=~,doc=r-7-A1~2.1.1#7,s=~,i=~,other=SEG:r-7-A1~2.6.2;calc+
+
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
