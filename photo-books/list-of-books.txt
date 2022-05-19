@@ -53,7 +53,11 @@
 	62_クラブマガ
 	63_relativity_shutz
 	65_正三
+	
 	66_sekimon
+	n : 66_1_goroku	石門心学：語録]2022年5月18日17:10:14
+	n : 66_3_baku	石門心学：莫妄想]2022年5月18日17:10:14
+	
 	67_論語
 	68_daigaku
 	69_mandel
@@ -154,7 +158,8 @@
 	n : 135-62.2_sanka	]2021年12月10日10:38:12
 	
 	n : 140_wasendulo	]2021年12月11日15:01:48		
-		C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\140_wasendulo\list-of-texts.txt
+		G:\photo-books\140_wasendulo\list-of-texts.txt
+		//C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\140_wasendulo\list-of-texts.txt
 		
 		http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=64%23+140-&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 	
@@ -268,7 +273,13 @@
 	n : 164.1_b-1	日本書紀：巻一]2022年5月11日13:06:16
 	n : 164.1.1~	日本書紀：巻一：第１章～]2022年5月11日13:06:16
 	
+	n : 165_bokushi	]2022年5月16日8:58:10
 	
+	n : 165.intro	]2022年5月16日8:58:10
+	n : 165.1_1-3	]2022年5月16日8:58:10
+	
+	n : 166_shinkokin	新古今和歌集]2022年5月18日16:02:12
+	n : 166.1_haru	新古今和歌集]2022年5月18日16:02:12
 	
 	n : 16X_XXX	]XXX
 
