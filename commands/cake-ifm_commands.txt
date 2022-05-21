@@ -506,6 +506,8 @@ regex :
 //-----template : song-id
 :m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,notes=~,for=~,page=~,key=~,R=~,other=~ / N~
 
+:m :篠笛,shinobue #*# / memo:song / song-id=nie-jeszcze / picture=~,content=~,notes=4`-4`-3`-2`-3`,for=~,page=1,key=h-2(C),R=1,other=~ / N~
+
 :m :篠笛,shinobue #*# / memo:song / song-id=i-31 / picture=~,content=~,notes=4-7-4-7-0~0-7-4h-4,for=~,page=1:①～③,key=~,R=~,other=~ / N~
 
 :m :篠笛,shinobue #*# / memo:song / song-id=i-30 / picture=~,content=~,notes=h:4`-7`-6`-0`-7`-4`,for=~,page=1,key=~,R=~,other=~ / N~
@@ -866,7 +868,8 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_260:2 / 68. theoretical-physics(tp) / topics=波動方程式；位相速度；群速度,w=~,doc=r-7-A1~1.1.3#2.1,s=~,i=~,other=calc+;calc+
+:m RES 2*2 / free# JVEMV6 68#_261:2 / 68. theoretical-physics(tp) / topics=波動方程式；シュレーディンガー方程式,w=~,doc=r-7-A1~1.1.3#4,s=~,i=~,other=calc+:(ħ^2/(2m)*(∂^2/∂x^2(ψ)))
+
 
 
 
@@ -919,9 +922,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#99_chuuyou / 『新釈漢文大系　２　大学・中庸』 著者=赤塚忠,校注=~ / p.263 / w=達道；三知；三行；三近,topic=~,publisher=明治書院,other=~
 
 //2022年5月4日9:23:45
-:m 1-4*4 RES / JVEMV6 64#162_daikei / 『意釈黄帝内経素問』 著者=小曽戸丈夫、浜田善利,校注=~ / p.~ / w=~,topic=~,publisher=築地書館,other=~
+:m 1*1 RES / JVEMV6 64#162_daikei / 『意釈黄帝内経素問』 著者=小曽戸丈夫、浜田善利,校注=~ / p.「生気...」 / w=経絡,topic=~,publisher=築地書館,other=webテキスト
 
-:m 1-4*4 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.1 / w=海道蝦夷；阿弖流為；征討使；母礼,topic=~,publisher=吉川弘文館,other=~
+:m 1-2*2 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.4 / w=徳政相論；桓武天皇,topic=~,publisher=吉川弘文館,other=~
 
 :m #*# RES / JVEMV6 64#162_daikei / 『黄帝内経素問』 著者=??,校注=?? / p.362 / w=~,topic=~,publisher=~,other=~
 
@@ -1025,6 +1028,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m / misc / topic=~ / content=~,other=~
 
+:m #*# / memo:other(m:other) / topic=短歌作り, about=~,other=「蟻の出る季節になりぬ」,id=~ 
+ 
 :m / misc / topic=短歌：上の句を入れたい / content=~,other=橋埋づめるらん四方の紅葉ば
 
 :m / misc / topic=焼酎漬け / content=ディルを漬けた焼酎。水彩絵具を洗ったあとの、筆洗の水の臭い。ニンニクを足すと、他の臭いに変わるか？
@@ -1096,6 +1101,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================== 読みたい本 : 2021年7月24日8:41:12
 
 :m 読みたい本 / ジャンル　分野　リスト / 岩波新書　『戦没農民兵士の手紙』、裏表紙 / genre=記録
+
+
+###2022年5月21日9:24:04
+========================== 記録しておきたいもの
+:PHOTO 記録しておきたいもの / @東和現場：最寄り=西谷駅（電車）、上菅田小学校（バス）：location=詰所から打設現へ行く途中 / subject=地層。 / content=掘り下げた一画。一画の端。削り残した、土壁。地層。色が違う。
 
 ###2021年8月1日9:39:34
 ========================== ペガスス
@@ -1295,6 +1305,8 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo
+:m 東和 PHOTO / 220520sa / 西谷駅（電車）。上菅田小学校（バス） / 上菅田笹の丘小学校建替工事 / １名 / 金子工業所（松尾・風越・石井JV） / 日報
+
 :m 東和 PHOTO / 220514sa / 長原駅 / クレイシア中馬込新築工事 / １名 / ホクシン設備（小川建設） / 日報
 
 :m 東和 PHOTO / 220507sa / 幡ヶ谷駅 / プレール・ドゥーク渋谷幡ヶ谷 / １名 / ホクシン設備（㈱シマ） / 指示書
