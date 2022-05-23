@@ -30,6 +30,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 3-1)-------------- move files to HD ]]
 to : G:\tmp.20220507_191202
 
+//2022年5月22日19:09:33
+3-1-1)-------------- mobile ]]
+コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
 
 //3-2)------------------ start : opera browser ]]
 C:\WORKS_2\Programs\opera\launcher.exe
@@ -504,7 +507,7 @@ regex :
 regex : 
 [a-z]+=~,
 //-----template : song-id
-:m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,notes=~,for=~,page=~,key=~,R=~,other=~ / N~
+:m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,notes=~,for=~,page=~,key=~,R=1,memo-id=~,other=~ / N~
 
 :m :篠笛,shinobue #*# / memo:song / song-id=nie-jeszcze / picture=~,content=~,notes=4`-4`-3`-2`-3`,for=~,page=1,key=h-2(C),R=1,other=~ / N~
 
@@ -612,13 +615,15 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-//-----template : session-memo
+//-----template : session-memo,memo_shaku
 :m :尺八,shakuhachi,bamboo #*# / session-memo / s.1:todays-melody,key=h-2,i.f.=~,notes=pitch:L7f-3-1,ReX,other=~
 
 :m :尺八,shakuhachi,bamboo #*# / session-memo / s.1:todays-melody,genr=~,for=~,key=~,tempo=~,R=1,i.f.=~,notes=~,Re+,other=~
 
 //-----template : song-id
 :m :尺八,shakuhachi,bamboo #*# / memo:song / song-id=~ / picture=~,content=~,page=~,key=~,notes=~,for=~,R=~,other=~ / N~ 
+
+:m :尺八,shakuhachi,bamboo #*# / memo:song / song-id=nie-jeszcze / picture=~,content=~,page=~,key=~,notes=~,for=~,R=~,other=~ / N~ 
 
 :m :尺八,shakuhachi,bamboo #*# / memo:song / song-id=6 / picture=~,content=~,page=1:①,key=~,notes=~,for=~,other=title:２－５の曲;R=1 / N+
 
@@ -681,6 +686,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 ###2021年11月5日9:11:50
 ============================== やることリスト
 :m やることリスト / steps / occasion=XX~XX / for=~,at=~,other=~
+
+:m やることリスト / steps / occasion=掃除機をかける / for=トイレ；階段；押し入れ,at=~,other=~
 
 :m やることリスト / steps / occasion=風呂出る~寝る / for=~,at=自室,other=~
 
@@ -868,10 +875,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_261:2 / 68. theoretical-physics(tp) / topics=波動方程式；シュレーディンガー方程式,w=~,doc=r-7-A1~1.1.3#4,s=~,i=~,other=calc+:(ħ^2/(2m)*(∂^2/∂x^2(ψ)))
-
-
-
+:m RES 1*1 / free# JVEMV6 68#_263:2 / 68. theoretical-physics(tp) / topics=波動方程式；量子条件,w=(∮pdq=nh),doc=r-7-A1~1.1.1#P-4,s=~,i=~,other=calc+;memo+
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -1546,4 +1550,5 @@ video_shi
 shaku
 156_2
 memo_shi
+memo_shaku
 68#
