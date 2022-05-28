@@ -40,6 +40,7 @@
 	2_takahashi
 	42-chapters
 	51_本朝食鑑
+		51_honchoo	//2022年5月24日9:32:57
 	52_護身術
 	53_実践護身術
 	54_maga
@@ -254,7 +255,9 @@
 	
 	
 	n : 159_38_years_war	]2022年4月29日16:07:09
-	
+		
+			http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=64%23+159&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
+		
 	n : 160_fuushikaden	風姿花伝]2022年5月1日15:07:15
 	
 	n : 161_goseibai	御成敗式目]2022年5月1日15:14:15
@@ -280,6 +283,9 @@
 	
 	n : 166_shinkokin	新古今和歌集]2022年5月18日16:02:12
 	n : 166.1_haru	新古今和歌集]2022年5月18日16:02:12
+	n : 167_denshuuroku	伝習録]2022年5月26日12:09:20
+	
+	n : 168_ooshio_senshin	大塩中斎：洗心洞]2022年5月26日12:12:58
 	
 	n : 16X_XXX	]XXX
 

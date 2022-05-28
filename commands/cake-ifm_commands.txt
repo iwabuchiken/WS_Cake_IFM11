@@ -600,7 +600,7 @@ copy,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~,Re~,other=song:りんご追�
 training,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 //2022年4月11日9:02:15
-:m :篠笛,shinobue #*# / session-memo / s.1~* / memo,theme=fingering:dai-kan,content=~,for=list,,page=~,other=~
+:m :篠笛,shinobue #*# / session-memo / s.1~* / memo,theme=半音。四分音,content=~,for=list,,page=~,other=図、あり
 
 :m :篠笛,shinobue #*# / session-memo / s.1~* / memo,theme=fingering:otsu,content=~,for=list,other=hole:6~q-1;7;0;0~-q,page=1
 
@@ -684,8 +684,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 
 ###2021年11月5日9:11:50
-============================== やることリスト
+============================== やることリスト,todo_list
 :m やることリスト / steps / occasion=XX~XX / for=~,at=~,other=~
+
+:m やることリスト / steps / occasion=外出：図書館、他 / for=外出：やることのリスト。行き先、やること。順番,at=~,other=~
 
 :m やることリスト / steps / occasion=掃除機をかける / for=トイレ；階段；押し入れ,at=~,other=~
 
@@ -735,7 +737,7 @@ regex :
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo+
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=phrase,for=~,other=~,memo~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=phrase,for=~,other=sequence:2022-05-23_18-08-32_000.mp4,memo~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo+
 
@@ -875,7 +877,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_263:2 / 68. theoretical-physics(tp) / topics=波動方程式；量子条件,w=(∮pdq=nh),doc=r-7-A1~1.1.1#P-4,s=~,i=~,other=calc+;memo+
+:m RES 1*1 / free# JVEMV6 68#_267:2 / 68. theoretical-physics(tp) / topics=波動方程式；演算子,w=~,doc=r-7-A1~1.1.1:#12,s=~,i=~,other=calc+;calc+
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -919,6 +921,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+//2022年5月28日11:19:27
+:m #*# RES / JVEMV6 64#164.1_nihonshoki / 『日本書紀』 著者=~,校注=小島憲之；直木孝次郎、他 / p.19 / w=国常立尊[くにのとこたちのみこと,topic=~,publisher小学館,other=~
+
 //2022年5月8日10:29:29
 :m #*# RES / JVEMV6 64#67_16_kishi / 『論語 季氏』 著者=~,校注=~ / p.367 / w=~,topic=~,publisher=明治書院,other=年表：三桓子；魯国
 
@@ -928,7 +933,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //2022年5月4日9:23:45
 :m 1*1 RES / JVEMV6 64#162_daikei / 『意釈黄帝内経素問』 著者=小曽戸丈夫、浜田善利,校注=~ / p.「生気...」 / w=経絡,topic=~,publisher=築地書館,other=webテキスト
 
-:m 1-2*2 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.4 / w=徳政相論；桓武天皇,topic=~,publisher=吉川弘文館,other=~
+:m 1*1 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.19 / w=,topic=~,publisher=吉川弘文館,other=~
 
 :m #*# RES / JVEMV6 64#162_daikei / 『黄帝内経素問』 著者=??,校注=?? / p.362 / w=~,topic=~,publisher=~,other=~
 
@@ -1249,8 +1254,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 
 ###2021年11月13日8:47:55
-========================== :PHOTO 記録 / 日誌
+========================== :PHOTO 記録 / 日誌,photo:diary
 :PHOTO 記録 / @~ / what=~ / for=~ / occasion=~,other=~
+
+:PHOTO 記録 / @自室 / what=オムツ他、返却。準備。拵え / for=~ / occasion=退院時。オムツ、パッド。返却要求。,other=~
 
 :PHOTO 記録 / 日誌 / @自室 / what=マウスピース / occasion=水を交換した,for=~
 
@@ -1308,7 +1315,9 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 
 ###2022年2月26日10:43:42
-============================ 東和:PHOTO,towa:photo
+============================ 東和:PHOTO,towa:photo,towa:memo
+:m 東和 PHOTO / 220527sa / 武蔵小山駅（電車） / 宮崎光男様マンション / １名（設備の相番：タニモトさん。明大前営業所） / TONY電設（東建コーポレーション） / 指示書
+
 :m 東和 PHOTO / 220520sa / 西谷駅（電車）。上菅田小学校（バス） / 上菅田笹の丘小学校建替工事 / １名 / 金子工業所（松尾・風越・石井JV） / 日報
 
 :m 東和 PHOTO / 220514sa / 長原駅 / クレイシア中馬込新築工事 / １名 / ホクシン設備（小川建設） / 日報
@@ -1356,6 +1365,12 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ============================== delete entries from db
 
 "C:\WORKS_2\Programs\DB Browser for SQLite.3.10.0\DB Browser for SQLite.exe"
+
+###XXXTEMPLATE;DELETEXX
+DELETE FROM ifm11 WHERE _id <= XXX;
+
+###2022年5月23日9:44:27
+DELETE FROM ifm11 WHERE _id <= 56163;
 
 DELETE FROM ifm11 WHERE _id <= 46693;
 DELETE FROM ifm11 WHERE _id <= 47366;
