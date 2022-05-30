@@ -877,7 +877,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_267:2 / 68. theoretical-physics(tp) / topics=波動方程式；演算子,w=~,doc=r-7-A1~1.1.1:#12,s=~,i=~,other=calc+;calc+
+:m RES 2*2 / free# JVEMV6 68#_269:2 / 68. theoretical-physics(tp) / topics=波動方程式,w=~,doc=r-7-A1~1.1.1:#13,s=~,i=~,other=found+:wと、サインカーブの移動の、方向。
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -1184,6 +1184,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================== :VOICE-MEMO bird
 
 :VOICE-MEMO / @自室 / record / bird / 鳥の声, other=~
+###2022年5月30日10:32:50
+============================== :VOICE-MEMO:朗読
+:VOICE-MEMO / @自宅 / メモ / topic=朗読：中庸 / content=dan-4.shoo-2-2:「其の次は曲を致め、曲ごとに能く誠あらしめ」
+
+:VOICE-MEMO / @自宅 / メモ / topic=朗読：大学 / content=shoodan-3.setsu-3:「」
 
 
 ###2021年8月25日10:40:21
