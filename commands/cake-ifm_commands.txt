@@ -501,7 +501,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1~* / memo=始めるとき；終わる時：やること
+:m :篠笛,shinobue #*# / session-memo / s.1~* / todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=4``-7`-4`-7`-4``-7`-4``-,Re+,other=~,song-id=~
 
 
 regex : 
@@ -578,6 +578,7 @@ regex :
  
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
+//texts:song memos // 2022年6月2日10:48:08
 follow,R=~,ReX,file-id=~,key=~,other=~,notes=~
 todays-melody,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,notes=~,Re+,other=~,song-id=~
 
@@ -711,7 +712,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 =================== memo,video : shakuhachi,bamboo,尺八,shaku:video,video:shaku,video_shaku
 
 //-----template : 2022年5月4日9:12:21
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re+,other=~,file-id=~,memo+
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re~,other=~,file-id=~,memo~
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / genr=technique,Re+,other=~,file-id=~,memo~
 
@@ -877,7 +878,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_269:2 / 68. theoretical-physics(tp) / topics=波動方程式,w=~,doc=r-7-A1~1.1.1:#13,s=~,i=~,other=found+:wと、サインカーブの移動の、方向。
+:m RES 2*2 / free# JVEMV6 68#_272:3 / 68. theoretical-physics(tp) / topics=波動方程式：ポテンシャル井戸,w=~,doc=r-7-A1~1.1.1:#16,s=~,i=~,other=calc+
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -933,7 +934,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //2022年5月4日9:23:45
 :m 1*1 RES / JVEMV6 64#162_daikei / 『意釈黄帝内経素問』 著者=小曽戸丈夫、浜田善利,校注=~ / p.「生気...」 / w=経絡,topic=~,publisher=築地書館,other=webテキスト
 
-:m 1*1 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.19 / w=,topic=~,publisher=吉川弘文館,other=~
+:m 1-2*2 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.15 / w=覚ベツ城；磐井郡；紀広純；伊治[これはり]城；大領,topic=~,publisher=吉川弘文館,other=~
 
 :m #*# RES / JVEMV6 64#162_daikei / 『黄帝内経素問』 著者=??,校注=?? / p.362 / w=~,topic=~,publisher=~,other=~
 
@@ -1031,11 +1032,22 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :do / topic=日記：書くこと / content=ロシア語。中国語。アラビア語
 
+###2022年6月2日10:52:20
+=============== memo :頭に浮かんだこと
+:m / 頭に浮かんだこと / topic=~ / occasion=~,content=~,other=~
+
+:m / 頭に浮かんだこと / topic=東和の同僚の人 / occasion=朝の体操：「走り」,content=腰を痛めている人。筋トレはやっているのか、と思いを馳せる,other=~
+
 
 ###2021年11月8日9:39:16
 =============== memo :misc
+//template
+//:m / misc / topic=~ / content=~,other=~
+:m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
 
-:m / misc / topic=~ / content=~,other=~
+:m #*# / memo:other(m:other) / topic=お兄さんからのメール, about=お父さんの、入院他の費用,content=お母さんにも、負担をしてもらいたい,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=母親の、ゴミ箱の扱いについて, about=~,content=「自分の手は汚さない」,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=短歌作り, about=~,other=「蟻の出る季節になりぬ」,id=~ 
  
