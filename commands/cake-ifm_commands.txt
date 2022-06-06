@@ -878,7 +878,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_272:3 / 68. theoretical-physics(tp) / topics=波動方程式：ポテンシャル井戸,w=~,doc=r-7-A1~1.1.1:#16,s=~,i=~,other=calc+
+:m RES 1*1 / free# JVEMV6 68#_275:2 / 68. theoretical-physics(tp) / topics=波動方程式：ポテンシャル井戸,w=~,doc=r-7-A1~1.1.1:#17-3,s=~,i=~,other=calc+;memo+
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -1038,12 +1038,25 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m / 頭に浮かんだこと / topic=東和の同僚の人 / occasion=朝の体操：「走り」,content=腰を痛めている人。筋トレはやっているのか、と思いを馳せる,other=~
 
+###2022年6月6日10:10:41
+=============== memo :頭に浮かんだこと
+:m / 頭に浮かんだこと：想い出したこと / topic=~ / occasion=朝の筋トレ：終わり頃,content=以前の、ヨーロッパへの旅行。アテネ。ブルガリアのソフィアだったか。タクシーのおじさんに、`girl はどこ？`と尋ねた,other=~
+
 
 ###2021年11月8日9:39:16
 =============== memo :misc
 //template
 //:m / misc / topic=~ / content=~,other=~
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+//2022年6月6日10:29:03
+:m #*# / memo:other(m:other) / topic=ペガスス：予定, about=~,content=７月２１日木曜、２２日金曜,other=~,id=~ 
+
+//2022年6月6日10:30:34
+:m #*# / memo:other(m:other) / topic=お父さんの入院、ホームでの行動：お兄さんとの、ラインでの、オンライン・打ち合わせ；お母さんも入る, about=打ち合わせ内容についてのメモ。自作ntent=~,other=~,id=~ 
+
+//2022年6月6日10:21:37
+:m #*# / memo:other(m:other) / topic=予行。お兄さんとの、ラインでの、オンライン・打ち合わせ；お母さんも入る, about=進行順序：お母さんのタブレットに、ラインをインストール,content=~,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=お兄さんからのメール, about=お父さんの、入院他の費用,content=お母さんにも、負担をしてもらいたい,other=~,id=~ 
 
@@ -1138,6 +1151,15 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 :PHOTO 記録しておきたいもの / @上町駅近く、東和現場へ行く途中 / object=店舗：喫茶店。ポーランド語の店名：「ヤスクーカ」,photo-for=記録
 
 
+###2022年6月6日10:02:52
+============================== :m 保管場所
+:m 保管場所 / what=~ / location=~,expire=~,other=~
+
+:m 保管場所 / what=アース・ノーマット：詰替用、溶剤ボトル / location=西側の棚、北側。一番上の段,expire=１年間
+
+:m 保管場所 / SDカード、３２GB　/ 机の引き出し　=>　上から１番目
+
+
 ###2021年8月17日12:50:42
 ============================== memo : math
 
@@ -1213,8 +1235,13 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 ###2022年5月15日10:18:43
 ======================== :PHOTO 記録用 : 開始、終了
+//2022年6月6日10:00:14
+:PHOTO 記録 / @自室 / what=アース・ノーマット：溶剤ボトル / for=~ / occasion=終了：使い切った
+
 
 :PHOTO 記録 / @自室 / subject=イヤホン：使用 / for=~ / occasion=開始,other=~
+
+
 
 ###2021年8月25日11:14:51
 ============================== :i drink-alcohol
@@ -1333,6 +1360,9 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo,towa:memo
+
+:m 東和 PHOTO / 220604sa / 大森駅（京浜東北線） / 大田区山王２丁目プロジェクト / １名（電気） / 日向電気（北信土建） / 指示書
+
 :m 東和 PHOTO / 220527sa / 武蔵小山駅（電車） / 宮崎光男様マンション / １名（設備の相番：タニモトさん。明大前営業所） / TONY電設（東建コーポレーション） / 指示書
 
 :m 東和 PHOTO / 220520sa / 西谷駅（電車）。上菅田小学校（バス） / 上菅田笹の丘小学校建替工事 / １名 / 金子工業所（松尾・風越・石井JV） / 日報
@@ -1354,6 +1384,8 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 //2022年4月17日12:44:44
 時刻：部屋に戻った
 
+//2022年6月6日9:57:10
+出発時間：部屋を出る時間
 
 http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=東和&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 
