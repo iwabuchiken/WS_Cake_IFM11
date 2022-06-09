@@ -12,9 +12,11 @@ not-for-register files --> delete, move.
 	1. sweets		###2021年11月1日7:30:56
 2
 
-3-2)------------------ start : opera browser ]]
-C:\WORKS_2\Programs\opera\launcher.exe
+//3-2)------------------ start : opera browser ]]
+//C:\WORKS_2\Programs\opera\launcher.exe
 
+3-2)------------------ start : yandex browser ]]
+C:\Users\iwabuchiken\AppData\Local\Yandex\YandexBrowser\Application\browser.exe
 
 2) ------------------ change_file_names ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
@@ -712,7 +714,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 =================== memo,video : shakuhachi,bamboo,尺八,shaku:video,video:shaku,video_shaku
 
 //-----template : 2022年5月4日9:12:21
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,Re~,other=~,file-id=~,memo~
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,for=~,Re~,other=~,file-id=~,memo~
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / genr=technique,Re+,other=~,file-id=~,memo~
 
@@ -736,7 +738,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=phrase,for=~,other=sequence:2022-05-23_18-08-32_000.mp4,memo~
 
@@ -878,7 +880,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_275:2 / 68. theoretical-physics(tp) / topics=波動方程式：ポテンシャル井戸,w=~,doc=r-7-A1~1.1.1:#17-3,s=~,i=~,other=calc+;memo+
+:m RES 3*3 / free# JVEMV6 68#_279:2 / 68. theoretical-physics(tp) / topics=量子力学,w=(2H''-2ξH+2λH=0),doc=r-7-A1~1.1.1:#18-1,s=~,i=~,other=~
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -951,7 +953,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#143_minshuu / 『日本思想大系５８　民衆運動の思想　三浦命助　露顕状』 著者=~,校注=~ / p.14 / w=小友村；宮古市；栗橋村；遠野市,topic=~,other=地図
 
-:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=いたし奥女中～用金申付是迄 / p.~ / topic=~,other=~
+:m #*# RES / JVEMV6 64#140-7.5 / 『大坂一件大塩平八郎存書』 / w=用金申付是迄～候得共江戸 / p.~ / topic=~,other=~
 
 :m #*# RES / JVEMV6 64#90_?? / 『日本古典文学大系　９５　折たく柴の記』 小高、松村、校注 / p.254 / w:近衛信尹,topic:~ / N~
 
@@ -1048,6 +1050,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 //:m / misc / topic=~ / content=~,other=~
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+//2022年6月9日10:06:00
+:m #*# / memo:other(m:other) / topic=祈りの文句, about=~,content=「一日、守ってください」,other=~,id=~ 
 
 //2022年6月6日10:29:03
 :m #*# / memo:other(m:other) / topic=ペガスス：予定, about=~,content=７月２１日木曜、２２日金曜,other=~,id=~ 
@@ -1230,6 +1235,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :PHOTO 記録用 / location=~ / topic=~, subject=~, other=~
 
+//2022年6月9日9:42:36
+:PHOTO 記録用 / location=自宅 / topic=土地権利書、他, subject=お母さんの資産、把握。お父さんの入院の出来事を受けて, other=~
+
 :PHOTO 記録用 / location=自室 / topic=~, subject=猫の固形エサ, other=仕込んだところ：市販の１袋、４袋の小分け、４つ全てを、それぞれ別のフリーザバッグの袋へ
 
 
@@ -1327,6 +1335,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================ コレポン
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
+
+//2022年6月9日10:01:25
+:PHOTO 記録 / 文書：コレポン / #*# / about=周知の面談の件：事故発生を受けて,with=東和：横浜,content=~,other=~ / N~
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=予約忘れ、すみません；改めて予約,with=スズキ歯科（宮崎台駅、近く）,content=~,other=~ / N~
 

@@ -287,7 +287,28 @@
 	
 	n : 168_ooshio_senshin	大塩中斎：洗心洞]2022年5月26日12:12:58
 	
-	n : 16X_XXX	]XXX
+	n : 169_geinoo_kigen	]2022年6月6日14:15:34
+	n : 169_1_geinoo_kigen	]2022年6月6日14:15:34
+	
+	n : 170_nookagaku_geijutu	]2022年6月6日14:26:55
+	n : 170_1_nookagaku_geijutu	]2022年6月6日14:26:55
+	
+	n : 171_shunjuu	]2022年6月6日14:49:23
+	n : 171_1_vol_1_shunjuu	]2022年6月6日14:49:23
+	n : 171_1_1_yin	]2022年6月6日14:49:23
+	n : 171_1_1.1_yin	]2022年6月6日14:49:23
+	
+	n : 172_religion_kobayashi	]2022年6月7日9:57:08
+	n : 172_1_religion_kobayashi	]2022年6月7日9:57:08
+	
+	n : 173_shingin	]2022年6月7日10:08:39
+	n : 173_ch.2_1_shingin	]2022年6月7日10:08:39
+	
+	n : 174_ooi	]2022年6月7日10:11:19
+	n : 174_0_intro	]2022年6月7日10:11:19
+	n : 174_1.1_5-jue	]2022年6月7日10:11:19
+	
+	n : 17X_XXX	]XXX
 
 
 @@@
@@ -345,6 +366,18 @@ C:\WORKS_2\shortcuts_docs\log-session_JVE_64_ALL.log
 [db+15].
 
 
+###2022年6月7日10:43:43
+=================== convert --> to jpg
+https://convertio.co/ja/txt-jpg/
+
+1. upload : 
+	from : C:\WORKS_2\WS\WS_Cake_IFM11\photo-books
+2. convert
+3. download
+4. open zip file
+
+
+
 ###2022年4月29日16:09:31
 =================== open : console
 
@@ -359,4 +392,5 @@ start C:\WORKS_2\a
 
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books
 
+G:\photo-books
 
