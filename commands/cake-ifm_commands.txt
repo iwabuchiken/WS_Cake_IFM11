@@ -29,18 +29,18 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-5_move-files_HD-to-tmp.bat
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
 //2022年5月8日19:11:11
-3-1)-------------- move files to HD ]]
-to : G:\tmp.20220507_191202
+//3-1)-------------- move files to HD ]]
+//to : G:\tmp.20220507_191202
 
 //2022年5月22日19:09:33
-3-1-1)-------------- mobile ]]
-コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
+//3-1-1)-------------- mobile ]]
+//コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
 
 //3-2)------------------ start : opera browser ]]
-C:\WORKS_2\Programs\opera\launcher.exe
+//C:\WORKS_2\Programs\opera\launcher.exe
 
-3-3)------------------ start : filezilla : 2022年4月10日19:14:07 ]]
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-4_start_filezilla.bat
+//3-3)------------------ start : filezilla : 2022年4月10日19:14:07 ]]
+//C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-4_start_filezilla.bat
 
 //"C:\WORKS_2\Programs\FileZilla FTP Client\filezilla.exe"
 
@@ -49,9 +49,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-4_start_filezilla.bat
 //3-2)------------------ start : opera browser ]]
 //C:\WORKS_2\Programs\opera\launcher.exe
 
-3-3)-------- move : files / 2022年5月11日8:51:36 ]]
+//3-3)-------- move : files / 2022年5月11日8:51:36 ]]
 //move G:\tmp.20220507_191202\* C:\WORKS_2\WS\WS_Cake_IFM11\tmp
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-5_move-files_HD-to-tmp.bat
+//C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-5_move-files_HD-to-tmp.bat
 
 
 4)------------------ start : edit memos ]]
@@ -68,7 +68,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list-iphone-dir.bat
 //rem 2	2-1)_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 //C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-1_move-files-in-iphone-dir-to-WS_Cake_IFM11.bat
 
-### ip ops ------------------ ]]
+//### ip ops ------------------ ]]
 
 //) back --> files ------------------
 //C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
@@ -880,7 +880,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 3*3 / free# JVEMV6 68#_279:2 / 68. theoretical-physics(tp) / topics=量子力学,w=(2H''-2ξH+2λH=0),doc=r-7-A1~1.1.1:#18-1,s=~,i=~,other=~
+:m RES 1-2*2 / free# JVEMV6 68#_280:1 / 68. theoretical-physics(tp) / topics=量子力学,w=~,doc=r-7-A1~1.1.1:#18-5,s=~,i=~,other=calc+
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -1044,6 +1044,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo :頭に浮かんだこと
 :m / 頭に浮かんだこと：想い出したこと / topic=~ / occasion=朝の筋トレ：終わり頃,content=以前の、ヨーロッパへの旅行。アテネ。ブルガリアのソフィアだったか。タクシーのおじさんに、`girl はどこ？`と尋ねた,other=~
 
+###2022年6月11日9:09:17
+=============== memo :短歌
+//template
+:m #*# / memo:other(m:other) / topic=短歌作り, about=~,other=「XXX」,id=~ 
+
+:m #*# / memo:other(m:other) / topic=短歌作り, about=~,other=「大葉酒　ディルなる加え」,id=~ 
 
 ###2021年11月8日9:39:16
 =============== memo :misc
@@ -1280,6 +1286,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :i #*# / topic=~ / subject=~, content=~, other=~
 
+//2022年6月11日9:07:00
+:i #*# / topic=physics:量子力学 / subject=CO2変換、触媒, content=触媒の構造が、CO2の中の電子を、動き易くするか？, other=~
+
 :i #*# / topic=shinobue / subject=二重奏：アイデア, content=~, other=inst:shino-2;memo+:このアイデアからはじめて、最速線を探すように。
 
 :i #*# / topic=green-tech / subject=プラスチック回収, content=電波で、イオンを弾く
@@ -1372,25 +1381,12 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo,towa:memo
 
+:m 東和 PHOTO / 220610sa / 市が尾駅（電車）、千代橋（バス） / わかたけ都筑特別用語老人ホーム / １名（設備） / ヨコレイ（馬淵建設） / 指示書
+
 :m 東和 PHOTO / 220604sa / 大森駅（京浜東北線） / 大田区山王２丁目プロジェクト / １名（電気） / 日向電気（北信土建） / 指示書
 
 :m 東和 PHOTO / 220527sa / 武蔵小山駅（電車） / 宮崎光男様マンション / １名（設備の相番：タニモトさん。明大前営業所） / TONY電設（東建コーポレーション） / 指示書
 
-:m 東和 PHOTO / 220520sa / 西谷駅（電車）。上菅田小学校（バス） / 上菅田笹の丘小学校建替工事 / １名 / 金子工業所（松尾・風越・石井JV） / 日報
-
-:m 東和 PHOTO / 220514sa / 長原駅 / クレイシア中馬込新築工事 / １名 / ホクシン設備（小川建設） / 日報
-
-:m 東和 PHOTO / 220507sa / 幡ヶ谷駅 / プレール・ドゥーク渋谷幡ヶ谷 / １名 / ホクシン設備（㈱シマ） / 指示書
-
-:m 東和 PHOTO / 220416sa / 川口駅 / 川口栄町３丁目銀座地区第一種市街地再開発事業 / １名 / 竹村コーポレーション（前田・サイカJV） / 日報
-
-:m 東和 PHOTO / 220416sa / 川口駅 / 川口栄町３丁目銀座地区第一種市街地再開発事業 / １名 / 竹村コーポレーション（前田・サイカJV） / 指示書
-
-:m 東和 PHOTO / 220402sa / 中野坂上駅 / 横浜市南区万世町二丁目計画 / １名 / 大同産業（池田建設） / 日誌
-
-:m 東和 PHOTO / 220326sa / 中野坂上駅 / リバーレ中野坂上新築工事 / １名 / 友野設備（和田建設） / 日報
-
-:m 東和 PHOTO / 220318f / 古淵駅 / 木曽東有料老人ホーム新築 / １名 / 鹿島環境設備（三恵建設） / 指示書
 
 //2022年4月17日12:44:44
 時刻：部屋に戻った
@@ -1428,6 +1424,10 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
+
+###2022年6月11日9:20:58
+#DELETE FROM ifm11 WHERE _id <= 56497;
+
 
 ###2022年5月23日9:44:27
 DELETE FROM ifm11 WHERE _id <= 56163;
