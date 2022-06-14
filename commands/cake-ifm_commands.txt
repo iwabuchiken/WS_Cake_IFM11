@@ -700,8 +700,11 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 ###2021年6月28日10:15:01
 ============================== memo : :th
-
+//
 :m :th / topic=~ / content=~ / lang=ja
+
+//2022年6月14日10:10:01
+:m :th / topic=本を読んだ感想：矢内原、『講義 Ⅷ』、p.591 / content=おれは、お宅が「天国」とやらに入るための、ネタじゃん。 / lang=ja
 
 //2022年5月11日9:29:20
 :m :th / topic=物理の調べについて / content=物理。私がやろうとしていること。新しいこと、ではない。方法から、試行錯誤で始める。 / lang=ja
@@ -880,7 +883,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1-2*2 / free# JVEMV6 68#_280:1 / 68. theoretical-physics(tp) / topics=量子力学,w=~,doc=r-7-A1~1.1.1:#18-5,s=~,i=~,other=calc+
+:m RES 2*2 / free# JVEMV6 68#_283:2 / 68. theoretical-physics(tp) / topics=量子力学,w=,doc=r-7-A1~1.1.1#3-3,s=~,i=~,other=calc+;memo+
 
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
@@ -1021,6 +1024,21 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? / math
 
 :m #*# / math / topic=~ / content=~ / status=~ / other=~,id=~
+
+//2022年6月14日9:32:09
+:m #*# / math / topic=(cos(x)/x)：極限(lim->∞+) / content=~ / status=~ / other=~,id=ILIV
+
+//2022年6月14日9:32:09
+:m #*# / math / topic=(cosθ/θ)：極限(lim->0) / content=~ / status=~ / other=~,id=TCLP
+
+//2022年6月14日9:32:09
+:m #*# / math / topic=sinθ：微分 / content=~ / status=~ / other=~,id=XQR5
+
+//2022年6月14日9:27:53
+:m #*# / math / topic=(sinθ/θ)：求める / content=~ / status=~ / other=~,id=O3QN
+
+//2022年6月14日9:27:53
+:m #*# / math / topic=総和と積分：大小の比較 / content=~ / status=~ / other=~,id=CJX0
 
 :m #*# / math / topic=固有ベクトル / content=(A=([0 1][1 0])のときの、u-> / status=~ / other=~,id=~
 
