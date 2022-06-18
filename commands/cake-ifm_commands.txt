@@ -719,6 +719,9 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //-----template : 2022年5月4日9:12:21
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,for=~,Re~,other=~,file-id=~,memo~
 
+//2022年6月18日9:54:15
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,for=zabawna-melodia(playful-melody),Re~,other=~,file-id=~,memo~
+
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / genr=technique,Re+,other=~,file-id=~,memo~
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=2 / prac,for=tech:gasping;howling,Re+,tempo=~,other=~,key=~,notes=~
@@ -883,8 +886,9 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_283:2 / 68. theoretical-physics(tp) / topics=量子力学,w=,doc=r-7-A1~1.1.1#3-3,s=~,i=~,other=calc+;memo+
+:m RES 3-4*4 / free# JVEMV6 68#_286:2 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#1-3.4;#1-3.7,s=~,i=~,other=calc+;memo+:対数。定義
 
+:m RES 1*2 / free# JVEMV6 68#_285:1 / 68. theoretical-physics(tp) / topics=ゼータ関数,w=,doc=r-7-A6~3.1#2-1,s=~,i=~,other=calc+
 
 :m RES 1*1 / free# JVEMV6 68#_MISC / 68. theoretical-physics(tp) / w=~,topics=回転行列：回転後のベクトル：長さは同じか？,other=~,s=~,i=~,doc=~
 
@@ -1168,6 +1172,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 ###2022年5月21日9:24:04
 ========================== 記録しておきたいもの
+//2022年6月18日10:17:49
+:PHOTO 記録しておきたいもの / @赤羽駅からの東和現場へ行く途中,location=現場の、ゲートの、向かいの空き地 / subject=野原の様子 / content=野花、咲いている
+
 :PHOTO 記録しておきたいもの / @東和現場：最寄り=西谷駅（電車）、上菅田小学校（バス）：location=詰所から打設現へ行く途中 / subject=地層。 / content=掘り下げた一画。一画の端。削り残した、土壁。地層。色が違う。
 
 ###2021年8月1日9:39:34
@@ -1249,9 +1256,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 :VOICE-MEMO / @自室 / record / bird / 鳥の声, other=~
 ###2022年5月30日10:32:50
 ============================== :VOICE-MEMO:朗読
-:VOICE-MEMO / @自宅 / メモ / topic=朗読：中庸 / content=dan-4.shoo-2-2:「其の次は曲を致め、曲ごとに能く誠あらしめ」
+:VOICE-MEMO / @自宅 / メモ / topic=朗読：中庸 / content=dan-2.setsu-1:「仲尼曰く、君子は中庸す」
 
-:VOICE-MEMO / @自宅 / メモ / topic=朗読：大学 / content=shoodan-3.setsu-3:「」
+:VOICE-MEMO / @自宅 / メモ / topic=朗読：大学：daigaku / content=dan-1.setsu-1
 
 
 ###2021年8月25日10:40:21
@@ -1363,6 +1370,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
 
+//2022年6月18日10:28:14
+:PHOTO 記録 / 文書：コレポン / #*# / about=周知の面談の件：事故発生を受けて,with=東和：横浜,content=訪問の日時、決める,other=~ / N~
+
 //2022年6月9日10:01:25
 :PHOTO 記録 / 文書：コレポン / #*# / about=周知の面談の件：事故発生を受けて,with=東和：横浜,content=~,other=~ / N~
 
@@ -1397,7 +1407,9 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 
 ###2022年2月26日10:43:42
-============================ 東和:PHOTO,towa:photo,towa:memo
+============================ 東和:PHOTO,towa:photo,towa:memo,東和:m
+
+:m 東和 PHOTO / 220617f / 赤羽駅 / ヌーベル赤羽台 / ２名（設備。カノウさん、北千住営業所） / 池田煖房工業（長谷工コーポレーション） / 指示書
 
 :m 東和 PHOTO / 220610sa / 市が尾駅（電車）、千代橋（バス） / わかたけ都筑特別用語老人ホーム / １名（設備） / ヨコレイ（馬淵建設） / 指示書
 
@@ -1408,6 +1420,9 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 //2022年4月17日12:44:44
 時刻：部屋に戻った
+
+//2022年6月18日10:20:27
+時刻：部屋に戻った / other=XX分ぐらい、前
 
 //2022年6月6日9:57:10
 出発時間：部屋を出る時間
@@ -1428,6 +1443,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 :m 記録 / 身体 / 様子 / location=歯茎：前歯：上あご,time=~；occasion=~,other=歯茎の、上あごへの接続部、付近。
 
 
+###2022年6月18日9:59:05
+============================ 様子：顔
+:m 記録 (VIDEO) / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（尺八）,other=胸の内のやるせなさ、辛さを、顔に表したところ。
 
 ###2021年12月1日19:22:02
 ============================ 寄付
