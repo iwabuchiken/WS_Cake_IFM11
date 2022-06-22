@@ -132,6 +132,10 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
 rem	git push ------------------ ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
 
+2)
+uploaded photos --> to HD ]]
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
+
 
 ###2021年10月6日10:05:36 ]]
 ====================== closing : apps ]]
@@ -511,6 +515,8 @@ regex :
 //-----template : song-id
 :m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,notes=~,for=~,page=~,key=~,R=1,memo-id=~,other=~ / N~
 
+:m :篠笛,shinobue #*# / memo:song / song-id=nie-jeszcze / picture=~,content=~,notes=7-4-6-7-4`-4`-3`-7-6-4`-4`-,for=~,page=~,key=~,R=1,memo-id=~,other=~ / N~
+
 :m :篠笛,shinobue #*# / memo:song / song-id=nie-jeszcze / picture=~,content=~,notes=4`-4`-3`-2`-3`,for=~,page=1,key=h-2(C),R=1,other=~ / N~
 
 :m :篠笛,shinobue #*# / memo:song / song-id=i-31 / picture=~,content=~,notes=4-7-4-7-0~0-7-4h-4,for=~,page=1:①～③,key=~,R=~,other=~ / N~
@@ -886,7 +892,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 3-4*4 / free# JVEMV6 68#_286:2 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#1-3.4;#1-3.7,s=~,i=~,other=calc+;memo+:対数。定義
+:m RES 2*2 / free# JVEMV6 68#_290:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#2-16.11,s=~,i=~,other=memo+
 
 :m RES 1*2 / free# JVEMV6 68#_285:1 / 68. theoretical-physics(tp) / topics=ゼータ関数,w=,doc=r-7-A6~3.1#2-1,s=~,i=~,other=calc+
 
@@ -905,8 +911,12 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_-- / 68. theoretical-physics(tp) / w=(<H*x->|H*y->=<H^(*)*x->|H^(*)*y->),topics=eman氏のページから：エルミート行列。ブラケット。性質,other=,s=~,i=~,doc=~
 
-:m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / 
-w=~,topics=~,other=~,s=~,i=~,doc=~
+//template
+:m RES 1*1 / free# JVEMV6 68#_XX:X:p.X（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
+
+:m RES 1*1 / free# JVEMV6 68#_288（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=ΔE。Δp,other=~,s=~,i=~,doc=~
+
+:m RES 1*1 / free# JVEMV6 68#_51:1:p.2（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
 :m RES 1*1 / free# JVEMV6 68#_121:2:p.1_id=96KZ:1 /（追加メモ） / 68. theoretical-physics(tp) / w=~,topics=中点の表し方：ベクトル表示,other=~,s=~,i=~,doc=~
 
@@ -1085,8 +1095,17 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //2022年6月6日10:29:03
 :m #*# / memo:other(m:other) / topic=ペガスス：予定, about=~,content=７月２１日木曜、２２日金曜,other=~,id=~ 
 
+###2021年11月8日9:39:16
+=============== お父さんの入院
+
+:m 1*1 / memo:other(m:other) / topic=お父さんの入院、ホームでの行動：お兄さんからのメール, about=後続事項：お母さんに伝えること,content=~,other=~,file-id=2022-06-21_13-55-24_000.jpg
+
+
+
 //2022年6月6日10:30:34
 :m #*# / memo:other(m:other) / topic=お父さんの入院、ホームでの行動：お兄さんとの、ラインでの、オンライン・打ち合わせ；お母さんも入る, about=打ち合わせ内容についてのメモ。自作ntent=~,other=~,id=~ 
+
+:PHOTO 記録用 / location=自宅 / topic=土地権利書、他, subject=お母さんの資産、把握。お父さんの入院の出来事を受けて, other=提供病院へ、返却物を届ける：オムツ、他。記録として、建物入口の手前にて、撮影
 
 //2022年6月6日10:21:37
 :m #*# / memo:other(m:other) / topic=予行。お兄さんとの、ラインでの、オンライン・打ち合わせ；お母さんも入る, about=進行順序：お母さんのタブレットに、ラインをインストール,content=~,other=~,id=~ 
