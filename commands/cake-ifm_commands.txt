@@ -515,7 +515,7 @@ regex :
 //-----template : song-id
 :m :篠笛,shinobue #*# / memo:song / song-id=~ / picture=~,content=~,notes=~,for=~,page=~,key=~,R=1,memo-id=~,other=~ / N~
 
-:m :篠笛,shinobue #*# / memo:song / song-id=nie-jeszcze / picture=~,content=~,notes=7-4-6-7-4`-4`-3`-7-6-4`-4`-,for=~,page=~,key=~,R=1,memo-id=~,other=~ / N~
+:m :篠笛,shinobue #*# / memo:song / song-id=nie-jeszcze / picture=~,content=~,notes=1`-3`-4`-6`-7`,for=~,page=1,key=h-7(A),R=~,memo-id=~,other=file-name:VID20220623_185259 / N~
 
 :m :篠笛,shinobue #*# / memo:song / song-id=nie-jeszcze / picture=~,content=~,notes=4`-4`-3`-2`-3`,for=~,page=1,key=h-2(C),R=1,other=~ / N~
 
@@ -750,7 +750,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=phrase,for=~,other=sequence:2022-05-23_18-08-32_000.mp4,memo~
 
@@ -892,7 +892,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_290:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#2-16.11,s=~,i=~,other=memo+
+:m RES 5*5 / free# JVEMV6 68#_293:2 / 68. theoretical-physics(tp) / topics=連続体の力学（流体力学）,w=~,doc=r-7-A10~1.1#3-2.4,s=~,i=~,other=calc+;
 
 :m RES 1*2 / free# JVEMV6 68#_285:1 / 68. theoretical-physics(tp) / topics=ゼータ関数,w=,doc=r-7-A6~3.1#2-1,s=~,i=~,other=calc+
 
@@ -1098,7 +1098,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年11月8日9:39:16
 =============== お父さんの入院
 
-:m 1*1 / memo:other(m:other) / topic=お父さんの入院、ホームでの行動：お兄さんからのメール, about=後続事項：お母さんに伝えること,content=~,other=~,file-id=2022-06-21_13-55-24_000.jpg
+:m 1-4*4 / memo:other(m:other) / topic=お父さんの入院、ホームでの行動：お兄さんからのメール, about=後続事項：相談：包括支援センター：中尾さん,content=~,other=~,file-id=2022-06-24_14-23-07_000.jpg
+
+
 
 
 
@@ -1428,6 +1430,8 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo,towa:memo,東和:m
 
+:m 東和 PHOTO / 220625sa / 仲町台駅 / 仲町台５丁目計画 / １名（電気） / 大樹電設（パワーズアンリミテッド） / 指示書
+
 :m 東和 PHOTO / 220617f / 赤羽駅 / ヌーベル赤羽台 / ２名（設備。カノウさん、北千住営業所） / 池田煖房工業（長谷工コーポレーション） / 指示書
 
 :m 東和 PHOTO / 220610sa / 市が尾駅（電車）、千代橋（バス） / わかたけ都筑特別用語老人ホーム / １名（設備） / ヨコレイ（馬淵建設） / 指示書
@@ -1445,6 +1449,9 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 //2022年6月6日9:57:10
 出発時間：部屋を出る時間
+
+//2022年6月26日11:26:03
+出発時間
 
 http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=東和&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 
