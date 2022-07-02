@@ -4,7 +4,7 @@ rem ==========================
 echo  starting...
 echo.
 
-pause
+rem pause
 
 rem C:\WORKS_2\batches\s.bat fi
 echo "C:\WORKS_2\Programs\FileZilla FTP Client\filezilla.exe"

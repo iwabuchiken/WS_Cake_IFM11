@@ -63,10 +63,10 @@ rem start launcher.exe http://localhost:8001/ip/basics/
 
 
 REM ****************************
-REM 	command prompt
+REM 	command prompt	==> start : django server
 REM 	2019/06/23 07:27:47
 REM ****************************
-start C:\WORKS_2\batches\start_command_prompt.dd.bat
+rem start C:\WORKS_2\batches\start_command_prompt.dd.bat
 
 REM ****************************
 REM 	web page : keyboard compositions 20180830_171322
@@ -92,7 +92,7 @@ pushd "C:\WORKS_2\Programs\opera"
 REM 	start launcher.exe "https://docs.google.com/spreadsheets/d/1Rtg1H97HaTWcaIhOf4EtMqEvo6o-17d0Cf0CY5cuk9c/edit#gid=2093276917"
 REM 	start launcher.exe "https://docs.zoho.com/sheet/open/ek7i4683eb5df87d04a23acef09182e7df623/sheets/free/ranges/A3"
 
-	goto exit_web_page_keyboard
+goto exit_web_page_keyboard
 
 
 :exit_web_page_keyboard
