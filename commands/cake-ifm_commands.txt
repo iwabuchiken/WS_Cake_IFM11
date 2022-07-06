@@ -509,8 +509,14 @@ regex :
 
 :m :篠笛,shinobue #*# / session-memo / s.1:genre=melody,key=~,notes=~,other=~,file-id=~ \\\ s.2:genre=melody,key=~,notes=~,other=~,file-id=~
 
-genre=melody,key=~,notes=~,other=~,file-id=~
+p.1:genre=melody,key=~,notes=~,R=~,file-id=~,other=~ \\\ p.2:genre=melody,key=~,notes=~,R=~,file-id=~,other=~ \\\ p.3:genre=melody,key=~,notes=~,R=~,file-id=~,other=~ \\\ p.4:genre=melody,key=~,notes=~,R=~,file-id=~,other=~
+
+p.1:genre=melody,key=h-2`(C),notes=7-4`-3`-3`-2`-3`-4`,R=1,file-id=~,other=~ \\\ p.2:genre=melody,key=h-4(E),notes=4`-4``-4``-7`-6`-4`-3`;pitch:1-5-5-4-3f-1-L7f-1-3f-4-5-5-5,R=2,file-id=~,other=~ \\\ p.3:genre=melody,key=~,notes=4``-4``-7`-4``-4``,R=~,file-id=~,other=~
+
+genre=melody,key=~,notes=~,R=~,file-id=~,other=~
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+p.1: \\\ p.2: \\\ p.3: \\\ p.4:
+
 
 regex : 
 [a-z]+=~,
@@ -752,7 +758,10 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo~,file-id=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~ / follow~
+
+//2022年7月6日15:09:55
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=+,file-id=~ / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=phrase,for=~,other=sequence:2022-05-23_18-08-32_000.mp4,memo~
 
@@ -787,6 +796,21 @@ memo-taking,for=~,other=~
 ###2022年1月30日0:49:00
 ==================== video : other
 :VIDEO:other / @自室 / 記録 / content=一人漫才：練習,for=「兎（うさぎ）おいしい」
+
+
+###2022年7月6日15:01:54
+==================== in-mid
+//template . 2022年7月6日15:03:04
+:in-mid / app=perfect-piano / 演奏、play / category=~,inst=~,for=~,genre=~
+
+//all
+:in-mid / app=perfect-piano / 演奏、play / category=~,inst=~,for=~,genre=~
+
+//shaku
+:in-mid / app=perfect-piano / 演奏、play / category=~,inst=~,for=shaku,genre=~
+
+
+
 
 ###2021年9月7日8:49:45
 ==================== memo : percussion,rythm
@@ -894,7 +918,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_299:1 / 68. theoretical-physics(tp) / topics=熱力学,w=~,doc=r-7-A12~1.1.1#3,s=~,i=~,other=~
+:m RES 1*1 / free# JVEMV6 68#_302:2 / 68. theoretical-physics(tp) / topics=ランダウ記号,w=~,doc=r-6-1~7#2-1.2,s=~,i=~,other=memo+;calc+
 
 :m RES 1*2 / free# JVEMV6 68#_285:1 / 68. theoretical-physics(tp) / topics=ゼータ関数,w=,doc=r-7-A6~3.1#2-1,s=~,i=~,other=calc+
 
@@ -941,7 +965,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
 //template
-:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ 
+
+:m #*# RES / JVEMV6 64#177_1_kishin_hakuseki / 『日本思想大系３５　新井白石』 著者=~,校注=松村明、他 / p.146 / w=~,topic=~,publisher=岩波書店,other=~
 
 //2022年5月28日11:19:27
 :m #*# RES / JVEMV6 64#164.1_nihonshoki / 『日本書紀』 著者=~,校注=小島憲之；直木孝次郎、他 / p.19 / w=国常立尊[くにのとこたちのみこと,topic=~,publisher小学館,other=~
@@ -1434,7 +1460,7 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo,towa:memo,東和:m
 
-:m 東和 PHOTO / 220701f / 四谷三丁目駅 / 四谷プロジェクト / １名（電気） / 三成電機（淺沼組） / 指示書
+:m 東和 PHOTO / 220701f / 四谷三丁目駅 / 四谷プロジェクト / １名（電気） / 三成電機（淺沼組） / 日誌
 
 :m 東和 PHOTO / 220617f / 赤羽駅 / ヌーベル赤羽台 / ２名（設備。カノウさん、北千住営業所） / 池田煖房工業（長谷工コーポレーション） / 指示書
 
@@ -1490,6 +1516,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
+
+###2022年7月6日16:11:28
+#DELETE FROM ifm11 WHERE _id <= 56878;
 
 ###2022年6月11日9:20:58
 #DELETE FROM ifm11 WHERE _id <= 56497;
