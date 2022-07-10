@@ -918,7 +918,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_302:2 / 68. theoretical-physics(tp) / topics=ランダウ記号,w=~,doc=r-6-1~7#2-1.2,s=~,i=~,other=memo+;calc+
+:m RES 1*1 / free# JVEMV6 68#_305:3 / 68. theoretical-physics(tp) / topics=流体力学,w=~,doc=r-7-A10~1.1#1,s=~,i=~,other=
 
 :m RES 1*2 / free# JVEMV6 68#_285:1 / 68. theoretical-physics(tp) / topics=ゼータ関数,w=,doc=r-7-A6~3.1#2-1,s=~,i=~,other=calc+
 
@@ -1208,6 +1208,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『音楽起源論』 / 著者=黒沢隆朝 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『倫理学の時間』 / 著者=鷲田小禰太 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『山本七平ライブラリー③　帝王学』 / 著者=山本七平,出版=文芸春秋 / 途中 ここまで
@@ -1460,6 +1462,8 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo,towa:memo,東和:m
 
+:m 東和 PHOTO / 220708sa / 中延駅 / 中延プロジェクト / １名（設備） / ホクシン設備（多田建設） / 指示書
+
 :m 東和 PHOTO / 220701f / 四谷三丁目駅 / 四谷プロジェクト / １名（電気） / 三成電機（淺沼組） / 日誌
 
 :m 東和 PHOTO / 220617f / 赤羽駅 / ヌーベル赤羽台 / ２名（設備。カノウさん、北千住営業所） / 池田煖房工業（長谷工コーポレーション） / 指示書
@@ -1482,6 +1486,9 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 //2022年6月26日11:26:03
 出発時間
+
+//2022年7月10日10:18:51
+現場状況
 
 http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=東和&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 
