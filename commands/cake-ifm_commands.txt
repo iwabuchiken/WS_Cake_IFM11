@@ -512,13 +512,17 @@ regex :
 
 :m :篠笛,shinobue #*# / session-memo / s.1:genre=melody,key=~,notes=~,other=~,file-id=~ \\\ s.2:genre=melody,key=~,notes=~,other=~,file-id=~
 
-:m :篠笛,shinobue #*# / session-memo / p.1:genre=melody,key=~,notes=~,R=~,file-id=~,other=~ \\\ p.2:genre=melody,key=~,notes=~,R=~,file-id=~,other=~ \\\ p.3:genre=melody,key=~,notes=~,R=~,file-id=~,other=~ \\\ p.4:genre=melody,key=~,notes=~,R=~,file-id=~,other=~
+:m :篠笛,shinobue #*# / session-memo / p.1:genre=dodatek,key=~,notes=~,R=~,file-id=~,piece-id=2022-07-11_page-3,other=slur;2nd-line
 
-:m :篠笛,shinobue #*# / session-memo / p.1:genre=melody,key=~,notes=1``-3``-1``-7`-1``-,R=~,file-id=~,other=~ \\\ p.2:genre=melody,key=h-4`(E),notes=4`-3`-4`,R=~,file-id=~,other=lot:3 \\\ p.3:genre=melody,key=~,notes=7`-6`-4`-4`-6`-4`,R=~,file-id=~,other=lot:3
+:m :篠笛,shinobue #*# / session-memo / p.1:genre=melody,key=~,notes=2`-3`-4`-4`-3`-4`-6`-4` \\\ p.2:genre=cont:page-1 || :m :篠笛,shinobue #*# / session-log
 
 p.1:genre=melody,key=h-2`(C),notes=7-4`-3`-3`-2`-3`-4`,R=1,file-id=~,other=~ \\\ p.2:genre=melody,key=h-4(E),notes=4`-4``-4``-7`-6`-4`-3`;pitch:1-5-5-4-3f-1-L7f-1-3f-4-5-5-5,R=2,file-id=~,other=~ \\\ p.3:genre=melody,key=~,notes=4``-4``-7`-4``-4``,R=~,file-id=~,other=~
 
-genre=melody,key=~,notes=~,R=~,file-id=~,other=~
+//template
+p.1:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~ \\\ p.2:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~ \\\ p.3:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~ \\\ p.4:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~
+
+genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~
+
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 p.1: \\\ p.2: \\\ p.3: \\\ p.4:
 
@@ -763,7 +767,10 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~,piece-id=~ / follow~
+
+//2022年7月16日11:03:13
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~,piece-id=~0712_page-3_no-3 / follow~
 
 //2022年7月6日15:09:55
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=+,file-id=~ / follow~
@@ -923,7 +930,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 2*2 / free# JVEMV6 68#_307:2 / 68. theoretical-physics(tp) / topics=流体力学；コンクリート；構造力学,w=~,doc=r-7-A10~1.1#10-1;r-7-A10-1.3,s=~,i=~,other=calc+
+:m RES 1*2 / free# JVEMV6 68#_309:1 / 68. theoretical-physics(tp) / topics=コンクリート；構造力学：モーメント,w=~,doc=r-7-A13-1.1.2#1,s=~,i=~,other=~
 
 :m RES 1*2 / free# JVEMV6 68#_285:1 / 68. theoretical-physics(tp) / topics=ゼータ関数,w=,doc=r-7-A6~3.1#2-1,s=~,i=~,other=calc+
 
@@ -1445,6 +1452,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================ 記録：文書
 :PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~,other=~
 
+:PHOTO 記録 / 文書　/ occasion=~ / for=`日に新たに`：堯帝だったか、顔を洗う盥に銘記した言葉。に、関連して、帝の廟だったか、とある器、あり。そのままだと、倒れたまま。水を入れてしばらくする。と、器が立つ。さらに入れ続ける。と、また倒れる：その器は、どのような仕組みだったのか：考案してみた / doc=~,other=~
+
 :PHOTO 記録 / 文書　/ occasion=東和の現場で、頭に浮かんだ / for=祈りの文句 / doc=~,other=「神仏の加護、…」,add=聖人の教え、現人[げんじん]の安寧、後人の安堵
 
 :PHOTO 記録 / 文書　/ occasion=PCR検査時 / for=「自主療養」についての案内チラシ / doc=~,other=クリエイトにて、受け取り
@@ -1470,6 +1479,8 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo,towa:memo,東和:m
+
+:m 東和 PHOTO / 220715f / 市が尾駅（電車）、千代橋（バス） / わかたけ都筑特別用語老人ホーム / １名（設備） / ヨコレイ（馬淵建設） / 指示書
 
 :m 東和 PHOTO / 220708sa / 中延駅 / 中延プロジェクト / １名（設備） / ホクシン設備（多田建設） / 指示書
 
