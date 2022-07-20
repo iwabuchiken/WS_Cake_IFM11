@@ -5,12 +5,12 @@ rem 	2021年1月17日12:15:35
 rem ==============================/
 
 1) ------------------
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
+//C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
 
 3-1)------------------ ]]
-not-for-register files --> delete, move.
-	1. sweets		###2021年11月1日7:30:56
-2
+//not-for-register files --> delete, move.
+//	1. sweets		###2021年11月1日7:30:56
+//2
 
 //3-2)------------------ start : opera browser ]]
 //C:\WORKS_2\Programs\opera\launcher.exe
@@ -19,7 +19,7 @@ not-for-register files --> delete, move.
 C:\Users\iwabuchiken\AppData\Local\Yandex\YandexBrowser\Application\browser.exe
 
 2) ------------------ change_file_names ]]
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
+//C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
 2-1) ------------------ move files : HD -> tmp ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-5_move-files_HD-to-tmp.bat
@@ -73,11 +73,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list-iphone-dir.bat
 //) back --> files ------------------
 //C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
 
-### write memos ------------------ ]]
+### write memos ------------------ 
 
-1) rem 9	commands : restart server, open csv file]]
+//1) rem 9	commands : restart server, open csv file]]
 
-1-1) ------------------ restart : server + browser + sakura ]]
+1-1) ------------------ restart : server + browser + sakura 
 
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8-2.restart-apps-after-memo-writing.bat
 
@@ -512,7 +512,7 @@ regex :
 
 :m :篠笛,shinobue #*# / session-memo / s.1:genre=melody,key=~,notes=~,other=~,file-id=~ \\\ s.2:genre=melody,key=~,notes=~,other=~,file-id=~
 
-:m :篠笛,shinobue #*# / session-memo / p.1:genre=dodatek,key=~,notes=~,R=~,file-id=~,piece-id=2022-07-11_page-3,other=slur;2nd-line
+:m :篠笛,shinobue #*# / session-memo / log
 
 :m :篠笛,shinobue #*# / session-memo / p.1:genre=melody,key=~,notes=2`-3`-4`-4`-3`-4`-6`-4` \\\ p.2:genre=cont:page-1 || :m :篠笛,shinobue #*# / session-log
 
@@ -930,7 +930,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*2 / free# JVEMV6 68#_309:1 / 68. theoretical-physics(tp) / topics=コンクリート；構造力学：モーメント,w=~,doc=r-7-A13-1.1.2#1,s=~,i=~,other=~
+:m RES 1*1 / free# JVEMV6 68#_314:1 / 68. theoretical-physics(tp) / topics=重力測定：地球観測,w=~,doc=r-8-1~9.2.1#2,s=~,i=~,other=~
 
 :m RES 1*2 / free# JVEMV6 68#_285:1 / 68. theoretical-physics(tp) / topics=ゼータ関数,w=,doc=r-7-A6~3.1#2-1,s=~,i=~,other=calc+
 
@@ -1135,13 +1135,14 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //2022年6月6日10:29:03
 :m #*# / memo:other(m:other) / topic=ペガスス：予定, about=~,content=７月２１日木曜、２２日金曜,other=~,id=~ 
 
+###2022年7月20日9:58:44
+=============== 年金
+:m 1*1 / memo:other(m:other) / topic=年金：免除の件, about=免除申請：お母さんに、お金を出してもらえないか、尋ねる,content=~,other=~,file-id=2022-07-17_17-37-22_000.jpg
+
 ###2021年11月8日9:39:16
 =============== お父さんの入院
 
 :m 1-4*4 / memo:other(m:other) / topic=お父さんの入院、ホームでの行動：お兄さんからのメール, about=後続事項：相談：包括支援センター：中尾さん,content=~,other=~,file-id=2022-06-24_14-23-07_000.jpg
-
-
-
 
 
 //2022年6月6日10:30:34
@@ -1208,6 +1209,14 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :PHOTO 記録用 / @自宅；東側；洗面所から見える；東の犬走り / 自然観察 / 花
 
+###2022年7月20日10:06:16
+============================== memo:knot:log
+:PHOTO 記録 / 文書:knot　/ occasion=作ったもの：記録しておく / for=2022-07-17:もやい；トラッカーズ；巻き結び；巻き結び~2022-07-15:もやい；自在；自在 / doc=~,other=~
+
+###2022年7月20日9:31:51
+============================== memo:knot
+:PHOTO 記録 / 作ったもの / 結び,knot / knot=もやい；巻き結び；トラッカーズ,for=~,other=~,material=トラロープ
+
 
 ###2022年4月11日9:00:21
 ============================== 種を植える
@@ -1219,6 +1228,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================== 読んだ本 : 2021年7月24日8:40:34
 
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『日本語人の脳』 / 著者=角田忠信 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『汗はすごい』 / 著者=菅屋潤臺 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『音楽起源論』 / 著者=黒沢隆朝 / 途中 ここまで
 
@@ -1438,6 +1451,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================ コレポン
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
+
+//2022年7月20日10:16:46
+:PHOTO 記録 / 文書：コレポン / #*# / about=ペガスス：行きます旨の連絡,with=蛇口さん,content=~,other=~ / N~
 
 //2022年6月18日10:28:14
 :PHOTO 記録 / 文書：コレポン / #*# / about=周知の面談の件：事故発生を受けて,with=東和：横浜,content=訪問の日時、決める,other=~ / N~
