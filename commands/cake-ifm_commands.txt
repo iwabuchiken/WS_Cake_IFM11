@@ -143,7 +143,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 ###2021年10月6日10:05:36 ]]
 ====================== closing : apps ]]
 
-C:\WORKS_2\shortcuts_docs\end_log_JVE_close-sakura_close-freemind.bat
+C:\WORKS_2\shortcuts_docs\log_files\end_log_JVE_close-sakura_close-freemind.bat
+//rem C:\WORKS_2\shortcuts_docs\end_log_JVE_close-sakura_close-freemind.bat
 
 
 
@@ -512,14 +513,16 @@ regex :
 
 :m :篠笛,shinobue #*# / session-memo / s.1:genre=melody,key=~,notes=~,other=~,file-id=~ \\\ s.2:genre=melody,key=~,notes=~,other=~,file-id=~
 
-:m :篠笛,shinobue #*# / session-memo / log
+//template : 2022年7月26日11:51:21
+:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
-:m :篠笛,shinobue #*# / session-memo / p.1:genre=melody,key=~,notes=2`-3`-4`-4`-3`-4`-6`-4` \\\ p.2:genre=cont:page-1 || :m :篠笛,shinobue #*# / session-log
+:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
-p.1:genre=melody,key=h-2`(C),notes=7-4`-3`-3`-2`-3`-4`,R=1,file-id=~,other=~ \\\ p.2:genre=melody,key=h-4(E),notes=4`-4``-4``-7`-6`-4`-3`;pitch:1-5-5-4-3f-1-L7f-1-3f-4-5-5-5,R=2,file-id=~,other=~ \\\ p.3:genre=melody,key=~,notes=4``-4``-7`-4``-4``,R=~,file-id=~,other=~
+:m :篠笛,shinobue #*# / session-memo / p.1:genre=melody,R=1,file-piece-other=~ \\\ p.2:genre=melody,key=h-2`(C),notes=4`-4`-4h`-4`-3`-3`-4`-3`,file-piece-other=~ \\\ p.3:genre=melody,notes=7-4`-4`-4h`-4`,R=4?,file-piece-other=~
+
 
 //template
-p.1:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~ \\\ p.2:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~ \\\ p.3:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~ \\\ p.4:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~
+p.1:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.2:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.3:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.4:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~
 
 genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~
 
@@ -930,7 +933,9 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_314:1 / 68. theoretical-physics(tp) / topics=重力測定：地球観測,w=~,doc=r-8-1~9.2.1#2,s=~,i=~,other=~
+:m RES 1*1 / free# JVEMV6 68#_318:3 / 68. theoretical-physics(tp) / topics=統計力学：カノニカル分布,w=~,doc=r-7-A7~2.1#2-4,s=~,i=~,other=memo+
+
+:m RES 1-2*2 / free# JVEMV6 68#_id=7INS / 68. theoretical-physics(tp) / w=~,topics=math:combinations:筋トレの、リストグループたち：２群を合わせると、どんな組合せパターンが現れるか,other=~,s=~,i=~,doc=~
 
 :m RES 1*2 / free# JVEMV6 68#_285:1 / 68. theoretical-physics(tp) / topics=ゼータ関数,w=,doc=r-7-A6~3.1#2-1,s=~,i=~,other=calc+
 
@@ -1226,6 +1231,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 
 ============================== 読んだ本 : 2021年7月24日8:40:34
+
+:bookmemo / 読んだ本 / 『生きることを考えるための２４問』 / 著者=小浜逸郎 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
