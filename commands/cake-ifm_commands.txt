@@ -518,7 +518,7 @@ regex :
 
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
-:m :篠笛,shinobue #*# / session-memo / p.1:genre=melody,R=1,file-piece-other=~ \\\ p.2:genre=melody,key=h-2`(C),notes=4`-4`-4h`-4`-3`-3`-4`-3`,file-piece-other=~ \\\ p.3:genre=melody,notes=7-4`-4`-4h`-4`,R=4?,file-piece-other=~
+:m :篠笛,shinobue #*# / session-memo / p.1:genre=melody,key=C,notes=4`-3`-4`-3`-2`-3`-2`,file-piece-other=~ \\\ p.2:genre=melody,notes=4-7-4-3-4-7-0,file-piece-other=~
 
 
 //template
@@ -694,6 +694,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m dessin,sketch / des. object=~ / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
+:m dessin,sketch / des. object=稲穂 / source=web画像,location=~,other=~,memo~,found~,id=~,occasion=~
+
+:m dessin,sketch / des. object=水干 / source=web動画より,location=~,other=~,memo~,found~,id=~,occasion=~
+
 :m dessin,sketch / des. object=~ / @web画像 / other=~,memo~,found~,id=~,occasion=~
 
 :m dessin,sketch / des. object=輪袈裟 / @web画像 / other=~,memo~,found~,id=CJWP,occasion=『宇治拾遺物語』 ||| :m dessin,sketch / des. object=モクゲンジ / @web画像 / other=~,memo~,found~,id=LTU1,occasion=『宇治拾遺物語』
@@ -770,7 +774,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~,piece-id=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=+,file-id=~,piece-id=~ / follow~
 
 //2022年7月16日11:03:13
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~,piece-id=~0712_page-3_no-3 / follow~
@@ -933,7 +937,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_318:3 / 68. theoretical-physics(tp) / topics=統計力学：カノニカル分布,w=~,doc=r-7-A7~2.1#2-4,s=~,i=~,other=memo+
+:m RES 1*1 / free# JVEMV6 68#_321:1 / 68. theoretical-physics(tp) / topics=電磁気学,w=~,doc=r-7-A11~1.1.1#2-4,s=~,i=~,other=calc+;memo+
 
 :m RES 1-2*2 / free# JVEMV6 68#_id=7INS / 68. theoretical-physics(tp) / w=~,topics=math:combinations:筋トレの、リストグループたち：２群を合わせると、どんな組合せパターンが現れるか,other=~,s=~,i=~,doc=~
 
@@ -1503,6 +1507,8 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo,towa:memo,東和:m
 
+:m 東和 PHOTO / 220729f / 久地駅 / 下作延６丁目計画 / １名（電気） / 国際電工（末長組） / 指示書
+
 :m 東和 PHOTO / 220715f / 市が尾駅（電車）、千代橋（バス） / わかたけ都筑特別用語老人ホーム / １名（設備） / ヨコレイ（馬淵建設） / 指示書
 
 :m 東和 PHOTO / 220708sa / 中延駅 / 中延プロジェクト / １名（設備） / ホクシン設備（多田建設） / 指示書
@@ -1555,6 +1561,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 ###2021年12月1日19:22:02
 ============================ 寄付
+//2022年7月30日11:49:39
+:PHOTO 記録 / PC画面 / デスクトップPC / subject=寄付金、入金 / for=IWJ / amount=JPY:8000, other=~
+
 :PHOTO 記録 / PC画面 / デスクトップPC / subject=寄付金、入金 / for=日本共産党 / amount=JPY:3000, other=衆議院議員選挙
 
 :PHOTO 記録 / PC画面 / デスクトップPC / subject=寄付金、入金 / for=electronic-intifada / amount=USD:65, other=year-end-donation
