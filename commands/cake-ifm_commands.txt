@@ -1,4 +1,4 @@
-u rem /==============================
+rem /==============================
 rem 	command list
 rem 	
 rem 	2021年1月17日12:15:35
@@ -518,7 +518,13 @@ regex :
 
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
-:m :篠笛,shinobue #*# / session-memo / p.1:genre=melody,key=C,notes=4`-3`-4`-3`-2`-3`-2`,file-piece-other=~ \\\ p.2:genre=melody,notes=4-7-4-3-4-7-0,file-piece-other=~
+//edit : pages
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,file-piece-other=dodatek:2022-08-01:page-2.new,for=サビ \\\ p.2:genre=melody,key=h-7`(A),file-piece-other=~ \\\ p.3:genre=melody,file-piece-other=~ \\\ p.4:genre=melody,file-piece-other=~
+
+
+//edit : dodatek
+:m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
+
 
 
 //template
@@ -635,6 +641,15 @@ training,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,othe
 
 :m :篠笛,shinobue #*# / session-memo / s.1~* / memo,theme=fingering:kan,content=~,for=list,other=hole:7-6-5h-7
 
+
+###2022年8月4日12:02:33
+============================== memo : 買うもの
+//template
+:m Other / 買うもの / item=~,at=~,for=~,other=~
+
+:m Other / 買うもの / item=~,at=キャン・ドゥ,for=~,other=買った
+
+
 ###2021年12月11日22:04:31
 ============================== memo : bamboo-flute
 
@@ -691,8 +706,15 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 ============================== memo : sketch
 ###2021年6月8日8:13:29
+//template
+:m ,sketch / des. object=~ / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
-:m dessin,sketch / des. object=~ / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+:m ,sketch / des. object=ツバメ：ヒナ / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+
+:m ,sketch / des. object=シカ：メス / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+
+//2022年8月4日11:52:58
+:m dessin,sketch / des. object=セミ：ミンミンゼミ / source=web画像,location=~,other=~,memo~,found~,id=~,occasion=~
 
 :m dessin,sketch / des. object=稲穂 / source=web画像,location=~,other=~,memo~,found~,id=~,occasion=~
 
@@ -707,6 +729,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
+:m :lets / action activity / やること / genre=神道：行事、祭り / content=自分一人で、始めよう
+
 :m :lets / action activity / やること / genre=創作 / content=伝えたいこと。物語で伝えよう。音楽で。
 
 :m :lets / action activity / やること / genre=牧師になる / content=牧師になろう。そのために、学のある人になろう。 || :m :lets / action activity / やること / genre=res:history / content=マイダン以来の歴史。書き記そう
@@ -714,6 +738,14 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 :m :lets / action activity / やること / genre=作曲；和歌 / content=作曲。春夏秋冬をテーマとした曲。例えば「海」をテーマに。「革命」；「革命」をテーマにした和歌。 || :m :lets / action activity / やること / genre=diary:korean / content=季節の花。野菜
 
 :m :lets / action activity / やること：予定 / genre=発熱外来、予約 / content=福島内科医院、他
+
+============================== memo : 温度	
+###2022年8月4日10:29:53
+//template
+:m 温度 / location=~,for=~,other=~
+
+//2022年8月4日10:30:39
+:m 温度 / location=部屋,for=暑い。何度だろうか,other=~
 
 
 ###2021年11月5日9:11:50
@@ -743,6 +775,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=和歌、漢詩。物理に役立つ。 / content=和歌、漢詩。物理に関する取り組み、何に取り組むか。考案するのに、役立つだろう。アラビア語その他での、調べ物活動も。「数学遊び」も。 / lang=ja
 
+###2022年8月4日11:50:38
+============================== memo : :災害備蓄
+
+:m 災害備蓄 / 入れたもの / item=①消石灰（10kg） / other=~ / volume=~ / id=~ / 保管場所=物置
 
 =================== memo,video : shakuhachi,bamboo,尺八,shaku:video,video:shaku,video_shaku
 
@@ -774,7 +810,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=+,file-id=~,piece-id=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~,piece-id=~ / follow~
 
 //2022年7月16日11:03:13
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~,piece-id=~0712_page-3_no-3 / follow~
@@ -937,7 +973,10 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 68#_321:1 / 68. theoretical-physics(tp) / topics=電磁気学,w=~,doc=r-7-A11~1.1.1#2-4,s=~,i=~,other=calc+;memo+
+//A11
+:m RES 2*2 / free# JVEMV6 68#_326:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A11~1.1.1#2-13,s=~,i=~,other=memo+
+
+:m RES 2*2 / free# JVEMV6 68#_326:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#3-7.2,s=~,i=~,other=~
 
 :m RES 1-2*2 / free# JVEMV6 68#_id=7INS / 68. theoretical-physics(tp) / w=~,topics=math:combinations:筋トレの、リストグループたち：２群を合わせると、どんな組合せパターンが現れるか,other=~,s=~,i=~,doc=~
 
@@ -986,7 +1025,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#
 //template
-:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ 
+:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#68_daigaku / 『大学』 著者=赤塚忠,校注=~ / p.58 / w=~,topic=~,publisher=明治書院,other=~
+
 
 :m #*# RES / JVEMV6 64#177_1_kishin_hakuseki / 『日本思想大系３５　新井白石』 著者=~,校注=松村明、他 / p.146 / w=~,topic=~,publisher=岩波書店,other=~
 
@@ -1236,9 +1278,16 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 ============================== 読んだ本 : 2021年7月24日8:40:34
 
+//template
+:bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『戦時期日本の精神史』 / 著者=鶴見俊輔 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『アメリカ先住民の精神世界』 / 著者=安倍珠理 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『生きることを考えるための２４問』 / 著者=小浜逸郎 / 途中 ここまで
 
-:bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
 
 :bookmemo / 読んだ本 / 『日本語人の脳』 / 著者=角田忠信 / 途中 ここまで
 
@@ -1279,6 +1328,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2022年6月6日10:02:52
 ============================== :m 保管場所
 :m 保管場所 / what=~ / location=~,expire=~,other=~
+
+//2022年8月4日11:46:43
+:m 保管場所 / what=キンカン、きんかん、金冠 / location=西側の棚：南側：上から３番目の段（天板を数えず）,expire=~,other=~
 
 :m 保管場所 / what=アース・ノーマット：詰替用、溶剤ボトル / location=西側の棚、北側。一番上の段,expire=１年間
 
@@ -1404,6 +1456,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :i #*# / topic=~ / subject=~, content=~, other=~
 
+//2022年8月4日11:55:59
+:i #*# / topic=~ / subject=篠笛：曲作り, content=同じ音符構成：高音域に続けて、低音域で、吹いてみる。どんな聞き心地？, other=~
+
 //2022年6月11日9:07:00
 :i #*# / topic=physics:量子力学 / subject=CO2変換、触媒, content=触媒の構造が、CO2の中の電子を、動き易くするか？, other=~
 
@@ -1507,7 +1562,7 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo,towa:memo,東和:m
 
-:m 東和 PHOTO / 220729f / 久地駅 / 下作延６丁目計画 / １名（電気） / 国際電工（末長組） / 指示書
+:m 東和 PHOTO / 220729f / 久地駅 / 下作延６丁目計画 / １名（電気） / 国際電工（末長組） / 日報
 
 :m 東和 PHOTO / 220715f / 市が尾駅（電車）、千代橋（バス） / わかたけ都筑特別用語老人ホーム / １名（設備） / ヨコレイ（馬淵建設） / 指示書
 
@@ -1575,6 +1630,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
+
+###2022年8月4日12:34:43
+DELETE FROM ifm11 WHERE _id <= 57250;
 
 ###2022年7月6日16:11:28
 #DELETE FROM ifm11 WHERE _id <= 56878;
