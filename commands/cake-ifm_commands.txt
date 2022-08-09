@@ -499,7 +499,8 @@ rem 2021年3月4日11:23:28
 ###2021年5月6日8:15:21 (copied and pasted from : kb_memo_template.txt at 2021年5月16日7:44:09)
 ============================ shinobue memo,memo_shi
 
-C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
+C:\WORKS_2\shortcuts_docs\log_files\log_jap-flute_shino.log
+//C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
 http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=shino+session&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 
@@ -519,7 +520,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,file-piece-other=dodatek:2022-08-01:page-2.new,for=サビ \\\ p.2:genre=melody,key=h-7`(A),file-piece-other=~ \\\ p.3:genre=melody,file-piece-other=~ \\\ p.4:genre=melody,file-piece-other=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody:phrase-pattern,for=~,key=~,notes=~,R=1,file-id=~,piece-id=~,tempo=~,session=1,other=~
 
 
 //edit : dodatek
@@ -527,8 +528,8 @@ regex :
 
 
 
-//template
-p.1:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.2:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.3:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.4:genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~
+//template : pages
+p.1:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.2:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.3:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.4:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~
 
 genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~
 
@@ -806,11 +807,25 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 regex : 
 [a-z]+=~,
 	 (<= this : 2021年11月15日10:00:59)
-	 
+~\r\n	,
+	(2022年8月9日9:51:22)
+	
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~,piece-id=~ / follow~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=rec-play,other=~,memo=2022-07-31_session-2_p-2,file-id=~,piece-id=~ / follow~
+
+//2022年8月9日9:55:01
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=+,file-id=~,piece-id=~ / follow~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=~,other=genre:two-note-melody,memo=~,file-id=~,piece-id=~ / follow~
+
+
+//2022年8月9日9:43:31
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=6 / record,for=~,other=~,memo=+:2022-07-31_session-2_p-2:<1>,file-id=~,piece-id=~ / follow~
+
 
 //2022年7月16日11:03:13
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~,piece-id=~0712_page-3_no-3 / follow~
@@ -973,8 +988,14 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
+//B2
+:m RES 1*1 / free# JVEMV6 68#_330:1 / 68. theoretical-physics(tp) / topics=解析力学,w=~,doc=r-7-B2~1.1.2#1,s=~,i=~,other=calc+
+
 //A11
-:m RES 2*2 / free# JVEMV6 68#_326:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A11~1.1.1#2-13,s=~,i=~,other=memo+
+:m RES 1-2*2 / free# JVEMV6 68#_328:1 / 68. theoretical-physics(tp) / topics=電磁気学,w=~,doc=r-7-A11~1.1.1#2-16.4~,s=~,i=~,other=memo~
+
+//A9
+:m RES 2*2 / free# JVEMV6 68#_329:2 / 68. theoretical-physics(tp) / topics=光学,w=~,doc=r-7-A9~1.1#5-3,s=~,i=~,other=calc+;memo+
 
 :m RES 2*2 / free# JVEMV6 68#_326:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#3-7.2,s=~,i=~,other=~
 
@@ -1562,6 +1583,8 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo,towa:memo,東和:m
 
+:m 東和 PHOTO / 220805f / 御嶽山駅 / 久が原１丁目計画 / １名（電気） / アイアール電気（大豊） / 指示書
+
 :m 東和 PHOTO / 220729f / 久地駅 / 下作延６丁目計画 / １名（電気） / 国際電工（末長組） / 日報
 
 :m 東和 PHOTO / 220715f / 市が尾駅（電車）、千代橋（バス） / わかたけ都筑特別用語老人ホーム / １名（設備） / ヨコレイ（馬淵建設） / 指示書
@@ -1632,7 +1655,7 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 DELETE FROM ifm11 WHERE _id <= XXX;
 
 ###2022年8月4日12:34:43
-DELETE FROM ifm11 WHERE _id <= 57250;
+#DELETE FROM ifm11 WHERE _id <= 57250;
 
 ###2022年7月6日16:11:28
 #DELETE FROM ifm11 WHERE _id <= 56878;
