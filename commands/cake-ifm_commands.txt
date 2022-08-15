@@ -520,7 +520,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody:phrase-pattern,for=~,key=~,notes=~,R=1,file-id=~,piece-id=~,tempo=~,session=1,other=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,key=h-2`(C),R=1,file-piece-other=~ \\\ p.2:genre=melody,key=h-2`(C),R=2,file-piece-other=~
 
 
 //edit : dodatek
@@ -988,8 +988,14 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
+//B3	2022年8月15日11:54:14
+:m RES 1*1 / free# JVEMV6 68#_332:1 / 68. theoretical-physics(tp) / topics=固体物理学；量子力学,w=~,doc=r-7-B3~1.1.1#1;r-7-A1~1.1.5#1,s=~,i=~,other=memo~
+
 //B2
-:m RES 1*1 / free# JVEMV6 68#_330:1 / 68. theoretical-physics(tp) / topics=解析力学,w=~,doc=r-7-B2~1.1.2#1,s=~,i=~,other=calc+
+:m RES 1*1 / free# JVEMV6 68#_331:2 / 68. theoretical-physics(tp) / topics=解析力学,w=~,doc=r-7-B2~1.1.2#2,s=~,i=~,other=calc+
+
+//A12
+:m RES 1*1 / free# JVEMV6 68#_331:2 / 68. theoretical-physics(tp) / topics=熱力学,w=~,doc=r-7-A12~1.1.2#1-3,s=~,i=~,other=memo~
 
 //A11
 :m RES 1-2*2 / free# JVEMV6 68#_328:1 / 68. theoretical-physics(tp) / topics=電磁気学,w=~,doc=r-7-A11~1.1.1#2-16.4~,s=~,i=~,other=memo~
@@ -998,6 +1004,10 @@ regex :
 :m RES 2*2 / free# JVEMV6 68#_329:2 / 68. theoretical-physics(tp) / topics=光学,w=~,doc=r-7-A9~1.1#5-3,s=~,i=~,other=calc+;memo+
 
 :m RES 2*2 / free# JVEMV6 68#_326:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#3-7.2,s=~,i=~,other=~
+
+//A1~1.1.7	2022年8月15日12:06:58
+:m RES 2*2 / free# JVEMV6 68#_336:2 / 68. theoretical-physics(tp) / topics=量子力学,w=,doc=r-7-A1~1.1.7#2-4,s=~,i=~,other=calc+:水素原子１個について：(ħ/(2m))
+
 
 :m RES 1-2*2 / free# JVEMV6 68#_id=7INS / 68. theoretical-physics(tp) / w=~,topics=math:combinations:筋トレの、リストグループたち：２群を合わせると、どんな組合せパターンが現れるか,other=~,s=~,i=~,doc=~
 
@@ -1257,8 +1267,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 :m 1*1 RES / JVEMV6 64#112_XX / 『戦中派の死生観』 著者=吉田満,校注=~ / p.299 / w:~,topic:聖書からの引用
 
 ###2021年6月16日9:56:34
-
+//template
 :m 記録 / 身体 / ケガ / loc=~,cause=~,loc-incident=~,id=~,phase=~,apparatus=~,injury=~,other=~
+
+:m 記録 / 身体 / ケガ / loc=胸部：左側：鎖骨下,cause=不詳,loc-incident=~,id=~,phase=~,apparatus=~,injury=皮膚が破れている,other=treatment:ワセリン、塗布；絆創膏は、しない；前日夜、同じ手当、１回目
+
 :m 記録 / 身体 / ケガ / loc=左手：手の甲：第２指（人差し指）：第１関節,cause=地面の上で滑って、手を壁についたとき、擦った。,loc-incident=宮前平公園,id=2021-07-02_23-47-58_000.jpg,phase=傷口の様子,apparatus=~,injury=掻き傷：皮膚は破れている：裂傷、２箇所ぐらい：裂傷部位、皮膚表面が剥がれている、直径５ｍｍほどか、円形に近く
 
 :m 記録 / 身体 / ケガ / loc=左腕：前腕：内側,cause=猫の毛に触れた（からか？クロか？）,loc-incident=公園（宮前平公園）,id=2021-06-15_19-57-05_000.jpg,phase=処置前,apparatus=~,injury=~,other=外観：ミミズ腫れのよう
@@ -1331,6 +1344,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 ###2022年5月21日9:24:04
 ========================== 記録しておきたいもの
+//2022年8月15日12:15:05
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=空：西の空 / subject=雲の様子、形 / content=雲。空の色
+
+
 //2022年6月18日10:17:49
 :PHOTO 記録しておきたいもの / @赤羽駅からの東和現場へ行く途中,location=現場の、ゲートの、向かいの空き地 / subject=野原の様子 / content=野花、咲いている
 
