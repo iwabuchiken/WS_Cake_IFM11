@@ -123,6 +123,8 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.12.delete-image-file
 4)
 REM #delete : db entries ------------------ ]]
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.4.delete-photos.bat
+
+5)
 //.browser.bat
 
 	No.12
@@ -520,7 +522,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,key=h-2`(C),R=1,file-piece-other=~ \\\ p.2:genre=melody,key=h-2`(C),R=2,file-piece-other=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,key=h-2(C),file-piece-other=~ \\\ p.2:genre=melody,file-piece-other=~ \\\ p.3:genre=melody,for=addition:muse:2022-08-14_s-1_p-3:after:msr-6~,file-piece-other=~ \\\ p.4:genre=melody,file-piece-other=~
 
 
 //edit : dodatek
@@ -815,6 +817,9 @@ regex :
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~,piece-id=~ / follow~
 
+//2022年8月20日10:55:17
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=accompani:3-rd-part,other=~,memo=~,file-id=muse:2022_07_31_s-2_p-2.mscz,piece-id=~ / follow~
+
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=rec-play,other=~,memo=2022-07-31_session-2_p-2,file-id=~,piece-id=~ / follow~
 
 //2022年8月9日9:55:01
@@ -988,6 +993,9 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
+//C1	2022年8月20日12:28:42
+:m RES 1*1 / free# JVEMV6 68#_340:2 / 68. theoretical-physics(tp) / topics=幾何学；量子力学,w=~,doc=r-7-C1~1.2.1#1-1.3~;r-7-A1~1.1.9#1-4.5~,s=~,i=~,other=memo+
+
 //B3	2022年8月15日11:54:14
 :m RES 1*1 / free# JVEMV6 68#_332:1 / 68. theoretical-physics(tp) / topics=固体物理学；量子力学,w=~,doc=r-7-B3~1.1.1#1;r-7-A1~1.1.5#1,s=~,i=~,other=memo~
 
@@ -1006,7 +1014,7 @@ regex :
 :m RES 2*2 / free# JVEMV6 68#_326:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#3-7.2,s=~,i=~,other=~
 
 //A1~1.1.7	2022年8月15日12:06:58
-:m RES 2*2 / free# JVEMV6 68#_336:2 / 68. theoretical-physics(tp) / topics=量子力学,w=,doc=r-7-A1~1.1.7#2-4,s=~,i=~,other=calc+:水素原子１個について：(ħ/(2m))
+:m RES 1*1 / free# JVEMV6 68#_339:2 / 68. theoretical-physics(tp) / topics=量子力学,w=,doc=r-7-A1~1.1.9#1-2.2,s=~,i=~,other=calc+
 
 
 :m RES 1-2*2 / free# JVEMV6 68#_id=7INS / 68. theoretical-physics(tp) / w=~,topics=math:combinations:筋トレの、リストグループたち：２群を合わせると、どんな組合せパターンが現れるか,other=~,s=~,i=~,doc=~
@@ -1315,6 +1323,19 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『現代日本思想大系　７ 仏教』 / 吉田久一=編集・解説 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『岩波講座東洋思想　第３巻　イスラーム思想　１』 / 著者=,長尾雅人、他=編集 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『神道思想の形成』 / 著者=安蘇谷正彦 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『古代神道の本質』 / 著者=山上伊豆母 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『大本神諭　第一巻』 / 著者=,編集=大本教学院 / 途中 ここまで
+
+//2022年8月20日11:19:12
+:bookmemo / 読んだ本 / 『古代神祇信仰の成立と変容』 / 著者=薮田紘一郎 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『戦時期日本の精神史』 / 著者=鶴見俊輔 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『アメリカ先住民の精神世界』 / 著者=安倍珠理 / 途中 ここまで
@@ -1599,6 +1620,9 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo,towa:memo,東和:m
+
+//2022年8月20日11:12:07
+:m 東和 PHOTO / 220819f / 蔵前駅 / 蔵前PJ / １名（設備） / 桑原配管工業所（新三平建設） / 指示書
 
 :m 東和 PHOTO / 220805f / 御嶽山駅 / 久が原１丁目計画 / １名（電気） / アイアール電気（大豊） / 指示書
 
