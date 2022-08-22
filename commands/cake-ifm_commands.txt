@@ -522,7 +522,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,for=~,key=h-2`(C),notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.2:genre=melody,for=continue:p.1,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.3:genre=melody,for=addition:muse:2022-08-19_19-02-23(mscz),key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.2:genre=melody,for=dodatek:2022-08-19_19-02-23,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~ \\\ p.3:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~
 
 
 //edit : dodatek
