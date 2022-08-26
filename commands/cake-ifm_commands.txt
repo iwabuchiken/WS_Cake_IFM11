@@ -522,7 +522,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,file-piece-other=~ \\\ p.2:genre=melody,for=section:<2>[地（ぢ）];<3>[鳴き（なき）],file-piece-id=sequence:page-1,other=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody:persian-like,file-piece-other=~ \\\ p.2:genre=melody,file-piece-other=~
 
 
 //edit : dodatek
@@ -1017,7 +1017,7 @@ regex :
 :m RES 2*2 / free# JVEMV6 68#_326:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#3-7.2,s=~,i=~,other=~
 
 //A1~1.1.7,1.1.9	2022年8月15日12:06:58
-:m RES 1*1 / free# JVEMV6 68#_345:1 / 68. theoretical-physics(tp) / topics=量子力学,w=,doc=r-7-A1~1.1.9#2-2.0~,s=~,i=~,other=~
+:m RES 1*1 / free# JVEMV6 68#_346:1 / 68. theoretical-physics(tp) / topics=量子力学,w=,doc=r-7-A1~1.1.9#2-2.4~,s=~,i=~,other=memo+
 
 
 :m RES 1-2*2 / free# JVEMV6 68#_id=7INS / 68. theoretical-physics(tp) / w=~,topics=math:combinations:筋トレの、リストグループたち：２群を合わせると、どんな組合せパターンが現れるか,other=~,s=~,i=~,doc=~
@@ -1068,6 +1068,13 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+
+//2022年8月26日14:24:18
+:m #*# RES / JVEMV6 64#142_azuma / 『東鏡』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+
+
+//2022年8月26日14:22:09
+:m #*# RES / JVEMV6 64#182_enanji / 『淮南子』 著者=~,校注=~ / p.26 / w=~,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#183_orthodox_infinite / 『ギリシャ正教 無限の神』 著者=落合仁司,校注=~ / p.100 / w=~,topic=~,publisher=~,other=~
 
@@ -1183,6 +1190,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 //:m / misc / topic=~ / content=~,other=~
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+//2022年6月9日10:06:00
+:m #*# / memo:other(m:other) / topic=お父さんの事故のこと, about=病院にて：看護師の人からの話し（page-1）；警察官の人からの話し,content=~,other=~,id=~ 
 
 //2022年6月9日10:06:00
 :m #*# / memo:other(m:other) / topic=祈りの文句, about=~,content=「一日、守ってください」,other=~,id=~ 
@@ -1660,6 +1670,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
 
+###2022年8月25日15:07:03
+##DELETE FROM ifm11 WHERE _id <= 57609;
+
 ###2022年8月4日12:34:43
 #DELETE FROM ifm11 WHERE _id <= 57250;
 
@@ -1868,3 +1881,4 @@ shaku
 memo_shi
 memo_shaku
 68#
+A1~1.1.7,1.1.9
