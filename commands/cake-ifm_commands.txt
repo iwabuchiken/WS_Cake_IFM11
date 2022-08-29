@@ -1017,7 +1017,7 @@ regex :
 :m RES 2*2 / free# JVEMV6 68#_326:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#3-7.2,s=~,i=~,other=~
 
 //A1~1.1.7,1.1.9	2022年8月15日12:06:58
-:m RES 1*1 / free# JVEMV6 68#_347:1 / 68. theoretical-physics(tp) / topics=量子力学,w=,doc=r-7-A1~1.1.9#2-3.2~,s=~,i=~,other=~
+:m RES 1*1 / free# JVEMV6 68#_348:1 / 68. theoretical-physics(tp) / topics=量子力学,w=,doc=r-7-A1~1.1.9#2-3.3~,s=~,i=~,other=calc+
 
 
 :m RES 1-2*2 / free# JVEMV6 68#_id=7INS / 68. theoretical-physics(tp) / w=~,topics=math:combinations:筋トレの、リストグループたち：２群を合わせると、どんな組合せパターンが現れるか,other=~,s=~,i=~,doc=~
