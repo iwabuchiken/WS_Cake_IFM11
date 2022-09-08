@@ -826,7 +826,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~,piece-id=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,file-piece-id=~ / follow~
 
 //2022年8月20日10:55:17
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=accompani:3-rd-part,other=~,memo=~,file-id=muse:2022_07_31_s-2_p-2.mscz,piece-id=~ / follow~
@@ -1025,7 +1025,7 @@ regex :
 :m RES 2*2 / free# JVEMV6 68#_326:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#3-7.2,s=~,i=~,other=~
 
 //A1~1.1.7,1.1.9	2022年8月15日12:06:58
-:m RES 1-2*2 / free# JVEMV6 68#_356:2 / 68. theoretical-physics(tp) / topics=量子力学,w=ベルの不等式,doc=r-7-A1~1.1.9##4-5.2~,s=~,i=~,other=~
+:m RES 1*2 / free# JVEMV6 68#_357:1 / 68. theoretical-physics(tp) / topics=量子力学,w=ベルの不等式,doc=r-7-A1~1.1.9##4-6.2~,s=~,i=~,other=~
 
 
 :m RES 1-2*2 / free# JVEMV6 68#_id=7INS / 68. theoretical-physics(tp) / w=~,topics=math:combinations:筋トレの、リストグループたち：２群を合わせると、どんな組合せパターンが現れるか,other=~,s=~,i=~,doc=~
