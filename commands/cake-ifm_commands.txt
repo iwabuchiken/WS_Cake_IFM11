@@ -522,8 +522,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,file-piece-musescore=~
-
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -720,23 +719,12 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 :m dessin,sketch / des. object=~ / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
+:m dessin,sketch / des. object=セキレイ / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+
 :m ,sketch / des. object=ツバメ：ヒナ / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
 :m ,sketch / des. object=シカ：メス / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
-//2022年8月23日10:32:47
-:m dessin,sketch / des. object=手：掴む / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
-
-//2022年8月4日11:52:58
-:m dessin,sketch / des. object=セミ：ミンミンゼミ / source=web画像,location=~,other=~,memo~,found~,id=~,occasion=~
-
-:m dessin,sketch / des. object=稲穂 / source=web画像,location=~,other=~,memo~,found~,id=~,occasion=~
-
-:m dessin,sketch / des. object=水干 / source=web動画より,location=~,other=~,memo~,found~,id=~,occasion=~
-
-:m dessin,sketch / des. object=~ / @web画像 / other=~,memo~,found~,id=~,occasion=~
-
-:m dessin,sketch / des. object=輪袈裟 / @web画像 / other=~,memo~,found~,id=CJWP,occasion=『宇治拾遺物語』 ||| :m dessin,sketch / des. object=モクゲンジ / @web画像 / other=~,memo~,found~,id=LTU1,occasion=『宇治拾遺物語』
 
 ###2021年6月18日8:55:14
 ============================== memo : lets
@@ -1025,7 +1013,7 @@ regex :
 :m RES 2*2 / free# JVEMV6 68#_326:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#3-7.2,s=~,i=~,other=~
 
 //A1~1.1.7,1.1.9	2022年8月15日12:06:58
-:m RES 1*2 / free# JVEMV6 68#_357:1 / 68. theoretical-physics(tp) / topics=量子力学,w=ベルの不等式,doc=r-7-A1~1.1.9##4-6.2~,s=~,i=~,other=~
+:m RES 3*3 / free# JVEMV6 68#_358:1 / 68. theoretical-physics(tp) / topics=量子力学,w=~,doc=r-7-A1~1.1.7##2-6.0~,s=~,i=~,other=calc+
 
 
 :m RES 1-2*2 / free# JVEMV6 68#_id=7INS / 68. theoretical-physics(tp) / w=~,topics=math:combinations:筋トレの、リストグループたち：２群を合わせると、どんな組合せパターンが現れるか,other=~,s=~,i=~,doc=~
@@ -1077,21 +1065,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+//2022年9月11日10:04:21
+:m #*# RES / JVEMV6 64#186_toohoo / 『東方正教会』 著者=オリヴィエ・クレマン 冷牟田、白石、訳 / p.100 / w=~,topic=~,publisher=~,other=~
+
 //2022年8月26日14:24:18
 :m #*# RES / JVEMV6 64#142_azuma / 『東鏡』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
-
-
-//2022年8月26日14:22:09
-:m #*# RES / JVEMV6 64#182_enanji / 『淮南子』 著者=~,校注=~ / p.26 / w=~,topic=~,publisher=~,other=~
-
-:m #*# RES / JVEMV6 64#183_orthodox_infinite / 『ギリシャ正教 無限の神』 著者=落合仁司,校注=~ / p.100 / w=~,topic=~,publisher=~,other=~
-
-:m #*# RES / JVEMV6 64#68_daigaku / 『大学』 著者=赤塚忠,校注=~ / p.58 / w=~,topic=~,publisher=明治書院,other=~
-
-
-:m #*# RES / JVEMV6 64#177_1_kishin_hakuseki / 『日本思想大系３５　新井白石』 著者=~,校注=松村明、他 / p.146 / w=~,topic=~,publisher=岩波書店,other=~
-
-
 
 
 C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
@@ -1193,6 +1171,15 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m #*# / memo:other(m:other) / topic=短歌作り, about=~,other=「大葉酒　ディルなる加え」,id=~ 
 
+###2022年9月11日10:43:20
+=============== memo :music
+//template
+//:m / misc / topic=~ / content=~,other=~
+:m :music #*# / topic=structure:write-down, about=~,content=~,other=video:https://www.youtube.com/watch?v=pCsgDszjynI,id=~ 
+
+
+
+
 ###2021年11月8日9:39:16
 =============== memo :misc
 //template
@@ -1285,6 +1272,13 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :PHOTO 記録用 / @自宅；東側；洗面所から見える；東の犬走り / 自然観察 / 花
 
+###2022年9月11日11:28:46
+========================== memo:作ったもの：繕いもの
+:PHOTO 記録 / 作ったもの：繕いもの / subject=~,for=~,other=~
+
+:PHOTO 記録 / 作ったもの：繕いもの / subject=椅子：カバー,for=~,other=ジーンズ生地、敷いた
+
+
 ###2022年7月20日10:06:16
 ============================== memo:knot:log
 :PHOTO 記録 / 文書:knot　/ occasion=作ったもの：記録しておく / for=2022-07-17:もやい；トラッカーズ；巻き結び；巻き結び~2022-07-15:もやい；自在；自在 / doc=~,other=~
@@ -1305,6 +1299,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『東方正教会』 / 著者=オリヴィエ・クレマン 冷牟田、白石、訳 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『講座日本思想　５　美』 / 著者=相良、他、編集 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『日本哲学思想全書　第八巻　宗教　宗教論一般篇　空の空なる哉』 / 著者=内村鑑三 / 途中 ここまで
 
@@ -1588,6 +1586,8 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo,towa:memo,東和:m
+
+:m 東和 PHOTO / 220909f / 元住吉駅 / 川崎市中原区井田三舞町計画 / １名（設備） / 日建（小川建設） / 指示書
 
 :m 東和 PHOTO / 220902f / 青山一丁目駅 / 港区赤坂７丁目計画 / １名（設備） / ホクシン設備（合田工務店） / 指示書
 
