@@ -522,7 +522,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,other=以前に書いたもの
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,other=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -1012,9 +1012,11 @@ regex :
 
 :m RES 2*2 / free# JVEMV6 68#_326:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#3-7.2,s=~,i=~,other=~
 
+//A1~1.1.7	2022年9月14日12:01:43
+:m RES 3*3 / free# JVEMV6 68#_360:1 / 68. theoretical-physics(tp) / topics=量子力学,w=~,doc=r-7-A1~1.1.7##3-3.0~,s=~,i=~,other=calc+
+
 //A1~1.1.7,1.1.9	2022年8月15日12:06:58
 :m RES 3*3 / free# JVEMV6 68#_359:1 / 68. theoretical-physics(tp) / topics=量子力学,w=ハミルトニアン,doc=r-7-A1~1.1.7##3-0~,s=~,i=~,other=~
-
 
 :m RES 1-2*2 / free# JVEMV6 68#_id=7INS / 68. theoretical-physics(tp) / w=~,topics=math:combinations:筋トレの、リストグループたち：２群を合わせると、どんな組合せパターンが現れるか,other=~,s=~,i=~,doc=~
 
@@ -1065,6 +1067,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#189_1_india_thoughts / 『講座　東洋思想　１　インド思想』 編集=宇野精一、中村元、玉城康四郎,校注=~ / p.10 / w=~,topic=~,publisher=~,other=~
+
 //2022年9月11日10:04:21
 :m #*# RES / JVEMV6 64#186_toohoo / 『東方正教会』 著者=オリヴィエ・クレマン 冷牟田、白石、訳 / p.100 / w=~,topic=~,publisher=~,other=~
 
@@ -1072,7 +1076,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#142_azuma / 『東鏡』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
 
-C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
+G:\photo-books_HD\list-of-books.txt
+
+//C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 ###2021年6月27日11:30:52
 ======================== memo : 41# : econ
@@ -1486,6 +1492,15 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================== 記録 : お酒
 
 :m 記録 / お酒：飲んだ量
+
+
+###2022年9月14日11:59:30
+============================== :m : res:free
+:m 1-2*2 RES / free / res-id=~ / theme=~ / session-number=~ /
+
+:m 1-2*2 RES / free / res-id=AASN / theme=veda;ヴェーダ；インド哲学 / session-number=1 /
+
+
 
 ###2021年9月22日10:19:44
 ============================== :m : 記事読み
