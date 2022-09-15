@@ -816,6 +816,9 @@ regex :
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,file-piece-id=~ / follow~
 
+//2022年9月15日11:59:04
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,file-piece-id=~,other=video:ビデオを見て、触発されて、作ったメロディー：video-title=이용구 대금 독주회 시나위 / follow~
+
 //2022年8月20日10:55:17
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=accompani:3-rd-part,other=~,memo=~,file-id=muse:2022_07_31_s-2_p-2.mscz,piece-id=~ / follow~
 
@@ -986,6 +989,12 @@ regex :
 
 :m 1*1 / JVEMV6 46#6.8 / 46. art / 6. va / 8. japanese art / topic=des.object=オオイヌノフグリ：花冠,other=memo+
 
+======== memo : JVE : 
+###2022年9月15日11:50:31
+
+:m RES #*# / free# JVEMV6 81#_XX(T-XX) / 81. microbiology / topics=~,w=~,s=~,i=~,doc=,other=~
+
+:m RES 2*2 / free# JVEMV6 81#_2:1 / 81. microbiology / topics=~,w=~,s=~,i=~,doc=r-1-1~1.1#2-1.2,other=memo+:触媒；選択性
 
 ======== memo : JVE : theoretical-physics(tp)
 ###2021年6月8日8:15:30
@@ -1067,7 +1076,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#189_1_india_thoughts / 『講座　東洋思想　１　インド思想』 編集=宇野精一、中村元、玉城康四郎,校注=~ / p.10 / w=~,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#189_1_india_thoughts / 『講座　東洋思想　１　インド思想』 編集=宇野精一、中村元、玉城康四郎,校注=~ / p.16 / w=~,topic=~,publisher=~,other=~
 
 //2022年9月11日10:04:21
 :m #*# RES / JVEMV6 64#186_toohoo / 『東方正教会』 著者=オリヴィエ・クレマン 冷牟田、白石、訳 / p.100 / w=~,topic=~,publisher=~,other=~
