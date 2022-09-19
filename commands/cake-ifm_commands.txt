@@ -38,6 +38,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2-1_move-files_tmp-to-iphone.bat
 //4-0.1)------------------ gen : list of files ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list-iphone-dir.bat
 
+//==> open file / copy the list / close file / delete file / paste to ods file
 
 // back to tmp dir
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2-2_move-files_iphone-to-tmp.bat
@@ -538,7 +539,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody:jazz-like
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,key=h-4(E),notes=dai-kan,file-piece-musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -1022,6 +1023,9 @@ regex :
 ###2021年6月8日8:15:30
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
+
+//C1	2022年9月19日10:52:14
+:m RES 1*1 / free# JVEMV6 68#_364:1 / 68. theoretical-physics(tp) / topics=量子力学,w=自己相関関数,doc=r-7-C1~1.5.2#1;r-7-C1~1.5.3#1,s=~,i=~,other=calc+
 
 //C1	2022年8月20日12:28:42
 :m RES 1*1 / free# JVEMV6 68#_340:2 / 68. theoretical-physics(tp) / topics=幾何学；量子力学,w=~,doc=r-7-C1~1.2.1#1-1.3~;r-7-A1~1.1.9#1-4.5~,s=~,i=~,other=memo+
