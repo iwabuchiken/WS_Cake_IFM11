@@ -155,6 +155,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
 uploaded photos --> to HD ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 
+//sakura C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
+
 	//dpath_dst=G:\images\2022
 	//dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
 	
