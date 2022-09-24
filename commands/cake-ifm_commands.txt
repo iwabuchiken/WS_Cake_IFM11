@@ -1011,7 +1011,7 @@ regex :
 ======== memo : JVE : 82# : math-research
 ###2022年9月20日10:11:20
 
-:m RES #*# / free# JVEMV6 82#_1:1 / 82. math-research / topics=~,w=~,s=~,i=~,doc=r-1-1~1.1#1,other=calc+
+:m RES #*# / free# JVEMV6 82#_2:1 / 82. math-research / topics=~,w=~,s=~,i=~,doc=r-1-1~1.2#1,other=no-memo
 
 ======== memo : JVE : 81# : catalyst
 ###2022年9月18日10:16:13
@@ -1105,6 +1105,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#193_shimada_ekibyoo / 『疫病vs神』 著者=島田ひろみ,校注=~ / p.46 / w=~,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#189_1_india_thoughts / 『講座　東洋思想　１　インド思想』 編集=宇野精一、中村元、玉城康四郎,校注=~ / p.16 / w=~,topic=~,publisher=~,other=~
 
@@ -1212,7 +1214,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2022年6月11日9:09:17
 =============== memo :短歌
 //template
-:m #*# / memo:other(m:other) / topic=短歌作り, about=~,other=「XXX」,id=~ 
+:m #*# / memo:other(m:other) / topic=~, about=~,other=「XXX」,id=~ 
+
+:m #*# / memo:other(m:other) / topic=お父さんの埋葬（納骨）, about=お兄さんへのメールの、下書き,other=「XXX」,id=~ 
 
 :m #*# / memo:other(m:other) / topic=短歌作り, about=~,other=「大葉酒　ディルなる加え」,id=~ 
 
