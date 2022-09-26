@@ -1032,7 +1032,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
 //C1	2022年9月19日10:52:14
-:m RES 2*2 / free# JVEMV6 68#_365:1 / 68. theoretical-physics(tp) / topics=量子力学,w=アンチバンチング,doc=r-7-C1~1.5.3#2-1,s=~,i=~,other=~
+:m RES 1*1 / free# JVEMV6 68#_366:1 / 68. theoretical-physics(tp) / topics=量子力学,w=アンチバンチング,doc=r-7-C1~1.5.4#1;r-7-C1~1.5.2#1-2,s=~,i=~,other=~
 
 //B3	2022年8月15日11:54:14
 :m RES 1*1 / free# JVEMV6 68#_332:1 / 68. theoretical-physics(tp) / topics=固体物理学；量子力学,w=~,doc=r-7-B3~1.1.1#1;r-7-A1~1.1.5#1,s=~,i=~,other=memo~
