@@ -582,7 +582,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,for=melody-A,file-piece-musescore=~ \\\ p.2:genre=melody:continue:page-1,for=melody-A:var-1;間奏(fill),file-piece-musescore=~ \\\ p.3:genre=melody:add:09-25~page-1,key=h-7(A),file-piece-musescore=~ \\\ p.4:genre=melody,key=h-4(E),file-piece-musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-2 / p.1:genre=melody,file-piece-musescore=~ \\\ p.2:genre=melody,key=h-4`(E),R=1,file-piece-musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -845,7 +845,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 =================== memo,video : shakuhachi,bamboo,尺八,shaku:video,video:shaku,video_shaku
 
 //-----template : 2022年5月4日9:12:21
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,for=~,Re~,other=~,file-id=~,memo~
+:VIDEO / @自室 / 記録 / jap.flute-bamboo,shakuhachi,尺八 / 演奏、play / R=1 / genr=todays-melody,for=~,Re~,other=~,file-id=~,memo~
 
 //2022年6月18日9:54:15
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=todays-melody,for=zabawna-melodia(playful-melody),Re~,other=~,file-id=~,memo~
@@ -1048,6 +1048,14 @@ regex :
 ======================== JVE : arts : japanese art
 
 :m 1*1 / JVEMV6 46#6.8 / 46. art / 6. va / 8. japanese art / topic=des.object=オオイヌノフグリ：花冠,other=memo+
+
+
+======== memo : JVE : general
+###2022年9月28日10:25:43
+//template
+:m RES #*# / free# JVEMV6 general#_X:X / JVEMV6.general / topics=plastic-degradation,w=phenolic-aldehyde,s=~,i=~,doc=r-1.1~1.2#1,other=~
+
+:m RES #*# / free# JVEMV6 general#_1:1 / JVEMV6.general / topics=~,w=~,s=~,i=~,doc=~,other=~
 
 ======== memo : JVE : 82# : math-research
 ###2022年9月20日10:11:20
@@ -1757,6 +1765,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
+
+###2022年9月28日10:31:49
+#DELETE FROM ifm11 WHERE _id <= 57996;
 
 ###2022年8月25日15:07:03
 ##DELETE FROM ifm11 WHERE _id <= 57609;
