@@ -582,12 +582,13 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-2 / p.1:genre=melody,file-piece-musescore=~ \\\ p.2:genre=melody,key=h-4`(E),R=1,file-piece-musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-2 / p.1:genre=melody,for=~,key=~,notes=~,R=1,file-id=~,piece-id=~,tempo=~,session=1,other=~,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
 
-
+//template : pages : page-1
+p.1:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~
 
 //template : pages
 p.1:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~ \\\ p.2:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~ \\\ p.3:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~ \\\ p.4:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~
@@ -874,7 +875,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,file-piece-id=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,file-piece-id=~,memo=~,other=continue:R-1 / follow~
 
 //2022年9月15日11:59:04
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,file-piece-id=~,other=video:ビデオを見て、触発されて、作ったメロディー：video-title=이용구 대금 독주회 시나위 / follow~
@@ -1050,12 +1051,12 @@ regex :
 :m 1*1 / JVEMV6 46#6.8 / 46. art / 6. va / 8. japanese art / topic=des.object=オオイヌノフグリ：花冠,other=memo+
 
 
-======== memo : JVE : general
+======== memo : JVE : general : JVE_general
 ###2022年9月28日10:25:43
 //template
 :m RES #*# / free# JVEMV6 general#_X:X / JVEMV6.general / topics=plastic-degradation,w=phenolic-aldehyde,s=~,i=~,doc=r-1.1~1.2#1,other=~
 
-:m RES #*# / free# JVEMV6 general#_1:1 / JVEMV6.general / topics=~,w=~,s=~,i=~,doc=~,other=~
+:m RES #*# / free# JVEMV6 general#_0928:1 / JVEMV6.general / topics=~,w=伯碳;仲碳;叔碳,s=~,i=~,doc=r-1-1~1.2#4,other=~
 
 ======== memo : JVE : 82# : math-research
 ###2022年9月20日10:11:20
@@ -1983,3 +1984,4 @@ memo_shaku
 81#
 68#
 A1~1.1.7,1.1.9
+JVE_general
