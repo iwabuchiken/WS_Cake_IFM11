@@ -792,6 +792,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :lets / action activity / やること / genre=XXX / content=XXX
 
+:m :lets / action activity / やること / genre=活動 / content=bio;plastic;量子；re-forest
+
 :m :lets / action activity / やること / genre=神道：行事、祭り / content=自分一人で、始めよう
 
 :m :lets / action activity / やること / genre=創作 / content=伝えたいこと。物語で伝えよう。音楽で。
@@ -1695,6 +1697,8 @@ JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 /
 ###2022年2月26日10:43:42
 ============================ 東和:PHOTO,towa:photo,towa:memo,東和:m
 
+:m 東和 PHOTO / 220930f / 東神奈川駅 / ガーラ東神奈川 / １名（設備） / 日建（馬淵建設） / 指示書
+
 :m 東和 PHOTO / 220917f / 津田山駅 / 下作延計画 / １名（設備） / 金子工業所（不二建設） / 指示書
 
 :m 東和 PHOTO / 220909f / 元住吉駅 / 川崎市中原区井田三舞町計画 / １名（設備） / 日建（小川建設） / 指示書
@@ -1980,6 +1984,7 @@ shaku
 156_2
 memo_shi
 memo_shaku
+towa:memo
 80#
 81#
 68#
