@@ -582,7 +582,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-2 / p.1:genre=melody,for=~,key=~,notes=~,R=1,file-id=~,piece-id=~,tempo=~,session=1,other=~,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-2 / p.1:genre=melody,key=h-2`(C),file-piece-musescore=~ \\\ p.2:genre=melody,for=continue-from:page-1,file-piece-musescore=~ \\\ p.3:genre=melody,file-piece-musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -1660,6 +1660,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2021年11月21日10:06:43
 ============================ 記録：文書 / photo:doc
 :PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~,other=~
+
+:PHOTO 記録 / 文書　/ occasion=記事を読んだ / for=「畝」の左のみの、中国語の文字：亩mu3：平方キロメートルに、換算 / doc=~,other=東京ドームは、約、２３亩(47÷2)
 
 :PHOTO 記録 / 文書　/ occasion=お父さん：亡くなった / for=ニチイホーム、訪問：担当の北村さんと面談 / doc=~,other=自分、お兄さん、陽子姉さん、北村さん。初めのうち、所長さんか、男性。４０ぐらいか。
 
