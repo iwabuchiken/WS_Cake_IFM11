@@ -1058,7 +1058,7 @@ regex :
 //template
 :m RES #*# / free# JVEMV6 general#_X:X / JVEMV6.general / topics=plastic-degradation,w=phenolic-aldehyde,s=~,i=~,doc=r-1.1~1.2#1,other=~
 
-:m RES #*# / free# JVEMV6 general#_0928:1 / JVEMV6.general / topics=~,w=伯碳;仲碳;叔碳,s=~,i=~,doc=r-1-1~1.2#4,other=~
+:m RES 1*2 / free# JVEMV6 general#_1002:1 / JVEMV6.general / topics=plastic-degeneration;プラスチック分解,w=PET;polyester;テレフタル酸；エチレングリコール,s=~,i=~,doc=r-1-1~1.6#1,other=~
 
 ======== memo : JVE : 82# : math-research
 ###2022年9月20日10:11:20
