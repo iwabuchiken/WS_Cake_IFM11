@@ -582,7 +582,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-2 / p.1:genre=melody,key=h-2`(C),file-piece-musescore=~ \\\ p.2:genre=melody,for=continue-from:page-1,file-piece-musescore=~ \\\ p.3:genre=melody,file-piece-musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-2 / p.1:genre=atom,key=h-7`(Af),file-piece-other=melody-A-1,musescore=~ \\\ p.2:genre=melody:continue-from:page-1:melody-A-2;melody-A3;sabi,file-piece-musescore=~ \\\ p.3:genre=add:10-01~page-1,key=h-2,file-piece-musescore=~ \\\ p.4:genre=melody:continue:page-3,file-piece-musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
