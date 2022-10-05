@@ -582,7 +582,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-2 / p.1:genre=atom,key=h-7`(Af),file-piece-other=melody-A-1,musescore=~ \\\ p.2:genre=melody:continue-from:page-1:melody-A-2;melody-A3;sabi,file-piece-musescore=~ \\\ p.3:genre=add:10-01~page-1,key=h-2,file-piece-musescore=~ \\\ p.4:genre=melody:continue:page-3,file-piece-musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-2 / p.1:genre=add:10-04~page-2,key=~,file-piece-other=~,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -1104,7 +1104,7 @@ regex :
 :m RES 2*2 / free# JVEMV6 68#_326:1 / 68. theoretical-physics(tp) / topics=統計力学,w=~,doc=r-7-A7~2.1#3-7.2,s=~,i=~,other=~
 
 //A1~1.1.7	2022年9月14日12:01:43
-:m RES 2*2 / free# JVEMV6 68#_367:1 / 68. theoretical-physics(tp) / topics=量子力学,w=~,doc=r-7-A1~1.1.7##5.0~,s=~,i=~,other=~
+:m RES 2*2 / free# JVEMV6 68#_369:1 / 68. theoretical-physics(tp) / topics=量子力学,w=~,doc=r-7-A1~1.1.7##5-3,s=~,i=~,other=calc+;memo+
 
 //A1~1.1.7,1.1.9	2022年8月15日12:06:58
 :m RES 3*3 / free# JVEMV6 68#_359:1 / 68. theoretical-physics(tp) / topics=量子力学,w=ハミルトニアン,doc=r-7-A1~1.1.7##3-0~,s=~,i=~,other=~
