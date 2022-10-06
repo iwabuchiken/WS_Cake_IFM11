@@ -877,7 +877,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,file-piece-id=~,memo=~,other=continue:R-1 / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,file-piece-id=~,memo=~,other=~ / follow~
 
 //2022年9月15日11:59:04
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,file-piece-id=~,other=video:ビデオを見て、触発されて、作ったメロディー：video-title=이용구 대금 독주회 시나위 / follow~
@@ -1401,17 +1401,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『維摩経・首楞厳三昧経』 / 著者=長尾雅人、丹沼昭義、訳 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『東方正教会』 / 著者=オリヴィエ・クレマン 冷牟田、白石、訳 / 途中 ここまで
 
-:bookmemo / 読んだ本 / 『講座日本思想　５　美』 / 著者=相良、他、編集 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『日本哲学思想全書　第八巻　宗教　宗教論一般篇　空の空なる哉』 / 著者=内村鑑三 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『現代日本思想大系　７ 仏教』 / 吉田久一=編集・解説 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『岩波講座東洋思想　第３巻　イスラーム思想　１』 / 著者=,長尾雅人、他=編集 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『神道思想の形成』 / 著者=安蘇谷正彦 / 途中 ここまで
 
 
 ============================== 読みたい本 : 2021年7月24日8:41:12
