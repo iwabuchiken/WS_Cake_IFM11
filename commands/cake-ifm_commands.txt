@@ -582,7 +582,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-2 / p.1:genre=add:10-04~page-2,key=~,file-piece-other=~,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-2 / p.1:genre=melody,R=1,file-piece-musescore=~ \\\ p.2:genre=melody,R=2,file-piece-musescore=~ \\\ p.3:genre=melody,R=3,file-piece-musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -877,7 +877,10 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,file-piece-id=~,memo=~,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,file-piece-id=~,memo=~,session=~,other=~ / follow~
+
+//2022年10月7日11:30:05
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / record,file-piece-id=~,memo=+:page-3:①,session=1,other=~ / follow~
 
 //2022年9月15日11:59:04
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,file-piece-id=~,other=video:ビデオを見て、触発されて、作ったメロディー：video-title=이용구 대금 독주회 시나위 / follow~
@@ -1082,6 +1085,9 @@ regex :
 ###2021年6月8日8:15:30
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
+
+//2022年10月7日11:56:55		/ 7-A1~1.4.1
+:m RES 1*1 / free# JVEMV6 68#_371:1 / 68. theoretical-physics(tp) / topics=量子力学：朝永,w=~,s=~,i=~,other=~,doc=f-2:r-7-A1~1.4.1#1
 
 //C1	2022年9月19日10:52:14
 :m RES 1*1 / free# JVEMV6 68#_366:1 / 68. theoretical-physics(tp) / topics=量子力学,w=アンチバンチング,doc=r-7-C1~1.5.4#1;r-7-C1~1.5.2#1-2,s=~,i=~,other=~
