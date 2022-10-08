@@ -877,24 +877,12 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,file-piece-id=~,memo=~,session=~,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,file-piece-id=~,memo=~,session=~,other=~ / follow~
 
 //2022年10月7日11:30:05
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / record,file-piece-id=~,memo=+:page-3:①,session=1,other=~ / follow~
 
-//2022年9月15日11:59:04
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,file-piece-id=~,other=video:ビデオを見て、触発されて、作ったメロディー：video-title=이용구 대금 독주회 시나위 / follow~
-
-//2022年8月20日10:55:17
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=accompani:3-rd-part,other=~,memo=~,file-id=muse:2022_07_31_s-2_p-2.mscz,piece-id=~ / follow~
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=rec-play,other=~,memo=2022-07-31_session-2_p-2,file-id=~,piece-id=~ / follow~
-
-//2022年8月9日9:55:01
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=+,file-id=~,piece-id=~ / follow~
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / record,for=~,other=genre:two-note-melody,memo=~,file-id=~,piece-id=~ / follow~
-
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,file-piece-id=~,memo=~,session=popoludnie,other=~ / follow~
 
 //2022年8月9日9:43:31
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=6 / record,for=~,other=~,memo=+:2022-07-31_session-2_p-2:<1>,file-id=~,piece-id=~ / follow~
