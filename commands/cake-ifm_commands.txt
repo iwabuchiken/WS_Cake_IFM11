@@ -533,7 +533,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :guitar #*# / session-memo / s.1:genre=melody,key=~,notes=~,other=~,file-id=~ \\\ s.2:genre=melody,key=~,notes=~,other=~,file-id=~
+:m :guitar #*# / session-memo / p.1:genre=melody,tuning=1A-2G-3Ef-4D,file-piece-musescore=~ \\\ p.1-<2>:genre=melody,tuning=1A-2G-3Ef-4D,file-piece-other=capo:2,musescore=~
 
 //template : 2022年7月26日11:51:21
 :m :guitar #*# / session-memo / log / session=~,other=~
@@ -582,7 +582,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-2 / p.1:genre=melody:jazz-like,file-piece-musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,file-piece-other=memo:h-1+,musescore=~ \\\ p.2:genre=melody:non-trad,file-piece-musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
