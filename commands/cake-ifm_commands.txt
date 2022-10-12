@@ -533,7 +533,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :guitar #*# / session-memo / p.1:genre=melody,tuning=1A-2G-3Ef-4D,file-piece-musescore=~ \\\ p.1-<2>:genre=melody,tuning=1A-2G-3Ef-4D,file-piece-other=capo:2,musescore=~
+:m :guitar #*# / session-memo / p.1:genre=melody,tuning=1:5-2:4-3:1h-4:1,key=D,file-piece-id=~,capo=2,musescore=~ \\\ p.1-<2>:genre=melody,tuning=1A-2G-3Ef-4D,file-piece-id=~,capo=2,musescore=~
 
 //template : 2022年7月26日11:51:21
 :m :guitar #*# / session-memo / log / session=~,other=~
@@ -582,7 +582,7 @@ regex :
 :m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,file-piece-other=memo:h-1+,musescore=~ \\\ p.2:genre=melody:non-trad,file-piece-musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,file-piece-other=~,session=hour-13,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -877,7 +877,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,file-piece-id=~,memo=~,session=hour-14,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:japanese-trad,record,file-piece-id=~,memo=~,session=hour-01,other=~ / follow~
 
 //2022年10月7日11:30:05
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / record,file-piece-id=~,memo=+:page-3:①,session=1,other=~ / follow~
@@ -995,23 +995,30 @@ content=~,key=~,for=~,from=~,R=~,pieces=~,genr=pattern-atom,notes=~,chord=~,othe
 
 
 ###2021年10月3日8:43:25
-==================== video : guitar
-
+==================== video : guitar : video_guitar
+regex : 
+[a-zA-Z]+=~,
+[a-z]+=~,
+	 (<= this : 2021年11月15日10:00:59)
+	 
 :VIDEO / @自室 / 記録 / guitar / 演奏、play / f-2021-061X-X / XX
 
-:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=1 / XX
+//basic
+:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=1 / genr=melody,key=D,tuning=1:5-2:4-3:1h-4;1,Re~,other=~
 
 :VIDEO / @自室 / 記録 / guitar / 演奏、play / key=D,R=~,genr=~,type=code-progre,other=tune:hira,memo+
 
 content=~,key=~,for=~,from=~,R=~,genr=~,type=pattern-atom,other=~,memo~
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
+
+genr=~,key=~,tuning=~,,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 follow,R=~,ReX
 todays-rythm,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX
 follow,R=~,ReX
 prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
-genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
+
 
 
 ###2021年9月9日9:58:39
@@ -1075,7 +1082,7 @@ regex :
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
 //2022年10月7日11:56:55		/ 7-A1~1.4.1
-:m RES 1*2 / free# JVEMV6 68#_372:1 / 68. theoretical-physics(tp) / topics=量子力学：朝永,w=~,s=~,i=~,doc=f-2:r-7-A1~1.4.1#3.3,other=~
+:m RES 2*2 / free# JVEMV6 68#_373:2 / 68. theoretical-physics(tp) / topics=量子力学：朝永,w=~,s=~,i=~,doc=r-7-A1~1.4.1:f-9#L:1-0,other=memo+
 
 //C1	2022年9月19日10:52:14
 :m RES 1*1 / free# JVEMV6 68#_366:1 / 68. theoretical-physics(tp) / topics=量子力学,w=アンチバンチング,doc=r-7-C1~1.5.4#1;r-7-C1~1.5.2#1-2,s=~,i=~,other=~
@@ -1578,7 +1585,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 ###2022年9月14日11:59:30
 ============================== :m : res:free
-:m 1-2*2 RES / free / res-id=~ / theme=~ / session-number=~ /
+:m 1-2*2 RES / free / res-id=~ / theme=~ / session-number=~ / doc=~,other=~
+
+:m 1-2*2 RES / free / res-id=XOL4 / theme=満州事変 / session-number=1 / doc=:d-1#1,other=~
 
 :m 1-2*2 RES / free / res-id=AASN / theme=veda;ヴェーダ；インド哲学 / session-number=1 /
 
@@ -1648,21 +1657,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================ 記録：文書 / photo:doc
 :PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~,other=~
 
+:PHOTO 記録 / 文書　/ occasion=~ / for=やることリスト：その日にやること：予定表 / doc=~,other=~
+
 :PHOTO 記録 / 文書　/ occasion=記事を読んだ / for=「畝」の左のみの、中国語の文字：亩mu3：平方キロメートルに、換算 / doc=~,other=東京ドームは、約、２３亩(47÷2)
 
-:PHOTO 記録 / 文書　/ occasion=お父さん：亡くなった / for=ニチイホーム、訪問：担当の北村さんと面談 / doc=~,other=自分、お兄さん、陽子姉さん、北村さん。初めのうち、所長さんか、男性。４０ぐらいか。
-
-:PHOTO 記録 / 文書　/ occasion=お父さん：葬儀、他 / for=葬儀：内容について、いくつかの事項 / doc=~,other=お兄さんが宮崎の家に来て、話をした。
-
-:PHOTO 記録 / 文書　/ occasion=お父さん：葬儀 / for=昇おじさん：連絡先：電話番号：住所 / doc=~,other=~
-
-:PHOTO 記録 / 文書　/ occasion=~ / for=お父さん：葬儀：案内 / doc=~,other=~
-
-:PHOTO 記録 / 文書　/ occasion=~ / for=`日に新たに`：堯帝だったか、顔を洗う盥に銘記した言葉。に、関連して、帝の廟だったか、とある器、あり。そのままだと、倒れたまま。水を入れてしばらくする。と、器が立つ。さらに入れ続ける。と、また倒れる：その器は、どのような仕組みだったのか：考案してみた / doc=~,other=~
-
-:PHOTO 記録 / 文書　/ occasion=東和の現場で、頭に浮かんだ / for=祈りの文句 / doc=~,other=「神仏の加護、…」,add=聖人の教え、現人[げんじん]の安寧、後人の安堵
-
-:PHOTO 記録 / 文書　/ occasion=PCR検査時 / for=「自主療養」についての案内チラシ / doc=~,other=クリエイトにて、受け取り
 
 ###2022年2月26日10:56:52
 ============================ 記録：やったこと
@@ -1977,5 +1975,7 @@ towa:memo
 A1~1.1.7,1.1.9
 68#
 JVE_general
+video_guitar
 video_shi
 memo_shi
+memo_gui
