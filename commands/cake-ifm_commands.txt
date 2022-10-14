@@ -569,20 +569,22 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=shin
 http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=shino+song-id&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 
 regex : 
-[a-zA-Z]+=~,
-[a-z]+=~,
-	 (<= this : 2021年11月15日10:00:59)
-,([^=])+?=~
+//[a-zA-Z]+=~,
+[a-z\-]+=~,
+	 (<= this : 2022年10月14日10:27:16)
+//[a-z]+=~,
+//	 (<= this : 2021年11月15日10:00:59)
+//,([^=])+?=~
 
-:m :篠笛,shinobue #*# / session-memo / s.1:genre=melody,key=~,notes=~,other=~,file-id=~ \\\ s.2:genre=melody,key=~,notes=~,other=~,file-id=~
+//:m :篠笛,shinobue #*# / session-memo / s.1:genre=melody,key=~,notes=~,other=~,file-id=~ \\\ s.2:genre=melody,key=~,notes=~,other=~,file-id=~
 
 //template : 2022年7月26日11:51:21
-:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
+//:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
-:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
+//:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,key=h-7(A),file-piece-musescore=~ \\\ p.2:genre=melody:continue-from:page-1,file-piece-musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody:前回、和調な曲。続き,R=1,musescore=~ \\\ p.1:②:genre=melody,R=2,musescore=~ \\\ p.2:①:genre=review:2022-10-12_p-2①,musescore=~ \\\ p.2:②:genre=melody,key=h-7h(A),musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -877,7 +879,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:japanese-trad,record,file-piece-id=~,memo=~,session=hour-01,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody:japanese-trad,record,file-piece-id=~,memo=~,session=hour-19,other=~ / follow~
 
 //2022年10月7日11:30:05
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / record,file-piece-id=~,memo=+:page-3:①,session=1,other=~ / follow~
