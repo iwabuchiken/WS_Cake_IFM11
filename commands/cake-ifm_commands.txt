@@ -529,7 +529,7 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=shin
 
 regex : 
 [a-zA-Z]+=~,
-[a-z]+=~,
+[a-z\-]+=~,
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
@@ -541,7 +541,7 @@ regex :
 :m :guitar #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :guitar #*# / session-memo:session-1 / p.1:genre=melody,tuning=1A-2G-3Ef-4D,file-piece-musescore=~
+:m :guitar #*# / session-memo:session-1 / p.1:genre=melody,tuning=1A-2G-3Ef-4D,for=knowledge:note-map,musescore=~
 
 //edit : dodatek
 :m :guitar #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -1059,6 +1059,13 @@ regex :
 :m RES #*# / free# JVEMV6 general#_X:X / JVEMV6.general / topics=plastic-degradation,w=phenolic-aldehyde,s=~,i=~,doc=r-1.1~1.2#1,other=~
 
 :m RES 1*2 / free# JVEMV6 general#_1002:1 / JVEMV6.general / topics=plastic-degeneration;プラスチック分解,w=PET;polyester;テレフタル酸；エチレングリコール,s=~,i=~,doc=r-1-1~1.6#1,other=~
+
+======== memo : JVE : 83# : chemistry
+###2022年10月15日10:17:09
+
+:m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
+
+:m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
 ======== memo : JVE : 82# : math-research
 ###2022年9月20日10:11:20
@@ -1976,6 +1983,7 @@ memo_shaku
 towa:memo
 80#
 81#
+83#
 A1~1.1.7,1.1.9
 68#
 JVE_general
