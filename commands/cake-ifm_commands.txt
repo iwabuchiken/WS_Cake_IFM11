@@ -1065,6 +1065,8 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
+:m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=有機化学,w=酒石酸；グリセルアルデヒド,s=~,i=~,other=~,doc=f-2#R.~2-0:r-1-1~1.1
+
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
 ======== memo : JVE : 82# : math-research
