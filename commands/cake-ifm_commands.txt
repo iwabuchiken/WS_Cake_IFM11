@@ -533,7 +533,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :guitar #*# / session-memo / p.1:genre=melody,tuning=1:5-2:4-3:1h-4:1,key=D,file-piece-id=~,capo=2,musescore=~ \\\ p.1-<2>:genre=melody,tuning=1A-2G-3Ef-4D,file-piece-id=~,capo=2,musescore=~
+:m :guitar #*# / session-memo / p.1:genre=melody,tuning=1:5-2:4-3:1h-4:1,key=D,for=アルペジオ,file-piece-id=~,capo=2,musescore=~
 
 //template : 2022年7月26日11:51:21
 :m :guitar #*# / session-memo / log / session=~,other=~
@@ -1065,7 +1065,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=有機化学,w=酒石酸；グリセルアルデヒド,s=~,i=~,other=~,doc=f-2#R.~2-0:r-1-1~1.1
+:m RES #*# / free# JVEMV6 83#_4:1 / 83. chemistry / topics=有機化学,w=ジクロロブテン；カルボニル基；ケトン,s=~,i=~,other=~,doc=f-9#R.1-0:r-1-1~1.1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
