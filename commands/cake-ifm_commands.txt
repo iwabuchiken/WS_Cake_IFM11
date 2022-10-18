@@ -1006,7 +1006,7 @@ regex :
 :VIDEO / @自室 / 記録 / guitar / 演奏、play / f-2021-061X-X / XX
 
 //basic
-:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=1 / genr=melody,key=D,tuning=1:5-2:4-3:1h-4;1,Re~,other=~
+:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=1 / genr=melody:arpeggio,key=D,tuning=1:5-2:4-3:1h-4;1,Re~,other=~
 
 :VIDEO / @自室 / 記録 / guitar / 演奏、play / key=D,R=~,genr=~,type=code-progre,other=tune:hira,memo+
 
@@ -1065,7 +1065,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES #*# / free# JVEMV6 83#_4:1 / 83. chemistry / topics=有機化学,w=ジクロロブテン；カルボニル基；ケトン,s=~,i=~,other=~,doc=f-9#R.1-0:r-1-1~1.1
+:m RES #*# / free# JVEMV6 83#_5:1 / 83. chemistry / topics=有機化学,w=求核剤；ペンタンジオン；臭化ブチル,s=~,i=~,other=~,doc=r-1-1~1.1:f-11#L.~1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
