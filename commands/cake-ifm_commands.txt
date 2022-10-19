@@ -541,7 +541,7 @@ regex :
 :m :guitar #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :guitar #*# / session-memo:session-1 / p.1:genre=melody,tuning=1A-2G-3Ef-4D,for=knowledge:note-map,musescore=~
+:m :guitar #*# / session-memo:session-1 / p.1:genre=melody:arpeggio,tuning=1A-2G-3Ef-4D,for=write-out,musescore=~
 
 //edit : dodatek
 :m :guitar #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -584,7 +584,7 @@ regex :
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody:前回、和調な曲。続き,R=1,musescore=~ \\\ p.1:②:genre=melody,R=2,musescore=~ \\\ p.2:①:genre=review:2022-10-12_p-2①,musescore=~ \\\ p.2:②:genre=melody,key=h-7h(A),musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,musescore=~ \\\ p.2:genre=melody,R=1,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -879,7 +879,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody:japanese-trad,record,file-piece-id=~,memo=~,session=hour-19,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:japanese-trad,record,file-piece-id=~,memo=+,session=hour-15,other=~ / follow~
 
 //2022年10月7日11:30:05
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / record,file-piece-id=~,memo=+:page-3:①,session=1,other=~ / follow~
@@ -1065,7 +1065,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES #*# / free# JVEMV6 83#_5:1 / 83. chemistry / topics=有機化学,w=求核剤；ペンタンジオン；臭化ブチル,s=~,i=~,other=~,doc=r-1-1~1.1:f-11#L.~1
+:m RES #*# / free# JVEMV6 83#_6:1 / 83. chemistry / topics=有機化学,w=メトキシメチルカチオン,s=~,i=~,other=~,doc=r-1-1~1.1:f-11#R.~1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1092,8 +1092,12 @@ regex :
 
 :m RES #*# / free# JVEMV6 68#_XX(T-XX) / 68. theoretical-physics(tp) / topics=~,w=~,s=~,i=~,other=~,doc=
 
+//2022年10月19日9:50:45		/ 7-B5~1.1
+:m RES 1*1 / free# JVEMV6 68#_376:1 / 68. theoretical-physics(tp) / topics=相対論：シュッツ,w=~,s=~,i=~,doc=r-7-B5~1.1:f-1;f-2#L:1-0,other=calc+
+
+
 //2022年10月7日11:56:55		/ 7-A1~1.4.1
-:m RES 2*2 / free# JVEMV6 68#_373:2 / 68. theoretical-physics(tp) / topics=量子力学：朝永,w=~,s=~,i=~,doc=r-7-A1~1.4.1:f-9#L:1-0,other=memo+
+:m RES 2*2 / free# JVEMV6 68#_376:1 / 68. theoretical-physics(tp) / topics=量子力学：朝永,w=~,s=~,i=~,doc=r-7-A1~1.4.1:f-9#L:1-0,other=memo+
 
 //C1	2022年9月19日10:52:14
 :m RES 1*1 / free# JVEMV6 68#_366:1 / 68. theoretical-physics(tp) / topics=量子力学,w=アンチバンチング,doc=r-7-C1~1.5.4#1;r-7-C1~1.5.2#1-2,s=~,i=~,other=~
@@ -1547,6 +1551,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :PHOTO 記録 / @自室 / subject=イヤホン：使用 / for=~ / occasion=開始,other=~
 
+
+###2022年10月19日9:46:41
+======================== :PHOTO 記録:misc
+:PHOTO 記録 / subject=~ / content=~,for=~,other=~
+
+:PHOTO 記録 / subject=扇風機：しまう / content=カバーをかけたところ,for=~,other=~
 
 
 ###2021年8月25日11:14:51
