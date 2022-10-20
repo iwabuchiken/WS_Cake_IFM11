@@ -533,7 +533,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :guitar #*# / session-memo / p.1:genre=melody,tuning=1:5-2:4-3:1h-4:1,key=D,for=アルペジオ,file-piece-id=~,capo=2,musescore=~
+:m :guitar #*# / session-memo / p.1:genre=melody,tuning=1:5-2:4-3:1h-4:1,key=D,for=アルペジオ,file-piece-id=~,capo=2,musescore=~,other=add-to:2022-10-19(stamp)
 
 //template : 2022年7月26日11:51:21
 :m :guitar #*# / session-memo / log / session=~,other=~
@@ -584,7 +584,7 @@ regex :
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,musescore=~ \\\ p.2:genre=melody,R=1,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,R=2,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -832,6 +832,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //
 :m :th / topic=~ / content=~ / lang=ja
 
+
+:m :th / topic=思想 / content=「思想の力」 / lang=ja
+
+
 //2022年6月14日10:10:01
 :m :th / topic=本を読んだ感想：矢内原、『講義 Ⅷ』、p.591 / content=おれは、お宅が「天国」とやらに入るための、ネタじゃん。 / lang=ja
 
@@ -879,7 +883,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:japanese-trad,record,file-piece-id=~,memo=+,session=hour-15,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:japanese-trad,record,file-piece-id=~,memo=+,session=hour-19,other=~ / follow~
 
 //2022年10月7日11:30:05
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / record,file-piece-id=~,memo=+:page-3:①,session=1,other=~ / follow~
@@ -1065,7 +1069,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES #*# / free# JVEMV6 83#_6:1 / 83. chemistry / topics=有機化学,w=メトキシメチルカチオン,s=~,i=~,other=~,doc=r-1-1~1.1:f-11#R.~1
+:m RES 1*1 / free# JVEMV6 83#_7:1 / 83. chemistry / topics=有機化学,w=アシル基；オキソ酸,s=~,i=~,other=~,doc=r-1-1~1.1:f-13#L.1-0
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1416,6 +1420,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『学歴の深層心理』 / 著者=井上敏明 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『疫病vs神』 / 著者=島田裕巳 / 途中 ここまで
 
