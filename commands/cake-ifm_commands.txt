@@ -533,7 +533,7 @@ regex :
 	 (<= this : 2021年11月15日10:00:59)
 ,([^=])+?=~
 
-:m :guitar #*# / session-memo / p.1:genre=melody,tuning=1:5-2:4-3:1h-4:1,key=D,for=アルペジオ,file-piece-id=~,capo=2,musescore=~,other=add-to:2022-10-19(stamp)
+:m :guitar #*# / session-memo / p.1:genre=melody,tuning=1:5-2:4-3:1h-4:1-5:L5,key=D,for=アルペジオ,file-piece-id=~,capo=2,musescore=~,other=tech:over-hand
 
 //template : 2022年7月26日11:51:21
 :m :guitar #*# / session-memo / log / session=~,other=~
@@ -883,7 +883,9 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:japanese-trad,record,file-piece-id=~,memo=+,session=hour-19,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,file-piece-id=~,memo=~,session=hour-~,other=~ / follow~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,file-piece-id=~,memo=~,session=hour-22,other=以前にも、演奏したことのあるメロディー / follow~
 
 //2022年10月7日11:30:05
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / record,file-piece-id=~,memo=+:page-3:①,session=1,other=~ / follow~
@@ -1010,7 +1012,7 @@ regex :
 :VIDEO / @自室 / 記録 / guitar / 演奏、play / f-2021-061X-X / XX
 
 //basic
-:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=1 / genr=melody:arpeggio,key=D,tuning=1:5-2:4-3:1h-4;1,Re~,other=~
+:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=1 / genr=melody:arpeggio,key=D,tuning=1:5-2:4-3:1h-4;1-5:L5,Re~,other=tech:over-hand
 
 :VIDEO / @自室 / 記録 / guitar / 演奏、play / key=D,R=~,genr=~,type=code-progre,other=tune:hira,memo+
 
@@ -1223,14 +1225,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome / (lang=ja) / topic=~ / content=~
 
+:tome / (lang=ja) / topic=化学を学ぶ / content=新たなものを創る；報酬を受け取る
+
 :tome / (lang=ja) / topic=自分が成るもの / content=俺は、医の達人になろう
 
 :tome / (lang=ja) / topic=~ / content=ポンプ屋さんの人に、何を伝えたら、その人は、別の毎日を始められるのか？自分自身に、「明明徳」を、やってみる
-
-
-:tome / (lang=ja) / topic=明徳：倫理 / content=汝の明徳を明らかにせよ
-
-:tome / (lang=ja) / topic=哲学 / content=何かが生まれつつあるとき、その反対物も又、生まれつつある。 || :m :th / topic=思想について / content=古代中国の人たちは、当時の中国の状況を見て、儒教。古代ヘブライの人たちは、同様にして、トーラー。今の日本の状況を見ている君は、何を？ / lang=ja || :m #*# / memo:other / topic=続後撰和歌集, about=和歌についての感想,other=「色かはるははその」；「千しほの秋のもみぢ葉」,id=~
 
 
 ###2021年7月3日10:35:02
@@ -1306,6 +1305,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 //:m / misc / topic=~ / content=~,other=~
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=習字, about=~,content=~,other=~,id=~ 
+
 
 //2022年6月9日10:06:00
 :m #*# / memo:other(m:other) / topic=お父さんの事故のこと, about=病院にて：看護師の人からの話し（page-1）；警察官の人からの話し,content=~,other=~,id=~ 
@@ -1421,6 +1423,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『学歴の深層心理』 / 著者=井上敏明 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『疫病vs神』 / 著者=島田裕巳 / 途中 ここまで
@@ -1432,6 +1436,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 
 ============================== 読みたい本 : 2021年7月24日8:41:12
+
+// template // 2022年10月21日12:02:25
+:m 読みたい本 / ジャンル　分野　リスト / 『XXX』　著者=~ location=~ / genre=~,other=~
+
+:m 読みたい本 / ジャンル　分野　リスト / 『社会的ひきこもり』　著者=斎藤環 location=「あとがき」のあと / genre=精神科：診療：治療,other=~
 
 :m 読みたい本 / ジャンル　分野　リスト / 岩波新書　『戦没農民兵士の手紙』、裏表紙 / genre=記録
 
@@ -1667,8 +1676,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 ###2021年10月8日9:17:36
 ============================ コレポン
-
+//template
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
+
+:PHOTO 記録 / 文書：コレポン / #*# / about=予約願い,with=山下歯科,content=~,other=~ / N~
+
+:PHOTO 記録 / 文書：コレポン / #*# / about=問い合わせ：風呂場：操作盤：点滅,with=ヤマヒサ（新宿）,content=~,other=~ / N~
 
 //2022年7月20日10:16:46
 :PHOTO 記録 / 文書：コレポン / #*# / about=ペガスス：行きます旨の連絡,with=蛇口さん,content=~,other=~ / N~
