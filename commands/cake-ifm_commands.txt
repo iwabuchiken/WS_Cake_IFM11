@@ -584,7 +584,7 @@ regex :
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,R=2,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,key=h-7(AorAf),musescore=~ \\\ p.2:genre=melody,R=1,musescore=~ \\\ p.3:genre=review,for=2022-10-19:p-1,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -832,6 +832,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //
 :m :th / topic=~ / content=~ / lang=ja
 
+:m :th / topic=思想：音楽 / content=音楽を射影したもの。それが、現実世界。技術も / lang=ja
 
 :m :th / topic=思想 / content=「思想の力」 / lang=ja
 
@@ -839,12 +840,6 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //2022年6月14日10:10:01
 :m :th / topic=本を読んだ感想：矢内原、『講義 Ⅷ』、p.591 / content=おれは、お宅が「天国」とやらに入るための、ネタじゃん。 / lang=ja
 
-//2022年5月11日9:29:20
-:m :th / topic=物理の調べについて / content=物理。私がやろうとしていること。新しいこと、ではない。方法から、試行錯誤で始める。 / lang=ja
-
-:m :th / topic=思索 / content=土壌に、いま何があるか、見ることもなく、それらを引き抜き、別の苗を植える。その土壌から見れば、殺人に近い。 / lang=ja;cn
-
-:m :th / topic=和歌、漢詩。物理に役立つ。 / content=和歌、漢詩。物理に関する取り組み、何に取り組むか。考案するのに、役立つだろう。アラビア語その他での、調べ物活動も。「数学遊び」も。 / lang=ja
 
 ###2022年8月4日11:50:38
 ============================== memo : :災害備蓄
@@ -883,7 +878,9 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,file-piece-id=~,memo=~,session=hour-~,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,other=~ / follow~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / genre=melody,for=alt-fingering,file-piece-id=~,memo=~,session=hour-01,other=10-22の日付に入れる / follow~ 
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,file-piece-id=~,memo=~,session=hour-22,other=以前にも、演奏したことのあるメロディー / follow~
 
@@ -1071,7 +1068,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_7:1 / 83. chemistry / topics=有機化学,w=アシル基；オキソ酸,s=~,i=~,other=~,doc=r-1-1~1.1:f-13#L.1-0
+:m RES 1*1 / free# JVEMV6 83#_9:1 / 83. chemistry / topics=無機化学,w=~,s=~,i=~,other=~,doc=r-1-1~1.2:f-4#R.0-1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1791,6 +1788,14 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 :PHOTO 記録 / PC画面 / デスクトップPC / subject=寄付金、入金 / for=日本共産党 / amount=JPY:3000, other=衆議院議員選挙
 
 :PHOTO 記録 / PC画面 / デスクトップPC / subject=寄付金、入金 / for=electronic-intifada / amount=USD:65, other=year-end-donation
+
+
+###2022年10月22日10:22:32
+============================ różnorodny
+//2022年10月22日10:27:32
+---------------------------- daylog
+:m / daylog メモ / partial / 2022-1020
+
 
 
 ============================== delete entries from db
