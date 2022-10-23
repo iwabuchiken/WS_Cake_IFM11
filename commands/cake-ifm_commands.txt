@@ -568,7 +568,7 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=shin
 
 http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=shino+song-id&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND
 
-regex : 
+regex : ]]
 //[a-zA-Z]+=~,
 [a-z\-]+=~,
 	 (<= this : 2022年10月14日10:27:16)
@@ -584,7 +584,7 @@ regex :
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,key=h-7(AorAf),musescore=~ \\\ p.2:genre=melody,R=1,musescore=~ \\\ p.3:genre=review,for=2022-10-19:p-1,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,R=1,musescore=~ \\\ p.2:genre=melody:continue-from:page-1,for=sabi,R=2,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -879,6 +879,8 @@ regex :
 
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,other=~ / follow~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,other=~ / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / genre=melody,for=alt-fingering,file-piece-id=~,memo=~,session=hour-01,other=10-22の日付に入れる / follow~ 
 
