@@ -954,7 +954,7 @@ memo-taking,for=~,other=~
 ###2021年9月7日8:49:45
 ==================== memo : percussion,rythm
 
-:m / 1*1 / percussion,rythm / session-memo / s.1: todays-rythm,item=ボトル：プラスチック：２本,hitter=ストロー,Re+,R=1
+:m / 1*1 / percussion,rythm / session-memo / s.1: todays-rythm,item=ボトル：プラスチック：携行用：２本,hitter=ボトルの蓋,Re~,R=1
 
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 
@@ -1208,8 +1208,9 @@ G:\photo-books_HD\list-of-books.txt
 
 ###2021年6月27日11:30:52
 ======================== memo : 41# : econ
-:m RES #*# / free# JVEMV6 41#_XX(T-XX) / 76. theoretical-physics(tp) / 
-w=~,topics=~,other=~,s=~,i=~,doc=
+:m RES #*# / free# JVEMV6 41#_XX(T-XX) / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=
+
+:m RES 1-2*2 / free# JVEMV6 41#_1:1 / 76. theoretical-physics(tp) / w=~,topics=国際収支,other=~,s=~,i=~,doc=r-1-1~1.1
 
 :m RES 2*2 / free# JVEMV6 41#_id=IVUM:1 / 76. theoretical-physics(tp) / w=~,topics=平均賃金,other=配分の違いによって、いかに変化するか;q+ / N+
 
@@ -1247,6 +1248,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :?
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m :? #*# / topic=化学 / content=電子殻：2sと3s：半径は相異なる：各原子、どんな差異があるか / status=~ / other=~,id=~
 
 :m :? #*# / topic=~ / content=自分の親が、自分の妻を、言葉で虐待している。親への「孝」と、妻への「仁」とが、ぶつかっている。「義」に従って、いづれかを選ぶのか？ / status=~ / other=~,id=~ / :i #*# / topic=physics:量子力学 / subject=~, content=シュレディンガー方程式の、右辺。Eψ。let,B=1/E;(B*Eψ=ψ)。ψそのものが得られる。, other=~
 
@@ -2036,6 +2039,7 @@ towa:memo
 83#
 A1~1.1.7,1.1.9
 68#
+41#
 JVE_general
 video_guitar
 video_shi
