@@ -584,7 +584,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody:jazz-like,musescore=~ \\\ p.2:genre=melody,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=practice,for=movement:koo~otsu,key=h-4(E),musescore=~ \\\ p.2:genre=melody,key=A(h-7`),musescore=~ \\\ p.3:genre=melody:continue-from:page-1,musescore=~ \\\ p.4:genre=melody:continue-from:page-1,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -1191,6 +1191,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#67_??_kenmon / 『論語 憲問』 著者=~,校注=~ / p.346 / w=~,topic=~,publisher=明治書院,other=管仲；鮑叔牙
+
 :m #*# RES / JVEMV6 64#193_shimada_ekibyoo / 『疫病vs神』 著者=島田ひろみ,校注=~ / p.56 / w=~,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#189_1_india_thoughts / 『講座　東洋思想　１　インド思想』 編集=宇野精一、中村元、玉城康四郎,校注=~ / p.16 / w=~,topic=~,publisher=~,other=~
@@ -1210,7 +1212,7 @@ G:\photo-books_HD\list-of-books.txt
 ======================== memo : 41# : econ
 :m RES #*# / free# JVEMV6 41#_XX(T-XX) / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=
 
-:m RES 1-2*2 / free# JVEMV6 41#_1:1 / 76. theoretical-physics(tp) / w=~,topics=国際収支,other=~,s=~,i=~,doc=r-1-1~1.1
+:m RES 1-2*2 / free# JVEMV6 41#_3:1 / 76. theoretical-physics(tp) / w=~,topics=国際収支：為替レート,other=~,s=~,i=~,doc=r-1-1~1.1:p.147:para-~1
 
 :m RES 2*2 / free# JVEMV6 41#_id=IVUM:1 / 76. theoretical-physics(tp) / w=~,topics=平均賃金,other=配分の違いによって、いかに変化するか;q+ / N+
 
