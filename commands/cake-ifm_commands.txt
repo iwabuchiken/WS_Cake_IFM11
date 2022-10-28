@@ -1090,7 +1090,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_9:1 / 83. chemistry / topics=無機化学,w=~,s=~,i=~,other=~,doc=r-1-1~1.2:f-4#R.0-1
+:m RES 1*1 / free# JVEMV6 83#_13:1 / 83. chemistry / topics=無機化学,w=モル質量；金；単結晶,s=~,i=~,other=~,doc=r-1-1~1.2:f-15#R.
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1199,7 +1199,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#203_nihon_shuukyoo / 『日本宗教の複合的構造』 著者=~,校注=~ / p.284 / w=八坂神社；稲荷社；四条；五条,topic=~,publisher=~,other=第２部：第４章：宇津
+:m #*# RES / JVEMV6 64#203_nihon_shuukyoo / 『日本宗教の複合的構造』 著者=~,校注=~ / p.299 / w=備中；備前；邑久郡（おくぐん）,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#67_??_kenmon / 『論語 憲問』 著者=~,校注=~ / p.346 / w=~,topic=~,publisher=明治書院,other=管仲；鮑叔牙
 
@@ -1643,6 +1643,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ============================== :m : res:free
 :m #*# RES / free / res-id=~ / theme=~ / genre=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=O70S / theme=習近平：党大会：胡錦涛：退場 / genre=政治 / session-number=1 / doc=~,other=~
+
 :m #*# RES / free / res-id=BME7 / theme=内裏 / genre=歴史：日本史 / session-number=1 / doc=~,other=見取り図、描いた
 
 :m 1-2*2 RES / free / res-id=XOL4 / theme=満州事変 / session-number=1 / doc=:d-1#1,other=~
@@ -1802,6 +1804,13 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###2022年6月18日9:59:05
 ============================ 様子：顔
 :m 記録 (VIDEO) / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（尺八）,other=胸の内のやるせなさ、辛さを、顔に表したところ。
+
+
+###2022年10月28日9:41:45
+============================ PC画面 : PC-related
+:PHOTO 記録 / PC画面 / subject=~ / content=~, other=~
+:PHOTO 記録 / PC画面 / subject=norton:security:optimize-disk / content=~, other=~
+
 
 ###2021年12月1日19:22:02
 ============================ 寄付
