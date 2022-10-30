@@ -584,7 +584,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=practice,for=movement:koo~otsu,key=h-4(E),musescore=~ \\\ p.2:genre=melody,key=A(h-7`),musescore=~ \\\ p.3:genre=melody:continue-from:page-1,musescore=~ \\\ p.4:genre=melody:continue-from:page-1,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,R=1,musescore=~ \\\ p.2:genre=melody,key=h-7`(A),musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -881,7 +881,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,other=~ / follow~
 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-00,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=+,session=hour-18,other=~ / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / genre=melody,for=alt-fingering,file-piece-id=~,memo=~,session=hour-01,other=10-22の日付に入れる / follow~ 
 
@@ -1201,7 +1201,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#~~ / 『パニック障害と過呼吸』 著者=磯部潮,校注=~ / p.~ / w=~,topic=「体の緊張をチェックするポイント」,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#203_nihon_shuukyoo / 『日本宗教の複合的構造』 著者=~,校注=~ / p.303 / w=福山藩；一万石；五斗五升,topic=換算,publisher=~,other=~
+:m #*# RES / JVEMV6 64#203_nihon_shuukyoo / 『日本宗教の複合的構造』 著者=~,校注=~ / p.308 / w=斗代[とだい,topic=換算,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#67_??_kenmon / 『論語 憲問』 著者=~,校注=~ / p.346 / w=~,topic=~,publisher=明治書院,other=管仲；鮑叔牙
 
@@ -1837,6 +1837,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
+
+###2022年10月30日11:53:12
+#DELETE FROM ifm11 WHERE _id <= 58370;
 
 ###2022年9月28日10:31:49
 #DELETE FROM ifm11 WHERE _id <= 57996;
