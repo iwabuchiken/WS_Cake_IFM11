@@ -846,6 +846,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m 災害備蓄 / 入れたもの / item=①消石灰（10kg） / other=~ / volume=~ / id=~ / 保管場所=物置
 
+:m 災害備蓄 / 梱包完了＋リスト / 2022-1030-① / items=レトルト：中華丼-3；カレー-4；親子丼-3,other=期限：202301
+
 =================== memo,video : shakuhachi,bamboo,尺八,shaku:video,video:shaku,video_shaku
 
 //-----template : 2022年5月4日9:12:21
@@ -881,7 +883,7 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,other=~ / follow~
 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=+,session=hour-18,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=スラーで、音の上がり、下がり：幽霊が出てくるような、メロディー,file-piece-id=~,memo=+,session=hour-18,other=~ / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / genre=melody,for=alt-fingering,file-piece-id=~,memo=~,session=hour-01,other=10-22の日付に入れる / follow~ 
 
@@ -1090,7 +1092,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_14:1 / 83. chemistry / topics=無機化学,w=~,s=~,i=~,other=~,doc=r-1-1~1.1:f-13#R.1;f-16#L.
+:m RES 1*1 / free# JVEMV6 83#_16:1 / 83. chemistry / topics=無機化学,w=~,s=~,i=~,other=~,doc=r-1-1~1.2:f-19#R.1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
