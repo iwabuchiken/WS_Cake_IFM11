@@ -584,7 +584,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,R=1,musescore=~ \\\ p.2:genre=melody,key=h-7`(A),musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,R=1,musescore=~ aaa
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -874,13 +874,15 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 regex : 
 [a-z]+=~,
 	 (<= this : 2021年11月15日10:00:59)
-~\r\n	,
-	(2022年8月9日9:51:22)
+//~\r\n	,
+//	(2022年8月9日9:51:22)
 	
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
+//:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,other=~ / follow~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,file-piece-session=hour-21,other=~ / follow~
 
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=スラーで、音の上がり、下がり：幽霊が出てくるような、メロディー,file-piece-id=~,memo=+,session=hour-18,other=~ / follow~
@@ -1659,12 +1661,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,other=~
 
+:m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=数字の比較,other=イランのバロチスタン：テロ：州の面積：ウィキで、各言語のページ同士で、比較
+
 :m 1*1 RES / free# S87DP9 記事読み / id=KCWW(browser=yandex) / media=~ / theme=財政：日本,other=デスクトップ、保存
 
-//2022年9月4日10:14:02
-:m 1*1 RES / free# S87DP9 記事読み / id=~(browser=yandex) / media=sputnik:china? / theme=儀和号,other=天文数値
-
-:m 1*1 RES / free# S87DP9 記事読み / id=2T38(browser=tor) / media=lite / theme=政治資金規制；維新の会；収支報告書,other=~
 
 
 ###2021年9月22日10:21:19
