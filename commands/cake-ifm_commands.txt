@@ -584,7 +584,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,R=1,musescore=~ aaa
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,musescore=~ \\\ p.2:genre=melody:continue-from:page-1,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -1094,7 +1094,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_16:1 / 83. chemistry / topics=無機化学,w=~,s=~,i=~,other=~,doc=r-1-1~1.2:f-19#R.1
+:m RES 1*1 / free# JVEMV6 83#_17:1 / 83. chemistry / topics=無機化学,w=六方格子,s=~,i=~,other=~,doc=r-1-1~1.2:f-21#L.~2;f-22#L.
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1330,7 +1330,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //:m / misc / topic=~ / content=~,other=~
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,content=麓；地；響；宝；永；禄；夜；震；福;藩;島;正;則;備;後;安;芸;野;勝;,other=~,id=~ 
+//regex : 2022年11月2日9:17:18
+(.)	$1;
+
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=成；義;光;家;朝;源;
 
 
 //2022年6月9日10:06:00
@@ -2057,12 +2060,12 @@ memo_shaku
 towa:memo
 80#
 81#
-83#
 A1~1.1.7,1.1.9
 68#
 41#
 JVE_general
 video_guitar
 video_shi
-memo_shi
 memo_gui
+memo_shi
+83#
