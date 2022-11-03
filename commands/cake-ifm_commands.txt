@@ -584,7 +584,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,musescore=~ \\\ p.2:genre=melody:continue-from:page-1,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,key=h-4`(E),session=hour-~,other=pitch:chuukan(中甲),musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -882,6 +882,8 @@ regex :
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,other=~ / follow~
 
+:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=memos:dai-kan:how-to-blow,Re+,other=alternative-fingering,file-id=~,memo~
+
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,file-piece-session=hour-21,other=~ / follow~
 
 
@@ -1094,7 +1096,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_17:1 / 83. chemistry / topics=無機化学,w=六方格子,s=~,i=~,other=~,doc=r-1-1~1.2:f-21#L.~2;f-22#L.
+:m RES 1*1 / free# JVEMV6 83#_18:1 / 83. chemistry / topics=無機化学,w=原子半径,s=~,i=~,other=~,doc=r-1-1~1.2:f-23#L.1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1246,6 +1248,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年6月8日8:21:46
 
 :tome / (lang=ja) / topic=~ / content=~
+
+:tome / (lang=ja) / topic=思想 / content=明治の前へ戻る；「日本特色」の変化を進める
 
 :tome / (lang=ja) / topic=化学を学ぶ / content=新たなものを創る；報酬を受け取る
 

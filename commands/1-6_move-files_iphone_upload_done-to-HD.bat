@@ -46,6 +46,29 @@ rem goto end
 move %dpath_source%\*.mp4 %dpath_dst%
 
 rem ===============================
+rem 	audio files : .mid
+rem 	2022”N11ŒŽ2“ú10:52:17
+rem ===============================
+
+echo moving audio files...
+
+set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\audio-files
+
+set dpath_dst=G:\audio-files_HD
+
+set file_extention=.mid
+
+echo %dpath_source%
+echo %dpath_dst%
+
+echo.
+
+rem goto end
+
+move %dpath_source%\*%file_extention% %dpath_dst%
+rem move %dpath_source%\*.mp4 %dpath_dst%
+
+rem ===============================
 rem 	end
 rem ===============================
 :end
