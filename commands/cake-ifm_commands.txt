@@ -584,7 +584,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,key=h-4`(E),session=hour-~,other=pitch:chuukan(中甲),musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,key=h-7`(A),item-id=i-1:11-02~p-1:var,R=1,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -880,7 +880,9 @@ regex :
 //:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,file-piece-id=~,memo=+,session=hour-18,recording-id=id-1:11-02~p-1:add(photo-date=11-04),other=~ / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=memos:dai-kan:how-to-blow,Re+,other=alternative-fingering,file-id=~,memo~
 
@@ -1096,7 +1098,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_18:1 / 83. chemistry / topics=無機化学,w=原子半径,s=~,i=~,other=~,doc=r-1-1~1.2:f-23#L.1
+:m RES 1*1 / free# JVEMV6 83#_19:1 / 83. chemistry / topics=無機化学,w=混成軌道,s=~,i=~,other=found+,doc=r-1-1~1.2:f-26#L.1;f-4.1#L.
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
