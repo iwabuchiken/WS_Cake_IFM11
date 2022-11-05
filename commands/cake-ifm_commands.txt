@@ -584,7 +584,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,key=h-7`(A),item-id=i-1:11-02~p-1:var,R=1,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=memo:alt-fingering:h-7+4+3>on~pitch=h-1`!,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -871,9 +871,9 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 ###2021年6月13日9:11:14
 ======== memo : jap.flute, video:shinobue:video,shino:video,video_shi
 
-regex : 
+regex : ]]
 [a-z]+=~,
-	 (<= this : 2021年11月15日10:00:59)
+	 (<= this : 2021年11月15日10:00:59)]]
 //~\r\n	,
 //	(2022年8月9日9:51:22)
 	
@@ -889,38 +889,11 @@ regex :
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,file-piece-session=hour-21,other=~ / follow~
 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=スラーで、音の上がり、下がり：幽霊が出てくるような、メロディー,file-piece-id=~,memo=+,session=hour-18,other=~ / follow~
+//:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=スラーで、音の上がり、下がり：幽霊が出てくるような、メロディー,file-piece-id=~,memo=+,session=hour-18,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / genre=melody,for=alt-fingering,file-piece-id=~,memo=~,session=hour-01,other=10-22の日付に入れる / follow~ 
+//alt-fingering		2022年11月5日10:01:43
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=demo,for=alt-fingering:h-1open~=h-6h;,file-piece-session=hour-21,other= / follow~ 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,file-piece-id=~,memo=~,session=hour-22,other=以前にも、演奏したことのあるメロディー / follow~
-
-//2022年10月7日11:30:05
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / record,file-piece-id=~,memo=+:page-3:①,session=1,other=~ / follow~
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,file-piece-id=~,memo=~,session=popoludnie,other=~ / follow~
-
-//2022年8月9日9:43:31
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=6 / record,for=~,other=~,memo=+:2022-07-31_session-2_p-2:<1>,file-id=~,piece-id=~ / follow~
-
-
-//2022年7月16日11:03:13
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=~,file-id=~,piece-id=~0712_page-3_no-3 / follow~
-
-//2022年7月6日15:09:55
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo=+,file-id=~ / follow~
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=phrase,for=~,other=sequence:2022-05-23_18-08-32_000.mp4,memo~
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=~,memo+
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=~,other=song-id:23:page-2:①,memo+
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5(session-2) / genr=todays-melody,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=~,Re+,other=~
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / video-extract / from=2022-02-06_18-55-40_000.mp4,for=accompany
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5 / memo-taking,for=kan:hole-7;0,other=~ 
 
 ---------------- mouth-shape
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / record,for=mouth-shape:甲：hole-6,other=~ 
@@ -1098,7 +1071,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_19:1 / 83. chemistry / topics=無機化学,w=混成軌道,s=~,i=~,other=found+,doc=r-1-1~1.2:f-26#L.1;f-4.1#L.
+:m RES 1-2*2 / free# JVEMV6 83#_20:2 / 83. chemistry / topics=無機化学,w=混成軌道；π結合；σ結合,s=~,i=~,other=~,doc=r-1-1~1.2:f-4.3#R.1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1339,7 +1312,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //regex : 2022年11月2日9:17:18
 (.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=成；義;光;家;朝;源;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=原;半;径;窒;素;電;気;
 
 
 //2022年6月9日10:06:00
@@ -2070,8 +2043,8 @@ A1~1.1.7,1.1.9
 68#
 41#
 JVE_general
+memo_gui
 video_guitar
 video_shi
-memo_gui
 memo_shi
 83#
