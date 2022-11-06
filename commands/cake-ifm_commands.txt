@@ -571,7 +571,7 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=shin
 regex : ]]
 //[a-zA-Z]+=~,
 [a-z\-]+=~,
-	 (<= this : 2022年10月14日10:27:16)
+	 //(<= this : 2022年10月14日10:27:16)
 //[a-z]+=~,
 //	 (<= this : 2021年11月15日10:00:59)
 //,([^=])+?=~
@@ -584,7 +584,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=memo:alt-fingering:h-7+4+3>on~pitch=h-1`!,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,R=1,other=alt-fingering+,musescore=~ \\\ p.2:genre=melody:melody:continue-from:page-1,musescore=~ \\\ p.3:genre=melody,other=shedaat+,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -882,6 +882,11 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=~,memo=+,session=hour-18,recording-id=~,other=~ / follow~
+
+//alt-fingering	// 2022年11月6日9:36:24
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=demo,for=alt-fingering:h-6open~blow=kan;,session=hour-14,other= / follow~
+
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,file-piece-id=~,memo=+,session=hour-18,recording-id=id-1:11-02~p-1:add(photo-date=11-04),other=~ / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=memos:dai-kan:how-to-blow,Re+,other=alternative-fingering,file-id=~,memo~
@@ -1071,7 +1076,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1-2*2 / free# JVEMV6 83#_20:2 / 83. chemistry / topics=無機化学,w=混成軌道；π結合；σ結合,s=~,i=~,other=~,doc=r-1-1~1.2:f-4.3#R.1
+:m RES 3-4*4 / free# JVEMV6 83#_21:1 / 83. chemistry / topics=無機化学,w=メタン；生成熱,s=~,i=~,other=calc+,doc=r-1-1~1.2:f-4.6#L.1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1312,7 +1317,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //regex : 2022年11月2日9:17:18
 (.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=原;半;径;窒;素;電;気;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=量;由;来;体;積;
 
 
 //2022年6月9日10:06:00
@@ -1635,6 +1640,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m #*# RES / free / res-id=O70S / theme=習近平：党大会：胡錦涛：退場 / genre=政治 / session-number=1 / doc=~,other=~
 
+###2022年11月6日10:13:22
+============================== :m : lang
+:m lang / lang=~ / content=~,topic=~,other=~
+
+:m lang / lang=タイ語 / content=文字；発音,topic=~,other=~
 
 
 
@@ -1777,7 +1787,7 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###2021年10月25日9:18:26
 ============================ 
 ：顔
-:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=昼；occasion=楽器演奏したあと（篠笛）
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（篠笛）
 
 ###2021年11月4日8:20:20
 ============================ 様子：顔
@@ -2025,6 +2035,12 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?sort=file_name&d
 =================== files
 ======= sakura.ini
 C:\Users\iwabuchiken\AppData\Roaming\sakura\log_edit-sakura-ini-file.log
+
+
+======= 買うものリスト	//2022年11月6日10:08:17
+C:\WORKS_2\shortcuts_docs\kupic_cando.ods
+
+
 
 ###2022年3月1日8:54:48
 =================== strings

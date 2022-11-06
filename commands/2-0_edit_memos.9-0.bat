@@ -1,3 +1,7 @@
+rem // 2022”N11ŒŽ6“ú9:33:56
+rem : echo --> off
+@echo off
+
 REM ****************************
 REM 	web page : http://localhost/Eclipse_Luna/Cake_IFM11/images/image_manager
 REM 	web page : IP
