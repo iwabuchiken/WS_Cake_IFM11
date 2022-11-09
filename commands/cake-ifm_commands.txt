@@ -584,7 +584,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody:two-note-melody,key=h-~5`(穴５のみ、開く),session=hour-~,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,other=alt-fingering+,musescore=~ \\\ p.2:genre=melody:continue-from:page-1,musescore=~ \\\ p.3:genre=melody,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -1180,13 +1180,13 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#209_brain_yamamoto / 『老化と脳科学』 著者=山本啓一,校注=~ / p.59 / w=海馬；抗体タンパク質,topic=~,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#~~ / 『パニック障害と過呼吸』 著者=磯部潮,校注=~ / p.~ / w=~,topic=「体の緊張をチェックするポイント」,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#203_nihon_shuukyoo / 『日本宗教の複合的構造』 著者=~,校注=~ / p.308 / w=斗代[とだい,topic=換算,publisher=~,other=~
+:m #*# RES / JVEMV6 64#203_nihon_shuukyoo / 『日本宗教の複合的構造』 著者=~,校注=~ / p.318 / w=,topic=「教規之大意」,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#67_??_kenmon / 『論語 憲問』 著者=~,校注=~ / p.346 / w=~,topic=~,publisher=明治書院,other=管仲；鮑叔牙
-
-:m #*# RES / JVEMV6 64#193_shimada_ekibyoo / 『疫病vs神』 著者=島田ひろみ,校注=~ / p.56 / w=~,topic=~,publisher=~,other=~
 
 
 G:\photo-books_HD\list-of-books.txt
@@ -1312,7 +1312,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //regex : 2022年11月2日9:17:18
 (.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=量;由;来;体;積;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=答;諮;教;奉;貫;使;
 
 
 //2022年6月9日10:06:00
@@ -1429,15 +1429,14 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『老化と脳科学』 / 著者=山本啓一 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『経済学ベーシック』 / 著者=細江、笹山、編著 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『パニック障害と過呼吸』 / 著者=磯部潮 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『日本むかし話』 / 著者=萩坂昇 / 途中 部分
 
-:bookmemo / 読んだ本 / 『学歴の深層心理』 / 著者=井上敏明 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『疫病vs神』 / 著者=島田裕巳 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『維摩経・首楞厳三昧経』 / 著者=長尾雅人、丹沼昭義、訳 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『東方正教会』 / 著者=オリヴィエ・クレマン 冷牟田、白石、訳 / 途中 ここまで
 
 
 
