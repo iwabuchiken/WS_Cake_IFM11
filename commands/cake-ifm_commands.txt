@@ -1071,7 +1071,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_22:1 / 83. chemistry / topics=無機化学,w=イオン化ポテンシャル；,s=~,i=~,other=calc+:原子半径：第一イオン化エネルギー：相関,doc=r-1-1~1.2:f-4.7#R.0
+:m RES 1*1 / free# JVEMV6 83#_25:1 / 83. chemistry / topics=無機化学,w=,s=~,i=~,other=~,doc=r-1-1~1.2:f-4.10#R.2-3
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1184,7 +1184,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#~~ / 『パニック障害と過呼吸』 著者=磯部潮,校注=~ / p.~ / w=~,topic=「体の緊張をチェックするポイント」,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#203_nihon_shuukyoo / 『日本宗教の複合的構造』 著者=~,校注=~ / p.318 / w=,topic=「教規之大意」,publisher=~,other=~
+:m 2*2 RES / JVEMV6 64#203_nihon_shuukyoo / 『日本宗教の複合的構造』 著者=~,校注=~ / p.325 / w=送籍状,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#67_??_kenmon / 『論語 憲問』 著者=~,校注=~ / p.346 / w=~,topic=~,publisher=明治書院,other=管仲；鮑叔牙
 
@@ -1312,7 +1312,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //regex : 2022年11月2日9:17:18
 (.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=答;諮;教;奉;貫;使;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=部;教;省;管;和;歌;県;伺;務;氏;神;社;帰;属;
 
 
 //2022年6月9日10:06:00
