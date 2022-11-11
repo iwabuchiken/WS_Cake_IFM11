@@ -45,6 +45,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2-2_move-files_iphone-to-tmp.bat
 
 
 
+
 //2022年5月8日19:11:11
 //3-1)-------------- move files to HD ]]
 //to : G:\tmp.20220507_191202
@@ -584,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,other=alt-fingering+,musescore=~ \\\ p.2:genre=melody:continue-from:page-1,musescore=~ \\\ p.3:genre=melody,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-~,other=alt-fingering+,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -604,6 +605,9 @@ p.1: \\\ p.2: \\\ p.3: \\\ p.4:
 memo:alt-fingering:h-7+4+3>on~pitch=h-1`!
 tips:how-to-blow:oct-1_h-1
 continue-from:page-1
+other=alt-fingering+
+
+
 
 regex : 
 [a-z]+=~,
@@ -1071,7 +1075,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_25:1 / 83. chemistry / topics=無機化学,w=,s=~,i=~,other=~,doc=r-1-1~1.2:f-4.10#R.2-3
+:m RES 1*1 / free# JVEMV6 83#_26:1 / 83. chemistry / topics=無機化学,w=イオン結晶,s=~,i=~,other=~,doc=r-1-1~1.2:f-4.11#R.~2
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1309,10 +1313,13 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //:m / misc / topic=~ / content=~,other=~
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
 
+//習字
+//C:\WORKS_2\shortcuts_docs\list-of-kanji.txt
 //regex : 2022年11月2日9:17:18
 (.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=部;教;省;管;和;歌;県;伺;務;氏;神;社;帰;属;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=実;計;測;算;値;仮;説;
+
 
 
 //2022年6月9日10:06:00
