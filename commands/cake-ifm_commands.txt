@@ -879,7 +879,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:shimai(仕舞い),for=~,session=hour-18,memo=~,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,session=hour-18,memo=+,other=~ / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=~,memo=+,session=hour-18,recording-id=~,other=~ / follow~
 
@@ -1075,7 +1075,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_26:1 / 83. chemistry / topics=無機化学,w=イオン結晶,s=~,i=~,other=~,doc=r-1-1~1.2:f-4.11#R.~2
+:m RES 1*1 / free# JVEMV6 83#_27:2 / 83. chemistry / topics=無機化学,w=イオン結晶；ヨウ化カドミウム；体心立法；面心立法,s=~,i=~,other=~,doc=r-1-1~1.2:f-4.13#L.1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1318,7 +1318,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //regex : 2022年11月2日9:17:18
 (.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=実;計;測;算;値;仮;説;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=経;済;歴;史;無;機;学;
 
 
 
