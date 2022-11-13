@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-~,other=alt-fingering+,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,R=1,other=alt-fingering+,musescore=~ \\\ p.2:genre=melody,other=title:h-1のためのメロディー,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -1075,7 +1075,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_27:2 / 83. chemistry / topics=無機化学,w=イオン結晶；ヨウ化カドミウム；体心立法；面心立法,s=~,i=~,other=~,doc=r-1-1~1.2:f-4.13#L.1
+:m RES 1*1 / free# JVEMV6 83#_28:1 / 83. chemistry / topics=無機化学,w=金属結合,s=~,i=~,other=~,doc=r-1-1~1.2:f-4.14#L.~1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1313,12 +1313,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //:m / misc / topic=~ / content=~,other=~
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
 
-//習字
+//習字 shuuji
 //C:\WORKS_2\shortcuts_docs\list-of-kanji.txt
 //regex : 2022年11月2日9:17:18
 (.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=経;済;歴;史;無;機;学;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=金;銀;銅;光;可;視;せ;あ;な;ほ;や;ゆ;
 
 
 
