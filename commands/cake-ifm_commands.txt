@@ -1075,7 +1075,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_28:1 / 83. chemistry / topics=無機化学,w=金属結合,s=~,i=~,other=~,doc=r-1-1~1.2:f-4.14#L.~1
+:m RES 1*1 / free# JVEMV6 83#_29:1 / 83. chemistry / topics=無機化学,w=金属結合,s=~,i=~,other=~,doc=r-1-1~1.2:f-4.15#L.1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1318,7 +1318,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //regex : 2022年11月2日9:17:18
 (.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=金;銀;銅;光;可;視;せ;あ;な;ほ;や;ゆ;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=無；機；え
 
 
 
