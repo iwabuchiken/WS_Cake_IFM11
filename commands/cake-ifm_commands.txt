@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody,R=1,other=alt-fingering+,musescore=~ \\\ p.2:genre=melody,other=title:h-1のためのメロディー,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1:genre=melody:main;sabi,key=h-7(A),musescore=~ \\\ p.2:genre=melody:continue-from:page-1:coda,musescore=~
 
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
@@ -879,7 +879,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,session=hour-18,memo=+,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,session=hour-00,memo=~,other=~ / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=~,memo=+,session=hour-18,recording-id=~,other=~ / follow~
 
