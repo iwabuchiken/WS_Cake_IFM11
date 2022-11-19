@@ -1101,7 +1101,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES #*# / free# JVEMV6 83#_33:2 / 83. chemistry / topics=有機化学,w=シクロヘキセン；水素化エネルギー,s=~,i=~,other=~,doc=r-1-1~1.1:f-2.5#R.~1
+:m RES 3*3 / free# JVEMV6 83#_34:2 / 83. chemistry / topics=有機化学,w=窒素：電子配置,s=~,i=~,other=~,doc=r-1-1~1.1:f-2.7#L.0-5
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
