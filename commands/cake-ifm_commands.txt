@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1:genre=memo:alt-fingering,for=note:G;G#;Gq,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-~,other=~,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1:genre=melody:variation:2022-11-14~p-1,session=hour-19,other=~,musescore=~,file-id=2022-11-14_19-00-50_000.jpg
  
  
  
@@ -610,6 +610,7 @@ continue-from:page-1
 other=alt-fingering+
 explanation+
 variation:2022-11-14~p-1
+use:alt-fingering
 
 regex : 
 [a-z]+=~,
@@ -776,17 +777,14 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 ============================== memo : sketch
 ###2021年6月8日8:13:29
 //template
-:m dessin,sketch / des. object=~ / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+:m dessin,sketch / des. object=~ / genre=~,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+
+:m dessin,sketch / des. object=スイセン：花 / genre=植物,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+
+:m dessin,sketch / des. object=コナラ：樹皮 / source=~,location=~,other=~,memo~,found~,id=UV1H,occasion=~
 
 :m dessin,sketch / des. object=楢の木：葉 / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
-:m dessin,sketch / des. object=水干 / source=~,location=~,other=~,memo+(text-file),found~,id=~,occasion=res、並進:id=241X
-
-:m dessin,sketch / des. object=セキレイ / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
-
-:m ,sketch / des. object=ツバメ：ヒナ / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
-
-:m ,sketch / des. object=シカ：メス / source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
 
 ###2021年6月18日8:55:14
@@ -885,7 +883,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=demo,for=mouth-shape:dai-kan,session=hour-21,memo=~,other=~ / follow~,file-id=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,session=hour-15,memo=~,other=use:alt-fingering / follow~,file-id=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=~,memo=+,session=hour-18,recording-id=~,other=~ / follow~
 
@@ -1101,7 +1099,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 3*3 / free# JVEMV6 83#_34:2 / 83. chemistry / topics=有機化学,w=窒素：電子配置,s=~,i=~,other=~,doc=r-1-1~1.1:f-2.7#L.0-5
+:m RES 1*1 / free# JVEMV6 83#_35:1 / 83. chemistry / topics=有機化学,w=平衡定数,s=~,i=~,other=~,doc=r-1-1~1.1:f-2.7#L.~1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1209,6 +1207,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#171_1_1_yin / 『XXX』 著者=~,校注=~ / p.45 / w=恵公,topic=~,publisher=~,other=~
+
 
 :m #*# RES / JVEMV6 64#209_brain_yamamoto / 『老化と脳科学』 著者=山本啓一,校注=~ / p.59 / w=海馬；抗体タンパク質,topic=~,publisher=~,other=~
 
@@ -1344,7 +1345,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //regex : 2022年11月2日9:17:18
 (.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=直;垂;基;構;造;式;混;溶;解;計;算;安;定;数;類;雑;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=極;度;電;持;恵;公;位;
 
 
 
