@@ -18,7 +18,7 @@ rem ==============================/
 3-2)------------------ start : yandex browser ]]
 C:\Users\iwabuchiken\AppData\Local\Yandex\YandexBrowser\Application\browser.exe
 
-2) ------------------ change_file_names ]]
+//2) ------------------ change_file_names ]]
 //C:\WORKS_2\WS\WS_Cake_IFM11\commands\1_change_file_names.bat
 
 2-1) ------------------ move files : HD -> tmp ]]
@@ -29,18 +29,18 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-5_move-files_HD-to-tmp.bat
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2_Delete_in-db-existing-files.bat
 
 //2022年9月16日9:20:35
------------ move files from tmp to iphone --> gen list file ]]
+----------- move files from tmp to iphone]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2-1_move-files_tmp-to-iphone.bat
 
 //move C:\WORKS_2\WS\WS_Cake_IFM11\tmp\* C:\WORKS_2\WS\WS_Cake_IFM11\iphone
 
 
-//4-0.1)------------------ gen : list of files ]]
+4-0.1)------------------ gen : list of files ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list-iphone-dir.bat
 
 //==> open file / copy the list / close file / delete file / paste to ods file / save ods file
 
-// back to tmp dir
+	back to tmp dir]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2-2_move-files_iphone-to-tmp.bat
 
 
@@ -78,7 +78,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
 //rem call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.10.insert-new-data-to-db.bat
 
-4-0.1)------------------ gen : list of files ]]
+	4-0.1)------------------ gen : list of files ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list-iphone-dir.bat
 
 //4-1)------------------ move files : movie files
@@ -91,11 +91,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list-iphone-dir.bat
 //) back --> files ------------------
 //C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-2_move-files-back-to-tmp-dir.bat
 
-### write memos ------------------ 
+	write memos ------------------ ]]
 
 //1) rem 9	commands : restart server, open csv file]]
 
-1-1) ------------------ restart : server + browser + sakura 
+	1-1) ---- restart : server + browser + sakura ]]
 
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8-2.restart-apps-after-memo-writing.bat
 
@@ -105,7 +105,7 @@ C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8-2.restart-apps-aft
 //1-1) ------------------ restart : server ]]
 //C:\WORKS_2\WS\WS_Cake_IFM11\commands\3_restart-server-8000-im.bat
 
-1-2) ------------------ open : sakura file ]]
+	1-2) ------------------ open : sakura file ]]
 C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.8.open-csv-file.bat
 
 //1-2.1) ------------------ open : browser :  ]]
@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1:genre=melody:variation:2022-11-14~p-1,session=hour-19,other=~,musescore=~,file-id=2022-11-14_19-00-50_000.jpg
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1:genre=melody:add:11-15~page-1,musescore=~
  
  
  
@@ -610,6 +610,7 @@ continue-from:page-1
 other=alt-fingering+
 explanation+
 variation:2022-11-14~p-1
+add:10-04~page-2
 use:alt-fingering
 
 regex : 
@@ -1099,7 +1100,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_35:1 / 83. chemistry / topics=有機化学,w=平衡定数,s=~,i=~,other=~,doc=r-1-1~1.1:f-2.7#L.~1
+:m RES 1-2*2 / free# JVEMV6 83#_36:2 / 83. chemistry / topics=有機化学,w=ブテン；メチルプロペン；アセチレン,s=~,i=~,other=th+,doc=r-1-1~1.1:f-2.9#L.0-4;f-3.1;f-3.2#R.0
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1343,11 +1344,13 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //習字 shuuji
 //C:\WORKS_2\shortcuts_docs\list-of-kanji.txt
 //regex : 2022年11月2日9:17:18
-(.)	$1;
+([^a-z]{1}[a-z]*)	$1;
+//(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=極;度;電;持;恵;公;位;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=酸;性;質;樹;木;皮;背;景;酸;勝r;
 
-
+;
+;
 
 //2022年6月9日10:06:00
 :m #*# / memo:other(m:other) / topic=お父さんの事故のこと, about=病院にて：看護師の人からの話し（page-1）；警察官の人からの話し,content=~,other=~,id=~ 
