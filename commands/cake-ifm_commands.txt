@@ -613,6 +613,11 @@ variation:2022-11-14~p-1
 add:10-04~page-2
 use:alt-fingering
 
+	//--- genre names
+	melody
+	prac
+	mumarasa	(연습곡) ممارسة 
+
 regex : 
 [a-z]+=~,
 //-----template : song-id
@@ -780,6 +785,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
+:m dessin,sketch / des. object=キジ / genre=動物,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+
 :m dessin,sketch / des. object=スイセン：花 / genre=植物,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
 :m dessin,sketch / des. object=コナラ：樹皮 / source=~,location=~,other=~,memo~,found~,id=UV1H,occasion=~
@@ -884,7 +891,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,session=hour-15,memo=~,other=use:alt-fingering / follow~,file-id=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:mumarasa,session=hour-18,other=~ / follow~,file-id=~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=~,memo=+,session=hour-18,recording-id=~,other=~ / follow~
 
@@ -1100,7 +1107,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1-2*2 / free# JVEMV6 83#_36:2 / 83. chemistry / topics=有機化学,w=ブテン；メチルプロペン；アセチレン,s=~,i=~,other=th+,doc=r-1-1~1.1:f-2.9#L.0-4;f-3.1;f-3.2#R.0
+:m RES #*# / free# JVEMV6 83#_37:2 / 83. chemistry / topics=有機化学,w=カルシウムカーバイド；タール；炭化カルシウム；アセチレン,s=~,i=~,other=memo+:炭化カルシウム,doc=r-1-1~1.1:f-3.4#L
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1269,6 +1276,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :?
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m :? #*# / topic=化学：一酸化炭素 / content=構造式は？ / status=~ / other=~,id=~
 
 :m :? #*# / topic=化学 / content=電子殻：2sと3s：半径は相異なる：各原子、どんな差異があるか / status=~ / other=~,id=~
 
