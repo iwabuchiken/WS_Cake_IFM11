@@ -617,7 +617,9 @@ use:alt-fingering
 	melody
 	prac
 	mumarasa	(연습곡) ممارسة 
-
+	demo
+	
+	
 regex : 
 [a-z]+=~,
 //-----template : song-id
@@ -785,6 +787,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
+:m dessin,sketch / des. object=ニワトリ / genre=動物,source=~,location=~,other=~,memo~,found~,id=VRQ4,occasion=~
+
 :m dessin,sketch / des. object=キジ / genre=動物,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
 :m dessin,sketch / des. object=スイセン：花 / genre=植物,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
@@ -890,6 +894,8 @@ regex : ]]
 
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=demo,for=音の強弱：徐々に大きく、徐々に小さく,file-piece-id=~,memo=~,session=hour-21,recording-id=~,other=~ / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:mumarasa,session=hour-18,other=~ / follow~,file-id=~
 
@@ -1102,12 +1108,12 @@ regex :
 
 :m RES 1*2 / free# JVEMV6 general#_1002:1 / JVEMV6.general / topics=plastic-degeneration;プラスチック分解,w=PET;polyester;テレフタル酸；エチレングリコール,s=~,i=~,doc=r-1-1~1.6#1,other=~
 
-======== memo : JVE : 83# : chemistry
+======== memo : JVE : 83# : chemistry : 83_
 ###2022年10月15日10:17:09
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES #*# / free# JVEMV6 83#_37:2 / 83. chemistry / topics=有機化学,w=カルシウムカーバイド；タール；炭化カルシウム；アセチレン,s=~,i=~,other=memo+:炭化カルシウム,doc=r-1-1~1.1:f-3.4#L
+:m RES #*# / free# JVEMV6 83#_38:2 / 83. chemistry / topics=有機化学,w=IUPAC命名；ヘキサヂエン[hexadiene,s=~,i=~,other=memo+,doc=r-1-1~1.1:f-3.6#L.2
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1216,7 +1222,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#171_1_1_yin / 『XXX』 著者=~,校注=~ / p.45 / w=恵公,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#171_1_1_yin / 『春秋左氏伝　一』 著者=鎌田正,校注=~ / p.47 / w=鄒[すう；鄭[てい,topic=~,publisher=~,other=map+
 
 
 :m #*# RES / JVEMV6 64#209_brain_yamamoto / 『老化と脳科学』 著者=山本啓一,校注=~ / p.59 / w=海馬；抗体タンパク質,topic=~,publisher=~,other=~
@@ -2114,3 +2120,4 @@ shuuji
 video_shi
 memo_shi
 83#
+83_
