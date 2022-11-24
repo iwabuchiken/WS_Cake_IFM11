@@ -782,12 +782,12 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 
 
-============================== memo : sketch
+============================== memo : sketch, _des
 ###2021年6月8日8:13:29
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
-:m dessin,sketch / des. object=ニワトリ / genre=動物,source=~,location=~,other=~,memo~,found~,id=VRQ4,occasion=~
+:m dessin,sketch / des. object=ツバキ：葉 / genre=植物：樹木,source=~,location=~,other=~,memo~,found~,id=4NZB,occasion=~
 
 :m dessin,sketch / des. object=キジ / genre=動物,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
@@ -1113,7 +1113,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES #*# / free# JVEMV6 83#_38:2 / 83. chemistry / topics=有機化学,w=IUPAC命名；ヘキサヂエン[hexadiene,s=~,i=~,other=memo+,doc=r-1-1~1.1:f-3.6#L.2
+:m RES #*# / free# JVEMV6 83#_39:1 / 83. chemistry / topics=無機化学,w=塩化アルミニウム,s=~,i=~,other=memo+,doc=r-1-1~1.2:f-13.1#L.~1-3
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1362,9 +1362,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=酸;性;質;樹;木;皮;背;景;酸;勝r;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=石;炭;蒸;順;番;塩;化;水;離;能;負;共;有;鉄;
 
-;
+
 ;
 
 //2022年6月9日10:06:00
@@ -2116,6 +2116,7 @@ memo_gui
 video_guitar
 memo_shaku
 video_shaku
+_des
 shuuji
 video_shi
 memo_shi
