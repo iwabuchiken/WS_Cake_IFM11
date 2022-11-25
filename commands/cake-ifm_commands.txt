@@ -78,8 +78,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
 //rem call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.10.insert-new-data-to-db.bat
 
-	4-0.1)------------------ gen : list of files ]]
-C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list-iphone-dir.bat
+//	4-0.1)------------------ gen : list of files ]]
+//C:\WORKS_2\WS\WS_Cake_IFM11\get_folder_list-iphone-dir.bat
 
 //4-1)------------------ move files : movie files
 
@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1:genre=melody:add:11-15~page-1,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1:genre=res,for=scale,key=h-7(Af);h-4(Ef),session=hour-~,musescore=~
  
  
  
@@ -618,7 +618,7 @@ use:alt-fingering
 	prac
 	mumarasa	(연습곡) ممارسة 
 	demo
-	
+	res
 	
 regex : 
 [a-z]+=~,
@@ -1113,14 +1113,16 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES #*# / free# JVEMV6 83#_39:1 / 83. chemistry / topics=無機化学,w=塩化アルミニウム,s=~,i=~,other=memo+,doc=r-1-1~1.2:f-13.1#L.~1-3
+:m RES #*# / free# JVEMV6 83#_40:1 / 83. chemistry / topics=無機化学,w=ニッケル；テトラカルボニルニッケル,s=~,i=~,other=memo+,doc=r-1-1~1.2:f-13.2#R.2
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
-======== memo : JVE : 82# : math-research
+======== memo : JVE : 82# : math-research, 82_
 ###2022年9月20日10:11:20
 
 :m RES #*# / free# JVEMV6 82#_2:1 / 82. math-research / topics=~,w=~,s=~,i=~,doc=r-1-1~1.2#1,other=no-memo
+
+:m RES #*# / free# JVEMV6 82#_3:1 / 82. math-research / topics=複素解析,w=除法,s=~,i=~,doc=r-1-2~1.1#1,other=~
 
 ======== memo : JVE : 81# : catalyst
 ###2022年9月18日10:16:13
@@ -1362,9 +1364,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=石;炭;蒸;順;番;塩;化;水;離;能;負;共;有;鉄;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=組r;成r;電r;性r;離r;能r;積;野;
 
-
+;
 ;
 
 //2022年6月9日10:06:00
@@ -2121,4 +2123,5 @@ shuuji
 video_shi
 memo_shi
 83#
+82_
 83_
