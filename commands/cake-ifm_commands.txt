@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1:genre=melody,session=hour-18,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1:genre=melody,R=1,musescore=~ \\\ p.2:genre=melody:continue-from:page-1,musescore=~ \\\ p.3:genre=melody:add:11-26~page-1:var;druga-melodia,R=2,musescore=~ \\\ p.4:genre=melody:continue-from:page-3,musescore=~
  
  
  
@@ -892,29 +892,12 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=~,file-piece-id=~,memo=+,session=hour-~,recording-id=~,other=memo:page-3;-4 / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=i.f.:scale-practice / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=demo,for=音の強弱：徐々に大きく、徐々に小さく,file-piece-id=~,memo=~,session=hour-21,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:mumarasa,session=hour-18,other=~ / follow~,file-id=~
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=~,memo=+,session=hour-18,recording-id=~,other=~ / follow~
-
-//alt-fingering	// 2022年11月6日9:36:24
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=demo,for=alt-fingering:h-6open~blow=kan;,session=hour-14,other= / follow~
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,file-piece-id=~,memo=+,session=hour-18,recording-id=id-1:11-02~p-1:add(photo-date=11-04),other=~ / follow~
-
-:VIDEO / @自室 / 記録 / jap.flute-bamboo / 演奏、play / R=1 / genr=memos:dai-kan:how-to-blow,Re+,other=alternative-fingering,file-id=~,memo~
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,file-piece-session=hour-21,other=~ / follow~
-
-
-//:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=スラーで、音の上がり、下がり：幽霊が出てくるような、メロディー,file-piece-id=~,memo=+,session=hour-18,other=~ / follow~
-
-//alt-fingering		2022年11月5日10:01:43
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=demo,for=alt-fingering:h-1open~=h-6h;,file-piece-session=hour-21,other= / follow~ 
 
 
 ---------------- mouth-shape
@@ -1113,9 +1096,12 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*2 / free# JVEMV6 83#_42:2 / 83. chemistry / topics=無機化学：錯体,w=異性体；酒石酸；トリEDAコバルト；２座配位子,s=~,i=~,other=~,doc=r-1-1~1.2:f-13.7#R.~1
+:m RES 1*1 / free# JVEMV6 83#_43:1 / 83. chemistry / topics=無機化学：錯体：発色,w=中心イオン,s=~,i=~,other=~,doc=r-1-1~1.2:f-13.9#L.2-~2
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
+
+//file
+
 
 ======== memo : JVE : 82# : math-research, 82_
 ###2022年9月20日10:11:20
