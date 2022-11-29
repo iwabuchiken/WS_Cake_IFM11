@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1:genre=melody,R=1,musescore=~ \\\ p.2:genre=melody:continue-from:page-1,musescore=~ \\\ p.3:genre=melody:add:11-26~page-1:var;druga-melodia,R=2,musescore=~ \\\ p.4:genre=melody:continue-from:page-3,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1:genre=log:rev:11-27~p-1,session=hour-~,musescore=~
  
  
  
@@ -1096,12 +1096,12 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_43:1 / 83. chemistry / topics=無機化学：錯体：発色,w=中心イオン,s=~,i=~,other=~,doc=r-1-1~1.2:f-13.9#L.2-~2
+:m RES 1*1 / free# JVEMV6 83#_44:3 / 83. chemistry / topics=無機化学：錯体,w=デバイ（単位）；電気素量,s=~,i=~,other=memo+:１Dの量,next=+:デバイ～ジュール：変換,doc=r-1-1~1.2:f-13.12#L.~1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
 //file
-
+C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_83_plastics.dat
 
 ======== memo : JVE : 82# : math-research, 82_
 ###2022年9月20日10:11:20
@@ -1494,8 +1494,24 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 :m 読みたい本 / ジャンル　分野　リスト / 岩波新書　『戦没農民兵士の手紙』、裏表紙 / genre=記録
 
 
+###2022年11月29日9:44:11
+========================== 記録：開始、終了
+//template
+:PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
+
+:PHOTO 記録 / location=自室 / topic=使い始め：石鹸 / for=~ / occasion=~,other=３個組：最後の１個、開始；使い始めの日付、あり
+
+
+:PHOTO 記録 / @自室 / 充電 / for=充電器：空調服用 / occasion=開始,other=表示：２
+
 ###2022年5月21日9:24:04
 ========================== 記録しておきたいもの
+//template
+:PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=東急ショッピングパーク：駐輪場：前の歩道, location:target=街路樹：イチョウ / subject=~ / content=葉っぱ：黄色：落葉している：ところどころ,other=~
+
+
 //2022年8月15日12:15:05
 :PHOTO 記録しておきたいもの / location:photo=自室, location:target=空：西の空 / subject=雲の様子、形 / content=雲。空の色
 
@@ -1868,7 +1884,7 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ============================ różnorodny
 //2022年10月22日10:27:32
 ---------------------------- daylog
-:m / daylog メモ / partial / 2022-1022
+:m / daylog メモ / partial / 2022-1127
 
 
 
