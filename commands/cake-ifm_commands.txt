@@ -585,10 +585,10 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1:genre=log:rev:11-27~p-1,session=hour-~,musescore=~
- 
- 
- 
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1:genre=prac:movement:wide-range,for=kan-otsu-,musescore=~ \\\ p.2:genre=log,for=rev:2022-11-27~p-1;2,musescore=~  \\\ p.2-<2>:genre=add:11-27~p-2;add:11-27~p-2:var,for=rev:2022-11-27~p-1;2,musescore=~ \\\ p.3:genre=melody:add,for=prev:2022-11-27~p-2:add-write:directives,musescore=~
+
+
+
 //edit : dodatek
 :m :篠笛,shinobue #*# / session-memo:session-1:dodatek / file=2022-07-31_19-01-17_000.jpg,page=2,for=~,other=~
 
@@ -619,7 +619,27 @@ use:alt-fingering
 	mumarasa	(연습곡) ممارسة 
 	demo
 	res
-	
+
+//--- practice names
+:3-note-sequence
+:dai-kan:kan:1-octave-jump:up-down	[http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/view/53983
+:dai-kan:kan:往来
+:finger-hit:two-hits;two-hit-down-sequence
+:h-7:ぱっと立ち上げたい
+:maneuver-notes
+:movement:koo~otsu
+:movement:wide-range
+:notes-up-down
+:ohayashi
+:practice-melody
+:staccato
+:transition
+	otsu~kan
+	otsu~kan:1-octave-jump
+	~http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/view/51678		]2022年11月30日12:37:21
+
+
+
 regex : 
 [a-z]+=~,
 //-----template : song-id
@@ -786,6 +806,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 ###2021年6月8日8:13:29
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+
+:m dessin,sketch / des. object=ロゼット：ヒメジョオン：葉 / genre=植物,source=~,location=~,other=~,memo~,found~,id=UCUB,occasion=~
 
 :m dessin,sketch / des. object=犂[すき / genre=器具,source=~,location=~,other=~,memo~,found~,id=8P9N,occasion=~
 
@@ -1094,9 +1116,9 @@ regex :
 ======== memo : JVE : 83# : chemistry : 83_
 ###2022年10月15日10:17:09
 
-:m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,doc=
+:m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_44:3 / 83. chemistry / topics=無機化学：錯体,w=デバイ（単位）；電気素量,s=~,i=~,other=memo+:１Dの量,next=+:デバイ～ジュール：変換,doc=r-1-1~1.2:f-13.12#L.~1
+:m RES 2*2 / free# JVEMV6 83#_45:2 / 83. chemistry / topics=無機化学：水、水溶液,w=塩化ナトリウム；水和；溶媒和,s=~,i=~,other=~,next=~,doc=r-1-1~1.2:f-5.1#R.~2-5;f-5.2
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1350,10 +1372,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=関;連;伊;豆;島;側;東;西;震;錯;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=置;高;低;区;画;左;右;葉;膨;虐;殺;
 
-;
-;
 
 //2022年6月9日10:06:00
 :m #*# / memo:other(m:other) / topic=お父さんの事故のこと, about=病院にて：看護師の人からの話し（page-1）；警察官の人からの話し,content=~,other=~,id=~ 
@@ -1687,8 +1707,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 
 ###2022年9月14日11:59:30
-============================== :m : res:free
-:m #*# RES / free / res-id=~ / theme=~ / genre=~ / session-number=~ / doc=~,other=~
+============================== :m : res:free : res_
+:m #*# RES / free / res-id=V54B / theme=サンドクリーク虐殺 / genre=歴史；正義 / session-number=~ / doc=~,other=~
 
 
 :m #*# RES / free / res-id=JXGF / theme=北伊豆地震 / genre=歴史；自然科学 / session-number=~ / doc=~,other=年表+
@@ -2104,6 +2124,12 @@ C:\Users\iwabuchiken\AppData\Roaming\sakura\log_edit-sakura-ini-file.log
 C:\WORKS_2\shortcuts_docs\kupic_cando.ods
 
 
+###2022年11月30日12:57:52
+=================== others_
+//2022年11月30日12:57:59
+C:\WORKS_2\shortcuts_docs\sakura_shortcut_keys.txt
+
+
 
 ###2022年3月1日8:54:48
 =================== strings
@@ -2125,6 +2151,7 @@ memo_gui
 video_guitar
 memo_shaku
 video_shaku
+res_
 _des
 shuuji
 video_shi
