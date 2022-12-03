@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:xunlian,for=octave-jump,session=hour-~,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<2>:genre=prac:octave-jump,for=h-4;1,file-id=2022-12-02_12-32-21_000.jpg,session=hour-14,musescore=~ || p.1-<3>:genre=prac:,for=movement:wide-range:h-4-1-4-7,file-id=2022-12-02_12-32-21_000.jpg,session=hour-14,musescore=~
 
 
 
@@ -613,14 +613,17 @@ variation:2022-11-14~p-1
 add:10-04~page-2
 use:alt-fingering
 
+
 //--------- 'for' comments / 2022年12月2日10:06:48
 octave-jump
 
 	//--- genre names
-	melody
-	prac
-	mumarasa	(연습곡) ممارسة 
 	demo
+	log_memo
+	melody
+	melody:xunlian
+	mumarasa	(연습곡) ممارسة 
+	prac
 	res
 	rev
 	write_in
@@ -635,6 +638,7 @@ octave-jump
 :movement:koo~otsu
 :movement:wide-range
 :notes-up-down
+:octave-jump
 :ohayashi
 :practice-melody
 :staccato
@@ -1123,7 +1127,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_47:2 / 83. chemistry / topics=無機化学：水、水溶液,w=電離性非水溶媒；塩化チオニル,s=~,i=~,other=~,next=~,doc=r-1-1~1.2:f-5.8#L.1
+:m RES 3*3 / free# JVEMV6 83#_48:2 / 83. chemistry / topics=無機化学：水、水溶液,w=電離；水和；ハロゲン,s=~,i=~,other=~,next=~,doc=r-1-1~1.2:f-2.4#R.1-~4
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1237,6 +1241,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#XX_-- / 『発達障害』 著者=岩波明,校注=~ / p.80 / w=~,topic=~,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#213_nihon_old / 『日本昔話百選』 著者=稲田浩二、稲田和子,校注=~ / p.222 / w=~,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#171_1_1_yin / 『春秋左氏伝　一』 著者=鎌田正,校注=~ / p.47 / w=鄒[すう；鄭[てい,topic=~,publisher=~,other=map+
@@ -1246,7 +1252,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#~~ / 『パニック障害と過呼吸』 著者=磯部潮,校注=~ / p.~ / w=~,topic=「体の緊張をチェックするポイント」,publisher=~,other=~
 
-:m 2*2 RES / JVEMV6 64#203_nihon_shuukyoo / 『日本宗教の複合的構造』 著者=~,校注=~ / p.325 / w=送籍状,topic=~,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#203_nihon_shuukyoo / 『日本宗教の複合的構造』 著者=~,校注=~ / p.328 / w=白沢隆吉,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#67_??_kenmon / 『論語 憲問』 著者=~,校注=~ / p.346 / w=~,topic=~,publisher=明治書院,other=管仲；鮑叔牙
 
@@ -1381,9 +1387,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=置;高;低;区;画;左;右;葉;膨;虐;殺;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=静;誘;媒;和;糖;精;青;薬;激;
 
-
+;
+;
 //2022年6月9日10:06:00
 :m #*# / memo:other(m:other) / topic=お父さんの事故のこと, about=病院にて：看護師の人からの話し（page-1）；警察官の人からの話し,content=~,other=~,id=~ 
 
@@ -1921,6 +1928,11 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ============================== delete entries from db
 
 "C:\WORKS_2\Programs\DB Browser for SQLite.3.10.0\DB Browser for SQLite.exe"
+
+
+###2022年12月2日10:57:04
+#DELETE FROM ifm11 WHERE _id <= 58776;
+
 
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
