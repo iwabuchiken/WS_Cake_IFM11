@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<2>:genre=prac:octave-jump,for=h-4;1,file-id=2022-12-02_12-32-21_000.jpg,session=hour-14,musescore=~ || p.1-<3>:genre=prac:,for=movement:wide-range:h-4-1-4-7,file-id=2022-12-02_12-32-21_000.jpg,session=hour-14,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:xunlian,for=h-4`(Ef),musescore=~ \\\ p.2-<1>:genre=prac:auxilliary,for=finger-hit:2-notes,musescore=~
 
 
 
@@ -596,7 +596,7 @@ regex : ]]
 p.1-<1>:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-~,other=~,musescore=~
 
 //template : pages
-p.1:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~ \\\ p.2:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~ \\\ p.3:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~ \\\ p.4:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~
+p.1-<1>:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~ \\\ p.2-<1>:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~ \\\ p.3-<1>:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~ \\\ p.4-<1>:genre=melody,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=~,other=~,musescore=~
 
 genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~
 
@@ -624,6 +624,8 @@ octave-jump
 	melody:xunlian
 	mumarasa	(연습곡) ممارسة 
 	prac
+	// ozdobnik / 꾸밈음
+	prac:auxilliary
 	res
 	rev
 	write_in
@@ -646,6 +648,14 @@ octave-jump
 	otsu~kan
 	otsu~kan:1-octave-jump
 	~http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/view/51678		]2022年11月30日12:37:21
+
+//--- 'other=' names
+i.f.:		(inspired from / вдохновлена / 영감)
+
+//--- prac:auxilliary
+finger-hit:N-notes
+pre-ascend
+post-descend
 
 
 
@@ -923,6 +933,8 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,file-piece-id=2022-12-03_11-43-12_000.mp4,session=hour-11,other=i.f.:movement-practice / follow+
+
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=~,file-piece-id=~,memo=+,session=hour-~,recording-id=~,other=memo:page-3;-4 / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=i.f.:scale-practice / follow~
@@ -989,7 +1001,7 @@ regex : ]]
 //template
 :m / 1*1 / percussion,rythm / session-memo / p.1:content=~,key=~,for=~,from=~,R=~,item=~,hitter=~,pieces=~,genr=pattern-atom,other=~,memo~
 
-:m / #*# / percussion,rythm / session-memo / p.1:item=ミニ湯呑:1,hitter=chopstick:1-set,genr=pattern-atom,other=~
+:m / #*# / percussion,rythm / session-memo / p.1:item=ぐい呑のカップ:1,hitter=ボールペン：ボール端と反対の端:1-set,genr=pattern-atom,other=~
 
 :m / 1*1 / percussion,rythm / session-memo / p.1: todays-rythm,item=ボトル：プラスチック：携行用：２本,hitter=ボトルの蓋,Re~,R=1
 
@@ -1127,7 +1139,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 3*3 / free# JVEMV6 83#_48:2 / 83. chemistry / topics=無機化学：水、水溶液,w=電離；水和；ハロゲン,s=~,i=~,other=~,next=~,doc=r-1-1~1.2:f-2.4#R.1-~4
+:m RES 1-2*2 / free# JVEMV6 83#_49:2 / 83. chemistry / topics=無機化学：水、水溶液,w=電離；水和；ハロゲン,s=~,i=~,other=calc+:電荷間に働く力。積分,next=~,doc=r-1-1~1.2:f-2.5#R.~1;r-1-1~1.3:p.7
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1387,9 +1399,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=静;誘;媒;和;糖;精;青;薬;激;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=無;機;官;政;告;務;省;間;極;効;果;導;
 
 ;
+;;
 ;
 //2022年6月9日10:06:00
 :m #*# / memo:other(m:other) / topic=お父さんの事故のこと, about=病院にて：看護師の人からの話し（page-1）；警察官の人からの話し,content=~,other=~,id=~ 
@@ -1401,10 +1414,15 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 :m #*# / memo:other(m:other) / topic=ペガスス：予定, about=~,content=７月２１日木曜、２２日金曜,other=~,id=~ 
 
 ###2022年7月20日9:58:44
-=============== 年金
+//=============== 年金
+=============== 年金；小遣い
+
 :m 1*1 / memo:other(m:other) / topic=年金：免除の件, about=免除申請：お母さんに、お金を出してもらえないか、尋ねる,content=~,other=~,file-id=2022-07-17_17-37-22_000.jpg
 
 :m other / お母さんから　お金もらう / amount=５万円 / topic=月々の小遣い / total-amount=２回分：1.5x2=３万円,for=年金払込：追加：一ヶ月分：１万６千円；月々の小遣い：当面、１万円；残りの２万円：使途、不明：口座の残高、ジブラルタ支払いのためには、現状、５万円、不足。
+
+// 小遣い	/ 2022年12月4日12:00:23
+:m other / お母さんから　お金もらう / amount=３万円 / topic=月々の小遣い；物品購入 / total-amount=２回分：1.5x2=３万円；スマホ購入代金：２万円,for=2022-01~02
 
 ###2021年11月8日9:39:16
 =============== お父さんの入院
@@ -1789,7 +1807,11 @@ G:\photo-books_HD\list-of-books.txt
 ###2021年9月25日10:34:15
 ============================ 経過記録
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=セージ,liquor=麦焼酎：??ml,time=~,container=green-cap / type=~,other=一日漬け；セージを取り出したあと、色が変化するかを、記録したい,id=2021-09-25_00-42-45_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１．５（白色のスプーン）；ミント：１．５；ローズマリー：１．５；ニンニク；生姜,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合；混濁物、発生：翌日、昼間。12:33：濁り、継続。底部に、沈殿物。ゲル状ではない。細かい粒が、集まっている。揺らすと、動く。沈殿層と液層との堺、平坦ではない。,id=2022-12-04_00-57-01_000.jpg
+
+
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン；ミント；ディル；ニンニク；生姜,liquor=麦焼酎：??ml,time=~,container=green-cap / type=~,other=作り置きする：混合；混濁物、発生：ゲル状：細切れのゲル。１つ２つにまとまるではなく。,id=2022-12-04_00-53-22_000.jpg
+
 
 ###2021年10月8日9:17:36
 ============================ コレポン
