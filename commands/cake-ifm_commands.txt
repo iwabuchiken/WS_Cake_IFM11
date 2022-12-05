@@ -1001,7 +1001,7 @@ regex : ]]
 //template
 :m / 1*1 / percussion,rythm / session-memo / p.1:content=~,key=~,for=~,from=~,R=~,item=~,hitter=~,pieces=~,genr=pattern-atom,other=~,memo~
 
-:m / #*# / percussion,rythm / session-memo / p.1:item=ぐい呑のカップ:1,hitter=ボールペン：ボール端と反対の端:1-set,genr=pattern-atom,other=~
+:m / #*# / percussion,rythm / session-memo / p.1:item=醤油皿（小皿）:1,hitter=ボールペン：ボール端と反対の端:1-set,genr=pattern-atom,content=num-of-atom:2,other=~
 
 :m / 1*1 / percussion,rythm / session-memo / p.1: todays-rythm,item=ボトル：プラスチック：携行用：２本,hitter=ボトルの蓋,Re~,R=1
 
