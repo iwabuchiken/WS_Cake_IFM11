@@ -778,7 +778,7 @@ training,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,othe
 //template
 :m Other / 買ったもの / item=~,at=~,for=~,other=~
 
-:m Other / 買ったもの / item=セロテープ：天然素材、15mmx9m:一巻(いっかん)入り,at=キャン・ドゥ,for=~,other=~
+:m Other / 買ったもの / item=フリーザバッグ：Mサイズ；烏龍茶；プラスチック容器：中サイズ；タッパー：小サイズ,at=キャン・ドゥ,for=~,other=~
 
 
 ###2021年12月11日22:04:31
@@ -1141,7 +1141,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1-2*2 / free# JVEMV6 83#_50:1 / 83. chemistry / topics=無機化学：希ガス,w=Xe-F;結合エネルギー；ヒドロキノン；キセノン,s=~,i=~,other=conc+:キセノン原子：個数,next=~,doc=r-1-1~1.2:f-2.6#L.0-~4
+:m RES 1*1 / free# JVEMV6 83#_52:1 / 83. chemistry / topics=グリーン化学,w=電気透析；電解浮上；浮選法,s=~,i=~,other=~,next=~,doc=r-2-1~1.1:f-1.3#R.2
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
