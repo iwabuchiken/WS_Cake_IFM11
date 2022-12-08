@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:xunlian,for=h-4`(Ef),musescore=~ \\\ p.2-<1>:genre=prac:auxilliary,for=finger-hit:2-notes,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,for=~,key=Af(h-7),notes=~,R=~,file-id=2022-11-27_19-05-18_000.jpg,piece-id=~,tempo=~,session=hour-~,other=~,musescore=~
 
 
 
@@ -1141,7 +1141,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_52:1 / 83. chemistry / topics=グリーン化学,w=電気透析；電解浮上；浮選法,s=~,i=~,other=~,next=~,doc=r-2-1~1.1:f-1.3#R.2
+:m RES 1*1 / free# JVEMV6 83#_53:2 / 83. chemistry / topics=グリーン化学：銅、析出,w=,s=~,i=~,other=~,next=~,doc=r-2-1~1.2:f-1.6#R.~1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
