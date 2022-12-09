@@ -1,3 +1,4 @@
+83_
 rem /==============================
 rem 	command list
 rem 	
@@ -585,7 +586,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,for=~,key=Af(h-7),notes=~,R=~,file-id=2022-11-27_19-05-18_000.jpg,piece-id=~,tempo=~,session=hour-~,other=~,musescore=~
+:m :篠笛,shinobue 1-4*5 / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,for=~,session=hour-19,musescore=~
 
 
 
@@ -1141,7 +1142,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_53:2 / 83. chemistry / topics=グリーン化学：銅、析出,w=,s=~,i=~,other=~,next=~,doc=r-2-1~1.2:f-1.6#R.~1
+:m RES 1*1 / free# JVEMV6 83#_54:1 / 83. chemistry / topics=グリーン化学,w=次亜塩素酸,s=~,i=~,other=memo+:水素と酸素の間の距離：次亜塩素酸分子の中で,next=~,doc=r-2-1~1.2:f-1.10#R.
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1745,6 +1746,10 @@ G:\photo-books_HD\list-of-books.txt
 
 ###2022年9月14日11:59:30
 ============================== :m : res:free : res_
+:m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
+
+:m 2*2 RES / free / res-id=IU70 / theme= / genre=math,content=２つの円：２つの接点を通る線：２つの中心を通る線との交点：接点との距離 / session-number=~ / doc=~,other=conc+:２つの中心同士の距離と、２番目の円の半径との、大小関係
+
 :m #*# RES / free / res-id=V54B / theme=サンドクリーク虐殺 / genre=歴史；正義 / session-number=~ / doc=~,other=~
 
 
