@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue 1-4*5 / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:main;coda,key=h-4(Ef),session=hour-19,musescore=~
+:m :篠笛,shinobue 1-4*5 / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:main;coda,key=h-4`(Ef),session=hour-19,musescore=~
 
 
 
@@ -870,6 +870,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 ============================== やることリスト,todo_list
 :m やることリスト / steps / occasion=XX~XX / for=~,at=~,other=~
 
+:m やることリスト / steps / occasion=外出：湘南台の、お兄さんたちのところ：お父さんの骨：納骨 / for=~,at=~,other=~
+
 :m やることリスト / steps / occasion=外出：図書館、他 / for=外出：やることのリスト。行き先、やること。順番,at=~,other=~
 
 :m やることリスト / steps / occasion=掃除機をかける / for=トイレ；階段；押し入れ,at=~,other=~
@@ -936,7 +938,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-22,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-15,other=~ / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,file-piece-id=2022-12-03_11-43-12_000.mp4,session=hour-11,other=i.f.:movement-practice / follow+
 
@@ -1144,12 +1146,13 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_55:1 / 83. chemistry / topics=グリーン化学,w=シアン化物,s=~,i=~,other=memo+:シアン化物を取り除く：費用の計算,next=~,doc=r-2-1~1.2:f-1.12#R.1-7
+:m RES 1*1 / free# JVEMV6 83#_56:1 / 83. chemistry / topics=グリーン化学：水素経済,w=標準状態,s=~,i=~,other=memo+:生石灰~酸化カルシウム~消石灰；obs+:生石灰と、二酸化炭素。反応のサイクル,next=~,doc=r-2-1~1.2:f-1.13#?
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
 //file
-C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_83_plastics.dat
+sakura C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_83_plastics.dat
+//C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_83_plastics.dat
 
 ======== memo : JVE : 82# : math-research, 82_
 ###2022年9月20日10:11:20
@@ -1404,9 +1407,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=無;機;官;政;告;務;省;間;極;効;果;導;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=適;取;解;離;遠;法;物r;理;科;変;思;想;
 
 ;
+;;
 ;;
 ;
 //2022年6月9日10:06:00
@@ -1677,6 +1681,8 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録用 / location=~ / topic=~, subject=~, other=~
 
+:PHOTO 記録用 / location=自宅 / topic=お父さんの写真：納骨の際に使用。, other=元は、ニチイで受け取った。
+
 //2022年6月9日9:42:36
 :PHOTO 記録用 / location=自宅 / topic=土地権利書、他, subject=お母さんの資産、把握。お父さんの入院の出来事を受けて, other=~
 
@@ -1784,6 +1790,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,other=~
 
+:m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=sputnik:chinese / theme=ニカラグア；ロシア,other=ロシアから、小麦の寄贈：給食用、小学校の
+
 :m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=数字の比較,other=イランのバロチスタン：テロ：州の面積：ウィキで、各言語のページ同士で、比較
 
 :m 1*1 RES / free# S87DP9 記事読み / id=KCWW(browser=yandex) / media=~ / theme=財政：日本,other=デスクトップ、保存
@@ -1850,6 +1858,8 @@ G:\photo-books_HD\list-of-books.txt
 ###2021年11月21日10:06:43
 ============================ 記録：文書 / photo:doc
 :PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~,other=~
+
+:PHOTO 記録 / 文書　/ occasion=お父さんの銀行預金：相続の手続き：書類 / for=お兄さんが手続きを行う：私が記入する箇所、取り出し / doc=銀行へ提出する書類,other=~
 
 :PHOTO 記録 / 文書　/ occasion=~ / for=やることリスト：その日にやること：予定表 / doc=~,other=~
 
