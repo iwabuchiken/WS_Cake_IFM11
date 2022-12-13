@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue 1-4*5 / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:main;coda,key=h-4`(Ef),session=hour-19,musescore=~
+:m :篠笛,shinobue 1-4*5 / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:main~sabi,session=hour-19,musescore=~
 
 
 
@@ -822,7 +822,12 @@ tech,for=~,ReX,tempo=~,other=~,key=~,notes=~,R=~
 
 atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
+======================= memo : illustration,イラスト
+###2022年12月13日11:05:11
+//template
+:m illustration,イラスト / illus. object=~ / genre=~,source=~,location=~,angle=~,other=~,memo~,found~,id=~,occasion=~
 
+:m illustration,イラスト / illus. object=人：牢屋の中 / genre=~,source=~,location=~,angle=牢屋の外：立った姿勢で、目の高さ,other=強訴した人：獄門される、前夜,memo~,found~,id=~,occasion=~
 
 ============================== memo : sketch, _des
 ###2021年6月8日8:13:29
@@ -1142,11 +1147,16 @@ regex :
 :m RES 1*2 / free# JVEMV6 general#_1002:1 / JVEMV6.general / topics=plastic-degeneration;プラスチック分解,w=PET;polyester;テレフタル酸；エチレングリコール,s=~,i=~,doc=r-1-1~1.6#1,other=~
 
 ======== memo : JVE : 83# : chemistry : 83_
+// ---- 'other' : sub-categories
+memo
+obs
+calc
+
 ###2022年10月15日10:17:09
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_56:1 / 83. chemistry / topics=グリーン化学：水素経済,w=標準状態,s=~,i=~,other=memo+:生石灰~酸化カルシウム~消石灰；obs+:生石灰と、二酸化炭素。反応のサイクル,next=~,doc=r-2-1~1.2:f-1.13#?
+:m RES 1*1 / free# JVEMV6 83#_58:1 / 83. chemistry / topics=グリーン化学：水素経済,w=,s=~,i=~,other=memo+:水、電気分解：サイクル,next=~,doc=r-2-1~1.2:f-8.6#L.~2
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1759,6 +1769,8 @@ G:\photo-books_HD\list-of-books.txt
 ###2022年9月14日11:59:30
 ============================== :m : res:free : res_
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=TMZ2 / theme=~ / genre=chemistry:physical-chemistry,content=水素の気体：他の気体分子：速度比 / session-number=~ / doc=~,other=~
 
 :m 2*2 RES / free / res-id=IU70 / theme= / genre=math,content=２つの円：２つの接点を通る線：２つの中心を通る線との交点：接点との距離 / session-number=~ / doc=~,other=conc+:２つの中心同士の距離と、２番目の円の半径との、大小関係
 
