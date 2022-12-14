@@ -834,6 +834,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
+:m dessin,sketch / des. object=鵲[カササギ / genre=動物：鳥,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+
 :m dessin,sketch / des. object=ロゼット：ヒメジョオン：葉 / genre=植物,source=~,location=~,other=~,memo~,found~,id=UCUB,occasion=~
 
 :m dessin,sketch / des. object=犂[すき / genre=器具,source=~,location=~,other=~,memo~,found~,id=8P9N,occasion=~
@@ -842,7 +844,12 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m dessin,sketch / des. object=キジ / genre=動物,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
-
+//------- genre names
+動物
+動物：鳥
+植物
+植物：樹木
+器具
 
 
 ###2021年6月18日8:55:14
@@ -1147,18 +1154,23 @@ regex :
 :m RES 1*2 / free# JVEMV6 general#_1002:1 / JVEMV6.general / topics=plastic-degeneration;プラスチック分解,w=PET;polyester;テレフタル酸；エチレングリコール,s=~,i=~,doc=r-1-1~1.6#1,other=~
 
 ======== memo : JVE : 83# : chemistry : 83_
-// ---- 'other' : sub-categories
-memo
-obs
-calc
 
 ###2022年10月15日10:17:09
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_58:1 / 83. chemistry / topics=グリーン化学：水素経済,w=,s=~,i=~,other=memo+:水、電気分解：サイクル,next=~,doc=r-2-1~1.2:f-8.6#L.~2
+:m RES 1*1 / free# JVEMV6 83#_59:1 / 83. chemistry / topics=グリーン化学：水素経済,w=苛性ソーダ；苛性カリ,s=~,i=~,other=~,next=~,doc=r-2-1~1.2:f-8.7#R.1
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
+
+//---------------- phrase
+
+	// ---- 'other' : sub-categories
+	memo
+	obs
+	calc
+
+
 
 //file
 sakura C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_83_plastics.dat
@@ -1800,7 +1812,9 @@ G:\photo-books_HD\list-of-books.txt
 ###2021年9月22日10:19:44
 ============================== :m : 記事読み
 //template
-:m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,other=~
+:m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,other=~
+
+:m 1*1 RES / free# S87DP9 記事読み / id=B5NY(browser=yandex) / media=sputnik:chinese / theme=EU：天然ガス：不足,content=不足量、発表：EU主席,other=~
 
 :m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=sputnik:chinese / theme=ニカラグア；ロシア,other=ロシアから、小麦の寄贈：給食用、小学校の
 
@@ -1851,6 +1865,9 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
 
+:PHOTO 記録 / 文書：コレポン / #*# / about=コロナワクチン：接種：申し込み,with=福島内科医院,content=予約を取る：３回目,other=~ / N+
+
+
 :PHOTO 記録 / 文書：コレポン / #*# / about=予約願い,with=山下歯科,content=~,other=~ / N~
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=問い合わせ：風呂場：操作盤：点滅,with=ヤマヒサ（新宿）,content=~,other=~ / N~
@@ -1858,18 +1875,12 @@ G:\photo-books_HD\list-of-books.txt
 //2022年7月20日10:16:46
 :PHOTO 記録 / 文書：コレポン / #*# / about=ペガスス：行きます旨の連絡,with=蛇口さん,content=~,other=~ / N~
 
-//2022年6月18日10:28:14
-:PHOTO 記録 / 文書：コレポン / #*# / about=周知の面談の件：事故発生を受けて,with=東和：横浜,content=訪問の日時、決める,other=~ / N~
-
-//2022年6月9日10:01:25
-:PHOTO 記録 / 文書：コレポン / #*# / about=周知の面談の件：事故発生を受けて,with=東和：横浜,content=~,other=~ / N~
-
-:PHOTO 記録 / 文書：コレポン / #*# / about=予約忘れ、すみません；改めて予約,with=スズキ歯科（宮崎台駅、近く）,content=~,other=~ / N~
-
 
 ###2021年11月21日10:06:43
 ============================ 記録：文書 / photo:doc
 :PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~,other=~
+
+:PHOTO 記録 / 文書　/ occasion=時節ごとの行事 / for=リスト：用意するもの：冬至の行事 / doc=~,other=~
 
 :PHOTO 記録 / 文書　/ occasion=お父さんの銀行預金：相続の手続き：書類 / for=お兄さんが手続きを行う：私が記入する箇所、取り出し / doc=銀行へ提出する書類,other=~
 
@@ -2228,6 +2239,8 @@ A1~1.1.7,1.1.9
 JVE_general
 memo_gui
 video_guitar
+記事読み
+コレポン
 memo_shaku
 video_shaku
 res_
