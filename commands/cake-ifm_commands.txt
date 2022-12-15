@@ -585,7 +585,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue 1-4*5 / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:main~sabi,session=hour-19,musescore=~
+:m :篠笛,shinobue 1-4*5 / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,key=h-2(B),musescore=~ \\\ p.2-<1>:genre=melody:continue-from:page-1,for=sabi,musescore=~ \\\
 
 
 
@@ -604,14 +604,14 @@ s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 p.1: \\\ p.2: \\\ p.3: \\\ p.4:
 
 //--------- memo phrases
-memo:alt-fingering:h-7+4+3>on~pitch=h-1`!
-tips:how-to-blow:oct-1_h-1
-continue-from:page-1
-other=alt-fingering+
-explanation+
-variation:2022-11-14~p-1
-add:10-04~page-2
-use:alt-fingering
+:memo:alt-fingering:h-7+4+3>on~pitch=h-1`!
+:tips:how-to-blow:oct-1_h-1
+:continue-from:page-1
+:other=alt-fingering+
+:explanation+
+:variation:2022-11-14~p-1
+:add:10-04~page-2
+:use:alt-fingering
 
 
 //--------- 'for' comments / 2022年12月2日10:06:48
@@ -781,7 +781,7 @@ training,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,othe
 //template
 :m Other / 買ったもの / item=~,at=~,for=~,other=~
 
-:m Other / 買ったもの / item=フリーザバッグ：Mサイズ；烏龍茶；プラスチック容器：中サイズ；タッパー：小サイズ,at=キャン・ドゥ,for=~,other=~
+:m Other / 買ったもの / item=針ピン；石鹸；布（黒色）,at=キャン・ドゥ,for=~,other=~
 
 
 ###2021年12月11日22:04:31
@@ -834,19 +834,18 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
+:m dessin,sketch / des. object=ヒキガエル / genre=動物：両生類：カエル,source=~,location=~,other=~,memo~,found~,id=FGBM,occasion=~
+
+:m dessin,sketch / des. object=カケス / genre=動物：鳥,source=~,location=~,other=~,memo~,found~,id=QLMZ,occasion=~
+
 :m dessin,sketch / des. object=鵲[カササギ / genre=動物：鳥,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
-:m dessin,sketch / des. object=ロゼット：ヒメジョオン：葉 / genre=植物,source=~,location=~,other=~,memo~,found~,id=UCUB,occasion=~
-
-:m dessin,sketch / des. object=犂[すき / genre=器具,source=~,location=~,other=~,memo~,found~,id=8P9N,occasion=~
-
-:m dessin,sketch / des. object=ツバキ：葉 / genre=植物：樹木,source=~,location=~,other=~,memo~,found~,id=4NZB,occasion=~
-
-:m dessin,sketch / des. object=キジ / genre=動物,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
 //------- genre names
 動物
 動物：鳥
+動物：両生類
+動物：両生類：カエル
 植物
 植物：樹木
 器具
@@ -895,7 +894,9 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 ###2021年6月28日10:15:01
 ============================== memo : :th
 //
-:m :th / topic=~ / content=~ / lang=ja
+:m :th / topic=~ / content=~,other=~ / lang=ja
+
+:m :th / topic=相続：預金：誰に何を分けるか / content=お兄さんの配分割合：これまで、お父さんの支出を監督してくれていた分,other=related:res-id=YUCJ / lang=ja
 
 :m :th / topic=思想：音楽 / content=音楽を射影したもの。それが、現実世界。技術も / lang=ja
 
@@ -1429,9 +1430,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=適;取;解;離;遠;法;物r;理;科;変;思;想;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=標;準;状;態;
 
 ;
+;;
 ;;
 ;;
 ;
@@ -1782,24 +1784,10 @@ G:\photo-books_HD\list-of-books.txt
 ============================== :m : res:free : res_
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=YUCJ / theme=相続：預金：お兄さんの名義で預ける：法律事項 / genre=~,content=~ / session-number=~ / doc=~,other=~
+
 :m #*# RES / free / res-id=TMZ2 / theme=~ / genre=chemistry:physical-chemistry,content=水素の気体：他の気体分子：速度比 / session-number=~ / doc=~,other=~
 
-:m 2*2 RES / free / res-id=IU70 / theme= / genre=math,content=２つの円：２つの接点を通る線：２つの中心を通る線との交点：接点との距離 / session-number=~ / doc=~,other=conc+:２つの中心同士の距離と、２番目の円の半径との、大小関係
-
-:m #*# RES / free / res-id=V54B / theme=サンドクリーク虐殺 / genre=歴史；正義 / session-number=~ / doc=~,other=~
-
-
-:m #*# RES / free / res-id=JXGF / theme=北伊豆地震 / genre=歴史；自然科学 / session-number=~ / doc=~,other=年表+
-
-:m #*# RES / free / res-id=3W7K / theme=福沢諭吉 / genre=歴史：日本 / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=241X / theme=水干 / genre=歴史：日本 / session-number=~ / doc=~,other=dessin用の調べ
-
-:m #*# RES / free / res-id=9EQ0 / theme=淳仁天皇 / genre=歴史：日本 / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=GRKY / theme=宝永地震 / genre=歴史：日本 / session-number=1 / doc=~,other=~
-
-:m #*# RES / free / res-id=O70S / theme=習近平：党大会：胡錦涛：退場 / genre=政治 / session-number=1 / doc=~,other=~
 
 ###2022年11月6日10:13:22
 ============================== :m : lang
@@ -1814,13 +1802,10 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,other=~
 
+:m #*# RES / free# S87DP9 記事読み / id=VX7G(browser=yandex) / media=sputnik:chinese / (1) theme=ロシア：植林,content=他の範囲との比較：川崎市,other=~ / (2) theme=ドンバス州：戦争被害：金額,content=~,other=~
+
 :m 1*1 RES / free# S87DP9 記事読み / id=B5NY(browser=yandex) / media=sputnik:chinese / theme=EU：天然ガス：不足,content=不足量、発表：EU主席,other=~
 
-:m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=sputnik:chinese / theme=ニカラグア；ロシア,other=ロシアから、小麦の寄贈：給食用、小学校の
-
-:m 1*1 RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=数字の比較,other=イランのバロチスタン：テロ：州の面積：ウィキで、各言語のページ同士で、比較
-
-:m 1*1 RES / free# S87DP9 記事読み / id=KCWW(browser=yandex) / media=~ / theme=財政：日本,other=デスクトップ、保存
 
 
 
