@@ -76,6 +76,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2-2_move-files_iphone-to-tmp.bat
 
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
 
+
+
 //rem call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.10.insert-new-data-to-db.bat
 
 //	4-0.1)------------------ gen : list of files ]]
@@ -169,8 +171,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 
 C:\WORKS_2\shortcuts_docs\log_files\end_log_JVE_close-sakura_close-freemind.bat
 //rem C:\WORKS_2\shortcuts_docs\end_log_JVE_close-sakura_close-freemind.bat
-
-
+//C:\WORKS_2\shortcuts_docs\
+//C:\WORKS_2\shortcuts_docs\copy_today_20221217_120144.txt
 
 2)
 "*" char --> remove ------------------
@@ -1178,7 +1180,8 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_62:1 / 83. chemistry / topics=『読み物　物理化学』,w=相互作用,s=~,i=~,other=,next=~,doc=r-1-1~1.3:p.15
+:m RES 3*3 / free# JVEMV6 83#_63:1 / 83. chemistry / topics=『読み物　物理化学』：化学結合,w=イオン結合,s=~,i=~,other=memo+:結晶：結合エネルギー：計算,next=~,doc=r-1-1~1.3:p.19
+
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
 
@@ -1301,6 +1304,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#67_1_gakuji / 『論語 学而』 著者=~,校注=~ / p.22 / w=千乗,topic=~,publisher=明治書院,other=~
+
 
 :m #*# RES / JVEMV6 64#XX_-- / 『発達障害』 著者=岩波明,校注=~ / p.80 / w=~,topic=~,publisher=~,other=~
 
@@ -1446,13 +1452,13 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //C:\WORKS_2\shortcuts_docs\memo_shuuji_list-of-letters.txt
 //C:\WORKS_2\shortcuts_docs\list-of-kanji.txt
 //regex : 2022年11月2日9:17:18
-([^a-z]{1}[a-z]*)	$1;
+//ref:https://so-zou.jp/software/tech/programming/tech/regular-expression/meta-character/variable-width-encoding.htm	|| 2022年12月18日11:47:59
+(\p{Han}{1}[a-z]*)	$1;
+//([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=運;動;進;回;転;速;度;電;極;分;布;記;事;読;書;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=粒;間;相;互;作;蒸;発;融;解;直;結;合;圧;力;温;
 
-;
-;
 ;
 //2022年6月9日10:06:00
 :m #*# / memo:other(m:other) / topic=お父さんの事故のこと, about=病院にて：看護師の人からの話し（page-1）；警察官の人からの話し,content=~,other=~,id=~ 
@@ -1860,6 +1866,8 @@ G:\photo-books_HD\list-of-books.txt
 ###2021年9月25日10:34:15
 ============================ 経過記録
 
+
+
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１．５（白色のスプーン）；ミント：１．５；ローズマリー：１．５；ニンニク；生姜,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合；混濁物、発生：翌日、昼間。12:33：濁り、継続。底部に、沈殿物。ゲル状ではない。細かい粒が、集まっている。揺らすと、動く。沈殿層と液層との堺、平坦ではない。,id=2022-12-04_00-57-01_000.jpg
 
 
@@ -1963,6 +1971,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ：顔 :face
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（篠笛）
 
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=お祈りしたあと：夕食
+
 ###2021年11月4日8:20:20
 ============================ 様子：顔
 :m 記録 / 身体 / 様子 / location=~,time=~；occasion=~,other=~
@@ -1999,7 +2009,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 //:m / daylog メモ / partial / 2022-1127
 
-
+//diary:today
+//C:\WORKS_2\shortcuts_docs\copy_today_20221217_120144.txt
 
 ============================== delete entries from db
 
