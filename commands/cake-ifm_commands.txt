@@ -906,6 +906,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //
 :m :th / topic=~ / content=~,other=~ / lang=ja
 
+:m :th / topic=理解したこと：語句の意味について：近接語句との相違 / content=「畏れる[おそ」「畏まる[かしこ」「慎む」,other=~ / lang=ja
+
 :m :th / topic=相続：預金：一定期間、一箇所に置いておく / content=今回のような条件のもと：至極まっとうな対処法か（i.e. 特に思考を凝らしたもの、ではない、の意）,other=related:res-id=~ / lang=ja
 
 :m :th / topic=相続：預金：誰に何を分けるか / content=お兄さんの配分割合：これまで、お父さんの支出を監督してくれていた分,other=related:res-id=YUCJ / lang=ja
@@ -1304,6 +1306,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.20 / w=~,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#67_1_gakuji / 『論語 学而』 著者=~,校注=~ / p.22 / w=千乗,topic=~,publisher=明治書院,other=~
 
@@ -1868,7 +1872,7 @@ G:\photo-books_HD\list-of-books.txt
 
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１．５（白色のスプーン）；ミント：１．５；ローズマリー：１．５；ニンニク；生姜,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合；混濁物、発生：翌日、昼間。12:33：濁り、継続。底部に、沈殿物。ゲル状ではない。細かい粒が、集まっている。揺らすと、動く。沈殿層と液層との堺、平坦ではない。,id=2022-12-04_00-57-01_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：３；生姜：２,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合；混濁。粒など、浮遊物、見られず,id=2022-12-19_00-31-25_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン；ミント；ディル；ニンニク；生姜,liquor=麦焼酎：??ml,time=~,container=green-cap / type=~,other=作り置きする：混合；混濁物、発生：ゲル状：細切れのゲル。１つ２つにまとまるではなく。,id=2022-12-04_00-53-22_000.jpg
@@ -1893,6 +1897,8 @@ G:\photo-books_HD\list-of-books.txt
 ###2021年11月21日10:06:43
 ============================ 記録：文書 / photo:doc
 :PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~,other=~
+
+:PHOTO 記録 / 文書　/ occasion=隣家の人の立ち話：聞こえてきた：和田さん / for=警察署へ、自分の見聞を、伝えに行く。伝える内容を、文章に起こす。その、下書き。 / doc=~,other=~
 
 :PHOTO 記録 / 文書　/ occasion=時節ごとの行事 / for=リスト：用意するもの：冬至の行事 / doc=~,other=~
 
