@@ -593,7 +593,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,for=main;,key=h-2(B),session=hour-~, p.2-<1>:genre=melody:sabi,session=hour-~,musescore=~
 
 
 
@@ -612,6 +612,7 @@ s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 p.1: \\\ p.2: \\\ p.3: \\\ p.4:
 
 //--------- memo phrases
+//--------- regex
 :memo:alt-fingering:h-7+4+3>on~pitch=h-1`!
 :tips:how-to-blow:oct-1_h-1
 :continue-from:page-1
@@ -936,6 +937,13 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m 災害備蓄 / 梱包完了＋リスト / 2022-1030-① / items=レトルト：中華丼-3；カレー-4；親子丼-3,other=期限：202301
 
+###2022年12月22日11:49:06
+============================== memo : 文書：手順
+:m other / 記録　文書：手順 / subject=~,content=~,other=
+
+:m other / 記録　文書：手順 / subject=調理：冬至の日の料理,content=小豆粥；かぼちゃ煮,other=
+
+
 =================== memo,video : shakuhachi,bamboo,尺八,shaku:video,video:shaku,video_shaku
 
 //-----template : 2022年5月4日9:12:21
@@ -1167,7 +1175,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :VIDEO / 記録 / topic=~ / for=~,file-id=~,other=~
 
 
-:VIDEO / 記録 / topic=経過記録：焼酎漬け：混合 / content=混合を作って、２日目。沈殿物の様子。瓶を傾けてみる。,for=~,file-id=2022-12-19_00-31-25_000.jpg,other=~
+:VIDEO / 記録 / topic=経過記録：焼酎漬け：混合 / content=混合を作って、３日目。沈殿物の様子。瓶を傾けてみる。,for=~,file-id=2022-12-19_00-31-25_000.jpg,other=~
 
 
 ======== memo : JVE : dessin
@@ -1198,7 +1206,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_65:1 / 83. chemistry / topics=『読み物　物理化学』：化学結合,w=結合半径,s=~,i=~,other=memo+;obs+,next=+:結合の本数について,doc=r-1-1~1.3:p.106
+:m RES 2*2 / free# JVEMV6 83#_66:1 / 83. chemistry / topics=『読み物　物理化学』,w=主量子数,s=~,i=~,other=calc+:主量子数：軌道の本数;memo+:電子：スピン;q+:電子一個：スピンによって発生する、磁界：強さは？,next=+,doc=r-1-1~1.3:p.93
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1470,6 +1478,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //習字 shuuji
 //C:\WORKS_2\shortcuts_docs\memo_shuuji_list-of-letters.txt
+//https://accessreading.org/furigana/
 //C:\WORKS_2\shortcuts_docs\list-of-kanji.txt
 //regex : 2022年11月2日9:17:18
 //ref:https://so-zou.jp/software/tech/programming/tech/regular-expression/meta-character/variable-width-encoding.htm	|| 2022年12月18日11:47:59
@@ -1477,7 +1486,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=結;合r;能r;率;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=粒;軌;道;針;等;読r;続;書r;家r;
 
 ;
 //2022年6月9日10:06:00
@@ -1666,6 +1675,9 @@ G:\photo-books_HD\list-of-books.txt
 ============================== :m 保管場所
 :m 保管場所 / what=~ / location=~,expire=~,other=~
 
+:m 保管場所 / what=ヘッドライト：頭に付けるもの：２点 / location=東側 可動棚：上から１段目：ダンボール箱,expire=~,other=~
+
+
 :m 保管場所 / what=黒色の布（納骨の行事用）；安全ピン / location=西側のプラスチックの棚：北側：上から２段目,expire=~,other=~
 
 :m 保管場所 / what=石鹸、せっけん / location=西側の本棚：南側：一番上の段（天板）：ダンボール：右側,expire=~,other=~
@@ -1822,7 +1834,11 @@ G:\photo-books_HD\list-of-books.txt
 
 :m 記録 / お酒：飲んだ量
 
-C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\1MPF.ods
+// ods file
+C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\1MPF_20221220_010422.ods
+
+//folder
+C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 
 
 
@@ -1831,7 +1847,7 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\1MPF.ods
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
 
 
-:m 1*1 RES / free / res-id=2H7S / theme=結晶格子：結晶間の距離 / genre=chimiya:obshshaya,content=~ / session-number=~ / doc=~,other=q+ / N~
+:m 1*1 RES / free / res-id=2H7S / theme=結晶格子：結晶間の距離 / genre=chimiya:obshshaya,content=~ / session-number=~ / doc=~,other=rev+;found+; / N+
 
 :m #*# RES / free / res-id=BDUU / theme=伊勢暴動 / genre=歴史：日本史,content=時系列、他 / session-number=~ / doc=~,other=~
 
@@ -1861,6 +1877,10 @@ chemistry:physical-chemistry
 ========================== :m : 記事読み, article_
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=YVO8(browser=yan) / media=sp:ch / theme=ロシア：原油輸出量：ある港から（中国語名：科茲米諾）,content=この港からの、出荷量：日本の、原油輸入量[9.2億barr,2020goda]の、44.9%；この量は、日本のサウジからの輸入量より、多い[+12%],other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=S5QU(browser=yan) / media=presstv / theme=イラン：産出量：石油,content=イランの石油（原油か？）産出量：日当たりの数字を発表。年に換算すると、日本の原油輸入量の、約109.5%,other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=GFR9(browser=yan) / media=sp:ch / theme=輸出量：ロシア：石炭,content=~,other=日本：輸入量：石炭
 
@@ -1905,7 +1925,7 @@ chemistry:physical-chemistry
 
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：３；生姜：２,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合；混濁。粒など、浮遊物、見られず,id=2022-12-19_00-31-25_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：３；生姜：２,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合；３日目,id=2022-12-19_00-31-25_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン；ミント；ディル；ニンニク；生姜,liquor=麦焼酎：??ml,time=~,container=green-cap / type=~,other=作り置きする：混合；混濁物、発生：ゲル状：細切れのゲル。１つ２つにまとまるではなく。,id=2022-12-04_00-53-22_000.jpg
@@ -1919,7 +1939,7 @@ chemistry:physical-chemistry
 :PHOTO 記録 / 文書：コレポン / #*# / about=コロナワクチン：接種：申し込み,with=福島内科医院,content=予約を取る：３回目,other=~ / N+
 
 
-:PHOTO 記録 / 文書：コレポン / #*# / about=予約願い,with=山下歯科,content=~,other=~ / N~
+:PHOTO 記録 / 文書：コレポン / #*# / about=予約願い,with=山下歯科,content=~,other=この日は、山下さんは、休診。未完了 / N~
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=問い合わせ：風呂場：操作盤：点滅,with=ヤマヒサ（新宿）,content=~,other=~ / N~
 
