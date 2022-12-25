@@ -593,7 +593,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.5-<1>:genre=melody,tempo=割と速く,musescore=~ \\\ p.2-<1>:genre=melody,tempo=ゆっくり,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,key=h-3(Df),session=hour-~,musescore=~
 
 
 
@@ -1341,6 +1341,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m 1-2*2 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.15 / w=覚ベツ[敝+↓魚]城；紀広純；伊治[これはり]城；大領；伊治公[これはりのきみ]アザ[此+↓口]麻呂,topic=~,publisher=吉川弘文館,other=~
+
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.20 / w=~,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#67_1_gakuji / 『論語 学而』 著者=~,校注=~ / p.22 / w=千乗,topic=~,publisher=明治書院,other=~
@@ -1496,7 +1498,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=個;数;平;均;受;速;密;断;面;
+:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=図;帯;被;蔵;展;望;持;麦;輸;出;億;
 
 
 ;
@@ -1833,6 +1835,8 @@ G:\photo-books_HD\list-of-books.txt
 
 :i #*# / topic=~ / subject=~, content=~, other=~
 
+:i #*# / topic=大晦日：供え物 / subject=~, content=供えの品：リスト, other=~
+
 //2022年8月4日11:55:59
 :i #*# / topic=~ / subject=篠笛：曲作り, content=同じ音符構成：高音域に続けて、低音域で、吹いてみる。どんな聞き心地？, other=~
 
@@ -1862,6 +1866,7 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 ============================== :m : res:free : res_
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=B2QF / theme=韓国：国防費 / genre=国別調べ,content=~ / session-number=~ / doc=~,other=~ / N+
 
 :m 1*1 RES / free / res-id=2H7S / theme=結晶格子：結晶間の距離 / genre=chimiya:obshshaya,content=~ / session-number=~ / doc=~,other=rev+;found+; / N+
 
