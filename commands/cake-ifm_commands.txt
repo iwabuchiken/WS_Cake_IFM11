@@ -593,7 +593,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,key=h-3(Df),session=hour-~,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:main,session=hour-~,musescore=~ ||| p.1-<2>:genre=melody:fragment;continue-from:page-1,session=hour-~,musescore=~ \\\ p.2-<1>:genre=melody:coda,session=hour-~,other=term:うなり；記号：うなり,musescore=~
 
 
 
@@ -611,7 +611,7 @@ genre=melody,key=~,notes=~,R=~,file-id=~,piece-id=~,other=~
 s.1: \\\ s.2: \\\ s.3: \\\ s.4:
 p.1: \\\ p.2: \\\ p.3: \\\ p.4:
 
-//--------- memo phrases
+//--------- memo phrases, melody_types
 //--------- regex
 :memo:alt-fingering:h-7+4+3>on~pitch=h-1`!
 :tips:how-to-blow:oct-1_h-1
@@ -666,11 +666,12 @@ finger-hit:N-notes
 pre-ascend
 post-descend
 
-//--- melody : types
-main
-coda
-sabi
+//--- melody : types, melody_types
+:coda
+:fragment
+:main
 :melody-for:
+:sabi
 
 
 regex : 
@@ -1216,7 +1217,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_67:1 / 83. chemistry / topics=『読み物　物理化学』,w=,s=~,i=~,other=q-id=WYBD:(file-id=2022-12-21_17-57-23_000.jpg),next=+,doc=r-1-1~1.3:p.94
+:m RES 2*2 / free# JVEMV6 83#_68:1 / 83. chemistry / topics=『読み物　物理化学』,w=,s=~,i=~,other=q+:ヘリウム原子：全質量を、エネルギーに変換すると-->0.6[pico_joule],next=,doc=r-1-1~1.2:f-15.2#L.1-4
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1498,7 +1499,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=~,other=~,id=~,content=図;帯;被;蔵;展;望;持;麦;輸;出;億;
+:m #*# / memo:other(m:other) / topic=習字, about=稽古,other=N+,id=~,content=地r;響r;宝r;永r;夜r;震r;福r;島r;
 
 
 ;
@@ -1864,7 +1865,12 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 
 ###2022年9月14日11:59:30
 ============================== :m : res:free : res_
+//template
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=IPDY / theme=地理：「北松浦郡」 / genre=~,content=九州：北西部：松浦市：伊万里市唐津市 / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=IXNW / theme=韓国：輸出：金額：対GDP / genre=~,content=~ / session-number=~ / doc=~,other=odkrycie+:日本の数字の、2.65倍;日本：17.5%(AD.2021)
 
 :m #*# RES / free / res-id=B2QF / theme=韓国：国防費 / genre=国別調べ,content=~ / session-number=~ / doc=~,other=~ / N+
 
@@ -1898,6 +1904,9 @@ chemistry:physical-chemistry
 ========================== :m : 記事読み, article_
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,other=~
+
+
+:m #*# RES / free# S87DP9 記事読み / id=3EKW(browser=yan) / media=sp.ch / theme=白ロシア：ロシアへ：輸出：金額,content=~,other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=JQQK(browser=yan) / media=sp:ch / theme=ロシア：貿易：インド：小麦,content=イランを通って、インドへ,other=~
 
@@ -1961,6 +1970,13 @@ chemistry:physical-chemistry
 
 //2022年7月20日10:16:46
 :PHOTO 記録 / 文書：コレポン / #*# / about=ペガスス：行きます旨の連絡,with=蛇口さん,content=~,other=~ / N~
+
+###2022年12月26日10:27:52
+================== 記録：文書：自作メモ / photo:doc
+//template
+:PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~,other=~
+
+:PHOTO 記録 / 文書　/ occasion=おせち：調理 / for=煮しめ：具材：入れるものリスト / doc=~,other=~
 
 
 ###2021年11月21日10:06:43
