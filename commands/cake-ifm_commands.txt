@@ -1217,7 +1217,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 2*2 / free# JVEMV6 83#_68:1 / 83. chemistry / topics=『読み物　物理化学』,w=,s=~,i=~,other=q+:ヘリウム原子：全質量を、エネルギーに変換すると-->0.6[pico_joule],next=,doc=r-1-1~1.2:f-15.2#L.1-4
+:m RES 2*2 / free# JVEMV6 83#_69:1 / 83. chemistry / topics=無機化学：原子核,w=,s=~,i=~,other=memo+:(ax+by)/(cx+dy):一般式：商を求める,next=,doc=r-1-1~1.2:f-15.2#R.2
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1422,11 +1422,17 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m :? #*# / topic=~ / content=自分の親が、自分の妻を、言葉で虐待している。親への「孝」と、妻への「仁」とが、ぶつかっている。「義」に従って、いづれかを選ぶのか？ / status=~ / other=~,id=~ / :i #*# / topic=physics:量子力学 / subject=~, content=シュレディンガー方程式の、右辺。Eψ。let,B=1/E;(B*Eψ=ψ)。ψそのものが得られる。, other=~
 
+//------ topics
+化学
+
+
 
 ###2021年10月1日11:02:40
 =============== memo : :? / math
+//template
+:m :? jilmun #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
-:m #*# / math / topic=~ / content=~ / status=~ / other=~,id=~
+:m jilmun #*# / topic=物理：量子力学 / content=粒子：ブラックホールに引かれるとき / status=~ / other=~,id=NPGE
 
 //2022年6月14日9:32:09
 :m #*# / math / topic=(cos(x)/x)：極限(lim->∞+) / content=~ / status=~ / other=~,id=ILIV
@@ -1624,6 +1630,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『発達障害』 / 著者=岩波明 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『読み物　物理化学』 / 著者=小出力 / 途中 ここまで
 
