@@ -159,6 +159,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
 
 //sakura C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
 
+//------------- 1-8.3_move-files_tmp-to-iphone.bat
+//2022年12月28日12:29:34
+//C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8.3_move-files_tmp-to-iphone.bat
+
 2)
 uploaded photos --> to HD ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
@@ -1917,7 +1921,7 @@ chemistry:physical-chemistry
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,other=~
 
-:m #*# RES / free# S87DP9 記事読み / id=MU5Y(browser=~) / media=ya / theme=~,content=~,other=~
+:m #*# RES / free# S87DP9 記事読み / id=MU5Y(browser=tor) / media=ya / theme=災害：火事：墨田区,content=~,other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=トルコ：天然ガス：推定量,content=~,other=~
 
