@@ -78,7 +78,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2-2_move-files_iphone-to-tmp.bat
 4)------------------ start : edit memos ]]
 
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
-
+間歳焼
 
 
 //rem call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.10.insert-new-data-to-db.bat
@@ -1412,9 +1412,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 
 ###2021年7月3日10:35:02
-=============== memo : :?
+=============== memo : :? :jilmun_
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m :? #*# / topic=数学：代数 / content=(ax+by)/(cx+dy) / status=~ / other=~,id=FQBI
 
 :m :? #*# / topic=化学：一酸化炭素 / content=構造式は？ / status=~ / other=~,id=~
 
@@ -1505,7 +1507,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=稽古,other=N+,id=~,content=地r;響r;宝r;永r;夜r;震r;福r;島r;
+:m #*# / memo:other(m:other) / topic=習字, about=稽古,other=N+,id=~,content=影;核;距;離;作;宮;前;平;駅;
 
 
 ;
@@ -1876,6 +1878,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=UJOC / theme=数学：代数 / genre=~,content=３乗根 / session-number=~ / doc=~,other=~
+
 :m #*# RES / free / res-id=IPDY / theme=地理：「北松浦郡」 / genre=~,content=九州：北西部：松浦市：伊万里市唐津市 / session-number=~ / doc=~,other=~
 
 :m #*# RES / free / res-id=IXNW / theme=韓国：輸出：金額：対GDP / genre=~,content=~ / session-number=~ / doc=~,other=odkrycie+:日本の数字の、2.65倍;日本：17.5%(AD.2021)
@@ -1913,14 +1917,15 @@ chemistry:physical-chemistry
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,other=~
 
+:m #*# RES / free# S87DP9 記事読み / id=MU5Y(browser=~) / media=ya / theme=~,content=~,other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=トルコ：天然ガス：推定量,content=~,other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=V4XZ(browser=tor) / media=ptv / theme=~,content=~,other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=3EKW(browser=yan) / media=sp.ch / theme=白ロシア：ロシアへ：輸出：金額,content=~,other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=JQQK(browser=yan) / media=sp:ch / theme=ロシア：貿易：インド：小麦,content=イランを通って、インドへ,other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=YVO8(browser=yan) / media=sp:ch / theme=ロシア：原油輸出量：ある港から（中国語名：科茲米諾）,content=この港からの、出荷量：日本の、原油輸入量[9.2億barr,2020goda]の、44.9%；この量は、日本のサウジからの輸入量より、多い[+12%],other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=S5QU(browser=yan) / media=presstv / theme=イラン：産出量：石油,content=イランの石油（原油か？）産出量：日当たりの数字を発表。年に換算すると、日本の原油輸入量の、約109.5%,other=~
 
 
 
@@ -1958,7 +1963,7 @@ chemistry:physical-chemistry
 
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：３；生姜：２,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合；N日目,id=2022-12-19_00-31-25_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：２；生姜：１,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。前夜に作製。翌日,id=2022-12-28_00-45-52_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン；ミント；ディル；ニンニク；生姜,liquor=麦焼酎：??ml,time=~,container=green-cap / type=~,other=作り置きする：混合；混濁物、発生：ゲル状：細切れのゲル。１つ２つにまとまるではなく。,id=2022-12-04_00-53-22_000.jpg
@@ -2360,6 +2365,7 @@ daylog
 res_
 _des
 _ske
+jilmun_
 shuuji
 video_shi
 memo_shi
