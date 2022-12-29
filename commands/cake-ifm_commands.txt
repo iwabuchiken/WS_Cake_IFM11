@@ -78,7 +78,6 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-2-2_move-files_iphone-to-tmp.bat
 4)------------------ start : edit memos ]]
 
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0_edit_memos.9-0.bat
-間歳焼
 
 
 //rem call C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\edit_memos.10.insert-new-data-to-db.bat
@@ -924,6 +923,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,other=~ / lang=ja
 
+:m :th,mysl / topic=倫理 / content=自分ができないこと。を、人に求める。できない。,other=~ / lang=ja
+
 :m :th,mysl / topic=心得 / content=何を目指すか：何を目指せるか,other=~ / lang=ja
 
 :m :th / topic=和田さんの件で、警察署へ文書を提出しようとすることについて、お母さんが「拘わらない方が」と発言したことに関して：その発言への批評 / content=,other=~ / lang=ja
@@ -1221,7 +1222,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 2*2 / free# JVEMV6 83#_69:1 / 83. chemistry / topics=無機化学：原子核,w=,s=~,i=~,other=memo+:(ax+by)/(cx+dy):一般式：商を求める,next=,doc=r-1-1~1.2:f-15.2#R.2
+:m RES 2*2 / free# JVEMV6 83#_70:1 / 83. chemistry / topics=無機化学：原子核,w=~,s=~,i=~,other=memo+:β壊変：水の比熱；conc+,next=,doc=r-1-1~1.2:f-15.3#L.1
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1345,6 +1346,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=~,校注=~ / p.6(「月報」) / w=幸徳秋水；平民社,topic=~,publisher=~,other=~
+
 
 :m 1-2*2 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.15 / w=覚ベツ[敝+↓魚]城；紀広純；伊治[これはり]城；大領；伊治公[これはりのきみ]アザ[此+↓口]麻呂,topic=~,publisher=吉川弘文館,other=~
 
@@ -1511,7 +1515,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=稽古,other=N+,id=~,content=影;核;距;離;作;宮;前;平;駅;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=時;間r;歳;焼;本;共;産;党;精;神;的;革;命;秋;放;射;討;論;
 
 
 ;
@@ -1816,7 +1820,11 @@ G:\photo-books_HD\list-of-books.txt
 
 ###2022年10月19日9:46:41
 ======================== :PHOTO 記録:misc
-:PHOTO 記録 / subject=~ / content=~,for=~,other=~
+:PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
+
+:PHOTO 記録 / subject=pH調べ / location=自室 / content=水道水：ペットに取り置いているもの,for=~,other=activity-id(act-id):UED8
+
+:PHOTO 記録 / subject=ｐH計測器：計測部の調整 / location=自室 / content=~,for=~,other=pH;probe
 
 :PHOTO 記録 / subject=扇風機：しまう / content=カバーをかけたところ,for=~,other=~
 
@@ -1921,15 +1929,11 @@ chemistry:physical-chemistry
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,other=~
 
+:m #*# RES / free# S87DP9 記事読み / id=Y2YS(browser=yan?) / media=sp.ch / theme=台湾：徴兵期間,content=~,other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=MU5Y(browser=tor) / media=ya / theme=災害：火事：墨田区,content=~,other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=トルコ：天然ガス：推定量,content=~,other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=V4XZ(browser=tor) / media=ptv / theme=~,content=~,other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=3EKW(browser=yan) / media=sp.ch / theme=白ロシア：ロシアへ：輸出：金額,content=~,other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=JQQK(browser=yan) / media=sp:ch / theme=ロシア：貿易：インド：小麦,content=イランを通って、インドへ,other=~
 
 
 
@@ -1991,14 +1995,18 @@ chemistry:physical-chemistry
 ###2022年12月26日10:27:52
 ================== 記録：文書：自作メモ / photo:doc
 //template
-:PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~,other=~
+:PHOTO 記録 / 文書：自作メモ / occasion=~ / for=~ / doc=~,other=~
+
+:PHOTO 記録 / 文書：自作メモ / occasion=~ / for=~ / doc=~,other=~
 
 :PHOTO 記録 / 文書　/ occasion=おせち：調理 / for=煮しめ：具材：入れるものリスト / doc=~,other=~
 
 
 ###2021年11月21日10:06:43
 ============================ 記録：文書 / photo:doc
-:PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~,other=~
+:PHOTO 記録 / 文書　/ occasion=~ / for= / doc=~,other=~
+
+:PHOTO 記録 / 文書　/ occasion=pH測定 / for=やることリスト：pH測定値の調整 / doc=~,other=activity-id(act-id):UED8
 
 :PHOTO 記録 / 文書　/ occasion=山下歯科：治療：伝えること / for=虫歯を疑う箇所。図示 / doc=~,other=~
 
