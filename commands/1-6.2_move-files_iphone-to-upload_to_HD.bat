@@ -5,9 +5,11 @@ rem 	image files
 rem ===============================
 echo moving image files...
 
-set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
+rem set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
+rem : 2022年12月29日12:46:52
+set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 
-set dpath_dst=G:\images\2022
+set dpath_dst=G:\tmp.20220507_191202
 
 echo %dpath_source%
 echo %dpath_dst%
