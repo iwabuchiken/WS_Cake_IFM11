@@ -957,7 +957,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 ###2022年12月22日11:49:06
 ============================== memo : 文書：手順
+//template
 :m other / 記録　文書：手順 / subject=~,content=~,other=
+
+:m other / 記録　文書：手順 / subject=ｐH測定；ペーハー,content=やることリスト：用意～実行～片付け,other=
 
 :m other / 記録　文書：手順 / subject=調理：冬至の日の料理,content=小豆粥；かぼちゃ煮,other=
 
@@ -1226,7 +1229,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 2*2 / free# JVEMV6 83#_70:1 / 83. chemistry / topics=無機化学：原子核,w=~,s=~,i=~,other=memo+:β壊変：水の比熱；conc+,next=,doc=r-1-1~1.2:f-15.3#L.1
+:m RES 1*1 / free# JVEMV6 83#_71:1 / 83. chemistry / topics=無機化学：原子核,w=~,s=~,i=~,other=memo+:アップクオーク、ダウンクォーク：質量,next=,doc=r-1-1~1.2:f-15.3#R.~2
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1350,6 +1353,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.18 / w=マキシ課題；第１次視覚野,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=~,校注=~ / p.6(「月報」) / w=幸徳秋水；平民社,topic=~,publisher=~,other=~
 
@@ -1519,7 +1524,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=時;間r;歳;焼;本;共;産;党;精;神;的;革;命;秋;放;射;討;論;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=野;賀;横;顧;親;能;無;機;熱;海;
 
 
 ;
@@ -1981,6 +1986,15 @@ chemistry:physical-chemistry
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン；ミント；ディル；ニンニク；生姜,liquor=麦焼酎：??ml,time=~,container=green-cap / type=~,other=作り置きする：混合；混濁物、発生：ゲル状：細切れのゲル。１つ２つにまとまるではなく。,id=2022-12-04_00-53-22_000.jpg
 
 
+###2022年12月30日11:30:50
+============================ photo記録, photo_record
+//template
+:PHOTO 記録 / subject=~ / location=自室 / target=~ / content=~,for=~,other=~,activity-id(act-id)=UED8
+
+
+:PHOTO 記録 / subject=pH調べ：焼酎（麦：よかよか） / location=自室 / content=,for=~,other=~,activity-id(act-id)=UED8
+
+
 ###2021年10月8日9:17:36
 ============================ コレポン
 //template
@@ -2375,9 +2389,9 @@ video:sha	video:shi	64#	shaku	156_2	memo_shaku	towa:memo	80#	81#	A1~1.1.7,1.1.9	
 memo_shaku
 video_shaku
 video_ilban_
+photo_record
 article_
 daylog
-
 res_
 _des
 _ske
