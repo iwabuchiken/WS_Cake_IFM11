@@ -1002,7 +1002,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,session=hour-18,memo=~,file-piece-id=2022-12-15_18-56-24_000.mp4,other=continue-from:R-1 / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,other= / follow~
 
 :m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
 
@@ -1229,7 +1229,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_71:1 / 83. chemistry / topics=無機化学：原子核,w=~,s=~,i=~,other=memo+:アップクオーク、ダウンクォーク：質量,next=,doc=r-1-1~1.2:f-15.3#R.~2
+:m RES 1*1 / free# JVEMV6 83#_72:1 / 83. chemistry / topics=無機化学：原子核,w=~,s=~,i=~,other=memo+:電子捕獲；陽電子放射,next=,doc=r-1-1~1.2:f-15.3#R.~1
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1350,11 +1350,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 
 ###2021年6月27日11:30:52
-======== memo : JVE : 64#
+======== memo : JVE : 64#, 64_
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.18 / w=マキシ課題；第１次視覚野,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.46 / w=社会的参照；扁桃体,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=~,校注=~ / p.6(「月報」) / w=幸徳秋水；平民社,topic=~,publisher=~,other=~
 
@@ -1418,6 +1418,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年6月8日8:21:46
 
 :tome / (lang=ja) / topic=~ / content=~
+
+:tome / (lang=ja) / topic=知恵の言葉 / content=神様からの伝言を聞き取れない：教父：こねくりで満たす
 
 :tome / (lang=ja) / topic=思想 / content=明治の前へ戻る；「日本特色」の変化を進める
 
@@ -1899,6 +1901,10 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=7TK9 / theme=中国：GDP：成長率：過去２１年 / genre=areas:zhongguo,content=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=ECY0 / theme=韓国：駐留米軍：基地 / genre=areas:hangug,content=~ / session-number=~ / doc=~,other=龍山[ヨンサン
+
 :m #*# RES / free / res-id=UJOC / theme=数学：代数 / genre=~,content=３乗根 / session-number=~ / doc=~,other=~
 
 :m #*# RES / free / res-id=IPDY / theme=地理：「北松浦郡」 / genre=~,content=九州：北西部：松浦市：伊万里市唐津市 / session-number=~ / doc=~,other=~
@@ -1921,7 +1927,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 歴史：日本史
 chimiya:obshshaya
 chemistry:physical-chemistry
-
+areas:hangug
+areas:zhongguo
 
 
 
@@ -1980,7 +1987,7 @@ chemistry:physical-chemistry
 
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：２；生姜：１,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。前夜に作製。翌日,id=2022-12-28_00-45-52_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：２；生姜：１,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。作製、直後,id=2022-12-31_01-16-42_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン；ミント；ディル；ニンニク；生姜,liquor=麦焼酎：??ml,time=~,container=green-cap / type=~,other=作り置きする：混合；混濁物、発生：ゲル状：細切れのゲル。１つ２つにまとまるではなく。,id=2022-12-04_00-53-22_000.jpg
@@ -2390,12 +2397,14 @@ memo_shaku
 video_shaku
 video_ilban_
 photo_record
+tome
 article_
 daylog
 res_
 _des
 _ske
 jilmun_
+64_
 shuuji
 video_shi
 memo_shi
