@@ -1833,6 +1833,16 @@ G:\photo-books_HD\list-of-books.txt
 ======================== :PHOTO 記録:misc
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
 
+:PHOTO 記録 / subject=年始のお供え物 / location=~ / content=お供え物：備えた場面：経過記録,for=~,other=~
+
+:PHOTO 記録 / subject=年始のお供え物 / location=~ / content=お供え物：盛り付け：経過記録,for=~,other=~
+
+:PHOTO 記録 / subject=年始のお供え物 / location=~ / content=お供え物の、具：魚の干物：あじ：包装：表面,for=~,other=~
+
+:PHOTO 記録 / subject=pH調べ（pH測定；計測；ペーハー） / location=自室 / content=日本酒（「米だけの酒」；VALUE PLUS；２リットル）,for=~,other=~,activity-id(act-id)=UED8
+
+:PHOTO 記録 / subject=pH調べ（pH測定；計測；ペーハー） / location=自室 / content=焼酎（麦：よかよか）,for=~,other=~,activity-id(act-id)=UED8
+
 :PHOTO 記録 / subject=pH調べ / location=自室 / content=水道水：ペットに取り置いているもの,for=~,other=activity-id(act-id):UED8
 
 :PHOTO 記録 / subject=ｐH計測器：計測部の調整 / location=自室 / content=~,for=~,other=pH;probe
@@ -1987,7 +1997,7 @@ areas:zhongguo
 
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：２；生姜：１,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。作製、直後,id=2022-12-31_01-16-42_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：２；生姜：１,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=丸々、一日目,id=2022-12-31_01-16-42_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン；ミント；ディル；ニンニク；生姜,liquor=麦焼酎：??ml,time=~,container=green-cap / type=~,other=作り置きする：混合；混濁物、発生：ゲル状：細切れのゲル。１つ２つにまとまるではなく。,id=2022-12-04_00-53-22_000.jpg
@@ -2160,12 +2170,16 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 "C:\WORKS_2\Programs\DB Browser for SQLite.3.10.0\DB Browser for SQLite.exe"
 
 
+###XXXTEMPLATE;DELETEXX
+DELETE FROM ifm11 WHERE _id <= XXX;
+
+###2023年1月1日13:21:14
+#DELETE FROM ifm11 WHERE _id <= 59201;
+
+
 ###2022年12月2日10:57:04
 #DELETE FROM ifm11 WHERE _id <= 58776;
 
-
-###XXXTEMPLATE;DELETEXX
-DELETE FROM ifm11 WHERE _id <= XXX;
 
 ###2022年10月30日11:53:12
 #DELETE FROM ifm11 WHERE _id <= 58370;
