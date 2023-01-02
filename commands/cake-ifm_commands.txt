@@ -1229,7 +1229,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_72:1 / 83. chemistry / topics=無機化学：原子核,w=~,s=~,i=~,other=memo+:電子捕獲；陽電子放射,next=,doc=r-1-1~1.2:f-15.3#R.~1
+:m RES 1*1 / free# JVEMV6 83#_73:2 / 83. chemistry / topics=物理化学,w=希土類元素；電子親和力,s=~,i=~,other=~,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.94
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1356,7 +1356,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.46 / w=社会的参照；扁桃体,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=~,校注=~ / p.6(「月報」) / w=幸徳秋水；平民社,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=~,校注=~ / p.5(「月報」) / w=,topic=年譜；地理：和歌山県：日高町、牟婁町[むろちょう、他,publisher=~,other=~
 
 
 :m 1-2*2 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.15 / w=覚ベツ[敝+↓魚]城；紀広純；伊治[これはり]城；大領；伊治公[これはりのきみ]アザ[此+↓口]麻呂,topic=~,publisher=吉川弘文館,other=~
@@ -1511,7 +1511,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 
 ###2021年11月8日9:39:16
-=============== memo :misc
+=============== memo :misc, _memo_shuuji
 //template
 //:m / misc / topic=~ / content=~,other=~
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
@@ -1526,8 +1526,21 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=野;賀;横;顧;親;能;無;機;熱;海;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=壊;変;体;質;観;粒;核;反;応;異;
 
+
+
+###2021年11月8日9:39:16
+=============== memo :misc, _memo_misc
+
+
+###2023年1月2日12:38:52
+=============== memo :other, _memo_other
+
+//template
+:m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=七草粥, about=リスト：候補：七草,content=~,other=~,id=~ 
 
 ;
 //2022年6月9日10:06:00
@@ -1911,6 +1924,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=ZNVS / theme=鏡開き / genre=民俗：日本,content=松の内；歳神 / session-number=~ / doc=~,other=~
+
 :m #*# RES / free / res-id=7TK9 / theme=中国：GDP：成長率：過去２１年 / genre=areas:zhongguo,content=~ / session-number=~ / doc=~,other=~
 
 :m #*# RES / free / res-id=ECY0 / theme=韓国：駐留米軍：基地 / genre=areas:hangug,content=~ / session-number=~ / doc=~,other=龍山[ヨンサン
@@ -1921,17 +1936,6 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 
 :m #*# RES / free / res-id=IXNW / theme=韓国：輸出：金額：対GDP / genre=~,content=~ / session-number=~ / doc=~,other=odkrycie+:日本の数字の、2.65倍;日本：17.5%(AD.2021)
 
-:m #*# RES / free / res-id=B2QF / theme=韓国：国防費 / genre=国別調べ,content=~ / session-number=~ / doc=~,other=~ / N+
-
-:m 1*1 RES / free / res-id=2H7S / theme=結晶格子：結晶間の距離 / genre=chimiya:obshshaya,content=~ / session-number=~ / doc=~,other=rev+;found+; / N+
-
-:m #*# RES / free / res-id=BDUU / theme=伊勢暴動 / genre=歴史：日本史,content=時系列、他 / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=YUCJ / theme=相続：預金：お兄さんの名義で預ける：法律事項 / genre=~,content=~ / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=TMZ2 / theme=~ / genre=chemistry:physical-chemistry,content=水素の気体：他の気体分子：速度比 / session-number=~ / doc=~,other=~
-
-
 
 //------ genre
 歴史：日本史
@@ -1939,7 +1943,8 @@ chimiya:obshshaya
 chemistry:physical-chemistry
 areas:hangug
 areas:zhongguo
-
+民俗：日本
+economy:strana
 
 
 ###2022年11月6日10:13:22
@@ -1953,7 +1958,9 @@ areas:zhongguo
 ###2021年9月22日10:19:44
 ========================== :m : 記事読み, article_
 //template
-:m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,other=~
+:m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=~(browser=tor) / media=ptv / theme=イラン：ガソリン：消費量,content=~ / genre=economy:strana / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=Y2YS(browser=yan?) / media=sp.ch / theme=台湾：徴兵期間,content=~,other=~
 
@@ -2412,6 +2419,8 @@ video_shaku
 video_ilban_
 photo_record
 tome
+経過記録
+_memo_other
 article_
 daylog
 res_
@@ -2419,7 +2428,7 @@ _des
 _ske
 jilmun_
 64_
-shuuji
+_memo_shuuji
 video_shi
 memo_shi
 83#
