@@ -166,6 +166,30 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\closing_cakeifm11_20-1_20-2.bat
 uploaded photos --> to HD ]]
 C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 
+2-1)
+// not-yet-files-included
+	steps :
+	1. move file
+		from : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+		to : G:\tmp.20220507_191202
+		
+		batch / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8_move-files_iphone-to-upload-toHD.bat
+	2. upload
+		
+		batch / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-7_start-filezilla.bat
+		
+	3. move files
+		from : G:\tmp.20220507_191202
+		to : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
+		
+		batch / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8.5_move-files_HD-to-iphone-upload-done.bat
+		
+		from : *
+		to : G:\images\2022
+		
+		batch / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
+		
+
 //iphone_upload_done-to-HD
 //sakura C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 
