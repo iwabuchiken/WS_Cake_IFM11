@@ -192,10 +192,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 	
 	4. move files : to HD.images
 		from : *
-		to : G:\images\2022
+		to : G:\images\2023
+		//to : G:\images\2022
 		
 		batch / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 		
+		//sakura C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 
 //iphone_upload_done-to-HD
 //sakura C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
@@ -631,7 +633,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,key=h-2(B),session=hour-~,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,session=hour-~,musescore=~ \\\ p.2-<1>:genre=melody,session=hour-~,musescore=~
 
 
 
@@ -831,7 +833,7 @@ training,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,othe
 //template
 :m Other / 買ったもの / item=~,at=~,for=~,other=~
 
-:m Other / 買ったもの / item=針ピン；石鹸；布（黒色）,at=キャン・ドゥ,for=~,other=~
+:m Other / 買ったもの / item=七味；ボトル（携行用）；クリアケース（中）；色ボールペン,at=キャン・ドゥ,for=~,other=~
 
 
 ###2021年12月11日22:04:31
@@ -1267,7 +1269,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_76:1 / 83. chemistry / topics=物理化学：熱力学：反応速度,w=活性化エネルギー；活性錯体；生成系；原系,s=~,i=~,other=,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.53
+:m RES 2*2 / free# JVEMV6 83#_77:1 / 83. chemistry / topics=物理化学：熱力学：反応速度,w=,s=~,i=~,other=memo+:平衡定数と、順逆反応の速度。関係,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.61
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1394,7 +1396,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.72 / w=ドーパミン,topic=~,publisher=~,other=memo+:ドーパミン、カテコール
 
-:m #*# RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=南方熊楠（この章の著者）,校注=~ / p.90 / w=日高川；日高町,topic=,publisher=~,other=作図：和歌山県：南西部；memo+:「里」。長さの単位
+:m #*# RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=南方熊楠（この章の著者）,校注=~ / p.98 / w=樫井井；阪南市；,topic=,publisher=~,other=作図：大阪府：南西部；
 
 
 :m 1-2*2 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.15 / w=覚ベツ[敝+↓魚]城；紀広純；伊治[これはり]城；大領；伊治公[これはりのきみ]アザ[此+↓口]麻呂,topic=~,publisher=吉川弘文館,other=~
@@ -1564,7 +1566,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=和;歌;高;御;坊;有;田;回;転;町;多;摩;神;奈;単;合;際;成;熟;体;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=基;底;核;基;本;自;由;階;段;
 
 
 
@@ -1739,6 +1741,8 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録：開始、終了
 //template
 :PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
+
+:PHOTO 記録 / location=~ / topic=終了 / for=目薬：津田眼科で処方されたもの / occasion=１本目,other=~
 
 :PHOTO 記録 / location=~ / topic=使い始め：水筒ボトル / for=~ / occasion=~,other=蓋の色：臙脂色[えんじ
 
@@ -1973,21 +1977,11 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=4RF5 / theme=日本：養鶏 / genre=economy:san-eob:chugsan,content=~ / session-number=~ / doc=~,other=sheet+;file+
+
 :m #*# RES / free / res-id=XEXR / theme=~ / genre=jilihag:strany,content=イラン：ケルマン（都市）：神奈川県、川崎市：比較 / session-number=~ / doc=~,other=日本：主要都市：都市間：距離
 
 :m #*# RES / free / res-id=JVR6 / theme=濃度に関する研究 / genre=chemistry:osnovy,content=焼酎に、お湯を加える。結果する濃度、如何 / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=ZNVS / theme=鏡開き / genre=民俗：日本,content=松の内；歳神 / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=7TK9 / theme=中国：GDP：成長率：過去２１年 / genre=areas:zhongguo,content=~ / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=ECY0 / theme=韓国：駐留米軍：基地 / genre=areas:hangug,content=~ / session-number=~ / doc=~,other=龍山[ヨンサン
-
-:m #*# RES / free / res-id=UJOC / theme=数学：代数 / genre=~,content=３乗根 / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=IPDY / theme=地理：「北松浦郡」 / genre=~,content=九州：北西部：松浦市：伊万里市唐津市 / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=IXNW / theme=韓国：輸出：金額：対GDP / genre=~,content=~ / session-number=~ / doc=~,other=odkrycie+:日本の数字の、2.65倍;日本：17.5%(AD.2021)
 
 
 //------ genre_res
@@ -1999,6 +1993,7 @@ areas:hangug
 areas:zhongguo
 areas:rossiya
 民俗：日本
+economy:san-eob:chugsan
 economy:strana
 economy:strana:ekonomika
 jilihag:strany

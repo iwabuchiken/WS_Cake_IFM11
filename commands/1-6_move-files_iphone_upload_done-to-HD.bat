@@ -7,7 +7,8 @@ echo moving image files...
 
 set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
 
-set dpath_dst=G:\images\2022
+set dpath_dst=G:\images\2023
+rem set dpath_dst=G:\images\2022
 
 echo %dpath_source%
 echo %dpath_dst%
