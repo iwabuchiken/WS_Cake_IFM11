@@ -169,30 +169,30 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 2-1)
 // not-yet-files-included
 	steps :
-	0. move file
-		from : C:\WORKS_2\WS\WS_Cake_IFM11\iphone
-		to : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+	0. move file : to --> iphone_to_upload
+		//from : C:\WORKS_2\WS\WS_Cake_IFM11\iphone
+		//to : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 		
 		batch / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8-1_move-files_iphone_to_iphone-to-upload.bat
 	
-	1. move file
-		from : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
-		to : G:\tmp.20220507_191202
+	1. move file : to --> HD.tmp
+		//from : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+		//to : G:\tmp.20220507_191202
 		
 		batch / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8_move-files_iphone-to-upload-toHD.bat
 	2. upload
 		
 		batch / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-7_start-filezilla.bat
 		
-	3. move files
-		from : G:\tmp.20220507_191202
-		to : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
+	3. move files : to --> iphone_upload_done
+		//from : G:\tmp.20220507_191202
+		//to : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
 		
 		batch / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8.5_move-files_HD-to-iphone-upload-done.bat
 	
 	4. move files : to HD.images
-		from : *
-		to : G:\images\2023
+		//from : *
+		//to : G:\images\2023
 		//to : G:\images\2022
 		
 		batch / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
@@ -633,7 +633,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,session=hour-~,musescore=~ \\\ p.2-<1>:genre=melody,session=hour-~,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,session=hour-18,musescore=~
 
 
 
@@ -1040,7 +1040,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,other= / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,session=hour-18,memo==,file-piece-id=~,other= / follow~
 
 :m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
 
@@ -1118,9 +1118,9 @@ regex : ]]
 
 
 //template
-:m / 1*1 / percussion,rythm / session-memo / p.1:content=~,key=~,for=~,from=~,R=~,item=~,hitter=~,pieces=~,genr=pattern-atom,other=~,memo~
+:m / 1*1 / percussion,rythm / session-memo / p.1:content=~,key=~,for=~,from=~,R=~,item=~,hitter=~,pieces=~,genr=pattern-atom,other=~,memo~,video=~
 
-:m / 1*1 / percussion,rythm / session-memo / p.1:content=~,key=~,for=~,from=~,R=~,item=~,hitter=スプーン（小）；ペーパーナイフ,pieces=酒の瓶：ブラックニッカ,genr=pattern-atom,other=~,memo+
+:m / 1*1 / percussion,rythm / session-memo / p.1:content=~,key=~,for=~,from=~,R=~,item=~,hitter=スプーン（小, 1）,pieces=水筒（０．４８L）,genr=pattern-atom,other=~,memo+
 
 :m / #*# / percussion,rythm / session-memo / p.1:item=醤油皿（小皿）:1,hitter=ボールペン：ボール端と反対の端:1-set,genr=pattern-atom,content=num-of-atom:2,other=~
 
@@ -1269,7 +1269,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 2*2 / free# JVEMV6 83#_77:1 / 83. chemistry / topics=物理化学：熱力学：反応速度,w=,s=~,i=~,other=memo+:平衡定数と、順逆反応の速度。関係,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.61
+:m RES #*# / free# JVEMV6 83#_79:1 / 83. chemistry / topics=物理化学：溶液,w=硝酸,s=~,i=~,other=memo+:ベンゼン：溶解度：水,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.27
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1396,7 +1396,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.72 / w=ドーパミン,topic=~,publisher=~,other=memo+:ドーパミン、カテコール
 
-:m #*# RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=南方熊楠（この章の著者）,校注=~ / p.98 / w=樫井井；阪南市；,topic=,publisher=~,other=作図：大阪府：南西部；
+:m #*# RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=南方熊楠；柳宗悦（この章の著者）,校注=~ / p.101;245 / w=曲尺[かねじゃく；小浜市；永平寺町[ちょう,topic=~,publisher=~,other=作地図：福井県：南西部；東部
 
 
 :m 1-2*2 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.15 / w=覚ベツ[敝+↓魚]城；紀広純；伊治[これはり]城；大領；伊治公[これはりのきみ]アザ[此+↓口]麻呂,topic=~,publisher=吉川弘文館,other=~
@@ -1566,7 +1566,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=基;底;核;基;本;自;由;階;段;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=衝;衡;動;機;続;奥;住;保;葉;酸;位;護;
 
 
 
@@ -1742,6 +1742,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
 
+:PHOTO 記録 / location=~ / topic=開始 / for=トイレットペーパー / occasion=~,other=~
+
 :PHOTO 記録 / location=~ / topic=終了 / for=目薬：津田眼科で処方されたもの / occasion=１本目,other=~
 
 :PHOTO 記録 / location=~ / topic=使い始め：水筒ボトル / for=~ / occasion=~,other=蓋の色：臙脂色[えんじ
@@ -1894,6 +1896,8 @@ G:\photo-books_HD\list-of-books.txt
 ======================== :PHOTO 記録:misc
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
 
+:PHOTO 記録 / subject=常設のお供え物 / location=自室 / content=お神酒：お供え物：注ぎ直したところ,for=~,other=~
+
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：２；生姜：１,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2022-12-31_01-16-42_000.jpg
 
 :PHOTO 記録 / subject=年始のお供え物 / location=~ / content=お供え物：備えた場面：経過記録,for=~,other=~
@@ -1976,6 +1980,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 ============================== :m : res:free : res_
 //template
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=793B / theme=明神 / genre=歴史：日本史,content=~ / session-number=~ / doc=~,other=wikiの記事：読む際の、補助
 
 :m #*# RES / free / res-id=4RF5 / theme=日本：養鶏 / genre=economy:san-eob:chugsan,content=~ / session-number=~ / doc=~,other=sheet+;file+
 
@@ -2477,6 +2483,7 @@ video_ilban_
 photo_record
 mysl
 tome
+percussion
 経過記録
 genre_res
 _memo_other
