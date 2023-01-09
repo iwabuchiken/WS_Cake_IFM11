@@ -1269,7 +1269,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES #*# / free# JVEMV6 83#_79:1 / 83. chemistry / topics=物理化学：溶液,w=硝酸,s=~,i=~,other=memo+:ベンゼン：溶解度：水,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.27
+:m RES 1*2 / free# JVEMV6 83#_80:1 / 83. chemistry / topics=物理化学：溶液,w=モル分率,s=~,i=~,other=memo+:ラウールの法則；memo+:ベンゼン。トルエン：比較,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.31
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1566,7 +1566,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=衝;衡;動;機;続;奥;住;保;葉;酸;位;護;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=福;南;井;西;部;雑;経;験;東;保;証;総;合;捕;獲;障;害;
 
 
 
