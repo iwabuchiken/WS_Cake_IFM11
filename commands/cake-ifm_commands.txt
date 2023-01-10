@@ -886,6 +886,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
+:m dessin,sketch / des. object=とろろ葵 / genre=植物：花,source=~,location=~,other=~,memo~,found~,id=U6YE,occasion=~
+
 :m dessin,sketch / des. object=ネジアヤメ / genre=植物：花,source=~,location=~,other=~,memo~,found~,id=FJPP,occasion=~
 
 :m dessin,sketch / des. object=蟹[カニ / genre=動物：爬虫類,source=~,location=~,other=~,memo~,found~,id=U9LF,occasion=~
@@ -1269,7 +1271,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*2 / free# JVEMV6 83#_80:1 / 83. chemistry / topics=物理化学：溶液,w=モル分率,s=~,i=~,other=memo+:ラウールの法則；memo+:ベンゼン。トルエン：比較,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.31
+:m RES 2*2 / free# JVEMV6 83#_80:1 / 83. chemistry / topics=物理化学：溶液,w=活量,s=~,i=~,other=memo+:四塩化炭素；memo+:<本文、解読>,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.35
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1475,6 +1477,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
+:m :? #*# / topic=化学：物質 / content=アセトン。クロロホルム：分子の大きさ。比較すると？ / status=~ / other=~,id=~
+
 :m :? #*# / topic=数学：代数 / content=(ax+by)/(cx+dy) / status=~ / other=~,id=FQBI
 
 :m :? #*# / topic=化学：一酸化炭素 / content=構造式は？ / status=~ / other=~,id=~
@@ -1485,6 +1489,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //------ topics
 化学
+化学：物質
+化学：一酸化炭素
+数学：代数
+
 
 
 
@@ -1566,7 +1574,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=福;南;井;西;部;雑;経;験;東;保;証;総;合;捕;獲;障;害;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=素;親;結;酸;論;蚊;帳;紙;塩;炭;
 
 
 
@@ -1906,8 +1914,8 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / subject=年始のお供え物 / location=~ / content=お供え物の、具：魚の干物：あじ：包装：表面,for=~,other=~
 
-//ペーハー計測
-:PHOTO 記録 / subject=pH調べ（pH測定；計測；ペーハー） / location=自室 / content=焼酎漬け：ニンニク：初回,for=計測値,other=~,activity-id(act-id)=UED8
+//ペーハー計測, ph_
+:PHOTO 記録 / subject=pH調べ（pH測定；計測；ペーハー） / location=自室 / content=焼酎漬け：レモン：初回,for=計測値,other=~,activity-id(act-id)=UED8
 
 :PHOTO 記録 / subject=pH調べ（pH測定；計測；ペーハー） / location=自室 / content=日本酒（「米だけの酒」；VALUE PLUS；２リットル）,for=~,other=~,activity-id(act-id)=UED8
 
@@ -1916,6 +1924,9 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / subject=pH調べ / location=自室 / content=水道水：ペットに取り置いているもの,for=~,other=activity-id(act-id):UED8
 
 :PHOTO 記録 / subject=ｐH計測器：計測部の調整 / location=自室 / content=~,for=~,other=pH;probe
+
+--//ペーハー計測]]
+
 
 :PHOTO 記録 / subject=扇風機：しまう / content=カバーをかけたところ,for=~,other=~
 
@@ -2483,6 +2494,7 @@ video_ilban_
 photo_record
 mysl
 tome
+ph_
 percussion
 経過記録
 genre_res
