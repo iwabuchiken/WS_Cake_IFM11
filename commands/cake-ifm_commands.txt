@@ -1271,7 +1271,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 2*2 / free# JVEMV6 83#_80:1 / 83. chemistry / topics=物理化学：溶液,w=活量,s=~,i=~,other=memo+:四塩化炭素；memo+:<本文、解読>,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.35
+:m RES 2*2 / free# JVEMV6 83#_82:1 / 83. chemistry / topics=物理化学：溶液,w=浸透圧,s=~,i=~,other=memo+:双極子モーメント,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.38
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1398,7 +1398,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.72 / w=ドーパミン,topic=~,publisher=~,other=memo+:ドーパミン、カテコール
 
-:m #*# RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=南方熊楠；柳宗悦（この章の著者）,校注=~ / p.101;245 / w=曲尺[かねじゃく；小浜市；永平寺町[ちょう,topic=~,publisher=~,other=作地図：福井県：南西部；東部
+:m #*# RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=柳宗悦（この章の著者）,校注=~ / p.247 / w=,topic=兼六園,publisher=~,other=作地図：石川県：奥能登；石川県：南部
 
 
 :m 1-2*2 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.15 / w=覚ベツ[敝+↓魚]城；紀広純；伊治[これはり]城；大領；伊治公[これはりのきみ]アザ[此+↓口]麻呂,topic=~,publisher=吉川弘文館,other=~
@@ -1477,6 +1477,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
+:m :? #*# / topic=化学：物理化学 / content=二つの溶液：混合（m1）：元の溶液の、pHを、算定。 / status=~ / other=~,id=6SYR
+
 :m :? #*# / topic=化学：物質 / content=アセトン。クロロホルム：分子の大きさ。比較すると？ / status=~ / other=~,id=~
 
 :m :? #*# / topic=数学：代数 / content=(ax+by)/(cx+dy) / status=~ / other=~,id=FQBI
@@ -1489,6 +1491,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //------ topics
 化学
+化学：物理化学
 化学：物質
 化学：一酸化炭素
 数学：代数
@@ -1574,7 +1577,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=素;親;結;酸;論;蚊;帳;紙;塩;炭;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=数;量;語;類;義;務;溶;媒;質;純;粋;福;溶;媒;質;郡;国;崎;面;積;頭;部;側;腹;路;話;語;鯖;越;前;兼;園;
 
 
 
