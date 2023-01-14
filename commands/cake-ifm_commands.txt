@@ -633,7 +633,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,session=hour-18,musescore=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,session=hour-19,musescore=~,other=N+
 
 
 
@@ -1396,7 +1396,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.86 / w=背側経路；視覚失調；視運動性眼振,topic=~,publisher=~,other=memo+:脳：解剖
+:m #*# RES / JVEMV6 64#206_1_3_reikon / 『日本宗教の複合的構造：霊魂観』 著者=~,校注=~ / p.65 / w=金木町[かねぎ；北津軽郡,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.91 / w=錐体細胞；桿体細胞；,topic=~,publisher=~,other=memo+:眼球：図。名称のリスト,session-id=WOVR
 
 :m 5-6*6 RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=柳宗悦（この章の著者）,校注=~ / p.248 / w=,topic=,publisher=~,other=地図：福島県、金山町[かなやま;sketch+:「いこ」負籠[おいかご?;
 地図：
@@ -1484,7 +1486,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m :? #*# / topic=化学：物質 / content=アセトン。クロロホルム：分子の大きさ。比較すると？ / status=~ / other=~,id=~
 
-:m :? #*# / topic=数学：代数 / content=(ax+by)/(cx+dy) / status=~ / other=~,id=FQBI
+:m :? #*# / topic=数学：代数,math / content=ガウス積分：半径rを、一方の式とする。そんな積分方程式、あるか？；ガウス関数：integrandの式。変えると、どうなる？ / status=~ / other=~,id=S1G3
 
 :m :? #*# / topic=化学：一酸化炭素 / content=構造式は？ / status=~ / other=~,id=~
 
@@ -1580,7 +1582,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=濃;厚;液;浸;透;隔;壁;硫;鉛;変;富;役;所;黄;標;準;還;元;位;綱;粛;衛;道;長;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=溝;金;沢;鶴;取;手;帯;来;木;様;節;国;美;脳;楽;韓;
 
 
 
@@ -1998,7 +2000,9 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
 
-:m #*# RES / free / res-id=3H9N / theme=log(-1) / genre=math:algebra,content=log(-1)：性質 / session-number=~ / doc=~,other=q+:直角三角形：直交する２つの辺：πとπ^2
+:m #*# RES / free / res-id=5HE5 / theme=四元数 / genre=math:algebra,content=四元数、任意の１つ。自乗。数式：整理 / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=3H9N / theme=log(-1)：性質 / genre=math:algebra,content=(e^(iπ)=-1);(ln(-1)∈ℂ) / session-number=~ / doc=~,other=N+;proof+:ln(-1)という数が、複素数であること
 
 :m #*# RES / free / res-id=793B / theme=明神 / genre=歴史：日本史,content=~ / session-number=~ / doc=~,other=wikiの記事：読む際の、補助
 
