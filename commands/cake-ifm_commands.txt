@@ -633,7 +633,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,session=hour-19,musescore=~,other=N+
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,session=hour-18,musescore=~,other=~,key=h-4(Ef)
 
 
 
@@ -917,6 +917,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja / action activity / やること / genre=XXX / content=XXX
 
+:m :haja / action activity / やること / genre=焼酎漬け / content=日本酒：混合の要素。その一つに。
+
 :m :haja / action activity / やること / genre=mandeunda:generalny / content=家を作りたい：茅葺き、土壁
 
 
@@ -965,6 +967,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,other=~ / lang=ja
 
+:m :th,mysl / topic=石笛[いわぶえ？ / content=「〇〇遺跡出土の石笛」：こういうものを打っちゃって、バッハだ、ベートベンだ。どういうこと？,other=~ / lang=ja
+
 :m :th,mysl / topic=音楽について / content=「癒し」ではなく、「充電」,other=~ / lang=ja
 
 :m :th,mysl / topic=倫理 / content=自分ができないこと。を、人に求める。できない。,other=~ / lang=ja
@@ -973,19 +977,6 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m :th / topic=和田さんの件で、警察署へ文書を提出しようとすることについて、お母さんが「拘わらない方が」と発言したことに関して：その発言への批評 / content=,other=~ / lang=ja
 
-:m :th / topic=理解したこと：語句の意味について：近接語句との相違 / content=「畏れる[おそ」「畏まる[かしこ」「慎む」,other=~ / lang=ja
-
-:m :th / topic=相続：預金：一定期間、一箇所に置いておく / content=今回のような条件のもと：至極まっとうな対処法か（i.e. 特に思考を凝らしたもの、ではない、の意）,other=related:res-id=~ / lang=ja
-
-:m :th / topic=相続：預金：誰に何を分けるか / content=お兄さんの配分割合：これまで、お父さんの支出を監督してくれていた分,other=related:res-id=YUCJ / lang=ja
-
-:m :th / topic=思想：音楽 / content=音楽を射影したもの。それが、現実世界。技術も / lang=ja
-
-:m :th / topic=思想 / content=「思想の力」 / lang=ja
-
-
-//2022年6月14日10:10:01
-:m :th / topic=本を読んだ感想：矢内原、『講義 Ⅷ』、p.591 / content=おれは、お宅が「天国」とやらに入るための、ネタじゃん。 / lang=ja
 
 
 ###2022年8月4日11:50:38
@@ -1271,7 +1262,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_84:1 / 83. chemistry / topics=物理化学：電気化学,w=標準還元電位,s=~,i=~,other=equation:エンタルピー、起電力；calc+,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.71
+:m RES 1*1 / free# JVEMV6 83#_85:1 / 83. chemistry / topics=物理化学：電気化学,w=自由エンタルピー；エントロピー；(ΔG=ΔH - TΔS),s=~,i=~,other=,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.72
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1379,13 +1370,13 @@ sakura C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_83_plastics.dat
 
 
 ###2021年9月21日10:07:46
-======== memo : physics
+======== memo : physics, 76_
 
 :m RES #*# / free# JVEMV6 76#_XX(T-XX) / 76. physics / 
 w=~,topics=~,other=~,s=~,i=~,doc=
 
 
-:m RES 1*3 / free# JVEMV6 76#_60:1 / 76. physics / w=(ψ=Ae^((2πi/h)(px-Et))),topics=シュレーディンガー方程式,other=calc+,s=~,i=~,doc=r-4-1~3
+:m RES 1*1 / free# JVEMV6 76#_63:1 / 76. physics / w=衝突試験,topics=,other=,s=~,i=~,doc=r-2-9~2.1:『計算固体力学』
 
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
@@ -1406,9 +1397,9 @@ sketch+;
 
 :m 1-2*2 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.15 / w=覚ベツ[敝+↓魚]城；紀広純；伊治[これはり]城；大領；伊治公[これはりのきみ]アザ[此+↓口]麻呂,topic=~,publisher=吉川弘文館,other=~
 
-:m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.20 / w=~,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#67_2_isei / 『論語 為政』 著者=~,校注=~ / p.57 / w=陽虎；定公,topic=年表：魯国：定公、哀公,publisher=明治書院,other=~
+:m #*# RES / JVEMV6 64#67_3_hachiitsu / 『論語 八佾』 著者=~,校注=~ / p.61 / w=桓公；三桓；,topic=,publisher=明治書院,other=~
 
 
 
@@ -1582,7 +1573,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=溝;金;沢;鶴;取;手;帯;来;木;様;節;国;美;脳;楽;韓;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=語;句;積;徴;運;動;話;書;害;料;理;段;落;階;進;建;築;
 
 
 
@@ -1722,6 +1713,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『微粒子から探る物性七変化』 / 著者=前野昌弘 / 途中 ここまで（今回は、読まなかった）
+
+:bookmemo / 読んだ本 / 『もの忘れの脳科学』 / 著者=苧阪満里子 / 途中 ここまで（未記録）
 
 :bookmemo / 読んだ本 / 『発達障害』 / 著者=岩波明 / 途中 ここまで
 
@@ -2502,6 +2497,7 @@ video:sha	video:shi	64#	shaku	156_2	memo_shaku	towa:memo	80#	81#	A1~1.1.7,1.1.9	
 //------ main
 記事読み
 コレポン
+読んだ本
 memo_shaku
 video_shaku
 video_ilban_
@@ -2520,6 +2516,7 @@ res_
 _des
 _ske
 jilmun_
+76_
 64_
 _memo_shuuji
 video_shi
