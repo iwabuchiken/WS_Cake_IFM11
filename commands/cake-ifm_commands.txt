@@ -633,7 +633,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,session=hour-18,musescore=~,other=~,key=h-4(Ef)
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,session=hour-18,key=~ \\\ p.2-<1>:genre=melody:continue-from:page-1,session=hour-18,key=~
 
 
 
@@ -1391,7 +1391,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.91 / w=錐体細胞；桿体細胞；,topic=~,publisher=~,other=memo+:眼球：図。名称のリスト,session-id=WOVR
 
-:m 5-6*6 RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=柳宗悦（この章の著者）,校注=~ / p.248 / w=,topic=,publisher=~,other=地図：福島県、金山町[かなやま;sketch+:「いこ」負籠[おいかご?;
+:m 1*1 RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=柳宗悦（この章の著者）,校注=~ / p.248 / w=山中温泉；芙蓉紋,topic=,session-id=7HCT,publisher=~,other=地図+：加賀市;sketch+:芙蓉紋
 地図：
 sketch+;
 
@@ -1995,6 +1995,10 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=CO95 / theme=~ / genre=economy:strana,content=北京市：GDP；日本：年収：中央値；中国の経済成長：予測 / session-number=~ / doc=~,other=article:yandex:sp.ch
+
+:m #*# RES / free / res-id=88JD / theme= / genre=jili:セルビア,content=周辺国：一覧；距離のリスト：東京～ソウル、他 / session-number=~ / doc=~,other=article:yandex;sp.ch
+
 :m #*# RES / free / res-id=5HE5 / theme=四元数 / genre=math:algebra,content=四元数、任意の１つ。自乗。数式：整理 / session-number=~ / doc=~,other=~
 
 :m #*# RES / free / res-id=3H9N / theme=log(-1)：性質 / genre=math:algebra,content=(e^(iπ)=-1);(ln(-1)∈ℂ) / session-number=~ / doc=~,other=N+;proof+:ln(-1)という数が、複素数であること
@@ -2009,21 +2013,25 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 
 
 //------ genre_res
-歴史：日本史
-chimiya:obshshaya
+areas:hangug
+areas:rossiya
+areas:zhongguo
 chemistry:osnovy
 chemistry:physical-chemistry
-areas:hangug
-areas:zhongguo
-areas:rossiya
-民俗：日本
+chimiya:obshshaya
 economy:san-eob:chugsan
 economy:strana
 economy:strana:ekonomika
+jili
 jilihag:strany
 mandeunda:generalny
 math
 math:algebra
+歴史：日本史
+民俗：日本
+
+
+
 
 
 ###2022年11月6日10:13:22
