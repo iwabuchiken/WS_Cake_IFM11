@@ -633,7 +633,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,session=hour-18,key=~ \\\ p.2-<1>:genre=melody:continue-from:page-1,session=hour-18,key=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody,session=hour-18,key=~ \\\ p.2-<1>:genre=melody:continue-from:page-1,session=hour-18,key=~ \\\ p.3-<1>:genre=melody,session=hour-18,key=h-4(Ef)
 
 
 
@@ -962,10 +962,13 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 
 ###2021年6月28日10:15:01
-============================== memo : :th,mysl
-//
+============================== memo : :th,mysl_
+//th_topics
+//template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,other=~ / lang=ja
+
+:m :th,mysl / topic=人生の指針 / content=otava-yoの"любишь ли ты":こういうものに、殉じよう,other=~ / lang=ja
 
 :m :th,mysl / topic=石笛[いわぶえ？ / content=「〇〇遺跡出土の石笛」：こういうものを打っちゃって、バッハだ、ベートベンだ。どういうこと？,other=~ / lang=ja
 
@@ -976,6 +979,11 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 :m :th,mysl / topic=心得 / content=何を目指すか：何を目指せるか,other=~ / lang=ja
 
 :m :th / topic=和田さんの件で、警察署へ文書を提出しようとすることについて、お母さんが「拘わらない方が」と発言したことに関して：その発言への批評 / content=,other=~ / lang=ja
+
+//th_topics
+mysl
+やりたいこと
+人生の指針
 
 
 
@@ -1033,7 +1041,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-23,memo==,file-piece-id=~,other= / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-02,memo=~,file-piece-id=~,other= / follow~
 
 :m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
 
@@ -1262,7 +1270,9 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_85:1 / 83. chemistry / topics=物理化学：電気化学,w=自由エンタルピー；エントロピー；(ΔG=ΔH - TΔS),s=~,i=~,other=,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.72
+:m RES 1*1 / free# JVEMV6 83#_86:2 / 83. chemistry / topics=無機質,w=亜鉛華；タルク；カオリン；景徳鎮,s=~,i=~,other=,next=,doc=r-1-1~1.4:『化学雑話』:p.84
+
+:m RES 1*1 / free# JVEMV6 83#_86:2 / 83. chemistry / topics=物理化学：電気化学,w=オキソニウムイオン；ヒドロニウム；イオン積,s=~,i=~,other=,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.84
 
 
 :m RES #*# / free# JVEMV6 83#_2:1 / 83. chemistry / topics=~,w=不斉炭素；乳酸,s=~,i=~,other=~,doc=f-1#R.~1-0:r-1-1~1.1
@@ -1391,8 +1401,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.91 / w=錐体細胞；桿体細胞；,topic=~,publisher=~,other=memo+:眼球：図。名称のリスト,session-id=WOVR
 
-:m 1*1 RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=柳宗悦（この章の著者）,校注=~ / p.248 / w=山中温泉；芙蓉紋,topic=,session-id=7HCT,publisher=~,other=地図+：加賀市;sketch+:芙蓉紋
-地図：
+:m 1*1 RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=柳宗悦（この章の著者）,校注=~ / p.248 / w=瓢箪；ほかい[行器；中能登町,topic=,session-id=,publisher=~,other=sketch+:轆轤の上で、陶土に指を当てている；sketch+:「ほかい」；地図+：中野都地域：石川県
+地図+：
 sketch+;
 
 :m 1-2*2 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.15 / w=覚ベツ[敝+↓魚]城；紀広純；伊治[これはり]城；大領；伊治公[これはりのきみ]アザ[此+↓口]麻呂,topic=~,publisher=吉川弘文館,other=~
@@ -1573,7 +1583,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=語;句;積;徴;運;動;話;書;害;料;理;段;落;階;進;建;築;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=試;験;突;然;温;泉;溶r;積r;液r;発r;晶r;加;賀;聖;寺;直r;線;野r;菜;黄r;色;茶;華;
 
 
 
@@ -1995,21 +2005,19 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=UV5V / theme=~ / genre=areas:zhongguo:ekonomika,content=中国：米：生産高 / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=DGVP / theme=~ / genre=areas:zhongguo:economika:makro,content=可処分所得：日本との比較 / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=GLR2 / theme=中国共産党：「４つの基本原則」 / genre=areas:zhongguo,content=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=Y1OP / theme=~ / genre=bagmulhag:oboshch,content=くわい：スケッチ / session-number=~ / doc=~,other=sketch+:くわい
+
+
+:m #*# RES / free / res-id=679B / theme= / genre=economy:strana:cuba,content=米。消費量。日本との比較 / session-number=PWTY / doc=~,other=conc+;chislo+:６０万トン;第１回目は、txtファイルのみ（C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_72.[read].log）
+
 :m #*# RES / free / res-id=CO95 / theme=~ / genre=economy:strana,content=北京市：GDP；日本：年収：中央値；中国の経済成長：予測 / session-number=~ / doc=~,other=article:yandex:sp.ch
 
-:m #*# RES / free / res-id=88JD / theme= / genre=jili:セルビア,content=周辺国：一覧；距離のリスト：東京～ソウル、他 / session-number=~ / doc=~,other=article:yandex;sp.ch
-
-:m #*# RES / free / res-id=5HE5 / theme=四元数 / genre=math:algebra,content=四元数、任意の１つ。自乗。数式：整理 / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=3H9N / theme=log(-1)：性質 / genre=math:algebra,content=(e^(iπ)=-1);(ln(-1)∈ℂ) / session-number=~ / doc=~,other=N+;proof+:ln(-1)という数が、複素数であること
-
-:m #*# RES / free / res-id=793B / theme=明神 / genre=歴史：日本史,content=~ / session-number=~ / doc=~,other=wikiの記事：読む際の、補助
-
-:m #*# RES / free / res-id=4RF5 / theme=日本：養鶏 / genre=economy:san-eob:chugsan,content=~ / session-number=~ / doc=~,other=sheet+;file+
-
-:m #*# RES / free / res-id=XEXR / theme=~ / genre=jilihag:strany,content=イラン：ケルマン（都市）：神奈川県、川崎市：比較 / session-number=~ / doc=~,other=日本：主要都市：都市間：距離
-
-:m #*# RES / free / res-id=JVR6 / theme=濃度に関する研究 / genre=chemistry:osnovy,content=焼酎に、お湯を加える。結果する濃度、如何 / session-number=~ / doc=~,other=~
 
 
 //------ genre_res
@@ -2029,7 +2037,7 @@ math
 math:algebra
 歴史：日本史
 民俗：日本
-
+bagmulhag:oboshch
 
 
 
@@ -2510,7 +2518,7 @@ memo_shaku
 video_shaku
 video_ilban_
 photo_record
-mysl
+mysl_
 tome
 
 ph_
