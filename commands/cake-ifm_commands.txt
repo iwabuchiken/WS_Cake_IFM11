@@ -883,8 +883,15 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 ============================== memo : sketch, _des, _ske
 ###2021年6月8日8:13:29
+//genre_names
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+
+:m dessin,sketch / des. object=垂木 / genre=構築物：家：小屋組み,source=~,location=~,other=~,memo~,found~,id=0CIE,occasion=books:64#67_3:八佾
+
+:m dessin,sketch / des. object=手＋弓 / genre=人間：人体：道具,source=~,location=~,other=~,memo~,found~,id=D9BN,occasion=books:64#67_3:八佾
+
+:m dessin,sketch / des. object=ブタ / genre=動物：哺乳類,source=~,location=~,other=~,memo~,found~,id=BQGO[omikron-o,occasion=~
 
 :m dessin,sketch / des. object=とろろ葵 / genre=植物：花,source=~,location=~,other=~,memo~,found~,id=U6YE,occasion=~
 
@@ -899,8 +906,9 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 :m dessin,sketch / des. object=鵲[カササギ / genre=動物：鳥,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
 
-//------- genre names
+//------- genre_names / template
 動物
+動物：哺乳類
 動物：鳥
 動物：爬虫類
 動物：両生類
@@ -909,7 +917,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 植物：樹木
 植物：花
 器具
-
+人間：人体：道具
+構築物：家
 
 ###2021年6月18日8:55:14
 ============================== memo : lets,haja
@@ -1401,7 +1410,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#206_1_3_reikon / 『日本宗教の複合的構造：霊魂観』 著者=~,校注=~ / p.65 / w=金木町[かねぎ；北津軽郡,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.105 / w=頭頂間溝,topic=~,publisher=~,other=sketch+:大脳：頭頂間溝～個々の回、溝（e.g.中心溝）
+:m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.112 / w=頭頂間溝,topic=~,publisher=~,other=sketch+:大脳：腹側経路
 
 :m 1*1 RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=柳宗悦（この章の著者）,校注=~ / p.248 / w=瓢箪；ほかい[行器；中能登町,topic=,session-id=,publisher=~,other=sketch+:轆轤の上で、陶土に指を当てている；sketch+:「ほかい」；地図+：中野都地域：石川県
 地図+：
@@ -1601,19 +1610,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
 
+:m #*# / memo:other(m:other) / topic=調理：すいとん, about=各材料：使用量,content=~,other=~,id=~ 
+
 :m #*# / memo:other(m:other) / topic=お父さん：遺品整理、関連, about=雑誌：購読：停止の要請：メールを出した,content=~,other=購読先：fujisan,id=~ 
 
 :m #*# / memo:other(m:other) / topic=七草粥, about=リスト：候補：七草,content=~,other=~,id=~ 
 
-;
-//2022年6月9日10:06:00
-:m #*# / memo:other(m:other) / topic=お父さんの事故のこと, about=病院にて：看護師の人からの話し（page-1）；警察官の人からの話し,content=~,other=~,id=~ 
-
-//2022年6月9日10:06:00
-:m #*# / memo:other(m:other) / topic=祈りの文句, about=~,content=「一日、守ってください」,other=~,id=~ 
-
-//2022年6月6日10:29:03
-:m #*# / memo:other(m:other) / topic=ペガスス：予定, about=~,content=７月２１日木曜、２２日金曜,other=~,id=~ 
 
 ###2022年7月20日9:58:44
 //=============== 年金
@@ -2011,26 +2013,14 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=2ZY6 / theme=ロシア、パキスタン：天然ガス：LNG：輸出 / genre=economy:strana,content=~ / session-number=~ / doc=~,other=日本との比較||numbers=2.5倍：パキスタンが２０２０年に輸入したLNG量の；28.4%:日本が２０２０年に輸入したLNG量の
+
 :m #*# RES / free / res-id=FZ5D / theme=多項式。自乗の、やり方。積のやり方 / genre=math:algebra,content=~ / session-number=~ / doc=~,other=N+:別のres項目(q+);q+:行列式の、判別式：一般式は？（n x n, n>2）
 
 
 :m #*# RES / free / res-id=3H9N / theme=log(-1)：性質 / genre=math:algebra,content=(i^i=e^(-1/2*π)) / session-number=~ / doc=~,other=q+:複素数の、べき乗：どんな意味か？；q+:<open>:自身は、実数。自身の数で、自身をべき乗すると、複素数(x^x)（純複素数：a+bi:b≠0）
 
 :m #*# RES / free / res-id=MGW2 / theme=黒竜江省～ロシア：輸出入額 / genre=economy:strana:rossiya~zhongguo,content=~ / session-number=~ / doc=~,other=日露間と：比較
-
-:m #*# RES / free / res-id=UV5V / theme=~ / genre=areas:zhongguo:ekonomika,content=中国：米：生産高 / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=DGVP / theme=~ / genre=areas:zhongguo:economika:makro,content=可処分所得：日本との比較 / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=GLR2 / theme=中国共産党：「４つの基本原則」 / genre=areas:zhongguo,content=~ / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=Y1OP / theme=~ / genre=bagmulhag:oboshch,content=くわい：スケッチ / session-number=~ / doc=~,other=sketch+:くわい
-
-
-:m #*# RES / free / res-id=679B / theme= / genre=economy:strana:cuba,content=米。消費量。日本との比較 / session-number=PWTY / doc=~,other=conc+;chislo+:６０万トン;第１回目は、txtファイルのみ（C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_72.[read].log）
-
-:m #*# RES / free / res-id=CO95 / theme=~ / genre=economy:strana,content=北京市：GDP；日本：年収：中央値；中国の経済成長：予測 / session-number=~ / doc=~,other=article:yandex:sp.ch
-
 
 
 //------ genre_res
