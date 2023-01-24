@@ -633,7 +633,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=log,session=hour-19,key=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,session=hour-18,key=h-4(Ef) \\\ p.2-<1>:genre=melody:continue-from:page-1,session=hour-18,key=~
 
 
 
@@ -1281,7 +1281,7 @@ regex :
 
 :m RES 1*1 / free# JVEMV6 83#_87:1 / 83. chemistry / topics=無機質,w=亜鉛華；タルク；カオリン；景徳鎮,s=~,i=~,other=,next=,doc=r-1-1~1.4:『化学雑話』:p.84
 
-:m RES 1*1 / free# JVEMV6 83#_90:1 / 83. chemistry / topics=コロイド,w=デンプン；グルコース；フラノース；,s=~,i=~,other=,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.79:L.~1-~3
+:m RES 1*1 / free# JVEMV6 83#_91:1 / 83. chemistry / topics=コロイド,w=ナイロン；,s=~,i=~,other=memo+:コロイドの大きさ：比較：大腸菌,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.79:L.~1-~2
 
 :m RES 1*1 / free# JVEMV6 83#_86:2 / 83. chemistry / topics=物理化学：電気化学,w=オキソニウムイオン；ヒドロニウム；イオン積,s=~,i=~,other=,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.84
 
@@ -1600,7 +1600,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=髪;状;態;金;木;町;銃;創;傷;基;類;魚;最;多;熟;歳;様;数;症;候;群;離;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=場;権;限;興;奮;欝;草;腸;菌;
 
 
 
@@ -1624,8 +1624,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2022年7月20日9:58:44
 //=============== 年金
 =============== 年金；小遣い
+:m other / お母さんから　お金もらう / amount=3万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円,for=2022-05
+合計は、本来は、1.5+3=4.5. 半端に
 :m other / お母さんから　お金もらう / amount=3万円 / topic=月々の小遣い / total-amount=２回分：1.5x2=３万円,for=2022-03~04
-
+本来は、1.5+3=4.5. 半端になるので、４月も１．５。合計、1.5+1.5=3.
 :m 1*1 / memo:other(m:other) / topic=年金：免除の件, about=免除申請：お母さんに、お金を出してもらえないか、尋ねる,content=~,other=~,file-id=2022-07-17_17-37-22_000.jpg
 
 :m other / お母さんから　お金もらう / amount=５万円 / topic=月々の小遣い / total-amount=２回分：1.5x2=３万円,for=年金払込：追加：一ヶ月分：１万６千円；月々の小遣い：当面、１万円；残りの２万円：使途、不明：口座の残高、ジブラルタ支払いのためには、現状、５万円、不足。
@@ -1682,7 +1684,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :m 記録 / 身体 / ケガ / loc=~,cause=~,loc-incident=~,id=~,phase=~,apparatus=~,injury=~,treatment=~,other=~
 
-:m 記録 / 身体 / ケガ / loc=右足：踵,cause=乾燥か,loc-incident=~,id=~,phase=~,apparatus=~,injury=皮膚：表面：割れている,treatment=焼酎漬け（ディル）、指で塗布。絆創膏の、通気の綿の部分、ワセリンを塗布。薄く。の、バンドエイド、貼付。,other=創傷の状態：痛みを自覚したのは、３－４日ほど前か。そのときは、痛部の、皮膚の表面、赤みを帯びている。５ミリ少しか、半径。
+:m 記録 / 身体 / ケガ / loc=右足：踵,cause=乾燥か,loc-incident=~,id=2023-01-22_23-36-32_000.jpg,phase=~,apparatus=~,injury=皮膚：表面：割れている,treatment=焼酎漬け（ディル）、指で塗布。絆創膏の、通気の綿の部分、ワセリンを塗布。薄く。の、バンドエイド、貼付。,other=手当て：継続中
 
 :m 記録 / 身体 / ケガ / loc=胸部：左側：鎖骨下,cause=不詳,loc-incident=~,id=~,phase=~,apparatus=~,injury=皮膚が破れている,other=treatment:ワセリン、塗布；絆創膏は、しない；前日夜、同じ手当、１回目
 
@@ -2019,7 +2021,7 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
-:m 2*2 RES / free / res-id=SF7W / theme=数学：代数：四元数 / genre=代数？,content=「共役」にあたる数,w=~ / session-number=~ / doc=~,other=res-id:5HE5に関連して；q+:四元数と、いずかの四元基数、i、k、j。との、積。交換則、あるか / N+
+:m 1*1 RES / free / res-id=SF7W / theme=数学：代数：四元数 / genre=代数？,content=「共役」：(A*i;i*A;A∈{四元数}),w=~ / session-number=~ / doc=~,other=res-id:5HE5に関連して； / N+
 
 :m #*# RES / free / res-id=V2LQ:VL68 / theme=比較：ホルムアルデヒド、アセトアルデヒド / genre=chimiya:obshshaya,content=~,w=~ / session-number=~ / doc=~,other=V2LQ-->'miscelaneous'
 
