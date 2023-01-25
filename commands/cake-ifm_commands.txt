@@ -633,7 +633,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,session=hour-18,key=h-4(Ef) \\\ p.2-<1>:genre=melody:continue-from:page-1,session=hour-18,key=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,session=hour-18,key=~,tempo=ゆっくり
 
 
 
@@ -1007,6 +1007,8 @@ mysl
 ============================== memo : 文書：手順
 //template
 :m other / 記録　文書：手順 / subject=~,content=~,other=
+
+:m other / 記録　文書：手順 / subject=調理：菓子作り,content='玄米焼き餅'（自ら命名）,other=
 
 :m other / 記録　文書：手順 / subject=ｐH測定；ペーハー,content=やることリスト：用意～実行～片付け,other=
 
@@ -1412,7 +1414,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64/_1_3_reikon / 『日本宗教の複合的構造：霊魂観』 著者=~,校注=~ / p.67 / w=車力村；金木町[かなぎまち；西津軽郡；小田川；喜良市[きらいち；地蔵；念仏講：「センダク」；カネッコタタキ,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.113 / w=紡錘状回顔領域,topic=~,publisher=~,other=sketch+:大脳：紡錘状回；大脳の、内側
+:m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.141 / w=物体失認,topic=~,publisher=~,other=sketch+:大脳辺縁系~基底核
 
 :m 1*1 RES / JVEMV6 64#228_minzoku_sisoo / 『現代日本思想大系　第３０巻　民俗の思想』 著者=柳宗悦（この章の著者）,校注=~ / p.248 / w=瓢箪；ほかい[行器；中能登町,topic=,session-id=,publisher=~,other=sketch+:轆轤の上で、陶土に指を当てている；sketch+:「ほかい」；地図+：中野都地域：石川県
 地図+：
@@ -1480,6 +1482,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome / (lang=ja) / topic=~ / content=~
 
+:tome / (lang=ja) / topic=物事：やり方。進め方 / content=四元数のbadanieでやっていること、見出しつつあること。を、お手本に：「立ち現れ」emerging,「めぐり合わせ」cerendipity
+
 :tome / (lang=ja) / topic=何をやるか / content=何が金になるか、事前には、分からない
 
 :tome / (lang=ja) / topic=知恵の言葉 / content=神様からの伝言を聞き取れない：教父：こねくりで満たす
@@ -1525,6 +1529,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年10月1日11:02:40
 =============== memo : :? / math
 //template
+:m :? jilmun #*# / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m :? jilmun #*# / topic=四元数 / content=四元数の、「基数」たち（1,i,j,k）：群か？ / status=~ / other=~,id=F4P3
+
 :m :? jilmun #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
 :m jilmun #*# / topic=物理：量子力学 / content=粒子：ブラックホールに引かれるとき / status=~ / other=~,id=NPGE
@@ -1600,7 +1608,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=場;権;限;興;奮;欝;草;腸;菌;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=論;語;話;警;察;疑;惑;盗;意;識;確;率;獲;得;感;覚;音;声;
 
 
 
@@ -2021,21 +2029,15 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
-:m 1*1 RES / free / res-id=SF7W / theme=数学：代数：四元数 / genre=代数？,content=「共役」：(A*i;i*A;A∈{四元数}),w=~ / session-number=~ / doc=~,other=res-id:5HE5に関連して； / N+
+:m #*# RES / free / res-id=~ / theme=三角関数：(sin+cos)^2:の、上限、下限は？；「サインコサイン三角形」：∠Θの、対辺の、２つの頂点：どんな軌跡、描くか？；円：面積：積分で求める / genre=math:algebra,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=SF7W / theme=四元数 / genre=math:algebra,content=(iA ili Ai);四元数：ベクトル表記,w= / session-number=~ / doc=~,other=~
+
+:m 1*1 RES / free / res-id=SF7W / theme=数学：代数：四元数 / genre=代数？,content=「共役」：(A*i;i*A;A∈{四元数}),w=~ / session-number=~ / doc=~,other=res-id:5HE5に関連して； / N~
 
 :m #*# RES / free / res-id=V2LQ:VL68 / theme=比較：ホルムアルデヒド、アセトアルデヒド / genre=chimiya:obshshaya,content=~,w=~ / session-number=~ / doc=~,other=V2LQ-->'miscelaneous'
 
 :m #*# RES / free / res-id=BOD3 / theme=スケトウダラ / genre=~,content=~,w=介党鱈； / session-number=~ / doc=~,other=sketch+
-
-:m #*# RES / free / res-id=MXMU / theme=銃創：治療法 / genre=medical:treatment:銃創,content=~,w=創傷；創口[そうこう / session-number=~ / doc=~,other=file-memo+
-
-:m #*# RES / free / res-id=DG98 / theme=血流：ペーハー / genre=medical:obshchaya,content=対数：個々の数値；対数：定義；対数：主な値。対応する実数；対数：(log_10(0.05)=12.2%),w=真数 / session-number=~ / doc=~,other=q+;memo+
-
-:m #*# RES / free / res-id=MNM0 / theme=~ / genre=jili:strany:ロシア：極東地域,content=行政区域？、４つ,w= / session-number=~ / doc=~,other=地図+
-
-:m #*# RES / free / res-id=~ / theme=ロシア：地理：西部 / genre=jili:strany,content=管区（округ） / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=2ZY6 / theme=ロシア、パキスタン：天然ガス：LNG：輸出 / genre=economy:strana,content=~ / session-number=~ / doc=~,other=日本との比較||numbers=2.5倍：パキスタンが２０２０年に輸入したLNG量の；28.4%:日本が２０２０年に輸入したLNG量の
 
 
 
@@ -2077,19 +2079,14 @@ medical:treatment
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~ / genre=~ / other=~
 
+:m #*# RES / free# S87DP9 記事読み / id=I3JY(browser=tor) / media=yahoo / theme=事件：強盗事件,content=詳細事項 / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=M5NK(browser=tor) / media=ptv / theme=イラン：原油：収入,content=２０２３年：予想：27-billion-USD；日本：原油：輸入：金額；日本：原油：輸入元；イラン：GDP / genre=economy:strana:ekonomika / other=bookmark+;file+
 
-:m #*# RES / free# S87DP9 記事読み / id=HO0N(browser=yan) / media=sp.ch / theme=~,content=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=~(browser=tor) / media=ptv / theme=イラン：ガソリン：消費量,content=~ / genre=economy:strana / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=Y2YS(browser=yan?) / media=sp.ch / theme=台湾：徴兵期間,content=~,other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=MU5Y(browser=tor) / media=ya / theme=災害：火事：墨田区,content=~,other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=トルコ：天然ガス：推定量,content=~,other=~
-
-
+//------------ article_genre
+事件
+国別：イラン
+国別：日本
 
 
 
