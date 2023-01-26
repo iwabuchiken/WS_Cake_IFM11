@@ -169,28 +169,30 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 2-1)
 // not-yet-files-included
 	steps :
-	0. move file : to --> iphone_to_upload
+
+	0 ------- move file : to --> iphone_to_upload
 		//from : C:\WORKS_2\WS\WS_Cake_IFM11\iphone
 		//to : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 		
 		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8-1_move-files_iphone_to_iphone-to-upload.bat
 	
-	1. move file : to --> HD.tmp
+	1 ------- move file : to --> HD.tmp
 		//from : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 		//to : G:\tmp.20220507_191202
 		
 		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8_move-files_iphone-to-upload-toHD.bat
-	2. upload
+	
+	2 ------- upload
 		
 		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-7_start-filezilla.bat
 		
-	3. move files : to --> iphone_upload_done
+	3 ------- move files : to --> iphone_upload_done
 		//from : G:\tmp.20220507_191202
 		//to : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
 		
 		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8.5_move-files_HD-to-iphone-upload-done.bat
 	
-	4. move files : to HD.images
+	4 ------- move files : to HD.images
 		//from : *
 		//to : G:\images\2023
 		//to : G:\images\2022
@@ -1283,7 +1285,7 @@ regex :
 
 :m RES 1*1 / free# JVEMV6 83#_87:1 / 83. chemistry / topics=無機質,w=亜鉛華；タルク；カオリン；景徳鎮,s=~,i=~,other=,next=,doc=r-1-1~1.4:『化学雑話』:p.84
 
-:m RES 1*1 / free# JVEMV6 83#_91:1 / 83. chemistry / topics=コロイド,w=ナイロン；,s=~,i=~,other=memo+:コロイドの大きさ：比較：大腸菌,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.79:L.~1-~2
+:m RES 1*1 / free# JVEMV6 83#_92:1 / 83. chemistry / topics=コロイド,w=シリカゲル；寒天；,s=~,i=~,other=memo+立方体：分割：表面積,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.82:L.
 
 :m RES 1*1 / free# JVEMV6 83#_86:2 / 83. chemistry / topics=物理化学：電気化学,w=オキソニウムイオン；ヒドロニウム；イオン積,s=~,i=~,other=,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.84
 
@@ -1412,7 +1414,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#126.02_mooshi:尽心下 / 『孟子』 著者=~,校注=~ / p.508 / w=洋棗[ようそう,topic=~,other=sketch+:ナツメ；sketch+:膾[なます（ユッケのスケッチ）
 
-:m #*# RES / JVEMV6 64/_1_3_reikon / 『日本宗教の複合的構造：霊魂観』 著者=~,校注=~ / p.67 / w=車力村；金木町[かなぎまち；西津軽郡；小田川；喜良市[きらいち；地蔵；念仏講：「センダク」；カネッコタタキ,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64/206_1_3_reikon / 『日本宗教の複合的構造：霊魂観』 著者=~,校注=~ / p.68 / w=喜良市[きらいち；七夕野；川倉；,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#229_hattatsu_sugao / 『発達障害の素顔』 著者=山口真美,校注=~ / p.141 / w=物体失認,topic=~,publisher=~,other=sketch+:大脳辺縁系~基底核
 
@@ -1424,7 +1426,7 @@ sketch+;
 
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#67_3_hachiitsu / 『論語 八佾』 著者=~,校注=~ / p.70 / w=禘[てい；,topic=,publisher=明治書院,other=memo+:memo-id.0LGJ:キビ；memo+:memo-id.VLEJ:アルコール発酵；
+:m #*# RES / JVEMV6 64#67_3_hachiitsu / 『論語 八佾』 著者=~,校注=~ / p.73 / w=霊公（衛国）；襄公（衛国）；出公（衛国）,topic=,publisher=明治書院,other=~
 
 
 
@@ -1608,7 +1610,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=論;語;話;警;察;疑;惑;盗;意;識;確;率;獲;得;感;覚;音;声;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=帯;核;初;面;積;寒;異;同;月;炭;側;溝;脳;縁;系;
 
 
 
@@ -1746,6 +1748,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『読み物　物理化学』 / 著者=小出力 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『微粒子から探る物性七変化』 / 著者=前野昌弘 / 途中 ここまで（今回は、読まなかった）
 
 :bookmemo / 読んだ本 / 『もの忘れの脳科学』 / 著者=苧阪満里子 / 途中 ここまで（未記録）
@@ -1823,6 +1827,14 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録しておきたいもの / @ペガスス：正面の川原 / target=炊事場
 
 :PHOTO 記録しておきたいもの / @上町駅近く、東和現場へ行く途中 / object=店舗：喫茶店。ポーランド語の店名：「ヤスクーカ」,photo-for=記録
+
+###2023年1月26日13:47:58
+============================== :m 見た夢
+//template
+:m 見た夢 / topic=~ / content=~ / other=~
+
+:m 見た夢 / <1> topic='mechanization'：語句の意味：日本語で言うなら、「仕組み」、「働き」、「内部運動」 / content=夢の中で、曲がった筒状のもの、出てきた / other=~ \\\ <2> topic=知りたいもの / content=スラブ民族の、深部：キリスト教、以前 / other=~
+
 
 
 ###2022年6月6日10:02:52
@@ -2029,15 +2041,13 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=QHRU / theme=(a^2=b^3)：可能か / genre=math:algebra,content=~,w=~ / session-number=~ / doc=~,other=?:各数の構成要素の素数：互いに異なる場合、なお、等しくありうるか
+
+:m #*# RES / free / res-id=H1PG / theme=沈没事故 / genre=jili:geoli,content=海保の船で、どれくらいかかるか,w=男女群島、西、110km / session-number=~ / doc=~,other=article:(tor:yahoo)
+
 :m #*# RES / free / res-id=~ / theme=三角関数：(sin+cos)^2:の、上限、下限は？；「サインコサイン三角形」：∠Θの、対辺の、２つの頂点：どんな軌跡、描くか？；円：面積：積分で求める / genre=math:algebra,content=~,w=~ / session-number=~ / doc=~,other=~
 
 :m #*# RES / free / res-id=SF7W / theme=四元数 / genre=math:algebra,content=(iA ili Ai);四元数：ベクトル表記,w= / session-number=~ / doc=~,other=~
-
-:m 1*1 RES / free / res-id=SF7W / theme=数学：代数：四元数 / genre=代数？,content=「共役」：(A*i;i*A;A∈{四元数}),w=~ / session-number=~ / doc=~,other=res-id:5HE5に関連して； / N~
-
-:m #*# RES / free / res-id=V2LQ:VL68 / theme=比較：ホルムアルデヒド、アセトアルデヒド / genre=chimiya:obshshaya,content=~,w=~ / session-number=~ / doc=~,other=V2LQ-->'miscelaneous'
-
-:m #*# RES / free / res-id=BOD3 / theme=スケトウダラ / genre=~,content=~,w=介党鱈； / session-number=~ / doc=~,other=sketch+
 
 
 
@@ -2053,6 +2063,7 @@ economy:san-eob:chugsan
 economy:strana
 economy:strana:ekonomika
 jili
+jili:geoli
 jili:strany
 jilihag:strany
 mandeunda:generalny
@@ -2094,6 +2105,13 @@ medical:treatment
 ============================ :m : 新聞紙記事
 
 :PHOTO 記録 / 文書：新聞紙記事 / 1*1 / title=~,other=~,media=~
+
+###2021年11月13日8:47:55
+======================= :PHOTO 記録 / 交換
+//template
+:PHOTO 記録 / what=~ / location=~ /  for=~ / occasion=~,other=~
+
+:PHOTO 記録 / what=交換 / for=お神酒：神様用 / occasion=お供えのお神酒：定期の交換,other=~
 
 
 ###2021年11月13日8:47:55
