@@ -637,7 +637,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=prac:add:'23-01-29~page-1:new-line,session=hour-19,key=~,tempo=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=log_memo,session=hour-19,tempo=~
 
 
 
@@ -892,6 +892,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
+:m dessin,sketch / des. object=電気炉 / genre=器具：装置,source=~,location=~,other=~,memo~,found~,id=J4VW,occasion=83#:『化学雑話』
+
 :m dessin,sketch / des. object=垂木 / genre=構築物：家：小屋組み,source=~,location=~,other=~,memo~,found~,id=0CIE,occasion=books:64#67_3:八佾
 
 :m dessin,sketch / des. object=手＋弓 / genre=人間：人体：道具,source=~,location=~,other=~,memo~,found~,id=D9BN,occasion=books:64#67_3:八佾
@@ -922,6 +924,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 植物：樹木
 植物：花
 器具
+器具：装置
 人間：人体：道具
 構築物：家
 
@@ -1290,7 +1293,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_97:1 / 83. chemistry / topics=無機質,w=カオリン；,s=~,i=~,other=memo+:中国：東南部：地図：景徳鎮,next=,doc=r-1-1~1.4:『化学雑話』:p.93
+:m RES 1*1 / free# JVEMV6 83#_97:1 / 83. chemistry / topics=無機質,w=炭化ケイ素；鋼玉；ケイ砂；,s=~,i=~,other=memo+:中国：東南部：地図：景徳鎮,next=,doc=r-1-1~1.4:『化学雑話』:p.95:L.3
 
 :m RES 1*1 / free# JVEMV6 83#_92:1 / 83. chemistry / topics=コロイド,w=シリカゲル；寒天；,s=~,i=~,other=memo+立方体：分割：表面積,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.82:L.
 
@@ -1318,6 +1321,9 @@ sakura C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_83_plastics.dat
 :m RES #*# / free# JVEMV6 82#_X:X / 82. math-research / topics=~,w=~,s=~,i=~,doc=r-1-1~1.2#1,other=~
 
 :m RES #*# / free# JVEMV6 82#9:1 / 82. math-research / topics=~,w=~,s=~,i=~,doc=r-1-3~1.1,other=seg+:q-id.OTTC:(iA+Ai):意味;diagram+:四元数空間
+
+//id-session
+:m RES #*# / free# JVEMV6 82#_SK5T:1 / 82. math-research / topics=四元数,w=~,s=~,i=~,doc=r-1-1~1.2#1,other=q+:q-id.GF2K:{i(iA)=(ii)A}?（結合則、あるか？）;q+:q-id.XDSO:{(Ai)i=A(ii)}? / N+
 
 :m RES 2*2 / free# JVEMV6 82#_0LLD:1 / 82. math-research / topics=t-id:2,w=(iA + Ai);|iA + Ai|,s=~,i=~,doc=~.1,other=seg+:(2^(√2))
 
@@ -1433,7 +1439,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#199.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.68 / w=文行忠信；四者[よつのもの,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.「月報」 / w=何応欽[かおうきん；秦徳純,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.13 / w=,topic=~,publisher=~,other=map+:中国：東北地域；map+:中国：湖北省；map+:長野県：諏訪市～下諏訪町、周辺
 
 :m #*# RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.169 / w=自閉症；対人相互反応；非言語性コミュニケーション；言語発達遅滞；神経修飾物質；皮質領域；,topic=~,publisher=~,other=~
 
@@ -1454,7 +1460,7 @@ sketch+;
 
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#67_3_hachiitsu / 『論語 八佾』 著者=~,校注=~ / p.80 / w=栗,topic=,publisher=明治書院,other=memo+:栗
+:m #*# RES / JVEMV6 64#67_3_hachiitsu / 『論語 八佾』 著者=~,校注=~ / p.80 / w=栗,topic=,publisher=明治書院,other=map+:河南省＋周囲；sketch+:木鐸：sketch-id=EN1B
 
 
 
@@ -1635,7 +1641,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=栗;産;業;鳥;類;種;属;落;着;葉;義;務;詩;書;芸;術;忠;信;門;問;
+:m #*# / memo:other(m:other) / topic=習;字;, about=,other=,id=~,content=炭;意;味;鉱;砂;英;炉;端;気;象;系;統;津;金;属;警;戒;弱;者;起;点;報;解;決;南;省;
 
 
 
@@ -1982,6 +1988,8 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
 
 :PHOTO 記録 / subject=常設のお供え物 / location=自室 / content=お神酒：お供え物：注ぎ直したところ,for=~,other=~
+
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察：初日,id=2023-02-02_01-44-01_000.jpg
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：２；生姜：１,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2022-12-31_01-16-42_000.jpg
 
