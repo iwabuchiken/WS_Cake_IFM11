@@ -182,24 +182,24 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 		//from : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 		//to : G:\tmp.20220507_191202
 		
-		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8_move-files_iphone-to-upload-toHD.bat
+//*		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8_move-files_iphone-to-upload-toHD.bat
 	
 	2 ------- upload
 		
-		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-7_start-filezilla.bat
+//*		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-7_start-filezilla.bat
 		
 	3 ------- move files : to --> iphone_upload_done
 		//from : G:\tmp.20220507_191202
 		//to : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
 		
-//*		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8.5_move-files_HD-to-iphone-upload-done.bat
+		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8.5_move-files_HD-to-iphone-upload-done.bat
 	
 	4 ------- move files : to HD.images
 		//from : *
 		//to : G:\images\2023
 		//to : G:\images\2022
 		
-//*		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
+		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 		
 		//sakura C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 
@@ -637,7 +637,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody:add:「蛍の光」：間奏,session=hour-18,tempo=~ \\\ p.2-<1>:genre=melody,session=hour-18
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,session=hour-18,R=1,tempo=~ \\\ p.1-<2>:genre=melody,session=hour-18,R=2,key=h-7 \\\ p.2-<1>:genre=melody:continue-from:page-1:B-melody,session=hour-18
 
 
 
@@ -1064,7 +1064,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-02,memo=~,file-piece-id=~,other= / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=+,other= / follow~
 
 :m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
 
@@ -1293,7 +1293,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_98:1 / 83. chemistry / topics=無機質,w=硝石；硝酸ナトリウム；亜硝酸塩；,s=~,i=~,other=memo+:化学反応式：アンモニア～硝酸カリウム,next=,doc=r-1-1~1.4:『化学雑話』:p.98
+:m RES 1*1 / free# JVEMV6 83#_100:1 / 83. chemistry / topics=無機質,w=,s=~,i=~,other=memo+:辰砂;ske+:辰砂~ske-id.PVVT;seg+:紀の川（吉野川）~ske+:南紀伊~吉野川;seg+:辰砂（地名、中国）：ske+:湖南省＋周辺：,next=,doc=r-1-1~1.4:『化学雑話』:p.97
 
 :m RES 1*1 / free# JVEMV6 83#_92:1 / 83. chemistry / topics=コロイド,w=シリカゲル；寒天；,s=~,i=~,other=memo+立方体：分割：表面積,next=,doc=r-1-1~1.3:『読み物　物理化学』:p.82:L.
 
@@ -1324,6 +1324,9 @@ sakura C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_83_plastics.dat
 
 //id-session
 :m RES #*# / free# JVEMV6 82#_YMNX:1 / 82. math-research / topics=四元数,w=~,s=~,i=~,doc=~,other=q+:q-id.PIJC:{(iA)i=i(Ai)} / N~
+
+//h-id:YPLH
+:m RES #*# / free# JVEMV6 82#_YPLH:s-id.C5NB / 82. math-research / topics=四元数,w=~,s=~,i=~,doc=~,other=q+:q-id.C5NB:(iAi)~(jAj)||(iAi)(jAj);obs+:(x_i*A)x_i / N+
 
 :m RES #*# / free# JVEMV6 82#_SK5T:1 / 82. math-research / topics=四元数,w=~,s=~,i=~,doc=r-1-1~1.2#1,other=q+:q-id.GF2K:{i(iA)=(ii)A}?（結合則、あるか？）;q+:q-id.XDSO:{(Ai)i=A(ii)}? / N+
 
@@ -1443,7 +1446,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.13 / w=,topic=~,publisher=~,other=map+:中国：東北地域；map+:中国：湖北省；map+:長野県：諏訪市～下諏訪町、周辺
 
-:m #*# RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.170 / w=側坐核；尾状核；ドーパミン：放出、産生；VTA,topic=~,publisher=~,other=illust+:側坐核
+:m 2*2 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.170 / w=外側膝状体,topic=~,publisher=~,other=ske+:視覚経路：視神経～外側膝状体～視放線
 
 
 :m #*# RES / JVEMV6 64#126.02_mooshi:尽心下 / 『孟子』 著者=~,校注=~ / p.508 / w=洋棗[ようそう,topic=~,other=sketch+:ナツメ；sketch+:膾[なます（ユッケのスケッチ）
@@ -1462,9 +1465,9 @@ sketch+;
 
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#67_3_hachiitsu / 『論語 八佾』 著者=~,校注=~ / p.80 / w=栗,topic=,publisher=明治書院,other=map+:河南省＋周囲；sketch+:木鐸：sketch-id=EN1B
+:m #*# RES / JVEMV6 64#67_3_hachiitsu / 『論語 八佾』 著者=~,校注=~ / p.85 / w=,topic=,publisher=明治書院,other=ske+:s-id.01J9:旗鉾[はたほこ～鉾[ほこ：銅鉾[どうぼこ
 
-
+//map+:河南省＋周囲；sketch+:木鐸：sketch-id=EN1B
 
 
 :m #*# RES / JVEMV6 64#XX_-- / 『発達障害』 著者=岩波明,校注=~ / p.80 / w=~,topic=~,publisher=~,other=~
@@ -1646,7 +1649,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=湖;武;漢;蘇;州;強;熱;般;潮;解;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=異;同;部;品;方;眼;紀;伊;物;質;波;形;眼;球;交;感;神;端;然;
 
 
 
@@ -1994,7 +1997,7 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / subject=常設のお供え物 / location=自室 / content=お神酒：お供え物：注ぎ直したところ,for=~,other=~
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察：初日,id=2023-02-02_01-44-01_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2023-02-02_01-44-01_000.jpg
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：２；生姜：１,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2022-12-31_01-16-42_000.jpg
 
@@ -2084,6 +2087,10 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=LSTK / theme=中央アフリカ：ロシア:軍事教練 / genre=areas:africa,content=~,w=~ / session-number=~ / doc=~,other=article+:a-id.LSTK;ske+:中央アフリカ＋周辺
+
+:m #*# RES / free / res-id=KOE2 / theme=iran:renewables:solar / genre=economy:energy:strana,content=solar-generaton-amount,w=福島第一；1.02GW;4.7GW;国別：太陽光発電：容量 / session-number=~ / doc=~,other=article+:a-id.KOE2
+
 :m #*# RES / free / res-id=EBVU / theme=地理：パキスタン / genre=~,content=「クエッタ～カラチ」,w=~ / session-number=~ / doc=~,other=日本国内：距離：東京～名古屋～大阪～岡山～広島
 
 :m #*# RES / free / res-id=RESV:0S1Z / theme=上海事変（第１次） / genre=歴史：日本史：近現代史,content=~,w=上海租界；共同租界 / session-number=~ / doc=~,other=id:RESV:日中戦争；0S1Z：上海事変（第１次）
@@ -2102,6 +2109,7 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 areas:hangug
 areas:rossiya
 areas:zhongguo
+areas:africa
 bagmulhag:oboshch
 chemistry:osnovy
 chemistry:physical-chemistry
@@ -2109,6 +2117,7 @@ chimiya:obshshaya
 economy:san-eob:chugsan
 economy:strana
 economy:strana:ekonomika
+economy:energy:strana
 jili
 jili:geoli
 jili:strany
