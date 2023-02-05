@@ -176,17 +176,17 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 		//from : C:\WORKS_2\WS\WS_Cake_IFM11\iphone
 		//to : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 		
-//*		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8-1_move-files_iphone_to_iphone-to-upload.bat
+		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8-1_move-files_iphone_to_iphone-to-upload.bat
 	
 	1 ------- move file : to --> HD.tmp
 		//from : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 		//to : G:\tmp.20220507_191202
 		
-//*		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8_move-files_iphone-to-upload-toHD.bat
+		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8_move-files_iphone-to-upload-toHD.bat
 	
 	2 ------- upload
 		
-//*		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-7_start-filezilla.bat
+		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-7_start-filezilla.bat
 		
 	3 ------- move files : to --> iphone_upload_done
 		//from : G:\tmp.20220507_191202
@@ -637,7 +637,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,session=hour-18,R=1,tempo=~ \\\ p.1-<2>:genre=melody,session=hour-18,R=2,key=h-7 \\\ p.2-<1>:genre=melody:continue-from:page-1:B-melody,session=hour-18
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,session=hour-18,R=1,tempo=~ \\\ p.2-<1>:genre=melody:continue-from:page-1:B-melody,session=hour-18,R=2 \\\ p.2-<2>:genre=melody,session=hour-18,R=3,other=tips+:甲２：吹き方：口の形
 
 
 
@@ -705,6 +705,8 @@ octave-jump
 
 //--- 'other=' names
 i.f.:		(inspired from / вдохновлена / 영감)
+use-notes:h-X
+tips:XXX
 
 //--- prac:auxilliary
 finger-hit:N-notes
@@ -1064,16 +1066,12 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=+,other= / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=+,other=use-notes:h-4`+ / follow+
 
 :m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
 
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=record,for=mouth-shape:kan2,file-piece-id=~,session=hour-22,other=~ / follow~
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=~,file-piece-id=~,memo=+,session=hour-~,recording-id=~,other=memo:page-3;-4 / follow~
-
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=i.f.:scale-practice / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=demo,for=音の強弱：徐々に大きく、徐々に小さく,file-piece-id=~,memo=~,session=hour-21,recording-id=~,other=~ / follow~
 
@@ -1326,7 +1324,7 @@ sakura C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_83_plastics.dat
 :m RES #*# / free# JVEMV6 82#_YMNX:1 / 82. math-research / topics=四元数,w=~,s=~,i=~,doc=~,other=q+:q-id.PIJC:{(iA)i=i(Ai)} / N~
 
 //h-id:YPLH
-:m RES #*# / free# JVEMV6 82#_YPLH:s-id.C5NB / 82. math-research / topics=四元数,w=~,s=~,i=~,doc=~,other=q+:q-id.C5NB:(iAi)~(jAj)||(iAi)(jAj);obs+:(x_i*A)x_i / N+
+:m RES #*# / free# JVEMV6 82#_YPLH:s-id.DNU4 / 82. math-research / topics=四元数,w=~,s=~,i=~,doc=~,other=q+:q-id.DNU4:((b_0+i)A)((b_0+i)=(b_0+i)(A(b_0+i));q+:q-id.F039:四元数：積：分配則：成り立つか？ / N+:実数：分配則：どうやって、証明？
 
 :m RES #*# / free# JVEMV6 82#_SK5T:1 / 82. math-research / topics=四元数,w=~,s=~,i=~,doc=r-1-1~1.2#1,other=q+:q-id.GF2K:{i(iA)=(ii)A}?（結合則、あるか？）;q+:q-id.XDSO:{(Ai)i=A(ii)}? / N+
 
@@ -1444,7 +1442,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#199.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.68 / w=文行忠信；四者[よつのもの,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.13 / w=,topic=~,publisher=~,other=map+:中国：東北地域；map+:中国：湖北省；map+:長野県：諏訪市～下諏訪町、周辺
+:m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.72 / w=勢力圏外交；ワシントン会議；,topic=~,publisher=~,other=timeline+
 
 :m 2*2 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.170 / w=外側膝状体,topic=~,publisher=~,other=ske+:視覚経路：視神経～外側膝状体～視放線
 
@@ -1464,6 +1462,9 @@ sketch+;
 :m 1-2*2 RES / JVEMV6 64#159_38_years_war / 『三十八年戦争と蝦夷政策の変換　東北の古代史　４』 著者=鈴木拓也、編,校注=~ / p.15 / w=覚ベツ[敝+↓魚]城；紀広純；伊治[これはり]城；大領；伊治公[これはりのきみ]アザ[此+↓口]麻呂,topic=~,publisher=吉川弘文館,other=~
 
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
+
+//rongo_
+:m #*# RES / JVEMV6 64#67_4_rijin / 『論語 里仁』 著者=~,校注=~ / p.87 / w=,topic=,publisher=明治書院,other=ske+:sk-id.VVYP:爵[しゃく
 
 :m #*# RES / JVEMV6 64#67_3_hachiitsu / 『論語 八佾』 著者=~,校注=~ / p.85 / w=,topic=,publisher=明治書院,other=ske+:s-id.01J9:旗鉾[はたほこ～鉾[ほこ：銅鉾[どうぼこ
 
@@ -1649,7 +1650,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=異;同;部;品;方;眼;紀;伊;物;質;波;形;眼;球;交;感;神;端;然;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=睡;眠;勢;圏;外;題;領;域;警;察;界;発;砲;以;後;成;分;似;而;非;交;義;議;会;宿;題;
 
 
 
@@ -1997,7 +1998,9 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / subject=常設のお供え物 / location=自室 / content=お神酒：お供え物：注ぎ直したところ,for=~,other=~
 
+//経過記録用途
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2023-02-02_01-44-01_000.jpg
+
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１（瓶の側面：目安線）；ニンニク：２；生姜：１,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2022-12-31_01-16-42_000.jpg
 
@@ -2629,6 +2632,7 @@ article__
 daylog
 i_any
 
+経過記録用途
 res_
 _des
 _ske
