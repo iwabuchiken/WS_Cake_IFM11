@@ -1293,7 +1293,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_102:1 / 83. chemistry / topics=微粒子：表面化学,w=グリセリン；フロロフォルム,s=~,i=~,other=,next=,doc=r-1-1~1.5:『微粒子から探る物性七変化』 238_maeno:p.12
+:m RES 1*1 / free# JVEMV6 83#_103:1 / 83. chemistry / topics=微粒子：表面化学,w=珪藻土；珪藻；不等毛藻,s=~,i=~,other=,next=,doc=r-1-1~1.5:『微粒子から探る物性七変化』 238_maeno:p.12
 
 :m RES 1*1 / free# JVEMV6 83#_102:1 / 83. chemistry / topics=無機質,w=硫肝；硫酸カリウム；『舎密[せいみ開宗』,s=~,i=~,other=memo+:比較：カリウム、硫黄；memo+:硫化カリウム;memo+:硫酸カリウム,next=,doc=r-1-1~1.4:『化学雑話』:p.102
 沸点
@@ -1445,6 +1445,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#, 64_
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+
+:m 3*3 RES / JVEMV6 64#237_nakata / 『私はなぜイスラーム教徒になったのか』 著者=中田考,校注=~ / p.147 / w=ナクシュバンディー；ナーズィム；ブハラ；,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
@@ -2012,13 +2014,17 @@ G:\photo-books_HD\list-of-books.txt
 
 
 ###2022年10月19日9:46:41
-======================== :PHOTO 記録:misc
+====================== :PHOTO 記録:misc, record_misc
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
+
+:PHOTO 記録 / subject=調理：レモン、砂糖煮 / location=~ / content=計量。手順,for=~,other=~
 
 :PHOTO 記録 / subject=常設のお供え物 / location=自室 / content=お神酒：お供え物：注ぎ直したところ,for=~,other=~
 
 //経過記録用途
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ディル：３；スペアミント：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。追加：スペアミント,occasion=経過観察,id=2023-02-02_01-44-01_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=大葉、味噌。混ぜもの / material=大葉；味噌 / type=~,other=お酒のつまみとして,occasion=~,id=~
+
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ディル：３；スペアミント：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。追加：スペアミント；２日経過：このあと、摂取を開始する,occasion=経過観察,id=2023-02-02_01-44-01_000.jpg
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ディル：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。追加：ディル：攪拌した、スプーンで,occasion=経過観察,id=2023-02-02_01-44-01_000.jpg
 
@@ -2682,6 +2688,7 @@ daylog
 i_any
 m_id_
 
+record_misc
 経過記録用途
 res_
 _des
