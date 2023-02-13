@@ -1450,7 +1450,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m 2*2 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.20 / w=,topic=被害：数字：東京市：焼失家屋数；人口：東京市、在日朝鮮人数,publisher=~,other=map+:東京市：１５区
+:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.51 / w=,topic=,publisher=~,other=map+:東京市：富士見町（本所区）;sen+:'朝鮮を抱え（る）';模式図：閔妃暗殺：関与者たち：与謝野鉄幹
 
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:
@@ -1541,6 +1541,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome / (lang=ja) / topic=~ / content=~
 
+:tome / (lang=ja) / topic=~ / content=人は、十分に貰うと、人にあげたくなってしまう；近思切問しよう
+
 :tome / (lang=ja) / topic=神様について / content=私の神は、楽しいことが好きな神様。楽しげな曲が好き。
 
 :tome / (lang=ja) / topic=法則：知ることについて / content=脳のことを知らなければ、何も知ることはできない
@@ -1564,6 +1566,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m :? #*# / topic=math / content=(A=f(x)):(lim_(x->0)(A)=1)となるA。どんな式か？ / status=~ / other=~,id=~ ||| :m :? #*# / topic=physics / content=楕円形の、屈折面：焦点は、どこか？ / status=~ / other=~,id=~
 
 :m :? #*# / topic=数学：四元数 / content=(i=pj)：だとしたら、どうなる？ / status=~ / other=~,id=00H9[number-zero
 
@@ -2024,7 +2028,12 @@ G:\photo-books_HD\list-of-books.txt
 //経過記録用途
 :PHOTO 記録 / 経過記録；作ったもの / food=大葉、味噌。混ぜもの / material=大葉；味噌 / type=~,other=お酒のつまみとして,occasion=~,id=~
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ディル：３；スペアミント：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。追加：スペアミント；２日経過：このあと、摂取を開始する,occasion=経過観察,id=2023-02-02_01-44-01_000.jpg
+//2023年2月13日12:11:05
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=ニンニクのスライス：色の変化（緑変）：底部にある切片たち、変化している：上部のものたち、それほどには,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
+
+
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2023-02-13_01-36-56_000.jpg
+
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ディル：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。追加：ディル：攪拌した、スプーンで,occasion=経過観察,id=2023-02-02_01-44-01_000.jpg
 
