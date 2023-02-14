@@ -6,6 +6,8 @@ rem ==============================/
 
 // shortcuts
 C:\WORKS_2\WS\WS_Cake_IFM11\cake_batch_files_shortcuts
+//update file
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0_update_date.start.bat
 
 1) ------------------
 //C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
@@ -888,31 +890,17 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 :m illustration,イラスト / illus. object=人：牢屋の中 / genre=~,source=~,location=~,angle=牢屋の外：立った姿勢で、目の高さ,other=強訴した人：獄門される、前夜,memo~,found~,id=~,occasion=~
 
-============================== memo : sketch, _des, _ske
+======================== memo : sketch, _des, _ske
 ###2021年6月8日8:13:29
 //genre_names
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
+:m dessin,sketch / des. object=瑚璉[これん / genre=~,source=~,location=~,other=~,memo~,found~,id=U9WJ,occasion=~
+
+:m dessin,sketch / des. object=仏像：浮石寺 / genre=事物：彫像,source=~,location=~,other=対象：頭部,memo~,found~,id=WKF7,occasion=論語：公冶長：p.106(64#67_5)
+
 :m dessin,sketch / des. object=電気炉 / genre=器具：装置,source=~,location=~,other=~,memo~,found~,id=J4VW,occasion=83#:『化学雑話』
-
-:m dessin,sketch / des. object=垂木 / genre=構築物：家：小屋組み,source=~,location=~,other=~,memo~,found~,id=0CIE,occasion=books:64#67_3:八佾
-
-:m dessin,sketch / des. object=手＋弓 / genre=人間：人体：道具,source=~,location=~,other=~,memo~,found~,id=D9BN,occasion=books:64#67_3:八佾
-
-:m dessin,sketch / des. object=ブタ / genre=動物：哺乳類,source=~,location=~,other=~,memo~,found~,id=BQGO[omikron-o,occasion=~
-
-:m dessin,sketch / des. object=とろろ葵 / genre=植物：花,source=~,location=~,other=~,memo~,found~,id=U6YE,occasion=~
-
-:m dessin,sketch / des. object=ネジアヤメ / genre=植物：花,source=~,location=~,other=~,memo~,found~,id=FJPP,occasion=~
-
-:m dessin,sketch / des. object=蟹[カニ / genre=動物：爬虫類,source=~,location=~,other=~,memo~,found~,id=U9LF,occasion=~
-
-:m dessin,sketch / des. object=ヒキガエル / genre=動物：両生類：カエル,source=~,location=~,other=~,memo~,found~,id=FGBM,occasion=~
-
-:m dessin,sketch / des. object=カケス / genre=動物：鳥,source=~,location=~,other=~,memo~,found~,id=QLMZ,occasion=~
-
-:m dessin,sketch / des. object=鵲[カササギ / genre=動物：鳥,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
 
 
 //------- genre_names / template
@@ -929,6 +917,9 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 器具：装置
 人間：人体：道具
 構築物：家
+
+事物：彫像
+
 
 ###2021年6月18日8:55:14
 ============================== memo : lets,haja
@@ -1068,7 +1059,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=+,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~
 
 :m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
 
@@ -1325,6 +1316,8 @@ sakura C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_83_plastics.dat
 :m RES #*# / free# JVEMV6 82#9:1 / 82. math-research / topics=~,w=~,s=~,i=~,doc=r-1-3~1.1,other=seg+:q-id.OTTC:(iA+Ai):意味;diagram+:四元数空間
 
 //id-session
+:m RES 3*3 / free# JVEMV6 82#_PS1M / 82. math-research / topics=~,w=((-n-(t-1))!/(-(n-1))!*x^(-n-t)),s=~,i=~,doc=r-1-1~1.2#1,other=found+;N+
+
 :m RES 2*2 / free# JVEMV6 82#_ZQIW:1 / 82. math-research / topics=(1/x^n)：微分、s回：一般式,w=~,s=~,i=~,doc=~,other=s-id.KM3D;q+:q-id.PS1M:微分した式、収束するか;q+:q-id.FDYS:上限の有無、どうやって判定するか
 
 :m RES #*# / free# JVEMV6 82#_YMNX:1 / 82. math-research / topics=四元数,w=~,s=~,i=~,doc=~,other=q+:q-id.PIJC:{(iA)i=i(Ai)} / N~
@@ -1446,14 +1439,14 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m 3*3 RES / JVEMV6 64#237_nakata / 『私はなぜイスラーム教徒になったのか』 著者=中田考,校注=~ / p.147 / w=ナクシュバンディー；ナーズィム；ブハラ；,topic=~,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#237_nakata / 『私はなぜイスラーム教徒になったのか』 著者=中田考,校注=~ / p.155 / w=イッザト・イブラーヒーム,topic=~,publisher=~,other=file+
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.51 / w=,topic=,publisher=~,other=map+:東京市：富士見町（本所区）;sen+:'朝鮮を抱え（る）';模式図：閔妃暗殺：関与者たち：与謝野鉄幹
+:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.62 / w=,topic=壬午事変；甲申政変,publisher=~,other=sen+:`中国によるチベットや`
 
 //template:directives
-ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:
+ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
 
 :m #*# RES / JVEMV6 64#199.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.68 / w=文行忠信；四者[よつのもの,topic=~,publisher=~,other=~
@@ -1673,7 +1666,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=種;属;年;間;草;死;者;負;傷;帰;館;湾;岸;家;屋;全;壊;部;隊;警;察;朝;鮮;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=親;切;楼;閣;赴;任;報;城;末;後;領;域;海;船;官;僚;範;囲;無;害;浮;寺;院;仏;像;
 
 
 
@@ -2118,6 +2111,12 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\1MPF_20221220_010
 //folder
 C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 
+###2023年2月14日12:07:36
+=========================== :m : read_article, a_id_
+//template
+:m #*# / memo:article / a-id=~ / theme=~ / media=~,genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# / memo:article / a-id=WJ3K / theme=ガザ：ドローン攻撃 / media=ei,genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
 ###2023年2月8日12:26:26
 ============================== :m : memo, m_id_
@@ -2126,35 +2125,18 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 
 :m #*# / memo:simple / m-id=J0PE / theme=ムハンマド：命日 / genre=歴史：イスラム,content=~,w=~ / session-number=~ / doc=~,other=ヒジュラ暦、西暦
 
-
 ###2022年9月14日11:59:30
 ============================== :m : res:free : res_
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=B2NA / theme=領海侵犯 / genre=~,content=~,w=メディア用語；無害通行権；海洋法； / session-number=~ / doc=~,other=file+;news-article+
 
 :m #*# RES / free / res-id=305M / theme=ハーブ：ディル / genre=sigmulhag:herb,content=ディル：分類,w=イノンド / session-number=s-id.Q80B / doc=~,other=~
 
 :m #*# RES / free / res-id=JR4T / theme=ヒアルロン酸 / genre=chemistry:osnovy,content=~,w=アセチルグルコサミン；アセチル基；アミン；グルコサミン；ガラクトース； / session-number=~ / doc=~,other=file+
 
 :m #*# RES / free / res-id=VBFG / theme=~ / genre=jili:strany：西アフリカ,content=~,w=~ / session-number=~ / doc=~,other=ske+
-
-:m #*# RES / free / res-id=BL9E / theme=シリア：西側 / genre=jili:strany：シリア,content=~,w=~ / session-number=~ / doc=~,other=ske+
-
-:m #*# RES / free / res-id=LSTK / theme=中央アフリカ：ロシア:軍事教練 / genre=areas:africa,content=~,w=~ / session-number=~ / doc=~,other=article+:a-id.LSTK;ske+:中央アフリカ＋周辺
-
-:m #*# RES / free / res-id=KOE2 / theme=iran:renewables:solar / genre=economy:energy:strana,content=solar-generaton-amount,w=福島第一；1.02GW;4.7GW;国別：太陽光発電：容量 / session-number=~ / doc=~,other=article+:a-id.KOE2
-
-:m #*# RES / free / res-id=EBVU / theme=地理：パキスタン / genre=~,content=「クエッタ～カラチ」,w=~ / session-number=~ / doc=~,other=日本国内：距離：東京～名古屋～大阪～岡山～広島
-
-:m #*# RES / free / res-id=RESV:0S1Z / theme=上海事変（第１次） / genre=歴史：日本史：近現代史,content=~,w=上海租界；共同租界 / session-number=~ / doc=~,other=id:RESV:日中戦争；0S1Z：上海事変（第１次）
-
-:m #*# RES / free / res-id=QHRU / theme=(a^2=b^3)：可能か / genre=math:algebra,content=~,w=~ / session-number=~ / doc=~,other=?:各数の構成要素の素数：互いに異なる場合、なお、等しくありうるか
-
-:m #*# RES / free / res-id=H1PG / theme=沈没事故 / genre=jili:geoli,content=海保の船で、どれくらいかかるか,w=男女群島、西、110km / session-number=~ / doc=~,other=article:(tor:yahoo)
-
-:m #*# RES / free / res-id=~ / theme=三角関数：(sin+cos)^2:の、上限、下限は？；「サインコサイン三角形」：∠Θの、対辺の、２つの頂点：どんな軌跡、描くか？；円：面積：積分で求める / genre=math:algebra,content=~,w=~ / session-number=~ / doc=~,other=~
-
-:m #*# RES / free / res-id=SF7W / theme=四元数 / genre=math:algebra,content=i(iA)：iをかけ続けると、どうなるか？？,w= / session-number=~ / doc=~,other=ref:cake-56761
 
 
 
@@ -2697,6 +2679,7 @@ daylog
 i_any
 m_id_
 
+read_article
 record_misc
 経過記録用途
 res_
