@@ -203,7 +203,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 		
 		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 		
-		//sakura C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
+		//sakura C:\WORKS_2\WS\WS_Cake _IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 
 //iphone_upload_done-to-HD
 //sakura C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
@@ -1443,7 +1443,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.62 / w=,topic=壬午事変；甲申政変,publisher=~,other=sen+:`中国によるチベットや`
+:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.64 / w=,topic=甲申政変,publisher=~,other=timeline+
 
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
@@ -2130,6 +2130,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m 2*2 RES / free / res-id=N3Y7 / theme=楕円型表面への光線：焦点はどこか / genre=mullihag:gwanghag,content=,w=~ / session-number=~ / doc=~,other=q+:q-id.15DA(dhadiyd):楕円上の点Pに対する法線と、y軸に平行で、点Pを通る直線との、成す角。の、角度;q+:q-id.5T0V(dhadiyd):法線とy軸との交点。の、座標
+
 :m #*# RES / free / res-id=B2NA / theme=領海侵犯 / genre=~,content=~,w=メディア用語；無害通行権；海洋法； / session-number=~ / doc=~,other=file+;news-article+
 
 :m #*# RES / free / res-id=305M / theme=ハーブ：ディル / genre=sigmulhag:herb,content=ディル：分類,w=イノンド / session-number=s-id.Q80B / doc=~,other=~
@@ -2163,6 +2165,7 @@ math:algebra
 medical
 medical:obshchaya
 medical:treatment
+mullihag:gwanghag
 sigmulhag:herb
 歴史：日本史
 歴史：イスラム
@@ -2184,6 +2187,8 @@ sigmulhag:herb
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=BP37(browser=yan) / media=ei / theme=ガザ：占領者による襲撃,content=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=GRGH(browser=yan) / media=ei[electronic-intifada / theme=occupation:7-israelis-killed,content=~ / genre=~ / other=diagram+:襲撃遂行者、家族、親族
 
