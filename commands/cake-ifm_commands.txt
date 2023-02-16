@@ -1439,11 +1439,13 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64/#206_1_3_reikon / 『日本宗教の複合的構造：霊魂観』 著者=~,校注=~ / p.68:L.1 / w=七夕野；身代わり地蔵；,topic=~,publisher=~,other=ske+:御札；ske+:身代わり地蔵
+
 :m 1*1 RES / JVEMV6 64#237_nakata / 『私はなぜイスラーム教徒になったのか』 著者=中田考,校注=~ / p.155 / w=イッザト・イブラーヒーム,topic=~,publisher=~,other=file+
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.64 / w=,topic=甲申政変,publisher=~,other=timeline+
+:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.70 / w=,topic=,publisher=~,other=timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
@@ -1474,6 +1476,8 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
+:m #*# RES / JVEMV6 64#67_5_kooyachoo / 『論語 公冶長』 著者=~,校注=~ / p.336 / w=,topic=,publisher=明治書院,other=図式：堯、舜、禹
+
 :m #*# RES / JVEMV6 64#67_4_rijin / 『論語 里仁』 著者=~,校注=~ / p.87 / w=,topic=,publisher=明治書院,other=ske+:sk-id.VVYP:爵[しゃく
 
 :m #*# RES / JVEMV6 64#67_3_hachiitsu / 『論語 八佾』 著者=~,校注=~ / p.85 / w=,topic=,publisher=明治書院,other=ske+:s-id.01J9:旗鉾[はたほこ～鉾[ほこ：銅鉾[どうぼこ
@@ -2024,6 +2028,8 @@ G:\photo-books_HD\list-of-books.txt
 //2023年2月13日12:11:05
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=ニンニクのスライス：色の変化（緑変）：底部にある切片たち、変化している：上部のものたち、それほどには,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
 
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察：混ぜたのは、昨晩。１時前ぐらいか。,id=2023-02-16_11-12-57_000.jpg
+
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2023-02-13_01-36-56_000.jpg
 
@@ -2130,6 +2136,11 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=IGF2 / theme=隕石：通過、地球のそば / genre=cheonmunhag,content=~,w=lunar-distance:月地球距離；静止軌道；2012DA14;音速 / session-number=~ / doc=~,other=~
+
+:m 2*2 RES / free / res-id=N3Y7 / theme=楕円型表面への光線：焦点はどこか / genre=mullihag:gwanghag,content=,w=~ / session-number=s-id.10SB / doc=~,other=calc+:p.1の続き;q+:q-id.8GI0:楕円：y0がbより大きい場合 / N+
+//graph+:楕円の円周：の上の点：に対する、接線
+
 :m 2*2 RES / free / res-id=N3Y7 / theme=楕円型表面への光線：焦点はどこか / genre=mullihag:gwanghag,content=,w=~ / session-number=~ / doc=~,other=q+:q-id.15DA(dhadiyd):楕円上の点Pに対する法線と、y軸に平行で、点Pを通る直線との、成す角。の、角度;q+:q-id.5T0V(dhadiyd):法線とy軸との交点。の、座標
 
 :m #*# RES / free / res-id=B2NA / theme=領海侵犯 / genre=~,content=~,w=メディア用語；無害通行権；海洋法； / session-number=~ / doc=~,other=file+;news-article+
@@ -2167,6 +2178,8 @@ medical:obshchaya
 medical:treatment
 mullihag:gwanghag
 sigmulhag:herb
+cheonmunhag
+zionists
 歴史：日本史
 歴史：イスラム
 歴史：日本史：近現代史
@@ -2187,6 +2200,8 @@ sigmulhag:herb
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=L7PU(browser=yan) / media=ei / theme=ガザ：癌患者；,content=Mohammad-al-Kurd / genre=zionists / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=BP37(browser=yan) / media=ei / theme=ガザ：占領者による襲撃,content=~ / genre=~ / other=~
 
