@@ -1445,7 +1445,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.70 / w=,topic=,publisher=~,other=timeline+:伊藤暗殺～日韓併合条約、公布
+:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.77 / w=,topic=,publisher=~,other=timeline+:閔妃、暗殺～明治天皇、死去；timeline+:嘉仁[よしひと親王（大正天皇）、朝鮮へ;timeline+:嘉仁親王、即位～原敬、暗殺
+//timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
@@ -1455,7 +1456,7 @@ ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+
 
 :m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.78 / w=段祺瑞；汪兆銘；蒋介石,topic=~,publisher=~,other=
 
-:m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.174 / w=サッカード；,topic=~,publisher=~,other=memo+:サッカード;memo+:比較：ノルアドレナリン～セロトニン～アセチルコリン
+:m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.183 / w=線維；長連合線維；上縦束；ミエリン；灰白質；,topic=~,publisher=~,other=want-to-know+:各連合線維：特質；q+:q-id.WFZZ:「ミエリン化が遅い」：どんな影響、どこに？
 
 :m #*# RES / JVEMV6 64#126.04_mooshi:万章上 / 『孟子』 著者=~,校注=~ / p.322 / w=,topic=~,other=sketch+:sk-id.JECT:戈[か～戟[げき～矛[ほこ
 
@@ -1670,7 +1671,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=親;切;楼;閣;赴;任;報;城;末;後;領;域;海;船;官;僚;範;囲;無;害;浮;寺;院;仏;像;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=閣;約;藤;崎;線;維;由;束;縦;親;新;明;鏡;密;使;必;要;城;崎;品;港;義;運;
 
 
 
@@ -1753,6 +1754,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2021年6月16日9:56:34
 //template
 :m 記録 / 身体 / ケガ / loc=~,cause=~,loc-incident=~,id=~,phase=~,apparatus=~,injury=~,treatment=~,other=~
+// 歯：2023年2月17日13:10:09
+:m 記録 / 身体 / 痛み：歯 / loc=左、上：一番奥：根元,cause=歯ブラシが触れる：痛い,loc-incident=~,id=~,phase=~,apparatus=~,injury=~,treatment=~,other=~
+
 :m 記録 / 身体 / ケガ / loc=右足：踵,cause=乾燥か,loc-incident=~,id=2023-01-22_23-36-32_000.jpg,phase=~,apparatus=~,injury=皮膚：表面：割れている,treatment=焼酎漬け（ディル）、指で塗布。絆創膏、もはや。ワセリン、塗布,other=手当て：継続中
 
 :m 記録 / 身体 / ケガ / loc=右足：踵,cause=乾燥か,loc-incident=~,id=2023-01-22_23-36-32_000.jpg,phase=~,apparatus=~,injury=皮膚：表面：割れている,treatment=焼酎漬け（ディル）、指で塗布。絆創膏の、通気の綿の部分、ワセリンを塗布。薄く。の、バンドエイド、貼付。,other=手当て：継続中
@@ -2026,9 +2030,9 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / 経過記録；作ったもの / food=大葉、味噌。混ぜもの / material=大葉；味噌 / type=~,other=お酒のつまみとして,occasion=~,id=~
 
 //2023年2月13日12:11:05
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=ニンニクのスライス：色の変化（緑変）：底部にある切片たち、変化している：上部のものたち、それほどには,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=スライス：取り出した,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察：混ぜたのは、昨晩。１時前ぐらいか。,id=2023-02-16_11-12-57_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2023-02-13_01-36-56_000.jpg
@@ -2138,8 +2142,9 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 
 :m #*# RES / free / res-id=IGF2 / theme=隕石：通過、地球のそば / genre=cheonmunhag,content=~,w=lunar-distance:月地球距離；静止軌道；2012DA14;音速 / session-number=~ / doc=~,other=~
 
-:m 2*2 RES / free / res-id=N3Y7 / theme=楕円型表面への光線：焦点はどこか / genre=mullihag:gwanghag,content=,w=~ / session-number=s-id.10SB / doc=~,other=calc+:p.1の続き;q+:q-id.8GI0:楕円：y0がbより大きい場合 / N+
+:m 1*1 RES / free / res-id=N3Y7 / theme=楕円型表面への光線：焦点はどこか / genre=mullihag:gwanghag,content=,w=~ / session-number=s-id.NEYN,topic=p-id.NEYN:(y>b)の場合：どんな軌跡か？ / doc=~,other=related:q-id.8GIO; / N~:comp
 //graph+:楕円の円周：の上の点：に対する、接線
+//calc+:p.1の続き;q+:q-id.8GI0:楕円：y0がbより大きい場合 / N+
 
 :m 2*2 RES / free / res-id=N3Y7 / theme=楕円型表面への光線：焦点はどこか / genre=mullihag:gwanghag,content=,w=~ / session-number=~ / doc=~,other=q+:q-id.15DA(dhadiyd):楕円上の点Pに対する法線と、y軸に平行で、点Pを通る直線との、成す角。の、角度;q+:q-id.5T0V(dhadiyd):法線とy軸との交点。の、座標
 
