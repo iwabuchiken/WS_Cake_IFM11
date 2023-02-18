@@ -33,7 +33,8 @@ rem ===============================
 
 echo moving video files...
 
-set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019
+set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
+rem set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019
 
 set dpath_dst=G:\videos
 
@@ -53,7 +54,8 @@ rem ===============================
 
 echo moving audio files...
 
-set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\audio-files
+set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
+rem set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\audio-files
 
 set dpath_dst=G:\audio-files_HD
 

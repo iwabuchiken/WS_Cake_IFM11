@@ -639,7 +639,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,session=hour-18,R=1,tempo=~ \\\ p.2-<1>:genre=melody:continue-from:page-1:B-melody,session=hour-18,R=2 \\\ p.2-<2>:genre=melody,session=hour-18,R=3,other=tips+:甲２：吹き方：口の形
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,session=hour-18,R=1,tempo=~
 
 
 
@@ -895,6 +895,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //genre_names
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,other=~,memo~,found~,id=~,occasion=~
+
+:m dessin,sketch / des. object=コテ（鏝） / genre=~,source=~,location=~,other=~,memo~,found~,id=000V,occasion=~
 
 :m dessin,sketch / des. object=瑚璉[これん / genre=~,source=~,location=~,other=~,memo~,found~,id=U9WJ,occasion=~
 
@@ -1439,6 +1441,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#240_yoshizawa_math / 『群論入門』 著者=芳沢光雄,校注=~ / p.12 / w=写像；逆像,topic=群論：定義；,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#241_shimamoto_revolution / 『イスラーム革命の精神』 著者=嶋本隆光,校注=~ / p.ⅲ / w=モタッハリー,topic=本書：構成,publisher=~,other=timeline+:ホメイニ、追放さる～ホメイニ、到着
+
+:m #*# RES / JVEMV6 64#242 / 『コーラン　（上）』 著者=~,校注=井筒俊彦、訳 / p.110 / w=~,topic=遺産：分割,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64/#206_1_3_reikon / 『日本宗教の複合的構造：霊魂観』 著者=~,校注=~ / p.68:L.1 / w=七夕野；身代わり地蔵；,topic=~,publisher=~,other=ske+:御札；ske+:身代わり地蔵
 
 :m 1*1 RES / JVEMV6 64#237_nakata / 『私はなぜイスラーム教徒になったのか』 著者=中田考,校注=~ / p.155 / w=イッザト・イブラーヒーム,topic=~,publisher=~,other=file+
@@ -1808,36 +1816,17 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 :PHOTO 記録用 / @自室前：ベランダ：プランター / target=種（たね） occasion=種を植えた species=オクラ,id=2022-04-10_13-40-35_000.jpg
 
 
-============================== 読んだ本 : 2021年7月24日8:40:34
+###2021年7月24日8:40:34
+===================== 読んだ本, books_read
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『超越数とはなにか』 / 著者=西岡久美子 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『化学雑話』 / 著者=林良重、編 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『発達障害の素顔』 / 著者=山口真美 / 
-
-:bookmemo / 読んだ本 / 『読み物　物理化学』 / 著者=小出力 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『微粒子から探る物性七変化』 / 著者=前野昌弘 / 途中 ここまで（今回は、読まなかった）
-
-:bookmemo / 読んだ本 / 『もの忘れの脳科学』 / 著者=苧阪満里子 / 途中 ここまで（未記録）
-
-:bookmemo / 読んだ本 / 『発達障害』 / 著者=岩波明 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『読み物　物理化学』 / 著者=小出力 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『福沢諭吉選集　第３巻』 / 著者=福沢諭吉 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『関東大震災　「朝鮮人虐殺の真実」』 / 著者=工藤美代子 / 途中 ここまで
-
-
-:bookmemo / 読んだ本 / 『日本昔話百選』 / 著者=稲田浩二、稲田和子 / 途中 ここまで
-
-
-:bookmemo / 読んだ本 / 『「日本の伝統」という幻想』 / 著者=藤井青銅 / 部分、飛ばし
-
-:bookmemo / 読んだ本 / 『老化と脳科学』 / 著者=山本啓一 / 途中 ここまで
 
 
 
@@ -2142,9 +2131,12 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 
 :m #*# RES / free / res-id=IGF2 / theme=隕石：通過、地球のそば / genre=cheonmunhag,content=~,w=lunar-distance:月地球距離；静止軌道；2012DA14;音速 / session-number=~ / doc=~,other=~
 
-:m 1*1 RES / free / res-id=N3Y7 / theme=楕円型表面への光線：焦点はどこか / genre=mullihag:gwanghag,content=,w=~ / session-number=s-id.NEYN,topic=p-id.NEYN:(y>b)の場合：どんな軌跡か？ / doc=~,other=related:q-id.8GIO; / N~:comp
+//N3Y7_
+:m 2*2 RES / free / res-id=N3Y7 / theme=楕円型表面への光線：焦点はどこか / genre=mullihag:gwanghag,content=,w=~ / session-number=s-id.KN33,topic=y切片、求める / doc=~,other=q+:q-id.EG8W / N+
 //graph+:楕円の円周：の上の点：に対する、接線
 //calc+:p.1の続き;q+:q-id.8GI0:楕円：y0がbより大きい場合 / N+
+
+//C:\WORKS_2\shortcuts_docs\log_files\res.N3Y7.admin.20230218_122419.ods
 
 :m 2*2 RES / free / res-id=N3Y7 / theme=楕円型表面への光線：焦点はどこか / genre=mullihag:gwanghag,content=,w=~ / session-number=~ / doc=~,other=q+:q-id.15DA(dhadiyd):楕円上の点Pに対する法線と、y軸に平行で、点Pを通る直線との、成す角。の、角度;q+:q-id.5T0V(dhadiyd):法線とy軸との交点。の、座標
 
@@ -2205,6 +2197,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=1LUR(browser=yan) / media=ei / theme=ガザ：被拘束者：医療放置,content=~ / genre=~ / other=data+:被収容者の人数,file~
 
 :m #*# RES / free# S87DP9 記事読み / id=L7PU(browser=yan) / media=ei / theme=ガザ：癌患者；,content=Mohammad-al-Kurd / genre=zionists / other=~
 
@@ -2687,6 +2681,7 @@ video:sha	video:shi	64#	shaku	156_2	memo_shaku	towa:memo	80#	81#	A1~1.1.7,1.1.9	
 記事読み
 コレポン
 読んだ本
+books_read
 memo_shaku
 video_shaku
 video_ilban_
@@ -2717,6 +2712,7 @@ _memo_shuuji
 video_shi
 memo_shi
 83#
+N3Y7_
 YPLH_
 82__
 83__
