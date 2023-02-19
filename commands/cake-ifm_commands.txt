@@ -929,6 +929,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja / action activity / やること / genre=XXX / content=XXX
 
+:m :haja / action activity / やること / genre=cs:algorythm / content=アルゴリズムを脱けるための、アルゴリズム。アルゴリズムを、攪乱するための。騙すための。
+
 :m :haja / action activity / やること / genre=焼酎漬け / content=日本酒：混合の要素。その一つに。
 
 :m :haja / action activity / やること / genre=mandeunda:generalny / content=家を作りたい：茅葺き、土壁
@@ -1441,11 +1443,13 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.~ / w=~,topic=~,publisher=~,other=q+:q-id.C7M3:(1^2+2^2+...)：一般式；q+:q-id.9JUS:from:q-id.C7M3 / N+
+
 :m #*# RES / JVEMV6 64#240_yoshizawa_math / 『群論入門』 著者=芳沢光雄,校注=~ / p.12 / w=写像；逆像,topic=群論：定義；,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#241_shimamoto_revolution / 『イスラーム革命の精神』 著者=嶋本隆光,校注=~ / p.ⅲ / w=モタッハリー,topic=本書：構成,publisher=~,other=timeline+:ホメイニ、追放さる～ホメイニ、到着
 
-:m #*# RES / JVEMV6 64#242 / 『コーラン　（上）』 著者=~,校注=井筒俊彦、訳 / p.110 / w=~,topic=遺産：分割,publisher=~,other=~
+:m #*# RES / JVEMV6 64#242 / 『コーラン　（上）』 著者=~,校注=井筒俊彦、訳 / p.110 / w=~,topic=遺産：分割,publisher=~,other=quran:an-nisa:13~
 
 :m #*# RES / JVEMV6 64/#206_1_3_reikon / 『日本宗教の複合的構造：霊魂観』 著者=~,校注=~ / p.68:L.1 / w=七夕野；身代わり地蔵；,topic=~,publisher=~,other=ske+:御札；ske+:身代わり地蔵
 
@@ -1453,7 +1457,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.77 / w=,topic=,publisher=~,other=timeline+:閔妃、暗殺～明治天皇、死去；timeline+:嘉仁[よしひと親王（大正天皇）、朝鮮へ;timeline+:嘉仁親王、即位～原敬、暗殺
+:m 2*2 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.80 / w=,topic=朝鮮銀行：事件：強奪；,publisher=~,other=~
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -2021,7 +2025,7 @@ G:\photo-books_HD\list-of-books.txt
 //2023年2月13日12:11:05
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=スライス：取り出した,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。攪拌した。,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2023-02-13_01-36-56_000.jpg
@@ -2159,6 +2163,7 @@ bagmulhag:oboshch
 chemistry:osnovy
 chemistry:physical-chemistry
 chimiya:obshshaya
+cs:algorythm
 economy:san-eob:chugsan
 economy:strana
 economy:strana:ekonomika
@@ -2197,6 +2202,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=QP1T(browser=yan) / media=ei / theme=ガザ：法案：集団的処罰：パレスチナ、イスラエル,content=revoke-citizenship;human-rights-group / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=1LUR(browser=yan) / media=ei / theme=ガザ：被拘束者：医療放置,content=~ / genre=~ / other=data+:被収容者の人数,file~
 
@@ -2699,21 +2706,21 @@ daylog
 i_any
 m_id_
 
-read_article
-record_misc
-経過記録用途
-res_
-_des
-_ske
-jilmun_
-76_
 64_
-_memo_shuuji
-video_shi
-memo_shi
-83#
-N3Y7_
-YPLH_
+76_
 82__
+83#
 83__
 J0PE
+N3Y7_
+YPLH_
+_des
+_memo_shuuji
+_ske
+jilmun_
+memo_shi
+read_article
+record_misc
+res_
+video_shi
+経過記録用途
