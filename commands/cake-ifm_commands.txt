@@ -982,6 +982,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,other=~ / lang=ja
 
+:m :th,mysl / topic=モンゴルの戦いについて / content=何故、そんなことをする？必要がない；数学,other=~ / lang=ja
+
 :m :th,mysl / topic=伝統音楽：日本 / content=youtubeに上がっているもの：ロシア：日本との比較：伝統、これから始める。一人で。,other=~ / lang=ja
 
 :m :th,mysl / topic=思想 / content=人は何の為に生きるのか,other=~ / lang=ja
@@ -1447,7 +1449,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#240_yoshizawa_math / 『群論入門』 著者=芳沢光雄,校注=~ / p.12 / w=写像；逆像,topic=群論：定義；,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#241_shimamoto_revolution / 『イスラーム革命の精神』 著者=嶋本隆光,校注=~ / p.ⅲ / w=モタッハリー,topic=本書：構成,publisher=~,other=timeline+:ホメイニ、追放さる～ホメイニ、到着
+:m 3*3 RES / JVEMV6 64#241_shimamoto_revolution / 『イスラーム革命の精神』 著者=嶋本隆光,校注=~ / p.5 / w=,topic=,publisher=~,other=timeline+:63.3.21:ファイズィイェ・モスク～64.11.1:逮捕、追放～71.9.23
 
 :m #*# RES / JVEMV6 64#242 / 『コーラン　（上）』 著者=~,校注=井筒俊彦、訳 / p.110 / w=~,topic=遺産：分割,publisher=~,other=quran:an-nisa:13~
 
@@ -1457,7 +1459,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m 2*2 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.80 / w=,topic=朝鮮銀行：事件：強奪；,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.92 / w=,topic=当時の新聞記事,publisher=~,other=~
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1489,7 +1491,7 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_5_kooyachoo / 『論語 公冶長』 著者=~,校注=~ / p.336 / w=,topic=,publisher=明治書院,other=図式：堯、舜、禹
+:m #*# RES / JVEMV6 64#67_5_kooyachoo / 『論語 公冶長』 著者=~,校注=~ / p.116 / w=,topic=,publisher=明治書院,other=図式：魯国、鄭国：襄公、昭公、子産、孔子
 
 :m #*# RES / JVEMV6 64#67_4_rijin / 『論語 里仁』 著者=~,校注=~ / p.87 / w=,topic=,publisher=明治書院,other=ske+:sk-id.VVYP:爵[しゃく
 
@@ -1683,7 +1685,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=閣;約;藤;崎;線;維;由;束;縦;親;新;明;鏡;密;使;必;要;城;崎;品;港;義;運;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=単;着;片;藤;食;御;内;外;暗;殺;城;龍;宮;間;官;言;債;発;表;前;後;改;草;
 
 
 
@@ -2025,10 +2027,10 @@ G:\photo-books_HD\list-of-books.txt
 //2023年2月13日12:11:05
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=スライス：取り出した,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。攪拌した。,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。攪拌した。まる１日、経過,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2023-02-13_01-36-56_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察；前夜、攪拌した。丸１日後。,id=2023-02-13_01-36-56_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ディル：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。追加：ディル：攪拌した、スプーンで,occasion=経過観察,id=2023-02-02_01-44-01_000.jpg
@@ -2117,7 +2119,11 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 ###2023年2月14日12:07:36
 =========================== :m : read_article, a_id_
 //template
-:m #*# / memo:article / a-id=~ / theme=~ / media=~,genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+:m #*# / memo:article / a-id=~ / theme=~ / media=~,platform=~,genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# / memo:article / a-id=~ / theme=米軍：韓国軍：軍事演習 / media=ptv,platform=tor,genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# / memo:article / a-id=R2LS / theme=イスラエル：イギリス：武器製造会社 / media=ei,platform=yandex,genre=~,content=~,w=UAV-Engines / session-number=~ / doc=~,other=~
 
 :m #*# / memo:article / a-id=WJ3K / theme=ガザ：ドローン攻撃 / media=ei,genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
@@ -2132,6 +2138,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 ============================== :m : res:free : res_
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=WYL6 / theme=モーリタニア / genre=areas:africa,content=位置；周辺国,w=~ / session-number=~ / doc=~,other=~
 
 :m #*# RES / free / res-id=IGF2 / theme=隕石：通過、地球のそば / genre=cheonmunhag,content=~,w=lunar-distance:月地球距離；静止軌道；2012DA14;音速 / session-number=~ / doc=~,other=~
 
@@ -2706,21 +2714,21 @@ daylog
 i_any
 m_id_
 
-64_
-76_
-82__
-83#
-83__
-J0PE
-N3Y7_
-YPLH_
-_des
-_memo_shuuji
-_ske
-jilmun_
-memo_shi
-read_article
-record_misc
-res_
-video_shi
 経過記録用途
+video_shi
+res_
+record_misc
+read_article
+memo_shi
+jilmun_
+_ske
+_memo_shuuji
+_des
+YPLH_
+N3Y7_
+J0PE
+83__
+83#
+82__
+76_
+64_
