@@ -173,13 +173,15 @@ C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-6_move-files_iphone_upload_done-to-HD.bat
 2-1)
 // not-yet-files-included
 	steps :
+	//C:\WORKS_2\WS\WS_Cake_IFM11\commands\__uploaded-photos_to-HD
 
 	0 ------- move file : to --> iphone_to_upload
 		//from : C:\WORKS_2\WS\WS_Cake_IFM11\iphone
 		//to : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 		
 		batch]] / C:\WORKS_2\WS\WS_Cake_IFM11\commands\1-8-1_move-files_iphone_to_iphone-to-upload.bat
-	
+//C:\WORKS_2\WS\WS_Cake_IFM11\commands	
+
 	1 ------- move file : to --> HD.tmp
 		//from : C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 		//to : G:\tmp.20220507_191202
@@ -982,6 +984,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,other=~ / lang=ja
 
+:m :th,mysl / topic=イスラム教：アッラー / content=「アッラー」が、温かい；「大國立ちの…」、淋しい,other=~ / lang=ja
+
 :m :th,mysl / topic=モンゴルの戦いについて / content=何故、そんなことをする？必要がない；数学,other=~ / lang=ja
 
 :m :th,mysl / topic=伝統音楽：日本 / content=youtubeに上がっているもの：ロシア：日本との比較：伝統、これから始める。一人で。,other=~ / lang=ja
@@ -1319,10 +1323,14 @@ sakura C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_83_plastics.dat
 //template
 :m RES #*# / free# JVEMV6 82#_X:X / 82. math-research / topics=~,w=~,s=~,i=~,doc=r-1-1~1.2#1,other=~
 
+
+
 :m RES #*# / free# JVEMV6 82#9:1 / 82. math-research / topics=~,w=~,s=~,i=~,doc=r-1-3~1.1,other=seg+:q-id.OTTC:(iA+Ai):意味;diagram+:四元数空間
 
 //id-session : template
 :m RES #*# / free# JVEMV6 82#_XXX / 82. math-research / topics=~,w=,s=~,i=~,doc=~,other=~
+
+:m RES 2*2 / free# JVEMV6 82#_BW8K / 82. math-research / topics=グラフの線分の、下部：線分の両端を対角点とする、四角形：両者の、面積の、比率,w=,s=~,i=~,doc=~,other=q+:q-id.THXO(new);found+;q+:q-id.OFVR(new);q-id.98M2(new);
 
 :m RES 2*2 / free# JVEMV6 82#_U9VO / 82. math-research / topics=~,w=,s=~,i=~,doc=~,other=idea+:Aを、マクローリン展開;q+:q-id.9PNF:(cakeのときに、追加):(A=(a+a^2+a^3+a^4)*log(e*a))は、(a<1/e)のとき、A<0:しかし、式を変形して、(A=(a^4*log(e*a))/(log(e*a)-1))とすると、(a<1/e)のとき、A>0:なぜか？;q+:q-id.KTBI:Aの、２次の近似、A(2):δ=(A(1)-A(2)):δの値は？
 
@@ -1469,7 +1477,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.104 / w=,topic=「流言」出所説；吉野作造；東大新人会；証言,publisher=~,other=~
+:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.118 / w=牛込,topic=出火場所；,publisher=~,other=~
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1591,6 +1599,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
 
+:m :? #*# / topic=math:グラフの線分の、下部：線分の両端を対角点とする、四角形：両者の、面積の、比率 / content=~ / status=~ / other=~,id=q-id.THXO
+
 :m :? #*# / topic=math / content=(A=f(x)):(lim_(x->0)(A)=1)となるA。どんな式か？ / status=~ / other=~,id=~ ||| :m :? #*# / topic=physics / content=楕円形の、屈折面：焦点は、どこか？ / status=~ / other=~,id=~
 
 :m :? #*# / topic=数学：四元数 / content=(i=pj)：だとしたら、どうなる？ / status=~ / other=~,id=00H9[number-zero
@@ -1697,7 +1707,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=単;着;片;藤;食;御;内;外;暗;殺;城;龍;宮;間;官;言;債;発;表;前;後;改;草;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=爆;弾;阪;朝;捜;新;報;密;使;科;種;災;正;確;出;題;場;所;谷;牛;夜;同;時;員;数;
 
 
 
@@ -1839,6 +1849,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『私はなぜイスラーム教徒になったのか』 / 著者=中田考 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『超越数とはなにか』 / 著者=西岡久美子 / 途中 ここまで
 
@@ -2039,10 +2051,10 @@ G:\photo-books_HD\list-of-books.txt
 //2023年2月13日12:11:05
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=スライス：取り出した,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。攪拌した。まる２日、経過,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。攪拌した。再度、攪拌,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察；前夜、攪拌した。丸２日後。,id=2023-02-13_01-36-56_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察；再度、攪拌。,id=2023-02-13_01-36-56_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ディル：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。追加：ディル：攪拌した、スプーンで,occasion=経過観察,id=2023-02-02_01-44-01_000.jpg
@@ -2221,7 +2233,12 @@ zionists
 ###2021年9月22日10:19:44
 ========================== :m : 記事読み, article__
 //template
-:m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=O854(browser=tor) / media=ptv / theme=palestine:teenager:killed,content=Muntaser-Mohammad-Shawwa(from-Nablus),w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=JT2N(browser=tor) / media=ptv / theme=シリア：災害：対応状況、被災状況,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=DS01(browser=yan) / media=ei / theme=パレスチナ：難民キャンプ：スパイ活動,content=~,w=Adam-Smith-International;Panorama(TV-program);Samar-Batrami(a-person) / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=Q5RG(browser=yan) / media=ei / theme=ガザ：医療機器：封鎖,content=~ / genre=~ / other=data:International-Covenant-of-Economic-Social-Cultural-Rights:Article.12
 
@@ -2709,7 +2726,7 @@ video:sha	video:shi	64#	shaku	156_2	memo_shaku	towa:memo	80#	81#	A1~1.1.7,1.1.9	
 
 
 //------ main
-読んだ本
+//読んだ本
 記事読み
 コレポン
 video_shaku
