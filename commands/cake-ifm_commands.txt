@@ -991,6 +991,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,other=~ / lang=ja
 
+:m :th,mysl / topic=お姉さんの思考の一つ。その原因について / content=置かれている環境を、視野に含める,other=~ / lang=ja
+
 :m :th,mysl / topic=イスラム教：アッラー / content=「アッラー」が、温かい；「大國立ちの…」、淋しい,other=~ / lang=ja
 
 :m :th,mysl / topic=モンゴルの戦いについて / content=何故、そんなことをする？必要がない；数学,other=~ / lang=ja
@@ -1471,6 +1473,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m 2*2 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.20 / w=解釈学的反省；時間原子論；認識構造；俗信,topic=~,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.~ / w=~,topic=~,publisher=~,other=q+:q-id.C7M3:(1^2+2^2+...)：一般式；q+:q-id.9JUS:from:q-id.C7M3 / N+
 
 :m #*# RES / JVEMV6 64#240_yoshizawa_math / 『群論入門』 著者=芳沢光雄,校注=~ / p.12 / w=写像；逆像,topic=群論：定義；,publisher=~,other=~
@@ -1485,7 +1489,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.122 / w=吾妻橋[あづま；勝鬨橋；相生橋[あいおい,topic=,publisher=~,other=map+:月島、その周辺
+:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.126 / w=,topic=,publisher=~,other=map+:東京１５区＋郡域；ske+:sk-id.OSUH:東京１５区＋郡域；ske+:sk-id.AP97:石突（用具：弓道）
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1798,6 +1802,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 ###2021年6月16日9:56:34
 //template
 :m 記録 / 身体 / ケガ / loc=~,cause=~,loc-incident=~,id=~,phase=~,apparatus=~,injury=~,treatment=~,other=~
+:m 記録 / 身体 / ケガ / loc=胸：左側：上方,cause=不詳,loc-incident=~,id=2023-02-23_23-25-46_000.jpg,phase=~,apparatus=~,injury=裂創,treatment=焼酎（ディル）、塗布：ワセリン、塗布：傷テープ、貼付,other=~
+
 // 歯：2023年2月17日13:10:09
 :m 記録 / 身体 / 痛み：歯 / loc=左、上：一番奥：根元,cause=歯ブラシが触れる：痛い,loc-incident=~,id=~,phase=~,apparatus=~,injury=~,treatment=~,other=~
 
@@ -2059,10 +2065,10 @@ G:\photo-books_HD\list-of-books.txt
 //2023年2月13日12:11:05
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=スライス：取り出した,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４；ローズマリー：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。攪拌した。再度、攪拌。丸１日。追加、ローズマリー,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４；ローズマリー：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。攪拌した。再度、攪拌。丸２日。追加、ローズマリー。丸１日。,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ローズマリー：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察；再度、攪拌。丸１日。追加、ローズマリー,id=2023-02-13_01-36-56_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ローズマリー：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察；再度、攪拌。丸２日。追加、ローズマリー。丸１日,id=2023-02-13_01-36-56_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ディル：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。追加：ディル：攪拌した、スプーンで,occasion=経過観察,id=2023-02-02_01-44-01_000.jpg
@@ -2242,6 +2248,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=9Q96(browser=yan) / media=ei / theme=Israel:Nablus-raid:Palestine,content=11-people-killed,w=Abdalfattah;Dakhil;Isleem / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=Y0M6(browser=yan) / media=ei / theme=germany-ban-on-flag-palestine,content=Berlin-police,w=Jewish-Bund;Nakba-day / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=K1ML(browser=tor) / media=ptv / theme=refugee-camp-raid;resistance-operations,content=~,w=Jenin / genre=~ / other=~
@@ -2490,6 +2498,10 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
+
+###2023年2月24日13:01:28
+#DELETE FROM ifm11 WHERE _id <= 60053;
+
 
 ###2023年1月27日12:57:06
 #DELETE FROM ifm11 WHERE _id <= 59575;
