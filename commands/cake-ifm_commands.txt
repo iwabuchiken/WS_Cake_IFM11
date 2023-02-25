@@ -5,9 +5,13 @@ rem 	2021年1月17日12:15:35
 rem ==============================/
 
 // shortcuts
-C:\WORKS_2\WS\WS_Cake_IFM11\cake_batch_files_shortcuts
+//C:\WORKS_2\WS\WS_Cake_IFM11\cake_batch_files_shortcuts
+
+// folder : shortcuts : 2023年2月25日12:06:54
+C:\WORKS_2\WS\WS_Cake_IFM11\commands\__1_
+
 //update file
-C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0_update_date.start.bat
+//C:\WORKS_2\WS\WS_Cake_IFM11\commands\11-0_update_date.start.bat
 
 1) ------------------
 //C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start-xampp_filezilla_open-folder_open-files.bat
@@ -1340,6 +1344,8 @@ sakura C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_83_plastics.dat
 //id-session : template
 :m RES #*# / free# JVEMV6 82#_XXX / 82. math-research / topics=~,w=,s=~,i=~,doc=~,other=~
 
+:m RES #*# / free# JVEMV6 82#_s-id.CPOX / 82. math-research / topics=q-id.OFVR,w=,s=~,i=~,doc=~,other=found+:２つの領域の、面積の比率について / N+
+
 :m RES 2*2 / free# JVEMV6 82#_BW8K / 82. math-research / topics=グラフの線分の、下部：線分の両端を対角点とする、四角形：両者の、面積の、比率,w=,s=~,i=~,doc=~,other=q+:q-id.THXO(new);found+;q+:q-id.OFVR(new);q-id.98M2(new);
 
 :m RES 2*2 / free# JVEMV6 82#_U9VO / 82. math-research / topics=~,w=,s=~,i=~,doc=~,other=idea+:Aを、マクローリン展開;q+:q-id.9PNF:(cakeのときに、追加):(A=(a+a^2+a^3+a^4)*log(e*a))は、(a<1/e)のとき、A<0:しかし、式を変形して、(A=(a^4*log(e*a))/(log(e*a)-1))とすると、(a<1/e)のとき、A>0:なぜか？;q+:q-id.KTBI:Aの、２次の近似、A(2):δ=(A(1)-A(2)):δの値は？
@@ -1473,13 +1479,13 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m 2*2 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.20 / w=解釈学的反省；時間原子論；認識構造；俗信,topic=~,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.56 / w=政治的背景を持った暴力；法維持的暴力；常識の欺瞞；,topic=繁栄～貧困,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.~ / w=~,topic=~,publisher=~,other=q+:q-id.C7M3:(1^2+2^2+...)：一般式；q+:q-id.9JUS:from:q-id.C7M3 / N+
 
 :m #*# RES / JVEMV6 64#240_yoshizawa_math / 『群論入門』 著者=芳沢光雄,校注=~ / p.12 / w=写像；逆像,topic=群論：定義；,publisher=~,other=~
 
-:m 3*3 RES / JVEMV6 64#241_shimamoto_revolution / 『イスラーム革命の精神』 著者=嶋本隆光,校注=~ / p.5 / w=,topic=,publisher=~,other=timeline+:63.3.21:ファイズィイェ・モスク～64.11.1:逮捕、追放～71.9.23
+:m #*# RES / JVEMV6 64#241_shimamoto_revolution / 『イスラーム革命の精神』 著者=嶋本隆光,校注=~ / p.15 / w=,topic=原油収入,publisher=~,other=timeline+:70年代半ば～1978.12-9.モハッラム
 
 :m #*# RES / JVEMV6 64#242 / 『コーラン　（上）』 著者=~,校注=井筒俊彦、訳 / p.110 / w=~,topic=遺産：分割,publisher=~,other=quran:an-nisa:13~
 
@@ -1489,7 +1495,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.126 / w=,topic=,publisher=~,other=map+:東京１５区＋郡域；ske+:sk-id.OSUH:東京１５区＋郡域；ske+:sk-id.AP97:石突（用具：弓道）
+:m 1-2*3 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.136 / w=,topic=新聞記事：朝鮮人による襲撃,publisher=~,other=
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1500,7 +1506,7 @@ ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+
 
 :m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.78 / w=段祺瑞；汪兆銘；蒋介石,topic=~,publisher=~,other=
 
-:m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.183 / w=線維；長連合線維；上縦束；ミエリン；灰白質；,topic=~,publisher=~,other=want-to-know+:各連合線維：特質；q+:q-id.WFZZ:「ミエリン化が遅い」：どんな影響、どこに？
+:m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.186 / w=上縦束；興奮性細胞；ウェルニケ野,topic=~,publisher=~,other=
 
 :m #*# RES / JVEMV6 64#126.04_mooshi:万章上 / 『孟子』 著者=~,校注=~ / p.322 / w=,topic=~,other=sketch+:sk-id.JECT:戈[か～戟[げき～矛[ほこ
 
@@ -1719,7 +1725,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=爆;弾;阪;朝;捜;新;報;密;使;科;種;災;正;確;出;題;場;所;谷;牛;夜;同;時;員;数;
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=島;流;橋;脚;理;解;最;終;漠;然;間;京;都;出;震;災;録;音;刻;印;方;式;車;輪;豊;富;暴;政;常;識;欺;瞞;満;革;取;得;厳;戒;
 
 
 
@@ -1909,6 +1915,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
 
+:PHOTO 記録しておきたいもの / location:photo=自室：机上, location:target=焼酎飲み（酒飲み）：用意したものたち / subject=~ / content=~,other=~
+
 :PHOTO 記録しておきたいもの / location:photo=自室：ベランダ, location:target=ベランダから見た、太陽 / subject=夕陽：沈みかけている太陽 / content=~,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=東急ショッピングパーク：駐輪場：前の歩道, location:target=街路樹：イチョウ / subject=~ / content=葉っぱ：黄色：落葉している：ところどころ,other=~
@@ -2065,10 +2073,10 @@ G:\photo-books_HD\list-of-books.txt
 //2023年2月13日12:11:05
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=スライス：取り出した,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４；ローズマリー：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。攪拌した。再度、攪拌。丸２日。追加、ローズマリー。丸１日。,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４；ローズマリー：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。攪拌した。再度、攪拌。丸２日。追加、ローズマリー。丸２日。,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ローズマリー：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察；再度、攪拌。丸２日。追加、ローズマリー。丸１日,id=2023-02-13_01-36-56_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ローズマリー：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察；再度、攪拌。丸２日。追加、ローズマリー。丸２日,id=2023-02-13_01-36-56_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ディル：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。追加：ディル：攪拌した、スプーンで,occasion=経過観察,id=2023-02-02_01-44-01_000.jpg
@@ -2248,6 +2256,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=N5ZP(browser=yan) / media=ei / theme=地震：トルコ：ガザ：パレスチナ,content=~,w=Majdi-Davabih;Abdulkarim-abu-Jalhoum / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=9Q96(browser=yan) / media=ei / theme=Israel:Nablus-raid:Palestine,content=11-people-killed,w=Abdalfattah;Dakhil;Isleem / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=Y0M6(browser=yan) / media=ei / theme=germany-ban-on-flag-palestine,content=Berlin-police,w=Jewish-Bund;Nakba-day / genre=~ / other=~
