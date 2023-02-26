@@ -1082,7 +1082,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,session=hour-18,memo=~,file-piece-id=2023-02-25_18-41-36_000.mp4,memo=~,other=continuie-from:2023-02-25_18-41-36_000.mp4
 
 :m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
 
@@ -1479,7 +1479,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.56 / w=政治的背景を持った暴力；法維持的暴力；常識の欺瞞；,topic=繁栄～貧困,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.123 / w=偶有；必然的存在者；属性；,topic=イスラム神学；,publisher=~,other=memo+:申命記；memo+:クルアーン
 
 :m #*# RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.~ / w=~,topic=~,publisher=~,other=q+:q-id.C7M3:(1^2+2^2+...)：一般式；q+:q-id.9JUS:from:q-id.C7M3 / N+
 
@@ -1495,7 +1495,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m 1-2*3 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.136 / w=,topic=新聞記事：朝鮮人による襲撃,publisher=~,other=
+:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.140 / w=山本権兵衛内閣；,topic=,publisher=~,other=timeline+:原敬暗殺～戒厳令
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1725,7 +1725,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=島;流;橋;脚;理;解;最;終;漠;然;間;京;都;出;震;災;録;音;刻;印;方;式;車;輪;豊;富;暴;政;常;識;欺;瞞;満;革;取;得;厳;戒;
+:m #*# / memo:other(m:other) / topic=習;字;, about=,other=,id=~,content=部;眼;窩;認;識;内;向;同;警;視;報;徳;競;場;横;浜;路;傍;営;夜;必;然;非;業;属;原;敬;加;藤;閣;兵;衛;夜;昼;集;積;監;督;務;要;請;襲;撃;刻;印;
 
 
 
@@ -1915,6 +1915,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
 
+:PHOTO 記録しておきたいもの / location:photo=台所, location:target=切干大根：小鉢用 / subject=~ / content=計量した：数値記録,other=分量：４食分
+
 :PHOTO 記録しておきたいもの / location:photo=自室：机上, location:target=焼酎飲み（酒飲み）：用意したものたち / subject=~ / content=~,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=自室：ベランダ, location:target=ベランダから見た、太陽 / subject=夕陽：沈みかけている太陽 / content=~,other=~
@@ -2073,10 +2075,10 @@ G:\photo-books_HD\list-of-books.txt
 //2023年2月13日12:11:05
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=スライス：取り出した,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４；ローズマリー：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。攪拌した。再度、攪拌。丸２日。追加、ローズマリー。丸２日。,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：４；生姜：４；ローズマリー：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。攪拌した。再度、攪拌。丸２日。追加、ローズマリー。丸３日。追加、ディル。,occasion=経過観察,id=2023-02-16_11-12-57_000.jpg
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ローズマリー：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察；再度、攪拌。丸２日。追加、ローズマリー。丸２日,id=2023-02-13_01-36-56_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ローズマリー：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察；再度、攪拌。丸２日。追加、ローズマリー。丸３日。追加、ディル,id=2023-02-13_01-36-56_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ディル：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。追加：ディル：攪拌した、スプーンで,occasion=経過観察,id=2023-02-02_01-44-01_000.jpg
