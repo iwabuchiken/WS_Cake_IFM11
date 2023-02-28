@@ -937,10 +937,13 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 
 ###2021年6月18日8:55:14
-============================== memo : lets,haja
+============================== memo : lets,haja_
+// haja : genre_list
 //template
 //:m :lets / action activity / やること / genre=XXX / content=XXX
-:m :haja / action activity / やること / genre=XXX / content=XXX
+:m :haja,lets / action activity / やること / genre=XXX / content=XXX
+
+:m :haja,lets / action activity / やること / genre=XXX / content=楕円席部などを習得して、世の役に立つ業[わざ]を、為そうじゃないか。
 
 :m :haja / action activity / やること / genre=cs:algorythm / content=アルゴリズムを脱けるための、アルゴリズム。アルゴリズムを、攪乱するための。騙すための。
 
@@ -964,6 +967,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 :m :lets / action activity / やること / genre=作曲；和歌 / content=作曲。春夏秋冬をテーマとした曲。例えば「海」をテーマに。「革命」；「革命」をテーマにした和歌。 || :m :lets / action activity / やること / genre=diary:korean / content=季節の花。野菜
 
 :m :lets / action activity / やること：予定 / genre=発熱外来、予約 / content=福島内科医院、他
+
+//genre_list
+学びについて
+
 
 ============================== memo : 温度	
 ###2022年8月4日10:29:53
@@ -1069,7 +1076,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
 :m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
@@ -1248,6 +1255,8 @@ regex :
 ======================== video : others
 
 :VIDEO / @自室 / 記録 / inst=~ / 演奏、play / f-2021-061X-X / XX
+
+:VIDEO / @自室 / 記録 / inst=ビン：小瓶：キンカンの空き瓶 / 演奏、play / prac,for=youtube：「石笛仙人」さんの動画,ReX,tempo=~,other=~,key=~,notes=~
 
 :VIDEO / @自室 / 記録 / inst=ビン：小瓶：一味とうがらしの空き瓶 / 演奏、play / 2021-09-09_00-58-56_000.mp4 / prac,for=bebeyさんの動画を見て、真似してみた,ReX,tempo=~,other=~,key=~,notes=~
 
@@ -1467,7 +1476,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.140 / w=存在付与的意志；規範付与的意志；タウヒード；主性；神性；存在モデル；絶対不可視状態；絶対的一者；絶対の無；存在的衝動；存在のアハディーヤ；慈愛の息吹；ワーヒド,topic=イスラム神学；,publisher=~,other=memo+:申命記；memo+:クルアーン
+:m #*# RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.12 / w=珪藻；粒径,topic=物性：珪藻土,publisher=~,other=~
+
+:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.150 / w=,topic=イスラム神学：「美名」；,publisher=~,other=
+//memo+:申命記；memo+:クルアーン
 
 :m #*# RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.~ / w=~,topic=~,publisher=~,other=q+:q-id.C7M3:(1^2+2^2+...)：一般式；q+:q-id.9JUS:from:q-id.C7M3 / N+
 
@@ -1484,7 +1496,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.145 / w=御不例,topic=,publisher=~,other=timeline+:折衝～田母沢滞在
+:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.152 / w=,topic=,publisher=~,other=map+:日光市本町；利根川鉄橋
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1714,7 +1726,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習;字;, about=,other=,id=~,content=部;眼;窩;認;識;内;向;同;警;視;報;徳;競;場;横;浜;路;傍;営;夜;必;然;非;業;属;原;敬;加;藤;閣;兵;衛;夜;昼;集;積;監;督;務;要;請;襲;撃;刻;印;
+:m #*# / memo:other(m:other) / topic=習;字;, about=,other=,id=~,content=部;局;政;治;義;務;御;徳;育;優;美;少;数;多;葉;音;宮;浦;和;
 
 
 
@@ -2247,6 +2259,10 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=SW21(browser=tor) / media=環球時報 / theme=グリーンメタノール,content=設備投資；植林との比較；投資額；回収年限,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=8CHJ(browser=yan) / media=ei / theme=米国：歴史試験：問題文：イスラエル、パレスチナ：国会議員,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=0MRW(browser=yan) / media=ei / theme=アカバ[aqaba]会合；パレスチナ；イスラエル；入植者による襲撃；パレスチナ人による攻撃,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=N5ZP(browser=yan) / media=ei / theme=地震：トルコ：ガザ：パレスチナ,content=~,w=Majdi-Davabih;Abdulkarim-abu-Jalhoum / genre=~ / other=~
@@ -2343,7 +2359,7 @@ zionists
 //template
 :PHOTO 記録 / 文書：自作メモ / occasion=~ / for=~ / doc=~,other=~
 
-:PHOTO 記録 / 文書：自作メモ / occasion=お父さんの遺産：預金：相続 / for=下書き、草案：お兄さんに、一時、預ける：契約文書、草案 / doc=~,other=~
+:PHOTO 記録 / 文書：自作メモ / occasion=お父さんの遺産：預金：相続 / for=下書き、草案：お兄さんに、一時、預ける：契約文書、草案 / doc=~,other=自作。お兄さんに提示は、していない
 
 :PHOTO 記録 / 文書：自作メモ / occasion=焼酎漬け / for=混合：実験：ニンニク＋レモン：沈殿後、また攪拌。どうなるか、ゲルは。 / doc=~,other=~
 
@@ -2742,6 +2758,7 @@ books_read
 ph_
 percussion
 m_id_
+lets,haja_
 i_any
 genre_res
 daylog
