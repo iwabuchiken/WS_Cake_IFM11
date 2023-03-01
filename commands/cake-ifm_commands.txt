@@ -938,7 +938,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 ###2021年6月18日8:55:14
 ============================== memo : lets,haja_
-// haja : genre_list
+// haja : genre_list↓
 //template
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=XXX / content=XXX
@@ -1274,6 +1274,12 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 
 :VIDEO / 記録 / topic=経過記録：焼酎漬け：混合 / content=混合を作って、３日目。沈殿物の様子。瓶を傾けてみる。,for=~,file-id=2022-12-19_00-31-25_000.jpg,other=~
+###2023年3月1日15:24:00
+======================== JVE : programming
+//template
+:m RES #*# / free# JVEMV6 57#_5:X / JVEMV6.programming:57.5:random-id-manager / topics=~,w=~,s=~,i=~,doc=~,other=~
+
+:m RES #*# / free# JVEMV6 57#_5:1 / JVEMV6.programming:57.5:random-id-manager / topics=sketch:necessary-files,w=~,s=~,i=~,doc=~,other=~
 
 
 ======== memo : JVE : dessin
@@ -1478,7 +1484,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.12 / w=珪藻；粒径,topic=物性：珪藻土,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.150 / w=,topic=イスラム神学：「美名」；,publisher=~,other=
+:m #*# RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.184 / w=ヤスリブ；ハディージャ,topic=イスラム神学,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
 
 :m #*# RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.~ / w=~,topic=~,publisher=~,other=q+:q-id.C7M3:(1^2+2^2+...)：一般式；q+:q-id.9JUS:from:q-id.C7M3 / N+
@@ -1496,7 +1502,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.152 / w=,topic=,publisher=~,other=map+:日光市本町；利根川鉄橋
+:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.153 / w=観瀑亭[かんばくてい；広芝御茶屋；,topic=,publisher=~,other=map+:皇居＋赤坂離宮；timeline+:烈震～戒厳令裁可
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -2195,6 +2201,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=7ZEN / theme=アルゴリズム解析 / genre=~,content=~,w=実行時間解析；線型探索 / session-number=~ / doc=~,other=~
+
 :m #*# RES / free / res-id=XFBL / theme=米、換算 / genre=gwahag:ilban,content=~,w=「釜[ふ」 / session-number=~ / doc=~,other=occasion:『論語』「雍也」
 
 :m #*# RES / free / res-id=WYL6 / theme=モーリタニア / genre=areas:africa,content=位置；周辺国,w=~ / session-number=~ / doc=~,other=~
@@ -2259,6 +2267,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=JWJC(browser=yan) / media=ei / theme=パレスチナ：植民者による襲撃,content=~,w=Huwwara;Evyatar;Yitzhar / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=SW21(browser=tor) / media=環球時報 / theme=グリーンメタノール,content=設備投資；植林との比較；投資額；回収年限,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=8CHJ(browser=yan) / media=ei / theme=米国：歴史試験：問題文：イスラエル、パレスチナ：国会議員,content=~,w=~ / genre=~ / other=~
