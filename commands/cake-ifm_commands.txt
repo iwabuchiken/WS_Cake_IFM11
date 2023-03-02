@@ -941,7 +941,9 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 // haja : genre_list↓
 //template
 //:m :lets / action activity / やること / genre=XXX / content=XXX
-:m :haja,lets / action activity / やること / genre=XXX / content=XXX
+:m :haja,lets / action activity / やること / genre=XXX / content=XXX,other=XXX
+
+:m :haja,lets / action activity / やること / genre=音楽、楽器 / content=XXX尺八、篠笛で、歌われなかった歌を、歌おうじゃないか,other=翌日の追記：否
 
 :m :haja,lets / action activity / やること / genre=XXX / content=楕円席部などを習得して、世の役に立つ業[わざ]を、為そうじゃないか。
 
@@ -970,7 +972,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 
 //genre_list
 学びについて
-
+音楽、楽器
 
 ============================== memo : 温度	
 ###2022年8月4日10:29:53
@@ -1482,9 +1484,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.12 / w=珪藻；粒径,topic=物性：珪藻土,publisher=~,other=~
+:m #*# RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.18 / w=レイリー散乱；,topic=物性,publisher=~,other=calc+:レイリー散乱：数値、算定
 
-:m #*# RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.184 / w=ヤスリブ；ハディージャ,topic=イスラム神学,publisher=~,other=
+:m #*# RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.189 / w=マディーナ；巡礼,topic=イスラム神学,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
 
 :m #*# RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.~ / w=~,topic=~,publisher=~,other=q+:q-id.C7M3:(1^2+2^2+...)：一般式；q+:q-id.9JUS:from:q-id.C7M3 / N+
@@ -1502,7 +1504,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.153 / w=観瀑亭[かんばくてい；広芝御茶屋；,topic=,publisher=~,other=map+:皇居＋赤坂離宮；timeline+:烈震～戒厳令裁可
+:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.157 / w=湯浅倉平,topic=,publisher=~,other=timeline+:9/4:閣議～緊急勅令～9/16、内務省、命令
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1732,7 +1734,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習;字;, about=,other=,id=~,content=部;局;政;治;義;務;御;徳;育;優;美;少;数;多;葉;音;宮;浦;和;
+:m #*# / memo:other(m:other) / topic=習;;字;;, about=,other=,id=~,content=族;矢;召;命;奈;遠;近;縦;従;番;御;庭;殿;赤;坂;茶;屋;族;徒;命;令;帯;常;告;諭;福;寿;紙;幅;
 
 
 
