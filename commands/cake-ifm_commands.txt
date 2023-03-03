@@ -1484,12 +1484,16 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m 3*3 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.229 / w=本末制度；寺受制度；宗門人別帳,topic=~,publisher=~,other=~
+//tl:timeline
+
 :m #*# RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.18 / w=レイリー散乱；,topic=物性,publisher=~,other=calc+:レイリー散乱：数値、算定
 
-:m #*# RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.189 / w=マディーナ；巡礼,topic=イスラム神学,publisher=~,other=
+:m #*# RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.207 / w=援助者；アブー・バクル；正統カリフ；ウマル,topic=イスラム神学,publisher=~,other=図式＋：初めのカリフたち、４代
 //memo+:申命記；memo+:クルアーン
 
-:m #*# RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.~ / w=~,topic=~,publisher=~,other=q+:q-id.C7M3:(1^2+2^2+...)：一般式；q+:q-id.9JUS:from:q-id.C7M3 / N+
+:m 2*2 RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.78 / w=~,topic=３の倍数：群かどうか；(-1)x(-1)=1:なぜか,publisher=~,other=
+
 
 :m #*# RES / JVEMV6 64#240_yoshizawa_math / 『群論入門』 著者=芳沢光雄,校注=~ / p.12 / w=写像；逆像,topic=群論：定義；,publisher=~,other=~
 
@@ -1734,7 +1738,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習;;字;;, about=,other=,id=~,content=族;矢;召;命;奈;遠;近;縦;従;番;御;庭;殿;赤;坂;茶;屋;族;徒;命;令;帯;常;告;諭;福;寿;紙;幅;
+:m #*# / memo:other(m:other) / topic=習;;字;;, about=,other=,id=~,content=死;援;助;指;名;初;項;差;別;願;寺;秀;吉;慶;弔;署;長;戦;争;藤;後;指;示;刻;印;太;郎;富;坂;塚;
 
 
 
@@ -2269,6 +2273,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=--(browser=yan) / media=ei / theme=パレスチナ：ガザ：拘留：釈放,content=Ahmed-Abu-Jazal,w=PCHR:palestine-center-for-human-rights / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=JWJC(browser=yan) / media=ei / theme=パレスチナ：植民者による襲撃,content=~,w=Huwwara;Evyatar;Yitzhar / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=SW21(browser=tor) / media=環球時報 / theme=グリーンメタノール,content=設備投資；植林との比較；投資額；回収年限,w=~ / genre=~ / other=~
@@ -2745,6 +2751,12 @@ C:\WORKS_2\shortcuts_docs\kupic_cando.ods
 //2022年11月30日12:57:59
 C:\WORKS_2\shortcuts_docs\sakura_shortcut_keys.txt
 
+###2023年3月2日18:19:12
+=================== lollipop
+//https://www.w3schools.com/mysql/mysql_like.asp
+//https://stackoverflow.com/questions/4172195/mysql-like-multiple-values
+SELECT * FROM images WHERE memos LIKE '%jap.flute%' and memos LIKE '%VIDEO%' ORDER BY `images`.`id` DESC
+LIMIT 0 , 30
 
 
 ###2022年3月1日8:54:48
