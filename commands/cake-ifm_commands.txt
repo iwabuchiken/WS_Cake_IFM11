@@ -1484,12 +1484,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m 3*3 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.229 / w=本末制度；寺受制度；宗門人別帳,topic=~,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.235 / w=竹田聴州；浄土宗；郷村制,topic=~,publisher=~,other=~
 //tl:timeline
 
-:m #*# RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.18 / w=レイリー散乱；,topic=物性,publisher=~,other=calc+:レイリー散乱：数値、算定
+:m 3*3 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.19 / w=ポインティング・ベクトル,topic=物性,publisher=~,other=memo+:強度;
 
-:m #*# RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.207 / w=援助者；アブー・バクル；正統カリフ；ウマル,topic=イスラム神学,publisher=~,other=図式＋：初めのカリフたち、４代
+:m 2*2 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.214 / w=イブン・タイミーヤ；,topic=イスラム神学,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
 
 :m 2*2 RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.78 / w=~,topic=３の倍数：群かどうか；(-1)x(-1)=1:なぜか,publisher=~,other=
@@ -1508,7 +1508,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.157 / w=湯浅倉平,topic=,publisher=~,other=timeline+:9/4:閣議～緊急勅令～9/16、内務省、命令
+:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.167 / w=正力松太郎；後藤新平；,topic=,publisher=~,other=th+;q+:後藤の、正力松太郎への指示の、内容について：在日中国人
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1738,7 +1738,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習;;字;;, about=,other=,id=~,content=死;援;助;指;名;初;項;差;別;願;寺;秀;吉;慶;弔;署;長;戦;争;藤;後;指;示;刻;印;太;郎;富;坂;塚;
+:m #*# / memo:other(m:other) / topic=習;;字;;, about=,other=,id=~,content=委;員;金;銀;助;奏;徳;都;宗;派;任;明;慶;安;乗;検;算;道;徳;
 
 
 
@@ -2207,6 +2207,10 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=Z4P3(new) / theme=√２など、図形で描くと、どうなるか。 / genre=math:geometry,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m 2*3 RES / free / res-id=GMTS / theme=n乗和 / genre=~,content=~,w=~ / session-number=s-id.GM78 / doc=~,other=~
+
 :m #*# RES / free / res-id=7ZEN / theme=アルゴリズム解析 / genre=~,content=~,w=実行時間解析；線型探索 / session-number=~ / doc=~,other=~
 
 :m #*# RES / free / res-id=XFBL / theme=米、換算 / genre=gwahag:ilban,content=~,w=「釜[ふ」 / session-number=~ / doc=~,other=occasion:『論語』「雍也」
@@ -2246,6 +2250,7 @@ jilihag:strany
 mandeunda:generalny
 math
 math:algebra
+math:geometry
 medical
 medical:obshchaya
 medical:treatment
@@ -2273,6 +2278,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=1S5M(browser=yan) / media=ei / theme=パレスチナ；EU；基金；イスラエル,content=教科書；医療予算,w=Oliver-Varhelyi / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=--(browser=yan) / media=ei / theme=パレスチナ：ガザ：拘留：釈放,content=Ahmed-Abu-Jazal,w=PCHR:palestine-center-for-human-rights / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=JWJC(browser=yan) / media=ei / theme=パレスチナ：植民者による襲撃,content=~,w=Huwwara;Evyatar;Yitzhar / genre=~ / other=~
