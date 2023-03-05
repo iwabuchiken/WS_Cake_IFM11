@@ -1489,7 +1489,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 3*3 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.19 / w=ポインティング・ベクトル,topic=物性,publisher=~,other=memo+:強度;
 
-:m 2*2 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.214 / w=イブン・タイミーヤ；,topic=イスラム神学,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.214 / w=知識：生得的；ウラマーゥ；シャリーア学；イブン・ハルドゥーン；イブン・ハンバル；,topic=イスラム神学,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
 
 :m 2*2 RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.78 / w=~,topic=３の倍数：群かどうか；(-1)x(-1)=1:なぜか,publisher=~,other=
@@ -1508,7 +1508,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.167 / w=正力松太郎；後藤新平；,topic=,publisher=~,other=th+;q+:後藤の、正力松太郎への指示の、内容について：在日中国人
+:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.182 / w=後藤新平；永田秀次郎；入江為守；甘粕正彦；大杉栄,topic=,publisher=~,other=新聞引用：報知新聞：遺体処理；map+:溜池山王、赤坂
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1519,7 +1519,7 @@ ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+
 
 :m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.78 / w=段祺瑞；汪兆銘；蒋介石,topic=~,publisher=~,other=
 
-:m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.186 / w=上縦束；興奮性細胞；ウェルニケ野,topic=~,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.159 / w=興奮性細胞；活動電位；静止膜電位,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#126.04_mooshi:万章上 / 『孟子』 著者=~,校注=~ / p.322 / w=,topic=~,other=sketch+:sk-id.JECT:戈[か～戟[げき～矛[ほこ
 
@@ -1738,7 +1738,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習;;字;;, about=,other=,id=~,content=委;員;金;銀;助;奏;徳;都;宗;派;任;明;慶;安;乗;検;算;道;徳;
+:m #*# / memo:other(m:other) / topic=習;;;字;;;, about=,other=,id=~,content=補;色;捕;獲;余;勢;散;乱;場;所;微;積;射;撃;光;線;磁;波;細;胞;興;奮;抑;制;脊;髄;反;応;
 
 
 
@@ -2278,6 +2278,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=VDE5(browser=yan) / media=ei / theme=EP;Israel;trips,content=~,w=Roberta-Metsola / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=1S5M(browser=yan) / media=ei / theme=パレスチナ；EU；基金；イスラエル,content=教科書；医療予算,w=Oliver-Varhelyi / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=--(browser=yan) / media=ei / theme=パレスチナ：ガザ：拘留：釈放,content=Ahmed-Abu-Jazal,w=PCHR:palestine-center-for-human-rights / genre=~ / other=~
@@ -2793,7 +2795,7 @@ lets,haja_
 i_any
 genre_res
 daylog
-article__
+article__ ]]
 _memo_other
 --------------------
 経過記録用途
