@@ -1004,6 +1004,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,other=~ / lang=ja
 
+:m :th,mysl / topic=人生の指針 / content=仁義礼智。人にどんな感化を及ぼすか。,other=付け足し：file-id:2023-03-07_01-30-31_000.jpg / lang=ja
+
 :m :th,mysl / topic=人生の指針 / content=科学に関する探求。宗教、思想に対するそれ。時間は、半々で宜しい。,other=~ / lang=ja
 
 :m :th,mysl / topic=思ったこと：宗教 / content=「南無阿弥陀仏」でも、良いのだけれど、その一言句[ごんく]では、…,other=~ / lang=ja
@@ -1508,7 +1510,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.191 / w=倉富勇次郎；赤池（警視総監）,topic=,publisher=~,other=map+:越中島：東京都
+:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.213 / w=司法事務官；,topic=,publisher=~,other=
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1885,6 +1887,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『真空のからくり』 / 著者=山田克哉 / 今回、読んでいない
+
+:bookmemo / 読んだ本 / 『群論入門』 / 著者=芳沢光雄 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『私はなぜイスラーム教徒になったのか』 / 著者=中田考 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『超越数とはなにか』 / 著者=西岡久美子 / 途中 ここまで
@@ -2094,14 +2100,16 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / subject=常設のお供え物 / location=自室 / content=お神酒：お供え物：注ぎ直したところ,for=~,other=~
 
 //経過記録用途
+:PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
+
+:PHOTO 記録 / 経過記録 / target=人参：プランターに植えた / other=食用の人参。おせちの際に買ったもの。冷蔵庫。根が生えていた。,occasion=~,id=file-id:2023-03-07_11-46-57_000.jpg
+
 :PHOTO 記録 / 経過記録；作ったもの / food=大葉、味噌。混ぜもの / material=大葉；味噌 / type=~,other=お酒のつまみとして,occasion=~,id=~
 
 //2023年2月13日12:11:05
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=スライス：取り出した,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：５（単位：スプーン）；ニンニク：５；生姜：５；スペアミント：５；ディル：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2023-03-06_00-53-39_000.jpg
-
-
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：５（単位：スプーン）；ニンニク：５；生姜：５；スペアミント：５；ディル：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。２日目。攪拌した。しばらくしてから,occasion=経過観察,id=2023-03-06_00-53-39_000.jpg
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ローズマリー：３；ディル：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察；再度、攪拌。丸２日。追加、ローズマリー。丸３日。追加、ディル。丸１日。,id=2023-02-13_01-36-56_000.jpg
 
@@ -2375,6 +2383,8 @@ zionists
 ============================ コレポン
 //template
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
+
+:PHOTO 記録 / 文書：コレポン / #*# / about=ネットバンキング。再開手続き。窓口で行いたい。可否、問い合わせ。,with=コールセンター,content=~,other=~ / N+
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=コロナワクチン：接種：申し込み,with=福島内科医院,content=予約を取る：３回目,other=~ / N+
 
