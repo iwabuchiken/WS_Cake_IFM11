@@ -1080,7 +1080,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
 :m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
@@ -1486,12 +1486,14 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#246_2_shokun_eto_kobayashi / 『「諸君！」の３０年』  江藤淳、小林秀雄』 著者=~,校注=~ / p.328 / w=~,topic=~,publisher=~,other=timetable+:宣長、契沖、上田秋成
+
 :m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.235? / w=講；,topic=~,publisher=~,other=~
 //tl:timeline
 
 :m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.29 / w=エーロ・ゾル；スモッグ,topic=物性,publisher=~,other=memo+:ルビー
 
-:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.214 / w=知識：生得的；ウラマーゥ；シャリーア学；イブン・ハルドゥーン；イブン・ハンバル；,topic=イスラム神学,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.245 / w=シーア派；五信十行；不特定代理；最高指導者,topic=イスラム神学,publisher=~,other=図式：ムハンマド～イマム第３代、フサイン
 //memo+:申命記；memo+:クルアーン
 
 :m 2*2 RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.78 / w=~,topic=３の倍数：群かどうか；(-1)x(-1)=1:なぜか,publisher=~,other=
@@ -1510,7 +1512,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.213 / w=司法事務官；,topic=,publisher=~,other=
+:m 3*3 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.218 / w=,topic=,publisher=~,other=table+:被虐殺者：人数、推計
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1631,6 +1633,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m :? #*# / topic=孟子 / content=孟子の「惻隠の情」：イスラム世界で、相応するもの、あるか。アフリカ諸地域は？ / status=~ / other=~,id=~
 
 :m :? #*# / topic=math:グラフの線分の、下部：線分の両端を対角点とする、四角形：両者の、面積の、比率 / content=~ / status=~ / other=~,id=q-id.THXO
 
@@ -2109,7 +2113,7 @@ G:\photo-books_HD\list-of-books.txt
 //2023年2月13日12:11:05
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=スライス：取り出した,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：５（単位：スプーン）；ニンニク：５；生姜：５；スペアミント：５；ディル：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。２日目。攪拌した。しばらくしてから,occasion=経過観察,id=2023-03-06_00-53-39_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：５（単位：スプーン）；ニンニク：５；生姜：５；スペアミント：５；ディル：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。３日目。この後、飲み始めた。,occasion=経過観察,id=2023-03-06_00-53-39_000.jpg
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：４（単位：スプーン）；ニンニク：５；生姜：５；ローズマリー：３；ディル：３,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察；再度、攪拌。丸２日。追加、ローズマリー。丸３日。追加、ディル。丸１日。,id=2023-02-13_01-36-56_000.jpg
 
@@ -2291,6 +2295,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=RGLN(browser=yan) / media=ei / theme=パレスチナ；難民キャンプ；強襲；イスラエル；殺害,content=~,w=ジェニン；Aqabat-Jabr難民キャンプ；Karf-Dan村 / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=VDE5(browser=yan) / media=ei / theme=EP;Israel;trips,content=~,w=Roberta-Metsola / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=1S5M(browser=yan) / media=ei / theme=パレスチナ；EU；基金；イスラエル,content=教科書；医療予算,w=Oliver-Varhelyi / genre=~ / other=~
