@@ -943,6 +943,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=XXX / content=XXX,other=XXX
 
+:m :haja,lets / action activity / やること / genre=論語 / content=論語。４回目。主題を挙げて、該当章、採集しよう,other=
+
 :m :haja,lets / action activity / やること / genre=音楽、楽器 / content=XXX尺八、篠笛で、歌われなかった歌を、歌おうじゃないか,other=翌日の追記：否
 
 :m :haja,lets / action activity / やること / genre=XXX / content=楕円席部などを習得して、世の役に立つ業[わざ]を、為そうじゃないか。
@@ -1003,6 +1005,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,other=~ / lang=ja
+
+:m :th,mysl / topic=人生の指針 / content=吉田満氏。「個の確立がなかった」。論孟を、遵守する,other=~ / lang=ja
 
 :m :th,mysl / topic=人生の指針 / content=仁義礼智。人にどんな感化を及ぼすか。,other=付け足し：file-id:2023-03-07_01-30-31_000.jpg / lang=ja
 
@@ -1486,15 +1490,18 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#246_2_shokun_eto_kobayashi / 『「諸君！」の３０年』  江藤淳、小林秀雄』 著者=~,校注=~ / p.328 / w=~,topic=~,publisher=~,other=timetable+:宣長、契沖、上田秋成
+:m #*# RES / JVEMV6 64#249_1_minokagami / 『新　日本古典文学大系　７４　仮名草子集　身の鏡』 著者=~,校注=渡辺守邦、渡辺憲司 / p.~ / w=~,topic=作者について,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.235? / w=講；,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#246_2_shokun_eto_kobayashi / 『「諸君！」の３０年』  江藤淳、小林秀雄』 著者=~,校注=~ / p.330 / w=~,topic=~,publisher=~,other=一覧：荻生徂徠、本居宣長、他;timetable+:大政奉還、鳥羽伏見の戦い
+
+:m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.255 / w=,topic=吉田兼倶[かねとも；,publisher=~,other=list+:神道。宗派。；list+:江戸時代。古学、他
 //tl:timeline
 
 :m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.29 / w=エーロ・ゾル；スモッグ,topic=物性,publisher=~,other=memo+:ルビー
 
-:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.245 / w=シーア派；五信十行；不特定代理；最高指導者,topic=イスラム神学,publisher=~,other=図式：ムハンマド～イマム第３代、フサイン
+:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.75 / w=アブデュルハミト・イブラヒム,topic=天御中主；,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
+//図式：ムハンマド～イマム第３代、フサイン
 
 :m 2*2 RES / JVEMV6 64#243_sosuu / 『素数入門』 著者=芹沢正三,校注=~ / p.78 / w=~,topic=３の倍数：群かどうか；(-1)x(-1)=1:なぜか,publisher=~,other=
 
@@ -1512,7 +1519,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m 3*3 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.218 / w=,topic=,publisher=~,other=table+:被虐殺者：人数、推計
+:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.234 / w=,topic=被収容者；朝鮮人、保護,publisher=~,other=
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1744,7 +1751,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習;;;字;;;, about=,other=,id=~,content=知;識;獲;得;秀;次;郎;慶;態;図;浅;来;臣;倉;富;勇;敢;赤;穂;総;督;森;岡;林;井;衛;華;香;
+:m #*# / memo:other(m:other) / topic=習;;;字;;;, about=,other=,id=~,content=慶;寺;事;政;界;奉;還;歳;兼;倉;勢;富;永;
 
 
 
@@ -2295,25 +2302,12 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=RBP2(browser=yan) / media=ei / theme=パレスチナ；刑務所；金員窃取,content=~,w=silwan / genre=~ / other=~
 :m #*# RES / free# S87DP9 記事読み / id=RGLN(browser=yan) / media=ei / theme=パレスチナ；難民キャンプ；強襲；イスラエル；殺害,content=~,w=ジェニン；Aqabat-Jabr難民キャンプ；Karf-Dan村 / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=VDE5(browser=yan) / media=ei / theme=EP;Israel;trips,content=~,w=Roberta-Metsola / genre=~ / other=~
 
-:m #*# RES / free# S87DP9 記事読み / id=1S5M(browser=yan) / media=ei / theme=パレスチナ；EU；基金；イスラエル,content=教科書；医療予算,w=Oliver-Varhelyi / genre=~ / other=~
 
-:m #*# RES / free# S87DP9 記事読み / id=--(browser=yan) / media=ei / theme=パレスチナ：ガザ：拘留：釈放,content=Ahmed-Abu-Jazal,w=PCHR:palestine-center-for-human-rights / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=JWJC(browser=yan) / media=ei / theme=パレスチナ：植民者による襲撃,content=~,w=Huwwara;Evyatar;Yitzhar / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=SW21(browser=tor) / media=環球時報 / theme=グリーンメタノール,content=設備投資；植林との比較；投資額；回収年限,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=8CHJ(browser=yan) / media=ei / theme=米国：歴史試験：問題文：イスラエル、パレスチナ：国会議員,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=0MRW(browser=yan) / media=ei / theme=アカバ[aqaba]会合；パレスチナ；イスラエル；入植者による襲撃；パレスチナ人による攻撃,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=N5ZP(browser=yan) / media=ei / theme=地震：トルコ：ガザ：パレスチナ,content=~,w=Majdi-Davabih;Abdulkarim-abu-Jalhoum / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=9Q96(browser=yan) / media=ei / theme=Israel:Nablus-raid:Palestine,content=11-people-killed,w=Abdalfattah;Dakhil;Isleem / genre=~ / other=~
 
 //------------ article_genre
 事件
