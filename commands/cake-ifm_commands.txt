@@ -1084,7 +1084,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
 :m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
@@ -1490,6 +1490,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.~ / w=下野新聞；潮田千勢子,topic=~,publisher=~,other=map+:栃木県：宇都宮市；渡良瀬川：堺村
+
 :m #*# RES / JVEMV6 64#249_1_minokagami / 『新　日本古典文学大系　７４　仮名草子集　身の鏡』 著者=~,校注=渡辺守邦、渡辺憲司 / p.~ / w=~,topic=作者について,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#246_2_shokun_eto_kobayashi / 『「諸君！」の３０年』  江藤淳、小林秀雄』 著者=~,校注=~ / p.330 / w=~,topic=~,publisher=~,other=一覧：荻生徂徠、本居宣長、他;timetable+:大政奉還、鳥羽伏見の戦い
@@ -1519,7 +1521,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#XX_-- / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.5 / w=~,topic=N等分：表面積,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.234 / w=,topic=被収容者；朝鮮人、保護,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#218_chosenjin_gyakusatsu / 『関東大震災　「朝鮮人虐殺の真実」』 著者=工藤美代子,校注=~,出版社=産経新聞出版 / p.264 / w=詔書；詔勅；勅語；,topic=新聞記事：警察官,publisher=~,other=timeline+:復興詔書～挙式予定日；timeline+:朴烈、連行～判決
 //timeline+:伊藤暗殺～日韓併合条約、公布
 
 //template:directives
@@ -1897,6 +1899,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『微粒子から探る物性七変化』 / 著者=前野昌弘 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『関東大震災　「朝鮮人虐殺の真実」』 / 著者=工藤美代子 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『真空のからくり』 / 著者=山田克哉 / 今回、読んでいない
 
@@ -2302,6 +2308,7 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=KFZC(browser=yan) / media=ei / theme=パレスチナ；イスラエル植民者；抵抗,content=~,w=Deir-Yassin / genre=~ / other=~
 :m #*# RES / free# S87DP9 記事読み / id=RBP2(browser=yan) / media=ei / theme=パレスチナ；刑務所；金員窃取,content=~,w=silwan / genre=~ / other=~
 :m #*# RES / free# S87DP9 記事読み / id=RGLN(browser=yan) / media=ei / theme=パレスチナ；難民キャンプ；強襲；イスラエル；殺害,content=~,w=ジェニン；Aqabat-Jabr難民キャンプ；Karf-Dan村 / genre=~ / other=~
 
