@@ -1490,6 +1490,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#254_hukanzen / 『不完全性定理とはなにか』 著者=竹内薫,校注=~ / p.115 / w=ゲーデル数,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#252_sennoo_gekitai / 『図解　洗脳撃退マニュアル』 著者=高橋紳吾、監修,校注=~ / p.34 / w=ハリ・クリシュナ,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.154 / w=~,topic=事例,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.~ / w=下野新聞；潮田千勢子,topic=~,publisher=~,other=map+:栃木県：宇都宮市；渡良瀬川：堺村
 
 :m #*# RES / JVEMV6 64#249_1_minokagami / 『新　日本古典文学大系　７４　仮名草子集　身の鏡』 著者=~,校注=渡辺守邦、渡辺憲司 / p.~ / w=~,topic=作者について,publisher=~,other=~
@@ -1501,7 +1507,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.29 / w=エーロ・ゾル；スモッグ,topic=物性,publisher=~,other=memo+:ルビー
 
-:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.75 / w=アブデュルハミト・イブラヒム,topic=天御中主；,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.82 / w=島地黙雷；ハナフィー派；,topic=；,publisher=~,other=timeline+:元寇
 //memo+:申命記；memo+:クルアーン
 //図式：ムハンマド～イマム第３代、フサイン
 
@@ -2308,6 +2314,7 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=VZLE(browser=yan) / media=ei / theme=イスラエル；結婚禁止,content=~,w=~ / genre=~ / other=~
 :m #*# RES / free# S87DP9 記事読み / id=KFZC(browser=yan) / media=ei / theme=パレスチナ；イスラエル植民者；抵抗,content=~,w=Deir-Yassin / genre=~ / other=~
 :m #*# RES / free# S87DP9 記事読み / id=RBP2(browser=yan) / media=ei / theme=パレスチナ；刑務所；金員窃取,content=~,w=silwan / genre=~ / other=~
 :m #*# RES / free# S87DP9 記事読み / id=RGLN(browser=yan) / media=ei / theme=パレスチナ；難民キャンプ；強襲；イスラエル；殺害,content=~,w=ジェニン；Aqabat-Jabr難民キャンプ；Karf-Dan村 / genre=~ / other=~

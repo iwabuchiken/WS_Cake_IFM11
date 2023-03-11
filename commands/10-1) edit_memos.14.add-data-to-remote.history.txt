@@ -1,3 +1,11 @@
+### 2023/03/11 22:28:07
+total_data => 13
+new_data_Success => 12
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
 ### 2023/03/10 22:39:42
 total_data => 16
 new_data_Success => 15
@@ -8910,6 +8918,8 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
 
 done
 
