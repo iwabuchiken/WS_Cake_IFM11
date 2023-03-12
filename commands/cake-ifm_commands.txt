@@ -1490,24 +1490,33 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#254_hukanzen / 『不完全性定理とはなにか』 著者=竹内薫,校注=~ / p.115 / w=ゲーデル数,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#254_hukanzen / 『不完全性定理とはなにか』 著者=竹内薫,校注=~ / p.109 / w=ゲーデル数,topic=~,publisher=~,other=calc+:ゲーデル数
 
 :m #*# RES / JVEMV6 64#252_sennoo_gekitai / 『図解　洗脳撃退マニュアル』 著者=高橋紳吾、監修,校注=~ / p.34 / w=ハリ・クリシュナ,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.154 / w=~,topic=事例,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.~ / w=下野新聞；潮田千勢子,topic=~,publisher=~,other=map+:栃木県：宇都宮市；渡良瀬川：堺村
+:m #*# RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.9 / w=地方官会議；,topic=~,publisher=~,other=map+:栃木県：佐野市：南西部；tl+:庄造～明治１１年；memo+:六角家；memo+:富三（正造の父）
+//tl+:
+//list+
+//map+:
+//memo+:
+
 
 :m #*# RES / JVEMV6 64#249_1_minokagami / 『新　日本古典文学大系　７４　仮名草子集　身の鏡』 著者=~,校注=渡辺守邦、渡辺憲司 / p.~ / w=~,topic=作者について,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#246_2_shokun_eto_kobayashi / 『「諸君！」の３０年』  江藤淳、小林秀雄』 著者=~,校注=~ / p.330 / w=~,topic=~,publisher=~,other=一覧：荻生徂徠、本居宣長、他;timetable+:大政奉還、鳥羽伏見の戦い
 
-:m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.255 / w=,topic=吉田兼倶[かねとも；,publisher=~,other=list+:神道。宗派。；list+:江戸時代。古学、他
+:m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.263 / w=興福寺,topic=,publisher=~,other=map+:松坂市：三重県；tl+:平田篤胤;memo+:大国主；memo+:天理教；memo+:神祇官；map+:天理市：奈良県
 //tl:timeline
+//tl+:
+//list+
+//map+:
+//memo+:
 
 :m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.29 / w=エーロ・ゾル；スモッグ,topic=物性,publisher=~,other=memo+:ルビー
 
-:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.82 / w=島地黙雷；ハナフィー派；,topic=；,publisher=~,other=timeline+:元寇
+:m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
 //図式：ムハンマド～イマム第３代、フサイン
 
@@ -1906,21 +1915,13 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『イスラームのロジック』 / 著者=中田考 /
+
 :bookmemo / 読んだ本 / 『微粒子から探る物性七変化』 / 著者=前野昌弘 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『関東大震災　「朝鮮人虐殺の真実」』 / 著者=工藤美代子 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『真空のからくり』 / 著者=山田克哉 / 今回、読んでいない
-
-:bookmemo / 読んだ本 / 『群論入門』 / 著者=芳沢光雄 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『私はなぜイスラーム教徒になったのか』 / 著者=中田考 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『超越数とはなにか』 / 著者=西岡久美子 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『化学雑話』 / 著者=林良重、編 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『発達障害の素顔』 / 著者=山口真美 / 
 
 
 
@@ -2129,6 +2130,9 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / 経過記録；作ったもの / food=大葉、味噌。混ぜもの / material=大葉；味噌 / type=~,other=お酒のつまみとして,occasion=~,id=~
 
+//
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：５（単位：スプーン）；ニンニク：５；生姜：５；スペアミント：５；ローズマリー：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。１日目。,occasion=経過観察,id=2023-03-12_00-53-02_000.jpg
+
 //2023年2月13日12:11:05
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / materialニンニク,liquor=麦焼酎：??ml,time=~,container=silver-cap-meduim / type=~,other=スライス：取り出した,occasion=経過観察,id=2023-02-12_21-35-37_000.jpg
 
@@ -2308,12 +2312,19 @@ zionists
 
 :m lang / lang=タイ語 / content=文字；発音,topic=~,other=~
 
+###2023年3月12日22:25:28
+========================== :m : read docs, read_doc
+//template
+:m #*# / read-docs / theme=~,content=~,w=~ / genre=~ / other=~
+
 
 
 ###2021年9月22日10:19:44
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=UMN2(browser=yan) / media=ei / theme=~,content=~,w=Yair-Lapid;EU;Association-agreement;Europe-Israel-Association-Council / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=VZLE(browser=yan) / media=ei / theme=イスラエル；結婚禁止,content=~,w=~ / genre=~ / other=~
 :m #*# RES / free# S87DP9 記事読み / id=KFZC(browser=yan) / media=ei / theme=パレスチナ；イスラエル植民者；抵抗,content=~,w=Deir-Yassin / genre=~ / other=~
 :m #*# RES / free# S87DP9 記事読み / id=RBP2(browser=yan) / media=ei / theme=パレスチナ；刑務所；金員窃取,content=~,w=silwan / genre=~ / other=~
@@ -2827,6 +2838,7 @@ daylog
 article__ ]]
 _memo_other
 --------------------
+read_doc
 経過記録用途
 video_shi
 res_
