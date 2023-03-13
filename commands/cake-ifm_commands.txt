@@ -1490,17 +1490,20 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#254_hukanzen / 『不完全性定理とはなにか』 著者=竹内薫,校注=~ / p.109 / w=ゲーデル数,topic=~,publisher=~,other=calc+:ゲーデル数
+:m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.30 / w=遊牧的価値観；砂漠的人間,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#254_hukanzen / 『不完全性定理とはなにか』 著者=竹内薫,校注=~ / p.110 / w=ゲーデル数,topic=~,publisher=~,other=calc+:ゲーデル数：式を算出
 
 :m #*# RES / JVEMV6 64#252_sennoo_gekitai / 『図解　洗脳撃退マニュアル』 著者=高橋紳吾、監修,校注=~ / p.34 / w=ハリ・クリシュナ,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.154 / w=~,topic=事例,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.9 / w=地方官会議；,topic=~,publisher=~,other=map+:栃木県：佐野市：南西部；tl+:庄造～明治１１年；memo+:六角家；memo+:富三（正造の父）
+:m 2*2 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.18 / w=,topic=赤池小四郎,publisher=~,other=ske+:阿弥陀堂
 //tl+:
 //list+
 //map+:
 //memo+:
+//ske+:
 
 
 :m #*# RES / JVEMV6 64#249_1_minokagami / 『新　日本古典文学大系　７４　仮名草子集　身の鏡』 著者=~,校注=渡辺守邦、渡辺憲司 / p.~ / w=~,topic=作者について,publisher=~,other=~
@@ -1568,13 +1571,14 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_5_kooyachoo / 『論語 公冶長』 著者=~,校注=~ / p.118 / w=,topic=,publisher=明治書院,other=ske+:sk-id.1QHQ:甲羅、亀
+:m #*# RES / JVEMV6 64#67_7_jutsuji / 『論語 述而』 著者=~,校注=~ / p.161 / w=,topic=魯、斉、衛：建国者：周公旦,publisher=明治書院,other=
 
 :m #*# RES / JVEMV6 64#67_4_rijin / 『論語 里仁』 著者=~,校注=~ / p.87 / w=,topic=,publisher=明治書院,other=ske+:sk-id.VVYP:爵[しゃく
 
 :m #*# RES / JVEMV6 64#67_3_hachiitsu / 『論語 八佾』 著者=~,校注=~ / p.85 / w=,topic=,publisher=明治書院,other=ske+:s-id.01J9:旗鉾[はたほこ～鉾[ほこ：銅鉾[どうぼこ
 
 //map+:河南省＋周囲；sketch+:木鐸：sketch-id=EN1B
+//ske+:sk-id.1QHQ:甲羅、亀
 
 
 :m #*# RES / JVEMV6 64#XX_-- / 『発達障害』 著者=岩波明,校注=~ / p.80 / w=~,topic=~,publisher=~,other=~
@@ -1768,7 +1772,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習;;;字;;;, about=,other=,id=~,content=慶;寺;事;政;界;奉;還;歳;兼;倉;勢;富;永;
+:m #*# / memo:other(m:other) / topic=, about=,other=,id=~,content=推;能;率;議;決;裁;民;主;観;党;角;造;富;豪;死;注;視;目;遊;牧;
 
 
 
@@ -2317,12 +2321,15 @@ zionists
 //template
 :m #*# / read-docs / theme=~,content=~,w=~ / genre=~ / other=~
 
+:m #*# / read-docs / theme=習近平：講話,content=人民代表大会：工作会議,w=毛沢東； / genre=~ / other=~
 
 
 ###2021年9月22日10:19:44
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=2611(Z611?)(browser=tor) / media=ptv / theme=イラン：石油輸出：増加量,content=１日当たり、増加量；１日当たり、産出量,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=UMN2(browser=yan) / media=ei / theme=~,content=~,w=Yair-Lapid;EU;Association-agreement;Europe-Israel-Association-Council / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=VZLE(browser=yan) / media=ei / theme=イスラエル；結婚禁止,content=~,w=~ / genre=~ / other=~
