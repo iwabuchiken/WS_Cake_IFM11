@@ -1006,6 +1006,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=ロシアの民謡を歌っている人たちの唄を聴くとき：佐渡おけさ：同じ、心の気持ちよさ,other=~ / lang=ja
+
+:m :th,mysl / topic=音楽作りについて / content=己の中にある思想。を、超えた音楽は、作れない,other=~ / lang=ja
+
 :m :th,mysl / topic=人生の指針 / content=吉田満氏。「個の確立がなかった」。論孟を、遵守する,other=~ / lang=ja
 
 :m :th,mysl / topic=人生の指針 / content=仁義礼智。人にどんな感化を及ぼすか。,other=付け足し：file-id:2023-03-07_01-30-31_000.jpg / lang=ja
@@ -1490,15 +1494,15 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.30 / w=遊牧的価値観；砂漠的人間,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.43 / w=ハディージャ；アブー・ジャフル；タクワー,topic=~,publisher=~,other=tl+:メディナ～メッカ～メッカ包囲；
 
 :m #*# RES / JVEMV6 64#254_hukanzen / 『不完全性定理とはなにか』 著者=竹内薫,校注=~ / p.110 / w=ゲーデル数,topic=~,publisher=~,other=calc+:ゲーデル数：式を算出
 
 :m #*# RES / JVEMV6 64#252_sennoo_gekitai / 『図解　洗脳撃退マニュアル』 著者=高橋紳吾、監修,校注=~ / p.34 / w=ハリ・クリシュナ,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.154 / w=~,topic=事例,publisher=~,other=~
+:m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.222 / w=消費者契約法１０条,topic=事例,publisher=~,other=~
 
-:m 2*2 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.18 / w=,topic=赤池小四郎,publisher=~,other=ske+:阿弥陀堂
+:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.22 / w=,topic=六角家,publisher=~,other=ske+:地蔵堂
 //tl+:
 //list+
 //map+:
@@ -1510,7 +1514,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#246_2_shokun_eto_kobayashi / 『「諸君！」の３０年』  江藤淳、小林秀雄』 著者=~,校注=~ / p.330 / w=~,topic=~,publisher=~,other=一覧：荻生徂徠、本居宣長、他;timetable+:大政奉還、鳥羽伏見の戦い
 
-:m 3*3 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.306 / w=,topic=,publisher=~,other=tl+:創価学会、改称～出版妨害事件
+:m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.310 / w=新新宗教；オウム；三内丸山遺跡；,topic=縄文時代；,publisher=~,other=map+:富士宮市；memo+:大石寺[たいせき；map+:茅野市（長野県）；map+:岩木山；三内丸山
 //tl:timeline
 //tl+:
 //list+
@@ -1633,6 +1637,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年6月8日8:21:46
 
 :tome / (lang=ja) / topic=~ / content=~
+
+:tome / (lang=ja) / topic=~ / content=数学、芸術。そして、技術へと
 
 :tome / (lang=ja) / topic=儒教 / content=丸っきり、俺は、それで行こう
 
@@ -1918,6 +1924,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『だまし犯罪百科』 / 著者=間川清 /
 
 :bookmemo / 読んだ本 / 『イスラームのロジック』 / 著者=中田考 / 途中 ここまで
 
@@ -2334,18 +2342,11 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=N1JP(browser=yan) / media=ei / theme=イスラエル軍：殺害：射殺,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=???(browser=yan) / media=ei / theme=パレスチナ；占領軍隊：襲撃,content=~,w=ジャリーン；テルアビブ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=2611(Z611?)(browser=tor) / media=ptv / theme=イラン：石油輸出：増加量,content=１日当たり、増加量；１日当たり、産出量,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=UMN2(browser=yan) / media=ei / theme=~,content=~,w=Yair-Lapid;EU;Association-agreement;Europe-Israel-Association-Council / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=VZLE(browser=yan) / media=ei / theme=イスラエル；結婚禁止,content=~,w=~ / genre=~ / other=~
-:m #*# RES / free# S87DP9 記事読み / id=KFZC(browser=yan) / media=ei / theme=パレスチナ；イスラエル植民者；抵抗,content=~,w=Deir-Yassin / genre=~ / other=~
-:m #*# RES / free# S87DP9 記事読み / id=RBP2(browser=yan) / media=ei / theme=パレスチナ；刑務所；金員窃取,content=~,w=silwan / genre=~ / other=~
-:m #*# RES / free# S87DP9 記事読み / id=RGLN(browser=yan) / media=ei / theme=パレスチナ；難民キャンプ；強襲；イスラエル；殺害,content=~,w=ジェニン；Aqabat-Jabr難民キャンプ；Karf-Dan村 / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=VDE5(browser=yan) / media=ei / theme=EP;Israel;trips,content=~,w=Roberta-Metsola / genre=~ / other=~
 
 
 
