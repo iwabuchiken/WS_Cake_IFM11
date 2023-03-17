@@ -1494,7 +1494,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.112 / w=,topic=~,publisher=~,other=QQQ
+:m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.134 / w=,topic=~,publisher=~,other=QQQ
 
 :m #*# RES / JVEMV6 64#254_hukanzen / 『不完全性定理とはなにか』 著者=竹内薫,校注=~ / p.110 / w=ゲーデル数,topic=~,publisher=~,other=calc+:ゲーデル数：式を算出
 
@@ -1514,7 +1514,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#246_2_shokun_eto_kobayashi / 『「諸君！」の３０年』  江藤淳、小林秀雄』 著者=~,校注=~ / p.330 / w=~,topic=~,publisher=~,other=一覧：荻生徂徠、本居宣長、他;timetable+:大政奉還、鳥羽伏見の戦い
 
-:m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.19 / w=,topic=縄文時代；,publisher=~,other=ske+
+:m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.19 / w=『常陸国風土記』,topic=縄文時代；,publisher=~,other=ske+
 //tl:timeline
 //tl+:
 //list+
@@ -2263,6 +2263,9 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=CFDV / theme=math / genre=~,content=dのn乗：d<1:総和,w=~ / session-number=~ / doc=~,other=~
+
+
 :m #*# RES / free / res-id=EJOD / theme=隣り合う自然数：各々の自乗：の、差：で、奇数を作る / genre=~,content=任意の奇数を作れるか；ユニークか,w=~ / session-number=~ / doc=~,other=derived-from:r-id.GMTS
 
 :m #*# RES / free / res-id=Z4P3(new) / theme=√２など、図形で描くと、どうなるか。 / genre=math:geometry,content=~,w=~ / session-number=~ / doc=~,other=~
@@ -2331,17 +2334,21 @@ zionists
 :m lang / lang=タイ語 / content=文字；発音,topic=~,other=~
 
 ###2023年3月12日22:25:28
-========================== :m : read docs, read_doc
+========================== :m : read docs, read_doc_
 //template
-:m #*# / read-docs / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# / read-docs / theme=~,content=~,id=~, w=~ / genre=~ / other=~
 
-:m #*# / read-docs / theme=習近平：講話,content=人民代表大会：工作会議,w=毛沢東； / genre=~ / other=~
+:m #*# / read-docs / theme=labor-issues,content=~,id=GXDX, w=理科研；雇止め；非正規 / genre=~ / other=~
+
+:m #*# / read-docs / theme=習近平(xijinping)：講話,content=人民代表大会：工作会議,w=毛沢東； / genre=~ / other=~, doc-id=JCLS
 
 
 ###2021年9月22日10:19:44
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=LUIO(browser=yan) / media=ei / theme=パレスチナ,content=~,w=~ / genre=~ / other=QQQ
+
 :m #*# RES / free# S87DP9 記事読み / id=MGFU(browser=yan) / media=ei / theme=パレスチナ,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=N1JP(browser=yan) / media=ei / theme=イスラエル軍：殺害：射殺,content=~,w=~ / genre=~ / other=~
@@ -2864,6 +2871,7 @@ read_doc
 video_shi
 res_
 record_misc
+read_doc_
 read_article
 memo_shi
 jilmun_
