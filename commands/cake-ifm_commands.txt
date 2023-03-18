@@ -1006,6 +1006,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=俺は、縄文のようなもの、その人たちが奉じていたもの、信仰[しんぎょう]していたものに、殉じよう。,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=ロシアの民謡を歌っている人たちの唄を聴くとき：佐渡おけさ：同じ、心の気持ちよさ,other=~ / lang=ja
 
 :m :th,mysl / topic=音楽作りについて / content=己の中にある思想。を、超えた音楽は、作れない,other=~ / lang=ja
@@ -1498,11 +1500,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#254_hukanzen / 『不完全性定理とはなにか』 著者=竹内薫,校注=~ / p.110 / w=ゲーデル数,topic=~,publisher=~,other=calc+:ゲーデル数：式を算出
 
-:m #*# RES / JVEMV6 64#252_sennoo_gekitai / 『図解　洗脳撃退マニュアル』 著者=高橋紳吾、監修,校注=~ / p.40 / w=QQQ,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#252_sennoo_gekitai / 『図解　洗脳撃退マニュアル』 著者=高橋紳吾、監修,校注=~ / p.42 / w=QQQ,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.222 / w=消費者契約法１０条,topic=事例,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.29 / w=,topic=,publisher=~,other=ske+
+:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.32 / w=,topic=,publisher=~,other=QQQ
 //tl+:
 //list+
 //map+:
@@ -1514,7 +1516,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#246_2_shokun_eto_kobayashi / 『「諸君！」の３０年』  江藤淳、小林秀雄』 著者=~,校注=~ / p.330 / w=~,topic=~,publisher=~,other=一覧：荻生徂徠、本居宣長、他;timetable+:大政奉還、鳥羽伏見の戦い
 
-:m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.19 / w=『常陸国風土記』,topic=縄文時代；,publisher=~,other=ske+
+:m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.25 / w=『常陸国風土記』,topic=卑弥呼；三輪山；纏向；,publisher=~,other=ske+
 //tl:timeline
 //tl+:
 //list+
@@ -1555,6 +1557,8 @@ ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+
 :m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.78 / w=段祺瑞；汪兆銘；蒋介石,topic=~,publisher=~,other=
 
 :m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.159 / w=興奮性細胞；活動電位；静止膜電位,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王上 / 『孟子』 著者=~,校注=~ / p.7 / w=,topic=~,other=時系列：孟子、魏国（戦国）
 
 :m #*# RES / JVEMV6 64#126.04_mooshi:万章上 / 『孟子』 著者=~,校注=~ / p.322 / w=,topic=~,other=sketch+:sk-id.JECT:戈[か～戟[げき～矛[ほこ
 
@@ -2347,6 +2351,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=5352(browser=yan) / media=ei / theme=パレスチナ：ガザ：ID,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=LUIO(browser=yan) / media=ei / theme=パレスチナ,content=~,w=~ / genre=~ / other=QQQ
 
 :m #*# RES / free# S87DP9 記事読み / id=MGFU(browser=yan) / media=ei / theme=パレスチナ,content=~,w=~ / genre=~ / other=~
