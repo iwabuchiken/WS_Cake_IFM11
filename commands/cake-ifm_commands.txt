@@ -1498,7 +1498,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.13 / w=預言者；ダンテ,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.13? / w=しころ,topic=~,publisher=~,other=ske+
 
 :m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.185 / w=,topic=~,publisher=~,other=QQQ
 
@@ -1556,7 +1556,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
 
-:m #*# RES / JVEMV6 64#199.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.68 / w=文行忠信；四者[よつのもの,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#199.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.99 / w=程子,topic=~,publisher=~,other=timeline+:程顥、程頤
 
 :m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.78 / w=段祺瑞；汪兆銘；蒋介石,topic=~,publisher=~,other=
 
@@ -1583,6 +1583,8 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
+:m #*# RES / JVEMV6 64#67_8_taihaku / 『論語 泰伯』 著者=~,校注=~ / p.180 / w=,topic=周：泰伯、虞仲、季歴,publisher=明治書院,other=
+
 :m #*# RES / JVEMV6 64#67_7_jutsuji / 『論語 述而』 著者=~,校注=~ / p.161 / w=,topic=魯、斉、衛：建国者：周公旦,publisher=明治書院,other=
 
 :m #*# RES / JVEMV6 64#67_4_rijin / 『論語 里仁』 著者=~,校注=~ / p.87 / w=,topic=,publisher=明治書院,other=ske+:sk-id.VVYP:爵[しゃく
@@ -2275,6 +2277,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=YYTB / theme=中国：天然ガス：日本との比較 / genre=economy:energy,content=~,w=~ / session-number=~ / doc=~,other=~
+
 :m #*# RES / free / res-id=TNJC / theme=地熱発電：日本 / genre=economy:energy,content=零和４年度、予算額；日本：総発電量；原子力発電、発電量；,w=~ / session-number=~ / doc=~,other=~
 
 :m #*# RES / free / res-id=0ITM / theme=イラク：天然ガス：輸入：金額 / genre=economy:strana;economy:energy,content=日本：LNG輸入量；天然ガス：価格；変換：トン~立方メートル；,w=~ / session-number=~ / doc=~,other=browser:tor;media:ptv;a-id.0ITM
@@ -2342,6 +2346,8 @@ zionists
 //template
 :m #*# / read-docs / theme=~,content=~,id=~, w=~ / genre=~ / other=~
 
+:m #*# / read-docs / theme=習近平(xijinping)：講話,content=二十大精神,w=； / genre=~ / other=~, doc-id=SL91
+
 :m #*# / read-docs / theme=labor-issues,content=~,id=GXDX, w=理科研；雇止め；非正規 / genre=~ / other=~
 
 :m #*# / read-docs / theme=習近平(xijinping)：講話,content=人民代表大会：工作会議,w=毛沢東； / genre=~ / other=~, doc-id=JCLS
@@ -2351,6 +2357,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=BO2H(browser=yan) / media=ei / theme=パレスチナ：米国政治家たち,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=H03E(browser=yan) / media=ei / theme=~,content=パレスチナ；フランス裁判；,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=5352(browser=yan) / media=ei / theme=パレスチナ：ガザ：ID,content=~,w=~ / genre=~ / other=~
@@ -2876,7 +2884,7 @@ _memo_other
 --------------------
 read_doc
 経過記録用途	]]
-video_shi
+video_shi	]]
 res_	]]
 record_misc
 read_doc_
@@ -2884,7 +2892,7 @@ read_article
 memo_shi
 jilmun_
 _ske
-_memo_shuuji
+_memo_shuuji	]]
 _des
 YPLH_
 N3Y7_
