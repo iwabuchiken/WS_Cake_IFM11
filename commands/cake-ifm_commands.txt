@@ -1498,6 +1498,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.10 / w=~,topic=平均値,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.13? / w=しころ,topic=~,publisher=~,other=ske+
 
 :m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.185 / w=,topic=~,publisher=~,other=QQQ
@@ -1520,7 +1522,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#246_2_shokun_eto_kobayashi / 『「諸君！」の３０年』  江藤淳、小林秀雄』 著者=~,校注=~ / p.330 / w=~,topic=~,publisher=~,other=一覧：荻生徂徠、本居宣長、他;timetable+:大政奉還、鳥羽伏見の戦い
 
-:m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.25 / w=『常陸国風土記』,topic=卑弥呼；三輪山；纏向；,publisher=~,other=ske+
+:m 2*2 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.28 / w=,topic=景行天皇；ヤマトタケル；晋書；,publisher=~,other=
 //tl:timeline
 //tl+:
 //list+
@@ -1583,7 +1585,7 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_8_taihaku / 『論語 泰伯』 著者=~,校注=~ / p.180 / w=,topic=周：泰伯、虞仲、季歴,publisher=明治書院,other=
+:m #*# RES / JVEMV6 64#67_8_taihaku / 『論語 泰伯』 著者=~,校注=~ / p.180 / w=,topic=恭；慎；勇；直,publisher=明治書院,other=
 
 :m #*# RES / JVEMV6 64#67_7_jutsuji / 『論語 述而』 著者=~,校注=~ / p.161 / w=,topic=魯、斉、衛：建国者：周公旦,publisher=明治書院,other=
 
@@ -1788,7 +1790,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=, about=,other=,id=~,content=QQQ
+:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=QQQ
 
 
 
@@ -1935,23 +1937,13 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『図解　洗脳撃退マニュアル』 / 著者=高橋紳吾、監修 /
+
 :bookmemo / 読んだ本 / 『素数入門』 / 著者=芹沢正三 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『イスラームの根源をさぐる』 / 著者=牧野信也 /
 
 :bookmemo / 読んだ本 / 『だまし犯罪百科』 / 著者=間川清 /
-
-:bookmemo / 読んだ本 / 『イスラームのロジック』 / 著者=中田考 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『イスラーム革命の精神』 / 著者=嶋本隆光 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『イスラームのロジック』 / 著者=中田考 /
-
-:bookmemo / 読んだ本 / 『微粒子から探る物性七変化』 / 著者=前野昌弘 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『関東大震災　「朝鮮人虐殺の真実」』 / 著者=工藤美代子 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『真空のからくり』 / 著者=山田克哉 / 今回、読んでいない
 
 
 
@@ -2869,7 +2861,7 @@ tome_
 photo_record
 mysl_
 memo_shaku
-books_read
+books_read	]]
 --------------------
 経過記録
 ph_
