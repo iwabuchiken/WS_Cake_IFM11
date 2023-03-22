@@ -1498,6 +1498,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#258_1_suugaku_gauss / 『数学の歴史　１９世紀の数学　整数論』 著者=河田敬義,校注=~ / p.8 / w=~,topic=ディオファントス解析；,publisher=~,other=memo+:楕円、接線；q+:q-id.BUJX(new);q+:q-id.SA1E(new);q+:q-id.A2QD(new);
+
 :m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.10 / w=~,topic=平均値,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.13? / w=しころ,topic=~,publisher=~,other=ske+
@@ -1522,7 +1524,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#246_2_shokun_eto_kobayashi / 『「諸君！」の３０年』  江藤淳、小林秀雄』 著者=~,校注=~ / p.330 / w=~,topic=~,publisher=~,other=一覧：荻生徂徠、本居宣長、他;timetable+:大政奉還、鳥羽伏見の戦い
 
-:m 2*2 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.28 / w=,topic=景行天皇；ヤマトタケル；晋書；,publisher=~,other=
+:m 2*2 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.47 / w=聖徳太子；ヤマトトトヒモモソヒメ；倭迹迹日百襲姫；中臣鎌足；,topic=,publisher=~,other=
 //tl:timeline
 //tl+:
 //list+
@@ -1557,6 +1559,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
+:m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.101 / w=,topic=~,publisher=~,other=th+:`孝弟のみ`
 
 :m #*# RES / JVEMV6 64#199.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.99 / w=程子,topic=~,publisher=~,other=timeline+:程顥、程頤
 
@@ -1564,7 +1567,7 @@ ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+
 
 :m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.159 / w=興奮性細胞；活動電位；静止膜電位,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王上 / 『孟子』 著者=~,校注=~ / p.7 / w=,topic=~,other=時系列：孟子、魏国（戦国）
+:m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王上 / 『孟子』 著者=~,校注=~ / p.12 / w=乃公[だいこう；斧斤[ふきん,topic=~,other=
 
 :m #*# RES / JVEMV6 64#126.04_mooshi:万章上 / 『孟子』 著者=~,校注=~ / p.322 / w=,topic=~,other=sketch+:sk-id.JECT:戈[か～戟[げき～矛[ほこ
 
@@ -1937,6 +1940,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『日本人の宗教とは何か』 / 著者=山折哲雄、編著 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『図解　洗脳撃退マニュアル』 / 著者=高橋紳吾、監修 /
 
 :bookmemo / 読んだ本 / 『素数入門』 / 著者=芹沢正三 / 途中 ここまで
@@ -2152,6 +2157,9 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / 経過記録；作ったもの / food=大葉、味噌。混ぜもの / material=大葉；味噌 / type=~,other=お酒のつまみとして,occasion=~,id=~
 
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：０；ローズマリー：０；ディル：０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。翌朝。,occasion=経過観察,id=2023-03-22_09-14-26_000.jpg
+
+
 //
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：５（単位：スプーン）；ニンニク：５；生姜：５；スペアミント：５；ローズマリー：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。１日目。,occasion=経過観察,id=2023-03-12_00-53-02_000.jpg
 
@@ -2349,21 +2357,14 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=FJY1(browser=yan) / media=ei / theme=パレスチナ：ガザ：負傷者たち；イスラエル,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=BO2H(browser=yan) / media=ei / theme=パレスチナ：米国政治家たち,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=H03E(browser=yan) / media=ei / theme=~,content=パレスチナ；フランス裁判；,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=5352(browser=yan) / media=ei / theme=パレスチナ：ガザ：ID,content=~,w=~ / genre=~ / other=~
 
-:m #*# RES / free# S87DP9 記事読み / id=LUIO(browser=yan) / media=ei / theme=パレスチナ,content=~,w=~ / genre=~ / other=QQQ
-
-:m #*# RES / free# S87DP9 記事読み / id=MGFU(browser=yan) / media=ei / theme=パレスチナ,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=N1JP(browser=yan) / media=ei / theme=イスラエル軍：殺害：射殺,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=???(browser=yan) / media=ei / theme=パレスチナ；占領軍隊：襲撃,content=~,w=ジャリーン；テルアビブ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=2611(Z611?)(browser=tor) / media=ptv / theme=イラン：石油輸出：増加量,content=１日当たり、増加量；１日当たり、産出量,w=~ / genre=~ / other=~
 
 
 
