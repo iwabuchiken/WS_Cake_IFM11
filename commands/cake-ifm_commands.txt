@@ -1142,6 +1142,9 @@ memo-taking,for=~,other=~
 ==================== video : other
 :VIDEO:other / @自室 / 記録 / content=一人漫才：練習,for=「兎（うさぎ）おいしい」
 
+###2023年3月23日17:59:07
+==================== video : ufo
+:VIDEO / @自室：ベランダ / 記録 / topic=UFO, content=東の空：強い光：点滅。UFOか。最近も、何度か。
 
 ###2022年7月6日15:01:54
 ==================== in-mid
@@ -1169,6 +1172,8 @@ regex : ]]
 //template
 :m / 1*1 / percussion,rythm / session-memo / p.1:content=~,key=~,for=~,from=~,R=~,item=~,hitter=~,pieces=~,genr=pattern-atom,other=~,memo~,video=~
 
+:m / 1*1 / percussion,rythm / session-memo / p.1:content=『音のなんでも…』の本に出ていたもの。作ってみた。太鼓,key=~,for=~,from=~,R=~,item=~,hitter=~,pieces=~,genr=,other=~,memo~,video=~
+
 :m / 1*1 / percussion,rythm / session-memo / p.1:content=~,key=~,for=~,from=~,R=~,item=~,hitter=スプーン（小, 1）,pieces=水筒（０．４８L）,genr=pattern-atom,other=~,memo+
 
 :m / #*# / percussion,rythm / session-memo / p.1:item=醤油皿（小皿）:1,hitter=ボールペン：ボール端と反対の端:1-set,genr=pattern-atom,content=num-of-atom:2,other=~
@@ -1193,6 +1198,8 @@ p.1:content=~,key=~,for=~,from=~,R=~,item=bowl,hitter=chopstick:2,pieces=~,genr=
 ==================== video : percussion,rythm
 
 :VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / f-2021-061X-X / XX
+
+:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / genre=,item=膜を張った筒。：１本,hitter=ボールペン,Re~,memo~,other=本にあったもの：『音のなんでも実験室』；吉澤純夫
 
 :VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=2 / genre=rec-for-accompaniment:video-extract,item=スプレー缶：１本,hitter=ハサミ,Re~,memo~,other=file-id:2022-02-07_18-06-29_000.mp4
 
@@ -1559,13 +1566,13 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
-:m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.101 / w=,topic=~,publisher=~,other=th+:`孝弟のみ`
+:m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.102 / w=,topic=~,publisher=~,other=memo+:「六弊」
 
 :m #*# RES / JVEMV6 64#199.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.99 / w=程子,topic=~,publisher=~,other=timeline+:程顥、程頤
 
 :m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.78 / w=段祺瑞；汪兆銘；蒋介石,topic=~,publisher=~,other=
 
-:m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.159 / w=興奮性細胞；活動電位；静止膜電位,topic=~,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.194 / w=抑制性ニューロン；小細胞経路；,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王上 / 『孟子』 著者=~,校注=~ / p.12 / w=乃公[だいこう；斧斤[ふきん,topic=~,other=
 
@@ -1682,6 +1689,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m :? #*# / topic=半球の体積：数学 / content=半球の体積。の、半分に達する時、高さはいくらか。 / status=~ / other=~,id=VUIK
+
+:m :? #*# / topic=~ / content=「儒教だけでは足りない。道徳だけでは足りないから」：「儒教＝道徳」か？ / status=~ / other=~,id=~
+
+:m :? #*# / topic=math / content=(a>x)のとき:(a^2<x)は、あるか？ / status=~ / other=~,id=9D6K(new)
 
 :m :? #*# / topic=孟子 / content=孟子の「惻隠の情」：イスラム世界で、相応するもの、あるか。アフリカ諸地域は？ / status=~ / other=~,id=~
 
@@ -1940,6 +1953,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『ハディース　Ⅰ』 / 著者=牧野信也、訳 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『日本人の宗教とは何か』 / 著者=山折哲雄、編著 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『図解　洗脳撃退マニュアル』 / 著者=高橋紳吾、監修 /
@@ -2157,7 +2172,7 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / 経過記録；作ったもの / food=大葉、味噌。混ぜもの / material=大葉；味噌 / type=~,other=お酒のつまみとして,occasion=~,id=~
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：０；ローズマリー：０；ディル：０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。翌朝。,occasion=経過観察,id=2023-03-22_09-14-26_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：０；ローズマリー：０；ディル：０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2023-03-22_09-14-26_000.jpg
 
 
 //
@@ -2277,6 +2292,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=3H9N / theme=log(-1)：性質 / genre=math:algebra,content= / session-number=~ / doc=~,other=簡易メモとして書いたもの。グラフに描くとどうなるか
+
 :m #*# RES / free / res-id=YYTB / theme=中国：天然ガス：日本との比較 / genre=economy:energy,content=~,w=~ / session-number=~ / doc=~,other=~
 
 :m #*# RES / free / res-id=TNJC / theme=地熱発電：日本 / genre=economy:energy,content=零和４年度、予算額；日本：総発電量；原子力発電、発電量；,w=~ / session-number=~ / doc=~,other=~
@@ -2357,6 +2374,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=~(browser=yan) / media=ei / theme=パレスチナ：移民：溺死,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=FJY1(browser=yan) / media=ei / theme=パレスチナ：ガザ：負傷者たち；イスラエル,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=BO2H(browser=yan) / media=ei / theme=パレスチナ：米国政治家たち,content=~,w=~ / genre=~ / other=~
