@@ -1004,7 +1004,13 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //th_topics
 //template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
-:m :th,mysl / topic=~ / content=~,other=~ / lang=ja
+:m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=孔子は、「学」に志した。「仁」に、ではなく,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=「ナルシズムに繋がれた個人主義」。宮台たち。,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=人に貴賎を付けるもの。一切を、拒否する。,id=2YOU,other=~ / lang=ja || :m :th,mysl / topic=~ / content=「神儒伊」、習合,id=HB24,other=メモの続き / lang=ja
 
 :m :th,mysl / topic=~ / content=既存の伝統芸能の批判？創ることで、頭は一杯。,other=~ / lang=ja
 
@@ -1505,11 +1511,15 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m 2*2 RES / JVEMV6 64#260_suterareru_shimada / 『捨てられる宗教』 著者=島田裕巳,校注=~ / p.77 / w=,topic=創価学会：会員数,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#259_ura_biz / 『図解　裏ビジネスのカラクリ』 著者=丸山佑介,校注=~ / p.?? / w=~,topic=山口組、住吉会：構成員、人数,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#258_1_suugaku_gauss / 『数学の歴史　１９世紀の数学　整数論』 著者=河田敬義,校注=~ / p.8 / w=~,topic=ディオファントス解析；,publisher=~,other=memo+:楕円、接線；q+:q-id.BUJX(new);q+:q-id.SA1E(new);q+:q-id.A2QD(new);
 
 :m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.10 / w=~,topic=平均値,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.13? / w=しころ,topic=~,publisher=~,other=ske+
+:m #*# RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.71 / w=「象の年」,topic=~,publisher=~,other=ske+
 
 :m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.185 / w=,topic=~,publisher=~,other=QQQ
 
@@ -1519,7 +1529,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.222 / w=消費者契約法１０条,topic=事例,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.32 / w=,topic=,publisher=~,other=QQQ
+:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.38 / w=,topic=,publisher=~,other=QQQ
 //tl+:
 //list+
 //map+:
@@ -1574,7 +1584,7 @@ ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+
 
 :m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.194 / w=抑制性ニューロン；小細胞経路；,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王上 / 『孟子』 著者=~,校注=~ / p.12 / w=乃公[だいこう；斧斤[ふきん,topic=~,other=
+:m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王上 / 『孟子』 著者=~,校注=~ / p.18 / w=~,topic=百畝,other=
 
 :m #*# RES / JVEMV6 64#126.04_mooshi:万章上 / 『孟子』 著者=~,校注=~ / p.322 / w=,topic=~,other=sketch+:sk-id.JECT:戈[か～戟[げき～矛[ほこ
 
@@ -1660,6 +1670,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome / (lang=ja) / topic=~ / content=~
 
+:tome / (lang=ja) / topic=~ / content=「八百万の神」ではなく、八百万の「魂」たち。と、倶に生きようぞ。神道とイスラム。自然神道。記紀神道ではなく。縄文の神々。
+
+:tome / (lang=ja) / topic=~ / content=俺の使命：教えの何たるか、発明する。無償で行う。
+
 :tome / (lang=ja) / topic=~ / content=数学、芸術。そして、技術へと
 
 :tome / (lang=ja) / topic=儒教 / content=丸っきり、俺は、それで行こう
@@ -1670,19 +1684,6 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome / (lang=ja) / topic=法則：知ることについて / content=脳のことを知らなければ、何も知ることはできない
 
-:tome / (lang=ja) / topic=物事：やり方。進め方 / content=四元数のbadanieでやっていること、見出しつつあること。を、お手本に：「立ち現れ」emerging,「めぐり合わせ」cerendipity
-
-:tome / (lang=ja) / topic=何をやるか / content=何が金になるか、事前には、分からない
-
-:tome / (lang=ja) / topic=知恵の言葉 / content=神様からの伝言を聞き取れない：教父：こねくりで満たす
-
-:tome / (lang=ja) / topic=思想 / content=明治の前へ戻る；「日本特色」の変化を進める
-
-:tome / (lang=ja) / topic=化学を学ぶ / content=新たなものを創る；報酬を受け取る
-
-:tome / (lang=ja) / topic=自分が成るもの / content=俺は、医の達人になろう
-
-:tome / (lang=ja) / topic=~ / content=ポンプ屋さんの人に、何を伝えたら、その人は、別の毎日を始められるのか？自分自身に、「明明徳」を、やってみる
 
 
 ###2021年7月3日10:35:02
@@ -2159,7 +2160,10 @@ G:\photo-books_HD\list-of-books.txt
 
 ###2022年10月19日9:46:41
 ====================== :PHOTO 記録:misc, record_misc
+//template
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
+
+:PHOTO 記録 / subject=ATM：明細票 / location=~ / content=~,for=月末の入金,other=~
 
 :PHOTO 記録 / subject=調理：レモン、砂糖煮 / location=~ / content=計量。手順,for=~,other=~
 
@@ -2172,7 +2176,10 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / 経過記録；作ったもの / food=大葉、味噌。混ぜもの / material=大葉；味噌 / type=~,other=お酒のつまみとして,occasion=~,id=~
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：０；ローズマリー：０；ディル：０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察,id=2023-03-22_09-14-26_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=大葉,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする,occasion=経過観察,id=2023-03-24_01-02-30_000.jpg
+
+
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：０；ローズマリー：０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。ディル、追加。,occasion=経過観察,id=2023-03-22_09-14-26_000.jpg
 
 
 //
@@ -2363,7 +2370,7 @@ zionists
 //template
 :m #*# / read-docs / theme=~,content=~,id=~, w=~ / genre=~ / other=~
 
-:m #*# / read-docs / theme=習近平(xijinping)：講話,content=二十大精神,w=； / genre=~ / other=~, doc-id=SL91
+:m 4*4 / read-docs / theme=習近平(xijinping)：講話,content=二十大精神,w=； / genre=~ / other=~, doc-id=SL91
 
 :m #*# / read-docs / theme=labor-issues,content=~,id=GXDX, w=理科研；雇止め；非正規 / genre=~ / other=~
 
@@ -2877,9 +2884,9 @@ video:sha	video:shi	64#	shaku	156_2	memo_shaku	towa:memo	80#	81#	A1~1.1.7,1.1.9	
 コレポン
 video_shaku
 video_ilban_
-tome_
+tome_	]]
 photo_record
-mysl_
+mysl_	]]
 memo_shaku
 books_read	]]
 --------------------
