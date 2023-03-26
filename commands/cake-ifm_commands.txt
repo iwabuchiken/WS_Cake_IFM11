@@ -1006,33 +1006,13 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=『化学なんでも質問』。文章の形式は、親子の対話。尋ねるのは、子供。答えるのは、親。そういう世界を、俺は、抜ける。,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=孔子は、「学」に志した。「仁」に、ではなく,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=「ナルシズムに繋がれた個人主義」。宮台たち。,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=人に貴賎を付けるもの。一切を、拒否する。,id=2YOU,other=~ / lang=ja || :m :th,mysl / topic=~ / content=「神儒伊」、習合,id=HB24,other=メモの続き / lang=ja
-
-:m :th,mysl / topic=~ / content=既存の伝統芸能の批判？創ることで、頭は一杯。,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=俺は、縄文のようなもの、その人たちが奉じていたもの、信仰[しんぎょう]していたものに、殉じよう。,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=ロシアの民謡を歌っている人たちの唄を聴くとき：佐渡おけさ：同じ、心の気持ちよさ,other=~ / lang=ja
-
-:m :th,mysl / topic=音楽作りについて / content=己の中にある思想。を、超えた音楽は、作れない,other=~ / lang=ja
-
-:m :th,mysl / topic=人生の指針 / content=吉田満氏。「個の確立がなかった」。論孟を、遵守する,other=~ / lang=ja
-
-:m :th,mysl / topic=人生の指針 / content=仁義礼智。人にどんな感化を及ぼすか。,other=付け足し：file-id:2023-03-07_01-30-31_000.jpg / lang=ja
-
-:m :th,mysl / topic=人生の指針 / content=科学に関する探求。宗教、思想に対するそれ。時間は、半々で宜しい。,other=~ / lang=ja
-
-:m :th,mysl / topic=思ったこと：宗教 / content=「南無阿弥陀仏」でも、良いのだけれど、その一言句[ごんく]では、…,other=~ / lang=ja
-
-:m :th,mysl / topic=お姉さんの思考の一つ。その原因について / content=置かれている環境を、視野に含める,other=~ / lang=ja
-
-:m :th,mysl / topic=イスラム教：アッラー / content=「アッラー」が、温かい；「大國立ちの…」、淋しい,other=~ / lang=ja
-
-:m :th,mysl / topic=モンゴルの戦いについて / content=何故、そんなことをする？必要がない；数学,other=~ / lang=ja
 
 //th_topics
 mysl
@@ -1517,9 +1497,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#258_1_suugaku_gauss / 『数学の歴史　１９世紀の数学　整数論』 著者=河田敬義,校注=~ / p.8 / w=~,topic=ディオファントス解析；,publisher=~,other=memo+:楕円、接線；q+:q-id.BUJX(new);q+:q-id.SA1E(new);q+:q-id.A2QD(new);
 
-:m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.10 / w=~,topic=平均値,publisher=~,other=~
+:m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.13 / w=~,topic=平均値,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.71 / w=「象の年」,topic=~,publisher=~,other=ske+
+:m #*# RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.117 / w=ジャーヒリーヤ；,topic=~,publisher=~,other=
 
 :m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.185 / w=,topic=~,publisher=~,other=QQQ
 
@@ -1582,7 +1562,7 @@ ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+
 
 :m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.78 / w=段祺瑞；汪兆銘；蒋介石,topic=~,publisher=~,other=
 
-:m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.194 / w=抑制性ニューロン；小細胞経路；,topic=~,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.201 / w=神経節細胞；扁桃体,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王上 / 『孟子』 著者=~,校注=~ / p.18 / w=~,topic=百畝,other=
 
@@ -1605,7 +1585,7 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_8_taihaku / 『論語 泰伯』 著者=~,校注=~ / p.180 / w=,topic=恭；慎；勇；直,publisher=明治書院,other=
+:m #*# RES / JVEMV6 64#67_8_taihaku / 『論語 泰伯』 著者=~,校注=~ / p.190 / w=,topic=狂～直、侗[どう～愿[げん、悾悾～信,publisher=明治書院,other=
 
 :m #*# RES / JVEMV6 64#67_7_jutsuji / 『論語 述而』 著者=~,校注=~ / p.161 / w=,topic=魯、斉、衛：建国者：周公旦,publisher=明治書院,other=
 
@@ -1669,6 +1649,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年6月8日8:21:46
 
 :tome / (lang=ja) / topic=~ / content=~
+
+:tome / (lang=ja) / topic=~ / content=六十、七十になっても、倦まず弛まず、歩き続ける。神の国と、神の義。
 
 :tome / (lang=ja) / topic=~ / content=「八百万の神」ではなく、八百万の「魂」たち。と、倶に生きようぞ。神道とイスラム。自然神道。記紀神道ではなく。縄文の神々。
 
@@ -2179,7 +2161,7 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=大葉,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする,occasion=経過観察,id=2023-03-24_01-02-30_000.jpg
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：０；ローズマリー：０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。ディル、追加。,occasion=経過観察,id=2023-03-22_09-14-26_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：１０；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。ディル、追加。スペアミント、追加。,occasion=経過観察,id=2023-03-22_09-14-26_000.jpg
 
 
 //
@@ -2370,7 +2352,7 @@ zionists
 //template
 :m #*# / read-docs / theme=~,content=~,id=~, w=~ / genre=~ / other=~
 
-:m 4*4 / read-docs / theme=習近平(xijinping)：講話,content=二十大精神,w=； / genre=~ / other=~, doc-id=SL91
+:m 1*1 / read-docs / theme=習近平(xijinping)：講話,content=二十大精神,w=； / genre=~ / other=~, doc-id=SL91
 
 :m #*# / read-docs / theme=labor-issues,content=~,id=GXDX, w=理科研；雇止め；非正規 / genre=~ / other=~
 
@@ -2381,6 +2363,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=1RIN(browser=yan) / media=ei / theme=パレスチナ：遺体：返還,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=yan) / media=ei / theme=パレスチナ：移民：溺死,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=FJY1(browser=yan) / media=ei / theme=パレスチナ：ガザ：負傷者たち；イスラエル,content=~,w=~ / genre=~ / other=~
