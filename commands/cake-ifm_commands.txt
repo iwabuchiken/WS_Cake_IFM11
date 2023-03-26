@@ -1006,6 +1006,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=日本人の宗教について / content=高邁な観念はないかも知れないが,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=『化学なんでも質問』。文章の形式は、親子の対話。尋ねるのは、子供。答えるのは、親。そういう世界を、俺は、抜ける。,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=孔子は、「学」に志した。「仁」に、ではなく,id=~,other=~ / lang=ja
@@ -1491,15 +1493,17 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m 2*2 RES / JVEMV6 64#260_suterareru_shimada / 『捨てられる宗教』 著者=島田裕巳,校注=~ / p.77 / w=,topic=創価学会：会員数,publisher=~,other=~
+:m #*# RES / JVEMV6 64#101_banzan_shuugi / 『集義和書』 著者=熊沢番山,校注=~ / p.?? / w=~,topic=~,publisher=~,other=tl+:熊沢番山、伊藤仁斎
 
-:m #*# RES / JVEMV6 64#259_ura_biz / 『図解　裏ビジネスのカラクリ』 著者=丸山佑介,校注=~ / p.?? / w=~,topic=山口組、住吉会：構成員、人数,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#260_suterareru_shimada / 『捨てられる宗教』 著者=島田裕巳,校注=~ / p.124 / w=,topic=極楽浄土；宗教は不要なもの,publisher=~,other=th+:宗教は不要なもの
+
+:m #*# RES / JVEMV6 64#259_ura_biz / 『図解　裏ビジネスのカラクリ』 著者=丸山佑介,校注=~ / p.68 / w=~,topic=風俗営業等：業態,publisher=~,other=tl+:公娼制度～風営法
 
 :m #*# RES / JVEMV6 64#258_1_suugaku_gauss / 『数学の歴史　１９世紀の数学　整数論』 著者=河田敬義,校注=~ / p.8 / w=~,topic=ディオファントス解析；,publisher=~,other=memo+:楕円、接線；q+:q-id.BUJX(new);q+:q-id.SA1E(new);q+:q-id.A2QD(new);
 
-:m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.13 / w=~,topic=平均値,publisher=~,other=~
+:m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.31 / w=~,topic=,publisher=~,other=memo+:ガン検診；精密検査;calc+:塩水。混合
 
-:m #*# RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.117 / w=ジャーヒリーヤ；,topic=~,publisher=~,other=
+:m 2*2 RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.124 / w=,topic=信仰：形式化,publisher=~,other=
 
 :m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.185 / w=,topic=~,publisher=~,other=QQQ
 
@@ -1585,7 +1589,7 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_8_taihaku / 『論語 泰伯』 著者=~,校注=~ / p.190 / w=,topic=狂～直、侗[どう～愿[げん、悾悾～信,publisher=明治書院,other=
+:m #*# RES / JVEMV6 64#67_8_taihaku / 『論語 泰伯』 著者=~,校注=~ / p.193 / w=,topic=五人の臣：武王；,publisher=明治書院,other=list+:舜～周
 
 :m #*# RES / JVEMV6 64#67_7_jutsuji / 『論語 述而』 著者=~,校注=~ / p.161 / w=,topic=魯、斉、衛：建国者：周公旦,publisher=明治書院,other=
 
@@ -1649,6 +1653,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年6月8日8:21:46
 
 :tome / (lang=ja) / topic=~ / content=~
+
+:tome / (lang=ja) / topic=~ / content=世のお歴々がなんと言おうと、好む文化を。
 
 :tome / (lang=ja) / topic=~ / content=六十、七十になっても、倦まず弛まず、歩き続ける。神の国と、神の義。
 
@@ -2363,6 +2369,10 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=8UUJ(browser=yan) / media=ya / theme=金武町[きんちょう；流弾；米軍基地,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=ACWZ(browser=yan) / media=BAR / theme=~,content=~,w=Uhuru-movement / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=1RIN(browser=yan) / media=ei / theme=パレスチナ：遺体：返還,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=yan) / media=ei / theme=パレスチナ：移民：溺死,content=~,w=~ / genre=~ / other=~
