@@ -1006,6 +1006,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=「寡欲」と、「稼ぎが少ない」は、同じではない；物事の判断基準：「寡欲」に近いのは、どちらか？,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=人が本当に欲しているもの：そんな曲を奏でたい,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=日本人の宗教について / content=高邁な観念はないかも知れないが,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=『化学なんでも質問』。文章の形式は、親子の対話。尋ねるのは、子供。答えるのは、親。そういう世界を、俺は、抜ける。,id=~,other=~ / lang=ja
@@ -1493,9 +1497,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.11 / w=~,topic=~,publisher=~,other=tl+:甲申事変～天津条約（清仏）
+
 :m #*# RES / JVEMV6 64#101_banzan_shuugi / 『集義和書』 著者=熊沢番山,校注=~ / p.?? / w=~,topic=~,publisher=~,other=tl+:熊沢番山、伊藤仁斎
 
-:m 1*1 RES / JVEMV6 64#260_suterareru_shimada / 『捨てられる宗教』 著者=島田裕巳,校注=~ / p.124 / w=,topic=極楽浄土；宗教は不要なもの,publisher=~,other=th+:宗教は不要なもの
+:m 2*2 RES / JVEMV6 64#260_suterareru_shimada / 『捨てられる宗教』 著者=島田裕巳,校注=~ / p.162 / w=,topic=柳田國男、陸川老人,publisher=~,other=list+:歌舞伎役者たち：市川海老蔵、ほか
 
 :m #*# RES / JVEMV6 64#259_ura_biz / 『図解　裏ビジネスのカラクリ』 著者=丸山佑介,校注=~ / p.68 / w=~,topic=風俗営業等：業態,publisher=~,other=tl+:公娼制度～風営法
 
@@ -1503,7 +1509,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.31 / w=~,topic=,publisher=~,other=memo+:ガン検診；精密検査;calc+:塩水。混合
 
-:m 2*2 RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.124 / w=,topic=信仰：形式化,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.161 / w=世界像；玄界；可視界,topic=,publisher=~,other=
 
 :m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.185 / w=,topic=~,publisher=~,other=QQQ
 
@@ -1513,7 +1519,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.222 / w=消費者契約法１０条,topic=事例,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.38 / w=,topic=,publisher=~,other=QQQ
+:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.42 / w=県令：三島,topic=,publisher=~,other=QQQ
 //tl+:
 //list+
 //map+:
@@ -1589,7 +1595,7 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_8_taihaku / 『論語 泰伯』 著者=~,校注=~ / p.193 / w=,topic=五人の臣：武王；,publisher=明治書院,other=list+:舜～周
+:m #*# RES / JVEMV6 64#67_8_taihaku / 『論語 泰伯』 著者=~,校注=~ / p.194 / w=,topic=,publisher=明治書院,other=th+:「致孝乎鬼神」
 
 :m #*# RES / JVEMV6 64#67_7_jutsuji / 『論語 述而』 著者=~,校注=~ / p.161 / w=,topic=魯、斉、衛：建国者：周公旦,publisher=明治書院,other=
 
@@ -1809,6 +1815,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
 
+:m #*# / memo:other(m:other) / topic=クルアーン：対訳, about=~,content=~,other=~,id=~ 
+
 :m #*# / memo:other(m:other) / topic=調理：すいとん, about=各材料：使用量,content=~,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=お父さん：遺品整理、関連, about=雑誌：購読：停止の要請：メールを出した,content=~,other=購読先：fujisan,id=~ 
@@ -1963,6 +1971,8 @@ G:\photo-books_HD\list-of-books.txt
 // template // 2022年10月21日12:02:25
 :m 読みたい本 / ジャンル　分野　リスト / 『XXX』　著者=~, location=~ / genre=~,other=~
 
+:m 読みたい本 / ジャンル　分野　リスト / 『How Europe Underdeveloped Africa』　著者=Rodney Walter, location=~ / genre=経済,other=~
+
 :m 読みたい本 / ジャンル　分野　リスト / 『発達障害の素顔』　著者=山口真美, location=巻末 / genre=「医学・人間・心理」,other=~
 
 :m 読みたい本 / ジャンル　分野　リスト / 『社会的ひきこもり』　著者=斎藤環 location=「あとがき」のあと / genre=精神科：診療：治療,other=~
@@ -1995,6 +2005,8 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録しておきたいもの
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=宮前平第４公園, location:target=桜の花びらたち / subject=~ / content=雨降りの後。花びらたち、ここかしこ、まとまっている,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=自室：机上, location:target=焼酎飲み（酒飲み）：用意したものたち：お盆への載せ方 / subject=~ / content=チンが終わって、持ってくものを、すべて、お盆へ載せたところ。,other=~
 
@@ -2167,7 +2179,7 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=大葉,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする,occasion=経過観察,id=2023-03-24_01-02-30_000.jpg
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：１０；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。ディル、追加。スペアミント、追加。,occasion=経過観察,id=2023-03-22_09-14-26_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：１０；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。ディル、追加。スペアミント、追加。,occasion=経過観察。攪拌してみた。,id=2023-03-22_09-14-26_000.jpg
 
 
 //
@@ -2356,7 +2368,7 @@ zionists
 ###2023年3月12日22:25:28
 ========================== :m : read docs, read_doc_
 //template
-:m #*# / read-docs / theme=~,content=~,id=~, w=~ / genre=~ / other=~
+:m #*# / read-docs / theme=Dubois:Souls,content=~,id=KVIH, w=~ / genre=~ / other=~
 
 :m 1*1 / read-docs / theme=習近平(xijinping)：講話,content=二十大精神,w=； / genre=~ / other=~, doc-id=SL91
 
@@ -2369,6 +2381,10 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=UKSK(browser=yan) / media=ei / theme=パレスチナ：Sharm-al-Sheikh,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=イスラエル：立法：アパルトヘイト,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=8UUJ(browser=yan) / media=ya / theme=金武町[きんちょう；流弾；米軍基地,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=ACWZ(browser=yan) / media=BAR / theme=~,content=~,w=Uhuru-movement / genre=~ / other=~
