@@ -1006,6 +1006,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=「バカ」という形容詞。「りこうバカ」、名付ける。,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=仁斎を耽読し、論孟を熟読する。物理・化学も同じ,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=欲しいもの。「西洋」が入ってくる前の、日本の音楽。聞きたい,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=仁斎：情と欲を無にするのではなく。「礼」と「義」の内容を、詳らかにするの要、出来たらん。,id=~,other=~ / lang=ja
@@ -1501,7 +1505,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.11 / w=~,topic=~,publisher=~,other=tl+:甲申事変～天津条約（清仏）
+:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.?? / w=~,topic=甲申事変；「脱亜論」；漢城条約；壬午政変,publisher=~,other=tl+:ペリー来航～日米和親条約；
 
 :m #*# RES / JVEMV6 64#101_banzan_shuugi / 『集義和書』 著者=熊沢番山,校注=~ / p.?? / w=~,topic=~,publisher=~,other=tl+:熊沢番山、伊藤仁斎
 
@@ -1511,7 +1515,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#258_1_suugaku_gauss / 『数学の歴史　１９世紀の数学　整数論』 著者=河田敬義,校注=~ / p.8 / w=~,topic=ディオファントス解析；,publisher=~,other=memo+:楕円、接線；q+:q-id.BUJX(new);q+:q-id.SA1E(new);q+:q-id.A2QD(new);
 
-:m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.31 / w=~,topic=,publisher=~,other=memo+:ガン検診；精密検査;calc+:塩水。混合
+:m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.33 / w=~,topic=,publisher=~,other=calc+:ガンの人、他 / N+
 
 :m 1*1 RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.161 / w=世界像；玄界；可視界,topic=,publisher=~,other=
 
@@ -1523,7 +1527,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.222 / w=消費者契約法１０条,topic=事例,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.42 / w=県令：三島,topic=,publisher=~,other=QQQ
+:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.47 / w=県令：三島,topic=,publisher=~,other=QQQ
 //tl+:
 //list+
 //map+:
@@ -1663,6 +1667,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年6月8日8:21:46
 
 :tome / (lang=ja) / topic=~ / content=~
+
+:tome / (lang=ja) / topic=~ / content=乙、甲、大甲。のぼる程に、筋肉、力を抜く。
 
 :tome / (lang=ja) / topic=~ / content=世のお歴々がなんと言おうと、好む文化を。
 
