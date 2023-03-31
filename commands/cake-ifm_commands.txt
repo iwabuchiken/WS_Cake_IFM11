@@ -1505,6 +1505,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#262_china_econ_marukawa / 『現代中国経済』 著者=丸川知雄,校注=~ / p.76 / w=計画経済；市場経済；,topic=~,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.?? / w=~,topic=甲申事変；「脱亜論」；漢城条約；壬午政変,publisher=~,other=tl+:ペリー来航～日米和親条約；
 
 :m #*# RES / JVEMV6 64#101_banzan_shuugi / 『集義和書』 著者=熊沢番山,校注=~ / p.?? / w=~,topic=~,publisher=~,other=tl+:熊沢番山、伊藤仁斎
@@ -1517,7 +1519,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.33 / w=~,topic=,publisher=~,other=calc+:ガンの人、他 / N+
 
-:m 1*1 RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.161 / w=世界像；玄界；可視界,topic=,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.174 / w=宗教的実存様態；思想的基底構造,topic=,publisher=~,other=
 
 :m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.185 / w=,topic=~,publisher=~,other=QQQ
 
@@ -1574,7 +1576,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
-:m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.102 / w=,topic=~,publisher=~,other=memo+:「六弊」
+:m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.107 / w=,topic=~,publisher=~,other=th+:ソクラテス、仁斎
 
 :m #*# RES / JVEMV6 64#199.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.99 / w=程子,topic=~,publisher=~,other=timeline+:程顥、程頤
 
@@ -1667,6 +1669,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年6月8日8:21:46
 
 :tome / (lang=ja) / topic=~ / content=~
+
+:tome / (lang=ja) / topic=~ / content=地上に居る間は、アッラーフがお命じになることを
 
 :tome / (lang=ja) / topic=~ / content=乙、甲、大甲。のぼる程に、筋肉、力を抜く。
 
@@ -1959,6 +1963,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『捨てられる宗教』 / 著者=島田裕巳 /
 
 :bookmemo / 読んだ本 / 『音のなんでも実験室』 / 著者=吉澤純夫 / 途中 ここまで
 
@@ -2393,9 +2399,13 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=ACWZ(browser=yan) / media=BAR / theme=Uhuru-Movement;banking,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=N8FT(browser=yan) / media=BAR / theme=Lincoln,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=B459(browser=yan) / media=ya / theme=ロシア：ベラルース：核配備,content=~,w=~ / genre=~ / other=~
 
-:m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=イスラエル：立法：アパルトヘイト,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=QUPO(browser=yan) / media=ei / theme=国連安保理：決議：イスラエル：入植地,content=George-Washington-Univ.,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=8UUJ(browser=yan) / media=ya / theme=金武町[きんちょう；流弾；米軍基地,content=~,w=~ / genre=~ / other=~
 
