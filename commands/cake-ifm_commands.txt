@@ -941,7 +941,9 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 // haja : genre_list↓
 //template
 //:m :lets / action activity / やること / genre=XXX / content=XXX
-:m :haja,lets / action activity / やること / genre=XXX / content=XXX,other=XXX
+:m :haja,lets / action activity / やること / genre=~ / content=~,other=~
+
+:m :haja,lets / action activity / やること / genre=~ / content=篠笛、尺八。自分が聞きたい曲を作ろう。,other=~
 
 :m :haja,lets / action activity / やること / genre=論語 / content=論語。４回目。主題を挙げて、該当章、採集しよう,other=
 
@@ -1005,6 +1007,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=自分の宗教が唯一正しい。驕り。その神が、人々に何をしているか。,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=「バカ」という形容詞。「りこうバカ」、名付ける。,id=~,other=~ / lang=ja
 
@@ -1519,7 +1523,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.33 / w=~,topic=,publisher=~,other=calc+:ガンの人、他 / N+
 
-:m 1*1 RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.174 / w=宗教的実存様態；思想的基底構造,topic=,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.212 / w=言語慣用；内的意味構造；意味構造的曖昧さ,topic=,publisher=~,other=
 
 :m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.185 / w=,topic=~,publisher=~,other=QQQ
 
@@ -1576,7 +1580,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
-:m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.107 / w=,topic=~,publisher=~,other=th+:ソクラテス、仁斎
+:m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.108 / w=寛仁[くわんじん,topic=~,publisher=~,other=
 
 :m #*# RES / JVEMV6 64#199.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.99 / w=程子,topic=~,publisher=~,other=timeline+:程顥、程頤
 
@@ -1605,7 +1609,7 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_8_taihaku / 『論語 泰伯』 著者=~,校注=~ / p.194 / w=,topic=,publisher=明治書院,other=th+:「致孝乎鬼神」
+:m #*# RES / JVEMV6 64#67_9_sikan / 『論語 子罕』 著者=~,校注=~ / p.210 / w=終助詞：也；也已矣；矣夫,topic=,publisher=明治書院,other=
 
 :m #*# RES / JVEMV6 64#67_7_jutsuji / 『論語 述而』 著者=~,校注=~ / p.161 / w=,topic=魯、斉、衛：建国者：周公旦,publisher=明治書院,other=
 
@@ -1669,6 +1673,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年6月8日8:21:46
 
 :tome / (lang=ja) / topic=~ / content=~
+
+:tome / (lang=ja) / topic=~ / content=世のあり様に[さま]に構うことなく、思う処を。
+
+:tome / (lang=ja) / topic=~ / content=俺は、音楽に殉じよう。
 
 :tome / (lang=ja) / topic=~ / content=地上に居る間は、アッラーフがお命じになることを
 
@@ -1964,6 +1972,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『イスラーム生誕』 / 著者=井筒俊彦
+
+:bookmemo / 読んだ本 / 『図解　裏ビジネスのカラクリ』 / 著者=丸山佑介
+
 :bookmemo / 読んだ本 / 『捨てられる宗教』 / 著者=島田裕巳 /
 
 :bookmemo / 読んだ本 / 『音のなんでも実験室』 / 著者=吉澤純夫 / 途中 ここまで
@@ -2190,6 +2202,12 @@ G:\photo-books_HD\list-of-books.txt
 //経過記録用途
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
 
+
+
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：８；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-01_01-24-33_000.jpg
+
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：１０；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。ディル、追加。スペアミント、追加。,occasion=経過観察。攪拌してみた。,id=2023-03-22_09-14-26_000.jpg
+
 :PHOTO 記録 / 経過記録 / target=人参：プランターに植えた / other=食用の人参。おせちの際に買ったもの。冷蔵庫。根が生えていた。,occasion=~,id=file-id:2023-03-07_11-46-57_000.jpg
 
 :PHOTO 記録 / 経過記録；作ったもの / food=大葉、味噌。混ぜもの / material=大葉；味噌 / type=~,other=お酒のつまみとして,occasion=~,id=~
@@ -2197,7 +2215,6 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=大葉,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする,occasion=経過観察,id=2023-03-24_01-02-30_000.jpg
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：１０；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。ディル、追加。スペアミント、追加。,occasion=経過観察。攪拌してみた。,id=2023-03-22_09-14-26_000.jpg
 
 
 //
@@ -2317,6 +2334,10 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m 2*2 RES / free / res-id=FW97 / theme=楕円；接線 / genre=math:楕円,content=,w=~ / session-number=~ / doc=~,other=付録：最初のメモ /
+
+:m #*# RES / free / res-id=UH8K / theme=(1>a>x>0) / genre=~,content=最初のメモ,w=~ / session-number=~ / doc=~,other=~ /
+
 :m #*# RES / free / res-id=3H9N / theme=log(-1)：性質 / genre=math:algebra,content= / session-number=~ / doc=~,other=簡易メモとして書いたもの。グラフに描くとどうなるか
 
 :m #*# RES / free / res-id=YYTB / theme=中国：天然ガス：日本との比較 / genre=economy:energy,content=~,w=~ / session-number=~ / doc=~,other=~
@@ -2386,7 +2407,9 @@ zionists
 ###2023年3月12日22:25:28
 ========================== :m : read docs, read_doc_
 //template
-:m #*# / read-docs / theme=Dubois:Souls,content=~,id=KVIH, w=~ / genre=~ / other=~
+:m #*# / read-docs / theme=~,content=~,id=~, w=~ / genre=~ / other=~
+
+:m #*# / read-docs / theme=演説：ユン・ソギョル,content=~,id=NCGE, w=~ / genre=~ / other=~
 
 :m 1*1 / read-docs / theme=習近平(xijinping)：講話,content=二十大精神,w=； / genre=~ / other=~, doc-id=SL91
 
@@ -2399,13 +2422,15 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=3JPX(browser=yan) / media=ptv / theme=ロシア：プーチン：安全保障協議会,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=ACWZ(browser=yan) / media=BAR / theme=Uhuru-Movement;banking,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=N8FT(browser=yan) / media=BAR / theme=Lincoln,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=B459(browser=yan) / media=ya / theme=ロシア：ベラルース：核配備,content=~,w=~ / genre=~ / other=~
 
-:m #*# RES / free# S87DP9 記事読み / id=QUPO(browser=yan) / media=ei / theme=国連安保理：決議：イスラエル：入植地,content=George-Washington-Univ.,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=2BA9(browser=yan) / media=ei / theme=ガザ：移民：移住にまつわる苦しみ：民衆,content=,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=8UUJ(browser=yan) / media=ya / theme=金武町[きんちょう；流弾；米軍基地,content=~,w=~ / genre=~ / other=~
 
