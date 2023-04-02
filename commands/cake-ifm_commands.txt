@@ -1008,6 +1008,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=津軽じょんがらも良いけれど：奏者の心が震えて、ために、響く音,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=自分の宗教が唯一正しい。驕り。その神が、人々に何をしているか。,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=「バカ」という形容詞。「りこうバカ」、名付ける。,id=~,other=~ / lang=ja
@@ -1096,7 +1098,8 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~ /
+// follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
 :m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
@@ -1509,6 +1512,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+
+:m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.93 / w=~,topic=「乾」,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#242_quran / 『コーラン（上）』 著者=井筒俊彦,校注=~ / p.~ / w=~,topic=~,publisher=~,other=text:9-72;9-87;9-97
+
 :m #*# RES / JVEMV6 64#262_china_econ_marukawa / 『現代中国経済』 著者=丸川知雄,校注=~ / p.76 / w=計画経済；市場経済；,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.?? / w=~,topic=甲申事変；「脱亜論」；漢城条約；壬午政変,publisher=~,other=tl+:ペリー来航～日米和親条約；
@@ -1552,7 +1560,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.29 / w=エーロ・ゾル；スモッグ,topic=物性,publisher=~,other=memo+:ルビー
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.52 / w=ゼラチン；ニカワ；コラーゲン；塩化金；,topic=物性,publisher=~,other=
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1674,6 +1682,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome / (lang=ja) / topic=~ / content=~
 
+:tome / (lang=ja) / topic=~ / content=才と、学。その効を、実効たらしむ：道
+
+:tome / (lang=ja) / topic=~ / content=解答より、質問が、希少。
+
 :tome / (lang=ja) / topic=~ / content=世のあり様に[さま]に構うことなく、思う処を。
 
 :tome / (lang=ja) / topic=~ / content=俺は、音楽に殉じよう。
@@ -1684,28 +1696,14 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 :tome / (lang=ja) / topic=~ / content=世のお歴々がなんと言おうと、好む文化を。
 
-:tome / (lang=ja) / topic=~ / content=六十、七十になっても、倦まず弛まず、歩き続ける。神の国と、神の義。
-
-:tome / (lang=ja) / topic=~ / content=「八百万の神」ではなく、八百万の「魂」たち。と、倶に生きようぞ。神道とイスラム。自然神道。記紀神道ではなく。縄文の神々。
-
-:tome / (lang=ja) / topic=~ / content=俺の使命：教えの何たるか、発明する。無償で行う。
-
-:tome / (lang=ja) / topic=~ / content=数学、芸術。そして、技術へと
-
-:tome / (lang=ja) / topic=儒教 / content=丸っきり、俺は、それで行こう
-
-:tome / (lang=ja) / topic=~ / content=人は、十分に貰うと、人にあげたくなってしまう；近思切問しよう
-
-:tome / (lang=ja) / topic=神様について / content=私の神は、楽しいことが好きな神様。楽しげな曲が好き。
-
-:tome / (lang=ja) / topic=法則：知ることについて / content=脳のことを知らなければ、何も知ることはできない
-
 
 
 ###2021年7月3日10:35:02
 =============== memo : :? :jilmun_
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m :? #*# / topic=クランク / content=クランク上の、特定の点の座標。互いに、どんな関係？ / status=~ / other=~,id=~
 
 :m :? #*# / topic=半球の体積：数学 / content=半球の体積。の、半分に達する時、高さはいくらか。 / status=~ / other=~,id=VUIK
 
@@ -1972,25 +1970,14 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『田中正造の人と生涯』 / 著者=雨宮義人 / 途中 ここまで
+
+
 :bookmemo / 読んだ本 / 『イスラーム生誕』 / 著者=井筒俊彦
 
 :bookmemo / 読んだ本 / 『図解　裏ビジネスのカラクリ』 / 著者=丸山佑介
 
 :bookmemo / 読んだ本 / 『捨てられる宗教』 / 著者=島田裕巳 /
-
-:bookmemo / 読んだ本 / 『音のなんでも実験室』 / 著者=吉澤純夫 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『ハディース　Ⅰ』 / 著者=牧野信也、訳 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『日本人の宗教とは何か』 / 著者=山折哲雄、編著 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『図解　洗脳撃退マニュアル』 / 著者=高橋紳吾、監修 /
-
-:bookmemo / 読んだ本 / 『素数入門』 / 著者=芹沢正三 / 途中 ここまで
-
-:bookmemo / 読んだ本 / 『イスラームの根源をさぐる』 / 著者=牧野信也 /
-
-:bookmemo / 読んだ本 / 『だまし犯罪百科』 / 著者=間川清 /
 
 
 
@@ -2951,7 +2938,7 @@ record_misc
 read_doc_
 read_article
 memo_shi
-jilmun_
+jilmun_	]]
 _ske
 _memo_shuuji	]]
 _des
