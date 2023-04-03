@@ -943,40 +943,20 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+:m :haja,lets / action activity / やること / genre=economy / content=家賃補助：実現の方法,other=~
+
 :m :haja,lets / action activity / やること / genre=~ / content=篠笛、尺八。自分が聞きたい曲を作ろう。,other=~
 
 :m :haja,lets / action activity / やること / genre=論語 / content=論語。４回目。主題を挙げて、該当章、採集しよう,other=
 
-:m :haja,lets / action activity / やること / genre=音楽、楽器 / content=XXX尺八、篠笛で、歌われなかった歌を、歌おうじゃないか,other=翌日の追記：否
-
-:m :haja,lets / action activity / やること / genre=XXX / content=楕円席部などを習得して、世の役に立つ業[わざ]を、為そうじゃないか。
-
-:m :haja / action activity / やること / genre=cs:algorythm / content=アルゴリズムを脱けるための、アルゴリズム。アルゴリズムを、攪乱するための。騙すための。
-
-:m :haja / action activity / やること / genre=焼酎漬け / content=日本酒：混合の要素。その一つに。
-
-:m :haja / action activity / やること / genre=mandeunda:generalny / content=家を作りたい：茅葺き、土壁
-
-
-:m :haja / action activity / やること / genre=営み：大晦日に / content=玄関の扉：両側の基部：お酒を入れた器、置く
-
-:m :haja / action activity / やること / genre=食べ方 / content=骨付きの鶏肉：もも肉：断ち切り方。
-
-:m :lets / action activity / やること / genre=活動 / content=bio;plastic;量子；re-forest
-
-:m :lets / action activity / やること / genre=神道：行事、祭り / content=自分一人で、始めよう
-
-:m :lets / action activity / やること / genre=創作 / content=伝えたいこと。物語で伝えよう。音楽で。
-
-:m :lets / action activity / やること / genre=牧師になる / content=牧師になろう。そのために、学のある人になろう。 || :m :lets / action activity / やること / genre=res:history / content=マイダン以来の歴史。書き記そう
-
-:m :lets / action activity / やること / genre=作曲；和歌 / content=作曲。春夏秋冬をテーマとした曲。例えば「海」をテーマに。「革命」；「革命」をテーマにした和歌。 || :m :lets / action activity / やること / genre=diary:korean / content=季節の花。野菜
-
-:m :lets / action activity / やること：予定 / genre=発熱外来、予約 / content=福島内科医院、他
 
 //genre_list
 学びについて
 音楽、楽器
+economy
+
+
+
 
 ============================== memo : 温度	
 ###2022年8月4日10:29:53
@@ -1007,6 +987,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=「上[かみ]仁に由れば、民は義に興る」,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=駄目だ。胸をはだけた姿。中にある曲が、輝いている。あられもない姿が、ぼやける。,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=津軽じょんがらも良いけれど：奏者の心が震えて、ために、響く音,id=~,other=~ / lang=ja
 
@@ -1512,6 +1496,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#266_mushuukyoo_shimada / 『無宗教こそ日本人の宗教である』 著者=島田裕巳,校注=~ / p.18 / w=~,topic=~,publisher=~,other=QQQ
+
+
+:m #*# RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.11 / w=~,topic=~,publisher=~,other=QQQ
 
 :m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.93 / w=~,topic=「乾」,publisher=~,other=~
 
@@ -1519,7 +1507,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#262_china_econ_marukawa / 『現代中国経済』 著者=丸川知雄,校注=~ / p.76 / w=計画経済；市場経済；,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.?? / w=~,topic=甲申事変；「脱亜論」；漢城条約；壬午政変,publisher=~,other=tl+:ペリー来航～日米和親条約；
+:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.?? / w=~,topic=壬午軍乱,publisher=~,other=QQQ
 
 :m #*# RES / JVEMV6 64#101_banzan_shuugi / 『集義和書』 著者=熊沢番山,校注=~ / p.?? / w=~,topic=~,publisher=~,other=tl+:熊沢番山、伊藤仁斎
 
@@ -2321,6 +2309,10 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=LWIZ / theme=卵殻：成分 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=GZRD / theme=音階；周波数 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=memo+;sheet+;bookmark+
+
 :m 2*2 RES / free / res-id=FW97 / theme=楕円；接線 / genre=math:楕円,content=,w=~ / session-number=~ / doc=~,other=付録：最初のメモ /
 
 :m #*# RES / free / res-id=UH8K / theme=(1>a>x>0) / genre=~,content=最初のメモ,w=~ / session-number=~ / doc=~,other=~ /
@@ -2660,6 +2652,10 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
 
+
+###2023年4月3日22:31:02
+#DELETE FROM ifm11 WHERE _id <= 60700;
+
 ###2023年3月14日22:24:28
 //DELETE FROM ifm11 WHERE _id <= 60352;
 
@@ -2923,7 +2919,7 @@ books_read	]]
 ph_
 percussion
 m_id_
-lets,haja_
+lets,haja_	]]
 i_any
 genre_res
 daylog
