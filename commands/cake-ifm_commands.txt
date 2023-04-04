@@ -1576,7 +1576,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
-:m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.108 / w=寛仁[くわんじん,topic=~,publisher=~,other=
+:m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.111 / w=助法,topic=~,publisher=~,other=	
 
 :m #*# RES / JVEMV6 64#199.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.99 / w=程子,topic=~,publisher=~,other=timeline+:程顥、程頤
 
@@ -1690,6 +1690,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 
 :m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
+
+:m :? #*# / topic=math:代数 / content=三角関数による、複素数の表式。共軛に変換するための、行列は？ / status=~ / other=~,id=~
 
 :m :? #*# / topic=クランク / content=クランク上の、特定の点の座標。互いに、どんな関係？ / status=~ / other=~,id=~
 
@@ -1809,7 +1811,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //([^a-z]{1}[a-z]*)	$1;
 //(.)	$1;
 
-:m #*# / memo:other(m:other) / topic=習字, about=,other=,id=~,content=QQQ
+:m #*# / memo:other(m:other) / topic=習字, about=,other=呼称、作った,id=~,content=QQQ
 
 
 
@@ -2049,6 +2051,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :m 見た夢 / topic=~ / content=~ / other=~
 
+:m 見た夢 / topic=~ / content=「ショトリコ」。技術者の名前；５－４－２ / other=~
+
 :m 見た夢 / <1> topic='mechanization'：語句の意味：日本語で言うなら、「仕組み」、「働き」、「内部運動」 / content=夢の中で、曲がった筒状のもの、出てきた / other=~ \\\ <2> topic=知りたいもの / content=スラブ民族の、深部：キリスト教、以前 / other=~
 
 
@@ -2168,6 +2172,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
 
+:PHOTO 記録 / subject=卵：計量：重さ / location=台所 / content=卵の重さ：割り入れたところ,for=~,other=~
+
 :PHOTO 記録 / subject=ATM：明細票 / location=~ / content=~,for=月末の入金,other=~
 
 :PHOTO 記録 / subject=調理：レモン、砂糖煮 / location=~ / content=計量。手順,for=~,other=~
@@ -2179,7 +2185,7 @@ G:\photo-books_HD\list-of-books.txt
 
 
 
-:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：８；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-01_01-24-33_000.jpg
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：６（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：１０；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-04_01-07-18_000.jpg
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：１０；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。ディル、追加。スペアミント、追加。,occasion=経過観察。攪拌してみた。,id=2023-03-22_09-14-26_000.jpg
 
@@ -2309,6 +2315,13 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m 1-2*4 RES / free / res-id=NCU6 / theme=math:指数関数：三角関数による表現 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m 4*4 RES / free / res-id=NCU6 / theme=math:指数関数：三角関数による表現 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=found+;theorem+;orig-memo+ / N+
+
+
+:m #*# RES / free / res-id=P6IS / theme=家賃補助 / genre=~,content=川崎市。家賃補助するとしたら,w=~ / session-number=~ / doc=~,other=~
+
 :m #*# RES / free / res-id=LWIZ / theme=卵殻：成分 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
 :m #*# RES / free / res-id=GZRD / theme=音階；周波数 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=memo+;sheet+;bookmark+
@@ -2401,6 +2414,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=H8YU(browser=yan) / media=ei / theme=パレスチナ；安保理決議；イスラエル,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=3JPX(browser=yan) / media=ptv / theme=ロシア：プーチン：安全保障協議会,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=ACWZ(browser=yan) / media=BAR / theme=Uhuru-Movement;banking,content=~,w=~ / genre=~ / other=~
