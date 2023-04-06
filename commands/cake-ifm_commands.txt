@@ -1505,7 +1505,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#242_quran / 『コーラン（上）』 著者=井筒俊彦,校注=~ / p.~ / w=~,topic=~,publisher=~,other=text:9-72;9-87;9-97
 
-:m #*# RES / JVEMV6 64#262_china_econ_marukawa / 『現代中国経済』 著者=丸川知雄,校注=~ / p.76 / w=計画経済；市場経済；,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#262_china_econ_marukawa / 『現代中国経済』 著者=丸川知雄,校注=~ / p.88 / w=,topic=労働市場,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.?? / w=~,topic=壬午軍乱,publisher=~,other=QQQ
 
@@ -1529,7 +1529,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.222 / w=消費者契約法１０条,topic=事例,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.47 / w=県令：三島,topic=,publisher=~,other=QQQ
+:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.54 / w=,topic=足尾鉱毒事件,publisher=~,other=QQQ
 //tl+:
 //list+
 //map+:
@@ -2172,6 +2172,12 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
 
+:PHOTO 記録 / subject=計量：重さ / location=台所 / content=スプーン：大,for=~,other=~
+
+:PHOTO 記録 / subject=食器：計量：重さ / location=台所 / content=卵をレンジ調理するための、小鉢,for=~,other=~
+
+:PHOTO 記録 / subject=卵：計量：重さ / location=台所 / content=卵の重さ：丸々,for=~,other=~
+
 :PHOTO 記録 / subject=卵：計量：重さ / location=台所 / content=卵の重さ：割り入れたところ,for=~,other=~
 
 :PHOTO 記録 / subject=ATM：明細票 / location=~ / content=~,for=月末の入金,other=~
@@ -2403,6 +2409,8 @@ zionists
 
 :m #*# / read-docs / theme=演説：ユン・ソギョル,content=~,id=NCGE, w=~ / genre=~ / other=~
 
+:m 1*1 / read-docs / theme=習近平(xijinping)：講話,content=人大,w=； / genre=~ / other=~, doc-id=P7GO
+
 :m 1*1 / read-docs / theme=習近平(xijinping)：講話,content=二十大精神,w=； / genre=~ / other=~, doc-id=SL91
 
 :m #*# / read-docs / theme=labor-issues,content=~,id=GXDX, w=理科研；雇止め；非正規 / genre=~ / other=~
@@ -2414,6 +2422,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=BZPI(browser=yan) / media=ei / theme=パレスチナ；イスラエル；極右,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=H8YU(browser=yan) / media=ei / theme=パレスチナ；安保理決議；イスラエル,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=3JPX(browser=yan) / media=ptv / theme=ロシア：プーチン：安全保障協議会,content=~,w=~ / genre=~ / other=~
