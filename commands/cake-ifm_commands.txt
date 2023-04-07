@@ -988,6 +988,9 @@ economy
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+//2023年4月7日22:29:08
+:m :th,mysl / topic=~ / content=人間に関しては、先ず、実存を手当て。セックスだのは、おまけ。,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=「上[かみ]仁に由れば、民は義に興る」,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=駄目だ。胸をはだけた姿。中にある曲が、輝いている。あられもない姿が、ぼやける。,id=~,other=~ / lang=ja
@@ -1496,6 +1499,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+//2023年4月7日22:26:44
+:m #*# RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.i / w=~,topic=~,publisher=~,other=~
+
 :m 2*2 RES / JVEMV6 64#267_akushitu / 『悪質商法のすごい手口』 著者=国民生活センター、監修,校注=~ / p.? / w=~,topic=~,publisher=~,other=tips+:「割合」から、N倍を算出する
 
 :m #*# RES / JVEMV6 64#266_mushuukyoo_shimada / 『無宗教こそ日本人の宗教である』 著者=島田裕巳,校注=~ / p.58 / w=高松塚古墳；源信,topic=~,publisher=~,other=QQQ
@@ -1509,7 +1515,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#262_china_econ_marukawa / 『現代中国経済』 著者=丸川知雄,校注=~ / p.88 / w=,topic=労働市場,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.?? / w=~,topic=壬午軍乱,publisher=~,other=QQQ
+:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.73 / w=~,topic=壬午軍乱,publisher=~,other=QQQ
 
 :m #*# RES / JVEMV6 64#101_banzan_shuugi / 『集義和書』 著者=熊沢番山,校注=~ / p.?? / w=~,topic=~,publisher=~,other=tl+:熊沢番山、伊藤仁斎
 
@@ -1607,6 +1613,8 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
+:m #*# RES / JVEMV6 64#67_10_kyootoo / 『論語 郷党』 著者=~,校注=~ / p.222 / w=,topic=,publisher=明治書院,other=ske+:sk-id.5RLE:ゆがけ
+
 :m #*# RES / JVEMV6 64#67_9_sikan / 『論語 子罕』 著者=~,校注=~ / p.210 / w=終助詞：也；也已矣；矣夫,topic=,publisher=明治書院,other=
 
 :m #*# RES / JVEMV6 64#67_7_jutsuji / 『論語 述而』 著者=~,校注=~ / p.161 / w=,topic=魯、斉、衛：建国者：周公旦,publisher=明治書院,other=
@@ -2191,6 +2199,11 @@ G:\photo-books_HD\list-of-books.txt
 //経過記録用途
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
 
+//2023年4月7日22:20:57
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：１０；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-07_01-20-25_000.jpg
+
+//2023年4月7日17:57:11
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=大葉,liquor=麦焼酎：??ml,time=~,container=silver-cap-medium / type=~,other=３日、漬けた。実を取り出し。液のみにして、色が如何様に変化する、しない。知りたい。,occasion=経過観察。,id=2023-04-07_00-56-21_000.jpg
 
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：６（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：１０；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-04_01-07-18_000.jpg
