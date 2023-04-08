@@ -1499,12 +1499,14 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
+
 //2023年4月7日22:26:44
 :m #*# RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.i / w=~,topic=~,publisher=~,other=~
 
 :m 2*2 RES / JVEMV6 64#267_akushitu / 『悪質商法のすごい手口』 著者=国民生活センター、監修,校注=~ / p.? / w=~,topic=~,publisher=~,other=tips+:「割合」から、N倍を算出する
 
-:m #*# RES / JVEMV6 64#266_mushuukyoo_shimada / 『無宗教こそ日本人の宗教である』 著者=島田裕巳,校注=~ / p.58 / w=高松塚古墳；源信,topic=~,publisher=~,other=QQQ
+:m #*# RES / JVEMV6 64#266_mushuukyoo_shimada / 『無宗教こそ日本人の宗教である』 著者=島田裕巳,校注=~ / p.84 / w=,topic=~,publisher=~,other=QQQ;list+:神道、各派
 
 
 :m #*# RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.11 / w=~,topic=~,publisher=~,other=QQQ
@@ -1531,7 +1533,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#253_islam_kongen / 『イスラームの根源をさぐる』 著者=牧野信也,校注=~ / p.185 / w=,topic=~,publisher=~,other=QQQ
 
-:m #*# RES / JVEMV6 64#254_hukanzen / 『不完全性定理とはなにか』 著者=竹内薫,校注=~ / p.110 / w=ゲーデル数,topic=~,publisher=~,other=calc+:ゲーデル数：式を算出
+:m #*# RES / JVEMV6 64#254_hukanzen / 『不完全性定理とはなにか』 著者=竹内薫,校注=~ / p.115 / w=ゲーデル数,topic=ステップ：ゲーデルの証明,publisher=~,other=
 
 :m #*# RES / JVEMV6 64#252_sennoo_gekitai / 『図解　洗脳撃退マニュアル』 著者=高橋紳吾、監修,校注=~ / p.42 / w=QQQ,topic=~,publisher=~,other=~
 
@@ -1679,6 +1681,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年6月8日8:21:46
 
 :tome / (lang=ja) / topic=~ / content=~
+
+:tome / (lang=ja) / topic=~ / content=個々の、数学、物理、テーマ、質問。から、徐々に、構築して行こう
 
 :tome / (lang=ja) / topic=~ / content=才と、学。その効を、実効たらしむ：道
 
@@ -2182,6 +2186,9 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
 
+//2023年4月8日21:55:05 / 
+:PHOTO 記録 / subject=シェーバー：剃りくず：溜まり具合 / location=本体：回転部：底部 / content=~,for=~,other=~
+
 :PHOTO 記録 / subject=計量：重さ / location=台所 / content=スプーン：大,for=~,other=~
 
 :PHOTO 記録 / subject=食器：計量：重さ / location=台所 / content=卵をレンジ調理するための、小鉢,for=~,other=~
@@ -2336,6 +2343,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=8AT2 / theme=math:べき乗：微分 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=q+:q-id.QU7K;q+:q-id.XJ9M;
+
 :m 1-2*4 RES / free / res-id=NCU6 / theme=math:指数関数：三角関数による表現 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
 :m 4*4 RES / free / res-id=NCU6 / theme=math:指数関数：三角関数による表現 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=found+;theorem+;orig-memo+ / N+
@@ -2437,6 +2446,10 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=BEUM(browser=yan) / media=ya / theme=韓国：麻薬配布：事件,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=13T4(browser=yan) / media=ya / theme=マイナンバー；別人分：発行,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=V97T(browser=yan) / media=ya / theme=韓国；政府；半導体,content=~,w=~ / genre=~ / other=~
 
 
@@ -2539,6 +2552,8 @@ zionists
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=コロナワクチン：接種：申し込み,with=福島内科医院,content=予約を取る：３回目,other=~ / N+
 
+//2023年4月8日22:07:10
+:PHOTO 記録 / 文書：コレポン / #*# / about=予約願い,with=山下歯科,content=~,other=前歯：上あご：真ん中から、２番目 / N~
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=予約願い,with=山下歯科,content=~,other=この日は、山下さんは、休診。未完了 / N~
 
