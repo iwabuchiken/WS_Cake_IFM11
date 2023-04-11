@@ -1520,7 +1520,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m #*# RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.i / w=~,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.14 / w=ゴルジ；X線造影法；CT,topic=~,publisher=~,other=~
 
 :m 1*1 RES / JVEMV6 64#267_akushitu / 『悪質商法のすごい手口』 著者=国民生活センター、監修,校注=~ / p.43 / w=~,topic=点検商法,publisher=~,other=~
 
@@ -1545,7 +1545,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#258_1_suugaku_gauss / 『数学の歴史　１９世紀の数学　整数論』 著者=河田敬義,校注=~ / p.8 / w=~,topic=ディオファントス解析；,publisher=~,other=memo+:楕円、接線；q+:q-id.BUJX(new);q+:q-id.SA1E(new);q+:q-id.A2QD(new);
 
-:m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.33 / w=~,topic=,publisher=~,other=calc+:ガンの人、他 / N+
+:m 1*2 RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.33 / w=~,topic=,publisher=~,other=calc+:ガンの人
 
 :m 1*1 RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.212 / w=言語慣用；内的意味構造；意味構造的曖昧さ,topic=,publisher=~,other=
 
@@ -1576,7 +1576,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.52 / w=ゼラチン；ニカワ；コラーゲン；塩化金；,topic=物性,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.53 / w=分散コロイド；,topic=物性,publisher=~,other=
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1699,6 +1699,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年6月8日8:21:46
 
 :tome / (lang=ja) / topic=~ / content=~
+
+:tome / (lang=ja) / topic=~ / content=笛；胸の傷；手足が動かない；役割
 
 :tome / (lang=ja) / topic=~ / content=製品作りも、数学、物理研究も、「アート」として、執ろう
 
@@ -1878,6 +1880,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=篠笛：口の形, about=大甲、穴３,content=~,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=クルアーン：対訳, about=~,content=~,other=~,id=~ 
 

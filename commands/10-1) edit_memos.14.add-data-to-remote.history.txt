@@ -1,3 +1,27 @@
+### 2023/04/11 22:20:35
+total_data => 14
+new_data_Success => 13
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
+### 2023/04/11 11:53:26
+total_data => 30
+new_data_Success => 29
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
+### 2023/04/09 22:45:15
+total_data => 28
+new_data_Success => 27
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 1
+
+
 ### 2023/04/08 22:18:46
 total_data => 20
 new_data_Success => 19
@@ -9142,6 +9166,12 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
+
+done
+
+done
 
 done
 
