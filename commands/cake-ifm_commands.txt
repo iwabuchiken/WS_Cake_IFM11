@@ -945,6 +945,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+:m :haja,lets / action activity / やること / genre=物理学：計算 / content=器の回転：中の液体：縁の部分：盛り上がる高さ,other=~
+
 :m :haja,lets / action activity / やること / genre=音楽：プログラミング / content=wavファイル：音、作ろう,other=~
 
 :m :haja,lets / action activity / やること / genre=物理学；天文学 / content=人工衛星の力学：講義ノート：実際に、計算、やってみる,other=~
@@ -964,6 +966,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 学びについて
 音楽、楽器
 economy
+物理学：計算
+
 
 
 
@@ -998,9 +1002,9 @@ economy
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=「神」なるものについて、知りたい。イスラームだ、キリスト教だ、を離れて,id=~,other=~ / lang=ja
 
-
-:m :th,mysl / topic=物理：波：複素空間：重ね合わせ / content=~,id=~,other=~ / lang=ja
+	:m :th,mysl / topic=物理：波：複素空間：重ね合わせ / content=~,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=そのやり方で、もれなく、皆が安堵するか；是非の判断基準。,id=~,other=~ / lang=ja
 
@@ -1520,14 +1524,14 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m #*# RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.31 / w=MRI;,topic=~,publisher=~,other=memo+:骨転移
+:m #*# RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.14 / w=ゴルジ；X線造影法；CT,topic=~,publisher=~,other=~
 
 :m 1*1 RES / JVEMV6 64#267_akushitu / 『悪質商法のすごい手口』 著者=国民生活センター、監修,校注=~ / p.43 / w=~,topic=点検商法,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#266_mushuukyoo_shimada / 『無宗教こそ日本人の宗教である』 著者=島田裕巳,校注=~ / p.84 / w=,topic=~,publisher=~,other=QQQ;list+:神道、各派
 
 
-:m #*# RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.56 / w=~,topic=~,publisher=~,other=QQQ
+:m #*# RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.11 / w=~,topic=~,publisher=~,other=QQQ
 
 :m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.93 / w=~,topic=「乾」,publisher=~,other=~
 
@@ -1535,7 +1539,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#262_china_econ_marukawa / 『現代中国経済』 著者=丸川知雄,校注=~ / p.88 / w=,topic=労働市場,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.77 / w=~,topic=壬午軍乱,publisher=~,other=QQQ
+:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.73 / w=~,topic=壬午軍乱,publisher=~,other=QQQ
 
 :m #*# RES / JVEMV6 64#101_banzan_shuugi / 『集義和書』 著者=熊沢番山,校注=~ / p.?? / w=~,topic=~,publisher=~,other=tl+:熊沢番山、伊藤仁斎
 
@@ -1545,7 +1549,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#258_1_suugaku_gauss / 『数学の歴史　１９世紀の数学　整数論』 著者=河田敬義,校注=~ / p.8 / w=~,topic=ディオファントス解析；,publisher=~,other=memo+:楕円、接線；q+:q-id.BUJX(new);q+:q-id.SA1E(new);q+:q-id.A2QD(new);
 
-:m #*# RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.33 / w=~,topic=,publisher=~,other=calc+:ガンの人、他 / N+
+:m 1*2 RES / JVEMV6 64#257_chokkan_kaminaga / 『直感を裏切る数学』 著者=神永正博,校注=~ / p.33 / w=~,topic=,publisher=~,other=calc+:ガンの人
 
 :m 1*1 RES / JVEMV6 64#256_islam_seitan_izutu / 『イスラーム生誕』 著者=井筒俊彦,校注=~ / p.212 / w=言語慣用；内的意味構造；意味構造的曖昧さ,topic=,publisher=~,other=
 
@@ -1557,7 +1561,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.222 / w=消費者契約法１０条,topic=事例,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.54 / w=,topic=足尾鉱毒事件,publisher=~,other=QQQ
+:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.56 / w=,topic=足尾鉱毒事件,publisher=~,other=渡良瀬川：流域：各県の、諸郡；QQQ
 //tl+:
 //list+
 //map+:
@@ -1576,7 +1580,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 3*3 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.63 / w=,topic=炭酸カルシウム；,publisher=~,other=q+:q-id.TJID(nowa)
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.73 / w=親水ゾル；ところてん（心太）；,topic=物性,publisher=~,other=
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1699,6 +1703,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年6月8日8:21:46
 
 :tome / (lang=ja) / topic=~ / content=~
+
+:tome / (lang=ja) / topic=~ / content=笛；胸の傷；手足が動かない；役割
 
 :tome / (lang=ja) / topic=~ / content=製品作りも、数学、物理研究も、「アート」として、執ろう
 
@@ -1878,6 +1884,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=篠笛：口の形, about=大甲、穴３,content=~,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=クルアーン：対訳, about=~,content=~,other=~,id=~ 
 
@@ -2249,6 +2257,9 @@ G:\photo-books_HD\list-of-books.txt
 
 //経過記録用途
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
+//2023年4月13日21:56:22
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク（２）：１０；生姜（２）：１０；スペアミント：６；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-13_00-59-14_000.jpg
+
 
 //2023年4月7日22:20:57
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：１０；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-07_01-20-25_000.jpg
