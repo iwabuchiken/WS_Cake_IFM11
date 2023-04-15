@@ -909,6 +909,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,memo~,found~,id=~,occasion=~,other=~
 
+:m dessin,sketch / des. object=花： / genre=~,source=~,location=自宅：東側の犬走地面[いぬばしりじめん,memo~,found~,id=I866,occasion=~,other=~
+
+:m dessin,sketch / des. object=シロツメクサ：花 / genre=~,source=~,location=~,memo~,found~,id=73PH,occasion=~,other=~
+
 :m dessin,sketch / des. object=鶴 / genre=動物：鳥,source=~,location=~,memo~,found~,id=Y4JF,occasion=~,other=file+
 
 :m dessin,sketch / des. object=コテ（鏝） / genre=~,source=~,location=~,other=~,memo~,found~,id=000V,occasion=~
@@ -1580,7 +1584,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.73 / w=親水ゾル；ところてん（心太）；,topic=物性,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.77 / w=パラホルムアルデヒド；ポリアセタール,topic=物性,publisher=~,other=
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1637,6 +1641,8 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
+:m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.238 / w=,topic=,publisher=明治書院,other=著者の評論：への、評論
+
 :m #*# RES / JVEMV6 64#67_10_kyootoo / 『論語 郷党』 著者=~,校注=~ / p.222 / w=,topic=,publisher=明治書院,other=ske+:sk-id.5RLE:ゆがけ
 
 :m #*# RES / JVEMV6 64#67_9_sikan / 『論語 子罕』 著者=~,校注=~ / p.210 / w=終助詞：也；也已矣；矣夫,topic=,publisher=明治書院,other=
@@ -1702,7 +1708,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ======== memo :tome, tome_
 ###2021年6月8日8:21:46
 
-:tome / (lang=ja) / topic=~ / content=~
+:tome / (lang=ja) / topic=~ / content=~,other=~
+
+
+
+:tome / (lang=ja) / topic=~ / content=「善を以て民を養ふて」,other=source:『童子問　中』：p.118
 
 :tome / (lang=ja) / topic=~ / content=笛；胸の傷；手足が動かない；役割
 
@@ -2257,6 +2267,7 @@ G:\photo-books_HD\list-of-books.txt
 
 //経過記録用途
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
+
 //2023年4月13日21:56:22
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク（２）：１０；生姜（２）：１０；スペアミント：６；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-13_00-59-14_000.jpg
 
@@ -2397,6 +2408,10 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 ============================== :m : res:free : res_
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=JVA6 / theme=後期高齢者：保険料：値上げ / genre=~,content=金額：計算：保険料収入、増加分,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=XOWG / theme=bible-research / genre=religions,content=mateusza-6:34,w=~ / session-number=~ / doc=~,other=polish;greek;japanese
 
 :m #*# RES / free / res-id=T3QC / theme=複素数：べき乗 / genre=math:number-theory,content=~,w=~ / session-number=~ / doc=~,other=~
 
@@ -2678,6 +2693,9 @@ zionists
 
 ###2021年11月21日10:36:52
 ============================ 記録：自然観察
+
+//2023年4月14日22:15:17
+JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @自宅：東側 / target=~,occation=~,other=for:sketch
 
 JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @~ / target=~,occation=~,other
 
@@ -3067,12 +3085,12 @@ daylog
 article__ ]]
 _memo_other
 --------------------
-read_doc
 経過記録用途	]]
 video_shi	]]
 res_	]]
 record_misc
 read_doc_
+read_doc
 read_article
 memo_shi
 jilmun_	]]
