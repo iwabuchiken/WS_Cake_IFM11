@@ -1525,6 +1525,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.1 / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.14 / w=~,topic=~,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#269_kami_henyoo / 『日本の神　２　神の変容』 著者=山折哲雄、編,校注=~ / p.122 / w=三枝蓊[しげる；海後[かいご？,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
@@ -1645,7 +1649,7 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.238 / w=,topic=,publisher=明治書院,other=著者の評論：への、評論
+:m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.243 / w=,topic=人物：リストに並べる,publisher=明治書院,other=list+:子貢；子夏；子張
 
 :m #*# RES / JVEMV6 64#67_10_kyootoo / 『論語 郷党』 著者=~,校注=~ / p.222 / w=,topic=,publisher=明治書院,other=ske+:sk-id.5RLE:ゆがけ
 
@@ -1744,6 +1748,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=仏教 / content=仏教はなぜ、広まったのか。日本で。民衆に、どんな条件があったのか。 / status=~ / id=~,genre=~,other=~,
 
 :m :? #*# / topic=レーザー / content=レーザー。跳ね返すには；レーザー。反射。鏡を、どのように配するか。 / status=~ / genre=physics+math,other=~,id=~
 
@@ -1901,6 +1907,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
 
+:m #*# / memo:other(m:other) / topic=言葉：意義, about=「事の「次第」」：順序、いきさつ、推移,content=~,other=~,id=~ 
+
 :m #*# / memo:other(m:other) / topic=篠笛：口の形, about=大甲、穴３,content=~,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=クルアーン：対訳, about=~,content=~,other=~,id=~ 
@@ -2037,6 +2045,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+:bookmemo / 読んだ本 / 『イスラームの原点』 / 著者=牧野信也 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『直感を裏切る数学』 / 著者=神永正博 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『無宗教こそ日本人の宗教である』 / 著者=島田裕巳 /
 
@@ -3116,3 +3127,4 @@ _des
 82__
 76_
 64_
+	
