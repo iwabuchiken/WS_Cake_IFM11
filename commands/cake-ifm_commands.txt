@@ -1525,6 +1525,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#269_kami_henyoo / 『日本の神　２　神の変容』 著者=山折哲雄、編,校注=~ / p.122 / w=三枝蓊[しげる；海後[かいご？,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
@@ -1661,7 +1665,7 @@ sketch+;
 
 :m #*# RES / JVEMV6 64#213_nihon_old / 『日本昔話百選』 著者=稲田浩二、稲田和子,校注=~ / p.222 / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#171_1_1_yin / 『春秋左氏伝　一』 著者=鎌田正,校注=~ / p.47 / w=鄒[すう；鄭[てい,topic=~,publisher=~,other=map+
+:m #*# RES / JVEMV6 64#171_1_1_yin / 『春秋左氏伝　一』 著者=鎌田正,校注=~ / p.47 / w=邾[ちゅう,topic=~,publisher=~,other=~
 
 
 :m #*# RES / JVEMV6 64#209_brain_yamamoto / 『老化と脳科学』 著者=山本啓一,校注=~ / p.59 / w=海馬；抗体タンパク質,topic=~,publisher=~,other=~
@@ -1739,7 +1743,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年7月3日10:35:02
 =============== memo : :? :jilmun_
 //template
-:m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
+:m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=レーザー / content=レーザー。跳ね返すには；レーザー。反射。鏡を、どのように配するか。 / status=~ / genre=physics+math,other=~,id=~
 
 :m :? #*# / topic=~ / content=電車の車両：自動車の場合：移動重量：違いは、いかほど。 / status=~ / other=research-started:2023-04-10_10-24-10_000.jpg,id=~
 
@@ -2066,6 +2072,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
 
+:PHOTO 記録 / location=~ / topic=終了 / for=ワセリン / occasion=~,other=<80g:金銭の事情で、小さめの容器のものを買った。
+
 :PHOTO 記録 / location=トイレ / topic=終了 / for=消臭スプレー：トイレ用 / occasion=~,other=~
 
 //2023年2月27日14:41:39
@@ -2267,6 +2275,10 @@ G:\photo-books_HD\list-of-books.txt
 
 //経過記録用途
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
+//2023年4月16日9:30:25
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：２（単位：スプーン）；ニンニク（１）：１５；生姜（１）：１５；スペアミント：１０；ローズマリー：１０；オオバ：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-15_01-13-50_000.jpg
+
+
 
 //2023年4月13日21:56:22
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク（２）：１０；生姜（２）：１０；スペアミント：６；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-13_00-59-14_000.jpg
@@ -2408,6 +2420,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 ============================== :m : res:free : res_
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m 2*2 RES / free / res-id=98EE / theme=桁数、推定 / genre=~,content=~,w=「漸次偶数化法」 / session-number=~ / doc=~,other=q+:q-id.17HP(nowa):COMP / N~
 
 :m #*# RES / free / res-id=JVA6 / theme=後期高齢者：保険料：値上げ / genre=~,content=金額：計算：保険料収入、増加分,w=~ / session-number=~ / doc=~,other=~
 
