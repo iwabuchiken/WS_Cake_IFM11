@@ -1006,6 +1006,8 @@ economy
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=儒教の教えについて / content=儒教の教えは、人の情に、沿っている。無理がない。,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=「神」なるものについて、知りたい。イスラームだ、キリスト教だ、を離れて,id=~,other=~ / lang=ja
 
 	:m :th,mysl / topic=物理：波：複素空間：重ね合わせ / content=~,id=~,other=~ / lang=ja
@@ -1061,6 +1063,16 @@ mysl
 :m 災害備蓄 / 入れたもの / item=①消石灰（10kg） / other=~ / volume=~ / id=~ / 保管場所=物置
 
 :m 災害備蓄 / 梱包完了＋リスト / 2022-1030-① / items=レトルト：中華丼-3；カレー-4；親子丼-3,other=期限：202301
+
+
+###2023年4月17日22:04:32
+============================== memo : 文書：いろいろ
+
+:PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=取扱説明書
+:PHOTO 記録 / 文書　/ occasion=~ / for=キャン・ドゥ：電子レンジ用の、野菜蒸し用の、容器 / doc=取扱説明書
+
+:PHOTO 記録 / 文書　/ occasion=購入：キャン・ドゥ / for=紙切り / doc=取扱説明書
+
 
 ###2022年12月22日11:49:06
 ============================== memo : 文書：手順
@@ -1525,11 +1537,15 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#273_hikari_shikisai_saitoo / 『光と色彩の科学』 著者=齋藤勝裕,校注=~ / p.0 / w=~,topic=~,publisher=~,other=map+:奄美列島;memo+:レチナール；memo+:レチノール
+
+:m #*# RES / JVEMV6 64#248_1_hadith / 『ハディース　Ⅰ』 著者=牧野信也,校注=~ / p.50 / w=~,topic=ムハンマド：命じたこと、禁じたこと,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.1 / w=~,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.14 / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#269_kami_henyoo / 『日本の神　２　神の変容』 著者=山折哲雄、編,校注=~ / p.122 / w=三枝蓊[しげる；海後[かいご？,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#269_kami_henyoo / 『日本の神　２　神の変容』 著者=山折哲雄、編,校注=~ / p.133 / w=~,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
@@ -1669,7 +1685,7 @@ sketch+;
 
 :m #*# RES / JVEMV6 64#213_nihon_old / 『日本昔話百選』 著者=稲田浩二、稲田和子,校注=~ / p.222 / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#171_1_1_yin / 『春秋左氏伝　一』 著者=鎌田正,校注=~ / p.47 / w=邾[ちゅう,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#171_1_1_yin / 『春秋左氏伝　一』 著者=鎌田正,校注=~ / p.48 / w=鄭：武公,topic=~,publisher=~,other=~
 
 
 :m #*# RES / JVEMV6 64#209_brain_yamamoto / 『老化と脳科学』 著者=山本啓一,校注=~ / p.59 / w=海馬；抗体タンパク質,topic=~,publisher=~,other=~
@@ -3127,4 +3143,6 @@ _des
 82__
 76_
 64_
-	
+
+
+
