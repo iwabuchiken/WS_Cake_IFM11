@@ -949,6 +949,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+:m :haja,lets / action activity / やること / genre=inne / content=毎月、朔日。お供えを改める,other=~
+
 :m :haja,lets / action activity / やること / genre=物理学：計算 / content=器の回転：中の液体：縁の部分：盛り上がる高さ,other=~
 
 :m :haja,lets / action activity / やること / genre=音楽：プログラミング / content=wavファイル：音、作ろう,other=~
@@ -971,7 +973,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 音楽、楽器
 economy
 物理学：計算
-
+inne
 
 
 
@@ -1537,13 +1539,16 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#272_3_teishi_fujita / 『水戸学』「丁巳封事」 著者=~,校注=~ / p.451 / w=~,topic=~,publisher=~,other=~
+
+
 :m #*# RES / JVEMV6 64#273_hikari_shikisai_saitoo / 『光と色彩の科学』 著者=齋藤勝裕,校注=~ / p.0 / w=~,topic=~,publisher=~,other=map+:奄美列島;memo+:レチナール；memo+:レチノール
 
 :m #*# RES / JVEMV6 64#248_1_hadith / 『ハディース　Ⅰ』 著者=牧野信也,校注=~ / p.50 / w=~,topic=ムハンマド：命じたこと、禁じたこと,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.1 / w=~,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.46 / w=~,topic=~,publisher=~,other=calc+:失業率；文盲率
 
-:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.14 / w=~,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.32 / w=~,topic=キリスト教：弾圧,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#269_kami_henyoo / 『日本の神　２　神の変容』 著者=山折哲雄、編,校注=~ / p.133 / w=~,topic=~,publisher=~,other=~
 
@@ -1608,7 +1613,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.77 / w=パラホルムアルデヒド；ポリアセタール,topic=物性,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.97 / w=焼結；アルミナ；ナトリウムランプ；活性炭,topic=物性,publisher=~,other=
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1764,6 +1769,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=ボーズ・アインシュタイン統計 / content=下位１０％：どんな特徴 / status=~ / id=~,genre=physics,other=~,
 
 :m :? #*# / topic=仏教 / content=仏教はなぜ、広まったのか。日本で。民衆に、どんな条件があったのか。 / status=~ / id=~,genre=~,other=~,
 
@@ -2286,6 +2293,8 @@ G:\photo-books_HD\list-of-books.txt
 //2023年4月8日21:55:05 / 
 :PHOTO 記録 / subject=シェーバー：剃りくず：溜まり具合 / location=本体：回転部：底部 / content=~,for=~,other=~
 
+:PHOTO 記録 / subject=計量：重さ / location=台所 / content=計量カップ：金属製,for=~,other=~
+
 :PHOTO 記録 / subject=計量：重さ / location=台所 / content=スプーン：大,for=~,other=~
 
 :PHOTO 記録 / subject=食器：計量：重さ / location=台所 / content=卵をレンジ調理するための、小鉢,for=~,other=~
@@ -2448,6 +2457,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=APPK(nowa) / theme=北朝鮮：安保理決議 / genre=~,content=resolution:2397;resolution:1695;,w=~ / session-number=~ / doc=~,other=~
+
 :m 2*2 RES / free / res-id=98EE / theme=桁数、推定 / genre=~,content=~,w=「漸次偶数化法」 / session-number=~ / doc=~,other=q+:q-id.17HP(nowa):COMP / N~
 
 :m #*# RES / free / res-id=JVA6 / theme=後期高齢者：保険料：値上げ / genre=~,content=金額：計算：保険料収入、増加分,w=~ / session-number=~ / doc=~,other=~
@@ -2578,6 +2589,10 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=E8ZF(browser=yan) / media=ei / theme=イスラエル；欧州連合；パレスチナ,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=なし(browser=yan) / media=ya / theme=大成建設：ビル立て直し,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=BEUM(browser=yan) / media=ya / theme=韓国：麻薬配布：事件,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=13T4(browser=yan) / media=ya / theme=マイナンバー；別人分：発行,content=~,w=~ / genre=~ / other=~
@@ -2734,6 +2749,8 @@ zionists
 
 ###2021年11月21日10:36:52
 ============================ 記録：自然観察
+
+JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @家の近く：ジョナサン横のさかみち：途中：南面して、左手 / target=スズランのような花冠：草ではなく、木本か,occation=~,other=for:sketch
 
 //2023年4月14日22:15:17
 JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @自宅：東側 / target=~,occation=~,other=for:sketch
@@ -3143,6 +3160,3 @@ _des
 82__
 76_
 64_
-
-
-
