@@ -1008,8 +1008,6 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
-:m :th,mysl / topic=孟子 / content=「之を蔽害する」：自分で自分に、施している。,id=~,other=~ / lang=ja
-
 :m :th,mysl / topic=本読み：儒教 / content=仁斎と、水戸学,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=儒教の教えについて / content=儒教の教えは、人の情に、沿っている。無理がない。,id=~,other=~ / lang=ja
@@ -1617,7 +1615,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.97+ / w=,topic=物性,publisher=~,other=dessin+:d-id.6VLI;res+:r-id.J5G2(nowa);q+:q-id.QLAC(nowa):３乗根、２乗根；q+:q-id.MHIJ(nowa):立方体、等積球
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.106 / w=シリカゲル；塩化コバルト；活性白土；リンゴ酸；クエン酸；,topic=物性,publisher=~,other=
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1674,7 +1672,7 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.243+? / w=,topic=人物：リストに並べる,publisher=明治書院,other=list+:孔子：子路：冉求：公西華
+:m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.243 / w=,topic=人物：リストに並べる,publisher=明治書院,other=list+:子貢；子夏；子張
 
 :m #*# RES / JVEMV6 64#67_10_kyootoo / 『論語 郷党』 著者=~,校注=~ / p.222 / w=,topic=,publisher=明治書院,other=ske+:sk-id.5RLE:ゆがけ
 
@@ -1741,11 +1739,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ======== memo :tome, tome_
 ###2021年6月8日8:21:46
 
-//template
 :tome / (lang=ja) / topic=~ / content=~,other=~
 
 
-:tome / (lang=ja) / topic=~ / content=知らないと、その知らないものに、振り回されてしまう。,other=~
 
 :tome / (lang=ja) / topic=~ / content=「善を以て民を養ふて」,other=source:『童子問　中』：p.118
 
@@ -1776,7 +1772,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
 
-:m :? #*# / topic=~ / content=(1/2)(2/3)(3/4)(4/5)... / status=~ / id=~,genre=math,other=~,
+:m :? #*# / topic=~ / content=柱状の容器に、液体を追加する。全体の重心。は、どこか？ / status=~ / id=0UWY(nowa),genre=physics,other=~,
+
+
+:m :? #*# / topic=~ / content=波動関数。の、共軛。は、物理的には、何を意味している？正規（共軛の、元の関数。仮決め）の関数で表されるところの、粒子。の、影のようなものか。 / status=~ / id=6EFI,genre=physics,other=~,
 
 :m :? #*# / topic=ボーズ・アインシュタイン統計 / content=下位１０％：どんな特徴 / status=~ / id=~,genre=physics,other=~,
 
@@ -2597,9 +2596,6 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
-:m #*# RES / free# S87DP9 記事読み / id=B50B(browser=uan) / media=ei / theme=イスラエル；パレスチナ；マサフェル・ヤタ,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=DEWY(browser=yan) / media=ptv / theme=ウクライナ；米国；武器供与,content=~,w=~ / genre=~ / other=~
 :m #*# RES / free# S87DP9 記事読み / id=E8ZF(browser=yan) / media=ei / theme=イスラエル；欧州連合；パレスチナ,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=なし(browser=yan) / media=ya / theme=大成建設：ビル立て直し,content=~,w=~ / genre=~ / other=~
