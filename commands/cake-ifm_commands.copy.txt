@@ -1672,7 +1672,7 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.243 / w=,topic=人物：リストに並べる,publisher=明治書院,other=list+:子貢；子夏；子張
+:m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.251 / w=高柴[こうさい,topic=,publisher=明治書院,other=
 
 :m #*# RES / JVEMV6 64#67_10_kyootoo / 『論語 郷党』 著者=~,校注=~ / p.222 / w=,topic=,publisher=明治書院,other=ske+:sk-id.5RLE:ゆがけ
 
@@ -1936,6 +1936,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=数学：数論, about=~,content=~,other=q+:q-id.O1X4:総和；q+:q-id.O1X4:総積,id=~ 
 
 :m #*# / memo:other(m:other) / topic=言葉：意義, about=「事の「次第」」：順序、いきさつ、推移,content=~,other=~,id=~ 
 

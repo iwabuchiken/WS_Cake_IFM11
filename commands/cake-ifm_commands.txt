@@ -1617,7 +1617,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.97+ / w=,topic=物性,publisher=~,other=dessin+:d-id.6VLI;res+:r-id.J5G2(nowa);q+:q-id.QLAC(nowa):３乗根、２乗根；q+:q-id.MHIJ(nowa):立方体、等積球
+:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.115 / w=表面張力；,topic=物性,publisher=~,other=q+:q-id.F6UY:万有引力、電気斥力
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1652,6 +1652,8 @@ ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+
 :m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.78 / w=段祺瑞；汪兆銘；蒋介石,topic=~,publisher=~,other=
 
 :m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.201 / w=神経節細胞；扁桃体,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王下 / 『孟子』 著者=~,校注=~ / p.62 / w=まさかり；,topic=,other=ske+:sk-id.WNJC:戈（ほこ）;ske+:sk-id.L0BC:矛（ほこ）;ske+:sk-id.YHKH:斧、まさかり
 
 :m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王上 / 『孟子』 著者=~,校注=~ / p.18 / w=~,topic=百畝,other=
 
@@ -1694,7 +1696,7 @@ sketch+;
 
 :m #*# RES / JVEMV6 64#213_nihon_old / 『日本昔話百選』 著者=稲田浩二、稲田和子,校注=~ / p.222 / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#171_1_1_yin / 『春秋左氏伝　一』 著者=鎌田正,校注=~ / p.48 / w=鄭：武公,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#171_1_1_yin / 『春秋左氏伝　一』 著者=鎌田正,校注=~ / p.51 / w=申（国名）；共（国名）,topic=~,publisher=~,other=~
 
 
 :m #*# RES / JVEMV6 64#209_brain_yamamoto / 『老化と脳科学』 著者=山本啓一,校注=~ / p.59 / w=海馬；抗体タンパク質,topic=~,publisher=~,other=~
@@ -2301,6 +2303,13 @@ G:\photo-books_HD\list-of-books.txt
 //2023年4月8日21:55:05 / 
 :PHOTO 記録 / subject=シェーバー：剃りくず：溜まり具合 / location=本体：回転部：底部 / content=~,for=~,other=~
 
+//2023年4月21日18:02:20	/ 重さ
+:PHOTO 記録 / subject=計量：重さ / location=台所 / content=フリーザバッグ：中,for=~,other=~
+
+:PHOTO 記録 / subject=計量：重さ / location=台所 / content=しゃもじ：プラ製,for=~,other=~
+
+:PHOTO 記録 / subject=計量：重さ / location=台所 / content=お椀、大：プラ製,for=~,other=~
+
 :PHOTO 記録 / subject=計量：重さ / location=台所 / content=計量カップ：金属製,for=~,other=~
 
 :PHOTO 記録 / subject=計量：重さ / location=台所 / content=スプーン：大,for=~,other=~
@@ -2597,6 +2606,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=U3PU(browser=yan) / media=ptv / theme=イラン：米国：潜水艦：ホルムズ海峡,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=B50B(browser=uan) / media=ei / theme=イスラエル；パレスチナ；マサフェル・ヤタ,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=DEWY(browser=yan) / media=ptv / theme=ウクライナ；米国；武器供与,content=~,w=~ / genre=~ / other=~
