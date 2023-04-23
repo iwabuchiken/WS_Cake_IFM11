@@ -949,6 +949,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+:m :haja,lets / action activity / やること / genre=~ / content=「葬送のための曲」　=>　作ろう,other=否。そんなものに、費やすな。
+
 :m :haja,lets / action activity / やること / genre=inne / content=毎月、朔日。お供えを改める,other=~
 
 :m :haja,lets / action activity / やること / genre=物理学：計算 / content=器の回転：中の液体：縁の部分：盛り上がる高さ,other=~
@@ -1007,6 +1009,10 @@ inne
 //template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=物理・化学の書を猛読す。天に事ふる所以,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=「神よ」だけでは、足らず。「仁」無くんば、呼吸不能[あたはず。,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=孟子 / content=「之を蔽害する」：自分で自分に、施している。,id=~,other=~ / lang=ja
 
@@ -1552,7 +1558,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.46 / w=~,topic=~,publisher=~,other=calc+:失業率；文盲率
 
-:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.34 / w=~,topic=一向宗；,publisher=~,other=~
+:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.57 / w=岩橋小弥太；子安宣邦,topic=；,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#269_kami_henyoo / 『日本の神　２　神の変容』 著者=山折哲雄、編,校注=~ / p.133 / w=~,topic=~,publisher=~,other=~
 
@@ -1598,7 +1604,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.222 / w=消費者契約法１０条,topic=事例,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.56 / w=,topic=足尾鉱毒事件,publisher=~,other=渡良瀬川：流域：各県の、諸郡；QQQ
+:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.58 / w=,topic=足尾鉱毒事件,publisher=~,other=ske+:sk-id.OSCA:弁財船；memo+:m-id.R49N:硫酸銅、酸化銅；ske+:sk-id.FDC5:アユ；ske+:sk-id.GM2P:陸稲
 //tl+:
 //list+
 //map+:
@@ -1617,7 +1623,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.115 / w=表面張力；,topic=物性,publisher=~,other=q+:q-id.F6UY:万有引力、電気斥力
+:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.117 / w=表面張力；,topic=物性,publisher=~,other=q+:q-id.F6UY(continue) / N+
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1676,7 +1682,7 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.243+? / w=,topic=人物：リストに並べる,publisher=明治書院,other=list+:孔子：子路：冉求：公西華
+:m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.252 / w=,topic=人物：リストに並べる,publisher=明治書院,other=list+:子路：冉求（子有）：曾晳：公西華（子華）
 
 :m #*# RES / JVEMV6 64#67_10_kyootoo / 『論語 郷党』 著者=~,校注=~ / p.222 / w=,topic=,publisher=明治書院,other=ske+:sk-id.5RLE:ゆがけ
 
@@ -2328,6 +2334,10 @@ G:\photo-books_HD\list-of-books.txt
 
 //経過記録用途
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
+
+//2023年4月22日17:54:56
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=オオバ,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=,occasion=経過観察。１回目のもの、溶液を取り分け。１回目＝２日漬け；取り出したもの。溶液の色を、観察。,id=2023-04-22_01-16-26_000.jpg
+
 //2023年4月16日9:30:25
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：２（単位：スプーン）；ニンニク（１）：１５；生姜（１）：１５；スペアミント：１０；ローズマリー：１０；オオバ：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-15_01-13-50_000.jpg
 
@@ -2593,7 +2603,7 @@ zionists
 
 :m #*# / read-docs / theme=演説：ユン・ソギョル,content=~,id=NCGE, w=~ / genre=~ / other=~
 
-:m 1*1 / read-docs / theme=習近平(xijinping)：講話,content=人大,w=； / genre=~ / other=~, doc-id=P7GO
+:m 2*2 / read-docs / theme=習近平(xijinping)：講話,content=人大,w=； / genre=~ / other=~, doc-id=P7GO || read-docs / theme=習近平(xijinping)：講話,content=人大,w=； / genre=~ / other=~, doc-id=IHB5
 
 :m 1*1 / read-docs / theme=習近平(xijinping)：講話,content=二十大精神,w=； / genre=~ / other=~, doc-id=SL91
 
@@ -2606,39 +2616,16 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id=8Y0K(browser=yan) / media=ya / theme=新型インフルエンザ；特措法；改正,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id=MIZK(browser=yan) / media=ei / theme=パレスチナ；イスラエル；医療；移動不許可,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=U3PU(browser=yan) / media=ptv / theme=イラン：米国：潜水艦：ホルムズ海峡,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=B50B(browser=uan) / media=ei / theme=イスラエル；パレスチナ；マサフェル・ヤタ,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=DEWY(browser=yan) / media=ptv / theme=ウクライナ；米国；武器供与,content=~,w=~ / genre=~ / other=~
 :m #*# RES / free# S87DP9 記事読み / id=E8ZF(browser=yan) / media=ei / theme=イスラエル；欧州連合；パレスチナ,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=なし(browser=yan) / media=ya / theme=大成建設：ビル立て直し,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=BEUM(browser=yan) / media=ya / theme=韓国：麻薬配布：事件,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=13T4(browser=yan) / media=ya / theme=マイナンバー；別人分：発行,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=V97T(browser=yan) / media=ya / theme=韓国；政府；半導体,content=~,w=~ / genre=~ / other=~
-
-
-:m #*# RES / free# S87DP9 記事読み / id=B0T5(browser=yan) / media=ya / theme=韓国：強制動員；改定案,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=BZPI(browser=yan) / media=ei / theme=パレスチナ；イスラエル；極右,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=H8YU(browser=yan) / media=ei / theme=パレスチナ；安保理決議；イスラエル,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=3JPX(browser=yan) / media=ptv / theme=ロシア：プーチン：安全保障協議会,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=ACWZ(browser=yan) / media=BAR / theme=Uhuru-Movement;banking,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=N8FT(browser=yan) / media=BAR / theme=Lincoln,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=B459(browser=yan) / media=ya / theme=ロシア：ベラルース：核配備,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=2BA9(browser=yan) / media=ei / theme=ガザ：移民：移住にまつわる苦しみ：民衆,content=,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=8UUJ(browser=yan) / media=ya / theme=金武町[きんちょう；流弾；米軍基地,content=~,w=~ / genre=~ / other=~
 
 
 
@@ -3165,6 +3152,7 @@ daylog
 article__ ]]
 _memo_other
 --------------------
+P7GO
 経過記録用途	]]
 video_shi	]]
 res_	]]
