@@ -1135,7 +1135,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~ /
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=i.f.:presstv-video:autumn.mp4:５１分ぐらいのところ：BGM /
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1558,7 +1558,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.46 / w=~,topic=~,publisher=~,other=calc+:失業率；文盲率
 
-:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.57 / w=岩橋小弥太；子安宣邦,topic=；,publisher=~,other=~
+:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.59 / w=,topic=；,publisher=~,other=list+:平田篤胤、本居宣長
 
 :m #*# RES / JVEMV6 64#269_kami_henyoo / 『日本の神　２　神の変容』 著者=山折哲雄、編,校注=~ / p.133 / w=~,topic=~,publisher=~,other=~
 
@@ -1623,7 +1623,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.117 / w=表面張力；,topic=物性,publisher=~,other=q+:q-id.F6UY(continue) / N+
+:m 1*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.117 / w=表面張力；,topic=物性,publisher=~,other=q-id.F6UY:万有引力、クーロン力
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1783,6 +1783,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=~ / content=万有引力：速度の変化：軌跡はどうなるか / status=~ / id=~,genre=physics,other=~,
 
 :m :? #*# / topic=~ / content=(1/2)(2/3)(3/4)(4/5)... / status=~ / id=~,genre=math,other=~,
 
@@ -2145,6 +2147,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
 
+:PHOTO 記録しておきたいもの / location:photo=自室：ベランダ, location:target=プランター：生えているススキ（または、オギ。あるいは、いずれでもない、何か。） / subject=~ / content=伸びて、枯れている。のを、切った。,other=~
+
 :PHOTO 記録しておきたいもの / location:photo=宮前平第４公園, location:target=桜の花びらたち / subject=~ / content=雨降りの後。花びらたち、ここかしこ、まとまっている,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=自室：机上, location:target=焼酎飲み（酒飲み）：用意したものたち：お盆への載せ方 / subject=~ / content=チンが終わって、持ってくものを、すべて、お盆へ載せたところ。,other=~
@@ -2334,6 +2338,10 @@ G:\photo-books_HD\list-of-books.txt
 
 //経過記録用途
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
+
+//2023年4月23日17:40:19
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン（１）：１０（単位：スプーン）；ニンニク（１）：１５；生姜（１）：１５；スペアミント：１０；ローズマリー：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-23_01-32-04_000.jpg
+
 
 //2023年4月22日17:54:56
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=オオバ,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=,occasion=経過観察。１回目のもの、溶液を取り分け。１回目＝２日漬け；取り出したもの。溶液の色を、観察。,id=2023-04-22_01-16-26_000.jpg
