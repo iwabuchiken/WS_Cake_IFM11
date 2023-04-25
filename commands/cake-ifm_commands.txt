@@ -1549,6 +1549,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#178_sonshi / 『孫子』 著者=~,校注=~ / p.23 / w=~,topic=~,publisher=明治書院,other=~
+
+178_sonshi
+
 :m #*# RES / JVEMV6 64#272_3_teishi_fujita / 『水戸学』「丁巳封事」 著者=~,校注=~ / p.451 / w=~,topic=~,publisher=~,other=~
 
 
@@ -1567,7 +1571,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m #*# RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.14 / w=ゴルジ；X線造影法；CT,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.38 / w=,topic=~,publisher=~,other=memo+:m-id.EW2M(continue);memo+:m-id.RV31(nowa):解糖系:N+;memo+:m-id.ALZK(nowa):フルクトース;
 
 :m 1*1 RES / JVEMV6 64#267_akushitu / 『悪質商法のすごい手口』 著者=国民生活センター、監修,校注=~ / p.43 / w=~,topic=点検商法,publisher=~,other=~
 
@@ -1623,7 +1627,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.117 / w=表面張力；,topic=物性,publisher=~,other=q-id.F6UY:万有引力、クーロン力
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.117 / w=表面張力；,topic=物性,publisher=~,other=calc+:cal-id.IX4O(nowa)速度。積分によって、求める;theorem+:theorem-id.88QD:等加速度運動：表し方
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1682,6 +1686,8 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
+:m #*# RES / JVEMV6 64#67_12_senshin / 『論語 顔淵』 著者=~,校注=~ / p.258 / w=,topic=「克己復礼」；敬・恭・恕,publisher=明治書院,other=list+:徳目に該当する人物：徳行；
+
 :m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.252 / w=,topic=人物：リストに並べる,publisher=明治書院,other=list+:子路：冉求（子有）：曾晳：公西華（子華）
 
 :m #*# RES / JVEMV6 64#67_10_kyootoo / 『論語 郷党』 著者=~,校注=~ / p.222 / w=,topic=,publisher=明治書院,other=ske+:sk-id.5RLE:ゆがけ
@@ -1752,6 +1758,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :tome / (lang=ja) / topic=~ / content=~,other=~
 
+:tome / (lang=ja) / topic=「トヨタ・ショック」：私にとって：古賀さんの動画を見て、感じた / content=でも、「何のために生きるのか」が、事の本（もと）だと思うよ；アッラーの元へ帰る,other=~
 
 :tome / (lang=ja) / topic=~ / content=知らないと、その知らないものに、振り回されてしまう。,other=~
 
@@ -2124,6 +2131,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
 
+:PHOTO 記録 / location=台所~ / topic=終了 / for=殺虫スプレー：ゴキブリ用 / occasion=終了,other=~
+
 :PHOTO 記録 / location=~ / topic=終了 / for=ワセリン / occasion=~,other=<80g:金銭の事情で、小さめの容器のものを買った。
 
 :PHOTO 記録 / location=トイレ / topic=終了 / for=消臭スプレー：トイレ用 / occasion=~,other=~
@@ -2142,9 +2151,18 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / @自室 / 充電 / for=充電器：空調服用 / occasion=開始,other=表示：２
 
+###2023年4月24日17:51:33
+========================== 記録：いろいろ, record_misc
+//template
+:PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
+
+
+
 ###2022年5月21日9:24:04
 ========================== 記録しておきたいもの
 //template
+:PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=自室：ベランダ, location:target=プランター：生えているススキ（または、オギ。あるいは、いずれでもない、何か。） / subject=~ / content=伸びて、枯れている。のを、切った。,other=~
@@ -2307,6 +2325,8 @@ G:\photo-books_HD\list-of-books.txt
 ====================== :PHOTO 記録:misc, record_misc
 //template
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
+
+:PHOTO 記録 / subject=クーラー：現在、あるもの / location=~ / content=交換を意図：お店に相談に行く際の、参考にと思って、撮影,for=~,other=~
 
 :PHOTO 記録 / subject=写真撮影：お母さん、自分：ウルスラさんに送る用 / location=テレビの部屋（１階、居間） / content=~,for=~,other=~
 
@@ -2711,6 +2731,8 @@ zionists
 ============================ コレポン
 //template
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
+
+:PHOTO 記録 / 文書：コレポン / #*# / about=１階の居間：クーラー、買い替え,with=~,content=聞き書きのメモ、他,other=task-id.LX0Q(nowa) / N+
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=ネットバンキング。再開手続き。窓口で行いたい。可否、問い合わせ。,with=コールセンター,content=~,other=~ / N+
 
