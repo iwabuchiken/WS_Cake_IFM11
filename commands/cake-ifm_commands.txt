@@ -949,6 +949,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+:m :haja,lets / action activity / やること / genre=~ / content=孫子。発明の活動に、使おう,other=~
+
 :m :haja,lets / action activity / やること / genre=~ / content=「葬送のための曲」　=>　作ろう,other=否。そんなものに、費やすな。
 
 :m :haja,lets / action activity / やること / genre=inne / content=毎月、朔日。お供えを改める,other=~
@@ -1135,7 +1137,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=i.f.:presstv-video:autumn.mp4:５１分ぐらいのところ：BGM /
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:お囃子,session=hour-18,memo=~,file-piece-id=~,memo=~,other= / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1562,7 +1564,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.46 / w=~,topic=~,publisher=~,other=calc+:失業率；文盲率
 
-:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.59 / w=,topic=；,publisher=~,other=list+:平田篤胤、本居宣長
+:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.107 / w=,topic=キリシタン；,publisher=~,other=timeline+:五カ国通商条約～キリシタン：高札、撤去：岩倉具視
 
 :m #*# RES / JVEMV6 64#269_kami_henyoo / 『日本の神　２　神の変容』 著者=山折哲雄、編,校注=~ / p.133 / w=~,topic=~,publisher=~,other=~
 
@@ -1627,7 +1629,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.117 / w=表面張力；,topic=物性,publisher=~,other=calc+:cal-id.IX4O(nowa)速度。積分によって、求める;theorem+:theorem-id.88QD:等加速度運動：表し方
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.122 / w=アルマイト,topic=物性,publisher=~,other=q+:可視光
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1686,7 +1688,7 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_12_senshin / 『論語 顔淵』 著者=~,校注=~ / p.258 / w=,topic=「克己復礼」；敬・恭・恕,publisher=明治書院,other=list+:徳目に該当する人物：徳行；
+:m #*# RES / JVEMV6 64#67_12_senshin / 『論語 顔淵』 著者=~,校注=~ / p.262 / w=,topic=,publisher=明治書院,other=list+:樹形図：司馬牛；list+:徳目、徳者：仁者、知者
 
 :m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.252 / w=,topic=人物：リストに並べる,publisher=明治書院,other=list+:子路：冉求（子有）：曾晳：公西華（子華）
 
@@ -1758,6 +1760,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :tome / (lang=ja) / topic=~ / content=~,other=~
 
+:tome / (lang=ja) / topic=自分の行い / content=選択のとき：自問する：「信」に照らして、「義」なるや,other=~ || :tome / (lang=ja) / topic= / content=君子小人。倶に、我に有り,other=~
+
 :tome / (lang=ja) / topic=「トヨタ・ショック」：私にとって：古賀さんの動画を見て、感じた / content=でも、「何のために生きるのか」が、事の本（もと）だと思うよ；アッラーの元へ帰る,other=~
 
 :tome / (lang=ja) / topic=~ / content=知らないと、その知らないものに、振り回されてしまう。,other=~
@@ -1790,6 +1794,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=~ / content=数列：(1/2)(2/3)(3/4)...。どんな数列か？ / status=~ / id=~,genre=math,other=~,
+
+:m :? #*# / topic=~ / content=コバルト。同じ働きを、作り出せないだろうか？手軽な原料を使って。 / status=~ / id=~,genre=physics;chemistry,other=~,
 
 :m :? #*# / topic=~ / content=万有引力：速度の変化：軌跡はどうなるか / status=~ / id=~,genre=physics,other=~,
 
@@ -2350,7 +2358,12 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / subject=卵：計量：重さ / location=台所 / content=卵の重さ：割り入れたところ,for=~,other=~
 
-:PHOTO 記録 / subject=ATM：明細票 / location=~ / content=~,for=月末の入金,other=~
+//atm
+:PHOTO 記録 / subject=ATM：操作画面：残高：入金前 / location=~ / content=~,for=月末の入金,other=~
+
+:PHOTO 記録 / subject=ATM：操作画面：残高：入金後 / location=~ / content=~,for=月末の入金,other=~
+
+:PHOTO 記録 / subject=ATM：明細票 / location=~ / content=~,for=月末の入金,other=occasion:入金後
 
 :PHOTO 記録 / subject=調理：レモン、砂糖煮 / location=~ / content=計量。手順,for=~,other=~
 
@@ -2631,7 +2644,7 @@ zionists
 
 :m #*# / read-docs / theme=演説：ユン・ソギョル,content=~,id=NCGE, w=~ / genre=~ / other=~
 
-:m 2*2 / read-docs / theme=習近平(xijinping)：講話,content=人大,w=； / genre=~ / other=~, doc-id=P7GO || read-docs / theme=習近平(xijinping)：講話,content=人大,w=； / genre=~ / other=~, doc-id=IHB5
+:m #*# / read-docs / theme=習近平(xijinping)：講話,content=,w=； / genre=~ / other=~, doc-id=IHB5
 
 :m 1*1 / read-docs / theme=習近平(xijinping)：講話,content=二十大精神,w=； / genre=~ / other=~, doc-id=SL91
 
@@ -2643,7 +2656,13 @@ zionists
 ###2021年9月22日10:19:44
 ========================== :m : 記事読み, article__
 //template
-:m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=9HFP~yan~ya / theme=引きこもり；母親、死亡；同居の次男；判決,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=1J0E~yan~ptv / theme=シリア；米国；石油盗掘,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=2E7P~yan~ya / theme=韓国：養蜂,content=ダニ；ウイルス,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id=8Y0K(browser=yan) / media=ya / theme=新型インフルエンザ；特措法；改正,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id=MIZK(browser=yan) / media=ei / theme=パレスチナ；イスラエル；医療；移動不許可,content=~,w=~ / genre=~ / other=~
