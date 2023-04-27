@@ -949,6 +949,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+:m :haja,lets / action activity / やること / genre=~ / content=脳の筋トレ,other=~
+
+:m :haja,lets / action activity / やること / genre=math / content=関氏の和算。現代の数学に移して、進めてみよう,other=~
+
 :m :haja,lets / action activity / やること / genre=~ / content=孫子。発明の活動に、使おう,other=~
 
 :m :haja,lets / action activity / やること / genre=~ / content=「葬送のための曲」　=>　作ろう,other=否。そんなものに、費やすな。
@@ -1011,6 +1015,8 @@ inne
 //template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=西安の学校へ行っていたとき：元校長の人。「キリスト教は、アメリカ大陸で、ひどいことしたやないか」；私が思ったこと「なぜ、そんな昔のことを、言い出すんだ？」,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=物理・化学の書を猛読す。天に事ふる所以,id=~,other=~ / lang=ja
 
@@ -1082,7 +1088,11 @@ mysl
 ###2023年4月17日22:04:32
 ============================== memo : 文書：いろいろ
 
-:PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=取扱説明書
+:PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~
+
+:PHOTO 記録 / 文書　/ occasion=~ / for=令和４：３月；同：１１月 / doc=年金掛金：納付：受託証書
+
+
 :PHOTO 記録 / 文書　/ occasion=~ / for=キャン・ドゥ：電子レンジ用の、野菜蒸し用の、容器 / doc=取扱説明書
 
 :PHOTO 記録 / 文書　/ occasion=購入：キャン・ドゥ / for=紙切り / doc=取扱説明書
@@ -1137,7 +1147,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:お囃子,session=hour-18,memo=~,file-piece-id=~,memo=~,other= / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,session=hour-00,memo=~,file-piece-id=~,memo=~,other= / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1564,7 +1574,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.46 / w=~,topic=~,publisher=~,other=calc+:失業率；文盲率
 
-:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.107 / w=,topic=キリシタン；,publisher=~,other=timeline+:五カ国通商条約～キリシタン：高札、撤去：岩倉具視
+:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.114 / w=,topic=キリシタン；,publisher=~,other=QQQ
 
 :m #*# RES / JVEMV6 64#269_kami_henyoo / 『日本の神　２　神の変容』 著者=山折哲雄、編,校注=~ / p.133 / w=~,topic=~,publisher=~,other=~
 
@@ -1629,7 +1639,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.122 / w=アルマイト,topic=物性,publisher=~,other=q+:可視光
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.126 / w=,topic=物性：界面活性剤,publisher=~,other=
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1657,7 +1667,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
+:m #*# RES / JVEMV6 64#199.2.2_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.119 / w=程顥；程頤；蘇軾；蘇轍,topic=~,publisher=~,other=	
+
 :m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.112? / w=王通；陳亮,topic=~,publisher=~,other=	
+
 
 :m #*# RES / JVEMV6 64#199.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.99 / w=程子,topic=~,publisher=~,other=timeline+:程顥、程頤
 
@@ -1979,6 +1992,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2022年7月20日9:58:44
 //=============== 年金
 =============== 年金；小遣い
+:m other / お母さんから　お金もらう / amount=3万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円,for=2022-07 || :m other / お母さんから　お金もらう / amount=3.3万円 / topic=年金：掛金 / total-amount=２ヶ月分,for=令和４－１２；５－１
+
 :m other / お母さんから　お金もらう / amount=3万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円,for=2022-06
 
 合計は、本来は、1.5+3=4.5. 半端に
@@ -2222,6 +2237,8 @@ G:\photo-books_HD\list-of-books.txt
 ###2022年6月6日10:02:52
 ============================== :m 保管場所
 :m 保管場所 / what=~ / location=~,expire=~,other=~
+
+:m 保管場所 / what=年金：納付用紙 / location=机上：電気スタンド：裏側：PCとの間,expire=2024-03,other=~
 
 :m 保管場所 / what=ヘッドライト：頭に付けるもの：２点 / location=東側 可動棚：上から１段目：ダンボール箱,expire=~,other=~
 
@@ -2525,6 +2542,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=2RV5 / theme=math:最小自乗法 / genre=math,content=~,w=~ / session-number=~ / doc=~,other=~
+
 :m #*# RES / free / res-id=APPK(nowa) / theme=北朝鮮：安保理決議 / genre=~,content=resolution:2397;resolution:1695;,w=~ / session-number=~ / doc=~,other=~
 
 :m 2*2 RES / free / res-id=98EE / theme=桁数、推定 / genre=~,content=~,w=「漸次偶数化法」 / session-number=~ / doc=~,other=q+:q-id.17HP(nowa):COMP / N~
@@ -2657,6 +2676,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=2GSG~yan~ya / theme=韓国；事故；判決；鉄鋼,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=9HFP~yan~ya / theme=引きこもり；母親、死亡；同居の次男；判決,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=1J0E~yan~ptv / theme=シリア；米国；石油盗掘,content=~,w=~ / genre=~ / other=~
@@ -2924,6 +2945,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
 
+###2023年4月26日22:06:29
+#DELETE FROM ifm11 WHERE _id <= 61139;
 
 ###2023年4月3日22:31:02
 #DELETE FROM ifm11 WHERE _id <= 60700;
