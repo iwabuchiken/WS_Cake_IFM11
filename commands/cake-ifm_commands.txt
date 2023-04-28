@@ -1016,6 +1016,10 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=「いかに台湾有事から逃げるか」。どこに逃げるんだ？外交しかない。,id=~,other=occasion:動画を見ていて。日刊ゲンダイのサイトだったか / lang=ja
+
+:m :th,mysl / topic=~ / content=仁斎の書を読む。当時の日本の知識人たち。何に注目していたか。窺い見る。,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=西安の学校へ行っていたとき：元校長の人。「キリスト教は、アメリカ大陸で、ひどいことしたやないか」；私が思ったこと「なぜ、そんな昔のことを、言い出すんだ？」,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=物理・化学の書を猛読す。天に事ふる所以,id=~,other=~ / lang=ja
@@ -1147,7 +1151,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,session=hour-00,memo=~,file-piece-id=~,memo=~,other= / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,session=hour-00,memo=~,file-piece-id=~,memo=~,other=use:乙音 / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1572,7 +1576,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#248_1_hadith / 『ハディース　Ⅰ』 著者=牧野信也,校注=~ / p.50 / w=~,topic=ムハンマド：命じたこと、禁じたこと,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.46 / w=~,topic=~,publisher=~,other=calc+:失業率；文盲率
+:m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.59 / w=~,topic=~,publisher=~,other=timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリビア、ペルー；map+:グラナダ
 
 :m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.114 / w=,topic=キリシタン；,publisher=~,other=QQQ
 
@@ -1583,7 +1587,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m #*# RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.38 / w=,topic=~,publisher=~,other=memo+:m-id.EW2M(continue);memo+:m-id.RV31(nowa):解糖系:N+;memo+:m-id.ALZK(nowa):フルクトース;
+:m #*# RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.38 / w=フルオロデオキシグルコース,topic=~,publisher=~,other=memo+:グルコース；memo+:フッ素１８
 
 :m 1*1 RES / JVEMV6 64#267_akushitu / 『悪質商法のすごい手口』 著者=国民生活センター、監修,校注=~ / p.43 / w=~,topic=点検商法,publisher=~,other=~
 
@@ -1639,7 +1643,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.126 / w=,topic=物性：界面活性剤,publisher=~,other=
+:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.133 / w=,topic=物性：界面活性剤,publisher=~,other=q+:q-id.NZRN:脂肪酸、溶解度
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1807,6 +1811,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=１８フッ素、生成 / content=増えた中性子。どこから来た？ / status=~ / id=~,genre=~,other=~,
 
 :m :? #*# / topic=~ / content=数列：(1/2)(2/3)(3/4)...。どんな数列か？ / status=~ / id=~,genre=math,other=~,
 
@@ -2492,6 +2498,8 @@ G:\photo-books_HD\list-of-books.txt
 
 :i #*# / topic=~ / subject=~, content=~, other=~
 
+:i #*# / topic=chemistry;plastic / subject=プラスチック：海洋：収集する方法, content=プラスチックを、帯電させる。＋のイオン、溶液に。, other=~
+
 :i #*# / topic=調理：すいとん / subject=調理：方法, content=~, other=~
 
 :i #*# / topic=大晦日：供え物 / subject=~, content=供えの品：リスト, other=~
@@ -2771,6 +2779,8 @@ zionists
 ============================ コレポン
 //template
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
+
+:PHOTO 記録 / 文書：コレポン / #*# / about=スマホ：simカード：移動,with=auショップ：鷺沼店,content=~,other=~ / N+:考慮する
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=１階の居間：クーラー、買い替え,with=~,content=聞き書きのメモ、他,other=task-id.LX0Q(nowa) / N+
 
