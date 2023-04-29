@@ -1151,7 +1151,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,session=hour-00,memo=~,file-piece-id=~,memo=~,other=use:乙音 / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-00,memo=~,file-piece-id=~,memo=~,other=use:大甲音 / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1565,6 +1565,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#178_2_sonshi / 『孫子』 著者=~,校注=~ / p.22 / w=~,topic=,publisher=明治書院,other=list+:七事；五事
+
 :m #*# RES / JVEMV6 64#178_sonshi / 『孫子』 著者=~,校注=~ / p.23 / w=~,topic=~,publisher=明治書院,other=~
 
 178_sonshi
@@ -1602,7 +1604,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#262_china_econ_marukawa / 『現代中国経済』 著者=丸川知雄,校注=~ / p.88 / w=,topic=労働市場,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.73 / w=~,topic=壬午軍乱,publisher=~,other=QQQ
+:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.73 / w=~,topic=壬午軍乱;甲申政変；天津条約；漢城条約；巨文島事件,publisher=~,other=261_2_2_fukuzawa_sugita
 
 :m #*# RES / JVEMV6 64#101_banzan_shuugi / 『集義和書』 著者=熊沢番山,校注=~ / p.?? / w=~,topic=~,publisher=~,other=tl+:熊沢番山、伊藤仁斎
 
@@ -1643,7 +1645,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.133 / w=,topic=物性：界面活性剤,publisher=~,other=q+:q-id.NZRN:脂肪酸、溶解度
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.134 / w=,topic=物性：界面活性剤,publisher=~,other=list+:脂肪酸：融点、沸点、水への溶解度;found+
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1659,7 +1661,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#242 / 『コーラン　（上）』 著者=~,校注=井筒俊彦、訳 / p.110 / w=~,topic=遺産：分割,publisher=~,other=quran:an-nisa:13~
 
-:m #*# RES / JVEMV6 64/#206_1_3_reikon / 『日本宗教の複合的構造：霊魂観』 著者=~,校注=~ / p.68:L.1 / w=七夕野；身代わり地蔵；,topic=~,publisher=~,other=ske+:御札；ske+:身代わり地蔵
+:m #*# RES / JVEMV6 64/#206_1_3_reikon / 『日本宗教の複合的構造：霊魂観』 著者=~,校注=~ / p.68:L.1 / w=七夕野；,topic=~,publisher=~,other=ske+:観音堂
 
 :m 1*1 RES / JVEMV6 64#237_nakata / 『私はなぜイスラーム教徒になったのか』 著者=中田考,校注=~ / p.214 / w=サバウーン；ムタワッキル；ラバン；スタネクザイ；一神教学際センター,topic=~,publisher=~,other=
 
@@ -1811,6 +1813,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=物理：崩壊：原子核 / content=「崩壊」。どんな力が働いている？ / status=~ / id=~,genre=~,other=~,
 
 :m :? #*# / topic=１８フッ素、生成 / content=増えた中性子。どこから来た？ / status=~ / id=~,genre=~,other=~,
 
@@ -1981,6 +1985,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+//quote / 2023年4月29日17:36:34
+:m #*# / memo:other(m:other) / topic=quote:孟子, about=~,content=夫の成功の若きは則ち天なり。,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=quote:伊藤仁斎, about=~,content=「苟も卑近の二字を道ふことを羞ぢざるときは」,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=言葉：意義, about=「事の「次第」」：順序、いきさつ、推移,content=~,other=~,id=~ 
 
@@ -2497,6 +2506,8 @@ G:\photo-books_HD\list-of-books.txt
 ============================== :i ANY, i_any
 
 :i #*# / topic=~ / subject=~, content=~, other=~
+
+:i #*# / topic=方法論 / subject=~, content=探求、研究。方法。質問から始める。「なぜ崩壊するのか」, other=~
 
 :i #*# / topic=chemistry;plastic / subject=プラスチック：海洋：収集する方法, content=プラスチックを、帯電させる。＋のイオン、溶液に。, other=~
 
