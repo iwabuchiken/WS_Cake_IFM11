@@ -652,7 +652,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,session=hour-18,R=1,tempo=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=Ef(h-4),session=hour-18,R=1,tempo=~
 
 
 
@@ -1015,6 +1015,10 @@ inne
 //template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=「丁巳封事」 / content=君に奉つる。論語に、「外に出ては、賓に見える如く」,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=イスラムに入るのは、まだ。自分が分かっていないものを崇める。のは、やめよう,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=「いかに台湾有事から逃げるか」。どこに逃げるんだ？外交しかない。,id=~,other=occasion:動画を見ていて。日刊ゲンダイのサイトだったか / lang=ja
 
@@ -1580,7 +1584,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.59 / w=~,topic=~,publisher=~,other=timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリビア、ペルー；map+:グラナダ
 
-:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.114 / w=,topic=キリシタン；,publisher=~,other=QQQ
+:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.166 / w=,topic=キリシタン；,publisher=~,other=map+:大田原市、那須町；timeline+:ひとのみち事件
 
 :m #*# RES / JVEMV6 64#269_kami_henyoo / 『日本の神　２　神の変容』 著者=山折哲雄、編,校注=~ / p.133 / w=~,topic=~,publisher=~,other=~
 
@@ -1645,7 +1649,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.134 / w=,topic=物性：界面活性剤,publisher=~,other=list+:脂肪酸：融点、沸点、水への溶解度;found+
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.141 / w=,topic=物性：界面活性剤,publisher=~,other=memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:ペプチド結合
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -2131,6 +2135,9 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『悪質商法のすごい手口』 / 著者=国民生活センター、監修 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『イスラームの原点』 / 著者=牧野信也 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『直感を裏切る数学』 / 著者=神永正博 / 途中 ここまで
@@ -2561,7 +2568,7 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
-:m #*# RES / free / res-id=2RV5 / theme=math:最小自乗法 / genre=math,content=~,w=~ / session-number=~ / doc=~,other=~
+:m #*# RES / free / res-id=2RV5 / theme=math:最小自乗法 / genre=math,content=２次関数による、近似,w=~ / session-number=~ / doc=~,other=N:COMP
 
 :m #*# RES / free / res-id=APPK(nowa) / theme=北朝鮮：安保理決議 / genre=~,content=resolution:2397;resolution:1695;,w=~ / session-number=~ / doc=~,other=~
 
@@ -2695,6 +2702,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=E54H~yan~ptv / theme=US-prison;sex-abuse,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=2GSG~yan~ya / theme=韓国；事故；判決；鉄鋼,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=9HFP~yan~ya / theme=引きこもり；母親、死亡；同居の次男；判決,content=~,w=~ / genre=~ / other=~
