@@ -652,7 +652,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=Ef(h-4),session=hour-18,R=1,tempo=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=1,tempo=~
 
 
 
@@ -949,6 +949,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+:m :haja,lets / action activity / やること / genre=~ / content=今、笛で曲を作っているやり方で、科学分野での取り組み、進めよう；この世の中と、直接に、話し合っている,other=~
+
 :m :haja,lets / action activity / やること / genre=~ / content=脳の筋トレ,other=~
 
 :m :haja,lets / action activity / やること / genre=math / content=関氏の和算。現代の数学に移して、進めてみよう,other=~
@@ -1015,6 +1017,10 @@ inne
 //template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=「重力波がどうの」とかの方が、格好良い；「切問」の方が、「義」に叶っている,id=~,other=~ / lang=ja || :m :th,mysl / topic=眼科での、切問 / content=目が痛む。医者へ行く。「切問」,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=仁斎を読むと（「童子問」）、「切問」とは何か、はっきりとしてくる,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=「丁巳封事」 / content=君に奉つる。論語に、「外に出ては、賓に見える如く」,id=~,other=~ / lang=ja
 
@@ -1155,7 +1161,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-00,memo=~,file-piece-id=~,memo=~,other=use:大甲音 / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-00,memo=~,file-piece-id=~,memo=~,other=adlib+ / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1569,7 +1575,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#178_2_sonshi / 『孫子』 著者=~,校注=~ / p.22 / w=~,topic=,publisher=明治書院,other=list+:七事；五事
+:m #*# RES / JVEMV6 64#178_2_sonshi / 『孫子』 著者=~,校注=~ / p.23 / w=「経之以五事」「校之以計」,topic=,publisher=明治書院,other=
 
 :m #*# RES / JVEMV6 64#178_sonshi / 『孫子』 著者=~,校注=~ / p.23 / w=~,topic=~,publisher=明治書院,other=~
 
@@ -2381,6 +2387,8 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / subject=シェーバー：剃りくず：溜まり具合 / location=本体：回転部：底部 / content=~,for=~,other=~
 
 //2023年4月21日18:02:20	/ 重さ
+:PHOTO 記録 / subject=計量：重さ / location=台所 / content=塩,for=~,other=小麦餅用：すりごま、きな粉、含む
+
 :PHOTO 記録 / subject=計量：重さ / location=台所 / content=フリーザバッグ：中,for=~,other=~
 
 :PHOTO 記録 / subject=計量：重さ / location=台所 / content=しゃもじ：プラ製,for=~,other=~
@@ -2514,6 +2522,8 @@ G:\photo-books_HD\list-of-books.txt
 
 :i #*# / topic=~ / subject=~, content=~, other=~
 
+:i #*# / topic=篠笛：曲作り / subject=曲のパターン：２つ, content=~, other=~
+
 :i #*# / topic=方法論 / subject=~, content=探求、研究。方法。質問から始める。「なぜ崩壊するのか」, other=~
 
 :i #*# / topic=chemistry;plastic / subject=プラスチック：海洋：収集する方法, content=プラスチックを、帯電させる。＋のイオン、溶液に。, other=~
@@ -2566,6 +2576,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 ###2022年9月14日11:59:30
 ============================== :m : res:free : res_
 //template //genre_res ↓
+:m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
 :m #*# RES / free / res-id=2RV5 / theme=math:最小自乗法 / genre=math,content=２次関数による、近似,w=~ / session-number=~ / doc=~,other=N:COMP
@@ -2687,6 +2699,9 @@ zionists
 //template
 :m #*# / read-docs / theme=~,content=~,id=~, w=~ / genre=~ / other=~
 
+:m #*# / read-docs / theme=塩化金酸水溶液,content=~,id=VF7A, w=厚膜導電ペースト / genre=~ / other=memo+:金；memo+:塩化金酸水溶液
+
+
 :m #*# / read-docs / theme=演説：ユン・ソギョル,content=~,id=NCGE, w=~ / genre=~ / other=~
 
 :m #*# / read-docs / theme=習近平(xijinping)：講話,content=,w=； / genre=~ / other=~, doc-id=IHB5
@@ -2702,6 +2717,10 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=FDF1~yan~huanqiu / theme=~,content=~,w=~ / genre=~ / other=~ || :m #*# RES / free# S87DP9 記事読み / id~browser~media=KB05~yan~huanqiu / theme=チベット：通用言語,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=IM7M~yan~rt-e / theme=us:nuclear-weapon-program,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=E54H~yan~ptv / theme=US-prison;sex-abuse,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=2GSG~yan~ya / theme=韓国；事故；判決；鉄鋼,content=~,w=~ / genre=~ / other=~
@@ -3248,7 +3267,7 @@ ph_
 percussion
 m_id_
 lets,haja_	]]
-i_any
+i_any	]]
 genre_res
 daylog
 article__ ]]
@@ -3262,7 +3281,7 @@ record_misc
 read_doc_
 read_doc
 read_article
-memo_shi
+memo_shi	]]
 jilmun_	]]
 _ske
 _memo_shuuji	]]
