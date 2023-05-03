@@ -949,6 +949,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+
+
 :m :haja,lets / action activity / やること / genre=~ / content=今、笛で曲を作っているやり方で、科学分野での取り組み、進めよう；この世の中と、直接に、話し合っている,other=~
 
 :m :haja,lets / action activity / やること / genre=~ / content=脳の筋トレ,other=~
@@ -1161,7 +1163,9 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other= / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=tips:甲音：吹き方：唇の形,session=hour-18,memo=~,file-piece-id=~,memo=~,other= / follow+
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other= / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1587,11 +1591,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#272_3_teishi_fujita / 『水戸学』「丁巳封事」 著者=~,校注=~ / p.451 / w=~,topic=~,publisher=~,other=~
 
 
-:m #*# RES / JVEMV6 64#273_hikari_shikisai_saitoo / 『光と色彩の科学』 著者=齋藤勝裕,校注=~ / p.0 / w=~,topic=~,publisher=~,other=map+:奄美列島;memo+:レチナール；memo+:レチノール
+:m #*# RES / JVEMV6 64#273_hikari_shikisai_saitoo / 『光と色彩の科学』 著者=齋藤勝裕,校注=~ / p.5 / w=~,topic=~,publisher=~,other=th+:色彩の三原色：混ぜると、黒色。可視光の全てを、吸ってしまうからか。「色彩」は、反射光。ということか。
 
 :m #*# RES / JVEMV6 64#248_1_hadith / 『ハディース　Ⅰ』 著者=牧野信也,校注=~ / p.50 / w=~,topic=ムハンマド：命じたこと、禁じたこと,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.59 / w=~,topic=~,publisher=~,other=timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリビア、ペルー；map+:グラナダ
+:m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.74 / w=~,topic=~,publisher=~,other=map+:サカテカス；map+:カディス州（スペイン）
+timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリビア、ペルー；map+:グラナダ
 
 :m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.166 / w=,topic=キリシタン；,publisher=~,other=map+:大田原市、那須町；timeline+:ひとのみち事件
 
@@ -1658,7 +1663,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.141 / w=,topic=物性：界面活性剤,publisher=~,other=memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:ペプチド結合
+:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.144 / w=,topic=物性：界面活性剤,publisher=~,other=th+:グラフの説明：活性剤の濃度。洗浄力。
+memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:ペプチド結合
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1792,6 +1798,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :tome / (lang=ja) / topic=~ / content=~,other=~
 
+:tome / (lang=ja) / topic=~ / content=笛。自分のために吹きな。「この曲、受けるかな」も、実のところ、他人のために吹いている。,other=~
+
 :tome / (lang=ja) / topic=自分の行い / content=選択のとき：自問する：「信」に照らして、「義」なるや,other=~ || :tome / (lang=ja) / topic= / content=君子小人。倶に、我に有り,other=~
 
 :tome / (lang=ja) / topic=「トヨタ・ショック」：私にとって：古賀さんの動画を見て、感じた / content=でも、「何のために生きるのか」が、事の本（もと）だと思うよ；アッラーの元へ帰る,other=~
@@ -1826,6 +1834,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=~ / content=プリズムによる分光。の一部としての、黄色。赤と緑の混色としての、それ。波長は、それぞれ、異なるか？ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=~ / content=「日本教」とは何ぞや。 / status=~ / id=~,genre=~,other=~, || :m :haja,lets / action activity / やること / genre=~ / content=一日[いちじつ]一年を思い、一日[いちにち]を生きよ。,other=~
 
 :m :? #*# / topic=物理：崩壊：原子核 / content=「崩壊」。どんな力が働いている？ / status=~ / id=~,genre=~,other=~,
 
