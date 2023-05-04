@@ -652,7 +652,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=1,tempo=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=1,tempo=~ \\\ p.1-<2>:genre=melody,key=~,session=hour-18,R=2,tempo=~
 
 
 
@@ -1165,7 +1165,7 @@ regex : ]]
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=tips:甲音：吹き方：唇の形,session=hour-18,memo=~,file-piece-id=~,memo=~,other= / follow+
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other= / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,session=hour-18,memo=+,file-piece-id=~,other= / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1245,6 +1245,9 @@ regex : ]]
 
 //template
 :m / 1*1 / percussion,rythm / session-memo / p.1:content=~,key=~,for=~,from=~,R=~,item=~,hitter=~,pieces=~,genr=pattern-atom,other=~,memo~,video=~
+
+//hand-percussion
+:m / 1*1 / percussion,rythm / session-memo / p.1:content=~,key=~,for=~,from=~,R=~,item=~,hitter=hands,pieces=可動棚：天面,genr=pattern-atom,other=~,memo~,video=~
 
 :m / 1*1 / percussion,rythm / session-memo / p.1:content=『音のなんでも…』の本に出ていたもの。作ってみた。太鼓,key=~,for=~,from=~,R=~,item=~,hitter=~,pieces=~,genr=,other=~,memo~,video=~
 
@@ -1600,7 +1603,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 
 :m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.166 / w=,topic=キリシタン；,publisher=~,other=map+:大田原市、那須町；timeline+:ひとのみち事件
 
-:m #*# RES / JVEMV6 64#269_kami_henyoo / 『日本の神　２　神の変容』 著者=山折哲雄、編,校注=~ / p.133 / w=~,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#269_kami_henyoo:0,1 / 『日本の神　２　神の変容』「はじめに」 著者=山折哲雄、編,校注=~ / p.7/ w=~,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
@@ -1663,7 +1666,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.144 / w=,topic=物性：界面活性剤,publisher=~,other=th+:グラフの説明：活性剤の濃度。洗浄力。
+:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.148 / w=,topic=物性：界面活性剤,publisher=~,other=memo+:グロブリン
 memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:ペプチド結合
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
@@ -2014,7 +2017,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //quote / 2023年4月29日17:36:34
 :m #*# / memo:other(m:other) / topic=quote:孟子, about=~,content=夫の成功の若きは則ち天なり。,other=~,id=~ 
 
-:m #*# / memo:other(m:other) / topic=quote:伊藤仁斎, about=~,content=「苟も卑近の二字を道ふことを羞ぢざるときは」,other=~,id=~ 
+:m #*# / memo:other(m:other) / topic=quote:伊藤仁斎, about=~,content=「自向上一路を求むる者と正に相反す」,other=from:「童子問　中」:134,id=~ 
 
 :m #*# / memo:other(m:other) / topic=言葉：意義, about=「事の「次第」」：順序、いきさつ、推移,content=~,other=~,id=~ 
 
@@ -2274,6 +2277,8 @@ G:\photo-books_HD\list-of-books.txt
 ============================== :m 見た夢
 //template
 :m 見た夢 / topic=~ / content=~ / other=~
+
+:m 見た夢 / topic=~ / content=リモートで動かしているオートバイ。ロボットの犬。小型のロボット、オートバイの座席に。 / other=~
 
 :m 見た夢 / topic=~ / content=「ショトリコ」。技術者の名前；５－４－２ / other=~
 
@@ -2736,6 +2741,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=48J4~yan~gendai.media / theme=中国；劉亜洲,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=184C~yan~ptv / theme=Iraq;legal;PM;assassination;soleimani,content=~,w=~ / genre=~ / other=~ || :m #*# RES / free# S87DP9 記事読み / id~browser~media=8N7J~yan~ptv / theme=palestine;Israel-occupatio;a-teenager-killed,content=~,w=~ / genre=~ / other=~ || :m #*# RES / free# S87DP9 記事読み / id~browser~media=XOMO~yan~rt-r / theme=ドイツ；ナチス；収容所；勤務者；裁判,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=FDF1~yan~huanqiu / theme=~,content=~,w=~ / genre=~ / other=~ || :m #*# RES / free# S87DP9 記事読み / id~browser~media=KB05~yan~huanqiu / theme=チベット：通用言語,content=~,w=~ / genre=~ / other=~
