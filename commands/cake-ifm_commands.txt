@@ -652,7 +652,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=1,tempo=~ \\\ p.1-<2>:genre=melody,key=~,session=hour-18,R=2,tempo=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=1,tempo=~ \\\ p.1-<2>:genre=melody:lick,key=~,session=hour-18,R=~,tempo=~ \\\  p.2-<1>:genre=melody:lick:continue-from:page-1,key=~,session=hour-18,R=1,tempo=~
 
 
 
@@ -676,6 +676,7 @@ p.1: \\\ p.2: \\\ p.3: \\\ p.4:
 :continue-from:page-1
 :explanation+
 :for-practice
+:lick
 :memo:alt-fingering:h-7+4+3>on~pitch=h-1`!
 :other=alt-fingering+
 :tips:how-to-blow:oct-1_h-1
@@ -1163,7 +1164,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=tips:甲音：吹き方：唇の形,session=hour-18,memo=~,file-piece-id=~,memo=~,other= / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=+,file-piece-id=~,memo=~,other= / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,session=hour-18,memo=+,file-piece-id=~,other= / follow+
 // follow+
@@ -1594,7 +1595,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m #*# RES / JVEMV6 64#272_3_teishi_fujita / 『水戸学』「丁巳封事」 著者=~,校注=~ / p.451 / w=~,topic=~,publisher=~,other=~
 
 
-:m #*# RES / JVEMV6 64#273_hikari_shikisai_saitoo / 『光と色彩の科学』 著者=齋藤勝裕,校注=~ / p.5 / w=~,topic=~,publisher=~,other=th+:色彩の三原色：混ぜると、黒色。可視光の全てを、吸ってしまうからか。「色彩」は、反射光。ということか。
+:m #*# RES / JVEMV6 64#273_hikari_shikisai_saitoo / 『光と色彩の科学』 著者=齋藤勝裕,校注=~ / p.120 / w=~,topic=反射：油膜：しゃぼん玉,publisher=~,other=q+
+th+:色彩の三原色：混ぜると、黒色。可視光の全てを、吸ってしまうからか。「色彩」は、反射光。ということか。
 
 :m #*# RES / JVEMV6 64#248_1_hadith / 『ハディース　Ⅰ』 著者=牧野信也,校注=~ / p.50 / w=~,topic=ムハンマド：命じたこと、禁じたこと,publisher=~,other=~
 
@@ -1666,7 +1668,8 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.148 / w=,topic=物性：界面活性剤,publisher=~,other=memo+:グロブリン
+:m #*# RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.151? / w=,topic=物性：界面活性剤,publisher=~,other=list+:各種クリーム；list+:活性剤：用途
+memo+:グロブリン
 memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:ペプチド結合
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
@@ -2601,6 +2604,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 ============================== :m : res:free : res_
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=R39M / theme=油膜上の、光線たちの、互との干渉 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=i.f.:bk-273_saitoo:2023-05-05_12-55-37_000.jpg / N+
 
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
