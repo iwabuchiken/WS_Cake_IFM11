@@ -652,7 +652,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=1,tempo=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=h-2,session=hour-18,R=~,tempo=~
 
  \\\ p.1-<2>:genre=melody:lick,key=~,session=hour-18,R=~,tempo=~ \\\  p.2-<1>:genre=melody:lick:continue-from:page-1,key=~,session=hour-18,R=1,tempo=~
 
@@ -1023,6 +1023,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=五十有余歳にして、妻なし、子なし。哀しみを知る。,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=「重力波がどうの」とかの方が、格好良い；「切問」の方が、「義」に叶っている,id=~,other=~ / lang=ja || :m :th,mysl / topic=眼科での、切問 / content=目が痛む。医者へ行く。「切問」,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=仁斎を読むと（「童子問」）、「切問」とは何か、はっきりとしてくる,id=~,other=~ / lang=ja
@@ -1168,7 +1170,7 @@ regex : ]]
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=+,file-piece-id=~,memo=~,other= / follow+
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,session=hour-18,memo=+,file-piece-id=~,other= / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:for-practice,session=hour-18,memo=+,file-piece-id=~,other= / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1413,7 +1415,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_103:1 / 83. chemistry / topics=微粒子：表面化学,w=珪藻土；珪藻；不等毛藻,s=~,i=~,other=,next=,doc=r-1-1~1.5:『微粒子から探る物性七変化』 238_maeno:p.12
+:m RES 1*1 / free# JVEMV6 83#_103:1 / 83. chemistry / topics=微粒子：表面化学,w=珪藻土；珪藻；不等毛藻,s=~,i=~,other=,next=,doc=r-1-1~1.5:『微粒子から探る物性七変化』 23###[2023年5月7日17:49:45 改変]8_maeno:p.12
 
 :m RES 1*1 / free# JVEMV6 83#_102:1 / 83. chemistry / topics=無機質,w=硫肝；硫酸カリウム；『舎密[せいみ開宗』,s=~,i=~,other=memo+:比較：カリウム、硫黄；memo+:硫化カリウム;memo+:硫酸カリウム,next=,doc=r-1-1~1.4:『化学雑話』:p.102
 沸点
@@ -1585,6 +1587,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#281_1_isayah / 「イザヤ書」 著者=~,校注=~ / p.1070 / w=アラム；アハズ,topic=~,publisher=~,other=~
+
+
 :m #*# RES / JVEMV6 64#136.1_rice / 『朝鮮史研究会論文集　第一巻』「日本帝国主義統治時期の朝鮮米搬出について」 著者=楠原利治,校注=~ / p.138 / w=~,topic=日朝貿易,publisher=~,other=q+:地主、小作：増加率
 
 
@@ -1614,7 +1619,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m #*# RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.38 / w=フルオロデオキシグルコース,topic=~,publisher=~,other=memo+:グルコース；memo+:フッ素１８
+:m 3*3 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.38 / w=,topic=~,publisher=~,other=memo+:ヘモグロビン（ヘム部）；
 
 :m 1*1 RES / JVEMV6 64#267_akushitu / 『悪質商法のすごい手口』 著者=国民生活センター、監修,校注=~ / p.43 / w=~,topic=点検商法,publisher=~,other=~
 
@@ -1670,7 +1675,8 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 3*3 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.153 / w=,topic=物性：界面活性剤,publisher=~,other=orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.158 / w=（オレイン酸石鹸＋カルシウム）,topic=物性：界面活性剤,publisher=~,other=memo+:高級アルコール；memo+:セタノール；memo+:高級脂肪酸
+orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
 memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:ペプチド結合
@@ -1701,7 +1707,7 @@ memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:�
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
-:m #*# RES / JVEMV6 64#199.2.2_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.119 / w=程顥；程頤；蘇軾；蘇轍,topic=~,publisher=~,other=	
+:m #*# RES / JVEMV6 64#199.2.2_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.278 / w=,topic=~,publisher=~,other=list+:「古注」、「新注」。著作たち。論語。孟子。他
 
 :m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.112? / w=王通；陳亮,topic=~,publisher=~,other=	
 
@@ -2749,6 +2755,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=WGYR~yan~ptv / theme=パレスチナ；UNRWA;食料支援、停止,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=ZWN3~yan~ya / theme=ベトナム；ウイグル；米国；防止法；アパレル,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=48J4~yan~gendai.media / theme=中国；劉亜洲,content=~,w=~ / genre=~ / other=~
