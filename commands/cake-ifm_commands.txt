@@ -652,7 +652,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=h-2,session=hour-18,R=~,tempo=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=h-2`,session=hour-18,R=~,tempo=~ \\\  p.1-<2>:genre=melody,key=~,session=hour-18,R=~,tempo=~
 
  \\\ p.1-<2>:genre=melody:lick,key=~,session=hour-18,R=~,tempo=~ \\\  p.2-<1>:genre=melody:lick:continue-from:page-1,key=~,session=hour-18,R=1,tempo=~
 
@@ -1023,6 +1023,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=『易』に謂う所の「陰陽」。発明活動に用いてみる,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=五十有余歳にして、妻なし、子なし。哀しみを知る。,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=「重力波がどうの」とかの方が、格好良い；「切問」の方が、「義」に叶っている,id=~,other=~ / lang=ja || :m :th,mysl / topic=眼科での、切問 / content=目が痛む。医者へ行く。「切問」,id=~,other=~ / lang=ja
@@ -1168,7 +1170,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=+,file-piece-id=~,memo=~,other= / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-15,memo=~,file-piece-id=~,memo=~,other= / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:for-practice,session=hour-18,memo=+,file-piece-id=~,other= / follow+
 // follow+
@@ -1675,7 +1677,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.158 / w=（オレイン酸石鹸＋カルシウム）,topic=物性：界面活性剤,publisher=~,other=memo+:高級アルコール；memo+:セタノール；memo+:高級脂肪酸
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.159 / w=,topic=物性：界面活性剤,publisher=~,other=memo+:アルキル硫酸ナトリウム；memo+:エチレングリコール；memo+:エーテル
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
