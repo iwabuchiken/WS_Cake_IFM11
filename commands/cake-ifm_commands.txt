@@ -652,7 +652,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=h-2`,session=hour-18,R=~,tempo=~ \\\  p.1-<2>:genre=melody,key=~,session=hour-18,R=~,tempo=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=h-2`,session=hour-18,R=~,tempo=~ 
 
  \\\ p.1-<2>:genre=melody:lick,key=~,session=hour-18,R=~,tempo=~ \\\  p.2-<1>:genre=melody:lick:continue-from:page-1,key=~,session=hour-18,R=1,tempo=~
 
@@ -1023,6 +1023,10 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=鷺沼教会を抜けて、青い目の神父を担ぎ：神以外の何物かを崇めている；反求,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=「理を究め性を盡くして、以て命に至る」（「易経」説卦伝；「童子問　中」140p）ーー＞物理・化学の探求：適用しよう,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=『易』に謂う所の「陰陽」。発明活動に用いてみる,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=五十有余歳にして、妻なし、子なし。哀しみを知る。,id=~,other=~ / lang=ja
@@ -1170,7 +1174,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-15,memo=~,file-piece-id=~,memo=~,other= / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:for-practice,session=hour-18,memo=+,file-piece-id=~,other= / follow+
 // follow+
@@ -1589,6 +1593,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#282_1_1_mamohet_kooran / 『講座　東洋思想　７　イスラムの思想』「第一節　マホメットと『コーラン』」 著者=嶋田襄平,校注=~ / p.2 / w=ラーダークリシュナン,topic=~,publisher=~,other=~
+
+
+:m #*# RES / JVEMV6 64#278_quran_chuu / 『コーラン（中）』 著者=~,校注=井筒俊彦 / p.98 / w=~,topic=~,publisher=~,other=ske+:sk-id.XJW9:棗やし
+
+
 :m #*# RES / JVEMV6 64#281_1_isayah / 「イザヤ書」 著者=~,校注=~ / p.1070 / w=アラム；アハズ,topic=~,publisher=~,other=~
 
 
@@ -1677,7 +1687,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.159 / w=,topic=物性：界面活性剤,publisher=~,other=memo+:アルキル硫酸ナトリウム；memo+:エチレングリコール；memo+:エーテル
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.159 / w=,topic=物性：界面活性剤,publisher=~,other=memo+:オキソ酸；memo+:アミド；memo+:脂肪酸アミド
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
@@ -1743,6 +1753,9 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
+:m #*# RES / JVEMV6 64#67_14_senshin / 『論語 憲問』 著者=~,校注=~ / p.307 / w=,topic=,publisher=明治書院,other=
+list+:樹形図：司馬牛；list+:徳目、徳者：仁者、知者
+
 :m #*# RES / JVEMV6 64#67_12_senshin / 『論語 顔淵』 著者=~,校注=~ / p.262 / w=,topic=,publisher=明治書院,other=list+:樹形図：司馬牛；list+:徳目、徳者：仁者、知者
 
 :m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.252 / w=,topic=人物：リストに並べる,publisher=明治書院,other=list+:子路：冉求（子有）：曾晳：公西華（子華）
@@ -2250,7 +2263,9 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
 
-:PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+:PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=クーラー（エアコン）、買い替え / content=お母さんから、現金、受け取り：工事、機種購入の申し込み：前金用の金員,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=クーラー（エアコン）、買い替え / content=室外機：現行のもの：採寸,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=自室：ベランダ, location:target=プランター：生えているススキ（または、オギ。あるいは、いずれでもない、何か。） / subject=~ / content=伸びて、枯れている。のを、切った。,other=~
 
