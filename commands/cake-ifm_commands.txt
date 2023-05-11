@@ -1638,7 +1638,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#266_mushuukyoo_shimada / 『無宗教こそ日本人の宗教である』 著者=島田裕巳,校注=~ / p.84 / w=,topic=~,publisher=~,other=QQQ;list+:神道、各派
 
 
-:m #*# RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.11 / w=~,topic=~,publisher=~,other=QQQ
+:m 2*2 RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.76 / w=預言者,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.93 / w=~,topic=「乾」,publisher=~,other=~
 
@@ -1687,7 +1687,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.159 / w=,topic=物性：界面活性剤,publisher=~,other=memo+:オキソ酸；memo+:アミド；memo+:脂肪酸アミド
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.160 / w=,topic=物性：界面活性剤,publisher=~,other=memo+:数値、もろもろ：肺：呼吸：数値
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
@@ -1730,7 +1730,8 @@ ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+
 
 :m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.201 / w=神経節細胞；扁桃体,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王下 / 『孟子』 著者=~,校注=~ / p.62 / w=まさかり；,topic=,other=ske+:sk-id.WNJC:戈（ほこ）;ske+:sk-id.L0BC:矛（ほこ）;ske+:sk-id.YHKH:斧、まさかり
+:m #*# RES / JVEMV6 64#126.02_mooshi:梁恵王下 / 『孟子』 著者=~,校注=~ / p.93 / w=；,topic=,other=th+:「不得於言、勿求於心」が、「不可」である理由
+ske+:sk-id.WNJC:戈（ほこ）;ske+:sk-id.L0BC:矛（ほこ）;ske+:sk-id.YHKH:斧、まさかり
 
 :m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王上 / 『孟子』 著者=~,校注=~ / p.18 / w=~,topic=百畝,other=
 
@@ -1753,7 +1754,7 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_14_senshin / 『論語 憲問』 著者=~,校注=~ / p.307 / w=,topic=,publisher=明治書院,other=
+:m #*# RES / JVEMV6 64#67_14_kenmon / 『論語 憲問』 著者=~,校注=~ / p.310 / w=,topic=,publisher=明治書院,other=timeline+:襄公～哀公：孔子、年齢
 list+:樹形図：司馬牛；list+:徳目、徳者：仁者、知者
 
 :m #*# RES / JVEMV6 64#67_12_senshin / 『論語 顔淵』 著者=~,校注=~ / p.262 / w=,topic=,publisher=明治書院,other=list+:樹形図：司馬牛；list+:徳目、徳者：仁者、知者
