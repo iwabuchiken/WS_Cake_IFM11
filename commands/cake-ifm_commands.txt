@@ -652,7 +652,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=h-2`,session=hour-18,R=~,tempo=~ 
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=1,tempo=~ 
 
  \\\ p.1-<2>:genre=melody:lick,key=~,session=hour-18,R=~,tempo=~ \\\  p.2-<1>:genre=melody:lick:continue-from:page-1,key=~,session=hour-18,R=1,tempo=~
 
@@ -952,7 +952,7 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
-
+:m :haja,lets / action activity / やること / genre=~ / content=始めよう。AI、ロボット,other=~
 
 :m :haja,lets / action activity / やること / genre=~ / content=今、笛で曲を作っているやり方で、科学分野での取り組み、進めよう；この世の中と、直接に、話し合っている,other=~
 
@@ -1174,7 +1174,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:for-practice,session=hour-18,memo=+,file-piece-id=~,other= / follow+
 // follow+
@@ -1638,7 +1638,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#266_mushuukyoo_shimada / 『無宗教こそ日本人の宗教である』 著者=島田裕巳,校注=~ / p.84 / w=,topic=~,publisher=~,other=QQQ;list+:神道、各派
 
 
-:m 2*2 RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.76 / w=預言者,topic=~,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.104 / w=,topic=~,publisher=~,other=キリスト教：福音書：各々、比較
 
 :m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.93 / w=~,topic=「乾」,publisher=~,other=~
 
@@ -2773,38 +2773,13 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=VD6R~yan~ya / theme=技術実習生,content=有識者会議,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=WGYR~yan~ptv / theme=パレスチナ；UNRWA;食料支援、停止,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=ZWN3~yan~ya / theme=ベトナム；ウイグル；米国；防止法；アパレル,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=48J4~yan~gendai.media / theme=中国；劉亜洲,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id~browser~media=184C~yan~ptv / theme=Iraq;legal;PM;assassination;soleimani,content=~,w=~ / genre=~ / other=~ || :m #*# RES / free# S87DP9 記事読み / id~browser~media=8N7J~yan~ptv / theme=palestine;Israel-occupatio;a-teenager-killed,content=~,w=~ / genre=~ / other=~ || :m #*# RES / free# S87DP9 記事読み / id~browser~media=XOMO~yan~rt-r / theme=ドイツ；ナチス；収容所；勤務者；裁判,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id~browser~media=FDF1~yan~huanqiu / theme=~,content=~,w=~ / genre=~ / other=~ || :m #*# RES / free# S87DP9 記事読み / id~browser~media=KB05~yan~huanqiu / theme=チベット：通用言語,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id~browser~media=IM7M~yan~rt-e / theme=us:nuclear-weapon-program,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id~browser~media=E54H~yan~ptv / theme=US-prison;sex-abuse,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id~browser~media=2GSG~yan~ya / theme=韓国；事故；判決；鉄鋼,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id~browser~media=9HFP~yan~ya / theme=引きこもり；母親、死亡；同居の次男；判決,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id~browser~media=1J0E~yan~ptv / theme=シリア；米国；石油盗掘,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id~browser~media=2E7P~yan~ya / theme=韓国：養蜂,content=ダニ；ウイルス,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=8Y0K(browser=yan) / media=ya / theme=新型インフルエンザ；特措法；改正,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=MIZK(browser=yan) / media=ei / theme=パレスチナ；イスラエル；医療；移動不許可,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=U3PU(browser=yan) / media=ptv / theme=イラン：米国：潜水艦：ホルムズ海峡,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=B50B(browser=uan) / media=ei / theme=イスラエル；パレスチナ；マサフェル・ヤタ,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=DEWY(browser=yan) / media=ptv / theme=ウクライナ；米国；武器供与,content=~,w=~ / genre=~ / other=~
-:m #*# RES / free# S87DP9 記事読み / id=E8ZF(browser=yan) / media=ei / theme=イスラエル；欧州連合；パレスチナ,content=~,w=~ / genre=~ / other=~
 
 
 
