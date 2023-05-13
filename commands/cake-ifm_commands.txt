@@ -652,7 +652,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=1,tempo=~ 
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody:atom,key=~,session=hour-18,R=1,tempo=~ 
 
  \\\ p.1-<2>:genre=melody:lick,key=~,session=hour-18,R=~,tempo=~ \\\  p.2-<1>:genre=melody:lick:continue-from:page-1,key=~,session=hour-18,R=1,tempo=~
 
@@ -675,6 +675,7 @@ p.1: \\\ p.2: \\\ p.3: \\\ p.4:
 //--------- memo phrases, melody_types
 //--------- regex
 :add:10-04~page-2
+:atom
 :continue-from:page-1
 :explanation+
 :for-practice
@@ -1176,7 +1177,7 @@ regex : ]]
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:for-practice,session=hour-18,memo=+,file-piece-id=~,other= / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=+,file-piece-id=~,other= / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1638,7 +1639,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#266_mushuukyoo_shimada / 『無宗教こそ日本人の宗教である』 著者=島田裕巳,校注=~ / p.84 / w=,topic=~,publisher=~,other=QQQ;list+:神道、各派
 
 
-:m 1*1 RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.104 / w=,topic=~,publisher=~,other=キリスト教：福音書：各々、比較
+:m 1*1 RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.109 / w=大蔵経,topic=~,publisher=~,other=仏教：経典：各々、解説；memo+:コーラン：内容による分類：著者独自
 
 :m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.93 / w=~,topic=「乾」,publisher=~,other=~
 
@@ -1687,7 +1688,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.160 / w=,topic=物性：界面活性剤,publisher=~,other=memo+:数値、もろもろ：肺：呼吸：数値
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.173 / w=,topic=,publisher=~,other=memo+:ナイロン６－６；memo+:パラフィン；list+:接触角：各物質；memo+:ヘントリアコンタン；memo+:ポリエチレン
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
@@ -1719,7 +1720,7 @@ memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:�
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
-:m #*# RES / JVEMV6 64#199.2.2_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.278 / w=,topic=~,publisher=~,other=list+:「古注」、「新注」。著作たち。論語。孟子。他
+:m #*# RES / JVEMV6 64#199.2.2_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.142 / w=,topic=~,publisher=~,other=memo+:生、死、善、悪
 
 :m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.112? / w=王通；陳亮,topic=~,publisher=~,other=	
 
@@ -2462,6 +2463,8 @@ G:\photo-books_HD\list-of-books.txt
 //atm
 :PHOTO 記録 / subject=ATM：操作画面：残高：入金前 / location=~ / content=~,for=月末の入金,other=~
 
+:PHOTO 記録 / subject=ATM：操作画面：残高：入金後 / location=~ / content=~,for=入金：スマホ用の代金に充てる：本体分：２万２千円,other=対象：利用明細票
+
 :PHOTO 記録 / subject=ATM：操作画面：残高：入金後 / location=~ / content=~,for=月末の入金,other=~
 
 :PHOTO 記録 / subject=ATM：明細票 / location=~ / content=~,for=月末の入金,other=occasion:入金後
@@ -2773,6 +2776,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=CPKD~yan~ya / theme=福島第１原発：汚染水：放出,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=VD6R~yan~ya / theme=技術実習生,content=有識者会議,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=WGYR~yan~ptv / theme=パレスチナ；UNRWA;食料支援、停止,content=~,w=~ / genre=~ / other=~
