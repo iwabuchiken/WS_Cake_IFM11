@@ -1179,7 +1179,7 @@ regex : ]]
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,other= / follow++
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,other= / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1643,7 +1643,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 
 :m 1*1 RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.109 / w=大蔵経,topic=~,publisher=~,other=仏教：経典：各々、解説；memo+:コーラン：内容による分類：著者独自
 
-:m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.93 / w=~,topic=「乾為天」：初九～九二,publisher=~,other=~
+:m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.96 / w=~,topic=「乾為天」：初九～九二,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#242_quran / 『コーラン（上）』 著者=井筒俊彦,校注=~ / p.~ / w=~,topic=~,publisher=~,other=text:9-72;9-87;9-97
 
@@ -1690,7 +1690,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.179 / w=改質材,topic=,publisher=~,other=memo+:ホルムアミド；memo+:ギ酸；memo+:アミド；list+:フッ素、塩素：親和力、他；memo+:シリカゲル
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.182 / w=改質材,topic=,publisher=~,other=memo+:シラン；list+:電気陰性度、電子親和力：ケイ素、水素、炭素
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
@@ -1722,7 +1722,7 @@ memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:�
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
-:m #*# RES / JVEMV6 64#199.2.2_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.142 / w=,topic=~,publisher=~,other=memo+:生、死、善、悪
+:m #*# RES / JVEMV6 64#199.2.2_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.143 / w=,topic=~,publisher=~,other=memo+:「通有[あっ]て塞[そく]なし」
 
 :m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.112? / w=王通；陳亮,topic=~,publisher=~,other=	
 
