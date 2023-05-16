@@ -652,7 +652,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody:atom,key=~,session=hour-18,R=1,tempo=~ 
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody:悲哀調,key=~,session=hour-18,R=~,tempo=~ 
 
  \\\ p.1-<2>:genre=melody:lick,key=~,session=hour-18,R=~,tempo=~ \\\  p.2-<1>:genre=melody:lick:continue-from:page-1,key=~,session=hour-18,R=1,tempo=~
 
@@ -697,6 +697,8 @@ octave-jump
 	melody:xunlian
 	mumarasa	(연습곡) ممارسة 
 	prac
+	melody:悲哀調
+	
 	// ozdobnik / 꾸밈음
 	prac:auxilliary
 	res
@@ -1025,6 +1027,8 @@ inne
 //template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=真実を知ると、オナニーの誘惑に、反応しなくなる；真実とは：コーラン、易、物理、化学,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=鷺沼教会を抜けて、青い目の神父を担ぎ：神以外の何物かを崇めている；反求,id=~,other=~ / lang=ja
 
@@ -1596,6 +1600,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#283_slapp / 『俺たち訴えられました！　SLAPP裁判との闘い』 著者=烏賀陽弘道；西岡研介,校注=~ / p.8 / w=~,topic=~,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#282_1_1_mamohet_kooran / 『講座　東洋思想　７　イスラムの思想』「第一節　マホメットと『コーラン』」 著者=嶋田襄平,校注=~ / p.2 / w=ラーダークリシュナン,topic=~,publisher=~,other=~
 
 
@@ -1643,7 +1649,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 
 :m 1*1 RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.109 / w=大蔵経,topic=~,publisher=~,other=仏教：経典：各々、解説；memo+:コーラン：内容による分類：著者独自
 
-:m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.96 / w=~,topic=「乾為天」：初九～九二,publisher=~,other=~
+:m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.97 / w=蛟；虬,topic=「乾為天」：初九～九二,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#242_quran / 『コーラン（上）』 著者=井筒俊彦,校注=~ / p.~ / w=~,topic=~,publisher=~,other=text:9-72;9-87;9-97
 
@@ -1722,7 +1728,7 @@ memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:�
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
-:m #*# RES / JVEMV6 64#199.2.2_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.143 / w=,topic=~,publisher=~,other=memo+:「通有[あっ]て塞[そく]なし」
+:m #*# RES / JVEMV6 64#199.2.2_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.146 / w=,topic=~,publisher=~,other=memo+:「故に性学盛んなるときは、則教法衰ふ」
 
 :m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.112? / w=王通；陳亮,topic=~,publisher=~,other=	
 
@@ -2190,6 +2196,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『俺たち訴えられました！　SLAPP裁判との闘い』 / 著者=烏賀陽弘道；西岡研介 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『日本人は本当に無宗教なのか』 / 著者=礫川全次[こいしかわぜんじ /
 
@@ -2778,6 +2786,9 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=VFUB~yan~BAR / theme=haiti;prison;imperialism,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=2H0N~yan~ya / theme=ロシア；労働力人口；動員,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=CPKD~yan~ya / theme=福島第１原発：汚染水：放出,content=~,w=~ / genre=~ / other=~
