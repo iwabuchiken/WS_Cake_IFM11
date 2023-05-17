@@ -652,10 +652,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody:悲哀調,key=~,session=hour-18,R=~,tempo=~ 
-
- \\\ p.1-<2>:genre=melody:lick,key=~,session=hour-18,R=~,tempo=~ \\\  p.2-<1>:genre=melody:lick:continue-from:page-1,key=~,session=hour-18,R=1,tempo=~
-
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody:lick,key=~,session=hour-18,R=~,tempo=~,file-id=2023-05-15 \\\  p.1-<2>:genre=melody,key=~,session=hour-18,R=3,tempo=~
 
 
 //edit : dodatek
@@ -1028,6 +1025,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=聴く音楽によって、脳が変化する：＜＝＝そうか？,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=真実を知ると、オナニーの誘惑に、反応しなくなる；真実とは：コーラン、易、物理、化学,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=鷺沼教会を抜けて、青い目の神父を担ぎ：神以外の何物かを崇めている；反求,id=~,other=~ / lang=ja
@@ -1183,7 +1182,7 @@ regex : ]]
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,other= / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,session=hour-18,memo=+,file-piece-id=~,other=use:kan~dai-kan / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1197,7 +1196,7 @@ regex : ]]
 //--- phrases
 	//other
 	continue-from:R-1
-	
+	melody:impro
 	
 	
 
@@ -1600,6 +1599,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m 2*2 RES / JVEMV6 64#284_robotics_shirai / 『ロボット工学』 著者=白井良明、編著,校注=~ / p.9 / w=マニピュレータ；,topic=~,publisher=~,other=q+:リンクの角度の、変動：効果器の座標の変動。との関係;conc+
+
 :m #*# RES / JVEMV6 64#283_slapp / 『俺たち訴えられました！　SLAPP裁判との闘い』 著者=烏賀陽弘道；西岡研介,校注=~ / p.8 / w=~,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#282_1_1_mamohet_kooran / 『講座　東洋思想　７　イスラムの思想』「第一節　マホメットと『コーラン』」 著者=嶋田襄平,校注=~ / p.2 / w=ラーダークリシュナン,topic=~,publisher=~,other=~
@@ -1696,7 +1697,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.182 / w=改質材,topic=,publisher=~,other=memo+:シラン；list+:電気陰性度、電子親和力：ケイ素、水素、炭素
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.185 / w=改質材,topic=,publisher=~,other=memo+:セルロース；memo+:単糖；アルドース；memo+:グリセルアルデヒド；list+:電気陰性度、電子親和力：炭素、酸素
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
@@ -2275,6 +2276,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
 
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=~ / subject=スマホ：購入：中古品：イオシスにて / content=メーカー：ファーウェイ,other=~
+
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=クーラー（エアコン）、買い替え / content=お母さんから、現金、受け取り：工事、機種購入の申し込み：前金用の金員,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=クーラー（エアコン）、買い替え / content=室外機：現行のもの：採寸,other=~
@@ -2786,6 +2789,7 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=RV3H~yan~huan~desktop / theme=~,content=中国：北京市：職業学校,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=VFUB~yan~BAR / theme=haiti;prison;imperialism,content=~,w=~ / genre=~ / other=~
 
