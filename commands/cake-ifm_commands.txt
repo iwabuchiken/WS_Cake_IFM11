@@ -1025,6 +1025,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=裸の女の人も結構だが、その人は何が得意だろう？を探る方が、よほど、没頭できる,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=聴く音楽によって、脳が変化する：＜＝＝そうか？,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=真実を知ると、オナニーの誘惑に、反応しなくなる；真実とは：コーラン、易、物理、化学,id=~,other=~ / lang=ja
@@ -1032,75 +1034,6 @@ inne
 :m :th,mysl / topic=~ / content=鷺沼教会を抜けて、青い目の神父を担ぎ：神以外の何物かを崇めている；反求,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=「理を究め性を盡くして、以て命に至る」（「易経」説卦伝；「童子問　中」140p）ーー＞物理・化学の探求：適用しよう,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=『易』に謂う所の「陰陽」。発明活動に用いてみる,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=五十有余歳にして、妻なし、子なし。哀しみを知る。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=「重力波がどうの」とかの方が、格好良い；「切問」の方が、「義」に叶っている,id=~,other=~ / lang=ja || :m :th,mysl / topic=眼科での、切問 / content=目が痛む。医者へ行く。「切問」,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=仁斎を読むと（「童子問」）、「切問」とは何か、はっきりとしてくる,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=「丁巳封事」 / content=君に奉つる。論語に、「外に出ては、賓に見える如く」,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=イスラムに入るのは、まだ。自分が分かっていないものを崇める。のは、やめよう,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=「いかに台湾有事から逃げるか」。どこに逃げるんだ？外交しかない。,id=~,other=occasion:動画を見ていて。日刊ゲンダイのサイトだったか / lang=ja
-
-:m :th,mysl / topic=~ / content=仁斎の書を読む。当時の日本の知識人たち。何に注目していたか。窺い見る。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=西安の学校へ行っていたとき：元校長の人。「キリスト教は、アメリカ大陸で、ひどいことしたやないか」；私が思ったこと「なぜ、そんな昔のことを、言い出すんだ？」,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=物理・化学の書を猛読す。天に事ふる所以,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=「神よ」だけでは、足らず。「仁」無くんば、呼吸不能[あたはず。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=孟子 / content=「之を蔽害する」：自分で自分に、施している。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=本読み：儒教 / content=仁斎と、水戸学,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=儒教の教えについて / content=儒教の教えは、人の情に、沿っている。無理がない。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=「神」なるものについて、知りたい。イスラームだ、キリスト教だ、を離れて,id=~,other=~ / lang=ja
-
-	:m :th,mysl / topic=物理：波：複素空間：重ね合わせ / content=~,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=そのやり方で、もれなく、皆が安堵するか；是非の判断基準。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=畑で採った、原品種の（F1ではない）、もぎたての、熟れたトマト；そんなトマト、あふれさせよう。,id=~,other=~ / lang=ja
-
-//2023年4月7日22:29:08
-:m :th,mysl / topic=~ / content=人間に関しては、先ず、実存を手当て。セックスだのは、おまけ。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=「上[かみ]仁に由れば、民は義に興る」,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=駄目だ。胸をはだけた姿。中にある曲が、輝いている。あられもない姿が、ぼやける。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=津軽じょんがらも良いけれど：奏者の心が震えて、ために、響く音,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=自分の宗教が唯一正しい。驕り。その神が、人々に何をしているか。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=「バカ」という形容詞。「りこうバカ」、名付ける。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=仁斎を耽読し、論孟を熟読する。物理・化学も同じ,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=欲しいもの。「西洋」が入ってくる前の、日本の音楽。聞きたい,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=仁斎：情と欲を無にするのではなく。「礼」と「義」の内容を、詳らかにするの要、出来たらん。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=「寡欲」と、「稼ぎが少ない」は、同じではない；物事の判断基準：「寡欲」に近いのは、どちらか？,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=人が本当に欲しているもの：そんな曲を奏でたい,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=日本人の宗教について / content=高邁な観念はないかも知れないが,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=『化学なんでも質問』。文章の形式は、親子の対話。尋ねるのは、子供。答えるのは、親。そういう世界を、俺は、抜ける。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=孔子は、「学」に志した。「仁」に、ではなく,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=「ナルシズムに繋がれた個人主義」。宮台たち。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=人に貴賎を付けるもの。一切を、拒否する。,id=2YOU,other=~ / lang=ja || :m :th,mysl / topic=~ / content=「神儒伊」、習合,id=HB24,other=メモの続き / lang=ja
 
 //th_topics
 mysl
@@ -1231,6 +1164,10 @@ memo-taking,for=~,other=~
 
 ###2022年1月30日0:49:00
 ==================== video : other
+//template
+:VIDEO:other / @自室 / 記録 / content=~,for=~,other=~
+:VIDEO:other / @自室 / 記録 / content=謡い,for=~,other=[etaba Ё]の動画を見ていて、謡いたくなった。メロディは、その場で、謡いながら、自作。
+
 :VIDEO:other / @自室 / 記録 / content=一人漫才：練習,for=「兎（うさぎ）おいしい」
 
 ###2023年3月23日17:59:07
@@ -1697,7 +1634,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.185 / w=改質材,topic=,publisher=~,other=memo+:セルロース；memo+:単糖；アルドース；memo+:グリセルアルデヒド；list+:電気陰性度、電子親和力：炭素、酸素
+:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.185 / w=改質材,topic=,publisher=~,other=q+:q-id.3DPS(nowa):表面張力、毛管を上行：高さ、より高い
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
@@ -1838,6 +1775,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //template
 :tome / (lang=ja) / topic=~ / content=~,other=~
+
+:tome / (lang=ja) / topic=~ / content=今すぐに金になるもの。ではなく、知りたくて仕方のないもの。に、忠に、敬に、勤しむ。,other=~
 
 :tome / (lang=ja) / topic=~ / content=笛。自分のために吹きな。「この曲、受けるかな」も、実のところ、他人のために吹いている。,other=~
 
@@ -2882,7 +2821,7 @@ zionists
 //template
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
 
-:PHOTO 記録 / 文書：コレポン / #*# / about=スマホ：simカード：移動,with=auショップ：鷺沼店,content=~,other=~ / N+:考慮する
+:PHOTO 記録 / 文書：コレポン / #*# / about=スマホ：simカード：移動,with=auショップ：鷺沼店,content=~,other=店頭に行って、実際に、交換してもらう;file-id:2023-04-28_14-58-25_000.jpg / N~
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=１階の居間：クーラー、買い替え,with=~,content=聞き書きのメモ、他,other=task-id.LX0Q(nowa) / N+
 
