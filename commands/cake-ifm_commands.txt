@@ -679,6 +679,7 @@ p.1: \\\ p.2: \\\ p.3: \\\ p.4:
 :lick
 :memo:alt-fingering:h-7+4+3>on~pitch=h-1`!
 :other=alt-fingering+
+:review
 :tips:how-to-blow:oct-1_h-1
 :use:alt-fingering
 :variation:2022-11-14~p-1
@@ -952,6 +953,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+:m :haja,lets / action activity / やること / genre=~ / content=論語、孟子における、「天」の意味。知りたい。仁斎：「童子問　中」p.139,other=~
+
+:m :haja,lets / action activity / やること / genre=~ / content=musescoreで、笛と和太鼓。合奏。試そう,other=~
+
 :m :haja,lets / action activity / やること / genre=~ / content=易に従おう,other=~
 
 :m :haja,lets / action activity / やること / genre=~ / content=始めよう。AI、ロボット,other=~
@@ -1024,6 +1029,8 @@ inne
 //template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=~ / content=神と信仰とについて、コーラン。世俗性を尋ぬるに、仁斎。心を陶冶するに、宇治拾遺と、笛。実用には、化学とロボット工学。力行すべし,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=裸の女の人も結構だが、その人は何が得意だろう？を探る方が、よほど、没頭できる,id=~,other=~ / lang=ja
 
@@ -1098,6 +1105,9 @@ prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
 genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
+
+
+
 ###2021年6月13日9:11:14
 ======== memo : jap.flute, video:shinobue:video,shino:video,video_shi
 
@@ -1115,7 +1125,7 @@ regex : ]]
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,session=hour-18,memo=+,file-piece-id=~,other=use:kan~dai-kan / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:review,session=hour-18,memo=~,file-piece-id=2023-05-11_18-42-14.jpg,other= / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1536,6 +1546,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#285_bunseki_chemi / 『分析化学』 著者=加藤、菅原、共著,校注=~ / p.2 / w=純粋化学；応用化学,topic=~,publisher=~,other=~
+
 :m 2*2 RES / JVEMV6 64#284_robotics_shirai / 『ロボット工学』 著者=白井良明、編著,校注=~ / p.9 / w=マニピュレータ；,topic=~,publisher=~,other=q+:リンクの角度の、変動：効果器の座標の変動。との関係;conc+
 
 :m #*# RES / JVEMV6 64#283_slapp / 『俺たち訴えられました！　SLAPP裁判との闘い』 著者=烏賀陽弘道；西岡研介,校注=~ / p.8 / w=~,topic=~,publisher=~,other=~
@@ -1634,7 +1646,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.185 / w=改質材,topic=,publisher=~,other=q+:q-id.3DPS(nowa):表面張力、毛管を上行：高さ、より高い
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.187 / w=改質材,topic=一円玉：水に浮く,publisher=~,other=calc+:一円玉：表面張力：計算
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
@@ -1776,6 +1788,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :tome / (lang=ja) / topic=~ / content=~,other=~
 
+:tome / (lang=ja) / topic=~ / content=culture。自分で創ろう,other=~
+
 :tome / (lang=ja) / topic=~ / content=今すぐに金になるもの。ではなく、知りたくて仕方のないもの。に、忠に、敬に、勤しむ。,other=~
 
 :tome / (lang=ja) / topic=~ / content=笛。自分のために吹きな。「この曲、受けるかな」も、実のところ、他人のために吹いている。,other=~
@@ -1814,6 +1828,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=~ / content=比重。構成粒子。お互いの距離。どう変化？その構造は？ / status=~ / id=~,genre=~,other=~,
 
 :m :? #*# / topic=~ / content=プリズムによる分光。の一部としての、黄色。赤と緑の混色としての、それ。波長は、それぞれ、異なるか？ / status=~ / id=~,genre=~,other=~,
 
@@ -1993,6 +2009,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //quote / 2023年4月29日17:36:34
 :m #*# / memo:other(m:other) / topic=quote:孟子, about=~,content=夫の成功の若きは則ち天なり。,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=quote:伊藤仁斎, about=~,content=「仁人者。...修其理不急其功」「学人を尤めざるに至るは、学の至りなり」,other=from:「童子問　中」:280,id=~ 
 
 :m #*# / memo:other(m:other) / topic=quote:伊藤仁斎, about=~,content=「至奇極妙、一當に如ず。学者當に悟門の開るを竢つべし。我より之を開発すること勿れ」,other=from:「童子問　中」:134,id=~ 
 
@@ -2728,6 +2746,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media=9T1N~yan~ya / theme=ロシア；石油収入,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=RV3H~yan~huan~desktop / theme=~,content=中国：北京市：職業学校,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media=VFUB~yan~BAR / theme=haiti;prison;imperialism,content=~,w=~ / genre=~ / other=~
