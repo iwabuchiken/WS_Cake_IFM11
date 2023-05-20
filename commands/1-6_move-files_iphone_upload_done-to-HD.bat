@@ -7,7 +7,7 @@ echo moving image files...
 
 set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
 
-set dpath_dst=G:\images\2023
+set dpath_dst=H:\images\2023
 rem set dpath_dst=G:\images\2022
 
 echo %dpath_source%
@@ -36,7 +36,7 @@ echo moving video files...
 set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
 rem set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019
 
-set dpath_dst=G:\videos
+set dpath_dst=H:\videos
 
 echo %dpath_source%
 echo %dpath_dst%
@@ -57,7 +57,7 @@ echo moving audio files...
 set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\iphone_upload_done
 rem set dpath_source=C:\WORKS_2\WS\WS_Cake_IFM11\audio-files
 
-set dpath_dst=G:\audio-files_HD
+set dpath_dst=H:\audio-files_HD
 
 set file_extention=.mid
 

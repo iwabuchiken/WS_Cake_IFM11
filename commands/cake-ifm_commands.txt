@@ -652,7 +652,8 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody:lick,key=~,session=hour-18,R=~,tempo=~,file-id=2023-05-15 \\\  p.1-<2>:genre=melody,key=~,session=hour-18,R=3,tempo=~
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=~,tempo=~,file-id=~
+ \\\  p.1-<2>:genre=melody,key=~,session=hour-18,R=3,tempo=~
 
 
 //edit : dodatek
@@ -1546,7 +1547,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#285_bunseki_chemi / 『分析化学』 著者=加藤、菅原、共著,校注=~ / p.2 / w=純粋化学；応用化学,topic=~,publisher=~,other=~
+:m 2*2 RES / JVEMV6 64#285_bunseki_chemi / 『分析化学』 著者=加藤、菅原、共著,校注=~ / p.6;d-2 / w=仮説検定,topic=~,publisher=~,other=~
 
 :m 2*2 RES / JVEMV6 64#284_robotics_shirai / 『ロボット工学』 著者=白井良明、編著,校注=~ / p.9 / w=マニピュレータ；,topic=~,publisher=~,other=q+:リンクの角度の、変動：効果器の座標の変動。との関係;conc+
 
@@ -1678,7 +1679,8 @@ memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:�
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
-:m #*# RES / JVEMV6 64#199.2.2_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.146 / w=,topic=~,publisher=~,other=memo+:「故に性学盛んなるときは、則教法衰ふ」
+:m #*# RES / JVEMV6 64#199.3.2_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.149 / w=,topic=~,publisher=~,other=list+:孟子他、各論者：「性」についての見解
+memo+:「故に性学盛んなるときは、則教法衰ふ」
 
 :m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.112? / w=王通；陳亮,topic=~,publisher=~,other=	
 
@@ -3015,6 +3017,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 //template
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
+
+###2023年5月20日18:00:26
+#DELETE FROM ifm11 WHERE _id <= 61514;
 
 ###2023年4月26日22:06:29
 #DELETE FROM ifm11 WHERE _id <= 61139;
