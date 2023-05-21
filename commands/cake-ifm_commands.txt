@@ -1124,6 +1124,8 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-22,recording-id=~,other=use:dai-kan / follow+
+
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:review,session=hour-18,memo=~,file-piece-id=2023-05-11_18-42-14.jpg,other= / follow+
@@ -1547,6 +1549,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#286_katoo_ninchi / 『XXX』 著者=認知症になるとなぜ「不可解な行動」をとるのか,校注=~ / p.15 / w=~,topic=分類、内容,publisher=~,other=~
+
 :m 2*2 RES / JVEMV6 64#285_bunseki_chemi / 『分析化学』 著者=加藤、菅原、共著,校注=~ / p.6;d-2 / w=仮説検定,topic=~,publisher=~,other=~
 
 :m 2*2 RES / JVEMV6 64#284_robotics_shirai / 『ロボット工学』 著者=白井良明、編著,校注=~ / p.9 / w=マニピュレータ；,topic=~,publisher=~,other=q+:リンクの角度の、変動：効果器の座標の変動。との関係;conc+
@@ -1679,7 +1683,7 @@ memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:�
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
-:m #*# RES / JVEMV6 64#199.3.2_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.149 / w=,topic=~,publisher=~,other=list+:孟子他、各論者：「性」についての見解
+:m #*# RES / JVEMV6 64#199.3.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.150 / w=,topic=~,publisher=~,other=memo+:水。人の性。
 memo+:「故に性学盛んなるときは、則教法衰ふ」
 
 :m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.112? / w=王通；陳亮,topic=~,publisher=~,other=	
@@ -1691,7 +1695,7 @@ memo+:「故に性学盛んなるときは、則教法衰ふ」
 
 :m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.201 / w=神経節細胞；扁桃体,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#126.02_mooshi:梁恵王下 / 『孟子』 著者=~,校注=~ / p.93 / w=；,topic=,other=th+:「不得於言、勿求於心」が、「不可」である理由
+:m #*# RES / JVEMV6 64#126.02_mooshi:梁恵王下 / 『孟子』 著者=~,校注=~ / p.107 / w=；,topic=五者；四端,other=~
 ske+:sk-id.WNJC:戈（ほこ）;ske+:sk-id.L0BC:矛（ほこ）;ske+:sk-id.YHKH:斧、まさかり
 
 :m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王上 / 『孟子』 著者=~,校注=~ / p.18 / w=~,topic=百畝,other=

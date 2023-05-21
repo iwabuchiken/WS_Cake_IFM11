@@ -3,7 +3,8 @@ rem move G:\tmp.20220507_191202\* C:\WORKS_2\WS\WS_Cake_IFM11\tmp
 set dpath_HD_G_Drive=G:\tmp.20220507_191202
 set dpath_HD_H_Drive=H:\tmp.20220507_191202
 
-seet dpath_HD=%dpath_HD_H_Drive%
+set dpath_HD=%dpath_HD_H_Drive%
+rem set dpath_HD=%dpath_HD_G_Drive%
 
 move C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload\*.jpg %dpath_HD%
 rem move C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload\*.jpg G:\tmp.20220507_191202
