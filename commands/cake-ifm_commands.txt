@@ -1031,6 +1031,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=論孟、宗旨の一つ。「現代」という篩いを通るもののみ。仁斎の、四体についての言。容れる余地、無し。,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=神と信仰とについて、コーラン。世俗性を尋ぬるに、仁斎。心を陶冶するに、宇治拾遺と、笛。実用には、化学とロボット工学。力行すべし,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=裸の女の人も結構だが、その人は何が得意だろう？を探る方が、よほど、没頭できる,id=~,other=~ / lang=ja
@@ -1124,7 +1126,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-22,recording-id=~,other=use:dai-kan / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-14,recording-id=~,other=use:dai-kan / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
 
@@ -1547,7 +1549,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#, 64_
 //template
-:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XX / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#288_fanon_skin / 『フランツ・ファノン著作集　Ⅰ　黒い皮膚・白い仮面』 著者=フランツ・ファノン,校注=~ / p.26 / w=植民地化された民族,topic=~,publisher=~,other=~
+
 
 :m #*# RES / JVEMV6 64#286_katoo_ninchi / 『XXX』 著者=認知症になるとなぜ「不可解な行動」をとるのか,校注=~ / p.15 / w=~,topic=分類、内容,publisher=~,other=~
 
@@ -1651,7 +1656,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.187 / w=改質材,topic=一円玉：水に浮く,publisher=~,other=calc+:一円玉：表面張力：計算
+:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.189 / w=,topic=塩化アンモニウム,publisher=~,other=calc+:塩化アンモニウム：格子の、一辺の長さ
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
@@ -1793,6 +1798,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //template
 :tome / (lang=ja) / topic=~ / content=~,other=~
+
+:tome / (lang=ja) / topic=~ / content=今試みていることで、食えるようになってから、かな。子供は。,other=~
 
 :tome / (lang=ja) / topic=~ / content=culture。自分で創ろう,other=~
 
