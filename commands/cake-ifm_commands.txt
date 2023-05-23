@@ -1126,7 +1126,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-14,recording-id=~,other=use:dai-kan / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=tech:音の強弱。喉を使う / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
 
@@ -2245,6 +2245,8 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録しておきたいもの
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+
+:PHOTO 記録しておきたいもの / 2*2 / location:photo=自宅：１F：居間, location:target=~ / subject=メモ：杉浦さん：ジブラルタ生命 / content=打ち合わせ。お母さん、保険満期。別件を契約。書類記入、した。,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=自室, location:target=~ / subject=スマホ：購入：中古品：イオシスにて / content=メーカー：ファーウェイ,other=~
 
