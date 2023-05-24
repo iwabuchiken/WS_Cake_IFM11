@@ -1126,7 +1126,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=tech:音の強弱。喉を使う / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=tech:音の強弱。喉を使う；comment+:喉を使って、強弱をつける。甲音から乙音へ下がるとき、乙音が、ボリュームが、比較して、大きく、いわば、吹き上がる。のを、抑えられる / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
 
@@ -1341,6 +1341,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ======================== video : ilban,video_ilban_
 :VIDEO / 記録 / topic=~ / for=~,file-id=~,other=~
 
+:VIDEO / 記録 / topic=様子：自分 / for=笛を吹いたあとの、自分の様子。どんなものか、撮ってみた。篠笛,file-id=~,other=~
 
 :VIDEO / 記録 / topic=経過記録：焼酎漬け：混合 / content=混合を作って、３日目。沈殿物の様子。瓶を傾けてみる。,for=~,file-id=2022-12-19_00-31-25_000.jpg,other=~
 ###2023年3月1日15:24:00
@@ -1656,7 +1657,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.189 / w=,topic=塩化アンモニウム,publisher=~,other=calc+:塩化アンモニウム：格子の、一辺の長さ
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.195 / w=,topic=,publisher=~,other=memo+:アクリル酸；memo+:メタクリル酸；memo+:EVA（エチレン酢酸ビニル）
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
