@@ -1031,6 +1031,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=「七代先のことを考える」。只に、自然環境についてのみならず、生き方についても。,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=論孟、宗旨の一つ。「現代」という篩いを通るもののみ。仁斎の、四体についての言。容れる余地、無し。,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=神と信仰とについて、コーラン。世俗性を尋ぬるに、仁斎。心を陶冶するに、宇治拾遺と、笛。実用には、化学とロボット工学。力行すべし,id=~,other=~ / lang=ja
@@ -1126,7 +1128,8 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=tech:音の強弱。喉を使う；comment+:喉を使って、強弱をつける。甲音から乙音へ下がるとき、乙音が、ボリュームが、比較して、大きく、いわば、吹き上がる。のを、抑えられる / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:kan
+tech:音の強弱。喉を使う；comment+:喉を使って、強弱をつける。甲音から乙音へ下がるとき、乙音が、ボリュームが、比較して、大きく、いわば、吹き上がる。のを、抑えられる / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
 
@@ -1608,7 +1611,8 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#266_mushuukyoo_shimada / 『無宗教こそ日本人の宗教である』 著者=島田裕巳,校注=~ / p.84 / w=,topic=~,publisher=~,other=QQQ;list+:神道、各派
 
 
-:m 1*1 RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.109 / w=大蔵経,topic=~,publisher=~,other=仏教：経典：各々、解説；memo+:コーラン：内容による分類：著者独自
+:m 1*1 RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.149;p.185 / w=大蔵経,topic=~,publisher=~,other=timetable+:ヒジュラの年；ムハンマドの、死去の年
+仏教：経典：各々、解説；memo+:コーラン：内容による分類：著者独自
 
 :m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.97 / w=蛟；虬,topic=「乾為天」：初九～九二,publisher=~,other=~
 
@@ -2246,6 +2250,8 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録しておきたいもの
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=~ / subject=コレポン用のメモ：高津社会保険事務所へ問い合わせ / content=催告状が来た。年金保険料、支払い。納付用紙を、再発行するかしないか。相談。,other=~
 
 :PHOTO 記録しておきたいもの / 2*2 / location:photo=自宅：１F：居間, location:target=~ / subject=メモ：杉浦さん：ジブラルタ生命 / content=打ち合わせ。お母さん、保険満期。別件を契約。書類記入、した。,other=~
 
@@ -2977,6 +2983,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###2021年10月25日9:18:26
 ============================ 
 //：顔 :face
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の用意のあと。らっきょうの調理も行う。
+
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=写真を撮る。自撮り用のスイッチ。試している。ウルスラさんに送る写真。お母さんと。
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=歯磨き中（か？）
