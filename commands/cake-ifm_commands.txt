@@ -713,6 +713,7 @@ octave-jump
 :maneuver-notes
 :movement:koo~otsu
 :movement:wide-range
+:nihon-folklore-like
 :notes-up-down
 :octave-jump
 :ohayashi
@@ -727,6 +728,7 @@ octave-jump
 i.f.:		(inspired from / вдохновлена / 영감)
 use-notes:h-X
 tips:XXX
+motive:
 
 //--- prac:auxilliary
 finger-hit:N-notes
@@ -1031,6 +1033,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=『宇治拾遺物語』、等々。こんな面白い読み物。知らない。もったいない。,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=「七代先のことを考える」。只に、自然環境についてのみならず、生き方についても。,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=論孟、宗旨の一つ。「現代」という篩いを通るもののみ。仁斎の、四体についての言。容れる余地、無し。,id=~,other=~ / lang=ja
@@ -1128,7 +1132,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:kan
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:dai-kan / follow+
 tech:音の強弱。喉を使う；comment+:喉を使って、強弱をつける。甲音から乙音へ下がるとき、乙音が、ボリュームが、比較して、大きく、いわば、吹き上がる。のを、抑えられる / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
@@ -1555,6 +1559,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XX / w=~,topic=~,publisher=~,other=~
 
+
+:m 1*1 RES / JVEMV6 64#111_?? / 『宇治拾遺物語　古本説話集　新日本古典文学大系　４２』 校注=三木紀人、他 / p.84 / w=「いみじ」,topic=~,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#288_fanon_skin / 『フランツ・ファノン著作集　Ⅰ　黒い皮膚・白い仮面』 著者=フランツ・ファノン,校注=~ / p.26 / w=植民地化された民族,topic=~,publisher=~,other=~
 
 
@@ -1729,7 +1736,8 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
-:m #*# RES / JVEMV6 64#67_14_kenmon / 『論語 憲問』 著者=~,校注=~ / p.310 / w=,topic=,publisher=明治書院,other=timeline+:襄公～哀公：孔子、年齢
+:m #*# RES / JVEMV6 64#67_14_kenmon / 『論語 憲問』 著者=~,校注=~ / p.335 / w=「なからめやは」,topic=,publisher=明治書院,other=~
+timeline+:襄公～哀公：孔子、年齢
 list+:樹形図：司馬牛；list+:徳目、徳者：仁者、知者
 
 :m #*# RES / JVEMV6 64#67_12_senshin / 『論語 顔淵』 著者=~,校注=~ / p.262 / w=,topic=,publisher=明治書院,other=list+:樹形図：司馬牛；list+:徳目、徳者：仁者、知者
@@ -2048,6 +2056,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2022年7月20日9:58:44
 //=============== 年金
 =============== 年金；小遣い
+:m other / お母さんから　お金もらう / amount=６万６千円 / topic=年金保険料：支払い / total-amount=２ヶ月分：１万６千７００円ｘ２=６万６千円,for=令和５：２ー５月（４ヶ月分）
+
 :m other / お母さんから　お金もらう / amount=3万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円,for=2022-07 || :m other / お母さんから　お金もらう / amount=3.3万円 / topic=年金：掛金 / total-amount=２ヶ月分,for=令和４－１２；５－１
 
 :m other / お母さんから　お金もらう / amount=3万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円,for=2022-06
@@ -2454,6 +2464,9 @@ G:\photo-books_HD\list-of-books.txt
 
 //atm
 :PHOTO 記録 / subject=ATM：操作画面：残高：入金前 / location=~ / content=~,for=月末の入金,other=~
+
+:PHOTO 記録 / subject=ATM：操作画面 / location=~ / content=~,for=月末の入金：残高：入金後,other=対象：利用明細票
+操作画面
 
 :PHOTO 記録 / subject=ATM：操作画面：残高：入金後 / location=~ / content=~,for=入金：スマホ用の代金に充てる：本体分：２万２千円,other=対象：利用明細票
 
