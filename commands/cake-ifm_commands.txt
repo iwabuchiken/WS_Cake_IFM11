@@ -1033,6 +1033,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=俺は何処へも行ける。一人で。神様が、共に居て下さる,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=『宇治拾遺物語』、等々。こんな面白い読み物。知らない。もったいない。,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=「七代先のことを考える」。只に、自然環境についてのみならず、生き方についても。,id=~,other=~ / lang=ja
@@ -1132,7 +1134,8 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:dai-kan / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=tempo:slow
+use:dai-kan / follow+
 tech:音の強弱。喉を使う；comment+:喉を使って、強弱をつける。甲音から乙音へ下がるとき、乙音が、ボリュームが、比較して、大きく、いわば、吹き上がる。のを、抑えられる / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
@@ -1558,6 +1561,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#, 64_
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XX / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#290_shokunihon_1 / 『新　日本古典文学大系　１２　続日本紀　一』 著者=~,校注=青木和夫、他 / p.2 / w=~,topic=文武天皇,publisher=~,other=~
 
 
 :m 1*1 RES / JVEMV6 64#111_?? / 『宇治拾遺物語　古本説話集　新日本古典文学大系　４２』 校注=三木紀人、他 / p.84 / w=「いみじ」,topic=~,publisher=~,other=~
@@ -2996,6 +3001,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###2021年10月25日9:18:26
 ============================ 
 //：顔 :face
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の直前：盆を、机の上に置いたところか
+
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の用意のあと。らっきょうの調理も行う。
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=写真を撮る。自撮り用のスイッチ。試している。ウルスラさんに送る写真。お母さんと。
