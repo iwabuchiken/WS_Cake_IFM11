@@ -956,6 +956,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+:m :haja,lets / action activity / やること / genre=~ / content=論語の閲読。絵も描き乍,other=~
+
 :m :haja,lets / action activity / やること / genre=~ / content=論語、孟子における、「天」の意味。知りたい。仁斎：「童子問　中」p.139,other=~
 
 :m :haja,lets / action activity / やること / genre=~ / content=musescoreで、笛と和太鼓。合奏。試そう,other=~
@@ -1136,7 +1138,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=tempo:slow
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:dai-kan
 use:dai-kan / follow+
 tech:音の強弱。喉を使う；comment+:喉を使って、強弱をつける。甲音から乙音へ下がるとき、乙音が、ボリュームが、比較して、大きく、いわば、吹き上がる。のを、抑えられる / follow+
 
@@ -1563,6 +1565,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#, 64_
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XX / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.1:d-1#2 / w=チタン酸バリウム強誘電性セラミック,topic=~,publisher=~,other=~ / N+:閲読：d-2:d-id.JS7X
 
 :m #*# RES / JVEMV6 64#290_shokunihon_1 / 『新　日本古典文学大系　１２　続日本紀　一』 著者=~,校注=青木和夫、他 / p.3 / w=~,topic=文武天皇,publisher=~,other=~
 
@@ -3011,6 +3015,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###2021年10月25日9:18:26
 ============================ 
 //：顔 :face
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=寝る直前：時計を撮影するとき：自撮りに設定されていた：オナニー用画像を見ていた
+
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の直前：盆を、机の上に置いたところか
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の用意のあと。らっきょうの調理も行う。
