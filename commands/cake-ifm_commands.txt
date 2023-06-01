@@ -1138,7 +1138,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-23,recording-id=~,other=~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:dai-kan / follow++
 use:dai-kan / follow+
 tech:音の強弱。喉を使う；comment+:喉を使って、強弱をつける。甲音から乙音へ下がるとき、乙音が、ボリュームが、比較して、大きく、いわば、吹き上がる。のを、抑えられる / follow+
 
@@ -1568,7 +1568,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 2*2 RES / JVEMV6 64#292_hoosha / 『放射光が解き明かす驚異のナノ世界』 著者=日本放射光学会、編,校注=~ / p.15 / w=~,topic=~,publisher=~,other=memo+:輝度：数式
 
-:m #*# RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.1:d-1#2 / w=チタン酸バリウム強誘電性セラミック,topic=~,publisher=~,other=~ / N+:閲読：d-2:d-id.JS7X
+:m 2*2 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.8:d-2 / w=,topic=コップ：実験：逆さ,publisher=~,other=~ / N+:
 
 :m #*# RES / JVEMV6 64#290_shokunihon_1 / 『新　日本古典文学大系　１２　続日本紀　一』 著者=~,校注=青木和夫、他 / p.3 / w=~,topic=文武天皇,publisher=~,other=~
 
@@ -1681,7 +1681,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.201 / w=気泡ゾル；ABS樹脂；ブタジエン,topic=,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.202 / w=,topic=,publisher=~,other=memo+:配糖体；memo+:グリコシド結合；memo+:サポニン；memo+:浮遊選鉱
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
@@ -2244,6 +2244,13 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録：開始、終了
 //template
 :PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
+
+:PHOTO 記録 / location=~ / topic=終了 / for=ガムテープ / occasion=~,other=~
+ 
+
+:PHOTO 記録 / location=~ / topic=終了 / for=ゴムバンド：１５本入り：#320：アメ色：120x6x1.1mm / occasion=~,other=撮影面：表
+
+:PHOTO 記録 / location=~ / topic=終了 / for=セロハンテープ：15x8mm：２個入り / occasion=２個目を取り出した,other=撮影面：表
 
 :PHOTO 記録 / location=台所~ / topic=終了 / for=殺虫スプレー：ゴキブリ用 / occasion=終了,other=~
 
