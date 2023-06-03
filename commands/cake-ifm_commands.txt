@@ -677,6 +677,8 @@ p.1: \\\ p.2: \\\ p.3: \\\ p.4:
 :continue-from:page-1
 :explanation+
 :for-practice
+:good-melody
+:good-melody:気持ちいい
 :lick
 :memo:alt-fingering:h-7+4+3>on~pitch=h-1`!
 :other=alt-fingering+
@@ -685,6 +687,7 @@ p.1: \\\ p.2: \\\ p.3: \\\ p.4:
 :use:alt-fingering
 :variation:2022-11-14~p-1
 :western-like
+:作品っぽく
 
 //--------- 'for' comments / 2022年12月2日10:06:48
 octave-jump
@@ -1138,7 +1141,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:dai-kan / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=6 / genre=melody:good-melody:気持ちいい,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:semi-dai-kan / follow+
 use:dai-kan / follow+
 tech:音の強弱。喉を使う；comment+:喉を使って、強弱をつける。甲音から乙音へ下がるとき、乙音が、ボリュームが、比較して、大きく、いわば、吹き上がる。のを、抑えられる / follow+
 
@@ -1570,7 +1573,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 2*2 RES / JVEMV6 64#292_hoosha / 『放射光が解き明かす驚異のナノ世界』 著者=日本放射光学会、編,校注=~ / p.15 / w=~,topic=~,publisher=~,other=memo+:輝度：数式
 
-:m 2*2 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.8:d-2 / w=,topic=コップ：実験：逆さ,publisher=~,other=~ / N+:
+:m 1*1 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.9 / w=,topic=,publisher=~,other=memo+:ニクロム線；list+:比較：鉄、ニクロム、銅；memo+:圧電素子：着火
+memo+:
 
 :m #*# RES / JVEMV6 64#290_shokunihon_1 / 『新　日本古典文学大系　１２　続日本紀　一』 著者=~,校注=青木和夫、他 / p.3 / w=~,topic=文武天皇,publisher=~,other=~
 
@@ -1626,7 +1630,8 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m 3*3 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.38 / w=,topic=~,publisher=~,other=memo+:ヘモグロビン（ヘム部）；
+:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.50 / w=精神運動発達遅滞；,topic=~,publisher=~,other=list+:疾患：特徴；list+:支援学級：対象児童
+memo+:ヘモグロビン（ヘム部）；
 
 :m 1*1 RES / JVEMV6 64#267_akushitu / 『悪質商法のすごい手口』 著者=国民生活センター、監修,校注=~ / p.43 / w=~,topic=点検商法,publisher=~,other=~
 
@@ -1683,7 +1688,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.202 / w=,topic=,publisher=~,other=memo+:配糖体；memo+:グリコシド結合；memo+:サポニン；memo+:浮遊選鉱
+:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.208 / w=,topic=,publisher=~,other=memo+:発泡スチロール：スチレン樹脂：スチレン：ポリスチレン；memo+:ブタン
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
@@ -2247,6 +2252,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
 
+:PHOTO 記録 / location=~ / topic=終了 / for=デンタルフロス / occasion=~,other=~
+
 :PHOTO 記録 / location=~ / topic=終了 / for=ガムテープ / occasion=~,other=~
  
 
@@ -2286,6 +2293,9 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
 
+:PHOTO 記録しておきたいもの / location:photo=洗面所, location:target=自宅：一筋敷地、北東隅：：破片らしきもの：雨戸代はりの、トタン板：２階、北東の窓に付けてあるもの / subject=~ / content=昨晩の、暴風雨：板が取れたらしい,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=洗面所, location:target=鷲尾さんの庭：破片らしきもの：雨戸代はりの、トタン板：２階、北東の窓に付けてあるもの / subject=~ / content=昨晩の、暴風雨：板が取れたらしい,other=~
 :PHOTO 記録しておきたいもの / location:photo=自室, location:target=~ / subject=コレポン用のメモ：高津社会保険事務所へ問い合わせ / content=催告状が来た。年金保険料、支払い。納付用紙を、再発行するかしないか。相談。,other=~
 
 :PHOTO 記録しておきたいもの / 1*1 / location:photo=自室, location:target=~ / subject=メモ：ジブラルタ生命関連 / content=考えを整理するためのメモ：お母さんの金融資産分の、内訳；私自身の身の振り。いくら必要か、いま企てていることを続けるために,other=~
@@ -2812,6 +2822,10 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=NXLF~yan~huan~DT / theme=~,content=重慶、江西：指導組：党幹部,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=K5GE~yan~huan~DT / theme=~,content=中小企業；中国；高質量；転化,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=ZSFK~yan~ya~DT(desktop) / theme=~,content=ヒュンダイ；広州市；水素燃料電池,w=~ / genre=~ / other=~
 
