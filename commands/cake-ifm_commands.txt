@@ -1141,7 +1141,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=6 / genre=melody:good-melody:気持ちいい,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:semi-dai-kan / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+	
 use:dai-kan / follow+
 tech:音の強弱。喉を使う；comment+:喉を使って、強弱をつける。甲音から乙音へ下がるとき、乙音が、ボリュームが、比較して、大きく、いわば、吹き上がる。のを、抑えられる / follow+
 
@@ -1630,7 +1630,8 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.50 / w=精神運動発達遅滞；,topic=~,publisher=~,other=list+:疾患：特徴；list+:支援学級：対象児童
+:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.58 / w=；,topic=~,publisher=~,other=list+:「注意する」；memo+:ワーキングメモリー
+疾患：特徴；list+:支援学級：対象児童
 memo+:ヘモグロビン（ヘム部）；
 
 :m 1*1 RES / JVEMV6 64#267_akushitu / 『悪質商法のすごい手口』 著者=国民生活センター、監修,校注=~ / p.43 / w=~,topic=点検商法,publisher=~,other=~
@@ -1688,7 +1689,7 @@ memo+:ヘモグロビン（ヘム部）；
 //map+:
 //memo+:
 
-:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.208 / w=,topic=,publisher=~,other=memo+:発泡スチロール：スチレン樹脂：スチレン：ポリスチレン；memo+:ブタン
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.210 / w=イソフムレン,topic=,publisher=~,other=memo+:フムレン；memo+:イソプロペン；
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
@@ -2292,6 +2293,8 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録しておきたいもの
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=自宅：２階、北東側、窓に付けてある目隠し：寸法、採る, location:target=~ / subject=~ / content=~,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=洗面所, location:target=自宅：一筋敷地、北東隅：：破片らしきもの：雨戸代はりの、トタン板：２階、北東の窓に付けてあるもの / subject=~ / content=昨晩の、暴風雨：板が取れたらしい,other=~
 
