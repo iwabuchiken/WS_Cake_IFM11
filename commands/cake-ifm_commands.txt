@@ -1038,6 +1038,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=なぜ、良いものを壊してしまうんだろうね。「瞑想舞」,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=脳の働きについて / content=初めに、頭に入れる；頭に入ったら、入ったものを使って、さらに意味を見出す。ものを読む際も、同じか。遠い同士のニューロン。近い同士。,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=俺は何処へも行ける。一人で。神様が、共に居て下さる,id=~,other=~ / lang=ja
@@ -1079,7 +1081,9 @@ mysl
 ###2023年4月17日22:04:32
 ============================== memo : 文書：いろいろ
 
-:PHOTO 記録 / 文書　/ occasion=~ / for=~ / doc=~
+:PHOTO 記録 / 文書　/ occasion=~ / content=~ / for=~ / doc=~
+
+:PHOTO 記録 / 文書　/ occasion=~ / content=ウクレレ：上２弦：どのコードに当たるか / for=~ / doc=~
 
 :PHOTO 記録 / 文書　/ occasion=~ / for=令和４：３月；同：１１月 / doc=年金掛金：納付：受託証書
 
@@ -1141,7 +1145,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+	
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=5 / genre=melody,for=good-sound:otsu-1,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+	
 use:dai-kan / follow+
 tech:音の強弱。喉を使う；comment+:喉を使って、強弱をつける。甲音から乙音へ下がるとき、乙音が、ボリュームが、比較して、大きく、いわば、吹き上がる。のを、抑えられる / follow+
 
@@ -1309,7 +1313,7 @@ regex :
 :VIDEO / @自室 / 記録 / guitar / 演奏、play / f-2021-061X-X / XX
 
 //basic
-:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=2 / genr=melody:arpeggio,key=D,tuning=1:5-2:4-3:3f-4;1-5:L5,Re~,capo=2,file-piece-id=2022-10-23_00-44-12_000.mp4
+:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=1 / genr=melody:arpeggio,key=~,tuning=~,Re~,capo=~,file-piece-id=~
 ,memo=~,session=hour-14,other=~
 
 :VIDEO / @自室 / 記録 / guitar / 演奏、play / key=D,R=~,genr=~,type=code-progre,other=tune:hira,memo+
@@ -1569,11 +1573,15 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XX / w=~,topic=~,publisher=~,other=~
 
+:m 2*2 RES / JVEMV6 64#293_nihonkyooto_yamamoto / 『日本教徒』 著者=山本七平,校注=~ / p.XX / w=~,topic=~,publisher=~,other=list+:ハビヤン、棄教～キリシタン、禁令
+
+
 :m #*# RES / JVEMV6 64#289_god_brain_torrey / 『神は、脳がつくった』 著者=E.フラー・トリー,校注=~ / p.ⅷ / w=~,topic=~,publisher=~,other=~
 
 :m 2*2 RES / JVEMV6 64#292_hoosha / 『放射光が解き明かす驚異のナノ世界』 著者=日本放射光学会、編,校注=~ / p.15 / w=~,topic=~,publisher=~,other=memo+:輝度：数式
 
-:m 1*1 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.9 / w=,topic=,publisher=~,other=memo+:ニクロム線；list+:比較：鉄、ニクロム、銅；memo+:圧電素子：着火
+:m 1*1 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.16 / w=,topic=,publisher=~,other=memo+:ひまし油；memo+:リノール酸
+list+:比較：鉄、ニクロム、銅；memo+:圧電素子：着火
 memo+:
 
 :m #*# RES / JVEMV6 64#290_shokunihon_1 / 『新　日本古典文学大系　１２　続日本紀　一』 著者=~,校注=青木和夫、他 / p.3 / w=~,topic=文武天皇,publisher=~,other=~
@@ -1642,7 +1650,7 @@ memo+:ヘモグロビン（ヘム部）；
 :m 1*1 RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.149;p.185 / w=大蔵経,topic=~,publisher=~,other=timetable+:ヒジュラの年；ムハンマドの、死去の年
 仏教：経典：各々、解説；memo+:コーラン：内容による分類：著者独自
 
-:m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.97 / w=蛟；虬,topic=「乾為天」：初九～九二,publisher=~,other=~
+:m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.100 / w=,topic=「乾為天」：九五、上九,publisher=~,other=memo+:九五；memo+:上九
 
 :m #*# RES / JVEMV6 64#242_quran / 『コーラン（上）』 著者=井筒俊彦,校注=~ / p.~ / w=~,topic=~,publisher=~,other=text:9-72;9-87;9-97
 
@@ -1689,7 +1697,8 @@ memo+:ヘモグロビン（ヘム部）；
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.210 / w=イソフムレン,topic=,publisher=~,other=memo+:フムレン；memo+:イソプロペン；
+:m 2*2 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.218 / w=,topic=,publisher=~,other=q+:open:q-id.GYPN(nowa);
+memo+:オレイン酸；memo+:リノール酸
 orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
 list+:各種クリーム；list+:活性剤：用途
 memo+:グロブリン
@@ -1836,6 +1845,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :tome / (lang=ja) / topic=~ / content=~,other=~
 
+:tome / (lang=ja) / topic=~ / content=俺は、日本教に生きよう。,other=~
+
 :tome / (lang=ja) / topic=~ / content=今試みていることで、食えるようになってから、かな。子供は。,other=~
 
 :tome / (lang=ja) / topic=~ / content=culture。自分で創ろう,other=~
@@ -1878,6 +1889,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=天文学 / content=木星と土星。両者、直列。土星の軌道は、より、小さくなるか？ / status=~ / id=~,genre=~,other=~,
 
 :m :? #*# / topic=~ / content=比重。構成粒子。お互いの距離。どう変化？その構造は？ / status=~ / id=~,genre=~,other=~,
 
@@ -2082,6 +2095,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== 年金；小遣い
 :m other / お母さんから　お金もらう / amount=６万６千円 / topic=年金保険料：支払い / total-amount=２ヶ月分：１万６千７００円ｘ２=６万６千円,for=令和５：２ー５月（４ヶ月分）
 
+//月々の小遣い		2023年6月5日19:16:29
+:m other / お母さんから　お金もらう / amount=合計：4万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円;貯金の分：１万円；合計、四万円。ただし、１万円は、すでに使用を始めた。,for=2022-08
+
 :m other / お母さんから　お金もらう / amount=3万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円,for=2022-07 || :m other / お母さんから　お金もらう / amount=3.3万円 / topic=年金：掛金 / total-amount=２ヶ月分,for=令和４－１２；５－１
 
 :m other / お母さんから　お金もらう / amount=3万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円,for=2022-06
@@ -2207,6 +2223,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『フランツ・ファノン著作集　Ⅰ　黒い皮膚・白い仮面』 / 著者=フランツ・ファノン / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『放射光が解き明かす驚異のナノ世界』 / 著者=日本放射光学会、編 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『俺たち訴えられました！　SLAPP裁判との闘い』 / 著者=烏賀陽弘道；西岡研介 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『日本人は本当に無宗教なのか』 / 著者=礫川全次[こいしかわぜんじ /
@@ -2252,6 +2272,8 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録：開始、終了
 //template
 :PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
+
+:PHOTO 記録 / location=台所 / topic=電池交換：ガスコンロ台 / for=~ / occasion=~,other=~
 
 :PHOTO 記録 / location=~ / topic=終了 / for=デンタルフロス / occasion=~,other=~
 
