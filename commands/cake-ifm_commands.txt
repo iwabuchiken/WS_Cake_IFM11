@@ -679,6 +679,7 @@ p.1: \\\ p.2: \\\ p.3: \\\ p.4:
 :for-practice
 :good-melody
 :good-melody:気持ちいい
+:good-melody:落ち着いた曲
 :lick
 :memo:alt-fingering:h-7+4+3>on~pitch=h-1`!
 :other=alt-fingering+
@@ -1038,6 +1039,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=洞察 / content=誤ちを見るに四あり。（人の誤ちを見つけた場合、の意。宮台氏、ビデオニュース、建築家がゲストの回。）,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=なぜ、良いものを壊してしまうんだろうね。「瞑想舞」,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=脳の働きについて / content=初めに、頭に入れる；頭に入ったら、入ったものを使って、さらに意味を見出す。ものを読む際も、同じか。遠い同士のニューロン。近い同士。,id=~,other=~ / lang=ja
@@ -1082,6 +1085,8 @@ mysl
 ============================== memo : 文書：いろいろ
 
 :PHOTO 記録 / 文書　/ occasion=~ / content=~ / for=~ / doc=~
+
+:PHOTO 記録 / 文書　/ occasion=~ / content=「N項目」。アラビア語で / for=~ / doc=~
 
 :PHOTO 記録 / 文書　/ occasion=~ / content=ウクレレ：上２弦：どのコードに当たるか / for=~ / doc=~
 
@@ -1145,7 +1150,9 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=sound:h-7~6~4~3:pitch-Aff;range-chuu-kan;sound:h-4:pitch-~;range-chuu-kan,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+	
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:落ち着いた曲,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:otsu-1 / follow++
+
+//for=sound:h-7~6~4~3:pitch-Aff;range-chuu-kan;sound:h-4:pitch-~;range-chuu-kan
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / genre=tech:trill,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+	
 
@@ -1576,7 +1583,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#, 64_
 //template
-:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XX / w=~,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.355 / w=~,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#294_shinchoo / 『改訂　信長公記』 著者=~,校注=桑田忠親 / p.21 / w=~,topic=~,publisher=~,other=~
 
