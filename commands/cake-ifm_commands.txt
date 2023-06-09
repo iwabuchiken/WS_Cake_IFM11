@@ -1150,7 +1150,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:落ち着いた曲,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:otsu-1 / follow++
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=kan-1,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:otsu-1 / follow+
 
 //for=sound:h-7~6~4~3:pitch-Aff;range-chuu-kan;sound:h-4:pitch-~;range-chuu-kan
 
@@ -1585,7 +1585,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.355 / w=~,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.356 / w=斯波義敏[よしとし；義就[よしなり,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#294_shinchoo / 『改訂　信長公記』 著者=~,校注=桑田忠親 / p.21 / w=~,topic=~,publisher=~,other=~
 
@@ -1596,7 +1596,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 2*2 RES / JVEMV6 64#292_hoosha / 『放射光が解き明かす驚異のナノ世界』 著者=日本放射光学会、編,校注=~ / p.15 / w=~,topic=~,publisher=~,other=memo+:輝度：数式
 
-:m 1*1 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.16 / w=,topic=,publisher=~,other=memo+:ひまし油；memo+:リノール酸
+:m 1-2*3 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.27 / w=,topic=摩擦角：計算,publisher=~,other=~
+memo+:ひまし油；memo+:リノール酸
 list+:比較：鉄、ニクロム、銅；memo+:圧電素子：着火
 memo+:
 
@@ -1654,7 +1655,8 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.58 / w=；,topic=~,publisher=~,other=list+:「注意する」；memo+:ワーキングメモリー
+:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.63 / w=；,topic=~,publisher=~,other=timeline+:診断基準：DSM；memo+:ドリコール；memo+:糖タンパク
+list+:「注意する」；memo+:ワーキングメモリー
 疾患：特徴；list+:支援学級：対象児童
 memo+:ヘモグロビン（ヘム部）；
 
@@ -1861,6 +1863,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //template
 :tome / (lang=ja) / topic=~ / content=~,other=~
+
+:tome / (lang=ja) / topic=~ / content=過ちては、為之辞を為さず,other=~
 
 :tome / (lang=ja) / topic=~ / content=俺は、日本教に生きよう。,other=~
 
@@ -2331,9 +2335,11 @@ G:\photo-books_HD\list-of-books.txt
 
 
 ###2022年5月21日9:24:04
-========================== 記録しておきたいもの
+========================== 記録しておきたいもの, record_misc_
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=扇風機 / subject=扇風機を出した / content=~,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=自宅：２階、北東側、窓に付けてある目隠し：寸法、採る, location:target=~ / subject=~ / content=~,other=~
 
@@ -2515,7 +2521,7 @@ G:\photo-books_HD\list-of-books.txt
 
 
 ###2022年10月19日9:46:41
-====================== :PHOTO 記録:misc, record_misc
+====================== :PHOTO 記録:misc, record_misc_
 //template
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
 
