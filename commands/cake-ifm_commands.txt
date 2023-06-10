@@ -920,6 +920,10 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,memo~,found~,id=~,occasion=~,other=~
 
+:m dessin,sketch / des. object=キセルと、これを手に持つ人 / genre=~,source=なし：空想で描いた。,location=~,memo~,found~,id=E5WD,occasion=~,other=~
+
+:m dessin,sketch / des. object=キセル：本体；手：人間：キセルを持つ / genre=~,source=ウェブからの画像,location=~,memo~,found~,id=M0D3[えむ・ぜろ・でぃー・さん,occasion=~,other=~
+
 :m dessin,sketch / des. object=花： / genre=~,source=~,location=自宅：東側の犬走地面[いぬばしりじめん,memo~,found~,id=I866,occasion=~,other=~
 
 :m dessin,sketch / des. object=シロツメクサ：花 / genre=~,source=~,location=~,memo~,found~,id=73PH,occasion=~,other=~
@@ -1596,7 +1600,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 2*2 RES / JVEMV6 64#292_hoosha / 『放射光が解き明かす驚異のナノ世界』 著者=日本放射光学会、編,校注=~ / p.15 / w=~,topic=~,publisher=~,other=memo+:輝度：数式
 
-:m 1-2*3 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.27 / w=,topic=摩擦角：計算,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.36 / w=,topic=,publisher=~,other=calc+:慣性抵抗：自由落下：平衡速度
 memo+:ひまし油；memo+:リノール酸
 list+:比較：鉄、ニクロム、銅；memo+:圧電素子：着火
 memo+:
@@ -1655,7 +1659,8 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.63 / w=；,topic=~,publisher=~,other=timeline+:診断基準：DSM；memo+:ドリコール；memo+:糖タンパク
+:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.75 / w=；,topic=~,publisher=~,other=memo+:メチルフェニデート；list+:エステル、カルボン酸、ギ酸、他。化学式、対照
+timeline+:診断基準：DSM；memo+:ドリコール；memo+:糖タンパク
 list+:「注意する」；memo+:ワーキングメモリー
 疾患：特徴；list+:支援学級：対象児童
 memo+:ヘモグロビン（ヘム部）；
