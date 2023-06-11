@@ -920,6 +920,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,memo~,found~,id=~,occasion=~,other=~
 
+:m dessin,sketch / des. object=烏帽子；水干様の衣服：上半身 / genre=~,source=~,location=~,memo~,found~,id=RH1L,occasion=~,other=~
+
 :m dessin,sketch / des. object=キセルと、これを手に持つ人 / genre=~,source=なし：空想で描いた。,location=~,memo~,found~,id=E5WD,occasion=~,other=~
 
 :m dessin,sketch / des. object=キセル：本体；手：人間：キセルを持つ / genre=~,source=ウェブからの画像,location=~,memo~,found~,id=M0D3[えむ・ぜろ・でぃー・さん,occasion=~,other=~
@@ -1154,7 +1156,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=kan-1,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:otsu-1 / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 //for=sound:h-7~6~4~3:pitch-Aff;range-chuu-kan;sound:h-4:pitch-~;range-chuu-kan
 
@@ -1600,7 +1602,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 2*2 RES / JVEMV6 64#292_hoosha / 『放射光が解き明かす驚異のナノ世界』 著者=日本放射光学会、編,校注=~ / p.15 / w=~,topic=~,publisher=~,other=memo+:輝度：数式
 
-:m 1*1 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.36 / w=,topic=,publisher=~,other=calc+:慣性抵抗：自由落下：平衡速度
+:m 1*1 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.43 / w=牽引力；荷重,topic=,publisher=~,other=~
 memo+:ひまし油；memo+:リノール酸
 list+:比較：鉄、ニクロム、銅；memo+:圧電素子：着火
 memo+:
@@ -2343,6 +2345,8 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録しておきたいもの, record_misc_
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=ヒーター / subject=ヒーター：しまう / content=~,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=自室, location:target=扇風機 / subject=扇風機を出した / content=~,other=~
 
