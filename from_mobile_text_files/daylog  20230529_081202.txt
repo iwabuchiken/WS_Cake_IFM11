@@ -1,0 +1,67 @@
+###
+
+　　] bk osaka
+　　20230529_172802
+
+  　　out library 
+　　20230529_153621
+
+####
+    
+   　食事食べ、記事読み
+    20230529_145310
+
+#	Label	Interval	Total	Time Recorded
+2	Pause	---	---	Mon, 29 May 2023, 13:49:11.730
+1	Split	00:00:03.672	00:00:03.672	Mon, 29 May 2023, 13:49:11.730
+	Start	---	---	Mon, 29 May 2023, 13:49:08.058
+
+食事用意
+
+
+#	Label	Interval	Total	Time Recorded
+2	Pause	---	---	Mon, 29 May 2023, 13:18:57.599
+1	Split	00:00:19.502	00:00:19.502	Mon, 29 May 2023, 13:18:57.599
+	Start	---	---	Mon, 29 May 2023, 13:18:38.097
+
+#	Label	Interval	Total	Time Recorded
+2	Pause	---	---	Mon, 29 May 2023, 13:17:56.110
+1	Split	00:39:38.230	00:39:38.230	Mon, 29 May 2023, 13:17:56.110
+	Start	---	---	Mon, 29 May 2023, 12:38:17.880
+
+bk torrey
+
+#	Label	Interval	Total	Time Recorded
+3	Pause	---	---	Mon, 29 May 2023, 12:37:37.034
+2	Split	00:44:13.581	00:44:43.096	Mon, 29 May 2023, 12:37:37.034
+1	Split	00:00:29.515	00:00:29.515	Mon, 29 May 2023, 11:53:23.453
+	Start	---	---	Mon, 29 May 2023, 11:52:53.938
+
+メール、お兄さんへ
+
+
+#	Label	Interval	Total	Time Recorded
+1	Split	00:00:29.515	00:00:29.515	Mon, 29 May 2023, 11:53:23.453
+	Start	---	---	Mon, 29 May 2023, 11:52:53.938
+
+仮眠　40#1?
+####
+#	Label	Interval	Total	Time Recorded
+1	Split	00:18:06.225	00:18:06.225	Mon, 29 May 2023, 09:42:25.846
+	Start	---	---	Mon, 29 May 2023, 09:24:19.621
+bk jinsai 
+####
+#	Label	Interval	Total	Time Recorded
+	Start	---	---	Mon, 29 May 2023, 08:12:40.018
+1	Split	00:43:25.649	00:43:25.649	Mon, 29 May 2023, 08:56:05.667
+2	Pause	---	---	Mon, 29 May 2023, 08:56:05.667
+bk rongo 
+########
+#	Label	Interval	Total	Time Recorded
+3	Split	00:05:37.588	00:16:43.760	Mon, 29 May 2023, 09:18:34.705
+2	Split	00:11:03.476	00:11:06.172	Mon, 29 May 2023, 09:12:57.117
+1	Split	00:00:02.696	00:00:02.696	Mon, 29 May 2023, 09:01:53.641
+	Start	---	---	Mon, 29 May 2023, 09:01:50.945
+
+bk mooshi 
+
