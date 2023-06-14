@@ -1203,6 +1203,33 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 record,for=~,other=~
 memo-taking,for=~,other=~
 
+======== memo : jap.flute, video:shinobue:video,shino:video,video_shi
+
+regex : ]]
+//[a-z]+=~,
+[a-z\-]+=~,
+	 (<= this : 2021年11月15日10:00:59)]]
+//~\r\n	,
+//	(2022年8月9日9:51:22)
+	
+//:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
+
+//template : basic
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
+
+aaa
+======== memo : uklele.okaasn, video_uklele
+
+regex : ]]
+//[a-z]+=~,
+[a-z\-]+=~,
+	 (<= this : 2021年11月15日10:00:59)]]
+
+//template : basic
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=practice,for=~,file-piece-id=~,memo=~,session=2023-06-14_15-37-19_000.mp4,recording-id=~,other=~ / follow~
+
 ###2022年11月17日10:24:54
 ======== video : video:dance,video_dance
 
@@ -1591,7 +1618,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#297_ninchi_katoo / 『認知症になるとなぜ「不可解な行動」をとるのか』 著者=加藤伸司,校注=~ / p.188 / w=居宅サービス,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#297_ninchi_katoo / 『認知症になるとなぜ「不可解な行動」をとるのか』 著者=加藤伸司,校注=~ / p.27 / w=病識；作話；周辺症状；感情失禁；,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.356 / w=斯波義敏[よしとし；義就[よしなり,topic=~,publisher=~,other=~
 
@@ -2260,6 +2287,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『神は、脳がつくった』 / 著者=E.フラー・トリー / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『認知症になるとなぜ「不可解な行動」をとるのか』 / 著者=加藤伸司 /
 
 :bookmemo / 読んだ本 / 『微粒子から探る物性七変化』 / 著者=前野昌弘 / 
 
@@ -3452,6 +3483,8 @@ _des
 --------------------
 
 P7GO
+
+video_uklele
 経過記録用途	]]
 video_shi	]]
 tome_	]]
