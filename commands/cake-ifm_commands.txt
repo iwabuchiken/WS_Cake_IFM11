@@ -1217,7 +1217,8 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-aaa
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=h-1,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
+
 ======== memo : uklele.okaasn, video_uklele
 
 regex : ]]
@@ -1618,6 +1619,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#298_zairyoo_kenkyuukai / 『材料化学の最前線』 著者=東京都立大学工業化学科分子応用化学研究会,校注=~ / p.124 / w=~,topic=~,publisher=~,other=ske+:sk-id.YYQF:風鈴；ske+:sk-id.KI8U:ガラス職人；memo+:石英ガラス
+
 :m #*# RES / JVEMV6 64#297_ninchi_katoo / 『認知症になるとなぜ「不可解な行動」をとるのか』 著者=加藤伸司,校注=~ / p.27 / w=病識；作話；周辺症状；感情失禁；,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.356 / w=斯波義敏[よしとし；義就[よしなり,topic=~,publisher=~,other=~
@@ -1692,8 +1695,9 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.75 / w=；,topic=~,publisher=~,other=memo+:メチルフェニデート；list+:エステル、カルボン酸、ギ酸、他。化学式、対照
-timeline+:診断基準：DSM；memo+:ドリコール；memo+:糖タンパク
+:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.84 / w=；,topic=有病率,publisher=~,other=memo+:結節性硬化症
+//memo+:メチルフェニデート；list+:エステル、カルボン酸、ギ酸、他。化学式、対照
+//timeline+:診断基準：DSM；memo+:ドリコール；memo+:糖タンパク
 list+:「注意する」；memo+:ワーキングメモリー
 疾患：特徴；list+:支援学級：対象児童
 memo+:ヘモグロビン（ヘム部）；
@@ -1951,6 +1955,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? 1*2 / topic=風鈴：べろ紐：長さ / content=~ / status=~ / id=OF6P[オー],genre=math,other=~,
 
 :m :? #*# / topic=~ / content=道が濡れている：信号機の光。縦の条[すじ]となって見える / status=~ / id=G1OC[オー],genre=物理,other=~,
 
@@ -2625,6 +2631,8 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
 
 //2023年4月23日17:40:19
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン（１）：１０（単位：スプーン）；ニンニク（２）：１２；生姜（１）：８；生姜（２）：５；梅（小梅）：１０；大葉：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
+
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン（１）：１０（単位：スプーン）；ニンニク（１）：１５；生姜（１）：１５；スペアミント：１０；ローズマリー：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-23_01-32-04_000.jpg
 
 
@@ -2930,6 +2938,8 @@ zionists
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
 
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=087R~yan~ei~DT / theme=ガザ：子供達：トラウマ,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=LQZP~yan~huanqiu~NT / theme=中国；牧畜業；科学技術,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=UEXH~yan~ya-中央日報~DT / theme=韓国；技術：持ち出し：中国,content=~,w=~ / genre=~ / other=~
@@ -3198,6 +3208,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 //template
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
+
+###2023年6月15日19:15:34
+#DELETE FROM ifm11 WHERE _id <= 61875;
 
 ###2023年5月20日18:00:26
 #DELETE FROM ifm11 WHERE _id <= 61514;
