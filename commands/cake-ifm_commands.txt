@@ -2,6 +2,8 @@ rem /==============================
 rem 	command list
 rem 	
 rem 	2021年1月17日12:15:35
+rem 	
+rem 	this file	: C:\WORKS_2\WS\WS_Cake_IFM11\commands\cake-ifm_commands.txt
 rem ==============================/
 
 // shortcuts
@@ -652,7 +654,8 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=~,tempo=~,file-id=~,for=write-out:VID_20230609_183533
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=~,tempo=~,file-id=~,for=write-out:loc=0.13~,other=video-id.VID_20230609_183533 \\\ p.1-<2>:genre=melody:add,key=~,session=hour-18,R=3,tempo=~,other=video-id.VID_20230609_183533
+//for=write-out:VID_20230609_183533
  \\\  p.1-<2>:genre=melody,key=~,session=hour-18,R=3,tempo=~
 
 
@@ -1619,7 +1622,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#298_zairyoo_kenkyuukai / 『材料化学の最前線』 著者=東京都立大学工業化学科分子応用化学研究会,校注=~ / p.124 / w=~,topic=~,publisher=~,other=ske+:sk-id.YYQF:風鈴；ske+:sk-id.KI8U:ガラス職人；memo+:石英ガラス
+:m #*# RES / JVEMV6 64#298_zairyoo_kenkyuukai / 『材料化学の最前線』 著者=東京都立大学工業化学科分子応用化学研究会,校注=~ / p.128 / w=ゾル－ゲル法,topic=~,publisher=~,other=memo+:アルコキシド；
+//ske+:sk-id.YYQF:風鈴；ske+:sk-id.KI8U:ガラス職人；memo+:石英ガラス
 
 :m #*# RES / JVEMV6 64#297_ninchi_katoo / 『認知症になるとなぜ「不可解な行動」をとるのか』 著者=加藤伸司,校注=~ / p.27 / w=病識；作話；周辺症状；感情失禁；,topic=~,publisher=~,other=~
 
@@ -1635,7 +1639,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 2*2 RES / JVEMV6 64#292_hoosha / 『放射光が解き明かす驚異のナノ世界』 著者=日本放射光学会、編,校注=~ / p.15 / w=~,topic=~,publisher=~,other=memo+:輝度：数式
 
-:m 1*1 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.62 / w=；,topic=,publisher=~,other=ske+:sk-id.LQM2:転がり軸受；ske+:sk-id.3GTL:風車；ske+:sk-id.XX62:滑り軸受
+:m 1*1 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.75 / w=；,topic=,publisher=~,other=ske+:sk-id.T62A:圧延機；list+:種々の対象。寸法。一覧
 //list+:気体分子。沸点、融点：sheet+
 //memo+:ひまし油；memo+:リノール酸
 //list+:比較：鉄、ニクロム、銅；memo+:圧電素子：着火
@@ -2141,6 +2145,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
 
+:m #*# / memo:other(m:other) / topic=神学メモ, about=~,content=コンゴの奥地の、電気も知らぬ者たち。人なりや。,other=~,id=~ 
+
 //quote / 2023年4月29日17:36:34
 :m #*# / memo:other(m:other) / topic=quote:孟子, about=~,content=夫の成功の若きは則ち天なり。,other=~,id=~ 
 
@@ -2293,6 +2299,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『摩擦の科学』 / 著者=河野彰夫 /
 
 :bookmemo / 読んだ本 / 『神は、脳がつくった』 / 著者=E.フラー・トリー / 途中 ここまで
 

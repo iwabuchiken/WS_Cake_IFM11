@@ -2,6 +2,8 @@ rem /==============================
 rem 	command list
 rem 	
 rem 	2021年1月17日12:15:35
+rem 	
+rem 	this file	: C:\WORKS_2\WS\WS_Cake_IFM11\commands\cake-ifm_commands.txt
 rem ==============================/
 
 // shortcuts
@@ -652,8 +654,9 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,session=hour-18,R=1,tempo=~
-
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=~,tempo=~,file-id=~,for=write-out:loc=0.13~,other=video-id.VID_20230609_183533 \\\ p.1-<2>:genre=melody:add,key=~,session=hour-18,R=3,tempo=~,other=video-id.VID_20230609_183533
+//for=write-out:VID_20230609_183533
+ \\\  p.1-<2>:genre=melody,key=~,session=hour-18,R=3,tempo=~
 
 
 //edit : dodatek
@@ -673,15 +676,22 @@ p.1: \\\ p.2: \\\ p.3: \\\ p.4:
 //--------- memo phrases, melody_types
 //--------- regex
 :add:10-04~page-2
+:atom
 :continue-from:page-1
 :explanation+
 :for-practice
+:good-melody
+:good-melody:気持ちいい
+:good-melody:落ち着いた曲
+:lick
 :memo:alt-fingering:h-7+4+3>on~pitch=h-1`!
 :other=alt-fingering+
+:review
 :tips:how-to-blow:oct-1_h-1
 :use:alt-fingering
 :variation:2022-11-14~p-1
 :western-like
+:作品っぽく
 
 //--------- 'for' comments / 2022年12月2日10:06:48
 octave-jump
@@ -693,6 +703,8 @@ octave-jump
 	melody:xunlian
 	mumarasa	(연습곡) ممارسة 
 	prac
+	melody:悲哀調
+	
 	// ozdobnik / 꾸밈음
 	prac:auxilliary
 	res
@@ -708,6 +720,7 @@ octave-jump
 :maneuver-notes
 :movement:koo~otsu
 :movement:wide-range
+:nihon-folklore-like
 :notes-up-down
 :octave-jump
 :ohayashi
@@ -722,6 +735,7 @@ octave-jump
 i.f.:		(inspired from / вдохновлена / 영감)
 use-notes:h-X
 tips:XXX
+motive:
 
 //--- prac:auxilliary
 finger-hit:N-notes
@@ -909,6 +923,16 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //template
 :m dessin,sketch / des. object=~ / genre=~,source=~,location=~,memo~,found~,id=~,occasion=~,other=~
 
+:m dessin,sketch / des. object=烏帽子；水干様の衣服：上半身 / genre=~,source=~,location=~,memo~,found~,id=RH1L,occasion=~,other=~
+
+:m dessin,sketch / des. object=キセルと、これを手に持つ人 / genre=~,source=なし：空想で描いた。,location=~,memo~,found~,id=E5WD,occasion=~,other=~
+
+:m dessin,sketch / des. object=キセル：本体；手：人間：キセルを持つ / genre=~,source=ウェブからの画像,location=~,memo~,found~,id=M0D3[えむ・ぜろ・でぃー・さん,occasion=~,other=~
+
+:m dessin,sketch / des. object=花： / genre=~,source=~,location=自宅：東側の犬走地面[いぬばしりじめん,memo~,found~,id=I866,occasion=~,other=~
+
+:m dessin,sketch / des. object=シロツメクサ：花 / genre=~,source=~,location=~,memo~,found~,id=73PH,occasion=~,other=~
+
 :m dessin,sketch / des. object=鶴 / genre=動物：鳥,source=~,location=~,memo~,found~,id=Y4JF,occasion=~,other=file+
 
 :m dessin,sketch / des. object=コテ（鏝） / genre=~,source=~,location=~,other=~,memo~,found~,id=000V,occasion=~
@@ -945,6 +969,30 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+:m :haja,lets / action activity / やること / genre=~ / content=論語の閲読。絵も描き乍,other=~
+
+:m :haja,lets / action activity / やること / genre=~ / content=論語、孟子における、「天」の意味。知りたい。仁斎：「童子問　中」p.139,other=~
+
+:m :haja,lets / action activity / やること / genre=~ / content=musescoreで、笛と和太鼓。合奏。試そう,other=~
+
+:m :haja,lets / action activity / やること / genre=~ / content=易に従おう,other=~
+
+:m :haja,lets / action activity / やること / genre=~ / content=始めよう。AI、ロボット,other=~
+
+:m :haja,lets / action activity / やること / genre=~ / content=今、笛で曲を作っているやり方で、科学分野での取り組み、進めよう；この世の中と、直接に、話し合っている,other=~
+
+:m :haja,lets / action activity / やること / genre=~ / content=脳の筋トレ,other=~
+
+:m :haja,lets / action activity / やること / genre=math / content=関氏の和算。現代の数学に移して、進めてみよう,other=~
+
+:m :haja,lets / action activity / やること / genre=~ / content=孫子。発明の活動に、使おう,other=~
+
+:m :haja,lets / action activity / やること / genre=~ / content=「葬送のための曲」　=>　作ろう,other=否。そんなものに、費やすな。
+
+:m :haja,lets / action activity / やること / genre=inne / content=毎月、朔日。お供えを改める,other=~
+
+:m :haja,lets / action activity / やること / genre=物理学：計算 / content=器の回転：中の液体：縁の部分：盛り上がる高さ,other=~
+
 :m :haja,lets / action activity / やること / genre=音楽：プログラミング / content=wavファイル：音、作ろう,other=~
 
 :m :haja,lets / action activity / やること / genre=物理学；天文学 / content=人工衛星の力学：講義ノート：実際に、計算、やってみる,other=~
@@ -964,6 +1012,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 学びについて
 音楽、楽器
 economy
+物理学：計算
+inne
 
 
 
@@ -998,46 +1048,31 @@ economy
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=洞察 / content=誤ちを見るに四あり。（人の誤ちを見つけた場合、の意。宮台氏、ビデオニュース、建築家がゲストの回。）,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=なぜ、良いものを壊してしまうんだろうね。「瞑想舞」,id=~,other=~ / lang=ja
 
-:m :th,mysl / topic=物理：波：複素空間：重ね合わせ / content=~,id=~,other=~ / lang=ja
+:m :th,mysl / topic=脳の働きについて / content=初めに、頭に入れる；頭に入ったら、入ったものを使って、さらに意味を見出す。ものを読む際も、同じか。遠い同士のニューロン。近い同士。,id=~,other=~ / lang=ja
 
-:m :th,mysl / topic=~ / content=そのやり方で、もれなく、皆が安堵するか；是非の判断基準。,id=~,other=~ / lang=ja
+:m :th,mysl / topic=~ / content=俺は何処へも行ける。一人で。神様が、共に居て下さる,id=~,other=~ / lang=ja
 
-:m :th,mysl / topic=~ / content=畑で採った、原品種の（F1ではない）、もぎたての、熟れたトマト；そんなトマト、あふれさせよう。,id=~,other=~ / lang=ja
+:m :th,mysl / topic=~ / content=『宇治拾遺物語』、等々。こんな面白い読み物。知らない。もったいない。,id=~,other=~ / lang=ja
 
-//2023年4月7日22:29:08
-:m :th,mysl / topic=~ / content=人間に関しては、先ず、実存を手当て。セックスだのは、おまけ。,id=~,other=~ / lang=ja
+:m :th,mysl / topic=~ / content=「七代先のことを考える」。只に、自然環境についてのみならず、生き方についても。,id=~,other=~ / lang=ja
 
-:m :th,mysl / topic=~ / content=「上[かみ]仁に由れば、民は義に興る」,id=~,other=~ / lang=ja
+:m :th,mysl / topic=~ / content=論孟、宗旨の一つ。「現代」という篩いを通るもののみ。仁斎の、四体についての言。容れる余地、無し。,id=~,other=~ / lang=ja
 
-:m :th,mysl / topic=~ / content=駄目だ。胸をはだけた姿。中にある曲が、輝いている。あられもない姿が、ぼやける。,id=~,other=~ / lang=ja
+:m :th,mysl / topic=~ / content=神と信仰とについて、コーラン。世俗性を尋ぬるに、仁斎。心を陶冶するに、宇治拾遺と、笛。実用には、化学とロボット工学。力行すべし,id=~,other=~ / lang=ja
 
-:m :th,mysl / topic=~ / content=津軽じょんがらも良いけれど：奏者の心が震えて、ために、響く音,id=~,other=~ / lang=ja
+:m :th,mysl / topic=~ / content=裸の女の人も結構だが、その人は何が得意だろう？を探る方が、よほど、没頭できる,id=~,other=~ / lang=ja
 
-:m :th,mysl / topic=~ / content=自分の宗教が唯一正しい。驕り。その神が、人々に何をしているか。,id=~,other=~ / lang=ja
+:m :th,mysl / topic=~ / content=聴く音楽によって、脳が変化する：＜＝＝そうか？,id=~,other=~ / lang=ja
 
-:m :th,mysl / topic=~ / content=「バカ」という形容詞。「りこうバカ」、名付ける。,id=~,other=~ / lang=ja
+:m :th,mysl / topic=~ / content=真実を知ると、オナニーの誘惑に、反応しなくなる；真実とは：コーラン、易、物理、化学,id=~,other=~ / lang=ja
 
-:m :th,mysl / topic=~ / content=仁斎を耽読し、論孟を熟読する。物理・化学も同じ,id=~,other=~ / lang=ja
+:m :th,mysl / topic=~ / content=鷺沼教会を抜けて、青い目の神父を担ぎ：神以外の何物かを崇めている；反求,id=~,other=~ / lang=ja
 
-:m :th,mysl / topic=~ / content=欲しいもの。「西洋」が入ってくる前の、日本の音楽。聞きたい,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=仁斎：情と欲を無にするのではなく。「礼」と「義」の内容を、詳らかにするの要、出来たらん。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=「寡欲」と、「稼ぎが少ない」は、同じではない；物事の判断基準：「寡欲」に近いのは、どちらか？,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=人が本当に欲しているもの：そんな曲を奏でたい,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=日本人の宗教について / content=高邁な観念はないかも知れないが,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=『化学なんでも質問』。文章の形式は、親子の対話。尋ねるのは、子供。答えるのは、親。そういう世界を、俺は、抜ける。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=孔子は、「学」に志した。「仁」に、ではなく,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=「ナルシズムに繋がれた個人主義」。宮台たち。,id=~,other=~ / lang=ja
-
-:m :th,mysl / topic=~ / content=人に貴賎を付けるもの。一切を、拒否する。,id=2YOU,other=~ / lang=ja || :m :th,mysl / topic=~ / content=「神儒伊」、習合,id=HB24,other=メモの続き / lang=ja
+:m :th,mysl / topic=~ / content=「理を究め性を盡くして、以て命に至る」（「易経」説卦伝；「童子問　中」140p）ーー＞物理・化学の探求：適用しよう,id=~,other=~ / lang=ja
 
 //th_topics
 mysl
@@ -1053,6 +1088,24 @@ mysl
 :m 災害備蓄 / 入れたもの / item=①消石灰（10kg） / other=~ / volume=~ / id=~ / 保管場所=物置
 
 :m 災害備蓄 / 梱包完了＋リスト / 2022-1030-① / items=レトルト：中華丼-3；カレー-4；親子丼-3,other=期限：202301
+
+
+###2023年4月17日22:04:32
+============================== memo : 文書：いろいろ
+
+:PHOTO 記録 / 文書　/ occasion=~ / content=~ / for=~ / doc=~
+
+:PHOTO 記録 / 文書　/ occasion=~ / content=「N項目」。アラビア語で / for=~ / doc=~
+
+:PHOTO 記録 / 文書　/ occasion=~ / content=ウクレレ：上２弦：どのコードに当たるか / for=~ / doc=~
+
+:PHOTO 記録 / 文書　/ occasion=~ / for=令和４：３月；同：１１月 / doc=年金掛金：納付：受託証書
+
+
+:PHOTO 記録 / 文書　/ occasion=~ / for=キャン・ドゥ：電子レンジ用の、野菜蒸し用の、容器 / doc=取扱説明書
+
+:PHOTO 記録 / 文書　/ occasion=購入：キャン・ドゥ / for=紙切り / doc=取扱説明書
+
 
 ###2022年12月22日11:49:06
 ============================== memo : 文書：手順
@@ -1088,6 +1141,9 @@ prac,for=~,ReX,tempo=~,other=~,key=~,notes=~
 rev,for=~,ReX,tempo=~,other=~,key=~
 genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~,type=~,feel=~
 
+
+
+
 ###2021年6月13日9:11:14
 ======== memo : jap.flute, video:shinobue:video,shino:video,video_shi
 
@@ -1103,7 +1159,20 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,session=hour-18,memo=~,file-piece-id=~,memo=~,other=~ /
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+
+//for=sound:h-7~6~4~3:pitch-Aff;range-chuu-kan;sound:h-4:pitch-~;range-chuu-kan
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=4 / genre=tech:trill,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+	
+
+//tech	2023年6月7日17:56:36
+use:dai-kan / follow+
+tech:音の強弱。喉を使う；comment+:喉を使って、強弱をつける。甲音から乙音へ下がるとき、乙音が、ボリュームが、比較して、大きく、いわば、吹き上がる。のを、抑えられる / follow+
+tech:trill
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:sabi,session=hour-18,memo=+,file-piece-id=2023-05-11_18-42-14_000.mp4,memo=~,other=~ / follow+
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:review,session=hour-18,memo=~,file-piece-id=2023-05-11_18-42-14.jpg,other= / follow+
 // follow+
 //continuie-from:2023-02-25_18-41-36_000.mp4
 
@@ -1117,7 +1186,7 @@ regex : ]]
 //--- phrases
 	//other
 	continue-from:R-1
-	
+	melody:impro
 	
 	
 
@@ -1137,6 +1206,34 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 record,for=~,other=~
 memo-taking,for=~,other=~
 
+======== memo : jap.flute, video:shinobue:video,shino:video,video_shi
+
+regex : ]]
+//[a-z]+=~,
+[a-z\-]+=~,
+	 (<= this : 2021年11月15日10:00:59)]]
+//~\r\n	,
+//	(2022年8月9日9:51:22)
+	
+//:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / f-2021-061X-X / XX
+
+//template : basic
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=h-1,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
+
+======== memo : uklele.okaasn, video_uklele
+
+regex : ]]
+//[a-z]+=~,
+[a-z\-]+=~,
+	 (<= this : 2021年11月15日10:00:59)]]
+
+//template : basic
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=practice,for=~,file-piece-id=~,memo=~,session=2023-06-14_15-37-19_000.mp4,recording-id=~,other=~ / follow~
+
 ###2022年11月17日10:24:54
 ======== video : video:dance,video_dance
 
@@ -1152,6 +1249,10 @@ memo-taking,for=~,other=~
 
 ###2022年1月30日0:49:00
 ==================== video : other
+//template
+:VIDEO:other / @自室 / 記録 / content=~,for=~,other=~
+:VIDEO:other / @自室 / 記録 / content=謡い,for=~,other=[etaba Ё]の動画を見ていて、謡いたくなった。メロディは、その場で、謡いながら、自作。
+
 :VIDEO:other / @自室 / 記録 / content=一人漫才：練習,for=「兎（うさぎ）おいしい」
 
 ###2023年3月23日17:59:07
@@ -1183,6 +1284,9 @@ regex : ]]
 
 //template
 :m / 1*1 / percussion,rythm / session-memo / p.1:content=~,key=~,for=~,from=~,R=~,item=~,hitter=~,pieces=~,genr=pattern-atom,other=~,memo~,video=~
+
+//hand-percussion
+:m / 1*1 / percussion,rythm / session-memo / p.1:content=~,key=~,for=~,from=~,R=~,item=~,hitter=hands,pieces=可動棚：天面,genr=pattern-atom,other=~,memo~,video=~
 
 :m / 1*1 / percussion,rythm / session-memo / p.1:content=『音のなんでも…』の本に出ていたもの。作ってみた。太鼓,key=~,for=~,from=~,R=~,item=~,hitter=~,pieces=~,genr=,other=~,memo~,video=~
 
@@ -1258,7 +1362,7 @@ regex :
 :VIDEO / @自室 / 記録 / guitar / 演奏、play / f-2021-061X-X / XX
 
 //basic
-:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=2 / genr=melody:arpeggio,key=D,tuning=1:5-2:4-3:3f-4;1-5:L5,Re~,capo=2,file-piece-id=2022-10-23_00-44-12_000.mp4
+:VIDEO / @自室 / 記録 / guitar / 演奏、play / R=1 / genr=melody:arpeggio,key=~,tuning=~,Re~,capo=~,file-piece-id=~
 ,memo=~,session=hour-14,other=~
 
 :VIDEO / @自室 / 記録 / guitar / 演奏、play / key=D,R=~,genr=~,type=code-progre,other=tune:hira,memo+
@@ -1307,6 +1411,7 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ======================== video : ilban,video_ilban_
 :VIDEO / 記録 / topic=~ / for=~,file-id=~,other=~
 
+:VIDEO / 記録 / topic=様子：自分 / for=笛を吹いたあとの、自分の様子。どんなものか、撮ってみた。篠笛,file-id=~,other=~
 
 :VIDEO / 記録 / topic=経過記録：焼酎漬け：混合 / content=混合を作って、３日目。沈殿物の様子。瓶を傾けてみる。,for=~,file-id=2022-12-19_00-31-25_000.jpg,other=~
 ###2023年3月1日15:24:00
@@ -1345,7 +1450,7 @@ regex :
 
 :m RES #*# / free# JVEMV6 83#_XX(T-XX) / 83. chemistry / topics=~,w=~,s=~,i=~,other=~,next=~,doc=
 
-:m RES 1*1 / free# JVEMV6 83#_103:1 / 83. chemistry / topics=微粒子：表面化学,w=珪藻土；珪藻；不等毛藻,s=~,i=~,other=,next=,doc=r-1-1~1.5:『微粒子から探る物性七変化』 238_maeno:p.12
+:m RES 1*1 / free# JVEMV6 83#_103:1 / 83. chemistry / topics=微粒子：表面化学,w=珪藻土；珪藻；不等毛藻,s=~,i=~,other=,next=,doc=r-1-1~1.5:『微粒子から探る物性七変化』 23###[2023年5月7日17:49:45 改変]8_maeno:p.12
 
 :m RES 1*1 / free# JVEMV6 83#_102:1 / 83. chemistry / topics=無機質,w=硫肝；硫酸カリウム；『舎密[せいみ開宗』,s=~,i=~,other=memo+:比較：カリウム、硫黄；memo+:硫化カリウム;memo+:硫酸カリウム,next=,doc=r-1-1~1.4:『化学雑話』:p.102
 沸点
@@ -1515,27 +1620,107 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#, 64_
 //template
+:m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#298_zairyoo_kenkyuukai / 『材料化学の最前線』 著者=東京都立大学工業化学科分子応用化学研究会,校注=~ / p.128 / w=ゾル－ゲル法,topic=~,publisher=~,other=memo+:アルコキシド；
+//ske+:sk-id.YYQF:風鈴；ske+:sk-id.KI8U:ガラス職人；memo+:石英ガラス
+
+:m #*# RES / JVEMV6 64#297_ninchi_katoo / 『認知症になるとなぜ「不可解な行動」をとるのか』 著者=加藤伸司,校注=~ / p.27 / w=病識；作話；周辺症状；感情失禁；,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.356 / w=斯波義敏[よしとし；義就[よしなり,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#294_shinchoo / 『改訂　信長公記』 著者=~,校注=桑田忠親 / p.21 / w=~,topic=~,publisher=~,other=~
+
+:m 1*1 RES / JVEMV6 64#293_nihonkyooto_yamamoto / 『日本教徒』 著者=山本七平,校注=~ / p.51 / w=~,topic=~,publisher=~,other=ske+:sk-id.IDQF:平重盛;timeline+:藤原成親
+//list+:ハビヤン、棄教～キリシタン、禁令
+
+
+:m #*# RES / JVEMV6 64#289_god_brain_torrey / 『神は、脳がつくった』 著者=E.フラー・トリー,校注=~ / p.ⅷ / w=~,topic=~,publisher=~,other=~
+
+:m 2*2 RES / JVEMV6 64#292_hoosha / 『放射光が解き明かす驚異のナノ世界』 著者=日本放射光学会、編,校注=~ / p.15 / w=~,topic=~,publisher=~,other=memo+:輝度：数式
+
+:m 1*1 RES / JVEMV6 64#291_masatsu / 『摩擦の科学』 著者=河野彰夫,校注=~ / p.75 / w=；,topic=,publisher=~,other=ske+:sk-id.T62A:圧延機；list+:種々の対象。寸法。一覧
+//list+:気体分子。沸点、融点：sheet+
+//memo+:ひまし油；memo+:リノール酸
+//list+:比較：鉄、ニクロム、銅；memo+:圧電素子：着火
+memo+:
+
+:m #*# RES / JVEMV6 64#290_shokunihon_1 / 『新　日本古典文学大系　１２　続日本紀　一』 著者=~,校注=青木和夫、他 / p.3 / w=~,topic=文武天皇,publisher=~,other=~
+
+
+:m 1*1 RES / JVEMV6 64#111_?? / 『宇治拾遺物語　古本説話集　新日本古典文学大系　４２』 校注=三木紀人、他 / p.93 / w=,topic=~,publisher=~,other=ske+:sk-id.3EFF:神社、構造、名称、鳥居；ske+:sk-id.FYMD:国衙；ske+:sk-id.8GGO[オー：衣冠[いかん
+
+:m #*# RES / JVEMV6 64#288_fanon_skin / 『フランツ・ファノン著作集　Ⅰ　黒い皮膚・白い仮面』 著者=フランツ・ファノン,校注=~ / p.26 / w=植民地化された民族,topic=~,publisher=~,other=~
+
+
+:m #*# RES / JVEMV6 64#286_katoo_ninchi / 『XXX』 著者=認知症になるとなぜ「不可解な行動」をとるのか,校注=~ / p.15 / w=~,topic=分類、内容,publisher=~,other=~
+
+:m 2*2 RES / JVEMV6 64#285_bunseki_chemi / 『分析化学』 著者=加藤、菅原、共著,校注=~ / p.6;d-2 / w=仮説検定,topic=~,publisher=~,other=~
+
+:m 2*2 RES / JVEMV6 64#284_robotics_shirai / 『ロボット工学』 著者=白井良明、編著,校注=~ / p.9 / w=マニピュレータ；,topic=~,publisher=~,other=q+:リンクの角度の、変動：効果器の座標の変動。との関係;conc+
+
+:m #*# RES / JVEMV6 64#283_slapp / 『俺たち訴えられました！　SLAPP裁判との闘い』 著者=烏賀陽弘道；西岡研介,校注=~ / p.8 / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#282_1_1_mamohet_kooran / 『講座　東洋思想　７　イスラムの思想』「第一節　マホメットと『コーラン』」 著者=嶋田襄平,校注=~ / p.2 / w=ラーダークリシュナン,topic=~,publisher=~,other=~
+
+
+:m #*# RES / JVEMV6 64#278_quran_chuu / 『コーラン（中）』 著者=~,校注=井筒俊彦 / p.98 / w=~,topic=~,publisher=~,other=ske+:sk-id.XJW9:棗やし
+
+
+:m #*# RES / JVEMV6 64#281_1_isayah / 「イザヤ書」 著者=~,校注=~ / p.1070 / w=アラム；アハズ,topic=~,publisher=~,other=~
+
+
+:m #*# RES / JVEMV6 64#136.1_rice / 『朝鮮史研究会論文集　第一巻』「日本帝国主義統治時期の朝鮮米搬出について」 著者=楠原利治,校注=~ / p.138 / w=~,topic=日朝貿易,publisher=~,other=q+:地主、小作：増加率
+
+
+:m #*# RES / JVEMV6 64#178_2_sonshi / 『孫子』 著者=~,校注=~ / p.23 / w=「経之以五事」「校之以計」,topic=,publisher=明治書院,other=
+
+:m #*# RES / JVEMV6 64#178_sonshi / 『孫子』 著者=~,校注=~ / p.23 / w=~,topic=~,publisher=明治書院,other=~
+
+178_sonshi
+
+:m #*# RES / JVEMV6 64#272_3_teishi_fujita / 『水戸学』「丁巳封事」 著者=~,校注=~ / p.451 / w=~,topic=~,publisher=~,other=~
+
+
+:m #*# RES / JVEMV6 64#273_hikari_shikisai_saitoo / 『光と色彩の科学』 著者=齋藤勝裕,校注=~ / p.120 / w=~,topic=反射：油膜：しゃぼん玉,publisher=~,other=q+
+th+:色彩の三原色：混ぜると、黒色。可視光の全てを、吸ってしまうからか。「色彩」は、反射光。ということか。
+
+:m #*# RES / JVEMV6 64#248_1_hadith / 『ハディース　Ⅰ』 著者=牧野信也,校注=~ / p.50 / w=~,topic=ムハンマド：命じたこと、禁じたこと,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#271_shuudatsu_galeano / 『収奪された大地』 著者=ガレアーノ,校注=~ / p.74 / w=~,topic=~,publisher=~,other=map+:サカテカス；map+:カディス州（スペイン）
+timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリビア、ペルー；map+:グラナダ
+
+:m #*# RES / JVEMV6 64#270_mushuukyoo_koishikawa / 『日本人は本当に無宗教なのか』 著者=礫川全次,校注=~ / p.166 / w=,topic=キリシタン；,publisher=~,other=map+:大田原市、那須町；timeline+:ひとのみち事件
+
+:m #*# RES / JVEMV6 64#269_kami_henyoo:0,1 / 『日本の神　２　神の変容』「はじめに」 著者=山折哲雄、編,校注=~ / p.9/ w=~,topic=~,publisher=~,other=ske+:イネミズゾウムシ；ske+:藁苞[わらづと;ske+:伊勢神宮；ske+:狛犬
+
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.~ / w=~,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m #*# RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.14 / w=ゴルジ；X線造影法；CT,topic=~,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.84 / w=；,topic=有病率,publisher=~,other=memo+:結節性硬化症
+//memo+:メチルフェニデート；list+:エステル、カルボン酸、ギ酸、他。化学式、対照
+//timeline+:診断基準：DSM；memo+:ドリコール；memo+:糖タンパク
+list+:「注意する」；memo+:ワーキングメモリー
+疾患：特徴；list+:支援学級：対象児童
+memo+:ヘモグロビン（ヘム部）；
 
 :m 1*1 RES / JVEMV6 64#267_akushitu / 『悪質商法のすごい手口』 著者=国民生活センター、監修,校注=~ / p.43 / w=~,topic=点検商法,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#266_mushuukyoo_shimada / 『無宗教こそ日本人の宗教である』 著者=島田裕巳,校注=~ / p.84 / w=,topic=~,publisher=~,other=QQQ;list+:神道、各派
 
 
-:m #*# RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.11 / w=~,topic=~,publisher=~,other=QQQ
+:m 1*1 RES / JVEMV6 64#265_islam_genten_makino / 『イスラームの原点』 著者=牧野信也,校注=~ / p.149;p.185 / w=大蔵経,topic=~,publisher=~,other=timetable+:ヒジュラの年；ムハンマドの、死去の年
+仏教：経典：各々、解説；memo+:コーラン：内容による分類：著者独自
 
-:m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.93 / w=~,topic=「乾」,publisher=~,other=~
+:m #*# RES / JVEMV6 64#130_eki / 『易経　上』 著者=~,校注=~ / p.100 / w=,topic=「乾為天」：九五、上九,publisher=~,other=memo+:九五；memo+:上九
 
 :m #*# RES / JVEMV6 64#242_quran / 『コーラン（上）』 著者=井筒俊彦,校注=~ / p.~ / w=~,topic=~,publisher=~,other=text:9-72;9-87;9-97
 
 :m #*# RES / JVEMV6 64#262_china_econ_marukawa / 『現代中国経済』 著者=丸川知雄,校注=~ / p.88 / w=,topic=労働市場,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.73 / w=~,topic=壬午軍乱,publisher=~,other=QQQ
+:m #*# RES / JVEMV6 64#261_fukuzawa_sugita / 『福沢諭吉　朝鮮・中国・台湾論集』 著者=杉田聡、編,校注=~ / p.73 / w=~,topic=壬午軍乱;甲申政変；天津条約；漢城条約；巨文島事件,publisher=~,other=261_2_2_fukuzawa_sugita
 
 :m #*# RES / JVEMV6 64#101_banzan_shuugi / 『集義和書』 著者=熊沢番山,校注=~ / p.?? / w=~,topic=~,publisher=~,other=tl+:熊沢番山、伊藤仁斎
 
@@ -1557,7 +1742,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#251_damashi / 『だまし犯罪百科』 著者=間川清,校注=~ / p.222 / w=消費者契約法１０条,topic=事例,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.54 / w=,topic=足尾鉱毒事件,publisher=~,other=QQQ
+:m 1*1 RES / JVEMV6 64#250_amemiya / 『田中正造の人と生涯』 著者=雨宮義人,校注=~ / p.58 / w=,topic=足尾鉱毒事件,publisher=~,other=ske+:sk-id.OSCA:弁財船；memo+:m-id.R49N:硫酸銅、酸化銅；ske+:sk-id.FDC5:アユ；ske+:sk-id.GM2P:陸稲
 //tl+:
 //list+
 //map+:
@@ -1576,7 +1761,13 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //map+:
 //memo+:
 
-:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.53 / w=分散コロイド；,topic=物性,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#238_maeno / 『微粒子から探る物性七変化』 著者=前野昌弘,校注=~ / p.223 / w=,topic=,publisher=~,other=memo+:赤血球；memo+:レシチン：製法
+q+:open:q-id.GYPN(nowa);
+memo+:オレイン酸；memo+:リノール酸
+orig+:電気陰性度と電子親和力：相違;memo+:パルミチン酸；ステアリルアルコール
+list+:各種クリーム；list+:活性剤：用途
+memo+:グロブリン
+memo+:鹸化；memo+:エステル；memo+:タンパク質分解酵素；memo+:ペプチド結合
 
 :m 1*1 RES / JVEMV6 64#244_nakata_logic / 『イスラームのロジック』 著者=中田考,校注=~ / p.106 / w=,topic=アブラム：イシュマエル、イサク,publisher=~,other=
 //memo+:申命記；memo+:クルアーン
@@ -1592,7 +1783,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#242 / 『コーラン　（上）』 著者=~,校注=井筒俊彦、訳 / p.110 / w=~,topic=遺産：分割,publisher=~,other=quran:an-nisa:13~
 
-:m #*# RES / JVEMV6 64/#206_1_3_reikon / 『日本宗教の複合的構造：霊魂観』 著者=~,校注=~ / p.68:L.1 / w=七夕野；身代わり地蔵；,topic=~,publisher=~,other=ske+:御札；ske+:身代わり地蔵
+:m #*# RES / JVEMV6 64/#206_1_3_reikon / 『日本宗教の複合的構造：霊魂観』 著者=~,校注=~ / p.68:L.1 / w=七夕野；,topic=~,publisher=~,other=ske+:観音堂
 
 :m 1*1 RES / JVEMV6 64#237_nakata / 『私はなぜイスラーム教徒になったのか』 著者=中田考,校注=~ / p.214 / w=サバウーン；ムタワッキル；ラバン；スタネクザイ；一神教学際センター,topic=~,publisher=~,other=
 
@@ -1604,13 +1795,20 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template:directives
 ther=map+:、；calc+:、：；calc+:、；memo+~ske+:：；calc+:；memo+:;sen+:
 
+:m #*# RES / JVEMV6 64#199.3.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.150 / w=,topic=~,publisher=~,other=memo+:水。人の性。
+memo+:「故に性学盛んなるときは、則教法衰ふ」
+
 :m #*# RES / JVEMV6 64#199.2.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.112? / w=王通；陳亮,topic=~,publisher=~,other=	
+
 
 :m #*# RES / JVEMV6 64#199.1_jinsai_dooji / 『童子問』 著者=伊藤仁斎,校注=~ / p.99 / w=程子,topic=~,publisher=~,other=timeline+:程顥、程頤
 
 :m #*# RES / JVEMV6 64#234_nihon_history_shoowa / 『日本の歴史　２３　帝国の昭和』 著者=有馬学,校注=~ / p.78 / w=段祺瑞；汪兆銘；蒋介石,topic=~,publisher=~,other=
 
 :m 1*1 RES / JVEMV6 64#236_inui / 『脳科学からみる子どもの心の育ち』 著者=乾敏郎,校注=~ / p.201 / w=神経節細胞；扁桃体,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#126.02_mooshi:梁恵王下 / 『孟子』 著者=~,校注=~ / p.107 / w=；,topic=五者；四端,other=~
+ske+:sk-id.WNJC:戈（ほこ）;ske+:sk-id.L0BC:矛（ほこ）;ske+:sk-id.YHKH:斧、まさかり
 
 :m #*# RES / JVEMV6 64#126.01_mooshi:梁恵王上 / 『孟子』 著者=~,校注=~ / p.18 / w=~,topic=百畝,other=
 
@@ -1633,6 +1831,18 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
+:m #*# RES / JVEMV6 64#67_16_kishi / 『論語 季氏』 著者=~,校注=~ / p.376 / w=,topic=,publisher=明治書院,other=memo+:「邦君之妻」
+
+:m #*# RES / JVEMV6 64#67_15_eireiko / 『論語 衛霊公』 著者=~,校注=~ / p.342 / w=,topic=,publisher=明治書院,other=memo+:「与之言」「与言之」
+
+:m #*# RES / JVEMV6 64#67_14_kenmon / 『論語 憲問』 著者=~,校注=~ / p.335 / w=「なからめやは」,topic=,publisher=明治書院,other=~
+timeline+:襄公～哀公：孔子、年齢
+list+:樹形図：司馬牛；list+:徳目、徳者：仁者、知者
+
+:m #*# RES / JVEMV6 64#67_12_senshin / 『論語 顔淵』 著者=~,校注=~ / p.262 / w=,topic=,publisher=明治書院,other=list+:樹形図：司馬牛；list+:徳目、徳者：仁者、知者
+
+:m #*# RES / JVEMV6 64#67_11_senshin / 『論語 先進』 著者=~,校注=~ / p.252 / w=,topic=人物：リストに並べる,publisher=明治書院,other=list+:子路：冉求（子有）：曾晳：公西華（子華）
+
 :m #*# RES / JVEMV6 64#67_10_kyootoo / 『論語 郷党』 著者=~,校注=~ / p.222 / w=,topic=,publisher=明治書院,other=ske+:sk-id.5RLE:ゆがけ
 
 :m #*# RES / JVEMV6 64#67_9_sikan / 『論語 子罕』 著者=~,校注=~ / p.210 / w=終助詞：也；也已矣；矣夫,topic=,publisher=明治書院,other=
@@ -1651,7 +1861,7 @@ sketch+;
 
 :m #*# RES / JVEMV6 64#213_nihon_old / 『日本昔話百選』 著者=稲田浩二、稲田和子,校注=~ / p.222 / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#171_1_1_yin / 『春秋左氏伝　一』 著者=鎌田正,校注=~ / p.47 / w=鄒[すう；鄭[てい,topic=~,publisher=~,other=map+
+:m #*# RES / JVEMV6 64#171_1_1_yin / 『春秋左氏伝　一』 著者=鎌田正,校注=~ / p.51 / w=申（国名）；共（国名）,topic=~,publisher=~,other=~
 
 
 :m #*# RES / JVEMV6 64#209_brain_yamamoto / 『老化と脳科学』 著者=山本啓一,校注=~ / p.59 / w=海馬；抗体タンパク質,topic=~,publisher=~,other=~
@@ -1698,7 +1908,30 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ======== memo :tome, tome_
 ###2021年6月8日8:21:46
 
-:tome / (lang=ja) / topic=~ / content=~
+//template
+:tome / (lang=ja) / topic=~ / content=~,other=~
+
+:tome / (lang=ja) / topic=~ / content=宮台、神保、如此あるいについては、是非もなし。,other=~
+
+:tome / (lang=ja) / topic=~ / content=過ちては、為之辞を為さず,other=~
+
+:tome / (lang=ja) / topic=~ / content=俺は、日本教に生きよう。,other=~
+
+:tome / (lang=ja) / topic=~ / content=今試みていることで、食えるようになってから、かな。子供は。,other=~
+
+:tome / (lang=ja) / topic=~ / content=culture。自分で創ろう,other=~
+
+:tome / (lang=ja) / topic=~ / content=今すぐに金になるもの。ではなく、知りたくて仕方のないもの。に、忠に、敬に、勤しむ。,other=~
+
+:tome / (lang=ja) / topic=~ / content=笛。自分のために吹きな。「この曲、受けるかな」も、実のところ、他人のために吹いている。,other=~
+
+:tome / (lang=ja) / topic=自分の行い / content=選択のとき：自問する：「信」に照らして、「義」なるや,other=~ || :tome / (lang=ja) / topic= / content=君子小人。倶に、我に有り,other=~
+
+:tome / (lang=ja) / topic=「トヨタ・ショック」：私にとって：古賀さんの動画を見て、感じた / content=でも、「何のために生きるのか」が、事の本（もと）だと思うよ；アッラーの元へ帰る,other=~
+
+:tome / (lang=ja) / topic=~ / content=知らないと、その知らないものに、振り回されてしまう。,other=~
+
+:tome / (lang=ja) / topic=~ / content=「善を以て民を養ふて」,other=source:『童子問　中』：p.118
 
 :tome / (lang=ja) / topic=~ / content=笛；胸の傷；手足が動かない；役割
 
@@ -1725,7 +1958,37 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2021年7月3日10:35:02
 =============== memo : :? :jilmun_
 //template
-:m :? #*# / topic=~ / content=~ / status=~ / other=~,id=~
+:m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? 1*2 / topic=風鈴：べろ紐：長さ / content=~ / status=~ / id=OF6P[オー],genre=math,other=~,
+
+:m :? #*# / topic=~ / content=道が濡れている：信号機の光。縦の条[すじ]となって見える / status=~ / id=G1OC[オー],genre=物理,other=~,
+
+:m :? #*# / topic=天文学 / content=木星と土星。両者、直列。土星の軌道は、より、小さくなるか？ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=~ / content=比重。構成粒子。お互いの距離。どう変化？その構造は？ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=~ / content=プリズムによる分光。の一部としての、黄色。赤と緑の混色としての、それ。波長は、それぞれ、異なるか？ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=~ / content=「日本教」とは何ぞや。 / status=~ / id=~,genre=~,other=~, || :m :haja,lets / action activity / やること / genre=~ / content=一日[いちじつ]一年を思い、一日[いちにち]を生きよ。,other=~
+
+:m :? #*# / topic=物理：崩壊：原子核 / content=「崩壊」。どんな力が働いている？ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=１８フッ素、生成 / content=増えた中性子。どこから来た？ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=~ / content=数列：(1/2)(2/3)(3/4)...。どんな数列か？ / status=~ / id=~,genre=math,other=~,
+
+:m :? #*# / topic=~ / content=コバルト。同じ働きを、作り出せないだろうか？手軽な原料を使って。 / status=~ / id=~,genre=physics;chemistry,other=~,
+
+:m :? #*# / topic=~ / content=万有引力：速度の変化：軌跡はどうなるか / status=~ / id=~,genre=physics,other=~,
+
+:m :? #*# / topic=~ / content=(1/2)(2/3)(3/4)(4/5)... / status=~ / id=~,genre=math,other=~,
+
+:m :? #*# / topic=ボーズ・アインシュタイン統計 / content=下位１０％：どんな特徴 / status=~ / id=~,genre=physics,other=~,
+
+:m :? #*# / topic=仏教 / content=仏教はなぜ、広まったのか。日本で。民衆に、どんな条件があったのか。 / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=レーザー / content=レーザー。跳ね返すには；レーザー。反射。鏡を、どのように配するか。 / status=~ / genre=physics+math,other=~,id=~
 
 :m :? #*# / topic=~ / content=電車の車両：自動車の場合：移動重量：違いは、いかほど。 / status=~ / other=research-started:2023-04-10_10-24-10_000.jpg,id=~
 
@@ -1780,6 +2043,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 化学：物質
 化学：一酸化炭素
 数学：代数
+物理
 
 
 
@@ -1881,6 +2145,17 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
 
+:m #*# / memo:other(m:other) / topic=神学メモ, about=~,content=コンゴの奥地の、電気も知らぬ者たち。人なりや。,other=~,id=~ 
+
+//quote / 2023年4月29日17:36:34
+:m #*# / memo:other(m:other) / topic=quote:孟子, about=~,content=夫の成功の若きは則ち天なり。,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=quote:伊藤仁斎, about=~,content=「仁人者。...修其理不急其功」「学人を尤めざるに至るは、学の至りなり」,other=from:「童子問　中」:280,id=~ 
+
+:m #*# / memo:other(m:other) / topic=quote:伊藤仁斎, about=~,content=「至奇極妙、一當に如ず。学者當に悟門の開るを竢つべし。我より之を開発すること勿れ」,other=from:「童子問　中」:134,id=~ 
+
+:m #*# / memo:other(m:other) / topic=言葉：意義, about=「事の「次第」」：順序、いきさつ、推移,content=~,other=~,id=~ 
+
 :m #*# / memo:other(m:other) / topic=篠笛：口の形, about=大甲、穴３,content=~,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=クルアーン：対訳, about=~,content=~,other=~,id=~ 
@@ -1895,6 +2170,13 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 ###2022年7月20日9:58:44
 //=============== 年金
 =============== 年金；小遣い
+:m other / お母さんから　お金もらう / amount=６万６千円 / topic=年金保険料：支払い / total-amount=２ヶ月分：１万６千７００円ｘ２=６万６千円,for=令和５：２ー５月（４ヶ月分）
+
+//月々の小遣い		2023年6月5日19:16:29
+:m other / お母さんから　お金もらう / amount=合計：4万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円;貯金の分：１万円；合計、四万円。ただし、１万円は、すでに使用を始めた。,for=2022-08
+
+:m other / お母さんから　お金もらう / amount=3万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円,for=2022-07 || :m other / お母さんから　お金もらう / amount=3.3万円 / topic=年金：掛金 / total-amount=２ヶ月分,for=令和４－１２；５－１
+
 :m other / お母さんから　お金もらう / amount=3万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円,for=2022-06
 
 合計は、本来は、1.5+3=4.5. 半端に
@@ -2018,6 +2300,28 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『摩擦の科学』 / 著者=河野彰夫 /
+
+:bookmemo / 読んだ本 / 『神は、脳がつくった』 / 著者=E.フラー・トリー / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『認知症になるとなぜ「不可解な行動」をとるのか』 / 著者=加藤伸司 /
+
+:bookmemo / 読んだ本 / 『微粒子から探る物性七変化』 / 著者=前野昌弘 / 
+
+:bookmemo / 読んだ本 / 『フランツ・ファノン著作集　Ⅰ　黒い皮膚・白い仮面』 / 著者=フランツ・ファノン / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『放射光が解き明かす驚異のナノ世界』 / 著者=日本放射光学会、編 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『俺たち訴えられました！　SLAPP裁判との闘い』 / 著者=烏賀陽弘道；西岡研介 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『日本人は本当に無宗教なのか』 / 著者=礫川全次[こいしかわぜんじ /
+
+:bookmemo / 読んだ本 / 『悪質商法のすごい手口』 / 著者=国民生活センター、監修 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『イスラームの原点』 / 著者=牧野信也 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『直感を裏切る数学』 / 著者=神永正博 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『無宗教こそ日本人の宗教である』 / 著者=島田裕巳 /
 
 :bookmemo / 読んだ本 / 『田中正造の人と生涯』 / 著者=雨宮義人 / 途中 ここまで
@@ -2038,6 +2342,8 @@ G:\photo-books_HD\list-of-books.txt
 // template // 2022年10月21日12:02:25
 :m 読みたい本 / ジャンル　分野　リスト / 『XXX』　著者=~, location=~ / genre=~,other=~
 
+:m 読みたい本 / ジャンル　分野　リスト / 岩波新書　『日本人は本当に無宗教なのか』、裏表紙 / genre=日本史；日本の習俗；宗教
+
 :m 読みたい本 / ジャンル　分野　リスト / 『How Europe Underdeveloped Africa』　著者=Rodney Walter, location=~ / genre=経済,other=~
 
 :m 読みたい本 / ジャンル　分野　リスト / 『発達障害の素顔』　著者=山口真美, location=巻末 / genre=「医学・人間・心理」,other=~
@@ -2051,6 +2357,23 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録：開始、終了
 //template
 :PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
+
+:PHOTO 記録 / location=自室 / topic=アース：ゴキジェットプロ：ゴキブリ用、殺虫スプレー / for=~ / occasion=終了：使い切った,other=~
+
+:PHOTO 記録 / location=台所 / topic=電池交換：ガスコンロ台 / for=~ / occasion=~,other=~
+
+:PHOTO 記録 / location=~ / topic=終了 / for=デンタルフロス / occasion=~,other=~
+
+:PHOTO 記録 / location=~ / topic=終了 / for=ガムテープ / occasion=~,other=~
+ 
+
+:PHOTO 記録 / location=~ / topic=終了 / for=ゴムバンド：１５本入り：#320：アメ色：120x6x1.1mm / occasion=~,other=撮影面：表
+
+:PHOTO 記録 / location=~ / topic=終了 / for=セロハンテープ：15x8mm：２個入り / occasion=２個目を取り出した,other=撮影面：表
+
+:PHOTO 記録 / location=台所~ / topic=終了 / for=殺虫スプレー：ゴキブリ用 / occasion=終了,other=~
+
+:PHOTO 記録 / location=~ / topic=終了 / for=ワセリン / occasion=~,other=<80g:金銭の事情で、小さめの容器のものを買った。
 
 :PHOTO 記録 / location=トイレ / topic=終了 / for=消臭スプレー：トイレ用 / occasion=~,other=~
 
@@ -2068,10 +2391,42 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / @自室 / 充電 / for=充電器：空調服用 / occasion=開始,other=表示：２
 
+###2023年4月24日17:51:33
+========================== 記録：いろいろ, record_misc
+//template
+:PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
+
+
+
 ###2022年5月21日9:24:04
-========================== 記録しておきたいもの
+========================== 記録しておきたいもの, record_misc_
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=ヒーター / subject=ヒーター：しまう / content=~,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=扇風機 / subject=扇風機を出した / content=~,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=自宅：２階、北東側、窓に付けてある目隠し：寸法、採る, location:target=~ / subject=~ / content=~,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=洗面所, location:target=自宅：一筋敷地、北東隅：：破片らしきもの：雨戸代はりの、トタン板：２階、北東の窓に付けてあるもの / subject=~ / content=昨晩の、暴風雨：板が取れたらしい,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=洗面所, location:target=鷲尾さんの庭：破片らしきもの：雨戸代はりの、トタン板：２階、北東の窓に付けてあるもの / subject=~ / content=昨晩の、暴風雨：板が取れたらしい,other=~
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=~ / subject=コレポン用のメモ：高津社会保険事務所へ問い合わせ / content=催告状が来た。年金保険料、支払い。納付用紙を、再発行するかしないか。相談。,other=~
+
+:PHOTO 記録しておきたいもの / 1*1 / location:photo=自室, location:target=~ / subject=メモ：ジブラルタ生命関連 / content=考えを整理するためのメモ：お母さんの金融資産分の、内訳；私自身の身の振り。いくら必要か、いま企てていることを続けるために,other=~
+
+:PHOTO 記録しておきたいもの / 1*1 / location:photo=自室, location:target=~ / subject=メモ：ジブラルタ生命関連 / content=お母さんに、話し：外貨建て。戻ってくるのは、半分ぐらいになるかも知れない。,other=~
+
+:PHOTO 記録しておきたいもの / 2*2 / location:photo=自宅：１F：居間, location:target=~ / subject=メモ：杉浦さん：ジブラルタ生命 / content=打ち合わせ。お母さん、保険満期。別件を契約。書類記入、した。,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=~ / subject=スマホ：購入：中古品：イオシスにて / content=メーカー：ファーウェイ,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=クーラー（エアコン）、買い替え / content=お母さんから、現金、受け取り：工事、機種購入の申し込み：前金用の金員,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=クーラー（エアコン）、買い替え / content=室外機：現行のもの：採寸,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=自室：ベランダ, location:target=プランター：生えているススキ（または、オギ。あるいは、いずれでもない、何か。） / subject=~ / content=伸びて、枯れている。のを、切った。,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=宮前平第４公園, location:target=桜の花びらたち / subject=~ / content=雨降りの後。花びらたち、ここかしこ、まとまっている,other=~
 
@@ -2111,6 +2466,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :m 見た夢 / topic=~ / content=~ / other=~
 
+:m 見た夢 / topic=~ / content=リモートで動かしているオートバイ。ロボットの犬。小型のロボット、オートバイの座席に。 / other=~
+
 :m 見た夢 / topic=~ / content=「ショトリコ」。技術者の名前；５－４－２ / other=~
 
 :m 見た夢 / <1> topic='mechanization'：語句の意味：日本語で言うなら、「仕組み」、「働き」、「内部運動」 / content=夢の中で、曲がった筒状のもの、出てきた / other=~ \\\ <2> topic=知りたいもの / content=スラブ民族の、深部：キリスト教、以前 / other=~
@@ -2120,6 +2477,8 @@ G:\photo-books_HD\list-of-books.txt
 ###2022年6月6日10:02:52
 ============================== :m 保管場所
 :m 保管場所 / what=~ / location=~,expire=~,other=~
+
+:m 保管場所 / what=年金：納付用紙 / location=机上：電気スタンド：裏側：PCとの間,expire=2024-03,other=~
 
 :m 保管場所 / what=ヘッドライト：頭に付けるもの：２点 / location=東側 可動棚：上から１段目：ダンボール箱,expire=~,other=~
 
@@ -2228,14 +2587,29 @@ G:\photo-books_HD\list-of-books.txt
 
 
 ###2022年10月19日9:46:41
-====================== :PHOTO 記録:misc, record_misc
+====================== :PHOTO 記録:misc, record_misc_
 //template
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
+
+:PHOTO 記録 / subject=２階のトイレ：流水用の、桶 / location=２階 / content=天面の、洗い場の箇所：表面の様子：カビの発生の、様子,for=定点観測,other=~
+// @自室 / what=体温計：数値 / for=定点観測 / occasion=ワクチン：接種後：観察,location=,status=~,other=ここ２－３日	
+:PHOTO 記録 / subject=クーラー：現在、あるもの / location=~ / content=交換を意図：お店に相談に行く際の、参考にと思って、撮影,for=~,other=~
 
 :PHOTO 記録 / subject=写真撮影：お母さん、自分：ウルスラさんに送る用 / location=テレビの部屋（１階、居間） / content=~,for=~,other=~
 
 //2023年4月8日21:55:05 / 
 :PHOTO 記録 / subject=シェーバー：剃りくず：溜まり具合 / location=本体：回転部：底部 / content=~,for=~,other=~
+
+//2023年4月21日18:02:20	/ 重さ
+:PHOTO 記録 / subject=計量：重さ / location=台所 / content=塩,for=~,other=小麦餅用：すりごま、きな粉、含む
+
+:PHOTO 記録 / subject=計量：重さ / location=台所 / content=フリーザバッグ：中,for=~,other=~
+
+:PHOTO 記録 / subject=計量：重さ / location=台所 / content=しゃもじ：プラ製,for=~,other=~
+
+:PHOTO 記録 / subject=計量：重さ / location=台所 / content=お椀、大：プラ製,for=~,other=~
+
+:PHOTO 記録 / subject=計量：重さ / location=台所 / content=計量カップ：金属製,for=~,other=~
 
 :PHOTO 記録 / subject=計量：重さ / location=台所 / content=スプーン：大,for=~,other=~
 
@@ -2245,7 +2619,17 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / subject=卵：計量：重さ / location=台所 / content=卵の重さ：割り入れたところ,for=~,other=~
 
-:PHOTO 記録 / subject=ATM：明細票 / location=~ / content=~,for=月末の入金,other=~
+//atm
+:PHOTO 記録 / subject=ATM：操作画面：残高：入金前 / location=~ / content=~,for=月末の入金,other=~
+
+:PHOTO 記録 / subject=ATM：操作画面 / location=~ / content=~,for=月末の入金：残高：入金後,other=対象：利用明細票
+操作画面
+
+:PHOTO 記録 / subject=ATM：操作画面：残高：入金後 / location=~ / content=~,for=入金：スマホ用の代金に充てる：本体分：２万２千円,other=対象：利用明細票
+
+:PHOTO 記録 / subject=ATM：操作画面：残高：入金後 / location=~ / content=~,for=月末の入金,other=~
+
+:PHOTO 記録 / subject=ATM：明細票 / location=~ / content=~,for=月末の入金,other=occasion:入金後
 
 :PHOTO 記録 / subject=調理：レモン、砂糖煮 / location=~ / content=計量。手順,for=~,other=~
 
@@ -2254,8 +2638,29 @@ G:\photo-books_HD\list-of-books.txt
 //経過記録用途
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
 
+//2023年4月23日17:40:19
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン（１）：１０（単位：スプーン）；ニンニク（２）：１２；生姜（１）：８；生姜（２）：５；梅（小梅）：１０；大葉：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
+
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン（１）：１０（単位：スプーン）；ニンニク（１）：１５；生姜（１）：１５；スペアミント：１０；ローズマリー：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-23_01-32-04_000.jpg
+
+
+//2023年4月22日17:54:56
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=オオバ,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=,occasion=経過観察。１回目のもの、溶液を取り分け。１回目＝２日漬け；取り出したもの。溶液の色を、観察。,id=2023-04-22_01-16-26_000.jpg
+
+//2023年4月16日9:30:25
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：２（単位：スプーン）；ニンニク（１）：１５；生姜（１）：１５；スペアミント：１０；ローズマリー：１０；オオバ：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-15_01-13-50_000.jpg
+
+
+
+//2023年4月13日21:56:22
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク（２）：１０；生姜（２）：１０；スペアミント：６；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-13_00-59-14_000.jpg
+
+
 //2023年4月7日22:20:57
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：１０；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=経過観察。,id=2023-04-07_01-20-25_000.jpg
+
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=大葉,liquor=麦焼酎：??ml,time=~,container=silver-cap-medium / type=~,other=２日、漬けた。実を取り出し。液のみにして、色が如何様に変化する、しない。知りたい。,occasion=経過観察。,id=2023-06-07_01-17-29_000.jpg
+
 
 //2023年4月7日17:57:11
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=大葉,liquor=麦焼酎：??ml,time=~,container=silver-cap-medium / type=~,other=３日、漬けた。実を取り出し。液のみにして、色が如何様に変化する、しない。知りたい。,occasion=経過観察。,id=2023-04-07_00-56-21_000.jpg
@@ -2341,6 +2746,12 @@ G:\photo-books_HD\list-of-books.txt
 
 :i #*# / topic=~ / subject=~, content=~, other=~
 
+:i #*# / topic=篠笛：曲作り / subject=曲のパターン：２つ, content=~, other=~
+
+:i #*# / topic=方法論 / subject=~, content=探求、研究。方法。質問から始める。「なぜ崩壊するのか」, other=~
+
+:i #*# / topic=chemistry;plastic / subject=プラスチック：海洋：収集する方法, content=プラスチックを、帯電させる。＋のイオン、溶液に。, other=~
+
 :i #*# / topic=調理：すいとん / subject=調理：方法, content=~, other=~
 
 :i #*# / topic=大晦日：供え物 / subject=~, content=供えの品：リスト, other=~
@@ -2390,6 +2801,22 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 ============================== :m : res:free : res_
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=LZHR:s-id.K7V0 / theme=~ / genre=ジブラルタ生命関連：杉浦さん担当。,content=もらった書類、一連のもの。見返し,w=~ / session-number=~ / doc=~,other=file~ / N+:
+
+:m #*# RES / free / res-id=R39M / theme=油膜上の、光線たちの、互との干渉 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=i.f.:bk-273_saitoo:2023-05-05_12-55-37_000.jpg / N+
+
+:m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=2RV5 / theme=math:最小自乗法 / genre=math,content=２次関数による、近似,w=~ / session-number=~ / doc=~,other=N:COMP
+
+:m #*# RES / free / res-id=APPK(nowa) / theme=北朝鮮：安保理決議 / genre=~,content=resolution:2397;resolution:1695;,w=~ / session-number=~ / doc=~,other=~
+
+:m 2*2 RES / free / res-id=98EE / theme=桁数、推定 / genre=~,content=~,w=「漸次偶数化法」 / session-number=~ / doc=~,other=q+:q-id.17HP(nowa):COMP / N~
+
+:m #*# RES / free / res-id=JVA6 / theme=後期高齢者：保険料：値上げ / genre=~,content=金額：計算：保険料収入、増加分,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=XOWG / theme=bible-research / genre=religions,content=mateusza-6:34,w=~ / session-number=~ / doc=~,other=polish;greek;japanese
 
 :m #*# RES / free / res-id=T3QC / theme=複素数：べき乗 / genre=math:number-theory,content=~,w=~ / session-number=~ / doc=~,other=~
 
@@ -2500,9 +2927,12 @@ zionists
 //template
 :m #*# / read-docs / theme=~,content=~,id=~, w=~ / genre=~ / other=~
 
+:m #*# / read-docs / theme=塩化金酸水溶液,content=~,id=VF7A, w= / genre=~ / other=memo+:王水；memo+:亜硫酸ナトリウム；memo+:亜硫酸
+
+
 :m #*# / read-docs / theme=演説：ユン・ソギョル,content=~,id=NCGE, w=~ / genre=~ / other=~
 
-:m 1*1 / read-docs / theme=習近平(xijinping)：講話,content=人大,w=； / genre=~ / other=~, doc-id=P7GO
+:m #*# / read-docs / theme=習近平(xijinping)：講話,content=,w=； / genre=~ / other=~, doc-id=IHB5
 
 :m 1*1 / read-docs / theme=習近平(xijinping)：講話,content=二十大精神,w=； / genre=~ / other=~, doc-id=SL91
 
@@ -2514,31 +2944,18 @@ zionists
 ###2021年9月22日10:19:44
 ========================== :m : 記事読み, article__
 //template
-:m #*# RES / free# S87DP9 記事読み / id=~(browser=~) / media=~ / theme=~,content=~,w=~ / genre=~ / other=~
-:m #*# RES / free# S87DP9 記事読み / id=BEUM(browser=yan) / media=ya / theme=韓国：麻薬配布：事件,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
 
-:m #*# RES / free# S87DP9 記事読み / id=13T4(browser=yan) / media=ya / theme=マイナンバー；別人分：発行,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=087R~yan~ei~DT / theme=ガザ：子供達：トラウマ,content=~,w=~ / genre=~ / other=~
 
-:m #*# RES / free# S87DP9 記事読み / id=V97T(browser=yan) / media=ya / theme=韓国；政府；半導体,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=LQZP~yan~huanqiu~NT / theme=中国；牧畜業；科学技術,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=UEXH~yan~ya-中央日報~DT / theme=韓国；技術：持ち出し：中国,content=~,w=~ / genre=~ / other=~
 
 
-:m #*# RES / free# S87DP9 記事読み / id=B0T5(browser=yan) / media=ya / theme=韓国：強制動員；改定案,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=NXLF~yan~huan~DT / theme=~,content=重慶、江西：指導組：党幹部,w=~ / genre=~ / other=~
 
-:m #*# RES / free# S87DP9 記事読み / id=BZPI(browser=yan) / media=ei / theme=パレスチナ；イスラエル；極右,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=H8YU(browser=yan) / media=ei / theme=パレスチナ；安保理決議；イスラエル,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=3JPX(browser=yan) / media=ptv / theme=ロシア：プーチン：安全保障協議会,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=ACWZ(browser=yan) / media=BAR / theme=Uhuru-Movement;banking,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=N8FT(browser=yan) / media=BAR / theme=Lincoln,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=B459(browser=yan) / media=ya / theme=ロシア：ベラルース：核配備,content=~,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=2BA9(browser=yan) / media=ei / theme=ガザ：移民：移住にまつわる苦しみ：民衆,content=,w=~ / genre=~ / other=~
-
-:m #*# RES / free# S87DP9 記事読み / id=8UUJ(browser=yan) / media=ya / theme=金武町[きんちょう；流弾；米軍基地,content=~,w=~ / genre=~ / other=~
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=K5GE~yan~huan~DT / theme=~,content=中小企業；中国；高質量；転化,w=~ / genre=~ / other=~
 
 
 
@@ -2617,6 +3034,10 @@ zionists
 //template
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
 
+:PHOTO 記録 / 文書：コレポン / #*# / about=スマホ：simカード：移動,with=auショップ：鷺沼店,content=~,other=店頭に行って、実際に、交換してもらう;file-id:2023-04-28_14-58-25_000.jpg / N~
+
+:PHOTO 記録 / 文書：コレポン / #*# / about=１階の居間：クーラー、買い替え,with=~,content=聞き書きのメモ、他,other=task-id.LX0Q(nowa) / N+
+
 :PHOTO 記録 / 文書：コレポン / #*# / about=ネットバンキング。再開手続き。窓口で行いたい。可否、問い合わせ。,with=コールセンター,content=~,other=~ / N+
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=コロナワクチン：接種：申し込み,with=福島内科医院,content=予約を取る：３回目,other=~ / N+
@@ -2671,6 +3092,11 @@ zionists
 
 ###2021年11月21日10:36:52
 ============================ 記録：自然観察
+
+JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @家の近く：ジョナサン横のさかみち：途中：南面して、左手 / target=スズランのような花冠：草ではなく、木本か,occation=~,other=for:sketch
+
+//2023年4月14日22:15:17
+JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @自宅：東側 / target=~,occation=~,other=for:sketch
 
 JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @~ / target=~,occation=~,other
 
@@ -2728,6 +3154,14 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###2021年10月25日9:18:26
 ============================ 
 //：顔 :face
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=寝る直前：経過時間を撮影するとき：オナニー用画像を見た後
+
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=寝る直前：時計を撮影した後か：オナニー用画像を見た後
+
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の直前：盆を、机の上に置いたところか
+
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の用意のあと。らっきょうの調理も行う。
+
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=写真を撮る。自撮り用のスイッチ。試している。ウルスラさんに送る写真。お母さんと。
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=歯磨き中（か？）
@@ -2783,6 +3217,14 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
 
+###2023年6月15日19:15:34
+#DELETE FROM ifm11 WHERE _id <= 61875;
+
+###2023年5月20日18:00:26
+#DELETE FROM ifm11 WHERE _id <= 61514;
+
+###2023年4月26日22:06:29
+#DELETE FROM ifm11 WHERE _id <= 61139;
 
 ###2023年4月3日22:31:02
 #DELETE FROM ifm11 WHERE _id <= 60700;
@@ -3043,35 +3485,39 @@ J0PE
 コレポン
 video_shaku
 video_ilban_
-tome_	]]
 photo_record
-mysl_	]]
 memo_shaku
-books_read	]]
 --------------------
 経過記録
+record_misc
+read_doc_
+read_doc
+read_article
 ph_
 percussion
 m_id_
-lets,haja_	]]
-i_any
 genre_res
 daylog
-article__ ]]
+_ske
 _memo_other
+_des
 --------------------
-read_doc
+
+P7GO
+
+video_uklele
 経過記録用途	]]
 video_shi	]]
+tome_	]]
 res_	]]
-record_misc
-read_doc_
-read_article
-memo_shi
+mysl_	]]
+memo_shi	]]
+lets,haja_	]]
 jilmun_	]]
-_ske
+i_any	]]
+books_read	]]
+article__ ]]
 _memo_shuuji	]]
-_des
 83__
 83#
 82__
