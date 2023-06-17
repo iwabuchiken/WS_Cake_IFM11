@@ -1315,6 +1315,8 @@ p.1:content=~,key=~,for=~,from=~,R=~,item=bowl,hitter=chopstick:2,pieces=~,genr=
 
 :VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / f-2021-061X-X / XX
 
+:VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / item:トイレの扉,hitter=手の指。の、関節部分
+
 :VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=1 / genre=,item=膜を張った筒。：１本,hitter=ボールペン,Re~,memo~,other=本にあったもの：『音のなんでも実験室』；吉澤純夫
 
 :VIDEO / @自室 / 記録 / percussion,rythm / 演奏、play / R=2 / genre=rec-for-accompaniment:video-extract,item=スプレー缶：１本,hitter=ハサミ,Re~,memo~,other=file-id:2022-02-07_18-06-29_000.mp4
@@ -1622,7 +1624,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#298_zairyoo_kenkyuukai / 『材料化学の最前線』 著者=東京都立大学工業化学科分子応用化学研究会,校注=~ / p.128 / w=ゾル－ゲル法,topic=~,publisher=~,other=memo+:アルコキシド；
+:m #*# RES / JVEMV6 64#298_zairyoo_kenkyuukai / 『材料化学の最前線』 著者=東京都立大学工業化学科分子応用化学研究会,校注=~ / p.130 / w=セラミックス；強磁性体；ヘキサシアノ鉄錯体,topic=~,publisher=~,other=memo+:赤血塩
+//memo+:アルコキシド；
 //ske+:sk-id.YYQF:風鈴；ske+:sk-id.KI8U:ガラス職人；memo+:石英ガラス
 
 :m #*# RES / JVEMV6 64#297_ninchi_katoo / 『認知症になるとなぜ「不可解な行動」をとるのか』 著者=加藤伸司,校注=~ / p.27 / w=病識；作話；周辺症状；感情失禁；,topic=~,publisher=~,other=~
@@ -1648,7 +1651,8 @@ memo+:
 :m #*# RES / JVEMV6 64#290_shokunihon_1 / 『新　日本古典文学大系　１２　続日本紀　一』 著者=~,校注=青木和夫、他 / p.3 / w=~,topic=文武天皇,publisher=~,other=~
 
 
-:m 1*1 RES / JVEMV6 64#111_?? / 『宇治拾遺物語　古本説話集　新日本古典文学大系　４２』 校注=三木紀人、他 / p.93 / w=,topic=~,publisher=~,other=ske+:sk-id.3EFF:神社、構造、名称、鳥居；ske+:sk-id.FYMD:国衙；ske+:sk-id.8GGO[オー：衣冠[いかん
+:m 1*1 RES / JVEMV6 64#111_?? / 『宇治拾遺物語　古本説話集　新日本古典文学大系　４２』 校注=三木紀人、他 / p.94 / w=,topic=~,publisher=~,other=memo+:高辻室町：室町小路、高辻通
+//ske+:sk-id.3EFF:神社、構造、名称、鳥居；ske+:sk-id.FYMD:国衙；ske+:sk-id.8GGO[オー：衣冠[いかん
 
 :m #*# RES / JVEMV6 64#288_fanon_skin / 『フランツ・ファノン著作集　Ⅰ　黒い皮膚・白い仮面』 著者=フランツ・ファノン,校注=~ / p.26 / w=植民地化された民族,topic=~,publisher=~,other=~
 
@@ -1699,7 +1703,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.84 / w=；,topic=有病率,publisher=~,other=memo+:結節性硬化症
+:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.92 / w=尾状核；,topic=,publisher=~,other=list+:実験結果。自閉症児、他
 //memo+:メチルフェニデート；list+:エステル、カルボン酸、ギ酸、他。化学式、対照
 //timeline+:診断基準：DSM；memo+:ドリコール；memo+:糖タンパク
 list+:「注意する」；memo+:ワーキングメモリー
@@ -2402,6 +2406,10 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録しておきたいもの, record_misc_
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=自室：ベランダ, location:target=プランター：生えているもの：ヒメジョオン、か。 / subject=~ / content=,other=~
+
+:PHOTO 記録しておきたいもの / location:photo=自室：ベランダ, location:target=プランター：生えているもの：ネジバナ / subject=~ / content=,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=自室, location:target=ヒーター / subject=ヒーター：しまう / content=~,other=~
 
@@ -3159,6 +3167,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=寝る直前：時計を撮影した後か：オナニー用画像を見た後
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の直前：盆を、机の上に置いたところか
+
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=午前中；occasion=台所で、飲み物を用意してきた直後か：額が、険しかったので、おでこを手でさすった。険しさが解けたのを見て、もう一度、撮影する。
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の用意のあと。らっきょうの調理も行う。
 
