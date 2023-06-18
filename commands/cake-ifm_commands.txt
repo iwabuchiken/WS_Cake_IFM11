@@ -1222,7 +1222,7 @@ regex : ]]
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=h-1,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
-======== memo : uklele.okaasn, video_uklele
+======== memo : uklele.okaasn, video_uklele　ウクレレ
 
 regex : ]]
 //[a-z]+=~,
@@ -1230,9 +1230,12 @@ regex : ]]
 	 (<= this : 2021年11月15日10:00:59)]]
 
 //template : basic
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
+:VIDEO / @自宅：１階：居間 / 記録 / uklele,ウクレレ / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=practice,for=~,file-piece-id=~,memo=~,session=2023-06-14_15-37-19_000.mp4,recording-id=~,other=~ / follow~
+:VIDEO / @自宅：１階：居間 / 記録 / uklele,ウクレレ / 演奏、play / R=2 / genre=melody,for=practice:弦２－４は、開放。１弦：開放と、７フレット、交互。,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
+
+:VIDEO / @自宅：１階：居間 / 記録 / uklele,ウクレレ / 演奏、play / R=1 / genre=practice,for=弦：弾き方：指を、上に上げるのではなく。手前に引き寄せる。弦に、力が入り易いか,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
+
 
 ###2022年11月17日10:24:54
 ======== video : video:dance,video_dance
@@ -1624,7 +1627,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#298_zairyoo_kenkyuukai / 『材料化学の最前線』 著者=東京都立大学工業化学科分子応用化学研究会,校注=~ / p.130 / w=セラミックス；強磁性体；ヘキサシアノ鉄錯体,topic=~,publisher=~,other=memo+:赤血塩
+:m #*# RES / JVEMV6 64#298_zairyoo_kenkyuukai / 『材料化学の最前線』 著者=東京都立大学工業化学科分子応用化学研究会,校注=~ / p.130 / w=,topic=~,publisher=~,other=memo+:ヘモグロビン。ヘム（血紅素.cn）。ヘムa。ヘムb
 //memo+:アルコキシド；
 //ske+:sk-id.YYQF:風鈴；ske+:sk-id.KI8U:ガラス職人；memo+:石英ガラス
 
@@ -3515,7 +3518,7 @@ _des
 
 P7GO
 
-video_uklele
+video_uklele	]]
 経過記録用途	]]
 video_shi	]]
 tome_	]]
