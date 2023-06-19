@@ -1627,6 +1627,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#299_jesus_kotoba_arai / 『イエス・キリストの言葉』 著者=荒井献,校注=~ / p.19 / w=八至福の教え；サンヘドリン；,topic=~,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#298_zairyoo_kenkyuukai / 『材料化学の最前線』 著者=東京都立大学工業化学科分子応用化学研究会,校注=~ / p.130 / w=,topic=~,publisher=~,other=memo+:ヘモグロビン。ヘム（血紅素.cn）。ヘムa。ヘムb
 //memo+:アルコキシド；
 //ske+:sk-id.YYQF:風鈴；ske+:sk-id.KI8U:ガラス職人；memo+:石英ガラス
@@ -1706,7 +1708,8 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.92 / w=尾状核；,topic=,publisher=~,other=list+:実験結果。自閉症児、他
+:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.129 / w=紡錘状回；顔認知；,topic=,publisher=~,other=
+//list+:実験結果。自閉症児、他
 //memo+:メチルフェニデート；list+:エステル、カルボン酸、ギ酸、他。化学式、対照
 //timeline+:診断基準：DSM；memo+:ドリコール；memo+:糖タンパク
 list+:「注意する」；memo+:ワーキングメモリー
@@ -1838,6 +1841,9 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
+:m #*# RES / JVEMV6 64#67_17_yooka / 『論語 陽貨』 著者=~,校注=~ / p.391 / w=,topic=道徳、功名、富貴,publisher=明治書院,other=
+//memo+:「邦君之妻」
+
 :m #*# RES / JVEMV6 64#67_16_kishi / 『論語 季氏』 著者=~,校注=~ / p.376 / w=,topic=,publisher=明治書院,other=memo+:「邦君之妻」
 
 :m #*# RES / JVEMV6 64#67_15_eireiko / 『論語 衛霊公』 著者=~,校注=~ / p.342 / w=,topic=,publisher=明治書院,other=memo+:「与之言」「与言之」
@@ -2364,6 +2370,8 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録：開始、終了
 //template
 :PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
+
+:PHOTO 記録 / location=自室 / topic=ゴムひもによる、歯ブラシコップに取り付けている、歯ブラシホルダー。 / for=~ / occasion=交換：ゴムが、引っ張ると、紐の表面が、ギザギザになる。亀裂が、細かいもの、多数。劣化。,other=~
 
 :PHOTO 記録 / location=自室 / topic=アース：ゴキジェットプロ：ゴキブリ用、殺虫スプレー / for=~ / occasion=終了：使い切った,other=~
 
@@ -2956,6 +2964,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XFSI~yan~ya-kyodo~DT / theme=保険証廃止；世論調査,content=共産党、立憲民主、以外の、被調査者の、反対の割合。算出,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=087R~yan~ei~DT / theme=ガザ：子供達：トラウマ,content=~,w=~ / genre=~ / other=~
 
