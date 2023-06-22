@@ -1220,7 +1220,10 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=h-1,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=good-sounds,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+
+
+//for=good-sounds
 
 ======== memo : uklele.okaasn, video_uklele　ウクレレ
 
@@ -1627,6 +1630,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
+:m 2*2 RES / JVEMV6 64#301_seidenki_teii / 『静電気のＡＢＣ』 著者=堤井信力[ていいしんりき],校注=~ / p.16 / w=,topic=~,publisher=~,other=calc+:電子ボルト：電子の速度。最終の。
+
 :m #*# RES / JVEMV6 64#302_shiia_shimamoto / 『シーア派イスラーム　神話と歴史』 著者=嶋本隆光,校注=~ / p.ⅲ / w=サドル師；シースターニー,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#300_kuuki / 『空気のはなし』 著者=稲場秀明,校注=~ / p.ⅱ / w=レイノルズ数,topic=~,publisher=~,other=memo+:空気：特徴；memo+:エアロゾル：種類
@@ -1645,7 +1650,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#294_shinchoo / 『改訂　信長公記』 著者=~,校注=桑田忠親 / p.21 / w=~,topic=~,publisher=~,other=~
 
-:m 1*1 RES / JVEMV6 64#293_nihonkyooto_yamamoto / 『日本教徒』 著者=山本七平,校注=~ / p.51 / w=~,topic=~,publisher=~,other=ske+:sk-id.IDQF:平重盛;timeline+:藤原成親
+:m 2*2 RES / JVEMV6 64#293_nihonkyooto_yamamoto / 『日本教徒』 著者=山本七平,校注=~ / p.61 / w=~,topic=~,publisher=~,other=
+//ske+:sk-id.IDQF:平重盛;timeline+:藤原成親
 //list+:ハビヤン、棄教～キリシタン、禁令
 
 
@@ -1893,6 +1899,9 @@ list+:樹形図：司馬牛；list+:徳目、徳者：仁者、知者
 
 
 G:\photo-books_HD\list-of-books.txt
+
+E:\from_desktop_20230504_113641\log_files\list-of-books__20230508_175413~.txt
+
 
 G:\photo-books_HD\
 
@@ -2986,6 +2995,8 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=0MY6[ゼロ~yan~ya-chungang~DT / theme=韓国；日本；原子力関係機関；廃棄物処理,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XFSI~yan~ya-kyodo~DT / theme=保険証廃止；世論調査,content=共産党、立憲民主、以外の、被調査者の、反対の割合。算出,w=~ / genre=~ / other=~
 
