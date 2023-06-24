@@ -1632,12 +1632,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 2*2 RES / JVEMV6 64#301_seidenki_teii / 『静電気のＡＢＣ』 著者=堤井信力[ていいしんりき],校注=~ / p.16 / w=,topic=~,publisher=~,other=calc+:電子ボルト：電子の速度。最終の。
 
-:m #*# RES / JVEMV6 64#302_shiia_shimamoto / 『シーア派イスラーム　神話と歴史』 著者=嶋本隆光,校注=~ / p.ⅲ / w=サドル師；シースターニー,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#302_shiia_shimamoto / 『シーア派イスラーム　神話と歴史』 著者=嶋本隆光,校注=~ / p.6 / w=正統カリフ時代；カルバラ；ウラマー；,topic=~,publisher=~,other=memo+:アリー：系図；timetable+:サファヴィー朝～カージャール朝礼；list+:ウラマー：分類
 
 :m #*# RES / JVEMV6 64#300_kuuki / 『空気のはなし』 著者=稲場秀明,校注=~ / p.4 / w=,topic=~,publisher=~,other=memo+:窒素：結合距離；calc+:窒素分子：他の分子と衝突するまでの、飛行距離
 //memo+:空気：特徴；memo+:エアロゾル：種類
 
-:m #*# RES / JVEMV6 64#299_jesus_kotoba_arai / 『イエス・キリストの言葉』 著者=荒井献,校注=~ / p.19 / w=八至福の教え；サンヘドリン；,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#299_jesus_kotoba_arai / 『イエス・キリストの言葉』 著者=荒井献,校注=~ / p.34 / w=；,topic=「自分の貧しさを知る人は」,publisher=~,other=q+:神の国、天の国；平和をもたらす人
 
 :m #*# RES / JVEMV6 64#298_zairyoo_kenkyuukai / 『材料化学の最前線』 著者=東京都立大学工業化学科分子応用化学研究会,校注=~ / p.159 / w=TCNE;,topic=~,publisher=~,other=memo+:分子性磁石；memo+:ゼオライト；memo+:アルミノケイ酸塩；memo+:分子長：CO2、H2O；
 //memo+:クロリン；memo+:ピロール；memo+:ピロリン；memo+:２Ｈ－ピロール、３Ｈ－ピロール
@@ -2388,6 +2388,8 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録：開始、終了
 //template
 :PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
+
+:PHOTO 記録 / location=自室 / topic=~ / for=素焚糖[すだきとう / occasion=終了：食べ終わった,other=~
 
 :PHOTO 記録 / location=自室 / topic=ゴムひもによる、歯ブラシコップに取り付けている、歯ブラシホルダー。 / for=~ / occasion=交換：ゴムが、引っ張ると、紐の表面が、ギザギザになる。亀裂が、細かいもの、多数。劣化。,other=~
 
