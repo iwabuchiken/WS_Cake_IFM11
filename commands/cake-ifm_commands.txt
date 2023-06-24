@@ -1634,7 +1634,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#302_shiia_shimamoto / 『シーア派イスラーム　神話と歴史』 著者=嶋本隆光,校注=~ / p.ⅲ / w=サドル師；シースターニー,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#300_kuuki / 『空気のはなし』 著者=稲場秀明,校注=~ / p.ⅱ / w=レイノルズ数,topic=~,publisher=~,other=memo+:空気：特徴；memo+:エアロゾル：種類
+:m #*# RES / JVEMV6 64#300_kuuki / 『空気のはなし』 著者=稲場秀明,校注=~ / p.4 / w=,topic=~,publisher=~,other=memo+:窒素：結合距離；calc+:窒素分子：他の分子と衝突するまでの、飛行距離
+//memo+:空気：特徴；memo+:エアロゾル：種類
 
 :m #*# RES / JVEMV6 64#299_jesus_kotoba_arai / 『イエス・キリストの言葉』 著者=荒井献,校注=~ / p.19 / w=八至福の教え；サンヘドリン；,topic=~,publisher=~,other=~
 
