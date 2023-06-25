@@ -1220,7 +1220,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=good-sounds,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow++
 
 
 //for=good-sounds
@@ -1721,7 +1721,8 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.134 / w=,topic=,publisher=~,other=ske+:サル：表情；list+:認知：始期；list+:自閉症：脳活動；memo+:島皮質
+:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.136 / w=,topic=,publisher=~,other=ske+:表情：ニホンザル；ske+:左下前頭回；ske+:左前前頭回；ske+:側頭溝；
+//ske+:サル：表情；list+:認知：始期；list+:自閉症：脳活動；memo+:島皮質
 //list+:実験結果。自閉症児、他
 //memo+:メチルフェニデート；list+:エステル、カルボン酸、ギ酸、他。化学式、対照
 //timeline+:診断基準：DSM；memo+:ドリコール；memo+:糖タンパク
@@ -2688,6 +2689,8 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
 
 //2023年4月23日17:40:19
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=ニンニク（１）：１０；生姜（１）：１０；梅（小梅）：１０；大葉：１０；ディル：５；；スペアミント：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
+
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=ニンニク（１）：１０；生姜（１）：１０；梅（小梅）：１０；大葉：１０；ローズマリー：５；ディル：５？,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン（１）：１０（単位：スプーン）；ニンニク（２）：１２；生姜（１）：８；生姜（２）：５；梅（小梅）：１０；大葉：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
