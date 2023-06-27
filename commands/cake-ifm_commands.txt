@@ -1220,7 +1220,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow++
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow++
 
 
 //for=good-sounds
@@ -1639,7 +1639,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#299_jesus_kotoba_arai / 『イエス・キリストの言葉』 著者=荒井献,校注=~ / p.34 / w=；,topic=「自分の貧しさを知る人は」,publisher=~,other=q+:神の国、天の国；平和をもたらす人
 
-:m #*# RES / JVEMV6 64#298_zairyoo_kenkyuukai / 『材料化学の最前線』 著者=東京都立大学工業化学科分子応用化学研究会,校注=~ / p.159 / w=TCNE;,topic=~,publisher=~,other=memo+:分子性磁石；memo+:ゼオライト；memo+:アルミノケイ酸塩；memo+:分子長：CO2、H2O；
+:m #*# RES / JVEMV6 64#298_zairyoo_kenkyuukai / 『材料化学の最前線』 著者=東京都立大学工業化学科分子応用化学研究会,校注=~ / p.106 / w=有機アンモニウム化合物；,topic=~,publisher=~,other=list+:元素、比較：アルミニウム、燐、二酸化ケイ素；
 //memo+:クロリン；memo+:ピロール；memo+:ピロリン；memo+:２Ｈ－ピロール、３Ｈ－ピロール
 //memo+:ヘモグロビン。ヘム（血紅素.cn）。ヘムa。ヘムb
 //memo+:アルコキシド；
@@ -1651,7 +1651,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#294_shinchoo / 『改訂　信長公記』 著者=~,校注=桑田忠親 / p.21 / w=~,topic=~,publisher=~,other=~
 
-:m 2*2 RES / JVEMV6 64#293_nihonkyooto_yamamoto / 『日本教徒』 著者=山本七平,校注=~ / p.61 / w=~,topic=~,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#293_nihonkyooto_yamamoto / 『日本教徒』 著者=山本七平,校注=~ / p.89 / w=ベルダック；ツーニ族；熊谷次郎直実；,topic=~,publisher=~,other=memo+:系図：門脇中納言
 //ske+:sk-id.IDQF:平重盛;timeline+:藤原成親
 //list+:ハビヤン、棄教～キリシタン、禁令
 
@@ -2176,6 +2176,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=カーテン　夏用, about=取り付け中,content=~,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=神学メモ, about=~,content=コンゴの奥地の、電気も知らぬ者たち。人なりや。,other=~,id=~ 
 
