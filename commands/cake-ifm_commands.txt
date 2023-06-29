@@ -1652,7 +1652,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#297_ninchi_katoo / 『認知症になるとなぜ「不可解な行動」をとるのか』 著者=加藤伸司,校注=~ / p.27 / w=病識；作話；周辺症状；感情失禁；,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.356 / w=斯波義敏[よしとし；義就[よしなり,topic=~,publisher=~,other=~
+:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.356 / w=晴義；課役；普広院；,topic=~,publisher=~,other=map+:京都市：区：上京区、他；memo+:相国寺。鹿苑院；ske+:方位。干支名。坤。艮
 
 :m #*# RES / JVEMV6 64#294_shinchoo / 『改訂　信長公記』 著者=~,校注=桑田忠親 / p.21 / w=~,topic=~,publisher=~,other=~
 
@@ -1726,7 +1726,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.136 / w=,topic=,publisher=~,other=ske+:表情：ニホンザル；ske+:左下前頭回；ske+:左前前頭回；ske+:側頭溝；
+:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.141 / w=,topic=,publisher=~,other=ske+:M1（１次運動野）；ske+:大脳。サル；ske+:側頭葉。ブローカ野；list+:実験。ミラーニューロン；ske+:実験。ミラーニューロン；q+:実験。ミラーニューロンで行われていること。マッピングか。
 //ske+:サル：表情；list+:認知：始期；list+:自閉症：脳活動；memo+:島皮質
 //list+:実験結果。自閉症児、他
 //memo+:メチルフェニデート；list+:エステル、カルボン酸、ギ酸、他。化学式、対照
@@ -3230,7 +3230,10 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=寝る直前：時計を撮影した後か：オナニー用画像を見た後
 
+//食事の直前
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の直前：盆を、机の上に置いたところか
+
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（篠笛）
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=午前中；occasion=台所で、飲み物を用意してきた直後か：額が、険しかったので、おでこを手でさすった。険しさが解けたのを見て、もう一度、撮影する。
 
