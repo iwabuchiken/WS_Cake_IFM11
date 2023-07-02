@@ -2185,6 +2185,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
 
+:m #*# / memo:other(m:other) / topic=ノートPC：使うとき：準備作業：リスト, about=~,content=~,other=~,id=~ 
+
 :m #*# / memo:other(m:other) / topic=カーテン　夏用, about=取り付け中,content=~,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=神学メモ, about=~,content=コンゴの奥地の、電気も知らぬ者たち。人なりや。,other=~,id=~ 
@@ -2706,6 +2708,8 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
 
 //2023年4月23日17:40:19
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=ニンニク（２）：１０；生姜（２）：１０；大葉：１０；ディル：１０；；スペアミント：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
+
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=ニンニク（１）：１０；生姜（１）：１０；梅（小梅）：１０；大葉：１０；ディル：５；；スペアミント：５,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=ニンニク（１）：１０；生姜（１）：１０；梅（小梅）：１０；大葉：１０；ローズマリー：５；ディル：５？,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
