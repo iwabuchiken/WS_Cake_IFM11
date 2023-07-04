@@ -1048,6 +1048,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=「宇治拾遺」とて何とて：百姓の助けに関わりの無きこと：要なし,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=~ / content=仁斎。以て依るべし…神之無くんば,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=洞察 / content=誤ちを見るに四あり。（人の誤ちを見つけた場合、の意。宮台氏、ビデオニュース、建築家がゲストの回。）,id=~,other=~ / lang=ja
@@ -1223,7 +1225,10 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:和調,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow++
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:和調,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+
+//tech
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=teq,for=trill,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 
 //for=good-sounds
@@ -1653,7 +1658,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#297_ninchi_katoo / 『認知症になるとなぜ「不可解な行動」をとるのか』 著者=加藤伸司,校注=~ / p.27 / w=病識；作話；周辺症状；感情失禁；,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.356 / w=晴義；課役；普広院；,topic=~,publisher=~,other=map+:京都市：区：上京区、他；memo+:相国寺。鹿苑院；ske+:方位。干支名。坤。艮
+:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.357 / w=,topic=~,publisher=~,other=map+:長浜市；memo+:系図：足利義政、足利義視；memo+:山名宗全；memo+:細川勝元；ske+:鑑真
+//map+:京都市：区：上京区、他；memo+:相国寺。鹿苑院；ske+:方位。干支名。坤。艮
 
 :m #*# RES / JVEMV6 64#294_shinchoo / 『改訂　信長公記』 著者=~,校注=桑田忠親 / p.21 / w=~,topic=~,publisher=~,other=~
 
@@ -1727,7 +1733,8 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.141 / w=,topic=,publisher=~,other=ske+:M1（１次運動野）；ske+:大脳。サル；ske+:側頭葉。ブローカ野；list+:実験。ミラーニューロン；ske+:実験。ミラーニューロン；q+:実験。ミラーニューロンで行われていること。マッピングか。
+:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.147 / w=,topic=,publisher=~,other=memo+:内側前頭前野；memo+:HVA（ホモバニリン酸）；memo+:HIAA
+//ske+:M1（１次運動野）；ske+:大脳。サル；ske+:側頭葉。ブローカ野；list+:実験。ミラーニューロン；ske+:実験。ミラーニューロン；q+:実験。ミラーニューロンで行われていること。マッピングか。
 //ske+:サル：表情；list+:認知：始期；list+:自閉症：脳活動；memo+:島皮質
 //list+:実験結果。自閉症児、他
 //memo+:メチルフェニデート；list+:エステル、カルボン酸、ギ酸、他。化学式、対照
