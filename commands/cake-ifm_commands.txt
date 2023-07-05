@@ -1042,11 +1042,13 @@ inne
 
 
 ###2021年6月28日10:15:01
-============================== memo : :th,mysl_
+========================== memo : :th,mysl_
 //th_topics
 //template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=「君子悪居下流」 / content=下流無くんば、上流も亦、不能有之,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=「宇治拾遺」とて何とて：百姓の助けに関わりの無きこと：要なし,id=~,other=~ / lang=ja
 
@@ -1163,7 +1165,10 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=otsu-1(乙音、第１穴),file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:for-practice,for=trill,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 //for=sound:h-7~6~4~3:pitch-Aff;range-chuu-kan;sound:h-4:pitch-~;range-chuu-kan
 
@@ -1225,7 +1230,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:和調,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=otsu-1(乙音、第１穴),file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 //tech
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=teq,for=trill,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
@@ -1658,7 +1663,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#297_ninchi_katoo / 『認知症になるとなぜ「不可解な行動」をとるのか』 著者=加藤伸司,校注=~ / p.27 / w=病識；作話；周辺症状；感情失禁；,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.357 / w=,topic=~,publisher=~,other=map+:長浜市；memo+:系図：足利義政、足利義視；memo+:山名宗全；memo+:細川勝元；ske+:鑑真
+:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.359 / w=,topic=~,publisher=~,other=memo+:赤松次郎法師：系図；memo+:細川勝元；畠山義就
+//map+:長浜市；memo+:系図：足利義政、足利義視；memo+:山名宗全；memo+:細川勝元；ske+:鑑真
 //map+:京都市：区：上京区、他；memo+:相国寺。鹿苑院；ske+:方位。干支名。坤。艮
 
 :m #*# RES / JVEMV6 64#294_shinchoo / 『改訂　信長公記』 著者=~,校注=桑田忠親 / p.21 / w=~,topic=~,publisher=~,other=~
@@ -2006,6 +2012,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=~ / content=タオルについた、血の染み。何らかの酵素。で、溶かせるか？ / status=~ / id=~,genre=~,other=~,
 
 :m :? 1*2 / topic=風鈴：べろ紐：長さ / content=~ / status=~ / id=OF6P[オー],genre=math,other=~,
 
