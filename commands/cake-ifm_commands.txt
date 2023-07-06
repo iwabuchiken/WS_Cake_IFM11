@@ -1230,6 +1230,8 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=実験曲,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=otsu-1(乙音、第１穴),file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 //tech
@@ -2012,6 +2014,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=~ / content=（教えに関する本を読む際に）自分が下す断。その基準は、何ぞ？ / status=~ / id=~,genre=~,other=読んでいるとき：『童子問　下』四十四章,
 
 :m :? #*# / topic=~ / content=タオルについた、血の染み。何らかの酵素。で、溶かせるか？ / status=~ / id=~,genre=~,other=~,
 
