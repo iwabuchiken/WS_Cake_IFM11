@@ -1230,7 +1230,9 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=実験曲,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:ゆったり,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=otsu-1(乙音、第１穴),file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
@@ -1652,7 +1654,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#302_shiia_shimamoto / 『シーア派イスラーム　神話と歴史』 著者=嶋本隆光,校注=~ / p.6 / w=正統カリフ時代；カルバラ；ウラマー；,topic=~,publisher=~,other=memo+:アリー：系図；timetable+:サファヴィー朝～カージャール朝礼；list+:ウラマー：分類
 
-:m 1*2 RES / JVEMV6 64#300_kuuki / 『空気のはなし』 著者=稲場秀明,校注=~ / p.4 / w=,topic=~,publisher=~,other=q+:q-id.S2UB:窒素分子：他の分子と衝突するまでの、飛行距離
+:m 1*1 RES / JVEMV6 64#300_kuuki / 『空気のはなし』 著者=稲場秀明,校注=~ / p.8 / w=,topic=~,publisher=~,other=calc+:空気。水：比較。重量
+//q+:q-id.S2UB:窒素分子：他の分子と衝突するまでの、飛行距離
 //memo+:空気：特徴；memo+:エアロゾル：種類
 
 :m #*# RES / JVEMV6 64#299_jesus_kotoba_arai / 『イエス・キリストの言葉』 著者=荒井献,校注=~ / p.34 / w=；,topic=「自分の貧しさを知る人は」,publisher=~,other=q+:神の国、天の国；平和をもたらす人
@@ -1665,7 +1668,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#297_ninchi_katoo / 『認知症になるとなぜ「不可解な行動」をとるのか』 著者=加藤伸司,校注=~ / p.27 / w=病識；作話；周辺症状；感情失禁；,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.359 / w=,topic=~,publisher=~,other=memo+:赤松次郎法師：系図；memo+:細川勝元；畠山義就
+:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.359 / w=,topic=~,publisher=~,other=memo+:斯波義敏。系図；memo+:伊勢貞親
+//memo+:赤松次郎法師：系図；memo+:細川勝元；畠山義就
 //map+:長浜市；memo+:系図：足利義政、足利義視；memo+:山名宗全；memo+:細川勝元；ske+:鑑真
 //map+:京都市：区：上京区、他；memo+:相国寺。鹿苑院；ske+:方位。干支名。坤。艮
 
@@ -2727,6 +2731,8 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
 
 //2023年4月23日17:40:19
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=ニンニク（１）：１０；生姜（１）：１０；大葉（２）：２；大葉（１）：１０；ディル：１０；；スペアミント：１０,liquor=麦焼酎：銀色のフタ：中瓶ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
+
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=ニンニク（２）：５；生姜（２）：５；大葉（２）：２；大葉（１）：３；ディル：３；；スペアミント：１０,liquor=麦焼酎：銀色のフタ：中瓶ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=ニンニク（２）：１０；生姜（２）：１０；大葉：１０；ディル：１０；；スペアミント：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
@@ -2899,6 +2905,9 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 ============================== :m : res:free : res_
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m #*# RES / free / res-id=EISU / theme=瓶笛：音程、記録 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+//水を入れる：実施しているところを、記録する
 
 :m #*# RES / free / res-id=LZHR:s-id.K7V0 / theme=~ / genre=ジブラルタ生命関連：杉浦さん担当。,content=もらった書類、一連のもの。見返し,w=~ / session-number=~ / doc=~,other=file~ / N+:
 
