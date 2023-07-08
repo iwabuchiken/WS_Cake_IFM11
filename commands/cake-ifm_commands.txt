@@ -1230,6 +1230,9 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
+// basic memo
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow~
+
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:ゆったり,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
@@ -1668,7 +1671,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#297_ninchi_katoo / 『認知症になるとなぜ「不可解な行動」をとるのか』 著者=加藤伸司,校注=~ / p.27 / w=病識；作話；周辺症状；感情失禁；,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.359 / w=,topic=~,publisher=~,other=memo+:斯波義敏。系図；memo+:伊勢貞親
+:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.359 / w=,topic=~,publisher=~,other=memo+:斯波氏。系図；memo+:系図：大内氏
 //memo+:赤松次郎法師：系図；memo+:細川勝元；畠山義就
 //map+:長浜市；memo+:系図：足利義政、足利義視；memo+:山名宗全；memo+:細川勝元；ske+:鑑真
 //map+:京都市：区：上京区、他；memo+:相国寺。鹿苑院；ske+:方位。干支名。坤。艮
@@ -2772,7 +2775,8 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=レモン：１０（単位：スプーン）；ニンニク：１０；生姜：１０；スペアミント：１０；ローズマリー：１０；ディル：１０,liquor=麦焼酎：??ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。ディル、追加。スペアミント、追加。,occasion=経過観察。攪拌してみた。,id=2023-03-22_09-14-26_000.jpg
 
-:PHOTO 記録 / 経過記録 / target=人参：プランターに植えた / other=食用の人参。おせちの際に買ったもの。冷蔵庫。根が生えていた。,occasion=花冠が、出ている。,id=file-id:2023-03-07_11-46-57_000.jpg
+//人参。プランター
+:PHOTO 記録 / 経過記録 / target=人参：プランターに植えた / other=食用の人参。おせちの際に買ったもの。冷蔵庫。根が生えていた。,occasion=花冠の形。変化、あり。,id=file-id:2023-03-07_11-46-57_000.jpg
 
 :PHOTO 記録 / 経過記録 / target=人参：プランターに植えた / other=食用の人参。おせちの際に買ったもの。冷蔵庫。根が生えていた。,occasion=~,id=file-id:2023-03-07_11-46-57_000.jpg
 
