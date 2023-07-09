@@ -1748,7 +1748,8 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.147 / w=,topic=,publisher=~,other=memo+:内側前頭前野；memo+:HVA（ホモバニリン酸）；memo+:HIAA
+:m 1*1 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.100,157 / w=トランスポーター,topic=,publisher=~,other=memo+:アデニン；memo+:ミチン；memo+:ノルアドレナリン；memo+:アドレナリン
+//memo+:内側前頭前野；memo+:HVA（ホモバニリン酸）；memo+:HIAA
 //ske+:M1（１次運動野）；ske+:大脳。サル；ske+:側頭葉。ブローカ野；list+:実験。ミラーニューロン；ske+:実験。ミラーニューロン；q+:実験。ミラーニューロンで行われていること。マッピングか。
 //ske+:サル：表情；list+:認知：始期；list+:自閉症：脳活動；memo+:島皮質
 //list+:実験結果。自閉症児、他
@@ -1970,6 +1971,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //template
 :tome / (lang=ja) / topic=~ / content=~,other=~
+
+:tome / (lang=ja) / topic=~ / content=「須く是れ明白端的にして」（『童子問　下』仁斎）：吾作所楽曲も、亦、如此を宗として,other=~
+
+:tome / (lang=ja) / topic=自然科学。考案（発明）の功夫[くふう]：篠笛の、甲音を出すときの、力を添える風。その風を以て、功夫を行おう。 / content=~,other=~
 
 :tome / (lang=ja) / topic=~ / content=世に聞こえた人たち。縋る習いを廃して、自分で作ろう。,other=~
 
@@ -2370,6 +2375,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『シーア派イスラーム　神話と歴史』 / 著者=嶋本隆光 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『材料化学の最前線』 / 著者=東京都立大学工業化学科分子応用化学研究会 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『消費文化の幻想』 / 著者=井尻千男 / 途中 ここまで
@@ -2484,6 +2491,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
 
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=棚：西側 / subject=神棚用の、小皿。お神酒を入れていた。皿三枚、下げた。 / content=~,other=~
+
 :PHOTO 記録しておきたいもの / location:photo=自室, location:target=尿。風呂場で入れたもの。ペットボトル内。量を記録。 / subject=~ / content=~,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=台所, location:target=吸湿剤 / subject=~ / content=中身を器に空ける。水を加える。経過を見る,other=~
@@ -2566,6 +2575,7 @@ G:\photo-books_HD\list-of-books.txt
 ###2022年6月6日10:02:52
 ============================== :m 保管場所
 :m 保管場所 / what=~ / location=~,expire=~,other=~
+
 
 :m 保管場所 / what=年金：納付用紙 / location=机上：電気スタンド：裏側：PCとの間,expire=2024-03,other=~
 
