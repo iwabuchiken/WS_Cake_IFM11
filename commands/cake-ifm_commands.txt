@@ -1231,7 +1231,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:for-accompaniment,for=accompani:notes:Ef~Gf,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -1649,6 +1649,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#, 64_
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#194_1_ryooshi_tomonaga_1 / 『量子力学　Ⅰ』 著者=朝永振一郎,校注=~ / p.2 / w=空洞輻射；,topic=~,publisher=~,other=memo+:キルヒホッフの法則：自分で、考えてみた
 
 :m #*# RES / JVEMV6 64#303_shoohi_bunka_ijiri / 『消費文化の幻想』 著者=井尻千男,校注=~ / p.ⅰ / w=~,topic=~,publisher=~,other=~
 
