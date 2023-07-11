@@ -1230,8 +1230,11 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
+// basic	: demo
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
+
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:for-accompaniment,for=accompani:notes:Ef~Gf,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:for-accompaniment,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -1437,7 +1440,11 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 
 ###2021年9月9日9:58:39
 ======================== video : ilban,video_ilban_
+
+//template
 :VIDEO / 記録 / topic=~ / for=~,file-id=~,other=~
+
+:VIDEO / 記録 / topic=スマホ：録画アプリ：「編集」の、機能の１つ：録画途中、一時停止。カメラ撮影。やってみた / for=~,file-id=~,other=~
 
 :VIDEO / 記録 / topic=様子：自分 / for=笛を吹いたあとの、自分の様子。どんなものか、撮ってみた。篠笛,file-id=~,other=~
 
@@ -1650,6 +1657,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#XX_-- / 『脳にうれしい音楽のチカラ』 著者=佐藤富雄,校注=~ / p.24 / w=動物脳；,topic=~,publisher=~,other=list+:ヒト族。H.sapiens-sapiens
+
 :m #*# RES / JVEMV6 64#194_1_ryooshi_tomonaga_1 / 『量子力学　Ⅰ』 著者=朝永振一郎,校注=~ / p.2 / w=空洞輻射；,topic=~,publisher=~,other=memo+:キルヒホッフの法則：自分で、考えてみた
 
 :m #*# RES / JVEMV6 64#303_shoohi_bunka_ijiri / 『消費文化の幻想』 著者=井尻千男,校注=~ / p.ⅰ / w=~,topic=~,publisher=~,other=~
@@ -1673,7 +1682,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#297_ninchi_katoo / 『認知症になるとなぜ「不可解な行動」をとるのか』 著者=加藤伸司,校注=~ / p.27 / w=病識；作話；周辺症状；感情失禁；,topic=~,publisher=~,other=~
 
-:m #*# RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.359 / w=,topic=~,publisher=~,other=memo+:斯波氏。系図；memo+:系図：大内氏
+:m 2*2 RES / JVEMV6 64#295_oonin_gunsho / 『群書類従　第二十輯』「応仁記」 著者=続群書類従完成会、発行,校注=~ / p.360 / w=,topic=~,publisher=~,other=memo+:sequence:松王丸～貞宗、勘当；word:蔭涼軒；
 //memo+:赤松次郎法師：系図；memo+:細川勝元；畠山義就
 //map+:長浜市；memo+:系図：足利義政、足利義視；memo+:山名宗全；memo+:細川勝元；ske+:鑑真
 //map+:京都市：区：上京区、他；memo+:相国寺。鹿苑院；ske+:方位。干支名。坤。艮
@@ -2377,6 +2386,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『脳にうれしい音楽のチカラ』 / 著者=佐藤富雄 /
+
 :bookmemo / 読んだ本 / 『シーア派イスラーム　神話と歴史』 / 著者=嶋本隆光 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『材料化学の最前線』 / 著者=東京都立大学工業化学科分子応用化学研究会 / 途中 ここまで
@@ -2746,6 +2757,8 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / 経過記録 / target= / other=,occasion=~,id=~
 
 //2023年4月23日17:40:19
+:PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=ニンニク（１）：１０；生姜（１）：１０；大葉（１）：１０；梅（２）：１０；；スペアミント：１０,liquor=麦焼酎：銀色のフタ：中瓶ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
+
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=ニンニク（１）：１０；生姜（１）：１０；大葉（２）：２；大葉（１）：１０；ディル：１０；；スペアミント：１０,liquor=麦焼酎：銀色のフタ：中瓶ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
 
 :PHOTO 記録 / 経過記録；作ったもの / food=焼酎漬け / material=ニンニク（２）：５；生姜（２）：５；大葉（２）：２；大葉（１）：３；ディル：３；；スペアミント：１０,liquor=麦焼酎：銀色のフタ：中瓶ml,time=~,container=silver-cap-small / type=~,other=作り置きする：混合。,occasion=飲み終わった。,id=~
@@ -3069,6 +3082,8 @@ zionists
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
 
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=0S03~yan~huan~DT / theme=上海協力機構；習近平；講話,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=0MY6[ゼロ~yan~ya-chungang~DT / theme=韓国；日本；原子力関係機関；廃棄物処理,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XFSI~yan~ya-kyodo~DT / theme=保険証廃止；世論調査,content=共産党、立憲民主、以外の、被調査者の、反対の割合。算出,w=~ / genre=~ / other=~
@@ -3283,6 +3298,7 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 //：顔 :face
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=素焚糖を、１袋、食べ終わった。記録の写真を撮るところ。
 
+//オナニー用画像を見た後
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=寝る直前：経過時間を撮影するとき：オナニー用画像を見た後
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=寝る直前：時計を撮影した後か：オナニー用画像を見た後
