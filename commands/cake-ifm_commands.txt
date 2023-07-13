@@ -1897,6 +1897,8 @@ sketch+;
 :m #*# RES / JVEMV6 64#225_wasure / 『もの忘れの脳科学』 著者=苧阪満里子,校注=~ / p.24 / w=符号化；記述的記憶；構音抑制；逆向性健忘；,topic=~,publisher=~,other=~
 
 //rongo_
+:m #*# RES / JVEMV6 64#67_1_gakuji / 『論語 学而』 著者=~,校注=~ / p.19 / w=,topic=為仁之本与,publisher=明治書院,other=memo+:arguement
+
 :m #*# RES / JVEMV6 64#67_17_yooka / 『論語 陽貨』 著者=~,校注=~ / p.391 / w=,topic=道徳、功名、富貴,publisher=明治書院,other=
 //memo+:「邦君之妻」
 
