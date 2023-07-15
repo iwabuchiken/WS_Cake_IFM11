@@ -1048,6 +1048,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=何故、生まれたのか？ / content=働くため。「働く」とは？,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=「君子悪居下流」 / content=下流無くんば、上流も亦、不能有之,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=「宇治拾遺」とて何とて：百姓の助けに関わりの無きこと：要なし,id=~,other=~ / lang=ja
@@ -1656,6 +1658,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#, 64_
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
+
+:m 2*2 RES / JVEMV6 64#309_relativity_special_einstein / 『相対性理論』 著者=アインシュタイン,校注=~,内山龍雄、訳、解説 / p.99 / w=ローレンツ変換；,topic=~,publisher=~,other=~
 
 :m #*# RES / JVEMV6 64#XX_-- / 『脳にうれしい音楽のチカラ』 著者=佐藤富雄,校注=~ / p.24 / w=動物脳；,topic=~,publisher=~,other=list+:ヒト族。H.sapiens-sapiens
 
@@ -2717,6 +2721,10 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / subject=ベランダ：プランター / location=２階：ベランダ / content=,for=定点観測,other=~
 
 :PHOTO 記録 / subject=２階のトイレ：流水用の、桶 / location=２階 / content=天面の、洗い場の箇所：表面の様子：カビの発生の、様子,for=定点観測,other=~
+
+//コロナ　2023年7月15日17:32:18
+:PHOTO 記録 / @自室 / what=体温計：数値 / for=定点観測 / occasion=顔。火照り感、あり。location=,status=~,other= コロナ疑い
+
 // @自室 / what=体温計：数値 / for=定点観測 / occasion=ワクチン：接種後：観察,location=,status=~,other=ここ２－３日	
 :PHOTO 記録 / subject=クーラー：現在、あるもの / location=~ / content=交換を意図：お店に相談に行く際の、参考にと思って、撮影,for=~,other=~
 
