@@ -1764,7 +1764,7 @@ timeline+:グラナダ～モクテスマ～テノチティトラン;map+:ボリ�
 :m #*# RES / JVEMV6 64#92_shokyou / 『書経』 著者=~,校注=~ / p.??(「堯典」) / w=~,topic=~,publisher=明治書院：新釈漢文大系,other=~
 
 //2023年4月7日22:26:44
-:m 2*2 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.100,166 / w=前運動野,topic=,publisher=~,other=memo+:実験：ザメキン等
+:m 2*2 RES / JVEMV6 64#268_hattatsu_sakakihara / 『脳科学と発達障害』 著者=榊原洋一,校注=~ / p.168 / w=；,topic=,publisher=~,other=memo+:実験：プレッセン；memo+:海馬
 //memo+:内側前頭前野；memo+:HVA（ホモバニリン酸）；memo+:HIAA
 //ske+:M1（１次運動野）；ske+:大脳。サル；ske+:側頭葉。ブローカ野；list+:実験。ミラーニューロン；ske+:実験。ミラーニューロン；q+:実験。ミラーニューロンで行われていること。マッピングか。
 //ske+:サル：表情；list+:認知：始期；list+:自閉症：脳活動；memo+:島皮質
@@ -2233,6 +2233,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=~, about=~,content=頭は、神のため。心は、人のため。,other=神父さんが、私に伝えてくれた言葉。おばあちゃんの埋葬のとき。鷺沼教会の神父さん。イタリアの人か。やや小柄。目が、緑色だったか。白髪、半々。埋葬のあとの、食事のときだったか。墓地の近くの、ファミレス。ジョナサンなどの、ほうぼうで見る名前、ではなく。やや、和風の雰囲気だったか。,id=~ 
 
 :m #*# / memo:other(m:other) / topic=ノートPC：使うとき：準備作業：リスト, about=~,content=~,other=~,id=~ 
 
