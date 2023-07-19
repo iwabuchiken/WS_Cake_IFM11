@@ -1659,6 +1659,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
+:m 4-5*5 RES / JVEMV6 64#XX_-- / 『波のしくみ』 著者=佐藤文隆、松下泰雄,校注=~ / p.3 / w=波数；周期,topic=~,publisher=~,other=~
+
 :m #*# RES / JVEMV6 64#305_enka_wajima / 『創られた「日本の心」神話』 著者=輪島祐介,校注=~ / p.9,14 / w=~,topic=~,publisher=~,other=~
 
 :m 2*2 RES / JVEMV6 64#309_relativity_special_einstein / 『相対性理論』 著者=アインシュタイン,校注=~,内山龍雄、訳、解説 / p.99 / w=ローレンツ変換；,topic=~,publisher=~,other=~
