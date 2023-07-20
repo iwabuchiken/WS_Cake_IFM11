@@ -1659,7 +1659,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m 4-5*5 RES / JVEMV6 64#XX_-- / 『波のしくみ』 著者=佐藤文隆、松下泰雄,校注=~ / p.3 / w=波数；周期,topic=~,publisher=~,other=~
+:m 2*2 RES / JVEMV6 64#312_nami / 『波のしくみ』 著者=佐藤文隆、松下泰雄,校注=~ / p.22 / w=線形,topic=~,publisher=~,other=~
+//memo+:波：サイン波；
 
 :m #*# RES / JVEMV6 64#305_enka_wajima / 『創られた「日本の心」神話』 著者=輪島祐介,校注=~ / p.9,14 / w=~,topic=~,publisher=~,other=~
 
@@ -2975,6 +2976,9 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 ============================== :m : res:free : res_
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
+
+:m 2*2 RES / free / res-id=H9ZK(nowa) / theme=~ / genre=math:geometry,content=光、照射：影：長さ,w=~ / session-number=~ / doc=~,other=theorem+
+//known+(知見)
 
 :m #*# RES / free / res-id=EISU / theme=瓶笛：音程、記録 / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 //水を入れる：実施しているところを、記録する
