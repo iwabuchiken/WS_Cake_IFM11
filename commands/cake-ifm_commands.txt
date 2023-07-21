@@ -1236,7 +1236,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=甲音、乙音。行き来,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -1658,6 +1658,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 ======== memo : JVE : 64#, 64_
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
+
+:m 2*2 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.20 / w=結節性硬化症；；,topic=~,publisher=~,other=memo+:疫学：自閉症；
+
+:m 4*4 RES / JVEMV6 64#310_hattatsu_otona / 『ちゃんと知りたい　大人の発達障害がわかる本』 著者=備瀬哲弘、監修,校注=~ / p.12 / w=~,topic=~,publisher=~,other=~
+//memo+:発達障害：種類；memo+:障害：定義；memo+:弁蓋部；
 
 :m 2*2 RES / JVEMV6 64#312_nami / 『波のしくみ』 著者=佐藤文隆、松下泰雄,校注=~ / p.22 / w=線形,topic=~,publisher=~,other=~
 //memo+:波：サイン波；
@@ -2782,6 +2787,8 @@ G:\photo-books_HD\list-of-books.txt
 //atm
 :PHOTO 記録 / subject=ATM：操作画面：残高：入金前 / location=~ / content=~,for=月末の入金,other=~
 
+:PHOTO 記録 / subject=ATM：操作画面：残高：入金前 / location=~ / content=~,for=令和新選組。入会のためのお金、入れる==>入れた。１万円、残高が、増えている。,other=写真は、利用明細票。コンビニを出て、駐車している自転車の上に置いて、撮影。
+
 :PHOTO 記録 / subject=ATM：操作画面 / location=~ / content=~,for=月末の入金：残高：入金後,other=対象：利用明細票
 操作画面
 
@@ -3342,6 +3349,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ============================ 
 //：顔 :face
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=素焚糖を、１袋、食べ終わった。記録の写真を撮るところ。
+
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=部屋の温度の、写真を撮るところ。暑い。何度あるか、記録
 
 //オナニー用画像を見た後
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=寝る直前：経過時間を撮影するとき：オナニー用画像を見た後
