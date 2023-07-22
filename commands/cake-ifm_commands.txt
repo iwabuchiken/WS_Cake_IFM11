@@ -1236,7 +1236,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=甲音、乙音。行き来,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -2784,6 +2784,10 @@ G:\photo-books_HD\list-of-books.txt
 
 :PHOTO 記録 / subject=卵：計量：重さ / location=台所 / content=卵の重さ：割り入れたところ,for=~,other=~
 
+//コンピュータ端末：操作
+//2023年7月22日17:48:06 ~
+:PHOTO 記録 / subject=コンビニ支払い：コンピュータ端末：操作画面 / location=ファミマ：宮前平店（駅北側） / content=~,for=れいわ新選組。入会金、支払い,other=~
+
 //atm
 :PHOTO 記録 / subject=ATM：操作画面：残高：入金前 / location=~ / content=~,for=月末の入金,other=~
 
@@ -3396,6 +3400,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###2021年12月1日19:22:02
 ============================ 寄付
 //2022年7月30日11:49:39
+:PHOTO 記録 / PC画面 / デスクトップPC / subject=れいわ新選組：入会（れいわオーナーズ） / for=~ / amount=JPY:10000, other=コンビニ支払い
+
 :PHOTO 記録 / PC画面 / デスクトップPC / subject=寄付金、入金 / for=IWJ / amount=JPY:8000, other=~
 
 :PHOTO 記録 / PC画面 / デスクトップPC / subject=寄付金、入金 / for=日本共産党 / amount=JPY:3000, other=衆議院議員選挙
