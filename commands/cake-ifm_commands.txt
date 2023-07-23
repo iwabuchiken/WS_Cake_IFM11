@@ -2410,6 +2410,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template	: 目次
 :bookmemo / 読んだ本：読み始め / 『XXX』 / 著者=XXX / 目次
 
+:bookmemo / 読んだ本：読み始め / 『不自然な宇宙』 / 著者=須藤靖 / 目次
+
 :bookmemo / 読んだ本：読み始め / 『アスペルガー症候群と学習障害』 / 著者=榊原洋一 / 目次
 :bookmemo / 読んだ本：読み始め / 『アスペルガー症候群と学習障害』 / 著者=榊原洋一 / 目次：の前の、表紙
 
