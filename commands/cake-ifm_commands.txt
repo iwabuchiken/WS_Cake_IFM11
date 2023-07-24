@@ -1048,6 +1048,8 @@ inne
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
 
+:m :th,mysl / topic=~ / content=蓋し、「孝悌」は、仁の用。,id=~,other=~ / lang=ja
+
 :m :th,mysl / topic=何故、生まれたのか？ / content=働くため。「働く」とは？,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=「君子悪居下流」 / content=下流無くんば、上流も亦、不能有之,id=~,other=~ / lang=ja
@@ -1236,7 +1238,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -1661,7 +1663,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 2*2 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.20 / w=結節性硬化症；；,topic=~,publisher=~,other=memo+:疫学：自閉症；
 
-:m 4*4 RES / JVEMV6 64#310_hattatsu_otona / 『ちゃんと知りたい　大人の発達障害がわかる本』 著者=備瀬哲弘、監修,校注=~ / p.12 / w=~,topic=~,publisher=~,other=~
+:m 1*1 RES / JVEMV6 64#310_hattatsu_otona / 『ちゃんと知りたい　大人の発達障害がわかる本』 著者=備瀬哲弘、監修,校注=~ / p.22 / w=ストレス障害；適応障害；,topic=~,publisher=~,other=memo+:３つ組の障害；memo+:区別：嗜癖行動。依存性
 //memo+:発達障害：種類；memo+:障害：定義；memo+:弁蓋部；
 
 :m 2*2 RES / JVEMV6 64#312_nami / 『波のしくみ』 著者=佐藤文隆、松下泰雄,校注=~ / p.22 / w=線形,topic=~,publisher=~,other=~
@@ -2407,6 +2409,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『トマスによる福音書』 / 著者=荒井献 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『音楽療法士のためのABA入門』 / 著者=中山晶世、二俣泉、竹内康二 / 今回、読んでいない
+
 //template	: 目次
 :bookmemo / 読んだ本：読み始め / 『XXX』 / 著者=XXX / 目次
 
@@ -3140,6 +3146,8 @@ zionists
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
 
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=P6OT~yan~huan~NT / theme=レジオネラ症；感染,content=~,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=0S03~yan~huan~DT / theme=上海協力機構；習近平；講話,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=0MY6[ゼロ~yan~ya-chungang~DT / theme=韓国；日本；原子力関係機関；廃棄物処理,content=~,w=~ / genre=~ / other=~
@@ -3353,7 +3361,7 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 ###2021年10月25日9:18:26
 ============================ 
-//：顔 :face
+//：顔 :face, face_
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=素焚糖を、１袋、食べ終わった。記録の写真を撮るところ。
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=部屋の温度の、写真を撮るところ。暑い。何度あるか、記録
@@ -3365,6 +3373,10 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 //食事の直前
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の直前：盆を、机の上に置いたところか
+
+//記事：読んだあと
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=記事。読んだあと
+
 
 //楽器演奏したあと（篠笛）
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（篠笛）
@@ -3728,6 +3740,7 @@ memo_shi	]]
 lets,haja_	]]
 jilmun_	]]
 i_any	]]
+face_	]]
 books_read	]]
 article__ ]]
 _memo_shuuji	]]
