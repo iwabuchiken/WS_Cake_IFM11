@@ -1661,7 +1661,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m 2*2 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.20 / w=結節性硬化症；；,topic=~,publisher=~,other=memo+:疫学：自閉症；
+:m 2*2 RES / JVEMV6 64#318_1_rongo_shibusawa / 『論語講義　（一）』 著者=渋沢栄一,校注=~ / p.29 / w=；,topic=~,publisher=~,other=timetable+:渋沢栄一。大蔵省～辞職
+
+:m 2*2 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.118 / w=,topic=~,publisher=~,other=memo+:自閉症；list+:モノアミン系；
 
 :m 1*1 RES / JVEMV6 64#310_hattatsu_otona / 『ちゃんと知りたい　大人の発達障害がわかる本』 著者=備瀬哲弘、監修,校注=~ / p.22 / w=ストレス障害；適応障害；,topic=~,publisher=~,other=memo+:３つ組の障害；memo+:区別：嗜癖行動。依存性
 //memo+:発達障害：種類；memo+:障害：定義；memo+:弁蓋部；
@@ -2416,6 +2418,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template	: 目次
 :bookmemo / 読んだ本：読み始め / 『XXX』 / 著者=XXX / 目次
 
+
+:bookmemo / 読んだ本：読み始め / 『縄文時代の考古学　Ⅱ　心と信仰　宗教的観念と社会秩序』(319_joomon_kooko) / 著者=小杉康、他、編 / 目次
+
+:bookmemo / 読んだ本：読み始め / 『日本人の宗教とは何か』 / 著者=山折哲雄、編著 / 目次
 :bookmemo / 読んだ本：読み始め / 『不自然な宇宙』 / 著者=須藤靖 / 目次
 
 :bookmemo / 読んだ本：読み始め / 『アスペルガー症候群と学習障害』 / 著者=榊原洋一 / 目次
