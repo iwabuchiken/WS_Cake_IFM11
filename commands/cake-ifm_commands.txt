@@ -1665,7 +1665,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 2*2 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.118 / w=,topic=~,publisher=~,other=memo+:自閉症；list+:モノアミン系；
 
-:m 1*1 RES / JVEMV6 64#310_hattatsu_otona / 『ちゃんと知りたい　大人の発達障害がわかる本』 著者=備瀬哲弘、監修,校注=~ / p.22 / w=ストレス障害；適応障害；,topic=~,publisher=~,other=memo+:３つ組の障害；memo+:区別：嗜癖行動。依存性
+:m 2*2 RES / JVEMV6 64#310_hattatsu_otona / 『ちゃんと知りたい　大人の発達障害がわかる本』 著者=備瀬哲弘、監修,校注=~ / p.50 / w=；,topic=~,publisher=~,other=memo+:発達障害：治療：方法；memo+:心理療法；memo+:メチルフェニデート；
+//memo+:３つ組の障害；memo+:区別：嗜癖行動。依存性
 //memo+:発達障害：種類；memo+:障害：定義；memo+:弁蓋部；
 
 :m 2*2 RES / JVEMV6 64#312_nami / 『波のしくみ』 著者=佐藤文隆、松下泰雄,校注=~ / p.22 / w=線形,topic=~,publisher=~,other=~
@@ -3151,6 +3152,10 @@ zionists
 ========================== :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=P6OT~yan~huan~NT / theme=技術；イオン膜,content=~,w=~ / genre=~ / other=~ || :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=8R1T~yan~huan~NT / theme=農民工,content=~,w=~ / genre=~ / other=~ || :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=8EVT~yan~huan~NT / theme=アフリカ；債務,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=II94~yan~ya-仙台~DT / theme=レジオネラ症；,content=~,w=~ / genre=~ / other=a-id:メモ紙には、書いていない。書き忘れ
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=P6OT~yan~huan~NT / theme=レジオネラ症；感染,content=~,w=~ / genre=~ / other=~
 
