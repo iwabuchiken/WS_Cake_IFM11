@@ -969,6 +969,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+:m :haja,lets / action activity / やること / genre=~ / content=お母さんのウクレレ。練習に、付き添うか。「人而不仁、如楽何」,other=~
+
 :m :haja,lets / action activity / やること / genre=~ / content=論語の閲読。絵も描き乍,other=~
 
 :m :haja,lets / action activity / やること / genre=~ / content=論語、孟子における、「天」の意味。知りたい。仁斎：「童子問　中」p.139,other=~
@@ -1024,6 +1026,7 @@ inne
 :m 温度 / location=~,for=~,other=~
 
 //2022年8月4日10:30:39
+//room_temp_
 :m 温度 / location=部屋,for=暑い。何度だろうか,other=~
 
 
@@ -1661,6 +1664,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
+:m 4*4 RES / JVEMV6 64#316_uchuu_sudoo / 『不自然な宇宙』 著者=須藤靖,校注=~ / p.160 / w=第二宇宙速度；,topic=プランク長,publisher=~,other=calc+:シュワルツシルト半径。太陽
+
 :m 2*2 RES / JVEMV6 64#318_1_rongo_shibusawa / 『論語講義　（一）』 著者=渋沢栄一,校注=~ / p.29 / w=；,topic=~,publisher=~,other=timetable+:渋沢栄一。大蔵省～辞職
 
 :m 2*2 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.118 / w=,topic=~,publisher=~,other=memo+:自閉症；list+:モノアミン系；
@@ -2250,6 +2255,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=お母さんに、話しを伝える。その、下書き。, about=順の分の、お父さんの遺産。を、振り込む。その際、お母さんの名義の口座へ、入れる。その件に関して、明確にしておきたいこと。（２）ジブラルタ生命。以前に、杉浦さんと話していた、既存の、加入済みの保険案件。名義を、順から私こと謙に変更する話し。どうなった？,content=~,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=~, about=下書き。,content=お兄さんに、メールする。その、下書き。相続、分割。順の分を、振り込む。その、銀行口座。の、番号を、お兄さんに送り返す。その際の、Eメール本文の下書き。それと、メールを送ったあとの、メッセージで、送った旨を連絡する。その伝達文の、下書き。,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=~, about=~,content=お父さんの、預金の相続。お母さんに、順に伝えてくれるように、頼む。その、お母さんに頼むことの、下書き。,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=~, about=~,content=頭は、神のため。心は、人のため。,other=神父さんが、私に伝えてくれた言葉。おばあちゃんの埋葬のとき。鷺沼教会の神父さん。イタリアの人か。やや小柄。目が、緑色だったか。白髪、半々。埋葬のあとの、食事のときだったか。墓地の近くの、ファミレス。ジョナサンなどの、ほうぼうで見る名前、ではなく。やや、和風の雰囲気だったか。,id=~ 
 
@@ -3153,6 +3164,10 @@ zionists
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
 
+:m 2*2 RES / free# S87DP9 記事読み / id~browser~media~machine=YYEA~yan~huan~NT / theme=バングラデシュ；中国；協力；農業；水稲,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=2EFQ~yan~ya-朝鮮日報~DT / theme=~,content=朝鮮戦争；南北朝鮮；帰還,w=~ / genre=~ / other=~
+
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=P6OT~yan~huan~NT / theme=技術；イオン膜,content=~,w=~ / genre=~ / other=~ || :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=8R1T~yan~huan~NT / theme=農民工,content=~,w=~ / genre=~ / other=~ || :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=8EVT~yan~huan~NT / theme=アフリカ；債務,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=II94~yan~ya-仙台~DT / theme=レジオネラ症；,content=~,w=~ / genre=~ / other=a-id:メモ紙には、書いていない。書き忘れ
@@ -3735,7 +3750,7 @@ m_id_
 genre_res
 daylog
 _ske
-_memo_other
+_memo_other	]]
 _des
 --------------------
 
@@ -3745,6 +3760,7 @@ video_uklele	]]
 経過記録用途	]]
 video_shi	]]
 tome_	]]
+room_temp_	]]
 res_	]]
 mysl_	]]
 memo_shi	]]
