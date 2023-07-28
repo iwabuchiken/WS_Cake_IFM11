@@ -2012,6 +2012,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :tome / (lang=ja) / topic=~ / content=~,other=~
 
+:tome / (lang=ja) / topic=~ / content=孟子の言[げん]、一事も以って全撤[擲]す可からず,other=~
+
 :tome / (lang=ja) / topic=~ / content=「須く是れ明白端的にして」（『童子問　下』仁斎）：吾作所楽曲も、亦、如此を宗として,other=~
 
 :tome / (lang=ja) / topic=自然科学。考案（発明）の功夫[くふう]：篠笛の、甲音を出すときの、力を添える風。その風を以て、功夫を行おう。 / content=~,other=~
@@ -3014,6 +3016,8 @@ C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\
 //template //genre_res ↓
 :m #*# RES / free / res-id=~ / theme=~ / genre=~,content=~,w=~ / session-number=~ / doc=~,other=~
 
+:m #*# RES / free / res-id=KJBC / theme=レジオネラ症 / genre=~,content=~,w=細胞内寄生 / session-number=~ / doc=~,other=memo+:レジオネラ症；knowledge+:レジオネラ症：非定型肺炎
+
 :m 2*2 RES / free / res-id=H9ZK(nowa) / theme=~ / genre=math:geometry,content=光、照射：影：長さ,w=~ / session-number=~ / doc=~,other=theorem+
 //known+(知見)
 
@@ -3160,9 +3164,11 @@ zionists
 
 
 ###2021年9月22日10:19:44
-========================== :m : 記事読み, article__
+======================= :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=2LR7~yan~huan~NT / theme=普及的スマート計算能力（計算効能）；「普慧算力」,content=~,w=~ / genre=~ / other=~
 
 :m 2*2 RES / free# S87DP9 記事読み / id~browser~media~machine=YYEA~yan~huan~NT / theme=バングラデシュ；中国；協力；農業；水稲,content=~,w=~ / genre=~ / other=~
 
