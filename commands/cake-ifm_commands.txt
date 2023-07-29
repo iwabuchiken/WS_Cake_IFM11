@@ -1241,7 +1241,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow++
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -1281,6 +1281,17 @@ regex : ]]
 :VIDEO / @自宅 / 体操 / ダンス、dance-original / move=~,for=「足振り」「足回し」,other=~2022-11-16_09-09-49_000.mp4
 
 :VIDEO / @自宅 / 体操 / ダンス、dance-original / move=~,for=「手足左右」,other=~,file-id=2022-11-16_09-11-22_000.mp4
+
+###2023年7月29日17:31:41
+==================== video : knot,結び,video_knot_
+//template
+:VIDEO / @自室 / 記録 / knoten / 実演,perform / knot=~,source-video=~,for=,file-id=,other=
+
+:VIDEO / @自室 / 記録 / knoten / 実演,perform / knot=もやい（palstek.de）,source-video=~,for=解き方,file-id=2023-07-29_10-20-07_000.mp4,other=
+
+
+
+//memo:最後の、止めるための結び：結び方
 
 
 ###2022年1月30日0:49:00
@@ -1670,7 +1681,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 2*2 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.118 / w=,topic=~,publisher=~,other=memo+:自閉症；list+:モノアミン系；
 
-:m 2*2 RES / JVEMV6 64#310_hattatsu_otona / 『ちゃんと知りたい　大人の発達障害がわかる本』 著者=備瀬哲弘、監修,校注=~ / p.50 / w=；,topic=~,publisher=~,other=memo+:発達障害：治療：方法；memo+:心理療法；memo+:メチルフェニデート；
+:m 1*1 RES / JVEMV6 64#310_hattatsu_otona / 『ちゃんと知りたい　大人の発達障害がわかる本』 著者=備瀬哲弘、監修,校注=~ / p.70 / w=；,topic=~,publisher=~,other=memo+:心理療法；memo+:二次障害；memo+:PDD；knowledge+:マグネシウム、ビタミン６。多量摂取。
+//memo+:発達障害：治療：方法；memo+:心理療法；memo+:メチルフェニデート；
 //memo+:３つ組の障害；memo+:区別：嗜癖行動。依存性
 //memo+:発達障害：種類；memo+:障害：定義；memo+:弁蓋部；
 
@@ -2774,6 +2786,11 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
 
+//よく買っている商品：定点観測：お菓子
+:PHOTO 記録 / subject=お菓子（お菓子）：「黒かりんとう」 / location=~ / content=裏面。製品説明欄。,for=重量を変えているかどうか、モニターしたい。製造者が誰か、も。,other=購入先：キャン・ドゥ~
+
+:PHOTO 記録 / subject=お菓子（お菓子）：「白かりんとう」 / location=~ / content=裏面。製品説明欄。,for=重量を変えているかどうか、モニターしたい。製造者が誰か、も。,other=~
+
 :PHOTO 記録 / subject=ウクレレ / location=自宅：居間 / content=左手：位置、形。アーチを作る。手首は、ネックよりも、前。,for=現状、手首が、ネックの下に位置している。指を、４弦まで、届かせれない。,other=~
 
 :PHOTO 記録 / subject=ウクレレ / location=自宅：居間 / content=左手：位置、形。アーチを作る。手首は、ネックよりも、前。,for=~,other=~
@@ -3406,6 +3423,10 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 //食事の直前
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の直前：盆を、机の上に置いたところか
 
+//本：読んだあと
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=本。読んだあと。これから、作ったメモを、写真に撮る
+
+
 //記事：読んだあと
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=記事。読んだあと
 
@@ -3746,7 +3767,7 @@ photo_record
 memo_shaku
 --------------------
 経過記録
-record_misc
+record_misc_		]]
 read_doc_
 read_doc
 read_article
@@ -3761,7 +3782,7 @@ _des
 --------------------
 
 P7GO
-
+video_knot_		]]
 video_uklele	]]
 経過記録用途	]]
 video_shi	]]
