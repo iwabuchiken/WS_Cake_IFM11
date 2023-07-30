@@ -1675,7 +1675,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m 4*4 RES / JVEMV6 64#316_uchuu_sudoo / 『不自然な宇宙』 著者=須藤靖,校注=~ / p.160 / w=第二宇宙速度；,topic=プランク長,publisher=~,other=calc+:シュワルツシルト半径。太陽
+:m 4*4 RES / JVEMV6 64#316_uchuu_sudoo / 『不自然な宇宙』 著者=須藤靖,校注=~ / p.161 / w=第二宇宙速度；,topic=プランク長,publisher=~,other=calc+:プランク長
+//memo+:プランク長
+//質量。電子の、何倍か
+//calc+:シュワルツシルト半径。太陽
 
 :m 2*2 RES / JVEMV6 64#318_1_rongo_shibusawa / 『論語講義　（一）』 著者=渋沢栄一,校注=~ / p.29 / w=；,topic=~,publisher=~,other=timetable+:渋沢栄一。大蔵省～辞職
 
