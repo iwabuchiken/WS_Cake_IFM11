@@ -1172,7 +1172,7 @@ regex : ]]
 //template : basic
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=otsu-1(乙音、第１穴),file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=2023-07-30_18-45-17_000.mp4,memo=~,session=hour-18,recording-id=~,other=~ / follow++
 
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:for-practice,for=trill,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
@@ -1195,7 +1195,7 @@ tech:trill
 :m :篠笛,shinobue #*# / session-memo:session-1 / 1#1 / p.1-<1>:genre=melody:melody-for:kan:new-mouth-shapze,for=~,key=~,notes=~,R=~,file-id=~,piece-id=~,tempo=~,session=hour-15,other=~,musescore=~
 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=record,for=mouth-shape:kan2,file-piece-id=~,session=hour-22,other=~ / follow~
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=record,for=mouth-shape:dai-kan~chuu-kan~kan:h-3,file-piece-id=~,session=hour-18,other=~ / follow~
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=demo,for=音の強弱：徐々に大きく、徐々に小さく,file-piece-id=~,memo=~,session=hour-21,recording-id=~,other=~ / follow~
 
