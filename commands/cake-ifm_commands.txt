@@ -1241,7 +1241,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow++
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -1675,14 +1675,15 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m 4*4 RES / JVEMV6 64#316_uchuu_sudoo / 『不自然な宇宙』 著者=須藤靖,校注=~ / p.161 / w=第二宇宙速度；,topic=プランク長,publisher=~,other=calc+:プランク長
+:m 2*2 RES / JVEMV6 64#316_uchuu_sudoo / 『不自然な宇宙』 著者=須藤靖,校注=~ / p.164 / w=；,topic=,publisher=~,other=memo+:重力。電磁気力。比較
 //memo+:プランク長
 //質量。電子の、何倍か
 //calc+:シュワルツシルト半径。太陽
 
 :m 2*2 RES / JVEMV6 64#318_1_rongo_shibusawa / 『論語講義　（一）』 著者=渋沢栄一,校注=~ / p.29 / w=；,topic=~,publisher=~,other=timetable+:渋沢栄一。大蔵省～辞職
 
-:m 2*2 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.118 / w=,topic=~,publisher=~,other=memo+:自閉症；list+:モノアミン系；
+:m 2*2 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.118 / w=微細脳障害,topic=~,publisher=~,other=
+//memo+:自閉症；list+:モノアミン系；
 
 :m 1*1 RES / JVEMV6 64#310_hattatsu_otona / 『ちゃんと知りたい　大人の発達障害がわかる本』 著者=備瀬哲弘、監修,校注=~ / p.70 / w=；,topic=~,publisher=~,other=memo+:心理療法；memo+:二次障害；memo+:PDD；knowledge+:マグネシウム、ビタミン６。多量摂取。
 //memo+:発達障害：治療：方法；memo+:心理療法；memo+:メチルフェニデート；
@@ -3187,6 +3188,8 @@ zionists
 ======================= :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+
+:m 2*2 RES / free# S87DP9 記事読み / id~browser~media~machine=9E46~yan~huan~NT / theme=IoT;物聯網,content=~,w=~ / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=2LR7~yan~huan~NT / theme=普及的スマート計算能力（計算効能）；「普慧算力」,content=~,w=~ / genre=~ / other=~
 
