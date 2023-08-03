@@ -1675,6 +1675,10 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#321_hattatsu_mecha_suzuki_shinoura / 『発達障害を改善するメカニズムがわかった！』 著者=鈴木昭平、篠浦伸禎[のぶさだ],校注=~ / p.11 / w=~,topic=~,publisher=~,other=memo+:人。使命
+
+:m #*# RES / JVEMV6 64#313_maxwell_takeuchi / 『高等数学でわかるマクスウェル方程式』 著者=竹内淳,校注=~ / p.61 / w=~,topic=~,publisher=~,other=memo+:１秒：セシウム３３：原子時計
+
 :m 2*2 RES / JVEMV6 64#316_uchuu_sudoo / 『不自然な宇宙』 著者=須藤靖,校注=~ / p.164 / w=；,topic=,publisher=~,other=memo+:重力。電磁気力。比較
 //memo+:プランク長
 //質量。電子の、何倍か
@@ -1682,7 +1686,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 2*2 RES / JVEMV6 64#318_1_rongo_shibusawa / 『論語講義　（一）』 著者=渋沢栄一,校注=~ / p.29 / w=；,topic=~,publisher=~,other=timetable+:渋沢栄一。大蔵省～辞職
 
-:m 2*2 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.118 / w=微細脳障害,topic=~,publisher=~,other=
+:m 3*3 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.173 / w=,topic=~,publisher=~,other=memo+:書字。シナリオ、いくつか
 //memo+:自閉症；list+:モノアミン系；
 
 :m 1*1 RES / JVEMV6 64#310_hattatsu_otona / 『ちゃんと知りたい　大人の発達障害がわかる本』 著者=備瀬哲弘、監修,校注=~ / p.70 / w=；,topic=~,publisher=~,other=memo+:心理療法；memo+:二次障害；memo+:PDD；knowledge+:マグネシウム、ビタミン６。多量摂取。
@@ -1861,7 +1865,7 @@ memo+:ヘモグロビン（ヘム部）；
 
 :m #*# RES / JVEMV6 64#246_2_shokun_eto_kobayashi / 『「諸君！」の３０年』  江藤淳、小林秀雄』 著者=~,校注=~ / p.330 / w=~,topic=~,publisher=~,other=一覧：荻生徂徠、本居宣長、他;timetable+:大政奉還、鳥羽伏見の戦い
 
-:m 2*2 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.47 / w=聖徳太子；ヤマトトトヒモモソヒメ；倭迹迹日百襲姫；中臣鎌足；,topic=,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#245_shuukyoo_yamaori_etal / 『日本人の宗教とは何か』 著者=山折哲雄、編著,校注=~ / p.54 / w=ホトタタライススキヒメ；惟神[かんながら],topic=,publisher=~,other=memo+:大物；memo+:「神道」。日本書紀での用例；memo+:用明天皇。系図
 //tl:timeline
 //tl+:
 //list+
@@ -2314,6 +2318,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 :m other / お母さんから　お金もらう / amount=６万６千円 / topic=年金保険料：支払い / total-amount=２ヶ月分：１万６千７００円ｘ２=６万６千円,for=令和５：２ー５月（４ヶ月分）
 
 //月々の小遣い		2023年6月5日19:16:29
+:m other / お母さんから　お金もらう / amount=合計：6万3千円 / topic=月々の小遣い；年金掛金、払込 / total-amount=月々の小遣い：１回分：3x1=３万円;年金掛金：3万3千円（２０２３年、４月、５月）；合計、6.6万円。,for=2022-09
+
 :m other / お母さんから　お金もらう / amount=合計：4万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円;貯金の分：１万円；合計、四万円。ただし、１万円は、すでに使用を始めた。,for=2022-08
 
 :m other / お母さんから　お金もらう / amount=3万円 / topic=月々の小遣い / total-amount=１回分：3x1=３万円,for=2022-07 || :m other / お母さんから　お金もらう / amount=3.3万円 / topic=年金：掛金 / total-amount=２ヶ月分,for=令和４－１２；５－１
@@ -2440,6 +2446,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『日本人の宗教とは何か』 / 著者=山折哲雄、編著 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『高校数学でわかるマクスウェル方程式』 / 著者=竹内淳, other=listへの登録、まだ / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『発達障害を改善するメカニズムがわかった！』 / 著者=鈴木昭平、篠浦伸禎[のぶさだ] / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『トマスによる福音書』 / 著者=荒井献 / 途中 ここまで
 
@@ -2789,6 +2801,9 @@ G:\photo-books_HD\list-of-books.txt
 ====================== :PHOTO 記録:misc, record_misc_
 //template
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
+
+//食べたもの：お菓子類
+:m 記録 / 食べたもの：お菓子類 / target=「ピー最中」（芳甘菓）,memo~,other=お母さんが、朝の体操の、一人からもらった。「いつもありがとう」の趣旨らしい。お歳暮と中元の合わさったもの、のごときか、とのこと。
 
 //よく買っている商品：定点観測：お菓子
 :PHOTO 記録 / subject=お菓子（お菓子）：「黒かりんとう」 / location=~ / content=裏面。製品説明欄。,for=重量を変えているかどうか、モニターしたい。製造者が誰か、も。,other=購入先：キャン・ドゥ~
