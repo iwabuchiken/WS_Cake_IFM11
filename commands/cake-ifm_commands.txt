@@ -2595,8 +2595,12 @@ G:\photo-books_HD\list-of-books.txt
 
 ###2022年5月21日9:24:04
 ========================== 記録しておきたいもの, record_misc_
+
+###2023年8月3日17:38:41
+========================== 記録しておきたいもの, record_want_to_
+
 //template
-:PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+:PHOTO 記録しておきたいもの / location:photo=宮前平公園, location:target=セミ。幼虫。抜け殻。潅木の、葉の先端に、ぶら下がっている。 / subject=セミの幼虫。抜け殻。蝉。 / content=前日、夜。公園内、南、東側。街灯の下、近くを、這って歩いているのを、発見。南側の植え込みに、連れて行く。潅木の、幹に近い、木陰の枝に、取り付かせる。ミケに、餌をあげる。帰りに、そこへ再び戻る。遊び場に面した、潅木の、とある葉むらの、先端に、取り付いている。ぶら下がっている。,other=目が、光沢あり。なんだか、ぶら下がる場所が決まって、嬉しそう。嬉しさに溢れている。そう、映った。
 
 :PHOTO 記録しておきたいもの / location:photo=自室, location:target=棚：西側 / subject=神棚用の、小皿。お神酒を入れていた。皿三枚、下げた。 / content=~,other=~
 
@@ -3434,6 +3438,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 //：顔 :face, face_
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=素焚糖を、１袋、食べ終わった。記録の写真を撮るところ。
 
+// 一回もの：公園。セミの抜け殻を見ている。
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=公園。セミの抜け殻を見ている。,other=関連ファイル：2023-08-02_20-01-14_000.jpg
+
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=部屋の温度の、写真を撮るところ。暑い。何度あるか、記録
 
 //オナニー用画像を見た後
@@ -3451,6 +3458,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 //記事：読んだあと
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=記事。読んだあと
 
+//楽器演奏：最中（篠笛）
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏：最中（篠笛）
 
 //楽器演奏したあと（篠笛）
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（篠笛）
@@ -3788,6 +3797,7 @@ photo_record
 memo_shaku
 --------------------
 経過記録
+record_want_to_
 record_misc_		]]
 read_doc_
 read_doc
