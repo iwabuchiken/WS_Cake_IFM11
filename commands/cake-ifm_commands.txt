@@ -1460,7 +1460,13 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 ======================== video : ilban,video_ilban_
 
 //template
-:VIDEO / 記録 / topic=~ / for=~,file-id=~,other=~
+:VIDEO / 記録 / topic=~ / location=~, occasion=~, for=~,file-id=~,other=~
+
+//ミケ
+:VIDEO / 記録 / topic=クロ。猫。公園 / location=宮前平公園, occasion=いつもの、餌遣り
+食べ終えたあと、ミケは、歩道寄りの場所へ移る。そこで、寝そべる。こちらを見ている。私も、そこへ移動する。ミケの頭や、体を、撫でてあげる。, for=~,file-id=~,other=ミケは、いくらか痩せた。腹のたるみ。普段よりも、少ない。昨日、手でつまんでみた。でれんと、塊が、腹部から遊離して、垂れ下がっていた。昨夜は、触ってみると、垂れてはいる。だが、腹部から分離してはいない。すっと、腹部に繋がっている。（２）顔。頬が、少し、引き締まっているか。（３）胴体。昨夜の限りは、痩せこけた手触り、感じとれなかった。（４）猫エイズの発症、始まっているか。（５）ミケも、また、行く時が来ているか。クロのいるところへ。トラたちのいるところへ。悲しみが、胸の内、にじみ出てくる。
+
+//:VIDEO / @宮前平公園、物置小屋の裏 / 記録 / 猫、クロ / location=階段と、餌遣りの壁の、中間。平らになり始める場所。,occation=クロが、足の周りを動いている；座って、周囲を見ている
 
 :VIDEO / 記録 / topic=スマホ：録画アプリ：「編集」の、機能の１つ：録画途中、一時停止。カメラ撮影。やってみた / for=~,file-id=~,other=~
 
@@ -1686,7 +1692,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 2*2 RES / JVEMV6 64#318_1_rongo_shibusawa / 『論語講義　（一）』 著者=渋沢栄一,校注=~ / p.29 / w=；,topic=~,publisher=~,other=timetable+:渋沢栄一。大蔵省～辞職
 
-:m 3*3 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.173 / w=,topic=~,publisher=~,other=memo+:書字。シナリオ、いくつか
+:m 2*2 RES / JVEMV6 64#314_asperger_sakakihara / 『アスペルガー症候群と学習障害』 著者=榊原洋一,校注=~ / p.173 / w=；,topic=~,publisher=~,other=memo+:前頭前野：機能、損傷；memo+:ワーキングメモリー：機能。全体図
+//memo+:書字。シナリオ、いくつか
 //memo+:自閉症；list+:モノアミン系；
 
 :m 1*1 RES / JVEMV6 64#310_hattatsu_otona / 『ちゃんと知りたい　大人の発達障害がわかる本』 著者=備瀬哲弘、監修,校注=~ / p.70 / w=；,topic=~,publisher=~,other=memo+:心理療法；memo+:二次障害；memo+:PDD；knowledge+:マグネシウム、ビタミン６。多量摂取。
@@ -2460,6 +2467,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template	: 目次
 :bookmemo / 読んだ本：読み始め / 『XXX』 / 著者=XXX / 目次
 
+:bookmemo / 読んだ本：読み始め / 『つながるいのち　生物多様性からのメッセージ』 / 著者=日本環境ジャーナリストの会、著 / 目次
 
 :bookmemo / 読んだ本：読み始め / 『縄文時代の考古学　Ⅱ　心と信仰　宗教的観念と社会秩序』(319_joomon_kooko) / 著者=小杉康、他、編 / 目次
 
@@ -3510,7 +3518,12 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ============================ różnorodny
 //2022年10月22日10:27:32
 ---------------------------- daylog
-:m / daylog メモ / partial / 2022
+//template
+:m / daylog メモ / date=~ / other=~ / 2023
+
+:m / daylog メモ / date=0802;0803 / other=~ / 2023
+
+//:m / daylog メモ / partial / 2022
 
 //:m / daylog メモ / partial / 2022-1127
 
