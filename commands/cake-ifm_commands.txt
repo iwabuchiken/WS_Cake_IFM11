@@ -1241,7 +1241,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=pitch-range:kan~chuu-kan/ follow++
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
