@@ -1241,7 +1241,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=pitch-range:kan~chuu-kan/ follow++
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -3521,11 +3521,11 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###2022年10月22日10:22:32
 ============================ różnorodny
 //2022年10月22日10:27:32
----------------------------- daylog
+---------------------------- daylog_
 //template
 :m / daylog メモ / date=~ / other=~ / 2023
 
-:m / daylog メモ / date=0802;0803 / other=~ / 2023
+:m / daylog メモ / date=0804;0805;0807 / other=~ / 2023
 
 //:m / daylog メモ / partial / 2022
 
@@ -3823,7 +3823,7 @@ ph_
 percussion
 m_id_
 genre_res
-daylog
+daylog_		]]
 _ske
 _memo_other	]]
 _des
