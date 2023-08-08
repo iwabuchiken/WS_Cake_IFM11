@@ -654,7 +654,7 @@ regex : ]]
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
 //edit : pages
-:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody,key=~,session=hour-18,R=~,tempo=~,file-id=~,for=write-out:loc=0.13~,other=video-id.VID_20230609_183533 \\\ p.1-<2>:genre=melody:add,key=~,session=hour-18,R=3,tempo=~,other=video-id.VID_20230609_183533
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody:お囃子,key=~,session=hour-18,R=~,tempo=~,file-id=~,for=,loc=0.13~,other=~
 //for=write-out:VID_20230609_183533
  \\\  p.1-<2>:genre=melody,key=~,session=hour-18,R=3,tempo=~
 
@@ -1241,7 +1241,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:nihon-like,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:otsu / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -2822,6 +2822,10 @@ G:\photo-books_HD\list-of-books.txt
 :m 記録 / 食べたもの：お菓子類 / target=「ピー最中」（芳甘菓）,memo~,other=お母さんが、朝の体操の、一人からもらった。「いつもありがとう」の趣旨らしい。お歳暮と中元の合わさったもの、のごときか、とのこと。
 
 //よく買っている商品：定点観測：お菓子
+:PHOTO 記録 / subject=お菓子（お菓子）：「お好みかりんとう」（みんなのおやつ） / location=~ / content=裏面。製品説明欄。,for=重量を変えているかどうか、モニターしたい。製造者が誰か、も。,other=購入先：クリエイト；製造者＝常磐堂製菓
+
+:PHOTO 記録 / subject=お菓子（お菓子）：「黒かりんとう」（みんなのおやつ） / location=~ / content=裏面。製品説明欄。,for=重量を変えているかどうか、モニターしたい。製造者が誰か、も。,other=購入先：クリエイト；製造者＝夏目製菓
+
 :PHOTO 記録 / subject=お菓子（お菓子）：「黒かりんとう」 / location=~ / content=裏面。製品説明欄。,for=重量を変えているかどうか、モニターしたい。製造者が誰か、も。,other=購入先：キャン・ドゥ~
 
 :PHOTO 記録 / subject=お菓子（お菓子）：「白かりんとう」 / location=~ / content=裏面。製品説明欄。,for=重量を変えているかどうか、モニターしたい。製造者が誰か、も。,other=~
@@ -3220,7 +3224,9 @@ zionists
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
 
-:m 2*2 RES / free# S87DP9 記事読み / id~browser~media~machine=9E46~yan~huan~NT / theme=IoT;物聯網,content=~,w=~ / genre=~ / other=~
+:m 1*2 RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+
+:m 2*2 RES / free# S87DP9 記事読み / id~browser~media~machine=N4LY~yan~huan~NT;RTF0~yan~huan~NT / theme=量子計算；職業学校：卒業生、就職を希望せず,content=~,w=DNA測序技術（中国語）;総工会労模工匠創新智庫（中国語） / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=2LR7~yan~huan~NT / theme=普及的スマート計算能力（計算効能）；「普慧算力」,content=~,w=~ / genre=~ / other=~
 
