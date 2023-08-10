@@ -1175,7 +1175,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=2023-07-30_18-45-17_000.mp4,memo=~,session=hour-18,recording-id=~,other=~ / follow++
 
 
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:for-practice,for=trill,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody:for-practice,for=trill,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:kan~chuu-kan / follow+
 
 //for=sound:h-7~6~4~3:pitch-Aff;range-chuu-kan;sound:h-4:pitch-~;range-chuu-kan
 
@@ -1241,7 +1241,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:nihon-like,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:otsu / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:otsu / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -1464,6 +1464,8 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 //template
 :VIDEO / 記録 / topic=~ / location=~, occasion=~, for=~,file-id=~,other=~
 
+:VIDEO / 記録 / topic=お祈りしている姿。自撮り。 / location=自室, occasion=篠笛、演奏終わり。続いて、お祈り。魔法ポット、氷を入れてある。ゆする。音が出る。, for=~,file-id=~,other=~
+
 //ミケ
 :VIDEO / 記録 / topic=クロ。猫。公園 / location=宮前平公園, occasion=いつもの、餌遣り
 食べ終えたあと、ミケは、歩道寄りの場所へ移る。そこで、寝そべる。こちらを見ている。私も、そこへ移動する。ミケの頭や、体を、撫でてあげる。, for=~,file-id=~,other=ミケは、いくらか痩せた。腹のたるみ。普段よりも、少ない。昨日、手でつまんでみた。でれんと、塊が、腹部から遊離して、垂れ下がっていた。昨夜は、触ってみると、垂れてはいる。だが、腹部から分離してはいない。すっと、腹部に繋がっている。（２）顔。頬が、少し、引き締まっているか。（３）胴体。昨夜の限りは、痩せこけた手触り、感じとれなかった。（４）猫エイズの発症、始まっているか。（５）ミケも、また、行く時が来ているか。クロのいるところへ。トラたちのいるところへ。悲しみが、胸の内、にじみ出てくる。
@@ -1677,11 +1679,28 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m RES 1*1 / free# JVEMV6 76#_51:1:p.2（追加メモ） / 76. theoretical-physics(tp) / w=~,topics=~,other=~,s=~,i=~,doc=~
 
+###2023年8月10日18:02:32
+======== memo : task_
+//template
+:m #*# task / id=~, topic=~, genre=~ / w=~,other=~
+
+:m #*# task / id=69QL, topic=programming:pattern-recognition, genre=programming / w=ポアソン分布；,other=~
+
 
 ###2021年6月27日11:30:52
 ======== memo : JVE : 64#, 64_
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
+
+:m 4*4 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p.124;seg-1 / w=,topic=~,publisher=オーム社,other=memo+:力のモーメント；
+
+:m 3*3 RES / JVEMV6 64#328_hattatsu_oota_etal / 『発達障害』 著者=太田昌孝、編著,校注=~ / p.ⅲ / w=~,topic=~,publisher=日本評論社,other=memo+:ICD-10;memo+:発達障害：診断；
+//timetable+:発達障害：研究。概念整備。マニュアル確立；memo+:DSM-Ⅲ-R;
+//memo+:発達障害：特徴；memo+:発達障害：カテゴリー；
+
+:m 2*2 RES / JVEMV6 64#324_tsunagaru_inochi / 『つながるいのち　生物多様性からのメッセージ』 著者=日本環境ジャーナリストの会,校注=~ / p.10 / w=~,topic=~,publisher=山と渓谷社,other=memo+:ske+:ニホンジカ；ske+:ヤマネ；ske+:ヤマアカガエル；
+
+//map+:上野村（群馬県）；ske+:カジカ；map+:石巻市；memo+:ツキノワグマ；map+:軽井沢町；
 
 :m 2*2 RES / JVEMV6 64#325_shizen_torae_ezaki / 『自然を捉えなおす　競争とつながりの生態学』 著者=江崎保男,校注=~ / p.ⅲ / w=；,topic=~,publisher=~,other=memo+:常緑樹；ske+:タブノキ。葉っぱ；ske+:コナラ。樹皮；map+:豊岡市；map+:東根市。八幡市；map+:伊吹山。木曽川。中央アルプス
 
@@ -3535,7 +3554,7 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 //template
 :m / daylog メモ / date=~ / other=~ / 2023
 
-:m / daylog メモ / date=0804;0805;0807 / other=~ / 2023
+:m / daylog メモ / date=0806;0808;0809 / other=~ / 2023
 
 //:m / daylog メモ / partial / 2022
 
@@ -3845,6 +3864,7 @@ video_uklele	]]
 経過記録用途	]]
 video_shi	]]
 tome_	]]
+task_	]]
 room_temp_	]]
 res_	]]
 mysl_	]]
