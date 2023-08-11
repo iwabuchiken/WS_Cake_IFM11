@@ -1241,7 +1241,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:otsu / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -1694,7 +1694,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m 4*4 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p.124;seg-1 / w=,topic=~,publisher=オーム社,other=memo+:力のモーメント；
 
-:m 3*3 RES / JVEMV6 64#328_hattatsu_oota_etal / 『発達障害』 著者=太田昌孝、編著,校注=~ / p.ⅲ / w=~,topic=~,publisher=日本評論社,other=memo+:ICD-10;memo+:発達障害：診断；
+:m 2*2 RES / JVEMV6 64#328_hattatsu_oota_etal / 『発達障害』 著者=太田昌孝、編著,校注=~ / p.7 / w=,topic=~,publisher=日本評論社,other=memo+:医療教育；memo+:医療教育：条件；
+//memo+:ICD-10;memo+:発達障害：診断；
 //timetable+:発達障害：研究。概念整備。マニュアル確立；memo+:DSM-Ⅲ-R;
 //memo+:発達障害：特徴；memo+:発達障害：カテゴリー；
 
