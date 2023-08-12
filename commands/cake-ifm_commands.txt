@@ -2495,6 +2495,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template	: 目次
 :bookmemo / 読んだ本：読み始め / 『XXX』 / 著者=XXX / 目次
 
+:bookmemo / 読んだ本：読み始め / 『発達障害』 / 著者=太田昌孝、編著 / 目次
+
 :bookmemo / 読んだ本：読み始め / 『つながるいのち　生物多様性からのメッセージ』 / 著者=日本環境ジャーナリストの会、著 / 目次
 
 :bookmemo / 読んだ本：読み始め / 『縄文時代の考古学　Ⅱ　心と信仰　宗教的観念と社会秩序』(319_joomon_kooko) / 著者=小杉康、他、編 / 目次
