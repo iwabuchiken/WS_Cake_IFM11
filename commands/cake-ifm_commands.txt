@@ -969,6 +969,8 @@ atom,genr=~,for=~,key=~,tempo=~,R=~,i.f.=~,memo=~,elements=~,notes=,ReX,other=~
 //:m :lets / action activity / やること / genre=XXX / content=XXX
 :m :haja,lets / action activity / やること / genre=~ / content=~,other=~
 
+:m :haja,lets / action activity / やること / genre=書く / content=冷害　＝＞　身売り。の間に、もう１段階、ある。小作料。減免なし。,other=~
+
 :m :haja,lets / action activity / やること / genre=~ / content=お母さんのウクレレ。練習に、付き添うか。「人而不仁、如楽何」,other=~
 
 :m :haja,lets / action activity / やること / genre=~ / content=論語の閲読。絵も描き乍,other=~
@@ -1050,6 +1052,8 @@ inne
 //template
 //:m :th / topic=~ / content=~,other=~ / lang=ja
 :m :th,mysl / topic=~ / content=~,id=~,other=~ / lang=ja
+
+:m :th,mysl / topic=やっていることについて / content=今時点に於いて。神様からの指示、か：①物理について、いまやっていること。②発達障害についての、調べ。,id=~,other=~ / lang=ja
 
 :m :th,mysl / topic=~ / content=蓋し、「孝悌」は、仁の用。,id=~,other=~ / lang=ja
 
@@ -1684,7 +1688,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# task / id=~, topic=~, genre=~ / w=~,other=~
 
-:m #*# task / id=69QL, topic=programming:pattern-recognition, genre=programming / w=ポアソン分布；,other=~
+:m 3*3 task / id=69QL, topic=programming:pattern-recognition;ポアソン分布。計算。ガチャ；, genre=programming / w=ポアソン分布；,other=~
 
 
 ###2021年6月27日11:30:52
@@ -2119,6 +2123,20 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo : :? :jilmun_
 //template
 :m :? #*# / topic=~ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=数学 / content=(A=2^x):Aの桁数。ｘとの関係は？ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=~ / content=ヒアルロン酸。似た成分は？ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=数学 / content=(y=(1/x^a)):y の、ｎ回微分。ｎが無限大。微分値の、極限は？
+
+:m :? #*# / topic=数学 / content=二項係数。それぞれ、unique か？ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=医学：口内菌。どんなもの、存在？；化学：ゴム。なぜ、伸びるのか？；韓国人。コメの、消費量。；韓国。米どころ、どこか？ / content=~ / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=重力。引力。 / content=地球を、いくつかに区切る。それぞれの区画。地表にいる人間と、引き合う。全体として、引力、いかほど。 / status=~ / id=~,genre=~,other=~,
+
+:m :? #*# / topic=化学 / content=「フッ化水素」。代替物。または、代替技術。何か？ / status=~ / id=~,genre=~,other=~,
 
 :m :? #*# / topic=~ / content=（教えに関する本を読む際に）自分が下す断。その基準は、何ぞ？ / status=~ / id=~,genre=~,other=読んでいるとき：『童子問　下』四十四章,
 
@@ -3249,6 +3267,10 @@ zionists
 ======================= :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=F3JC~yan~ya-クーリエ~NT / theme=中国EV市場；推移；計算。推定,content=~,w=~ / genre=~ / other=found+:EV市場。年に５％成長。現在、３３％。９年後、５１．７１％;q+:成長する市場。縮小する市場。それぞれで、シェアを求める；memo+:中国。国内販売。台数；
+
+:m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=OHAX~yan~ya-cns~DT / theme=~,content=~,w=スマート装備製造；ハイテクスマートハードウェア； / genre=~ / other=~
 
 :m 1*2 RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
 
