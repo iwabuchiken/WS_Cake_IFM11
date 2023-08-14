@@ -1245,7 +1245,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:,for=,file-piece-id=2023-08-13_18-27-40_000.mp4,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -1696,6 +1696,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
+:m #*# RES / JVEMV6 64#318_1_rongo_shibusawa / 『論語講義　（一）』 著者=渋沢栄一,校注=~ / p.69 / w=~,topic=~,publisher=~,other=memo+:thoughts:渋沢の文章への、意見。;memo+:図式：渋沢の、家を初めて出たときの、出来事の推移。
+
 :m 4*4 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p.124;seg-1 / w=,topic=~,publisher=オーム社,other=memo+:力のモーメント；
 
 :m 2*2 RES / JVEMV6 64#328_hattatsu_oota_etal / 『発達障害』 著者=太田昌孝、編著,校注=~ / p.7 / w=,topic=~,publisher=日本評論社,other=memo+:医療教育；memo+:医療教育：条件；
@@ -1713,7 +1715,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#313_maxwell_takeuchi / 『高等数学でわかるマクスウェル方程式』 著者=竹内淳,校注=~ / p.61 / w=~,topic=~,publisher=~,other=memo+:１秒：セシウム３３：原子時計
 
-:m 2*2 RES / JVEMV6 64#316_uchuu_sudoo / 『不自然な宇宙』 著者=須藤靖,校注=~ / p.164 / w=；,topic=,publisher=~,other=memo+:重力。電磁気力。比較
+:m 1*1 RES / JVEMV6 64#316_uchuu_sudoo / 『不自然な宇宙』 著者=須藤靖,校注=~ / p.170 / w=；,topic=,publisher=~,other=memo+:calc+:原子番号。質量数。関係
 //memo+:プランク長
 //質量。電子の、何倍か
 //calc+:シュワルツシルト半径。太陽
@@ -2496,6 +2498,11 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『不自然な宇宙』 / 著者=須藤靖 / 途中 ここまで
+
+
+:bookmemo / 読んだ本 / 『論語講義　（一）』 著者=渋沢栄一 / 途中 ここまで
+
 :bookmemo / 読んだ本 / 『波のしくみ』 / 著者=佐藤文隆、松下泰雄 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『アスペルガー症候群と学習障害』 / 著者=榊原洋一 / 途中（終了）
@@ -2510,8 +2517,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :bookmemo / 読んだ本 / 『音楽療法士のためのABA入門』 / 著者=中山晶世、二俣泉、竹内康二 / 今回、読んでいない
 
-//template	: 目次
+//template	: 目次,mokuji_
 :bookmemo / 読んだ本：読み始め / 『XXX』 / 著者=XXX / 目次
+
+:bookmemo / 読んだ本：読み始め / 『音楽を愛でるサル　なぜヒトだけが愉しめるのか』 / 著者=正高信男 / 目次
+
+:bookmemo / 読んだ本：読み始め / 『不自然な宇宙』 / 著者=須藤靖 / 目次
 
 :bookmemo / 読んだ本：読み始め / 『発達障害』 / 著者=太田昌孝、編著 / 目次
 
@@ -3893,6 +3904,7 @@ task_	]]
 room_temp_	]]
 res_	]]
 mysl_	]]
+mokuji_		目次]]
 memo_shi	]]
 lets,haja_	]]
 jilmun_	]]
