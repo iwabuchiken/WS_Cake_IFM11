@@ -1698,7 +1698,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#318_1_rongo_shibusawa / 『論語講義　（一）』 著者=渋沢栄一,校注=~ / p.69 / w=~,topic=~,publisher=~,other=memo+:thoughts:渋沢の文章への、意見。;memo+:図式：渋沢の、家を初めて出たときの、出来事の推移。
 
-:m 3*3 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p.127 / w=ラプラス変換；,topic=~,publisher=オーム社,other=memo+:軸。運動方程式；
+:m 3*3 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p.140 / w=,topic=~,publisher=オーム社,other=found+:減衰係数：推移
+//memo+:「例題７－１」
+//memo+:軸。運動方程式；
 //memo+:
 
 :m 2*2 RES / JVEMV6 64#328_hattatsu_oota_etal / 『発達障害』 著者=太田昌孝、編著,校注=~ / p.7 / w=,topic=~,publisher=日本評論社,other=memo+:医療教育；memo+:医療教育：条件；
@@ -2330,6 +2332,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
 
+//篠笛,shinobue
+:m #*# / memo:other(m:other) / topic=篠笛。shinobue, about=口の形：「中甲音」：h-7f,content=~,other=~,id=~ 
+
+//お母さん関連
+:m #*# / memo:other(m:other) / topic=お母さん関連。やる必要のあること。箇条出し（リストアプ））, about=~,content=電化製品、種々。購入；教会。新しいところ。付き添い；杉浦さん。面談。；遺骨。移動。府中のお墓へ。お母さんの父親の、姉。（この、遺骨の件。メモには、記入していない。撮影後の日時に、お母さんより、口頭で受ける。ボイス録音に、入れてある。日付。本日）,other=~,id=~ 
+
 :m #*# / memo:other(m:other) / topic=お母さんに、話しを伝える。その、下書き。, about=順の分の、お父さんの遺産。を、振り込む。その際、お母さんの名義の口座へ、入れる。その件に関して、明確にしておきたいこと。（２）ジブラルタ生命。以前に、杉浦さんと話していた、既存の、加入済みの保険案件。名義を、順から私こと謙に変更する話し。どうなった？,content=~,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=~, about=下書き。,content=お兄さんに、メールする。その、下書き。相続、分割。順の分を、振り込む。その、銀行口座。の、番号を、お兄さんに送り返す。その際の、Eメール本文の下書き。それと、メールを送ったあとの、メッセージで、送った旨を連絡する。その伝達文の、下書き。,other=~,id=~ 
@@ -2668,6 +2676,14 @@ G:\photo-books_HD\list-of-books.txt
 ========================== 記録しておきたいもの, record_want_to_
 
 //template
+:PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=~ / content=~,other=~
+
+//掃除：トイレ：便器
+:PHOTO 記録しておきたいもの / location:photo=トイレ, location:target=トイレの便器 / subject=手順：便器。洗浄。 / content=便器。内側。洗浄剤を使って、洗浄。ほぼ、定期的。,other=~
+
+//修理
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=ケーブル。スマホ用。 / subject=ケーブル。修理。手順 / content=スマホ側の端部。端子と、コードの接続部。被覆が破れてしまっている。以前に、一度、ガムテープで補修した。今回、付け直す。,other=~
+
 :PHOTO 記録しておきたいもの / location:photo=宮前平公園, location:target=セミ。幼虫。抜け殻。潅木の、葉の先端に、ぶら下がっている。 / subject=セミの幼虫。抜け殻。蝉。 / content=前日、夜。公園内、南、東側。街灯の下、近くを、這って歩いているのを、発見。南側の植え込みに、連れて行く。潅木の、幹に近い、木陰の枝に、取り付かせる。ミケに、餌をあげる。帰りに、そこへ再び戻る。遊び場に面した、潅木の、とある葉むらの、先端に、取り付いている。ぶら下がっている。,other=目が、光沢あり。なんだか、ぶら下がる場所が決まって、嬉しそう。嬉しさに溢れている。そう、映った。
 
 :PHOTO 記録しておきたいもの / location:photo=自室, location:target=棚：西側 / subject=神棚用の、小皿。お神酒を入れていた。皿三枚、下げた。 / content=~,other=~
@@ -3279,6 +3295,8 @@ zionists
 ======================= :m : 記事読み, article__
 //template
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=XX~XX~XX~XX / theme=~,content=~,w=~ / genre=~ / other=~
+
+:m 4*4 RES / free# S87DP9 記事読み / id~browser~media~machine=MABL~yan~huan~NT / theme=~,content=~,w=試点院校 / genre=~ / other=~
 
 :m #*# RES / free# S87DP9 記事読み / id~browser~media~machine=F3JC~yan~ya-クーリエ~NT / theme=中国EV市場；推移；計算。推定,content=~,w=~ / genre=~ / other=found+:EV市場。年に５％成長。現在、３３％。９年後、５１．７１％;q+:成長する市場。縮小する市場。それぞれで、シェアを求める；memo+:中国。国内販売。台数；
 
