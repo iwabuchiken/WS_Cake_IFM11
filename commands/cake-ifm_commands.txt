@@ -1698,7 +1698,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#318_1_rongo_shibusawa / 『論語講義　（一）』 著者=渋沢栄一,校注=~ / p.69 / w=~,topic=~,publisher=~,other=memo+:thoughts:渋沢の文章への、意見。;memo+:図式：渋沢の、家を初めて出たときの、出来事の推移。
 
-:m 3*3 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p.140 / w=,topic=~,publisher=オーム社,other=found+:減衰係数：推移
+:m 4*4 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p147 / w=,topic=,publisher=オーム社,other=memo+:計算トルク法
+//calc+:伝達関数。計算。Pのとき。PDのとき。
+//memo+:例題。７－５；memo+:ξの値。減衰係数。１か、それ以下。
 //memo+:「例題７－１」
 //memo+:軸。運動方程式；
 //memo+:
@@ -2506,6 +2508,12 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『音楽を愛でるサル　なぜヒトだけが愉しめるのか』 / 著者=正高信男 / 途中 「ここまで」は、なし
+
+:bookmemo / 読んだ本 / 『発達障害』 / 著者=太田昌孝、編著 / 途中 「ここまで」は、別途（ページ撮影のフォルダに、入れてある）
+
+:bookmemo / 読んだ本 / 『カミと神　アニミズム宇宙の旅』 / 著者=岩田慶治 / 今回、読んでいない
 
 :bookmemo / 読んだ本 / 『不自然な宇宙』 / 著者=須藤靖 / 途中 ここまで
 
