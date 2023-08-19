@@ -1245,7 +1245,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:,for=,file-piece-id=2023-08-13_18-27-40_000.mp4,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -2442,6 +2442,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m 1*1 RES / JVEMV6 64#XX_XX / 『XXX』 著者=~,校注=~ / p.~ / w:~,topic:~
 
+:m 1*1 RES / JVEMV6 64#337_choo_isazawa / 『１日３分　腸もみ健康法』 著者=砂沢佚枝,校注=~ / p.37 / w:~,topic:~,other=ページ撮影
+
 :m 1*1 RES / JVEMV6 64#112_XX / 『戦中派の死生観』 著者=吉田満,校注=~ / p.299 / w:~,topic:聖書からの引用
 
 ###2021年6月16日9:56:34
@@ -2896,7 +2898,11 @@ G:\photo-books_HD\list-of-books.txt
 ###2022年10月19日9:46:41
 ====================== :PHOTO 記録:misc, record_misc_
 //template
+:PHOTO 記録 / subject=名刺。都筑教会（旧称、鷺沼教会） / location=撮影：自宅、１階。洋間。 / content=裏面。,for=~,other=お母さんが所持のもの。
+
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
+
+:PHOTO 記録 / subject=キャン・ドゥで買ったもの：カバー：スマホ用。 / location=~ / content=保護用のカバー。,for=~,other=~
 
 //食べたもの：お菓子類
 :m 記録 / 食べたもの：お菓子類 / target=「ピー最中」（芳甘菓）,memo~,other=お母さんが、朝の体操の、一人からもらった。「いつもありがとう」の趣旨らしい。お歳暮と中元の合わさったもの、のごときか、とのこと。
@@ -3579,6 +3585,10 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=楽器演奏したあと（篠笛）
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=お祈りしたあと：夕食
+
+//朝
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=朝。洗面ほか、終わり。部屋に戻ったところか。
+
 
 ###2021年11月4日8:20:20
 ============================ 様子：顔
