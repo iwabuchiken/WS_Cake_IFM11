@@ -1698,7 +1698,11 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#318_1_rongo_shibusawa / 『論語講義　（一）』 著者=渋沢栄一,校注=~ / p.69 / w=~,topic=~,publisher=~,other=memo+:thoughts:渋沢の文章への、意見。;memo+:図式：渋沢の、家を初めて出たときの、出来事の推移。
 
-:m 4*4 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p147 / w=,topic=,publisher=オーム社,other=memo+:計算トルク法
+:m 5*5 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p150 / w=ラグランジュ方程式,topic=,publisher=オーム社,other=
+//calc+:次元解析：アームの運動方程式
+//q+:q-id.LKDR(nowa):トルク。リンクの角度；lets+;found+;
+//figure+:２リンク・マニピュレータ；
+//memo+:計算トルク法
 //calc+:伝達関数。計算。Pのとき。PDのとき。
 //memo+:例題。７－５；memo+:ξの値。減衰係数。１か、それ以下。
 //memo+:「例題７－１」
