@@ -1245,7 +1245,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody:perform-composition,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:demo-composition,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -2545,6 +2545,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template	: 目次,mokuji_
 :bookmemo / 読んだ本：読み始め / 『XXX』 / 著者=XXX / 目次
 
+:bookmemo / 読んだ本：読み始め / 『新　材料化学の最前線』 / 著者=首都大学東京　都市環境学部　分子応用化学研究会 / 目次
+
 :bookmemo / 読んだ本：読み始め / 『音楽を愛でるサル　なぜヒトだけが愉しめるのか』 / 著者=正高信男 / 目次
 
 :bookmemo / 読んだ本：読み始め / 『不自然な宇宙』 / 著者=須藤靖 / 目次
@@ -3632,6 +3634,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ---------------------------- daylog_
 //template
 :m / daylog メモ / date=~ / other=~ / 2023
+
+:m / daylog メモ / date=0810;0811;0812;0813;0814;0815 / other=~ / 2023
 
 :m / daylog メモ / date=0806;0808;0809 / other=~ / 2023
 
