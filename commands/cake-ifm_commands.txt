@@ -653,9 +653,12 @@ regex : ]]
 
 //:m :篠笛,shinobue #*# / session-memo / log / session=~,other=~
 
+//composition:follow-->stop
+:m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody:composition,session=hour-18,other=composition:follow-->stop
 //edit : pages
 :m :篠笛,shinobue #*# / session-memo:session-1 / p.1-<1>:genre=melody:お囃子,key=~,session=hour-18,R=~,tempo=~,file-id=~,for=,loc=0.13~,other=~
 //for=write-out:VID_20230609_183533
+//melody:お囃子
  \\\  p.1-<2>:genre=melody,key=~,session=hour-18,R=3,tempo=~
 
 
@@ -1245,7 +1248,9 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody:demo-composition,for=,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+//melody:demo-composition
+//for=scale:otsu:low-notes
 
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=badanie,for=alt-fingering:kan~h-7,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow+
 
@@ -1701,7 +1706,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#318_1_rongo_shibusawa / 『論語講義　（一）』 著者=渋沢栄一,校注=~ / p.69 / w=~,topic=~,publisher=~,other=memo+:thoughts:渋沢の文章への、意見。;memo+:図式：渋沢の、家を初めて出たときの、出来事の推移。
 
-:m 4*4 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p40 / w=ヤコビ行列；,topic=,publisher=オーム社,other=
+:m 3*3 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p27 / w=,topic=,publisher=オーム社,other=~
 //fig+:図。4.23;
 //th+:モーメントたち。合力。項目について
 //calc+:次元解析：アームの運動方程式
