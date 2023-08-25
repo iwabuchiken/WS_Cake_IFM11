@@ -1248,7 +1248,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=3 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:chuu-kan / follow+
 //melody:demo-composition
 //for=scale:otsu:low-notes
 
@@ -2088,6 +2088,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 //template
 :tome / (lang=ja) / topic=~ / content=~,other=~
 
+:tome / (lang=ja) / topic=笛を吹く。 / content=黒人も含めた、さまよえる魂たちに向かって、吹こう。,other=~
+
 :tome / (lang=ja) / topic=~ / content=孟子の言[げん]、一事も以って全撤[擲]す可からず,other=~
 
 :tome / (lang=ja) / topic=~ / content=「須く是れ明白端的にして」（『童子問　下』仁斎）：吾作所楽曲も、亦、如此を宗として,other=~
@@ -2750,6 +2752,9 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録しておきたいもの / 2*2 / location:photo=自宅：１F：居間, location:target=~ / subject=メモ：杉浦さん：ジブラルタ生命 / content=打ち合わせ。お母さん、保険満期。別件を契約。書類記入、した。,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=自室, location:target=~ / subject=スマホ：購入：中古品：イオシスにて / content=メーカー：ファーウェイ,other=~
+
+//お母さん：家電関係
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=紙メモ / subject=テレビ、他。家電品、購入したい。 / content=家に、見に来てくれる。その予定,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=~, location:target=~ / subject=クーラー（エアコン）、買い替え / content=お母さんから、現金、受け取り：工事、機種購入の申し込み：前金用の金員,other=~
 
@@ -3583,6 +3588,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=寝る直前：経過時間を撮影するとき：オナニー用画像を見た後
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=寝る直前：時計を撮影した後か：オナニー用画像を見た後
+
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=寝る直前：時計を撮影する直前。オナニー用画像を見た後。オナニーしたあと。
 
 //食事の直前
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の直前：盆を、机の上に置いたところか
