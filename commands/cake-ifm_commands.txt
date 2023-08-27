@@ -1248,7 +1248,8 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=use:chuu-kan / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+//other=use:chuu-kan
 //melody:demo-composition
 //for=scale:otsu:low-notes
 
@@ -1706,7 +1707,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 
 :m #*# RES / JVEMV6 64#318_1_rongo_shibusawa / 『論語講義　（一）』 著者=渋沢栄一,校注=~ / p.69 / w=~,topic=~,publisher=~,other=memo+:thoughts:渋沢の文章への、意見。;memo+:図式：渋沢の、家を初めて出たときの、出来事の推移。
 
-:m 4*4 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p58 / w=,topic=,publisher=オーム社,other=q+:H鋼：断面二次モーメント。面積との、関係
+:m 2*2 RES / JVEMV6 64#326_robot_etoki_kawashima / 『絵ときでわかる　ロボット工学』 著者=川嶋健嗣,校注=~ / p160 / w=,topic=,publisher=オーム社,other=memo+:章末問題、４章。問４
+//found+:２リンクアーム。位置の変位量。リンク角度。一意。
+//q+:H鋼：断面二次モーメント。面積との、関係
 //fig+:図。4.23;
 //th+:モーメントたち。合力。項目について
 //calc+:次元解析：アームの運動方程式
@@ -2526,6 +2529,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『絵ときでわかる　ロボット工学』 / 著者=川嶋健嗣 /
 
 :bookmemo / 読んだ本 / 『自然を捉えなおす　競争とつながりの生態学』 / 著者=江崎保男 / 途中 ここまで
 
