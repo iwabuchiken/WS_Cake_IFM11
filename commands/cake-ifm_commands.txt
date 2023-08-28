@@ -1702,6 +1702,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
+:m 2*2 RES / JVEMV6 64#335_robotics_nishikawa / 『概説　ロボット工学』 著者=西川正雄,校注=~ / p.100 / w=；,topic=~,publisher=~,other=~
+
 :m 2*2 RES / JVEMV6 64#331_noo_choo_hujita / 『脳はバカ、腸はかしこい』 著者=藤田紘一郎,校注=~ / p.1 / w=~,topic=~,publisher=~,other=~
 //ske+:十二指腸；memo+:現役。高齢者。比率
 
@@ -2563,6 +2565,10 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template	: 目次,mokuji_
 :bookmemo / 読んだ本：読み始め / 『XXX』 / 著者=XXX / 目次
+
+:bookmemo / 読んだ本：読み始め / 『トコトンやさしい　機械設計の本』 / 著者=Net-P.E.Jp / 目次
+
+:bookmemo / 読んだ本：読み始め / 『やさしい機構学』 / 著者=石井重三 / 目次
 
 :bookmemo / 読んだ本：読み始め / 『絵ときでわかる　ロボット工学』 / 著者=川嶋健嗣 / 目次
 
@@ -3683,6 +3689,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 //template
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
+
+###2023年8月28日17:16:09
+#DELETE FROM ifm11 WHERE _id <= 62857;
 
 ###2023年6月15日19:15:34
 #DELETE FROM ifm11 WHERE _id <= 61875;
