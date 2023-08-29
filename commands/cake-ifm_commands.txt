@@ -1248,7 +1248,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1 / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2(8/28) / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 //other=use:chuu-kan
 //melody:demo-composition
 //for=scale:otsu:low-notes
@@ -1477,6 +1477,20 @@ genr=~,key=~,for=~,memo=~,tempo=~,Re~,R=~,notes=~,other=~
 :VIDEO / 記録 / topic=お祈りしている姿。自撮り。 / location=自室, occasion=篠笛、演奏終わり。続いて、お祈り。魔法ポット、氷を入れてある。ゆする。音が出る。, for=~,file-id=~,other=~
 
 //ミケ
+//2023-08-28_20-12-38_000.mp4
+:VIDEO / @宮前平公園、物置小屋の裏 / 記録 / 猫、ミケ / location=宮前平公園。餌遣りの壁の、前。,occation=ミケ。カメラは、壁から、見上げるように、動く。壁の上、ミケの顔、見える。（２）ミケが、一度、突出の方へ行ってしまって、戻ってきた。その、後か。,other=
+
+//2023-08-28_20-06-27_000.mp4
+:VIDEO / @宮前平公園、物置小屋の裏 / 記録 / 猫、ミケ / location=宮前平公園。餌遣りの壁の、前。,occation=ミケ。固形を食べている。動画の最後、また、立ち去ろうとしたのか。カメラは、下を向く。「ミケ」、と、私の、呼びかける声、一度。,other=
+
+//2023-08-28_20-03-55_000.mp4
+:VIDEO / @宮前平公園、物置小屋の裏 / 記録 / 猫、ミケ / location=宮前平公園。餌遣りの壁の、前。,occation=ミケを撮影、始める。そしたら、ミケが、突出フェンスの方へ、歩き出してしまう。ライトを、嫌ったか。（２）呼びかける。来な、来な、と。戻ってくる。（３）顔を撫でる。ミケが、撫でる私の右手の、指を、甘噛みする。,other=
+
+
+//2023-08-28_20-02-35_000.mp4
+:VIDEO / @宮前平公園、物置小屋の裏 / 記録 / 猫、ミケ / location=宮前平公園。階段と、餌遣りの壁の、中間。平らになり始める場所。,occation=ミケ。出てきた。動画撮影。しようと思い、回し始める。ミケの鳴き声、一声。のみ。動画、なし。,other=
+
+
 :VIDEO / 記録 / topic=クロ。猫。公園 / location=宮前平公園, occasion=いつもの、餌遣り
 食べ終えたあと、ミケは、歩道寄りの場所へ移る。そこで、寝そべる。こちらを見ている。私も、そこへ移動する。ミケの頭や、体を、撫でてあげる。, for=~,file-id=~,other=ミケは、いくらか痩せた。腹のたるみ。普段よりも、少ない。昨日、手でつまんでみた。でれんと、塊が、腹部から遊離して、垂れ下がっていた。昨夜は、触ってみると、垂れてはいる。だが、腹部から分離してはいない。すっと、腹部に繋がっている。（２）顔。頬が、少し、引き締まっているか。（３）胴体。昨夜の限りは、痩せこけた手触り、感じとれなかった。（４）猫エイズの発症、始まっているか。（５）ミケも、また、行く時が来ているか。クロのいるところへ。トラたちのいるところへ。悲しみが、胸の内、にじみ出てくる。
 
