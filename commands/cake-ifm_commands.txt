@@ -1248,7 +1248,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2(8/28) / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2(8/29) / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 //other=use:chuu-kan
 //melody:demo-composition
 //for=scale:otsu:low-notes
@@ -1716,6 +1716,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
+:m 4*4 RES / JVEMV6 64#342_ugokasu_qc_EJ_NH_MGS / 『動かして学ぶ　量子コンピュータ　プログラミング』 著者=EJ;NH;MGS,校注=~ / p.16 / w=；,topic=~,publisher=~,other=memo+:振幅。相対位相。反射度と、経路間の距離に、関連づけ。
+//memo+:経路；
+
 :m 2*2 RES / JVEMV6 64#335_robotics_nishikawa / 『概説　ロボット工学』 著者=西川正雄,校注=~ / p.100 / w=；,topic=~,publisher=~,other=~
 
 :m 2*2 RES / JVEMV6 64#331_noo_choo_hujita / 『脳はバカ、腸はかしこい』 著者=藤田紘一郎,校注=~ / p.1 / w=~,topic=~,publisher=~,other=~
@@ -1743,7 +1746,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //timetable+:発達障害：研究。概念整備。マニュアル確立；memo+:DSM-Ⅲ-R;
 //memo+:発達障害：特徴；memo+:発達障害：カテゴリー；
 
-:m 2*2 RES / JVEMV6 64#324_tsunagaru_inochi / 『つながるいのち　生物多様性からのメッセージ』 著者=日本環境ジャーナリストの会,校注=~ / p.10 / w=~,topic=~,publisher=山と渓谷社,other=memo+:ske+:ニホンジカ；ske+:ヤマネ；ske+:ヤマアカガエル；
+:m 2*2 RES / JVEMV6 64#324_tsunagaru_inochi / 『つながるいのち　生物多様性からのメッセージ』 著者=日本環境ジャーナリストの会,校注=~ / p.26 / w=海洋島；,topic=~,publisher=山と渓谷社,other=map+:父島；des+:オガサワラオオコウモリ；
+//memo+:稲。分類；memo+:米粒。数。分量；memo+:ササニシキ；map+:竹芝桟橋；
+//memo+:ske+:ニホンジカ；ske+:ヤマネ；ske+:ヤマアカガエル；
 
 //map+:上野村（群馬県）；ske+:カジカ；map+:石巻市；memo+:ツキノワグマ；map+:軽井沢町；
 
@@ -2545,6 +2550,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『つながるいのち　生物多様性からのメッセージ』 / 著者=日本環境ジャーナリストの会、著 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『絵ときでわかる　ロボット工学』 / 著者=川嶋健嗣 /
 
