@@ -1248,7 +1248,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=2(8/29) / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1(8/30) / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=continue-from:8/29(1)~memo+ / follow+
 //other=use:chuu-kan
 //melody:demo-composition
 //for=scale:otsu:low-notes
@@ -2696,6 +2696,9 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録 / location=~ / topic=~ / for=~ / occasion=~,other=~
 
 :PHOTO 記録 / location=自室 / topic=~ / for=素焚糖[すだきとう / occasion=終了：食べ終わった,other=~
+
+//歯ブラシホルダー : 2023年8月31日17:28:11 / 2023-06-19_00-05-51_000.jpg
+:PHOTO 記録 / location=自室 / topic=ゴムひもによる、歯ブラシコップに取り付けている、歯ブラシホルダー。 / for=~ / occasion=終了：ゴム、切れた。新しいゴムを使って、新たに作った。,other=~
 
 :PHOTO 記録 / location=自室 / topic=ゴムひもによる、歯ブラシコップに取り付けている、歯ブラシホルダー。 / for=~ / occasion=交換：ゴムが、引っ張ると、紐の表面が、ギザギザになる。亀裂が、細かいもの、多数。劣化。,other=~
 
