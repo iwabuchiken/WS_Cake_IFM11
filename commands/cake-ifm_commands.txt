@@ -3614,8 +3614,15 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 //：顔 :face, face_
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=素焚糖を、１袋、食べ終わった。記録の写真を撮るところ。
 
-// 一回もの：公園。セミの抜け殻を見ている。
+// 一回もの：何か、思うところ、あったか。
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=自室。机の前。何か、思うところ、あったか。,other=~
+
+// 一回もの：公園。セミの抜け殻を見ている
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=公園。セミの抜け殻を見ている。,other=関連ファイル：2023-08-02_20-01-14_000.jpg
+
+// 一回もの：何か、しんどい気持ちが高まったときか
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=自室。昼食の途中。何か、しんどい気持ちが高まったときか,other=~
+//関連ファイル：2023-08-02_20-01-14_000.jpg
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=部屋の温度の、写真を撮るところ。暑い。何度あるか、記録
 
@@ -3628,6 +3635,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 //食事の直前
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の直前：盆を、机の上に置いたところか
+
+//食事の直前 : 昼食
+:m 記録 / 身体 / 全身像 / 顔 / 様子 / time=昼；occasion=食事の直前：盆を、机の上に置いたところか
 
 //本：読んだあと
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=本。読んだあと。これから、作ったメモを、写真に撮る
@@ -3694,6 +3704,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ---------------------------- daylog_
 //template
 :m / daylog メモ / date=~ / other=~ / 2023
+
+:m / daylog メモ / date=0818;0820;0822;0824;0826;0829;0830;0901 / other=~ / 2023
 
 :m / daylog メモ / date=0810;0811;0812;0813;0814;0815 / other=~ / 2023
 
