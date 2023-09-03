@@ -1248,7 +1248,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1(8/30) / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=continue-from:8/29(1)~memo+ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1(9/01) / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 //other=use:chuu-kan
 //melody:demo-composition
 //for=scale:otsu:low-notes
@@ -2373,6 +2373,8 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 
 //template
 :m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=持ち物。出かける。追悼祭。大震災、朝鮮人虐殺。, about=~,content=~,other=目的地：最寄り、八広駅。；他：時間表。列車。,id=~ 
 
 //篠笛,shinobue
 :m #*# / memo:other(m:other) / topic=篠笛。shinobue, about=口の形：「中甲音」：h-7f,content=~,other=~,id=~ 
@@ -3558,7 +3560,10 @@ JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花
 
 JVEMV6 52#2 / 52. 自然観察 / 2. grass / field_photos / 雑草、草本、花 / @~ / target=~,occation=~,other
 
+// flower
 JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 / @~ / target=~,occation=~,other
+
+JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 / @八広駅、近く。荒川土手。追悼祭、会場。の、近く。水飲み場、近く。 / target=~,occation=~,other=初見、アザミかと思った。改めて、今、見てみる。花自体は、ローズマリーの、それのよう。に、思う。
 
 JVEMV6 52#2 / 52. 自然観察 / flower / field_photos / 雑草、草本、花 / @近所の山下さんの、北側の家。角の家：西側の壁 / target=花：つぼみ。生える起点は、茎の途中、先端、両方。,occation=~,other=~
 
@@ -3633,7 +3638,7 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=寝る直前：時計を撮影する直前。オナニー用画像を見た後。オナニーしたあと。
 
-//食事の直前
+//食事の直前 : 夕食
 :m 記録 / 身体 / 全身像 / 顔 / 様子 / time=夜；occasion=食事の直前：盆を、机の上に置いたところか
 
 //食事の直前 : 昼食
