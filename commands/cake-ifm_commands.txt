@@ -1034,6 +1034,9 @@ inne
 //room_temp_
 :m 温度 / location=部屋,for=暑い。何度だろうか,other=~
 
+:m 温度 / location=部屋,for=暑い。何度だろうか,other=息。苦しさ。先程よりは、ましになった。
+
+:m 温度 / location=部屋,for=暑い。何度だろうか,other=暑い。息：苦しさ、感じる
 
 ###2021年11月5日9:11:50
 ============================== やることリスト,todo_list
@@ -1719,7 +1722,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 :m 4*4 RES / JVEMV6 64#342_ugokasu_qc_EJ_NH_MGS / 『動かして学ぶ　量子コンピュータ　プログラミング』 著者=EJ;NH;MGS,校注=~ / p.16 / w=；,topic=~,publisher=~,other=memo+:振幅。相対位相。反射度と、経路間の距離に、関連づけ。
 //memo+:経路；
 
-:m 2*2 RES / JVEMV6 64#335_robotics_nishikawa / 『概説　ロボット工学』 著者=西川正雄,校注=~ / p.100 / w=；,topic=~,publisher=~,other=~
+:m 5*5 RES / JVEMV6 64#335_robotics_nishikawa / 『概説　ロボット工学』 著者=西川正雄,校注=~ / p.112 / w=,topic=,publisher=~,other=memo+:「例３．２」
 
 :m 2*2 RES / JVEMV6 64#331_noo_choo_hujita / 『脳はバカ、腸はかしこい』 著者=藤田紘一郎,校注=~ / p.1 / w=~,topic=~,publisher=~,other=~
 //ske+:十二指腸；memo+:現役。高齢者。比率
@@ -3493,6 +3496,8 @@ zionists
 ============================ コレポン,コレポンー
 //template
 :PHOTO 記録 / 文書：コレポン / #*# / about=~,with=~,content=~,other=~ / N~
+
+:PHOTO 記録 / 文書：コレポン / #*# / about=補聴器。電池。手に入れに行く,with=マキチエ（補聴器扱い）,content=道順。聞いた。電話で。,other=~ / N~
 
 :PHOTO 記録 / 文書：コレポン / #*# / about=スマホ：simカード：移動,with=auショップ：鷺沼店,content=~,other=店頭に行って、実際に、交換してもらう;file-id:2023-04-28_14-58-25_000.jpg / N~
 
