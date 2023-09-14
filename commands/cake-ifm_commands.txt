@@ -1251,7 +1251,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1(9/01) / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1(9/11) / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
 //other=use:chuu-kan
 //melody:demo-composition
 //for=scale:otsu:low-notes
@@ -1719,10 +1719,19 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m 4*4 RES / JVEMV6 64#342_ugokasu_qc_EJ_NH_MGS / 『動かして学ぶ　量子コンピュータ　プログラミング』 著者=EJ;NH;MGS,校注=~ / p.16 / w=；,topic=~,publisher=~,other=memo+:振幅。相対位相。反射度と、経路間の距離に、関連づけ。
+:m 7*7 RES / JVEMV6 64#342_ugokasu_qc_EJ_NH_MGS / 『動かして学ぶ　量子コンピュータ　プログラミング』 著者=EJ;NH;MGS,校注=~ / p.63 / w=；,topic=遠隔操作；,publisher=~,other=
+//found+:cnot。readの内容；
+//memo+:フローチャート；
+//q+:演算。Hが３連；memo+:演算。H-PHASE(-90)-H
+//memo+:演算処理。等価なもの。NOT。H-PHASE-H
+//memo+:振幅。相対位相。反射度と、経路間の距離に、関連づけ。
 //memo+:経路；
 
-:m 5*5 RES / JVEMV6 64#335_robotics_nishikawa / 『概説　ロボット工学』 著者=西川正雄,校注=~ / p.112 / w=,topic=,publisher=~,other=memo+:「例３．２」
+:m 4*4 RES / JVEMV6 64#335_robotics_nishikawa / 『概説　ロボット工学』 著者=西川正雄,校注=~ / p.60 / w=,topic=ラプラス変換；,publisher=~,other=calc+:等価伝達関数。数値計算。極限値。
+//memo+:計算。G、H。具体的な関数と置いてみる。
+//memo+:ラプラス変換。複素数の計算。試み。
+//memo+:pitch,yaw,他
+//memo+:「例３．２」
 
 :m 2*2 RES / JVEMV6 64#331_noo_choo_hujita / 『脳はバカ、腸はかしこい』 著者=藤田紘一郎,校注=~ / p.1 / w=~,topic=~,publisher=~,other=~
 //ske+:十二指腸；memo+:現役。高齢者。比率
@@ -2375,7 +2384,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=~,NextX
 =============== memo :other, _memo_other
 
 //template
-:m #*# / memo:other(m:other) / topic=~, about=~,content=~,other=~,id=~ 
+:m #*# / memo:other(m:other) / topic=~, about=~,content=~, location=~,other=~,id=~ 
+
+:m #*# / memo:other(m:other) / topic=母親。書置き。, location=台所, about=~,content=~,other=~,id=~ 
 
 :m #*# / memo:other(m:other) / topic=持ち物。出かける。追悼祭。大震災、朝鮮人虐殺。, about=~,content=~,other=目的地：最寄り、八広駅。；他：時間表。列車。,id=~ 
 
@@ -2760,6 +2771,8 @@ G:\photo-books_HD\list-of-books.txt
 :PHOTO 記録しておきたいもの / location:photo=トイレ, location:target=トイレの便器 / subject=手順：便器。洗浄。 / content=便器。内側。洗浄剤を使って、洗浄。ほぼ、定期的。,other=~
 
 //修理
+:PHOTO 記録しておきたいもの / location:photo=自室, location:target=ケーブル。スマホ用。 / subject=ノートPC。ディスプレイ（表示器）。枠材。修理。手順 / content=向かって右下、隅。部材の、表と裏。剥がれてしまっている。両者を、締めつける。,other=１回目、以前に行った。今回、再度、補修。２回目。
+
 :PHOTO 記録しておきたいもの / location:photo=自室, location:target=ケーブル。スマホ用。 / subject=ケーブル。修理。手順 / content=スマホ側の端部。端子と、コードの接続部。被覆が破れてしまっている。以前に、一度、ガムテープで補修した。今回、付け直す。,other=~
 
 :PHOTO 記録しておきたいもの / location:photo=宮前平公園, location:target=セミ。幼虫。抜け殻。潅木の、葉の先端に、ぶら下がっている。 / subject=セミの幼虫。抜け殻。蝉。 / content=前日、夜。公園内、南、東側。街灯の下、近くを、這って歩いているのを、発見。南側の植え込みに、連れて行く。潅木の、幹に近い、木陰の枝に、取り付かせる。ミケに、餌をあげる。帰りに、そこへ再び戻る。遊び場に面した、潅木の、とある葉むらの、先端に、取り付いている。ぶら下がっている。,other=目が、光沢あり。なんだか、ぶら下がる場所が決まって、嬉しそう。嬉しさに溢れている。そう、映った。
@@ -3693,6 +3706,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###2022年10月28日9:41:45
 ============================ PC画面 : PC-related
 :PHOTO 記録 / PC画面 / subject=~ / content=~, other=~
+
+:PHOTO 記録 / PC画面 / subject=三井住友銀行。口座開設。新規。 / content=宮崎台支店。窓口対応のための、予約を入れようと試みる。, other=最終。予約は、空いているのが、先の日付。断念する。
+
 :PHOTO 記録 / PC画面 / subject=norton:security:optimize-disk / content=~, other=~
 
 
