@@ -1,3 +1,11 @@
+### 2023/09/21 11:04:40
+total_data => 126
+new_data_Success => 126
+new_data_Failed => 0
+existing_data_Success => 0
+existing_data_Failed => 0
+
+
 ### 2023/09/14 11:17:42
 total_data => 69
 new_data_Success => 69
@@ -10350,6 +10358,8 @@ existing_data_Success => 0
 existing_data_Failed => 1
 
 
+
+done
 
 done
 

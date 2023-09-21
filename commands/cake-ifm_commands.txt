@@ -1719,7 +1719,13 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m 7*7 RES / JVEMV6 64#342_ugokasu_qc_EJ_NH_MGS / 『動かして学ぶ　量子コンピュータ　プログラミング』 著者=EJ;NH;MGS,校注=~ / p.63 / w=；,topic=遠隔操作；,publisher=~,other=
+:m 7*7 RES / JVEMV6 64#344_3_new_robotics_chp_3 / 『新しいロボット工学』 著者=増田、小金澤、甲斐、共著,校注=~ / p.32 / w=~,topic=回転行列；,publisher=~,other=q+:列を入れ替える行列；
+
+:m 7*7 RES / JVEMV6 64#332_kolesute_hama / 『コレステロールに薬はいらない！』 著者=浜六郎,校注=~ / p.26 / w=,topic=~,publisher=~,other=~
+//memo+:コレステロール：低下剤；
+//timetable+:コレステロール値；memo+:コレステロール；memo+:スタチン剤；
+
+:m 3*3 RES / JVEMV6 64#342_ugokasu_qc_EJ_NH_MGS / 『動かして学ぶ　量子コンピュータ　プログラミング』 著者=EJ;NH;MGS,校注=~ / p.70 / w=,topic=量子テレポーテーション；,publisher=~,other=
 //found+:cnot。readの内容；
 //memo+:フローチャート；
 //q+:演算。Hが３連；memo+:演算。H-PHASE(-90)-H
@@ -2982,9 +2988,14 @@ G:\photo-books_HD\list-of-books.txt
 ###2022年10月19日9:46:41
 ====================== :PHOTO 記録:misc, record_misc_
 //template
+:PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
+
+:PHOTO 記録 / subject=資料 / content=バス、電車。時刻表。府中駅。府中墓地。教会。おばあちゃん。 for=バス：府中墓地,other=お墓参り。府中墓地。カトリック墓地。
+
 :PHOTO 記録 / subject=名刺。都筑教会（旧称、鷺沼教会） / location=撮影：自宅、１階。洋間。 / content=裏面。,for=~,other=お母さんが所持のもの。
 
-:PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
+
+
 
 :PHOTO 記録 / subject=キャン・ドゥで買ったもの：カバー：スマホ用。 / location=~ / content=保護用のカバー。,for=~,other=~
 
@@ -3477,11 +3488,18 @@ zionists
 ###2021年9月23日8:21:45
 ============================ 寝た時刻
 
+//2023年9月19日17:22:17
+:m :PHOTO 寝た時刻 / 2021 / other=この時刻以前に、うたた寝。この時刻にふと目覚めて、寝直した。初めのうたた寝=１時前ぐらいか
+
+
 :m other / log / 寝る前　ウェブ閲覧　記録　（for オナニー） / 未了
 :m :PHOTO 寝た時刻 / 2021
 :m :PHOTO 起きた時刻 / 2021
 :m :PHOTO 起きた時刻（夜中） / 2021
 :m :PHOTO 起きた時刻（二度寝） / 2021
+
+//2023年9月19日17:23:23
+:m :PHOTO 起きた時刻 / 2023 / other=実際の時刻：１０分ぐらい前
 
 :m :PHOTO 寝た時刻 / 2020 / オナニー、未了、0:10頃～
 
@@ -3705,9 +3723,12 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 
 ###2022年10月28日9:41:45
 ============================ PC画面 : PC-related
-:PHOTO 記録 / PC画面 / subject=~ / content=~, other=~
+:PHOTO 記録 / PC画面 / subject=~ / content=~, target=~, other=~
 
-:PHOTO 記録 / PC画面 / subject=三井住友銀行。口座開設。新規。 / content=宮崎台支店。窓口対応のための、予約を入れようと試みる。, other=最終。予約は、空いているのが、先の日付。断念する。
+//t-id=ENQQ	: 2023年9月20日16:29:10
+:PHOTO 記録 / PC画面 / subject=三井住友銀行。口座開設。新規。(t-id=ENQQ) / content=スマホのアプリ。口座を開設しようとする。アプリ。アプリの立ち上げ～写真撮影のための、通信の開始。通信エラーのメッセージ、出る。,target=スマホ。スクリーンショット。, other=
+
+:PHOTO 記録 / PC画面 / subject=三井住友銀行。口座開設。新規。(t-id=ENQQ) / content=スマホのアプリ。口座を開設しようとする, other=
 
 :PHOTO 記録 / PC画面 / subject=norton:security:optimize-disk / content=~, other=~
 
@@ -3730,6 +3751,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ---------------------------- daylog_
 //template
 :m / daylog メモ / date=~ / other=~ / 2023
+
+:m / daylog メモ / date=0901;0907;0908;0909;0911;0912;0914 / other=~ / 2023
 
 :m / daylog メモ / date=0818;0820;0822;0824;0826;0829;0830;0901 / other=~ / 2023
 
