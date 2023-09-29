@@ -1118,6 +1118,8 @@ mysl
 
 :PHOTO 記録 / 文書　/ occasion=~ / content=~ / for=~ / doc=~
 
+:PHOTO 記録 / 文書　/ occasion=~ / content=お兄さんからのメール。へ、お母さんがメモを入れたもの。私に見せるため。 / for=task:t-id.5BQY / doc=~
+
 :PHOTO 記録 / 文書　/ occasion=~ / content=「N項目」。アラビア語で / for=~ / doc=~
 
 :PHOTO 記録 / 文書　/ occasion=~ / content=ウクレレ：上２弦：どのコードに当たるか / for=~ / doc=~
@@ -1251,7 +1253,7 @@ regex : ]]
 :VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=~ / genre=demo,for=scale:pitch:1-3f-4-8~key:Bf,file-piece-id=~,memo=~,session=hour-~,recording-id=~,other=~ / follow~
 
 // basic memo
-:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1(9/11) / genre=melody,for=~,file-piece-id=~,memo=~,session=hour-18,recording-id=~,other=~ / follow+
+:VIDEO / @自室 / 記録 / jap.flute / 演奏、play / R=1(9/27) / genre=melody,for=~,file-piece-id=~,memo=+,session=hour-18,recording-id=~,other=~ / follow+
 //other=use:chuu-kan
 //melody:demo-composition
 //for=scale:otsu:low-notes
@@ -1719,13 +1721,17 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m 7*7 RES / JVEMV6 64#344_3_new_robotics_chp_3 / 『新しいロボット工学』 著者=増田、小金澤、甲斐、共著,校注=~ / p.32 / w=~,topic=回転行列；,publisher=~,other=q+:列を入れ替える行列；
+:m 4*4 RES / JVEMV6 64#344_3_new_robotics_chp_3 / 『新しいロボット工学』 著者=増田、小金澤、甲斐、共著,校注=~ / p.43 / w=,topic=運動学：原点の位置の加速度；,publisher=~,other=
+//q+:数式。理解していない。そのまま、先に進む
+//calc+:cal-id.RJNA(nowa):オイラー角関連
+//q+:列を入れ替える行列；
 
 :m 7*7 RES / JVEMV6 64#332_kolesute_hama / 『コレステロールに薬はいらない！』 著者=浜六郎,校注=~ / p.26 / w=,topic=~,publisher=~,other=~
 //memo+:コレステロール：低下剤；
 //timetable+:コレステロール値；memo+:コレステロール；memo+:スタチン剤；
 
-:m 3*3 RES / JVEMV6 64#342_ugokasu_qc_EJ_NH_MGS / 『動かして学ぶ　量子コンピュータ　プログラミング』 著者=EJ;NH;MGS,校注=~ / p.70 / w=,topic=量子テレポーテーション；,publisher=~,other=
+:m 5*5 RES / JVEMV6 64#342_ugokasu_qc_EJ_NH_MGS / 『動かして学ぶ　量子コンピュータ　プログラミング』 著者=EJ;NH;MGS,校注=~ / p.94 / w=,topic=条件付きインクリメント,publisher=~,other=
+//calc+:OR演算。試作
 //found+:cnot。readの内容；
 //memo+:フローチャート；
 //q+:演算。Hが３連；memo+:演算。H-PHASE(-90)-H
@@ -2990,6 +2996,8 @@ G:\photo-books_HD\list-of-books.txt
 //template
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
 
+:PHOTO 記録 / subject=郵便、投函。ジブラルタ生命。家族登録。照会用。保険商品。お母さん。杉浦さん。 / location=~ / content=~,for=~,other=~
+
 :PHOTO 記録 / subject=資料 / content=バス、電車。時刻表。府中駅。府中墓地。教会。おばあちゃん。 for=バス：府中墓地,other=お墓参り。府中墓地。カトリック墓地。
 
 :PHOTO 記録 / subject=名刺。都筑教会（旧称、鷺沼教会） / location=撮影：自宅、１階。洋間。 / content=裏面。,for=~,other=お母さんが所持のもの。
@@ -3056,10 +3064,11 @@ G:\photo-books_HD\list-of-books.txt
 //atm
 :PHOTO 記録 / subject=ATM：操作画面：残高：入金前 / location=~ / content=~,for=月末の入金,other=~
 
-:PHOTO 記録 / subject=ATM：操作画面：残高：入金前 / location=~ / content=~,for=令和新選組。入会のためのお金、入れる==>入れた。１万円、残高が、増えている。,other=写真は、利用明細票。コンビニを出て、駐車している自転車の上に置いて、撮影。
-
+//入金後
 :PHOTO 記録 / subject=ATM：操作画面 / location=~ / content=~,for=月末の入金：残高：入金後,other=対象：利用明細票
 操作画面
+
+:PHOTO 記録 / subject=ATM：操作画面：残高：入金前 / location=~ / content=~,for=令和新選組。入会のためのお金、入れる==>入れた。１万円、残高が、増えている。,other=写真は、利用明細票。コンビニを出て、駐車している自転車の上に置いて、撮影。
 
 :PHOTO 記録 / subject=ATM：操作画面：残高：入金後 / location=~ / content=~,for=入金：スマホ用の代金に充てる：本体分：２万２千円,other=対象：利用明細票
 
