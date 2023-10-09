@@ -1721,7 +1721,12 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m 4*4 RES / JVEMV6 64#344_3_new_robotics_chp_3 / 『新しいロボット工学』 著者=増田、小金澤、甲斐、共著,校注=~ / p.43 / w=,topic=運動学：原点の位置の加速度；,publisher=~,other=
+:m 7*7 RES / JVEMV6 64#344_3_new_robotics_chp_3 / 『新しいロボット工学』 著者=増田、小金澤、甲斐、共著,校注=~ / p.64 / w=,topic=逆運動学；,publisher=~,other=
+//memo+:m-id.KVMO
+//memo+:例-4.5
+//計算：回転行列
+//例-4.3;例-3.2
+//calc+:具体例。計算
 //q+:数式。理解していない。そのまま、先に進む
 //calc+:cal-id.RJNA(nowa):オイラー角関連
 //q+:列を入れ替える行列；
@@ -1730,7 +1735,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //memo+:コレステロール：低下剤；
 //timetable+:コレステロール値；memo+:コレステロール；memo+:スタチン剤；
 
-:m 5*5 RES / JVEMV6 64#342_ugokasu_qc_EJ_NH_MGS / 『動かして学ぶ　量子コンピュータ　プログラミング』 著者=EJ;NH;MGS,校注=~ / p.94 / w=,topic=条件付きインクリメント,publisher=~,other=
+:m 5*5 RES / JVEMV6 64#342_ugokasu_qc_EJ_NH_MGS / 『動かして学ぶ　量子コンピュータ　プログラミング』 著者=EJ;NH;MGS,校注=~ / p.97 / w=,topic=回路：インクリメント,publisher=~,other=calc:回路：インクリメント;tips+:符号付き２進数
 //calc+:OR演算。試作
 //found+:cnot。readの内容；
 //memo+:フローチャート；
@@ -1739,7 +1744,9 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //memo+:振幅。相対位相。反射度と、経路間の距離に、関連づけ。
 //memo+:経路；
 
-:m 4*4 RES / JVEMV6 64#335_robotics_nishikawa / 『概説　ロボット工学』 著者=西川正雄,校注=~ / p.60 / w=,topic=ラプラス変換；,publisher=~,other=calc+:等価伝達関数。数値計算。極限値。
+:m 5*5 RES / JVEMV6 64#335_robotics_nishikawa / 『概説　ロボット工学』 著者=西川正雄,校注=~ / p.75 / w=,topic=制御；,publisher=~,other=
+//?+:分からない文章
+//calc+:等価伝達関数。数値計算。極限値。
 //memo+:計算。G、H。具体的な関数と置いてみる。
 //memo+:ラプラス変換。複素数の計算。試み。
 //memo+:pitch,yaw,他
@@ -2579,6 +2586,8 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
 
+:bookmemo / 読んだ本 / 『概説　ロボット工学』 / 著者=西川正雄 / 途中
+
 :bookmemo / 読んだ本 / 『つながるいのち　生物多様性からのメッセージ』 / 著者=日本環境ジャーナリストの会、著 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『絵ときでわかる　ロボット工学』 / 著者=川嶋健嗣 /
@@ -2995,6 +3004,8 @@ G:\photo-books_HD\list-of-books.txt
 ====================== :PHOTO 記録:misc, record_misc_
 //template
 :PHOTO 記録 / subject=~ / location=~ / content=~,for=~,other=~
+
+:PHOTO 記録 / subject=ノートパソコンを買った。 / location=自室 / content=開梱したところ。,for=~,other=~
 
 :PHOTO 記録 / subject=郵便、投函。ジブラルタ生命。家族登録。照会用。保険商品。お母さん。杉浦さん。 / location=~ / content=~,for=~,other=~
 
@@ -3733,6 +3744,13 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ###2022年10月28日9:41:45
 ============================ PC画面 : PC-related
 :PHOTO 記録 / PC画面 / subject=~ / content=~, target=~, other=~
+
+:PHOTO 記録 / PC画面 / subject=諸々のソフトウェア。インストール / content=ノートパソコンを買った。種々のアプリ、インストール。, target=パイソン；サクラエディタ；yandex browser；openoffice, other=~
+
+:PHOTO 記録 / PC画面 / subject=初期設定。ノートパソコン / content=購入した。初期設定、行う。, target=~, other=~
+
+:PHOTO 記録 / PC画面 / subject=インストール。anaconda（python環境） / content=インストール過程。記録, target=~, other=~
+
 
 //t-id=ENQQ	: 2023年9月20日16:29:10
 :PHOTO 記録 / PC画面 / subject=三井住友銀行。口座開設。新規。(t-id=ENQQ) / content=スマホのアプリ。口座を開設しようとする。アプリ。アプリの立ち上げ～写真撮影のための、通信の開始。通信エラーのメッセージ、出る。,target=スマホ。スクリーンショット。, other=
