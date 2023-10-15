@@ -1721,7 +1721,15 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //template
 :m #*# RES / JVEMV6 64#XX_-- / 『XXX』 著者=~,校注=~ / p.XXX / w=~,topic=~,publisher=~,other=~
 
-:m 7*7 RES / JVEMV6 64#344_3_new_robotics_chp_3 / 『新しいロボット工学』 著者=増田、小金澤、甲斐、共著,校注=~ / p.64 / w=,topic=逆運動学；,publisher=~,other=
+:m 1*1 RES / JVEMV6 64#348_nogiku / 『野菊の墓』 著者=伊藤左千夫,校注=~ / p.106 / w=~,topic=~,publisher=~,other=~
+
+:m #*# RES / JVEMV6 64#XX_-- / 『基礎からわかる　「IoT」と「M2M」』 著者=瀧本往人,校注=~ / p.9 / w=~,topic=~,publisher=~,other=~
+
+:m 1-2*2 RES / JVEMV6 64#340_kikoo_yasashii_ishii / 『やさしい機構学』 著者=石井重三,校注=~ / p.20 / w=~,topic=~,publisher=~,other=~
+
+:m 5*5 RES / JVEMV6 64#344_new_robotics:chp-5 / 『新しいロボット工学』 著者=増田、小金澤、甲斐、共著,校注=~ / p.71 / w=,topic=静力学；力楕円体；,publisher=~,other=
+//calc:逆行列。算出。公式
+//:m 7*7 RES / JVEMV6 64#344_3_new_robotics_chp_3 / 『新しいロボット工学』 著者=増田、小金澤、甲斐、共著,校注=~ / p.64 / w=,topic=逆運動学；,publisher=~,other=
 //memo+:m-id.KVMO
 //memo+:例-4.5
 //計算：回転行列
@@ -1731,7 +1739,7 @@ w=~,topics=~,other=~,s=~,i=~,doc=
 //calc+:cal-id.RJNA(nowa):オイラー角関連
 //q+:列を入れ替える行列；
 
-:m 7*7 RES / JVEMV6 64#332_kolesute_hama / 『コレステロールに薬はいらない！』 著者=浜六郎,校注=~ / p.26 / w=,topic=~,publisher=~,other=~
+:m 1-2*2 RES / JVEMV6 64#332_kolesute_hama / 『コレステロールに薬はいらない！』 著者=浜六郎,校注=~ / p.38 / w=,topic=~,publisher=~,other=~
 //memo+:コレステロール：低下剤；
 //timetable+:コレステロール値；memo+:コレステロール；memo+:スタチン剤；
 
@@ -2517,7 +2525,7 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 :m 1*1 RES / JVEMV6 64#XX_XX / 『XXX』 著者=~,校注=~ / p.~ / w:~,topic:~
 
-:m 1*1 RES / JVEMV6 64#337_choo_isazawa / 『１日３分　腸もみ健康法』 著者=砂沢佚枝,校注=~ / p.37 / w:~,topic:~,other=ページ撮影
+:m 3-4*4 RES / JVEMV6 64#337_choo_isazawa / 『１日３分　腸もみ健康法』 著者=砂沢佚枝,校注=~ / p.66 / w:~,topic:~,other=
 
 :m 1*1 RES / JVEMV6 64#112_XX / 『戦中派の死生観』 著者=吉田満,校注=~ / p.299 / w:~,topic:聖書からの引用
 
@@ -2582,9 +2590,20 @@ C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 
 ###2021年7月24日8:40:34
 ===================== 読んだ本, books_read
+F:\from_desktop_20230504_113641\log_files\list-of-books__20230508_175413~.txt
 
 //template
 :bookmemo / 読んだ本 / 『XXX』 / 著者=XXX / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『コレステロールに薬はいらない！
+』 / 著者=浜六郎 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『１日３分　腸もみ健康法』 / 著者=砂沢佚枝 / 途中 ここまで
+
+
+:bookmemo / 読んだ本 / 『基礎からわかる　「IoT」と「M2M」』 / 著者=瀧本往人 / 途中 ここまで
+
+:bookmemo / 読んだ本 / 『やさしい機構学』 / 著者=石井重三 / 途中 ここまで
 
 :bookmemo / 読んだ本 / 『概説　ロボット工学』 / 著者=西川正雄 / 途中
 
@@ -3745,6 +3764,8 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 ============================ PC画面 : PC-related
 :PHOTO 記録 / PC画面 / subject=~ / content=~, target=~, other=~
 
+:PHOTO 記録 / PC画面 / subject=諸々のソフトウェア。インストール / content=ノートパソコンを買った。種々のアプリ、インストール。, target=Visual C++ Redistributable；, other=~
+
 :PHOTO 記録 / PC画面 / subject=諸々のソフトウェア。インストール / content=ノートパソコンを買った。種々のアプリ、インストール。, target=パイソン；サクラエディタ；yandex browser；openoffice, other=~
 
 :PHOTO 記録 / PC画面 / subject=初期設定。ノートパソコン / content=購入した。初期設定、行う。, target=~, other=~
@@ -3801,6 +3822,9 @@ http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=%E6%
 //template
 ###XXXTEMPLATE;DELETEXX
 DELETE FROM ifm11 WHERE _id <= XXX;
+
+###2023年10月9日10:54:23
+#DELETE FROM ifm11 WHERE _id <= 63308;
 
 ###2023年8月28日17:16:09
 #DELETE FROM ifm11 WHERE _id <= 62857;
